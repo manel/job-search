@@ -10,13 +10,13 @@ Manel Leiva
 Senior Product Designer
 Barcelona, Spain
 manel-leiva.com
-linkedin.com/in/maneleiva
+linkedin.com/in/manelleiva
 
 ---
 
 ## Summary
 
-Senior Product Designer with 15 years of experience designing complex B2B products. Specializing in systems thinking, design systems, and data-heavy workflows. Built two production design systems from scratch across fintech and sales compensation SaaS. Comfortable working across engineering, product, and business stakeholders on problems that don't have obvious solutions.
+Senior Product Designer with 15 years of experience designing complex B2B products. Specialising in systems thinking, design systems, and data-heavy workflows. Built two production design systems from scratch across fintech and sales compensation SaaS. Comfortable working across engineering, product, and business stakeholders on problems that don't have obvious solutions.
 
 ---
 

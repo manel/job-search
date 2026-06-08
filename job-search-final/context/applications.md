@@ -13,6 +13,7 @@ Pipeline state as of June 2026. Update this file whenever a role status changes.
 | Founding Product Designer | Factorial | CV + cover letter completed | Proprietary ATS (careers.factorialhr.com), manual check recommended |
 | Senior Product Designer | Finom | CV completed, cover letter pending | €78K position |
 | Staff Product Designer (DS) | Hostaway | CV + cover letter + form answers completed | €85K min / €100K max |
+| Senior Product Designer (Advanced Trading) | Bitpanda | CV + cover letter completed | Salary position TBD |
 
 ---
 
@@ -20,8 +21,7 @@ Pipeline state as of June 2026. Update this file whenever a role status changes.
 
 | Role | Company | Outcome | Notes |
 |---|---|---|---|
-| Senior Design System Designer | Bitpanda | Rejected | 2026-06-01. Standard form rejection, no specific feedback |
-| Senior Product Designer (Advanced Trading) | Bitpanda | Rejected | 2026-06-08. Standard form rejection, no specific feedback |
+| Design Systems | Bitpanda | Rejected | Separate role from Advanced Trading application |
 
 ---
 
