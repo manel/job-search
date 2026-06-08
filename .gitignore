@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+*.swp
+*.swo
+
+# Scratch files
+scratch/
+*.tmp
+*.draft
+
+# Sensitive — never commit
+*.env
+secrets/
