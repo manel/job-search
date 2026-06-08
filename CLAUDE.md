@@ -106,6 +106,7 @@ A weak score on Domain or Genuine Interest is a skip, not a defer. Don't write a
 ## Reading order for a new session
 
 1. This file (already done)
-2. `context/applications.md` — know the pipeline state
-3. Task-specific file: `context/portfolio.md` for portfolio work, `context/salary.md` before any cover letter, `context/positioning.md` for strategy
-4. `principles.md` before any written output
+2. `memory.md` — observations and rules captured during the search
+3. `context/applications.md` — know the pipeline state
+4. Task-specific file: `context/portfolio.md` for portfolio work, `context/salary.md` before any cover letter, `context/positioning.md` for strategy
+5. `principles.md` before any written output

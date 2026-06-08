@@ -42,6 +42,7 @@ Pipeline state as of June 2026. Update this file whenever a role status changes.
 | Staff Product Designer | Remote.com | Staff level but domain mismatch |
 | Various | Fundraise Up | Language requirement |
 | Product Designer | Perk Flights | Low genuine interest confirmed |
+| Staff Product Designer (Network Features) | Tailscale | US-remote only |
 
 ---
 
