@@ -46,7 +46,9 @@ See `context/applications.md` for live state.
 
 ## How to position for specific role types
 
-**DS-first roles (BVNK, Hostaway, Bitpanda DS):**
+This mapping is the canonical source. CLAUDE.md, cv/cv-base.md, and interviews/prep.md point here. Update it here only.
+
+**DS-first roles, including Design System Designer titles (BVNK, Hostaway, Bitpanda DS):**
 Lead with Remuner DS work. Token pipeline is the headline technical signal. CTO quote is the credibility anchor. Abacum DS work is supporting evidence for scale.
 
 **Product design roles with DS component (Typeform, Finom):**

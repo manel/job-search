@@ -28,6 +28,8 @@ Read this file at the start of every session alongside CLAUDE.md.
 
 **2026-06-08** — Avoid "built without a dedicated team" phrasing. It draws attention to resource constraints rather than outcomes and sounds like an excuse dressed as an achievement.
 
+**2026-06-12** — The Remuner AI agent and the rep letters (agreement lifecycle) workflow are SEPARATE projects. The letters workflow has no AI. The agent's exact function is not yet recorded — ask before writing any copy that mentions it. CVs sent before this date carry the conflated claim ("agent that generates compensation letters"); be ready to correct it gracefully if it comes up in an interview.
+
 **2026-06-08** — Do not overclaim technical ownership of the token pipeline. Manel adapted the Abacum pipeline at Remuner using AI assistance. An engineer built the original at Abacum. The correct framing is ownership of the brief, decisions, and outcome — not the implementation.
 
 **2026-06-08** — Teaching experience is not a standalone work entry. Weave it into the About or summary as skills developed: explaining complex systems, mentoring, depth of craft. Listing it as a job entry dilutes the product design focus.
@@ -37,6 +39,12 @@ Read this file at the start of every session alongside CLAUDE.md.
 **2026-06-08** — Own the absence of hard metrics directly. Do not hedge with "we believe" or "we think the project improved...". Say there are no hard metrics, then anchor to the strongest qualitative signal available.
 
 **2026-06-08** — "We" without immediate clarification of personal role is a red flag in case studies. Every "we" should be followed by what specifically you did within that collective action.
+
+---
+
+## References and departure context
+
+**2026-06-12** — Departure from Remuner (March 2026) was company-initiated. Never propose Remuner-based references or LinkedIn recommendation asks. The CTO quote stays in case studies (it happened and is documented), but it cannot be converted into a public or checkable reference. "Why did you leave Remuner" is a guaranteed interview question and needs a prepared answer before any screen — see interviews/prep.md.
 
 ---
 

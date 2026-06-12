@@ -27,9 +27,9 @@ May 2024 – March 2026 | Barcelona (Remote)
 
 Sole designer at a sales compensation SaaS startup. Owned product design and design systems across the full product surface.
 
-Built the component library from scratch, starting with a deliberately small token set based on lessons from Abacum. Adapted the token pipeline (Token Studio to Style Dictionary to npm) using AI assistance, with engineer sign-off on implementation. Separate icons file and repo. ESLint for adoption enforcement.
+Built the component library from scratch, starting with a deliberately small token set based on lessons from Abacum. Brought in the token pipeline approach (Token Studio to Style Dictionary to npm) and later hardened it using AI assistance: CI validation, drift checks, smoke tests, W3C token format. Engineers reviewed and merged the work. Separate icons file and repo. ESLint for adoption enforcement.
 
-Designed and shipped an AI agent for sales reps and managers that automatically generates compensation letters based on each rep's plan.
+Designed and shipped an AI agent for sales reps and managers. (Note: earlier CV versions described this agent as generating compensation letters. That conflated two separate projects and has been corrected. Exact agent function pending Manel's description — do not re-add detail until recorded in context/portfolio.md.)
 
 Introduced Figma variables and a structured token architecture. The CTO described the before-and-after as going from a 2010 app to a 2020 app.
 
@@ -81,11 +81,6 @@ ESI Barcelona, 2002
 
 ## CV reorder rules (for role-specific outputs)
 
-Apply these when generating a role-specific CV in cv/roles/:
-
-- DS-first roles (BVNK, Hostaway, Bitpanda DS): Lead experience with Remuner DS work. Token pipeline is the headline technical signal.
-- Product design roles with DS component (Typeform, Finom): Lead with Abacum integrations (Dataset Manager, Modeling Syntax). Frame DS as a capability, not the primary identity.
-- Fintech / trading roles (Bitpanda Advanced Trading): Lead with Modeling Syntax. Domain note: Kraken DCA user, familiar with trading mechanics.
-- Founding designer roles (Factorial): Lead with breadth. Two companies, two systems, sole designer, zero-to-production.
+The role-type → lead-story mapping lives in `context/positioning.md` ("How to position for specific role types"). That file is the canonical source; apply it when generating a role-specific CV in cv/roles/. Do not duplicate the mapping here.
 
 Output format: plain text only. No markdown formatting beyond line breaks and section headers. Designed for copy-paste into Figma.

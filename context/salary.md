@@ -12,14 +12,16 @@
 
 | Role | Company | Agreed position |
 |---|---|---|
-| Senior Product Designer (Advanced Trading) | Bitpanda | TBD |
+| Senior Product Designer (Advanced Trading) | Bitpanda | Closed (rejected 2026-06-01). No salary stated at application |
 | Lead Design Systems | BVNK | €90K |
-| Senior Product Designer (Integrations) | Typeform | TBD |
+| Senior Product Designer (Integrations) | Typeform | €78K (confirmed 2026-06-12. No salary stated at application) |
 | Founding Product Designer | Factorial | €82K |
 | Senior Product Designer | Finom | €78K |
 | Staff Product Designer (DS) | Hostaway | €85K min / €100K max |
 
 ## Negotiation notes
+
+- Typeform: €78K, matching the Finom position for equivalent Senior scope. Confirmed by Manel 2026-06-12. Note: this sits €15K below the €93K Barcelona 75th percentile benchmark. If Typeform volunteers a band with a higher ceiling, the standing rule overrides this number: open at the top of their range.
 
 - BVNK: €90K is the opening position for a Lead DS role. Crypto-adjacent, London-based company, remote-friendly.
 - Factorial: €82K is the floor given the "Founding" scope. If they push back, the counter is the breadth of responsibility implied by the title.

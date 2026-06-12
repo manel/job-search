@@ -4,6 +4,19 @@ Where to search, what works, and what doesn't. Updated via /remember when new si
 
 ---
 
+## Weekly sourcing ritual
+
+Once a week, same day every week (Monday recommended — postings cluster Mon/Tue and early applications get read):
+
+1. Browse, in order: LinkedIn (filtered search below), Manfred, Welcome to the Jungle, then direct careers pages for known targets (Linear, Factorial, plus any warm-path company).
+2. Collect every plausible role as a URL or pasted JD. Don't self-filter beyond the obvious — the fit framework does the filtering, and pre-filtering by gut is how marginal-but-real fits get missed.
+3. Run `/source-roles` with everything collected. It checks overdue follow-ups first, batch-assesses the new roles, and updates the pipeline.
+4. Target: 3–5 roles assessed per week. If two consecutive weeks produce fewer than 2 plausible roles, add a secondary board to the rotation and say so here.
+
+The discipline is the point. Sourcing only when the pipeline feels empty means sourcing three weeks too late: applications take 2–5 weeks to produce a response, so a thin week now is a silent month later.
+
+---
+
 ## Primary boards
 
 **LinkedIn**
