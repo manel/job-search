@@ -55,9 +55,11 @@ Stack: Figma, Token Studio, Style Dictionary, GitHub, npm, Storybook, Chromatic,
 ### Kings of Mambo — Co-founder, UX Design Lead
 2010 – 2021 | Barcelona
 
-Co-founded and led a UX studio for 11 years. Delivered digital product design across web and mobile for clients in media, retail, finance, and culture. Led end-to-end design across research, information architecture, interaction design, and delivery.
+Co-founded and led a UX studio for 11 years. Delivered digital product design across web and mobile for clients in media, retail, finance, legal, and culture. Work included the UX of a document management system for legal documents, e-commerce platforms, and design and front-end work for KYMCO. Led end-to-end design across research, information architecture, interaction design, and delivery.
 
-Taught UX and digital design at postgraduate level. Developed skills in explaining complex systems to non-expert audiences, mentoring junior practitioners, and maintaining depth of craft across a wide range of project types.
+Built much of what I designed. Coded full WordPress themes wired to the CMS with Advanced Custom Fields, and built component libraries in Sketch mapped to front-end code. By 2020 this had grown into a shared front-end starter kit for the studio, with a build pipeline, linting, and a settings layer of CSS variables reused across projects.
+
+Taught UX and digital design at postgraduate level, including a course on building WordPress themes from a design file to a working, CMS-driven site. Developed skills in explaining complex systems to non-expert audiences, mentoring junior practitioners, and maintaining depth of craft across a wide range of project types.
 
 ---
 

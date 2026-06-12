@@ -18,7 +18,9 @@ Last audited: 2026-06-12 (content pasted by Manel, not scraped).
 
 ---
 
-## Audit of current profile (2026-06-12)
+## Audit of previous profile (2026-06-12, resolved)
+
+Everything below was addressed in the copy that went live on 2026-06-12, including the Kings of Mambo date grouping fix. On the Featured section: the portfolio (manel-leiva.com) is linked from the profile intro; Manel decided against pinning the design systems case study separately. He prefers the portfolio as the single entry point. Don't re-raise this.
 
 **Headline.** "Senior Product Designer · B2B SaaS & Fintech · Complex Workflows & Design Systems" is correct. Keep it. It carries the DS signal and the domain.
 
@@ -36,7 +38,7 @@ Last audited: 2026-06-12 (content pasted by Manel, not scraped).
 
 ---
 
-## Proposed copy
+## Live copy (pasted 2026-06-12)
 
 ### Headline (keep as is)
 
@@ -46,7 +48,9 @@ Senior Product Designer · B2B SaaS & Fintech · Complex Workflows & Design Syst
 
 The work I care about happens before any screen gets drawn. What should exist, how it should connect, where the real friction is. B2B SaaS tends to have all of this in a concentrated form: user roles with genuinely different goals, data-heavy interfaces, workflows where the edge cases aren't edge cases at all.
 
-I've led design from early problem framing through to shipping at Abacum (FP&A) and Remuner (sales compensation), often as the first or only designer on the problem. I've built two production design systems from scratch, including the token pipeline that keeps Figma and code from drifting apart. At Remuner I also designed and shipped an AI agent for sales reps and managers.
+Most recently I've led design at Abacum (FP&A) and Remuner (sales compensation), often as the first or only designer on the problem. Before that, co-running a UX studio in Barcelona, designing client products and often building them too. That's where I started tying component libraries in Sketch to front-end code.
+
+I've built two production design systems from scratch, including the token pipeline that keeps Figma and code from drifting apart. At Remuner I also designed and shipped an AI agent for sales reps and managers.
 
 Looking for Senior, Lead, or Staff IC roles in B2B SaaS, fintech, or data-heavy products. Remote, or hybrid in Barcelona.
 
@@ -70,11 +74,15 @@ Taught graduate-level UX and digital design. Guided students in structuring and 
 
 ### ESdesign — Teacher
 
-Taught web design fundamentals, focused on how design decisions translate into working websites.
+Taught a course on building WordPress themes from scratch, taking students from a design file to a working, CMS-driven site.
 
 ### Kings of Mambo — Co-founder, Senior UX Designer
 
-Co-founded a UX studio and led design for client products in media, retail, finance, and culture for 11 years. End-to-end work: research, information architecture, interaction design, and delivery. Built reusable patterns and components across projects and mentored junior designers.
+Co-founded a UX studio and led design for client products in media, retail, finance, legal, and culture for 11 years. End-to-end work: research, information architecture, interaction design, and delivery. The complex end of it included the UX of a document management system for legal documents, e-commerce platforms, and design and front-end work for KYMCO.
+
+I also built much of what I designed. Full WordPress sites, writing the theme and wiring it to the CMS with Advanced Custom Fields. When Sketch shipped symbols I started building component libraries with them and mapping components to front-end code. By 2020 that had grown into a shared starter kit for the studio's front-end work, with a build pipeline, linting, and a settings layer of CSS variables that every project reused.
+
+Mentored junior designers throughout.
 
 Also fix the date grouping: the Mar 2008 – Jun 2011 sub-entry predates the Sep 2010 founding. Move pre-2010 work to its own entry or correct the dates.
 
