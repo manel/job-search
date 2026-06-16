@@ -153,6 +153,16 @@ Cases must show:
 - Measurable or operational impact
 - What made it hard
 
+## Case study storytelling principle
+
+A good case study is not "here is everything I did." It is "here is how I think when the problem is messy."
+
+Interviewers cannot see the judgment behind the screen. That is what they are evaluating. Before writing or reviewing a case study, check whether the invisible layer is present: what were the competing directions, what made one wrong, what friction existed, what did you decide and own. If that layer is missing, the case study is a process record, not a judgment record.
+
+Structure: lead with the result or decision, then the constraint or insight that made it hard, then what you did. Process-first reads as "I did stuff." Judgment-first reads as seniority.
+
+This applies equally to live portfolio presentations during interviews: the framing should be "here is a decision I made when the problem was unclear," not "here is my process."
+
 ## HTML section structure
 
 Every section follows this pattern:

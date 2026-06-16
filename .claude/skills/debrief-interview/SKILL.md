@@ -1,8 +1,12 @@
 ---
-description: Capture what happened in an interview while it's fresh
-argument-hint: [company] [round]
-allowed-tools: Read, Write
+name: debrief-interview
+description: "Capture what happened in an interview while it's fresh. Argument: company name and round."
+allowed-tools:
+  - Read
+  - Write
 ---
+
+# Debrief interview
 
 $ARGUMENTS should contain: company name and round.
 

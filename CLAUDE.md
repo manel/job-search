@@ -62,7 +62,7 @@ Naming convention for sent PDFs: `cv-pdf-to-send/[Company]/Manel Leiva CV 2026.p
 
 1. Read `context/applications.md` to check if the role has already been assessed or is in progress.
 2. Run a fit assessment using the framework below. No assessment, no writing. This gate has no exceptions.
-3. Check `context/outreach.md`: is there a warm path? Warm paths come before or alongside cold applications.
+3. Check `context/outreach.md`: is there a warm path? Warm paths come before or alongside cold applications. `/outreach [company] referral` drafts the ask.
 4. Check `context/salary.md` for the agreed compensation position before writing any cover letter.
 5. Read `principles.md` before producing any written output.
 
@@ -88,6 +88,7 @@ Naming convention for sent PDFs: `cv-pdf-to-send/[Company]/Manel Leiva CV 2026.p
 - HTML output follows the section structure defined in `context/portfolio.md`.
 - Live case copy never names colleagues, research participants, or customers. Roles only: "the head of design", "the CTO". Names in context files are internal reference.
 - Run humanizer principles from `principles.md` on all case study copy before outputting.
+- `/review-case [case-name]` scores a live case against the evaluation standard. Run it before any application goes out if the case is relevant to the role.
 
 ### LinkedIn work
 
@@ -106,6 +107,7 @@ Naming convention for sent PDFs: `cv-pdf-to-send/[Company]/Manel Leiva CV 2026.p
 
 - The follow-up policy lives at the top of `context/applications.md`: nudge at ~10 business days, LinkedIn outreach at ~3 weeks (method in `context/outreach.md`), stale at 5 weeks.
 - Every applied role has a dated Next action. When asked about the pipeline, check for overdue actions first and surface them.
+- `/follow-up` surfaces overdue next actions and drafts the appropriate message. Run it at the start of any session where the pipeline might have items due.
 
 ---
 

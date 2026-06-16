@@ -15,6 +15,15 @@ Check, in order:
 
 If any of these hit, the warm path comes first. The application can still go in, but the intro should land before or alongside it, not after a rejection.
 
+### How to run the LinkedIn search
+
+1. Company People tab first: `linkedin.com/company/[name]/people/`. Use its scoped search box with "Abacum", "Remuner", "Kings of Mambo" as keywords; it matches past jobs too and catches profiles the filters miss.
+2. Global search: People tab → All filters → Current company = target (pick the entity from the dropdown, never free text) → Past company = Abacum, then rerun with Remuner.
+3. Second degree: Current company = target, Connections = 2nd. Check mutual connections on each hit to find the bridge person.
+4. While the search is open, note the design team and likely hiring manager (title keyword "design"). Needed later for the 3-week silent-application step.
+
+An empty result is an answer. Record it in `context/applications.md` and cold apply; don't keep the search as a pending action.
+
 ## Asking for a referral
 
 Make it easy to say yes. The ask carries three things and nothing else:

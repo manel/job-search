@@ -22,17 +22,18 @@ Use these statuses everywhere (this file, /update-pipeline, /new-application):
 - 5 weeks with no response: mark stale. Stop investing.
 - Record every follow-up action in the Next action column with its date.
 
----
+---/cl
 
 ## Active
 
 | Role | Company | Status | Applied | Next action | Notes | URL |
 |---|---|---|---|---|---|---|
+| Senior Product Designer | Spendesk | 🟡 in-progress | — | Identify strongest bridge to a 2nd-degree contact (see Warm paths), then: settle AI agent description, set salary position, write package | Fit assessed 2026-06-12: proceed. 2nd-degree paths found 2026-06-12 incl. the Head of Product Design. Barcelona hybrid. No salary in JD; set position before cover letter. Position as product role with DS component: lead with Abacum | https://career.spendesk.com/jobs/7802636-senior-product-designer |
 | Staff Product Designer - Design Systems - 100% Remote - EMEA | Hostaway | 🟢 applied | 2026-06-04 | Nudge 2026-06-18 | €85K min / €100K max | https://careers.hostaway.com/o/staff-product-designer-design-systems-100-remote-emea |
 | Senior Product Designer | Finom | 🟢 applied | 2026-06-02 | Nudge 2026-06-16 | €78K position | https://jobs.eu.lever.co/pnlfin/b5a8e88e-ed56-4260-8425-7f7a99ad6fb7 |
 | Lead Design Systems | BVNK | 🟢 applied | 2026-06-01 | Nudge 2026-06-15 | €90K position | https://job-boards.eu.greenhouse.io/bvnk/jobs/4876105101 |
 | Senior Product Designer (Integrations) | Typeform | 🟢 applied | 2026-05-26 | If no reply from M. Lynch by 2026-06-18, one follow-up, then stale 2026-06-30 | No salary stated at application. 2026-06-11: connection request + message to Michael Lynch (Global Hiring) | https://job-boards.greenhouse.io/typeform/jobs/7913052 |
-| Founding Product Designer | Factorial | 🟢 applied | 2026-05-26 | Await Liliana's reply; if none by 2026-06-18, one follow-up. Stale 2026-06-30 | Proprietary ATS, manual check recommended. 2026-06-11: asked Liliana (ex-Remuner, now at Factorial) to confirm receipt and route to the right person | https://careers.factorialhr.com/job_posting/founding-product-designer-factorial-tech-spinoff-282888 |
+| Founding Product Designer | Factorial | 🔵 interviewing | 2026-05-26 | Book screen via Lucia Lorenzo Santos link. Confirm which role (invite says "Senior PD", applied as "Founding PD — tech spinoff") | 2026-06-11: Liliana (ex-Remuner) asked to confirm receipt. 2026-06-16: screen invite from Lucia (Talent Acquisition). Warm path worked. | https://careers.factorialhr.com/job_posting/founding-product-designer-factorial-tech-spinoff-282888 |
 
 ## Closed
 
@@ -75,6 +76,7 @@ Use these statuses everywhere (this file, /update-pipeline, /new-application):
 - Factorial: Liliana, former Remuner coworker, now at Factorial. Activated 2026-06-11 — asked to confirm the application arrived and route to the right person. The strongest path in the pipeline right now.
 - Perk Flights: former Abacum contact potentially available as warm intro. Genuine interest unresolved — do not pursue until that's answered.
 - Linear: no warm path identified yet. Worth researching before applying.
+- Spendesk: 2nd-degree paths found 2026-06-12. Only real bridge: Sasha Lamachenka (ex-Abacum colleague), but her Spendesk mutuals are non-design (Swann M., support engineer; Cristina Maria, PM). Probe sent/pending: ask Sasha if she knows them or anyone else at Spendesk well. Other bridges (Jakob Fiedler, Jorge Casals → Cyrièle Piancastelli, Head of Product Design; Eugeni Vila d'Abadal, Jens Bringsjord → Lorenzo Selvaggi, Senior PD Barcelona; Sébastien Hézard → Rachel Belkadi, Senior PD AI) are weak relationships, not usable for intros. Fallback after applying: connection request with note to Lorenzo Selvaggi. Don't gate the application on the probe. No parallel outreach.
 
 ---
 

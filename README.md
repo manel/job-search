@@ -1,4 +1,4 @@
-# job-search
+# Job search project
 
 Private repo. Job search operations for Manel Leiva.
 
@@ -56,9 +56,21 @@ The `portfolio/` directory points to the portfolio repo. To work on case study c
 
 Open this directory in VS Code. Run Claude Code here. It reads `CLAUDE.md` automatically.
 
-Slash commands available in `.claude/commands/`:
+Slash commands (all in `.claude/skills/`):
+
+Application pipeline:
 - `/assess-fit` — evaluate a new role before writing anything
-- `/new-application` — set up a full application package (refuses to run without a fit assessment)
+- `/new-application` — set up a full application package (requires a fit assessment first)
 - `/update-pipeline` — update role status in applications.md
-- `/prep-interview` — build a one-page brief for an interview round
-- `/debrief-interview` — capture what happened after a round
+- `/source-roles` — weekly sourcing session, batch-assess new roles
+
+Follow-up and outreach:
+- `/follow-up` — surface overdue next actions and draft the message
+- `/outreach [company] [type]` — draft a referral ask or LinkedIn silent-application message
+
+Portfolio:
+- `/review-case [case-name]` — score a case study against the evaluation standard
+
+Interviews:
+- `/prep-interview [company] [round]` — build a one-page brief for a round
+- `/debrief-interview [company] [round]` — capture what happened after a round

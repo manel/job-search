@@ -84,16 +84,16 @@ I also built much of what I designed. Full WordPress sites, writing the theme an
 
 Mentored junior designers throughout.
 
-Also fix the date grouping: the Mar 2008 – Jun 2011 sub-entry predates the Sep 2010 founding. Move pre-2010 work to its own entry or correct the dates.
+Date grouping fixed on the live profile 2026-06-12.
 
 ---
 
 ## Checklist when updating the live profile
 
-- [ ] Featured section pins manel-leiva.com and the design systems case
+- [ ] Portfolio link (manel-leiva.com) present in the profile intro. No Featured pins; decided 2026-06-12 to keep the portfolio as the single entry point
 - [ ] About has no typos, ends with the role-targeting statement
 - [ ] Remuner entry includes the AI agent and the token pipeline
 - [ ] Teaching entries trimmed
 - [ ] KOM dates fixed
 - [ ] No banned vocabulary anywhere (check "optimization", "scalable", "seamless")
-- [ ] Open to Work enabled for recruiters only, listing: Senior Product Designer, Staff Product Designer, Lead Product Designer, Design Systems Designer
+- [ ] Open to Work enabled for recruiters only, listing: Senior Product Designer, Staff Product Designer (LinkedIn's title list doesn't offer Lead Product Designer or Design Systems Designer)

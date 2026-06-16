@@ -1,9 +1,11 @@
 ---
-description: Evaluate a role for fit before writing anything
-argument-hint: [paste job description or URL]
+name: assess-fit
+description: "Evaluate a role for fit before writing anything. Argument: paste the job description or URL."
 ---
 
-Read context/positioning.md, context/applications.md, and memory.md first.
+# Assess fit
+
+Read `context/positioning.md`, `context/applications.md`, and `memory.md` first.
 
 Then evaluate the role provided in $ARGUMENTS against this framework:
 
@@ -19,8 +21,8 @@ For design-systems-titled roles, add one check:
 
 Give one decision: Proceed / Defer / Skip. Follow with two or three sentences of honest rationale. Do not dress up a skip as a defer. A weak score on Domain or Genuine interest is a skip, not a defer.
 
-Also flag: is there a plausible warm path into this company, based on context/applications.md and context/outreach.md?
+Also flag: is there a plausible warm path into this company, based on `context/applications.md` and `context/outreach.md`?
 
-Record the outcome in context/applications.md (Deferred or Assessed and skipped table, or note that an application is proceeding).
+Record the outcome in `context/applications.md` (Deferred or Assessed and skipped table, or note that an application is proceeding).
 
 Do not write any CV or cover letter copy. Assessment only.
