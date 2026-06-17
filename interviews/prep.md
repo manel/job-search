@@ -76,15 +76,33 @@ Pick 2-3 real incidents from KOM that are usable in a senior IC interview. Flag 
 
 ## Priority zero: "Why did you leave Remuner?"
 
-This question will come up in every process. The departure was company-initiated (March 2026). [NEEDS YOUR ANSWER — before any screen, this outranks every other gap in this file.]
+This question will come up in every process. The departure was company-initiated (March 2026).
 
-What a workable answer requires:
-- Honest without volunteering the word "fired". "The company ended the role" / "we parted ways" framing, said evenly, is accurate and normal at startups.
-- One factual, neutral sentence about context (restructuring, runway, fit — whatever is true), with zero bitterness and zero defensiveness. Interviewers read tone more than content here.
-- Pivot immediately to evidence the work was valued: sole designer for nearly two years, the system shipped to production, the CTO's unprompted before/after assessment. Then stop talking. Over-explaining reads as guilt.
-- Never criticize Remuner, the CTO, or the decision. One bitter word costs more than the firing itself.
+**The answer (memorize this version, not a paraphrase):**
 
-Rehearse this out loud until it's boring. The goal is that it sounds like a fact, not a wound.
+"It was a company decision. Remuner operated in a very founder-driven way — product direction came from the top, and design input didn't always have real weight in those calls. That's a legitimate model for a certain kind of startup, but it's not where I do my best work. By early 2026, the fit wasn't there and we parted ways. What I'd say about the work: the design system shipped to production, and the CTO described the product's before-and-after as going from a 2010 app to a 2020 app — that was unprompted. I'm proud of what got built."
+
+Then stop. Do not add anything.
+
+**Why this framing works:**
+- The real reason was the operating model, not team size. This answer names it accurately without naming individuals or incidents.
+- "Founder-driven" is a known startup archetype. Interviewers accept it as a real fit mismatch, not as an excuse.
+- No implication about collaboration or team dynamics. This is about how product decisions get made, not about who was in the room.
+- The CTO quote closes on evidence of quality, not victimhood.
+
+**If they probe — "were there any signs it wasn't working?"**
+
+"Yes. There were decisions that moved faster than the research could inform them. I pushed back where I could, but when the call sits with founders, there's a limit to how much that changes. I'd rather be honest about that than pretend it was purely external."
+
+Self-aware, no bitterness, no specifics. Use only if they push.
+
+**What never to say:**
+- Anything about research being ignored or overridden
+- Anything about the CEO, CFO, or CTO by role or behavior
+- The word "fired"
+- Any framing that implies they made a mistake
+
+Rehearse the primary answer out loud until it sounds like a fact, not a wound. The goal is that your tone communicates "this is a normal thing that happened" — because at startups, it is.
 
 ---
 
@@ -148,11 +166,17 @@ The angle: influence without authority is not persuasion tricks. It is building 
 
 ### 6. Tell me about a time you failed publicly. How did you recover?
 
-[NEEDS YOUR STORY]
+Use: Remuner production outage.
 
-This one matters. A story that's actually a stealth success won't work here. The interviewer is testing for self-awareness and resilience, not whether you've had failures.
+At Remuner the design token pipeline fed directly into the front-end app — token files in the repo were production dependencies, not just design assets. I deleted a file I assumed was a duplicate without checking whether it was referenced anywhere. It was. When the next deploy went out, the app went down.
 
-Requirements for a good answer: something visible to others (not an internal misstep you quietly fixed), a real consequence, a clear account of what you learned, evidence that you changed something as a result.
+When I got the alert I dropped everything, recovered the file, and pushed the fix. The app was down for several minutes — visible to anyone using it, and to engineering.
+
+The immediate response: introduced a checklist pass before any deploy touching the token repo. The structural fix: we mapped the file's content properly, migrated it to the right location, removed the reference from the main app, and then deleted the original file in the right order. It took longer but it meant the next deletion was clean rather than just less likely to go wrong.
+
+What to emphasise: the mistake happened because I treated a production-coupled file like a design file. The learning was structural — the pipeline needs to be treated as infrastructure, not as a working folder you can tidy up casually.
+
+Do not: frame this as a near-miss. The app went down. Own it plainly.
 
 ---
 
@@ -262,11 +286,11 @@ What they wouldn't say: easy to work with in the sense of agreeable. You push ba
 
 ### 16. What kind of feedback do you find hardest to receive?
 
-[NEEDS YOUR HONEST ANSWER]
+Feedback that tells me something needs to be redone because of information that was wrong, missing, or misleading upstream. Not redoing because I learned something or requirements changed — that's normal, I can do that without friction. What's genuinely hard is when the redo was avoidable: the brief was vague, a constraint wasn't shared, someone misspoke about what was needed. The work wasn't wrong given what I knew. It's just that the inputs were bad.
 
-Don't say "none, I love all feedback." Don't say something so broad it's meaningless.
+Learning and redoing is fine. Redoing because of an information failure is the one that costs me more than it probably should.
 
-A credible answer is specific: a type of feedback that arrives in a way that makes it hard to hear (late, in public, with no evidence), or feedback on a dimension where you have a real blind spot. Name it and say what you've done about it.
+What I've done about it: I front-load constraint extraction now. Before committing to a direction I push harder to surface the things that aren't in the brief — stakeholder assumptions, technical limits, things that have already been decided upstream. Not because I distrust people, but because I know that discovering them mid-build is the thing I find hardest to absorb.
 
 ---
 
@@ -340,11 +364,13 @@ What changed: the way you scope "what a designer can own" expanded. Technical in
 
 ### 23. How do you get better at something you're not naturally good at?
 
-[NEEDS YOUR HONEST ANSWER]
+Practice, primarily. Reading and videos give you vocabulary and a mental model, but I don't actually know something until I've used it under real conditions. The discomfort of doing it badly at first is part of how I learn — I keep going until it feels boring, which is when I know it's actually in.
 
-The structural answer works here: find someone who's already good at it, watch how they approach the problem (not just what they produce), borrow the mental model, apply it with your own constraints.
+Real example: getting comfortable with AI tooling. I read and watched, but what actually moved the needle was setting up Claude projects from scratch, building skills, configuring MCPs, iterating on prompts until they worked the way I needed. Passive consumption told me what was possible. Practice told me what was actually hard and why.
 
-The teaching background is relevant: explaining something forces precision about what you actually know vs. what you can fake. Teaching UX made you more rigorous about design principles because you couldn't hide behind craft.
+The pattern: I consume enough to understand the shape of the thing, then I stop reading and start doing. I go back to references when I hit a specific wall, not before.
+
+The honest flip side: I really don't like doing things more than once. The cost of having to redo something feels disproportionate to me, so I front-load the practice to avoid it. That probably explains why I gravitate toward getting foundations right early — in design systems work especially, the decisions you make at the token level are expensive to reverse, so I'd rather spend more time there than retrofit it later.
 
 ---
 

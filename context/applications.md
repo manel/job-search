@@ -68,6 +68,7 @@ Use these statuses everywhere (this file, /update-pipeline, /new-application):
 | Design System Champion | Merkle (Dentsu) | Pre-sales/sales engineering role disguised as DS work — outputs are demos and RFPs, not shipped product | https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL/job/Barcelona/Design-System-Champion_R1118430 |
 | Design System Designer | Fluidra | Pool hardware company — digital team is a support function, domain and genuine interest both fail | https://jobs.fluidra.com/job/Sant-Cugat-del-Valles-Design-System-Designer-B/910-es_ES |
 | Senior Product Designer (Inbox) | Proton | Consumer email product, visual craft emphasis (icons, illustrations) — wrong work type for the positioning | https://job-boards.eu.greenhouse.io/proton/jobs/4606437101 |
+| UX/UI Designer & Researcher | knowmad mood | IT consulting agency — generalist UX production for client accounts, mid-senior leveling, domain and genuine interest fail | https://knowmadmood.teamtailor.com/jobs/7915753-ux-ui-designer-researcher-figma-entorno-internacional |
 
 ---
 

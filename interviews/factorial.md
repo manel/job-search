@@ -41,9 +41,9 @@ Support with breadth if asked about prior experience: "Before Remuner I co-led a
 Two-minute arc: Abacum (product + DS at scale, multiple squads) → Remuner (sole designer, built everything from scratch, shipped DS and AI product) → now looking for a founding-scope role where the work has structural complexity. Don't narrate every job. Get to Remuner fast.
 
 **"Why did you leave Remuner?"** ← Priority zero. Prepare this before you get on the call.
-The company ended the role. One neutral sentence on context (startup, restructuring), zero bitterness, then pivot to evidence the work was valued: sole designer for nearly two years, system shipped to production, CTO's unprompted before/after quote. Then stop. See `interviews/prep.md` priority zero section.
+Company decision. The operating model was founder-driven — product direction came from the top, design input didn't have real weight in those calls. Legitimate model for some startups, not the right fit. Zero bitterness, pivot to evidence: system shipped, CTO's unprompted before/after quote. Then stop. Full answer in `interviews/prep.md` priority zero section — memorize that version.
 
-**"Why Factorial / why this role?"**
+**"Why Factorial / why this role?"**()
 Answer honestly. Signals that work: Barcelona company building something greenfield, founding scope means real influence over product direction not just execution, HR domain has complex workflow problems (payroll, compliance, multi-market). Don't say "I love your brand." If you don't have a real answer yet, spend 20 minutes on their product and public writing before Monday.
 
 **"What does founding designer mean to you?"**
