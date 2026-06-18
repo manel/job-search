@@ -8,7 +8,7 @@
 
 ## Slide 1 — Cover
 
-**Headline:** A structural problem no one had ticketed — and a decision with no right answer
+**Headline:** A structural problem no one had ticketed. A decision with no right answer.
 
 **Subheadline:** Abacum, 2023. Formula syntax standardization across the modeling layer.
 
@@ -60,42 +60,37 @@ Getting head-of-design alignment on this was the first step. Working on it witho
 
 ## Slide 5 — The investigation
 
-**Headline:** Competitor benchmark + customer call recordings
+**Headline:** Benchmark across four competitors + customer calls
 
-**Visual:** Split view: competitor analysis table (left) and GONG call evidence (right). Summary: no competitor had solved this cleanly.
+**Visual:** Split view: competitor syntax comparison table (Excel, Google Sheets, Pigment, Causal) on the left, GONG call evidence on the right. Abacum marked as the outlier on both parentheses and naming conventions.
 
 **Speaker notes:**
 The investigation had two parts.
 
-First: competitor benchmarking. I looked at how other formula-based products (spreadsheet tools, financial modeling platforms, BI products) handled the same conceptual challenges. Not to copy a solution, but to understand whether anyone had solved this well enough to adapt.
+Competitor benchmarking across Excel, Google Sheets, Pigment, and Causal. Not to copy a solution, but to find whether there was a consensus. There was: every one of them placed parameters inside parentheses and avoided underscores in function names. Abacum was the outlier on both counts.
 
-Second: GONG recordings. I went through customer call recordings specifically to find moments where users expressed confusion about formula syntax. Not general product confusion — specifically the moments where a user was writing a formula and expected one syntax to work and found it didn't.
+Customer call recordings. One call stood out: an enterprise customer's team described spending months with the implementation team just to get comfortable writing basic formulas. They said they wished it felt more like Excel. That's a specific signal: not "this is hard" but "I already know how it should work and this doesn't match."
 
-[NEEDS INPUT: One specific paraphrase from a GONG recording. Something like: "One customer said [X] — they had built the same formula twice because they didn't realize the syntax worked differently in reports than in the modeling view. They thought they'd made a typo." This specificity is what makes the evidence feel real rather than procedural. What's the clearest example you remember?]
+Together these told me the inconsistency wasn't just internal. It was Abacum diverging from every established reference its users already knew.
 
 ---
 
-## Slide 6 — No established pattern
+## Slide 6 — Two options. One obvious loser.
 
-**Headline:** Three approaches. None clearly right.
+**Headline:** SQL-aligned or Excel-aligned — the users already had a preference
 
-**Visual:** Evidence map with three columns, one per approach considered. Each column: the approach, what it solves, what it costs.
+**Visual:** Side-by-side: SQL-style syntax (FROM dataset WHERE condition, external clauses) vs Excel-style (all parameters inside parentheses, no external clauses). User background on the right: finance teams, not SQL developers.
 
 **Speaker notes:**
-No competitor had solved this cleanly. That meant the answer wasn't derivable from looking at what others had done. I had to define the options and choose.
+The core decision was which direction to align with.
 
-Three approaches were on the table.
+Option one: SQL-aligned. Keep the FROM and WHERE style for dataset references, which was already in parts of the product. SQL users would find it familiar. The problem: Abacum's users are finance teams, not SQL developers. The customer call was the signal — they wanted Excel, not SQL. And SQL-style external clauses meant each formula was a slightly different pattern depending on where it appeared.
 
-[NEEDS INPUT: What were the actual competing approaches you considered? The structure would be:
-- Approach A: [what it was, which competitor did something like it, what it would have cost users]
-- Approach B: [what it was, what problem it solved, what it created]
-- Approach C: [what you chose, why it was the least-bad option]
+Option two: Excel-aligned. All parameters inside parentheses, no external clauses, function names as single capitalised words with no underscores. Every competitor did this. Every user already knew it from Excel.
 
-I'm not going to invent these because they're the central decision in the deck. What do you remember from the investigation? Even rough: "we considered standardizing on the syntax from part X, or building a superset that handled both, or just picking the more-used one as canonical."]
+The tradeoff was real: users coming from a SQL background would find the new syntax less natural at first. That's a cost worth naming. But for the actual user base, finance professionals writing financial models, the consistency of Excel conventions reduced the overall learning curve and made complex formulas easier to read and debug.
 
-The decision couldn't be derived. It had to be built from the evidence: what were users already doing, what change would create the least relearning, what was the smallest intervention that removed the inconsistency. I had to build enough confidence in a direction to make a defensible call, rather than finding an objectively correct one.
-
-This is a different kind of design problem than one that has a user research answer or a best practice answer. It required judgment, not just synthesis.
+The decision was also a commitment: we produced the Abacum Script, written guidelines for syntax conventions, so any new function added in the future would follow the same rules without requiring a design review each time. The consistency had to be self-sustaining, not dependent on the team remembering what was decided.
 
 ---
 
@@ -129,18 +124,20 @@ The change was invisible to users who didn't already use the product heavily. Fo
 
 ## Slide 9 — Outcome
 
-**Headline:** A new product capability became possible. Formula writing got cleaner. Support noise dropped.
+**Headline:** Days instead of weeks. Suggestions became possible. Adding new functions stopped being a judgment call.
 
-**Visual:** Three outcome signals, with the editor suggestions project visually first and emphasized.
+**Visual:** Three outcome signals: onboarding speed, editor suggestions project, Abacum Script governance. Suggestions project visually emphasized.
 
 **Speaker notes:**
-Three signals, and I'll name the first two as qualitative recollections, not measured data.
+Three signals.
 
-The clearest business outcome: the editor suggestions project. Once the syntax was consistent, it became possible to build intelligent suggestions on top of it, the kind that could predict what a user was trying to write. That project existed because this one had been done. A consistent foundation made the product worth building on. If I'd left the syntax inconsistent, suggestions would have had to accommodate two different syntaxes — which makes the suggestion logic far more complex, or useless in the parts of the product where users needed it most.
+The clearest product outcome: the editor suggestions project. Once syntax was consistent and all parameters were in a predictable position inside the function, it became possible to map parts of a formula to interface elements — inputs, previews, type-aware suggestions. That project existed because this one had been done. With SQL-style external clauses still in place, you couldn't build that: the parameter position wasn't predictable enough to drive suggestions reliably.
 
-Formula writing got faster for experienced users. That's the team's read from the periods before and after. The support channel for formula questions got quieter, not silent, but the repeat confusion questions about "why does it work differently here" stopped appearing.
+The customer signal: new users went from taking weeks to write their first useful formula to reaching it in days. The enterprise customer on that call described months of onboarding support. After the redesign, formula-related support requests dropped over the following quarters. That's a qualitative recollection from the CS team, not a dashboard number, but it was consistent across customers.
 
-One thing I'd do differently: document the decision rationale more formally at the time. The syntax spec captured what was decided. The reasoning behind specific choices lived in conversation notes and wasn't easy for new engineers to reference when they needed to extend the syntax later. That documentation would have aged better than anything else I could have left behind.
+The governance outcome is the one that ages best: the Abacum Script. Written guidelines for syntax conventions, produced as part of this work. Any new function added after that followed the same rules without requiring a design review. The consistency became self-sustaining.
+
+One thing I'd do differently: document the decision rationale, not just the decisions. The Abacum Script captured the conventions. The reasoning behind specific calls — why SQL-style was rejected, why single capitalised words were chosen over underscores — lived in meeting notes. When a new engineer needed to extend the syntax, there was no written record of the reasoning, only the output. That's the thing that would have aged better.
 
 ---
 
@@ -153,7 +150,7 @@ Evidence over preference. I started with what users were already using (the exis
 I made the case to the head of design and got alignment before starting. I scoped the investigation to fit within available time — this wasn't a multi-month project that displaced roadmap work. And I reported out regularly so there were no surprises.
 
 **"What would you do differently?"**
-Document the decision rationale. The syntax spec captures decisions, not reasoning. When a new engineer needed to add a new syntax pattern six months later, there was no written record of why certain forms were chosen over others. That's the artifact that ages best — not the spec, but the reasoning behind it.
+Document the decision rationale alongside the spec. The Abacum Script captured the conventions. The reasoning behind specific calls — why SQL-style was rejected, why single capitalised words over underscores — lived in meeting notes. When a new engineer needed to extend the syntax later, there was no written record of the reasoning, only the output. The reasoning is the thing that ages better.
 
 **"How did this connect to business outcomes?"**
 Syntax inconsistency in a formula product is a retention risk: power users are the ones most likely to leave if the core tool is frustrating. And the editor suggestions project is the cleaner business signal — it was funded because this work existed. A new product capability became possible because a structural problem was resolved first.

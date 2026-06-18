@@ -88,12 +88,12 @@ That distinction mattered more than I expected. Before Maker Days, working on th
 
 **Headline:** Two decisions made early that constrained everything that followed
 
-**Visual:** Diagram of two-tier token architecture: primitive layer (raw values: colors, spacing) + semantic layer (contextual names: color-text-primary, space-component-padding). Below it: MUI component library as base.
+**Visual:** Diagram of two-tier token architecture: primitive layer (raw values: colors, spacing) + semantic layer (contextual names: color-text-primary, space-component-padding). Below it: MUI component library as base. Success criteria annotated: 80% of new UI from Abax components, 100% MUI deprecation where equivalents existed.
 
 **Speaker notes:**
-Two decisions shaped the whole build.
+Two decisions shaped the whole build. We also defined success criteria before starting: 80% of new UI built from Abax components, 100% deprecation of legacy MUI in areas where equivalents existed. Having the criteria set upfront gave us a way to measure adoption that engineering could track themselves rather than taking our word for it.
 
-First: keep MUI as the base component library rather than building from scratch. Three of five squads were already deep in MUI. Replacing it meant rewriting every component across all five squads — with no immediate product benefit, requiring a level of engineering buy-in we didn't have, and impossible to scope into the Maker Days quarters we were working in. The constraint wasn't just that it would take longer. It was that the ask had to be achievable in increments the team could justify. Building on MUI made each quarter's work shippable.
+First: keep MUI as the base component library rather than building from scratch. All five squads were already on MUI. Replacing it meant rewriting every component across all five squads — with no immediate product benefit, requiring a level of engineering buy-in we didn't have, and impossible to scope into the Maker Days quarters we were working in. The constraint wasn't just that it would take longer. It was that the ask had to be achievable in increments the team could justify. Building on MUI made each quarter's work shippable.
 
 Second: a two-tier token architecture. Primitive tokens hold the raw values. Semantic tokens hold the contextual meaning: `color-text-primary` rather than `#1A1A1A`. The semantic layer is what lets you change a primitive value without hunting for every usage across the codebase. This came from thinking about what the system would need to stay maintainable, not just what was needed for the first few components.
 
@@ -150,24 +150,18 @@ The two-library Figma structure was something I proposed and drove: an Explorati
 
 **Headline:** The hard decisions were not in the spec
 
-**Visual:** Three cards: "Component naming debates," "Read-only state (engineers vs designers)," "Deprecated components in search." The third card expanded with the resolution.
+**Visual:** Four cards: "When to stop building infrastructure and start shipping components," "Component naming debates," "Read-only state (engineers vs designers)," "Deprecated components in search."
 
 **Speaker notes:**
-Three tensions worth naming.
+Four tensions worth naming.
+
+When to stop building token infrastructure and start shipping components. This is the one that doesn't get discussed in DS case studies. At a certain point, continued refinement of the token layer becomes procrastination. We had to make a call to stop extending the architecture and start proving it worked by shipping real components. That boundary is a judgment call, not a technical one.
 
 Naming debates: consistent naming is harder than it sounds. What one squad called a "cell" another called a "chip." These arguments look trivial from outside but they're load-bearing for adoption. If engineers can't find the component by its name, they build their own.
 
 Read-only state: engineers and designers had genuinely different mental models of what "disabled" and "read-only" meant in the system. Resolving it required both sides articulating their mental model separately, then finding where the actual difference was rather than arguing about the label.
 
-The deprecated components in search is the one worth going deeper on because it had three real options and a non-obvious right answer.
-
-[NEEDS INPUT: What were the three trade-off solutions you identified for deprecated components appearing in search?
-Rough guesses at what the options might have been:
-- A: Manually remove deprecated components from the library each time one is deprecated (fast, but creates ongoing maintenance burden)
-- B: Add a naming convention to mark deprecated components visually, so they appear in search but are clearly labeled (medium effort, doesn't remove the problem but reduces confusion)
-- C: Move deprecated components to a separate, non-searchable Figma file (most work upfront, removes the problem at the source)
-
-What were the actual three options? And which did you choose — and why wasn't it the fastest one?]
+The deprecated components in search is the one worth going deeper on because it had three real options and a non-obvious right answer. [NEEDS INPUT: What were the three options and which did you choose?]
 
 These are the decisions that determine whether a DS actually gets used. They don't get made by writing components. They get made in conversations.
 
@@ -186,7 +180,7 @@ By the end of my time at Abacum, Abax covered all five squads. Adoption was enfo
 
 The system didn't require me to be in the room for it to work. That was the outcome I was aiming for: infrastructure that operates independently of the person who built it. If I had left and nothing changed in how the squads worked, the DS had succeeded. If it needed me to maintain it, it was still a side project.
 
-One thing I'd do differently: the naming governance for tokens. The semantic layer was correct, but naming conventions drifted over time as new tokens got added by different people without a clear standard. I'd establish that explicitly and earlier — not as a document, but as a review step in the contribution process.
+One thing I'd do differently: the naming governance for tokens. The semantic layer was correct, but naming conventions drifted over time as new tokens got added by different people without a clear standard. I'd establish that explicitly and earlier, not as a document, but as a review step in the contribution process.
 
 ---
 

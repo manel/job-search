@@ -121,6 +121,56 @@ Key signals:
 
 Stack: Figma variables, Token Studio, Style Dictionary, GitHub submodule, Storybook, ESLint, npm packages, Chromatic
 
+#### Figma file audit — Remuner | ⚛️ Core (June 2026)
+
+Source: live Figma file read via Desktop Bridge. This is the actual token file, not documentation.
+
+**Architecture — 4 collections, 630 variables:**
+- `branding` (2 variables, 1 mode) — the two brand colors: blue and green
+- `_core` (417 variables, 1 mode) — full primitive scales: grey, blue, green, red, orange, yellow, pink, purple, cyan, brown; brand blue/green; gold/silver/bronze; chart palettes (9 colors); chip palettes (9 colors); dimensions; border-radius; raw font values
+- `product` (189 variables, 1 mode) — semantic tokens: color/text/*, color/icon/*, color/bg/*, color/border/*, space/*, formElements, stateLayer, and all domain-specific tokens
+- `typography` (22 variables, 2 modes: desktop + mobile) — responsive type scale: 9 semantic font sizes, 3 weights, 6 line heights, 3 letter spacings, 1 font family
+
+By type: 535 COLOR · 88 FLOAT · 7 STRING. **No Figma styles — 100% variables.**
+
+**Domain-specific tokens (signals the system served real product surfaces, not generic UI):**
+- `ranking/` — 1st/2nd/3rd/other × text, bg, icon, border, hover, highlight states. Backed by full gold/silver/bronze primitive scales.
+- `tiers/` — current and past tier states (text, icon, border)
+- `progress/` — progress indicator text and bg states
+- `space/tableCell/compact` + `space/tableCell/comfortable` — table density tokens
+- `color/chart/*` — 9 semantic chart colors × light/default/dark variants each
+- `color/chip/*` — 8 semantic chip colors × bg/text/icon
+
+**Explicit scope boundaries (what was not built):**
+- Dark mode — `product` collection has a single "Value" mode, no light/dark theming
+- Elevation/shadow tokens — not present
+- Motion/animation tokens — not present
+- Grid, layout, breakpoint tokens — not present
+
+**Governance evidence in the file:**
+- `color/chart/⛔ rankingFirst (TO DELETE)`, `rankingSecond (TO DELETE)`, `rankingThird (TO DELETE)` — old flat ranking tokens, deprecated and replaced by the structured `ranking/` namespace. Still present in the file, explicitly marked. Staged deprecation: nothing removed quietly.
+
+#### Figma file audit — Remuner | 💠 Components (June 2026)
+
+Source: live Figma file read via Desktop Bridge. 63 pages total, 54 with components.
+
+**Generic UI components (what any DS would cover):**
+Avatar, Avatar Group, Icon, Banner, Alert, Snackbar, Button (130 variants), IconButton, BulkActions, SplitButton, FAB, Chip (60 variants + FrequencyChip + RankingChip), Divider, Dialog (12 variants + Compositions), Popover, BottomSheet, Tooltip, Tabs, Menu, ActionsMenu, Pagination, Step, Slider, Checkbox, Radio, RadioGroup, Select (131 variants), Segmented Control, Switch, Textarea, TextField, Autocomplete, Date Input, Date Picker, File Input, Color Picker, Appbar, Navigation, Subheader, ListItem, ListPanel
+
+**Domain-specific components (unique to Remuner's product):**
+- `Chart` — 21 component sets: bar grouped, bar stacked, waterfall, area chart, pie, ranking chart variants
+- `Cards` — 24 sets with named product-persona variants: Individual/Metric, Individual/Payout, Individual/Ranking, Individual/Average, Individual/Operations, Manager/Ranking, Manager/UsersDetails, Designer/Payout, Simulator/Card
+- `Progress Bar` — 8 sets including ranking-specific (1st/2nd/3rd/default), pace indicators, metric progress bars, widget progress bars
+- `Widgets` — 16 sets: IC (individual contributor) and Manager content views covering metrics, earnings, payments, personal targets, rankings, pending payments
+- `Tiers` — tier blocks and indicators (links to tiers/ token domain)
+- `Remu` — 6 sets: the AI assistant widget (saved chats, header, footer, content states)
+- `Email` — full email template system: header, footer, icons, content slots, templates
+
+**Mobile coverage:** Cards, Table, Appbar, Subheader, BottomSheet, Chips, Widgets, Pagers all have explicit mobile variants.
+
+**Governance evidence in components:**
+- `DEPRECATED → Select` — entire page retained for the old Select component, explicitly named deprecated. Same mark-before-delete discipline as the ⛔ token pattern. Consistent across both layers.
+
 Internal reference (names never appear in live copy): Julian (head of design, Abacum, co-led DS business case). Raw intake material lives in `context/design-systems-notes.md`.
 
 ---
