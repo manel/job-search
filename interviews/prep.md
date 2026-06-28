@@ -106,6 +106,18 @@ Rehearse the primary answer out loud until it sounds like a fact, not a wound. T
 
 ---
 
+## Opening intro
+
+### Who I am
+
+I'm analytical and I have high standards. For my own work and for other people's. I'm not shy about pointing out what's not working, as long as I have something to back it up. I share opinions, I push back on decisions when the data says something different, and I'd rather have an uncomfortable conversation early than discover the problem later.
+
+### Work and history
+
+Eleven years in client work. That's where the range comes from: stakeholders with strong opinions, short timelines, high tolerance for ambiguity. Then Abacum: joined as the first designer on integrations, ended up co-leading the design system across five product squads. Then Remuner: sole designer, built the DS from scratch, implemented the token pipeline with AI assistance and engineer sign-off. Left in March. Now looking for a senior IC role where design has real influence upstream: shaping what gets built, not executing a decided spec.
+
+---
+
 ## Behavioral questions
 
 ### 1. Tell me about a project that didn't go as planned.
@@ -124,11 +136,19 @@ Do not: make this sound like a heroic pivot. Frame it as: a research process wor
 
 ### 2. Tell me about a time you missed a deadline. What happened?
 
-[NEEDS YOUR STORY]
+Use: KOM — WordPress e-commerce build.
 
-A real one from KOM or Abacum. What I'd look for in a good answer: the reason was a constraint that wasn't visible at scoping (not negligence), you communicated early rather than late, you made a call about what to ship and what to defer, the stakeholder relationship survived.
+Setup: client project with a scope that was larger than the timeline could absorb. Realized during the build that delivery on the agreed date wasn't going to happen.
 
-Avoid a story where the miss was your error and there was no learning. Avoid a story that's too small to be interesting at senior level.
+The hard part: called the client proactively. They were angry. Absorbed it — no defensiveness, no excuses.
+
+The turn: once the call settled, proposed shipping the site on the original date without the purchase functionality. Added "coming soon" messaging and an email capture form instead.
+
+Why it worked: the client got a live site on time. They could build an audience before the shop opened. The delay became useful — an email list they wouldn't otherwise have had before launch.
+
+What to emphasize: proactive communication over silent overrun. The decision to scope the partial launch was made together with the client, not imposed. The email capture was a genuine product call, not a patch.
+
+What to avoid: don't frame this as heroic. It was a miss that was handled professionally. The learning was about front-loading scope renegotiation at the first sign of slippage, not at the deadline.
 
 ---
 
@@ -330,15 +350,15 @@ Third angle (optional): design systems work is not polish. A production token pi
 
 ### 20. What's the biggest gap in your skills right now?
 
-[NEEDS YOUR HONEST READ]
+Use: stakeholder navigation in politically complex organizations.
 
-Candidates. Honest options that could work:
-- Quantitative research at scale (your track record is qualitative and inference-based)
-- Stakeholder management in large organizations (most of your context is startup/small team)
-- Product strategy above the design layer (identifying which markets or bets to make, not just how to design for a chosen one)
-- Specific technical areas (depends on your actual gaps)
+Most of your experience is founder-driven or client-driven — short decision chains where one person says yes and it happens. At Abacum you got closer: built the DS business case with the head of design, presented to engineering leadership, got cross-squad buy-in. But still a startup with a relatively flat structure.
 
-Don't pick a "weakness that's actually a strength." Pick a real one and pair it with what you're doing about it.
+What you haven't done: aligned 4–5 stakeholders across different departments who each have partial veto and competing priorities, in an environment where the right decision alone isn't enough to move things. That's what larger orgs require and where you have least reps.
+
+What you're doing about it: the job search itself is a version of this — navigating processes with multiple stakeholders, no direct line to the decision-maker, building a case through each layer. Not the same, but the muscle is related.
+
+What to avoid: don't say "I avoid confrontation" or frame this as a personality trait. It's an organizational context gap, not a character flaw. You've done alignment work — just not at the scale or complexity of large enterprises.
 
 ---
 
@@ -376,9 +396,17 @@ The honest flip side: I really don't like doing things more than once. The cost 
 
 ### 24. Tell me about a piece of feedback that genuinely changed you.
 
-[NEEDS YOUR REAL STORY]
+Use: KOM — client feedback on hi-fi explorations.
 
-Not a critique of your visual work. Something about your process, your communication, or how you work with others. The best version: feedback that was uncomfortable to receive because it was true, and you can point to a specific change you made because of it.
+Setup: presented high-fidelity explorations to a client. The client stopped the review and said to go low-fidelity first — validate the direction before investing in polish.
+
+Why it was uncomfortable: the hi-fi work was already done and it was good. The feedback wasn't about quality, it was about sequencing. That's a harder correction to absorb — you hadn't made a skill mistake, you'd made a process mistake.
+
+What changed: deliberately restructured how design phases work. Low-fi and stakeholder validation before any hi-fi. Not as a rule to follow, but because the client's point was correct: the cost of being wrong at hi-fi is much higher than the cost of being wrong at lo-fi. You were spending time on precision before the direction was confirmed.
+
+What to emphasize: the behavior change was structural and lasting, not a one-off adjustment. It shows up in how you work now — at Abacum, at Remuner, in this job search process. Validate first, invest second.
+
+What to avoid: don't frame this as "I was inexperienced." You were confident in the work. The feedback was about something true that you hadn't named yet.
 
 ---
 
@@ -441,6 +469,45 @@ Don't try to cover everything. One case, deep, is more effective than three case
 - "How did this connect to business outcomes?"
 
 The last one is the hardest if you don't have hard metrics. Answer: here is the qualitative signal, here is why it mattered, here is why I don't have a number, here is the proxy I would use.
+
+---
+
+### Staff-level signals checklist
+
+Run this against any deck before a Senior Staff or Staff-level interview. A deck that only passes Senior checks reads as "strong executor." A deck that passes these reads as "strategic operator."
+
+**1. Opening frame**
+The first 60 seconds must signal: ambiguity + leverage + strategic allocation. Not domain or craft. The opening is not "here is the design system work I did." It is "here is a case that reflects how I decide where design investment creates the most leverage in an under-resourced environment." If you wouldn't open with those words, rewrite the first slide.
+
+**2. Constraint framing**
+Constraints must read as strategic, not operational. "I was the only designer" is a capacity note. "Bandwidth was a strategic allocation problem — every infrastructure investment competed with revenue-generating product work" is a Staff signal. Visualise the tension: product delivery vs. system quality vs. team scalability. Impossible to maximise all three simultaneously. Naming that tension explicitly is what separates a senior who navigated constraints from a Staff who managed them deliberately.
+
+**3. Prioritisation as a section, not an afterthought**
+Show the decision framework: what criteria drove what got built, deferred, or escalated. Three-axis model that works: business impact (does this accelerate delivery or reduce repeated engineering effort?), dependency pressure (is complexity compounding? will delay increase cost?), user pain (is inconsistency causing visible friction?). Include a concrete table — at minimum 3–4 decisions with outcomes. This slide alone is the missing Staff signal in most portfolios.
+
+**4. Show restraint explicitly**
+"What I chose NOT to build" deserves its own callout — a section header, a table column, or a dedicated annotation. Deferred decisions with stated reasoning are evidence of judgment. Without this, the deck reads as a build log. With it, it reads as a resource allocation record.
+
+**5. Surface PM-like behaviours**
+Tickets created, backlog participation, sprint prioritisation discussions, system debt treated as first-class roadmap items alongside product features — these must appear explicitly, not be implied. Make the influence chain visible: observation → framing → ticket → sprint prioritisation → roadmap impact. If you shaped what got built, not just how it looked, that chain must be traceable in the deck.
+
+**6. Outcome buckets over artifact lists**
+Replace "here is what I shipped" with four outcome categories:
+- Product velocity: what repeated work was eliminated
+- Engineering consistency: what previously implicit decisions became enforceable
+- Team scalability: what got faster or cheaper to onboard
+- Organisational behaviour: what changed in how the team plans, not just what it ships
+
+The last one is the hardest to fill but the strongest Staff signal. "Infrastructure became part of planning, not ad hoc cleanup" is not a technical outcome — it is an organisational outcome. That is what Staff designers produce.
+
+**7. Closing meta-lesson**
+End with the underlying tradeoff, not the artifact. Not "I built a design system." Not "adoption was high." Something like: "The biggest lesson wasn't about component architecture — it was learning how to continuously balance short-term delivery against long-term leverage. That tradeoff is, in practice, a core part of this kind of work." The meta-lesson signals you understand what the role actually is.
+
+**8. No hard metrics — own it proactively**
+Don't wait to be asked about numbers. Name the proxies confidently in the deck itself: qualitative signals, operational signals (what got unblocked), and the CTO/stakeholder observation if available. If pressed: "I didn't have instrumentation in place to measure it. What I can point to is what the work made possible." Never apologise. Frame it as a startup reality and move on.
+
+**9. Keep a second non-DS story ready**
+If the primary case is infrastructure-heavy, a Design Director will probe for product discovery, user research, or ambiguity navigation. Prepare one non-DS case beat — a messy workflow problem, a research-driven direction change, a business tradeoff. This prevents being read as "infrastructure specialist" when the role requires product breadth.
 
 ---
 

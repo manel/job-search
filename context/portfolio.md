@@ -102,7 +102,7 @@ Real tensions worth surfacing in copy or interviews: when to stop building token
 
 #### Remuner
 
-Starting condition: the product's visual design was reasonable, but implementation was fragmented. Zero Figma components; each engineer had built their own component set, with MUI defaults filling gaps. The problem was implementation fragmentation, not bad design. Team grew from 2 to 5 FEs during tenure.
+Starting condition: the product didn't look broken, but it wasn't designed with system thinking. Built by a graphic designer: decisions made screen by screen, no typographic scale, no spatial rhythm, no component logic. Visually passable; no structure underneath. Implementation side matched: zero Figma components, each engineer had built their own component set with Vuetify defaults filling gaps. The gap was in both layers. Team grew from 2 to 5 FEs during tenure.
 
 - Built the component library from scratch. Sole designer. Buy-in was easy; the constraint was bandwidth (couldn't slow product work), which shaped the start-small approach
 - Started with a small token set deliberately — lesson applied from Abacum (bigger token set created drift and maintenance overhead)
@@ -202,6 +202,37 @@ Cases must show:
 - Cross-functional influence
 - Measurable or operational impact
 - What made it hard
+
+## Staff-level signals for written cases
+
+The master checklist lives in `interviews/prep.md` (Case presentation round → Staff-level signals checklist). That version is written for in-person deck presentation. Below is how each point adapts to written, async portfolio cases — where there are no speaker notes and no conversation to recover from.
+
+**1. Opening frame**
+The first paragraph of the case must signal ambiguity + leverage + strategic allocation — not domain or craft. A reader who skims only the opener should understand: this is about deciding where design investment creates the most leverage, not about shipping a deliverable. If the opener describes what was built, rewrite it to describe the decision context.
+
+**2. Constraint as a named section**
+"I was the sole designer" is one sentence. A Staff-level constraint section does three things: names the allocation problem explicitly ("every infrastructure week competed with a product delivery week"), shows the structure of the tension (e.g. product velocity vs. system quality vs. team scalability — impossible to maximise all three), and makes clear that this tension was managed deliberately, not absorbed passively.
+
+**3. Prioritisation as a section with a concrete table**
+Include a named section — "How I decided what to build" or equivalent — with a visible decision framework and a table of at least 3–4 real choices: what was prioritised, what was deferred, and why. Written cases that omit this read as build logs. Cases with this section read as strategic records.
+
+**4. Restraint as a visible subsection**
+"What I chose not to build" should appear as a callout or dedicated heading, not be implied by absence. Name the deferred items. Name the reasoning. Staff credibility comes from visible tradeoff discipline, and readers can't see deferred decisions unless you show them.
+
+**5. PM-like behaviours in the body**
+Ticket creation, sprint prioritisation participation, system debt treated as first-class roadmap items — these must appear in the body of the case, not in speaker notes that don't exist. If you shaped the backlog, name it. If you created the ticket that unlocked the work, say so. Make the influence chain traceable: observation → framing → ticket → sprint → shipped.
+
+**6. Outcome buckets, not artifact lists**
+The outcomes section should be structured around impact categories, not things shipped. Four categories that work: product velocity (what repeated work was eliminated), engineering consistency (what previously implicit decisions became enforceable), team scalability (what got faster or cheaper to onboard), organisational behaviour (what changed in how the team plans). The last category is the hardest to write and the strongest signal.
+
+**7. Closing meta-lesson**
+The final section of the case must name the underlying tradeoff — not the artifact, not the process step. "The biggest lesson wasn't about component architecture. It was learning to continuously balance short-term delivery against long-term leverage." If the case ends on an artifact or a quote, it's ending at the wrong level.
+
+**8. Own missing metrics in the body**
+Don't wait for a follow-up question. A sentence in the outcomes section that names the proxies and acknowledges the absence directly is stronger than a silent gap. "No instrumentation was in place to measure X. The signals I can point to are: [Y], [Z], and the CTO's observation that [quote]." Confidence, not apology.
+
+**9. Portfolio breadth check**
+If the only case is DS/infrastructure, a hiring manager may read the portfolio and pigeonhole. Before any application, check whether the portfolio as a whole shows: at least one product discovery story, at least one user research story, at least one decision-under-ambiguity story that is not primarily about systems. If not, the case selection needs to change or the written framing needs to carry the breadth.
 
 ## Case study storytelling principle
 

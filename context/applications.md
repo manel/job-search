@@ -33,7 +33,7 @@ Use these statuses everywhere (this file, /update-pipeline, /new-application):
 | Senior Product Designer | Finom | 🟢 applied | 2026-06-02 | Nudge 2026-06-16 | €78K position | https://jobs.eu.lever.co/pnlfin/b5a8e88e-ed56-4260-8425-7f7a99ad6fb7 |
 | Lead Design Systems | BVNK | 🟢 applied | 2026-06-01 | Nudge 2026-06-15 | €90K position | https://job-boards.eu.greenhouse.io/bvnk/jobs/4876105101 |
 | Senior Product Designer (Integrations) | Typeform | 🟢 applied | 2026-05-26 | If no reply from M. Lynch by 2026-06-18, one follow-up, then stale 2026-06-30 | No salary stated at application. 2026-06-11: connection request + message to Michael Lynch (Global Hiring) | https://job-boards.greenhouse.io/typeform/jobs/7913052 |
-| Founding Product Designer | Factorial | 🔵 interviewing | 2026-05-26 | Book screen via Lucia Lorenzo Santos link. Confirm which role (invite says "Senior PD", applied as "Founding PD — tech spinoff") | 2026-06-11: Liliana (ex-Remuner) asked to confirm receipt. 2026-06-16: screen invite from Lucia (Talent Acquisition). Warm path worked. | https://careers.factorialhr.com/job_posting/founding-product-designer-factorial-tech-spinoff-282888 |
+| Senior Product Designer (IT spinoff) | Factorial | 🔵 interviewing | 2026-05-26 | Prep and confirm Round 2 with Marta Serrano (Design Director), Mon 2026-06-29 10am (requested, unconfirmed) | 2026-06-22: screen with Lucia done, advanced. Role confirmed as Senior/Staff PD (not Founding). 2026-06-11: Liliana (ex-Remuner) warm path worked. | https://careers.factorialhr.com/job_posting/founding-product-designer-factorial-tech-spinoff-282888 |
 
 ## Closed
 

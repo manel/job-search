@@ -2,18 +2,37 @@
 
 **Best for:** Founding designer roles, sole-designer contexts, early-stage companies that need infrastructure built from scratch.
 **Duration:** 25-35 minutes including Q&A. Walk-through aim: 15-20 minutes.
-**Lead framing:** Lessons applied deliberately from a larger context to a smaller, constrained one. Every decision was shaped by what I'd watched fail at scale. The production incident that hardened the pipeline is the learning arc, not a footnote.
+**Lead framing:** Operational leverage as the first designer in a scaling B2B company. Systems thinking applied under real constraints. The production incident is the learning arc, not a footnote.
 
 ---
 
-## Slide 1 — Cover
+## Slide 1 — Cover [NEW]
+
+**Headline:** Building operational leverage as the first designer
+
+**Subheadline:** Remuner, 2024-2026. One designer, a growing engineering team, and the question of how to create shared foundations without slowing product delivery.
+
+**Speaker notes:**
+When I joined Remuner, the company had a scaling problem, not a visual one. Every screen a designer produced had to be built from scratch by whichever engineer picked it up. Each new engineer extended the inconsistency further. The product's quality was bottlenecked by the absence of a shared contract between design and engineering.
+
+My job wasn't to build a design system. It was to create leverage: reduce the per-screen decision overhead, make the engineering team faster at shipping consistent UI, and do it without stopping product delivery.
+
+This case covers how I did that as the sole designer, alongside continuous product work, on a team that went from two engineers to five.
+
+---
+
+## Slide 1-OLD — Cover [SKIP]
 
 **Headline:** A design system as the sole designer at a startup
 
 **Subheadline:** Remuner, 2024-2026. From fragmented implementation to a production system with CI enforcement
 
 **Speaker notes:**
-This is the design systems work I did at Remuner. Context upfront: I was the sole designer. No design team, no design infrastructure when I arrived. The story is about applying what I'd learned at Abacum under tighter constraints, and about a production incident that changed what "done" means for infrastructure.
+I picked this case because IMO it fits the role you are hiring for. Being a founding designer means being a sole designer from day zero without or with little infrastructure to inherit.
+
+I was the sole designer at Remuner. No components, no tokens, no shared contract between design and engineering when I arrived. Everything in this case was built alongside product delivery on a team that went from three engineers to six.
+
+I'm going to share the process, the decisions and mistakes.
 
 ---
 
@@ -21,12 +40,14 @@ This is the design systems work I did at Remuner. Context upfront: I was the sol
 
 **Headline:** Not a bad-looking product. A fragmented implementation.
 
-**Visual:** Diagram or screenshot comparison: the product UI on the left (looks reasonable), the implementation layer on the right (each FE with their own component implementation, MUI defaults filling gaps, zero Figma components).
+**Visual:** Diagram or screenshot comparison: the product UI on the left (looks reasonable), the implementation layer on the right (each FE with their own component implementation, Vuetify defaults filling gaps, zero Figma components).
 
 **Speaker notes:**
-When I joined Remuner, the product's visual design was acceptable. But implementation was fragmented: each engineer had built their own component set, with MUI defaults filling gaps. There were zero Figma components. Every screen was a one-off.
+The product didn't look broken. But it wasn't designed with system thinking. The person who built it came from a graphic design background: decisions were made screen by screen, without the foundations that make a product consistent at scale. Visually it held together, but there was no structure underneath.
 
-The product looked fine. There was no shared contract between design and development. Every screen I designed had to be implemented from scratch by whichever engineer picked it up.
+On the implementation side it matched: each engineer had built their own component set, with Vuetify defaults filling the gaps. Zero Figma components. Every screen had to be built from scratch by whichever engineer picked it up.
+
+The gap was in both layers, not just the implementation.
 
 ---
 
@@ -37,48 +58,55 @@ The product looked fine. There was no shared contract between design and develop
 **Visual:** Timeline: 2 FEs at hire, 5 FEs at departure. Single designer icon across the whole timeline.
 
 **Speaker notes:**
-Unlike Abacum, where the whole challenge was getting engineering buy-in, here buy-in was straightforward. The team could see the fragmentation. The constraint was purely bandwidth.
+Buy-in was easy. The team could see the fragmentation. The constraint was purely bandwidth.
 
-Two constraints shaped every decision on the system.
+I judged systemization as the highest-leverage investment because engineering headcount was doubling. Each new engineer without a shared system would pick up the existing fragmented patterns and extend them. The cost of not having a system increased with every hire. Two FEs when I joined, five by the time I left.
 
-First: I was the sole designer. There was no one else to own the DS work while I handled product delivery. If I spent three months building a design system, three months of product design work wouldn't happen.
-
-Second: the engineering team was growing. Two frontend engineers when I joined, five by the time I left. A growing team without a shared system gets messier faster. Each new engineer would pick up the same fragmented patterns and extend them further.
-
-The system covered 54 component families: generic UI primitives plus a full domain-specific layer for Remuner's product surfaces. All of it built as the sole designer, alongside continuous product delivery. The constraint shaped every scope decision.
+The sole designer constraint shaped everything. If I spent three months building infrastructure, three months of product delivery wouldn't happen. So the system had to be built in parallel, not instead.
 
 ---
 
-## Slide 4 — Applied lesson
+## Slide 4 — Scope, format, pipeline [NEW]
+
+**Headline:** Three decisions that shaped how the system scaled
+
+**Visual:** Three-column layout: (1) Scope — what was deferred vs built; (2) Format — token export format matching engineering stack; (3) Pipeline — flow diagram showing Token Studio → Style Dictionary → GitHub → Vuetify/Storybook.
+
+**Speaker notes:**
+Three decisions shaped how the system scaled without getting in the way of product delivery.
+
+Scope: I went tighter than my Abacum experience. Build what the product uses now, extend when it needs more. Dark mode and motion tokens were deferred explicitly. No hypothetical surfaces — every token and component earned its place by being used.
+
+Format: The engineers worked in Vuetify, which uses Sass variables. I exported tokens as both Sass variables and utility classes to match the syntax they already thought in. This came out of the monthly FE meetings, not a top-down decision.
+
+Pipeline: Token Studio, Style Dictionary, GitHub. The foundation came from my Abacum work; engineers adapted it to Remuner's stack. At that point it was functional. The next slide covers why functional wasn't enough.
+
+---
+
+## Slide 4-OLD — Applied lesson [SKIP]
 
 **Headline:** What I decided not to build, and why
 
-**Visual:** Side-by-side: Abacum token set (broader scope) vs Remuner token set (tighter scope). Annotation: "complexity is debt you pay later." Explicit list of what was deferred on the right.
+**Visual:** Side-by-side: Abacum token set (broader scope) vs Remuner token set (tighter scope). Annotation: "complexity is debt you pay later." Two deferred items listed on the right.
 
 **Speaker notes:**
 At Abacum, the token set grew broad. That created a maintenance problem: the more tokens, the more opportunity for drift, the more decisions needed when a new surface appeared.
 
-At Remuner, I started with a smaller, more constrained set. The principle: start with what you need for current surfaces, extend deliberately. Avoid the trap of building a system for a hypothetical future product instead of the actual one.
+At Remuner, I started with a tighter scope: build what the product actually uses, extend deliberately. Avoid building for a hypothetical future product instead of the actual one.
 
-The scope decisions came down to five things that were explicitly not built.
+Two things were explicitly deferred.
 
 Dark mode. The product token collection has a single value mode, no light/dark theming. The product had no immediate need for it, and dual-mode theming would have doubled the maintenance surface from day one.
 
-Elevation and shadows. One level used throughout. Adding a full shadow scale before the product needed it would have been complexity for its own sake.
-
 Motion tokens. No duration or easing variables. Animation wasn't a design priority at that stage of the product.
 
-Grid and layout tokens. No breakpoints, columns, or gutter tokens. Layout decisions stayed in component logic.
+Everything else followed the product. Elevation and shadows were built where the product used them. Layout tokens covered the surfaces that needed them. The icon system became its own repository, explicitly decoupled from the core token file so it could be versioned and consumed independently.
 
-A standalone icon system. Icons were handled in a separate file, deliberately decoupled from the core token file.
-
-The comparison with Abacum isn't just "smaller team, smaller system." It's the same principle applied with more confidence: start with what the product actually uses.
-
-This decision came from watching what went wrong at larger scale. Constraint as a design principle, not a limitation.
+The comparison with Abacum isn't just "smaller team, smaller system." It's the same principle applied with more confidence: start with what the product actually uses, and don't pre-build what it doesn't need yet.
 
 ---
 
-## Slide 5 — Speaking the same language
+## Slide 5-OLD — Speaking the same language [SKIP]
 
 **Headline:** Tokens exported as Sass variables and utility classes
 
@@ -93,7 +121,7 @@ This decision came out of the monthly FE meetings. Not top-down. The engineers t
 
 ---
 
-## Slide 6 — Pipeline
+## Slide 6-OLD — Pipeline [SKIP]
 
 **Headline:** Token Studio → Style Dictionary → GitHub → Vuetify / Storybook
 
@@ -102,7 +130,7 @@ This decision came out of the monthly FE meetings. Not top-down. The engineers t
 **Speaker notes:**
 The token architecture had three tiers. A branding collection with two variables (the two brand colors). A core collection of 417 primitives: the full color spectrum, spacing, border-radius, and raw typography values. A product collection of 189 semantic tokens covering color, space, and domain-specific surfaces: rankings, tiers, progress indicators, table cell spacing, nine data visualization palettes.
 
-The system uses no Figma styles, only variables. Token Studio reads variables directly; building on styles would have created a parallel maintenance track alongside the pipeline. One output path was the right call.
+Variables handled the token layer — color, spacing, and all domain-specific surfaces. Token Studio reads variables directly, so the pipeline was built on variables. Text styles and elevation effect styles (S/M/L) existed alongside the variable system: typography and elevation were defined as Figma styles and consumed directly by components. The two coexisted; the pipeline owned the color and spacing layer, styles owned typography and elevation.
 
 The pipeline foundation came from my Abacum work. I brought it in; the engineers adapted it to Remuner's stack (Vuetify, Sass variables). That's the honest version of what I own and what the team did.
 
@@ -132,13 +160,13 @@ The immediate fix was straightforward: recover the file, push a fix. But the str
 **Visual:** Before/after: pipeline without guards vs pipeline with CI gates, drift checks, smoke tests, HTML sandbox. The additions annotated.
 
 **Speaker notes:**
-In February 2026, I hardened the repo using AI assistance. I'm naming that directly rather than obscuring it: I used Codex to work through the implementation step by step, with an engineer reviewing and merging each stage.
+In February 2026, I hardened the repo using AI assistance. I'm naming that directly: I used Codex to work through the implementation step by step, with an engineer reviewing and merging each stage.
 
 That produced a CI pipeline that catches breaking changes before they reach a deploy, drift detection, a W3C token format migration for standards compliance, an HTML preview sandbox, smoke tests, and JSON output for JavaScript consumers.
 
-None of that was in a spec. It came from asking what the pipeline needed to be trustworthy, not just functional. The production incident accelerated work that should have been proactive.
+None of that was in a spec. It came from asking what the pipeline needed to be trustworthy, not just functional.
 
-A designer building CI infrastructure with AI assistance is a different kind of ownership than existed before these tools. The brief was precise enough that the implementation could be delegated and validated. That changes what a designer can own technically.
+I used AI as an implementation accelerator, but ownership stayed mine: defining the architecture, validating every output, and managing the production risk. The production incident accelerated work that should have been proactive.
 
 ---
 
@@ -149,7 +177,7 @@ A designer building CI infrastructure with AI assistance is a different kind of 
 **Visual:** Meeting agenda format: progress update, open problems, goals for next month. Repeated cycle.
 
 **Speaker notes:**
-Governance at Remuner was simpler than Abacum, because the team was smaller. Monthly meetings where every frontend engineer presented what they'd built, surfaced problems, and set goals for the next month.
+Governance at Remuner was simpler than Abacum because the team was smaller. Monthly meetings where every frontend engineer presented what they'd built, surfaced problems, and set goals for the next month.
 
 This had two functions. One: a regular checkpoint to catch drift before it became debt. Two: it kept the system from being "the designer's thing." The engineers actively operated it; none of them were just consuming a doc I maintained.
 
@@ -172,7 +200,28 @@ The deferral judgment is where most of the work was. Not every inconsistency was
 
 ---
 
-## Slide 11 — Outcome
+## Slide 11 — Outcome [NEW]
+
+**Headline:** Three outcomes. Each in production, not just in Figma.
+
+**Visual:** Three-column layout: Delivery speed | Engineering consistency | Organizational scalability. CTO quote anchoring the top.
+
+**Speaker notes:**
+The CTO said "from a 2010 app to a 2020 app" unprompted during a review after the audit had been running for several months. It reflected product-wide change. A design system that only lives in Figma doesn't move a product's visual coherence.
+
+Three concrete outcomes behind it.
+
+Delivery speed. The system covered 54 component families with a full domain-specific layer: 21 chart types, card variants named for product personas, tier and progress states, nine data visualization palettes. Every screen that used those components skipped the rebuild-from-scratch cycle. [NEEDS INPUT: one specific feature that shipped faster because a DS component existed.]
+
+Engineering consistency. Token enforcement via CI and ESLint. Hardcoded hex in a PR became a caught violation, not a shipping inconsistency. Engineers started calling tokens by name in code reviews: "color-text-primary" instead of "#2D2D2D". That shift is behavioral, not cosmetic.
+
+Organizational scalability. A new designer joined late in my tenure, built a screen fast, and flagged where the system fell short instead of working around it. New engineers inherited a shared contract instead of the fragmented patterns that existed on day one.
+
+One thing I'd do differently: harden the pipeline before something breaks. The CI infrastructure came from a production incident. The learning is correct; the timing shouldn't have required an outage.
+
+---
+
+## Slide 11-OLD — Outcome [SKIP]
 
 **Headline:** "From a 2010 app to a 2020 app" (CTO, unprompted)
 
@@ -203,6 +252,31 @@ One thing I'd do differently: harden the pipeline proactively, before something 
 
 ---
 
+## Slide 12 — For this role [NEW]
+
+**Headline:** How this maps to Factorial's spinoff
+
+**Visual:** Two-column layout: left — operating principles from Remuner; right — how each maps to Factorial's domain (inventory, MDM, ticketing, onboarding workflows, analytics).
+
+**Speaker notes:**
+The products are different. The operating model is the same.
+
+You're building a new product in a domain with real operational complexity: inventory management, MDM, support ticketing, onboarding workflows, analytics. The question isn't whether to systematize. It's when, where, and at what granularity.
+
+What I'd apply directly:
+
+Start with the highest-friction workflows first, not a comprehensive system. At Remuner, the domain-specific token and component layer grew from product features demanding it, not from upfront planning.
+
+Systematize repeated patterns. Let the rest stay messy until it earns attention.
+
+Co-design with engineering around their implementation constraints. The Sass variable format came from a conversation with engineers, not a design decision imposed on them.
+
+Build lightweight governance early, before complexity compounds. Monthly FE meetings cost little and caught drift before it became debt.
+
+The founding designer job at Remuner wasn't to make the product look good. It was to make the team faster at making good product. That's the same job here.
+
+---
+
 ## Q&A preparation
 
 **"What would you do differently?"**
@@ -214,5 +288,10 @@ The start-small approach was the mechanism. Rather than building a complete syst
 **"How did this connect to business outcomes?"**
 A DS at a startup with a growing engineering team is a velocity investment. Without it, every new feature is designed and built as a one-off, and each new engineer extends the inconsistency. With it, there's a shared contract that reduces decision overhead on every screen. The CTO's comment points to something beyond velocity. The product was visibly coherent in a way it hadn't been, which matters for enterprise sales.
 
+Note: there are no hard quantitative metrics in this case (no before/after build times, no component adoption rate, no regression count). Own this proactively rather than waiting to be asked. The proxy signals are: CTO's unprompted before/after observation, the pipeline reaching production (not just Figma), and the AI product shipping on top of the system. If pressed for numbers, say: "I didn't have instrumentation in place to measure it. What I can point to is what the system made possible — and what the CTO said unprompted." Don't apologize for the absence; frame it as a startup reality and name the proxies with confidence. Flag for future: if the deck is reviewed for a role that emphasises data-driven design, add adoption enforcement data (ESLint rule hits, Storybook coverage) as a proxy metric layer.
+
 **"What's the difference between what you built here and at Abacum?"**
 Scale, constraints, and approach. Abacum: co-led a business case, worked with an engineering team that built the original pipeline, governed across five squads. Remuner: sole designer, adapted and owned the pipeline, smaller token scope by design. The same principles, applied with the constraints of a smaller team and a narrower budget. And a harder lesson learned about the difference between infrastructure that's functional and infrastructure that's trustworthy.
+
+**"How does this apply to Factorial?"**
+The spinoff context maps directly to Remuner: no prior designer, no infrastructure, greenfield product in a complex operational domain. The difference is I'd apply the same principles faster and with more confidence — and I'd harden the pipeline as part of the initial setup rather than after an incident forces it.

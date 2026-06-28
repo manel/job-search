@@ -86,4 +86,49 @@ Do not share previous compensation. Use: "I'm not sharing previous salary, but I
 
 ---
 
-*After the call: run `/debrief-interview Factorial screen` while it's fresh.*
+*After each round: run `/debrief-interview Factorial [round]` while it's fresh.*
+
+---
+
+## Debrief: Round 1 — Talent screen
+**Date:** 2026-06-22
+**Interviewer:** Lucia Lorenzo Santos, Tech Talent Acquisition
+**Outcome:** Advanced to Round 2
+
+### What happened
+
+Lucia opened by clarifying the role: not a founding designer, but a Senior/Staff Product Designer for the IT spinoff. The founding framing from the job posting was misleading — the scope is joining a team, not building solo from scratch. Adjust all prep accordingly.
+
+Questions covered: past experience, what he's looking for, ways of working, and — not in prep — how he's been using AI recently. Answered the AI question by referencing work on an external project: using AI to generate prototypes and working with design tokens.
+
+Lead story: Remuner DS, framed around impact and how the team was involved. Landed well enough to advance.
+
+### What was learned
+
+- Role is Senior/Staff PD, not Founding PD. Solo designer framing should be de-emphasized.
+- Round 2 is with Marta Serrano, Product Design Director — ~1 hour. Her lens will be different from Lucia's: expect depth on design decisions, team dynamics, and design maturity.
+- AI usage is a live question at Factorial. Have a concrete, opinionated answer ready.
+
+### Self-assessment
+
+Screen went well. The risk flagged for the next round: drifting into craft/technical detail (tokens, tooling) instead of staying at the decision layer. Marta will care about judgment, not implementation mechanics.
+
+### Next round
+
+**Round 2 — Design Director**
+Interviewer: Marta Serrano, Product Design Director
+Format: ~1 hour video call
+Options: Mon 2026-06-29 (10am–12pm), Wed 2026-07-01 (10am–12pm or 4:15pm)
+Requested: Mon 2026-06-29 at 10am — awaiting confirmation
+
+---
+
+## Round 2: Design Director
+
+**Interviewer:** Marta Serrano, Product Design Director
+**Date:** Mon 2026-06-29 (requested) or Wed 2026-07-01
+**Full prep:** `interviews/factorial-round2-director.md`
+
+---
+
+*After the call: run `/debrief-interview Factorial design-director` while it's fresh.*
