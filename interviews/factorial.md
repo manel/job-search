@@ -131,4 +131,244 @@ Requested: Mon 2026-06-29 at 10am — awaiting confirmation
 
 ---
 
-*After the call: run `/debrief-interview Factorial design-director` while it's fresh.*
+## Debrief: Round 2 — Design Director
+**Date:** 2026-06-29
+**Interviewer:** Marta Serrano, Product Design Director
+**Outcome:** Advanced to Round 3 (confirmed in-call)
+
+### What happened
+
+Led with Dataset Manager. Landed well — Marta asked a lot of follow-up questions, engaged with depth. Remuner DS and AI usage came up naturally as support: shared the DS work, Figma prototypes, and personal AI workflow. No fumbles; round ended with Marta confirming advancement to Round 3 directly.
+
+Two questions came up that weren't in prep:
+- "What would you do if you were the CEO?" — ambition/vision probe, not a standard design question.
+- "How would you build the Dataset Manager if you had full resources?" — scope expansion and prioritization probe.
+
+AI usage came up again, same thread as Lucia's screen. This is a consistent signal at Factorial, not a one-off question.
+
+### What was learned
+
+- Factorial culture framing: they are looking for **product builders — not just designers, not just engineers, not just PMs**. Marta made this explicit. The framing collapses the role boundaries: they want someone who thinks and acts across the product, not someone who executes within their lane. Applies to everyone on the team, not a designer-specific ask.
+- Spinoff is still early. Several positions open across it, suggesting active team build-out.
+- No new specifics on what the spinoff is solving beyond what Lucia shared.
+
+### Round 3 format
+
+**Live design challenge — 2 hours total.**
+- Hour 1: assignment given, work on it solo.
+- Hour 2: directors join. Present process, answer questions.
+
+**The challenge is also the leveling instrument.** They use it to evaluate whether the candidate operates at Senior or Staff level. This means the process and reasoning narrated in hour 2 carries as much weight as the output from hour 1. Staff signals to show: clarify scope before starting, name tradeoffs explicitly, frame decisions in product outcome terms, show system-level thinking before touching UI.
+
+Date not yet confirmed.
+
+---
+
+## Round 3: Live Design Challenge
+
+**Format:** 2 hours total. Hour 1: assignment given, solo work. Hour 2: panel joins, present process, Q&A.
+**Date:** Wednesday 2026-07-01, 10am–12pm CET. Confirmed.
+**Panel (hour 2):**
+- Marta Serrano — Product Design Director (organizer)
+- Alberto Martínez — Design Director, Finance domain. 15+ years PD. Previously at Prezi; built and maintained their DS. Will probe design decisions and system-level thinking.
+- Jonathan Centeno Mayado — Director of Growth. Factorial's second employee (7+ years). Leads 20+ person growth team. Not a designer — will probe product thinking, outcomes, and business framing.
+**Leveling instrument:** Factorial is explicitly using this to determine Senior vs. Staff. The output matters less than the reasoning narrated in hour 2.
+
+---
+
+### What this round is actually testing
+
+Not whether you can produce a polished design in 60 minutes. No one expects that. They're evaluating:
+
+1. **How you enter an ambiguous brief.** Do you start drawing, or do you clarify scope first?
+2. **What you choose to solve.** The brief will have a surface problem and a real problem. Staff-level candidates identify the real one.
+3. **How you narrate tradeoffs.** Not "I chose this." But "I chose this instead of X, because the tradeoff was Y."
+4. **Whether you show system-level thinking before UI.** Flows, mental models, structural decisions — before any screen-level work.
+5. **How you handle uncertainty under pressure.** They're watching whether you freeze or adapt.
+
+The directors joining in hour 2 means: the 60 minutes of solo work is evidence. The narration is the test.
+
+---
+
+### Hour 1 playbook — structure for the solo session
+
+Use this order. Do not skip steps.
+
+**First 5–10 min: Problem scoping before any design**
+
+Before touching any tool, write answers to these:
+- What is the actual user goal? Not the task, the goal.
+- Who is the user? What context are they in when they have this problem?
+- What would failure look like for them? (Framing constraint)
+- What does success look like for the business? (Not just for the user)
+- What is the constraint I'm designing within? (Time, data, technical, organizational)
+- What's the real problem here vs. what the brief names?
+
+Write this down. Literally. On a Figma page labeled "problem framing." You will reference it in hour 2.
+
+**Next 15 min: Structure before screens**
+
+Map the flow or decision structure. No UI yet. Just:
+- What are the states? (empty, loading, error, edge cases)
+- What decisions does the user face?
+- What information do they need at each step?
+- Where does the current solution break?
+
+Lo-fi sketches or boxes-and-arrows. Still no component-level detail.
+
+**Next 25–30 min: Design work**
+
+Now go into detail on 1–2 screens or 1 core flow. Don't try to cover everything. Explicitly choose scope: "I'm going to focus on X because it's where the core problem lives. Y and Z are real but I'll call them out as deferred."
+
+**Last 5–10 min: Stop and annotate**
+
+Before the directors walk in:
+- Add annotations on your key decisions. Why did you make that choice?
+- Add a "what I didn't do" section — what you deferred and why.
+- Add a "risks and open questions" section — things you'd validate before shipping.
+
+This last step is the Staff signal. Most candidates skip it. It shows constraint awareness and honesty about the work.
+
+---
+
+### Hour 2 playbook — presenting to the directors
+
+**Don't present the output. Present the thinking.**
+
+Walk it in this order:
+1. "Here's how I read the problem" — your problem framing, not the brief's framing
+2. "Here's what I chose to solve" — the real problem you identified and why
+3. "Here's the structure I landed on before going to UI" — the flows, decision points
+4. "Here's what I designed and why" — choices and explicitly, what you didn't choose
+5. "Here's what's missing" — what you'd do with more time, what's still risky
+
+On tradeoffs: name them out loud. "The tradeoff here was X vs. Y. I went with X because Z." Even if the tradeoff feels obvious to you.
+
+On uncertainty: if you made a judgment call you're not sure about, say so. "I assumed the user would be in this context. If that's wrong, the solution changes in this way." That's not weakness. That's design reasoning.
+
+**Staff signals to hit explicitly:**
+- Scope clarification before output ("the brief asked for X, I interpreted it as Y, because...")
+- Product outcome framing ("this matters because the user's actual problem is...")
+- What you chose not to build, with stated reason
+- What you'd validate before shipping
+- The meta-question: what would change if you had 2 weeks instead of 1 hour?
+
+---
+
+### Challenge type — confirmed intel
+
+**Marta confirmed:** the challenge will be drawn from one of Factorial's verticals or domains. You'll be asked to build something from zero — not diagnose a broken flow, but define and design the core product experience for a given domain.
+
+This is harder than a "fix this" prompt. You have to define the problem *and* solve it within the same 60 minutes.
+
+**Factorial's known domains (HRIS platform):**
+- Time & attendance (clock in/out, schedules, overtime)
+- Leave management (requests, approvals, balance visibility)
+- Payroll (calculation, payslips, corrections)
+- Recruitment / ATS (job posting, pipeline, candidate management)
+- Onboarding (task checklists, document signing, progress tracking)
+- Performance (reviews, goals, 1:1s)
+- Expenses (submission, approval, reporting)
+- Org structure / company hierarchy
+
+The spinoff is early-stage, so the domain may be less mature — they may be testing your ability to define what the MVP even covers, not just design a feature within an established product.
+
+**The trap:** trying to design the full product. Don't. A "build from zero" prompt requires you to choose one core user problem and one core flow. Explicitly name what you're not building and why.
+
+---
+
+### Hour 1 playbook — adapted for "build from zero"
+
+The order changes slightly because you don't have an existing product to diagnose. You're defining from scratch.
+
+**First 10 min: Define before designing**
+
+Write answers to these before touching any component or frame:
+- Who is the primary user? (HR manager, employee, team manager — pick one, don't hedge)
+- What is the one job they need to accomplish in this domain that currently creates the most friction or cost?
+- What does success look like for them? What does failure look like?
+- What is the core loop? (The thing they'll do every day or every week — not the edge cases)
+- What's the MVP boundary? What does v1 include, and what explicitly does it not?
+- What would make this product feel right even before it's feature-complete?
+
+Write this on a Figma page labeled "Problem framing." The directors will read it.
+
+**Next 15 min: Core flow before UI**
+
+Map the primary user journey at conceptual level:
+- Entry point: how does the user arrive at this problem?
+- Steps: what are the 3–5 decisions they make?
+- States: what are the key states (empty, in-progress, complete, error)?
+- Outputs: what does the user have at the end that they didn't have at the start?
+
+No UI yet. Just structure. This is where Staff signals live.
+
+**Next 25 min: Design the core flow**
+
+Pick the 1–2 screens that carry the most weight. Not the onboarding screen, not the settings page — the screen where the core problem is solved.
+
+Design with judgment about what to show. Annotation in the design is better than trying to design every state. Use labels like: "happy path only — error states deferred" or "mobile not in scope — desktop primary use."
+
+**Last 10 min: Annotate and scope the gap**
+
+Add a Figma page labeled "What I didn't build":
+- List 3–5 things you explicitly scoped out
+- Give a one-line reason for each
+- Add "If I had 2 more hours, I'd do X next, because..."
+
+This is evidence of judgment. It's not a weakness disclosure — it's a Staff signal.
+
+---
+
+### Practice framework — what to do now, before you have the assignment
+
+You've never done a live challenge before. The practice is not about the design — it's about the process discipline under time pressure. "Build from zero" format makes the scoping discipline even more critical.
+
+**Exercise 1: Domain definition drill (15 min)**
+
+Pick one of Factorial's domains below. Set a 10-min timer. Write only answers to the 6 "define before designing" questions above. No sketching, no Figma.
+
+Practice domains:
+- Leave management: design the core leave request and approval experience from zero
+- Onboarding: design the experience for a new employee completing their first week tasks
+- Expenses: design the expense submission and approval flow from zero
+
+The goal: reaching a clear problem definition and MVP boundary fast, before any design impulse fires. The temptation is to start with "what does a leave request look like." The correct start is "who is submitting, what do they need to know before submitting, and what does the approver need to act."
+
+**Exercise 2: Full mock challenge (90 min)**
+
+Pick one domain. Run the full hour 1 playbook exactly. Set a timer. Don't cheat the phases — spend real time on definition before opening any component.
+
+Then stop and walk yourself through the hour 2 narration out loud, for ~15 minutes. Record it or write it. Then ask:
+- Did you say why you picked this user and this problem?
+- Did you name what you explicitly didn't build and why?
+- Did you frame the outcome in product terms, not design terms?
+- Did you say what you'd validate before building more?
+
+**Exercise 3: Narration drill (20 min) — repurpose existing work**
+
+Take Dataset Manager. Pretend it was a "build from zero" live challenge prompt: "Design the data configuration experience for finance teams from zero." Narrate it as if you're in hour 2 — problem framing, why this user, why this flow, what you didn't build, what you'd do next.
+
+Time yourself. Stay under 12 minutes. The goal is building the narration muscle separate from the design muscle.
+
+**What to prepare in your Figma workspace before the day:**
+- A blank file with page labels pre-created: "Problem framing" / "Core flow" / "Design" / "What I didn't build"
+- A text block with the 6 definition questions pre-written — paste and fill on the day
+- Your go-to components ready (a small kit: form inputs, buttons, table rows, nav shell) — don't spend time hunting for primitives under pressure
+
+---
+
+### Salary reminder
+
+The level is still undecided — Marta likely determines it based on this challenge.
+
+- **If Senior:** €80K. Do not go lower. That is the Senior ceiling; there's no in-band growth room.
+- **If Staff:** €93K opening. Do not drop to Senior pricing if they level you Staff.
+
+If they ask about compensation during hour 2: "That depends on where this role sits in your framework — can you tell me whether you're thinking Senior or Staff?" Then quote the number for whatever they say.
+
+Do not volunteer a number before level is clarified.
+
+---
+
+*After Round 3: run `/debrief-interview Factorial challenge` while it's fresh.*

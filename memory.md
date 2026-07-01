@@ -62,6 +62,18 @@ Read this file at the start of every session alongside CLAUDE.md.
 
 ---
 
+## Interview question patterns
+
+**2026-06-29** — "What would you do if you were the CEO?" surfaced at Factorial Round 2 (Design Director). This is a vision and ambition probe, not a process question. It tests whether a candidate thinks at the product/business level or stays inside the design frame. Prepare a clear, opinionated answer about product direction — not about design craft.
+
+**2026-06-29** — "How would you build [project] if you had full resources?" (Factorial Round 2) is a prioritization and scope probe. The expected answer is not "everything" — it's a ranked argument about what matters most and why. Shows product judgment under hypothetical freedom.
+
+**2026-06-29** — AI usage has now come up in both Round 1 (Lucia) and Round 2 (Marta) at Factorial. It is a standing evaluation thread at this company, not an informal question. Have a layered answer: what changed in your workflow, where AI helps, where it doesn't. Don't just list tools.
+
+**2026-06-29** — Factorial is using the Round 3 live challenge as a leveling instrument (Senior vs. Staff). In challenge-format interviews that serve this function, the process narration in the debrief hour carries as much weight as the output. Staff-level signals in a live challenge: clarify scope before starting, name tradeoffs as you go, frame decisions in product outcome terms, show system-level thinking before touching UI. Shipping a polished screen without narrating the reasoning reads as Senior, not Staff.
+
+---
+
 ## Strategic observations
 
 **2026-06-08** — Warm referrals are higher leverage than cold applications. When assessing a new role, always check whether a warm path exists before defaulting to a cold apply.

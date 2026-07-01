@@ -110,7 +110,7 @@ Rehearse the primary answer out loud until it sounds like a fact, not a wound. T
 
 ### Who I am
 
-I'm analytical and I have high standards. For my own work and for other people's. I'm not shy about pointing out what's not working, as long as I have something to back it up. I share opinions, I push back on decisions when the data says something different, and I'd rather have an uncomfortable conversation early than discover the problem later.
+I'm analytical and have high standards, for my own work and for other people's. I point things out when they're not working, back it up with data, and push back on decisions when the evidence says something different. I'd rather have that conversation early than let a problem compound. I'm also calm by default. Complex problems focus me; they don't stress me.
 
 ### Work and history
 

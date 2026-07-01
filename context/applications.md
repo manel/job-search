@@ -1,6 +1,6 @@
 # Applications
 
-Pipeline state as of 2026-06-12. Update this file whenever a role status changes.
+Pipeline state as of 2026-06-29. Update this file whenever a role status changes.
 
 ## Status vocabulary
 
@@ -29,16 +29,16 @@ Use these statuses everywhere (this file, /update-pipeline, /new-application):
 | Role | Company | Status | Applied | Next action | Notes | URL |
 |---|---|---|---|---|---|---|
 | Senior Product Designer | Spendesk | 🟡 in-progress | — | Identify strongest bridge to a 2nd-degree contact (see Warm paths), then: settle AI agent description, set salary position, write package | Fit assessed 2026-06-12: proceed. 2nd-degree paths found 2026-06-12 incl. the Head of Product Design. Barcelona hybrid. No salary in JD; set position before cover letter. Position as product role with DS component: lead with Abacum | https://career.spendesk.com/jobs/7802636-senior-product-designer |
-| Staff Product Designer - Design Systems - 100% Remote - EMEA | Hostaway | 🟢 applied | 2026-06-04 | Nudge 2026-06-18 | €85K min / €100K max | https://careers.hostaway.com/o/staff-product-designer-design-systems-100-remote-emea |
 | Senior Product Designer | Finom | 🟢 applied | 2026-06-02 | Nudge 2026-06-16 | €78K position | https://jobs.eu.lever.co/pnlfin/b5a8e88e-ed56-4260-8425-7f7a99ad6fb7 |
 | Lead Design Systems | BVNK | 🟢 applied | 2026-06-01 | Nudge 2026-06-15 | €90K position | https://job-boards.eu.greenhouse.io/bvnk/jobs/4876105101 |
 | Senior Product Designer (Integrations) | Typeform | 🟢 applied | 2026-05-26 | If no reply from M. Lynch by 2026-06-18, one follow-up, then stale 2026-06-30 | No salary stated at application. 2026-06-11: connection request + message to Michael Lynch (Global Hiring) | https://job-boards.greenhouse.io/typeform/jobs/7913052 |
-| Senior Product Designer (IT spinoff) | Factorial | 🔵 interviewing | 2026-05-26 | Prep and confirm Round 2 with Marta Serrano (Design Director), Mon 2026-06-29 10am (requested, unconfirmed) | 2026-06-22: screen with Lucia done, advanced. Role confirmed as Senior/Staff PD (not Founding). 2026-06-11: Liliana (ex-Remuner) warm path worked. | https://careers.factorialhr.com/job_posting/founding-product-designer-factorial-tech-spinoff-282888 |
+| Senior Product Designer (IT spinoff) | Factorial | 🔵 interviewing | 2026-05-26 | Await Round 3 date — live design challenge, 2hrs. Prep brief in `interviews/factorial.md`. | 2026-06-29: Round 2 with Marta done, advanced to Round 3. Round 3 = 1hr solo build from zero (a Factorial domain/vertical), 1hr director Q&A. Leveling instrument: Senior vs Staff. Marta confirmed challenge format. 2026-06-22: screen with Lucia done. Role is Senior/Staff PD. | https://careers.factorialhr.com/job_posting/founding-product-designer-factorial-tech-spinoff-282888 |
 
 ## Closed
 
 | Role | Company | Status | Applied | Closed | Notes |
 |---|---|---|---|---|---|
+| Staff Product Designer - Design Systems - 100% Remote - EMEA | Hostaway | 🔴 rejected | 2026-06-04 | 2026-06-29 | Standard form rejection, no feedback. "Closer fit" language only |
 | Senior Design System Designer | Bitpanda | 🔴 rejected | 2026-06-01 | 2026-06-08 | Standard form rejection, no feedback |
 | Senior Product Designer (Advanced Trading) | Bitpanda | 🔴 rejected | 2026-05-21 | 2026-06-01 | Standard form rejection, no feedback. No salary stated at application |
 
