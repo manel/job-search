@@ -4,6 +4,7 @@ description: "Update a role's status in the applications pipeline. Argument: com
 allowed-tools:
   - Read
   - Write
+  - Edit
 ---
 
 # Update pipeline
@@ -27,3 +28,5 @@ Update the relevant row with the new status and today's date.
 - **skipped:** move the row to the Assessed and skipped table with the reason.
 
 Write the updated file back to `context/applications.md`.
+
+Then check `TODO.md`: if it references this role, update or remove that item in the same pass. Stale TODO entries about closed processes are how the file rots.

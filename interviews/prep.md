@@ -511,6 +511,54 @@ If the primary case is infrastructure-heavy, a Design Director will probe for pr
 
 ---
 
+## Live design challenge
+
+A distinct format from case presentation. You are given a brief in-session and expected to produce work — then present it. Increasingly common at Staff-level hiring.
+
+**What they are actually evaluating:** not the output. The reasoning and judgment visible in the output. A polished design produced the wrong way reads worse than a rough one produced the right way.
+
+### The gap the Factorial challenge exposed (2026-07-02)
+
+The prep for that round emphasized scoping down, naming what you're not building, and validating before adding complexity. That is correct execution discipline. It is not sufficient on its own.
+
+What the panel needed — and didn't see — was a vision of what the product needs to be to create real value and compete in the market. Not the minimum. The full proposition. Then, from that vision, a disciplined scoping of what this session will address.
+
+The failure mode: presenting a careful, validated, minimal solution when they wanted to see what you'd build if you were right. "Validation thinking" reads as conservative and junior. "Vision thinking" reads as Staff.
+
+**The corrected approach for any "build from zero" challenge:**
+
+**Step 0 — Vision before scoping (5 min)**
+
+Before the problem framing page, answer this in writing:
+
+- What does this product need to be to win in the market?
+- What's the full value proposition — not just the MVP, but the thing users would pay for and competitors would fear?
+- What does success look like at scale, not just at launch?
+
+This is the vision anchor. Everything else scopes down from here. Without it, you're building from the floor up. With it, you're building from the ceiling down — which reads as a different level of designer.
+
+**Then:** problem framing, core flow, design, "what I didn't build." The rest of the playbook stays.
+
+**In the hour 2 presentation, lead with the vision:**
+
+"Here's what I believe this product needs to be to create real value for this user and compete. Here's the piece I chose to design in this session as the most critical part of that — and here's why."
+
+That structure shows product thinking before craft. It also makes the scoping decision look deliberate rather than conservative.
+
+### What to avoid
+
+- Scoping down without first showing you understand the full scope. Scope decisions only read as judgment if it's clear you could have built more and chose not to.
+- "We should validate first before adding automation" in a challenge context. That framing is correct in production. In a challenge it signals you don't know what the product should eventually be.
+- Treating the brief as the problem definition. The brief gives you a domain. You define the product.
+
+### Pre-challenge checklist
+
+1. Write the vision answer before opening any design tool
+2. Make the vision visible on a labeled Figma page — the panel will read it
+3. When presenting in hour 2: state the vision before the scoping. The scoping is a response to the vision, not a substitute for it.
+
+---
+
 ## Ways-of-working round
 
 These questions test how you actually function in a team day-to-day. Interviewers are checking for: process maturity, collaboration patterns, communication, how you handle ambiguity and disagreement.

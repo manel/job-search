@@ -28,7 +28,7 @@ Count business days, not calendar days.
 
 ## Message rules
 
-All messages follow `principles.md`. Load and check against those rules before drafting.
+All messages follow `principles.md`. Load and check against those rules before drafting. Invoke the `no-ai-slop` skill before drafting and the `humanizer` skill on the draft before output. Mandatory, not opt-in.
 
 **Nudge (10-day):** One or two sentences. Applied, still interested, checking in. No apology for following up. No attachments; the portfolio link is in the original application.
 

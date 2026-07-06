@@ -371,4 +371,50 @@ Do not volunteer a number before level is clarified.
 
 ---
 
-*After Round 3: run `/debrief-interview Factorial challenge` while it's fresh.*
+---
+
+## Debrief: Round 3 — Live Design Challenge
+**Date:** 2026-07-01
+**Panel:** Marta Serrano (Product Design Director), Alberto Martínez (Design Director, Finance domain), Jonathan Centeno Mayado (Director of Growth)
+**Domain:** Orio — access management platform for IT teams at 1,000+ employee companies
+**Outcome:** Awaiting decision. Expected this week.
+
+### What was built
+
+Three Figma pages:
+- Page 1: Problem framing — real problem, user definition, scope
+- Page 2: Journey map
+- Page 3: Lo-fi design, started but not finished when the directors joined
+
+### How hour 2 went
+
+The framing held — they worked with the problem definition rather than dismantling it. Main challenge came on MVP scope: the panel pushed back on leaving automation out of the v1. Manel's argument was to validate the base system first, build user trust, then add automation. Directors disagreed — for them automation was part of the MVP, not a phase 2 feature. The disagreement wasn't resolved; the session moved forward.
+
+A question on reporting came up that wasn't in the prep: what types of reports could be derived from the system. Manel started generating report types on the spot (cost savings, etc.) instead of redirecting to user research. That was the wrong move — the answer was "I'd ask IT and Finance what decisions they're actually trying to make, then design the reports backward from that."
+
+The lo-fi reading as a refined ticketing system rather than an identity lifecycle system was likely the underlying cause of the MVP pushback.
+
+### What was learned about the team
+
+Factorial's bias is strongly toward moving fast. The panel's instinct was to ship automation in v1, not validate first. Manel's natural instinct runs more cautious — validate that the system works before adding complexity that could break trust. That's a real culture tension, not just a challenge-question difference.
+
+### Mixed signal
+
+Left with an uncertain read. The framing landed, the narration process was mostly right, but the MVP disagreement wasn't resolved and the reports question was fumbled. The feeling going out: things were left unsaid, and the execution could have been less conceptual and more concrete at the drawing-board level.
+
+---
+
+## Rejection
+**Date:** 2026-07-02
+**From:** Marta Serrano, Product Design Director
+**Outcome:** Rejected after Round 3
+
+### Marta's verbatim feedback
+
+"The main feedback is around impact thinking — we were looking for someone who could push beyond the MVP scope and think about what the product needs to be to create real value for users and compete in the market. During the session we tried to open that exploration together, but the conversation stayed close to a manual, minimal solution. At this level, we need a designer who can independently drive that shift from validation thinking to vision thinking, and articulate a clear proposition beyond what a manual workflow already solves."
+
+### Reading
+
+This is a failed live challenge, not a career signal. The rejection maps directly to the automation MVP disagreement from the session: the panel wanted a vision of what the product could be at full scope, and what was presented was a careful, minimal, validated flow. The preparation guide did not adequately cover the vision-first requirement for a "build from zero" challenge. That gap is now documented in `interviews/prep.md` under Live design challenges.
+
+The one-hour format is not a fair evaluation of a full design career. It is what it is.

@@ -4,6 +4,8 @@ description: "Generate a full application package for a role. Argument: company 
 allowed-tools:
   - Read
   - Write
+  - Edit
+  - Skill
 ---
 
 # New application
@@ -26,6 +28,10 @@ Then:
 - Add the role to `context/applications.md` with status "in-progress"
 
 Output format: plain text only. No markdown. No em dashes. Designed for copy-paste into Figma.
+
+Before drafting, invoke the `no-ai-slop` skill. After drafting, run the `humanizer` skill on both documents before saving. Both are mandatory, not optional.
+
+Enforce the length caps from `principles.md` ("Brevity and skimmability"): CV entries as one-line bullets with the strongest claim first, cover letter under 180 words in three paragraphs max. If a draft exceeds a cap, cut it before outputting; do not ask whether to.
 
 Run the humanizer checklist from `principles.md` before outputting. Flag anything that fails.
 

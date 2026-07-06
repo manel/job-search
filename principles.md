@@ -16,6 +16,23 @@ Writing rules and tone standards that apply to every output: CVs, cover letters,
 
 ---
 
+## Brevity and skimmability
+
+Recruiters scan, they don't read. A CV gets seconds on first pass; a cover letter gets less. Write every recruiter-facing document for the scan first and the close read second.
+
+- Lead with the outcome. The first line of every CV entry and every paragraph carries the strongest claim. Context comes second or not at all.
+- One idea per sentence. If a sentence holds two claims, split it or cut one.
+- Front-load the words the reader is scanning for: design systems, tokens, B2B, fintech, and the exact terms from the JD. They belong in first lines, not buried mid-paragraph.
+- Cut warm-up. Delete any sentence whose only job is setting up the next sentence.
+- Length caps (hard):
+  - CV summary: 3 lines max.
+  - CV experience entry: 3 to 4 bullets, one line each. No entry longer than 5 lines total including the role header.
+  - Cover letter: 150 words target, 180 hard cap. Three paragraphs max, no paragraph over 3 lines.
+  - Outreach and follow-up messages: 80 words max. One ask per message.
+- The 10-second test before outputting: read only the first line of each entry or paragraph. If those lines alone don't make the case, restructure.
+
+---
+
 ## AI pattern blacklist
 
 These words and phrases make copy sound generated. Never use them.
@@ -72,11 +89,14 @@ Run this before outputting any professional written content.
 - [ ] Specific over generic: names, decisions, tradeoffs, not process narration
 - [ ] Active voice throughout
 - [ ] No overclaiming ownership
+- [ ] Within the length caps from "Brevity and skimmability"
+- [ ] First lines pass the 10-second test: strongest claim first, everywhere
 
 ---
 
 ## Operating Rules
 
+- Any recruiter-facing or hiring-facing prose (CV, cover letter, outreach, follow-up, LinkedIn copy, case study copy) runs through BOTH the `no-ai-slop` and `humanizer` skills before it is returned. Invoke them via the Skill tool: `no-ai-slop` before drafting, `humanizer` on the draft before output. This is a default, not an opt-in. No exceptions for "quick" edits.
 - Whenever you are asked to write or edit prose, read `.claude/skills/no-ai-slop/SKILL.md` first.
 - Before returning any prose, self-check it against `.claude/skills/no-ai-slop/references/ai-writing-detection.md`. Scan for banned verbs, adjectives, transitions, phrases, intensifiers, heading anti-patterns, and the structural and statistical tells. Fix what you find.
 - Apply the rules to your own output too. This file, every skill, and every reply obeys the rules it states.
@@ -141,14 +161,16 @@ The full categorized lists of banned verbs, adjectives, nouns, intensifiers, ope
 ## Format rules by output type
 
 ### CV
-- Plain text only. No markdown. No bold. No bullets in the main column.
+- Plain text only. No markdown. No bold.
 - Sidebar skills section exists but is not a "core competencies" block.
 - Two-column layout implied by section structure (Claude doesn't need to reproduce the layout, just the content hierarchy).
-- Experience entries: role title, company, dates, then 3–5 lines of plain prose or tight bullets depending on section.
+- Experience entries: role title, company, dates, then 3–4 tight bullets, one line each, strongest claim first. Prose paragraphs are the exception, not the default; they produce walls of text recruiters skip.
+- Length caps from "Brevity and skimmability" apply. One page total.
 - No "Cases" section in CV. Portfolio URL handles navigation.
 
 ### Cover letter
-- Plain text. Three to four paragraphs.
+- Plain text. Three paragraphs max, 150 words target, 180 hard cap.
+- First sentence states the fit, not who you are. The recruiter already has the CV.
 - No subject line unless specifically requested.
 - No sign-off flourishes beyond "Best, Manel" or equivalent.
 - Salary position confirmed before writing. Stated clearly in the letter if the role asks for it or it's strategically appropriate.

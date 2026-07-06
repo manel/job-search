@@ -4,6 +4,7 @@ description: "Capture what happened in an interview while it's fresh. Argument: 
 allowed-tools:
   - Read
   - Write
+  - Edit
 ---
 
 # Debrief interview

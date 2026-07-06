@@ -4,6 +4,7 @@ description: "Weekly sourcing session — batch-assess new roles and clean the p
 allowed-tools:
   - Read
   - Write
+  - Edit
   - WebFetch
 ---
 

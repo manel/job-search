@@ -1,6 +1,6 @@
 # Applications
 
-Pipeline state as of 2026-06-29. Update this file whenever a role status changes.
+Pipeline state as of 2026-07-02. Update this file whenever a role status changes.
 
 ## Status vocabulary
 
@@ -21,23 +21,24 @@ Use these statuses everywhere (this file, /update-pipeline, /new-application):
 - ~3 weeks with no response: find the hiring manager or a designer on the team on LinkedIn. Use `context/outreach.md`.
 - 5 weeks with no response: mark stale. Stop investing.
 - Record every follow-up action in the Next action column with its date.
+- Convention: the first date in a Next action cell is its due date. A SessionStart hook (`.claude/hooks/check-overdue.sh`) flags rows whose first date has passed, so lead with the due date and keep other dates out of that cell.
 
----/cl
+---
 
 ## Active
 
 | Role | Company | Status | Applied | Next action | Notes | URL |
 |---|---|---|---|---|---|---|
-| Senior Product Designer | Spendesk | 🟡 in-progress | — | Identify strongest bridge to a 2nd-degree contact (see Warm paths), then: settle AI agent description, set salary position, write package | Fit assessed 2026-06-12: proceed. 2nd-degree paths found 2026-06-12 incl. the Head of Product Design. Barcelona hybrid. No salary in JD; set position before cover letter. Position as product role with DS component: lead with Abacum | https://career.spendesk.com/jobs/7802636-senior-product-designer |
-| Senior Product Designer | Finom | 🟢 applied | 2026-06-02 | Nudge 2026-06-16 | €78K position | https://jobs.eu.lever.co/pnlfin/b5a8e88e-ed56-4260-8425-7f7a99ad6fb7 |
-| Lead Design Systems | BVNK | 🟢 applied | 2026-06-01 | Nudge 2026-06-15 | €90K position | https://job-boards.eu.greenhouse.io/bvnk/jobs/4876105101 |
-| Senior Product Designer (Integrations) | Typeform | 🟢 applied | 2026-05-26 | If no reply from M. Lynch by 2026-06-18, one follow-up, then stale 2026-06-30 | No salary stated at application. 2026-06-11: connection request + message to Michael Lynch (Global Hiring) | https://job-boards.greenhouse.io/typeform/jobs/7913052 |
-| Senior Product Designer (IT spinoff) | Factorial | 🔵 interviewing | 2026-05-26 | Await Round 3 date — live design challenge, 2hrs. Prep brief in `interviews/factorial.md`. | 2026-06-29: Round 2 with Marta done, advanced to Round 3. Round 3 = 1hr solo build from zero (a Factorial domain/vertical), 1hr director Q&A. Leveling instrument: Senior vs Staff. Marta confirmed challenge format. 2026-06-22: screen with Lucia done. Role is Senior/Staff PD. | https://careers.factorialhr.com/job_posting/founding-product-designer-factorial-tech-spinoff-282888 |
+| Senior Product Designer | Spendesk | 🟡 in-progress | — | Due 2026-07-04: set salary position, write package. Use canonical AI agent description (manager claim confirmed safe 2026-07-06, see memory.md); don't gate on the Sasha probe | Fit assessed 2026-06-12: proceed. 2nd-degree paths found 2026-06-12 incl. the Head of Product Design. Barcelona hybrid. No salary in JD; set position before cover letter. Position as product role with DS component: lead with Abacum. De-scoped 2026-07-02: was blocked 3 weeks on the AI agent description | https://career.spendesk.com/jobs/7802636-senior-product-designer |
+| Senior Product Designer | Finom | 🟢 applied | 2026-06-02 | Due 2026-07-03: send LinkedIn outreach to a design lead (draft ready). Stale 2026-07-10 if silent | €78K position. 10-day nudge (due 2026-06-16) was never sent; at 4+ weeks the 3-week LinkedIn step applies instead | https://jobs.eu.lever.co/pnlfin/b5a8e88e-ed56-4260-8425-7f7a99ad6fb7 |
+| Lead Design Systems | BVNK | 🟢 applied | 2026-06-01 | Due 2026-07-03: send LinkedIn outreach to hiring manager or senior DS designer (draft ready). Stale 2026-07-10 if silent | €90K position. 10-day nudge (due 2026-06-15) was never sent; at 4+ weeks the 3-week LinkedIn step applies instead | https://job-boards.eu.greenhouse.io/bvnk/jobs/4876105101 |
 
 ## Closed
 
 | Role | Company | Status | Applied | Closed | Notes |
 |---|---|---|---|---|---|
+| Senior Product Designer (Integrations) | Typeform | ⚪ stale | 2026-05-26 | 2026-07-02 | Marked stale at 5+ weeks per policy. M. Lynch (Global Hiring) never replied to 2026-06-11 LinkedIn message; the 2026-06-18 follow-up was never sent. Stop investing |
+| Senior Product Designer (IT spinoff) | Factorial | 🔴 rejected | 2026-05-26 | 2026-07-02 | 3 rounds incl. live design challenge. Rejection feedback: "stayed close to a manual, minimal solution" — panel wanted vision-first thinking, not validation-first. See `interviews/factorial.md`. |
 | Staff Product Designer - Design Systems - 100% Remote - EMEA | Hostaway | 🔴 rejected | 2026-06-04 | 2026-06-29 | Standard form rejection, no feedback. "Closer fit" language only |
 | Senior Design System Designer | Bitpanda | 🔴 rejected | 2026-06-01 | 2026-06-08 | Standard form rejection, no feedback |
 | Senior Product Designer (Advanced Trading) | Bitpanda | 🔴 rejected | 2026-05-21 | 2026-06-01 | Standard form rejection, no feedback. No salary stated at application |
@@ -74,7 +75,7 @@ Use these statuses everywhere (this file, /update-pipeline, /new-application):
 
 ## Warm paths
 
-- Factorial: Liliana, former Remuner coworker, now at Factorial. Activated 2026-06-11 — asked to confirm the application arrived and route to the right person. The strongest path in the pipeline right now.
+- Factorial (closed 2026-07-02): Liliana, former Remuner coworker, now at Factorial. Activated 2026-06-11, but the recruiter had already contacted Manel off the application before the referral did anything. The interview process came from the cold application, not the warm path. Liliana remains a contact for any future Factorial role.
 - Perk Flights: former Abacum contact potentially available as warm intro. Genuine interest unresolved — do not pursue until that's answered.
 - Linear: no warm path identified yet. Worth researching before applying.
 - Spendesk: 2nd-degree paths found 2026-06-12. Only real bridge: Sasha Lamachenka (ex-Abacum colleague), but her Spendesk mutuals are non-design (Swann M., support engineer; Cristina Maria, PM). Probe sent/pending: ask Sasha if she knows them or anyone else at Spendesk well. Other bridges (Jakob Fiedler, Jorge Casals → Cyrièle Piancastelli, Head of Product Design; Eugeni Vila d'Abadal, Jens Bringsjord → Lorenzo Selvaggi, Senior PD Barcelona; Sébastien Hézard → Rachel Belkadi, Senior PD AI) are weak relationships, not usable for intros. Fallback after applying: connection request with note to Lorenzo Selvaggi. Don't gate the application on the probe. No parallel outreach.

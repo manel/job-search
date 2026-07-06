@@ -188,7 +188,13 @@ Corrected facts (2026-06-12, from Manel):
 
 ### Remuner work that is NOT yet a case (recorded 2026-06-12)
 
-**AI agent for sales reps and managers.** Shipped. Feedback existed but is no longer accessible; no recoverable data. The exact function of the agent is NOT yet recorded in this project — ask Manel and write it down before using any detail in copy. CVs sent before 2026-06-12 described it as "generates compensation letters", which is the conflation error; if an interviewer asks about it from an old CV, Manel should describe the agent accurately and move on.
+**AI agent for sales reps and managers.** Shipped, GA to all customers before March 2026. Canonical description (from Manel, 2026-06-12, recorded in memory.md and transferred here 2026-07-06): a chat panel plus embedded answers inside the app that let sales reps consult their own data: ERP line items, aggregations by period, where to focus, understanding their sales plan and decisions based on it. Manel owned the full UX/UI, conversation design (tone, answer formats), capability scoping with PM and engineering, and trust/accuracy patterns. Post-release feedback was mixed; he iterated on tone, response format, and per-customer terminology (the same object was a "deal", "contract", or "item" depending on the customer).
+
+Managers confirmed as real users (Manel, 2026-07-06): most managers had a compensation plan of their own, and they could also query team info through the agent. "And managers" is safe in all copy.
+
+Evidence position: no claimable metrics or named signal. Pre-release user interviews showed strong interest ("a genuine tool to improve their work"). Own the absence of metrics; the post-GA iteration loop is the interview story, not a public claim.
+
+CVs sent before 2026-06-12 described the agent as "generates compensation letters" (conflation with the separate rep letters project); if an interviewer asks about it from an old CV, describe the agent accurately and move on.
 
 **Sales rep plan creation experience for admins.** Designed in Manel's final months (late 2025 / early 2026). In development when he left in March 2026; some of it was built and ready for internal testing. If ever used as case material, the only honest framing is: designed end to end, partially built at departure, outcomes unknown. Never imply it shipped.
 

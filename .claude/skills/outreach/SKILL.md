@@ -69,7 +69,7 @@ Constraints:
 
 ## Writing rules
 
-Load and apply `principles.md` before drafting.
+Load and apply `principles.md` before drafting. Invoke the `no-ai-slop` skill before drafting and the `humanizer` skill on the draft before output. Mandatory, not opt-in.
 
 - No em dashes
 - No banned vocabulary (insights, leverage, streamline, enable, journey, and the full list in principles.md)

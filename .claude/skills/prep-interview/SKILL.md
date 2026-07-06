@@ -4,6 +4,7 @@ description: "Prepare for a specific interview round at a company. Argument: com
 allowed-tools:
   - Read
   - Write
+  - Edit
 ---
 
 # Prep interview

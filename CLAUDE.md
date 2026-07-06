@@ -37,6 +37,7 @@ job-search/
 │   ├── linkedin.md             ← profile copy, audit, maintenance checklist
 │   ├── outreach.md             ← warm paths, referral asks, silent-application outreach
 │   ├── job-boards.md           ← where to search, what works
+│   ├── brand.md                ← canonical visual language for any visual artifact
 │   └── design-systems-notes.md ← raw DS intake archive (distilled into portfolio.md)
 ├── cv/
 │   ├── cv-base.md              ← master CV content, single source of truth
@@ -46,13 +47,18 @@ job-search/
 ├── cv-pdf-to-send/             ← final PDFs as sent, one folder per company
 ├── interviews/
 │   ├── prep.md                 ← core story library, question maps
-│   └── [company].md            ← per-process briefs and debriefs
+│   ├── [company].md            ← per-process briefs and debriefs
+│   └── [company]-*.md          ← supporting artifacts for a process (challenge decks, cheat sheets)
 └── portfolio/                  ← git submodule → manel-leiva portfolio repo
 ```
 
 The portfolio directory is a git submodule pointing to the portfolio repo. To update case study copy: edit files inside `portfolio/` first, commit there, then update the submodule pointer here.
 
 Naming convention for sent PDFs: `cv-pdf-to-send/[Company]/Manel Leiva CV 2026.pdf` and `Manel Leiva CL 2026.pdf`. The folder reflects exactly what was sent; never regenerate a file in it after sending.
+
+Every sent PDF must have its plain-text source saved in `cv/roles/` or `cover-letters/roles/` before export. The sources are the record of what each company was told; without them, claims can't be checked when an interview comes weeks later. Known gap: applications sent before July 2026 have PDFs but no sources.
+
+Any visual artifact (case decks, slides, CV layout, generated images) follows `context/brand.md`. Read it before producing visual output.
 
 ---
 
@@ -65,6 +71,8 @@ Naming convention for sent PDFs: `cv-pdf-to-send/[Company]/Manel Leiva CV 2026.p
 3. Check `context/outreach.md`: is there a warm path? Warm paths come before or alongside cold applications. `/outreach [company] referral` drafts the ask.
 4. Check `context/salary.md` for the agreed compensation position before writing any cover letter.
 5. Read `principles.md` before producing any written output.
+6. Run the `no-ai-slop` skill before drafting and the `humanizer` skill on every draft before output. This applies to all recruiter-facing prose (CV, cover letter, outreach, follow-up, LinkedIn) by default, not on request.
+7. Respect the length caps in `principles.md` ("Brevity and skimmability"). Recruiters scan; a document that fails the 10-second test fails, no matter how good the writing is.
 
 ### CV work
 
