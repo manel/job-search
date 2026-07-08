@@ -116,7 +116,7 @@ This is notable: there was a measurement framework from the start, not just qual
 
 ### Starting condition (May 2024)
 
-Product had reasonable visual design (designed by the previous head of design). Figma components: zero. FE implementation: each engineer had built their own set of components independently. Result: color inconsistencies, component inconsistencies, MUI defaults filling the gaps, different effects in different parts of the app. The problem was implementation fragmentation, not design.
+Product had reasonable visual design (designed by the previous head of design). Figma components: zero. FE implementation: each engineer had built their own set of components independently. Result: color inconsistencies, component inconsistencies, Vuetify defaults filling the gaps, different effects in different parts of the app. The inconsistency came from both sides: the delivered designs were themselves inconsistent screen to screen, and FE implementations diverged with nothing shared to reference. (Correction 2026-07-08: do not frame FEs as the sole cause of the fragmentation.)
 
 Team at start: 2 FEs. Team at end: 5 FEs.
 

@@ -34,6 +34,8 @@ May 2024 – March 2026 | Barcelona (Remote)
 - Designed and shipped an AI agent, a chat panel plus embedded in-app answers where sales reps and managers consult their commission data, sales plans, and team info; GA to all customers.
 - Introduced Figma variables and a structured token architecture; the CTO described the change as going from a 2010 app to a 2020 app.
 
+Title note (verified 2026-07-08): formal title was Senior Product Designer throughout; operated as de facto design lead (sole designer, owned direction, priorities, and DS governance). The company chose not to retitle to avoid a pay bump. In writing and interviews: claim the lead-level scope, never the title.
+
 Additional material (verified, for role-specific swaps): deliberately small starting token set based on Abacum lessons; pipeline hardened with AI assistance (drift checks, smoke tests), engineers reviewed and merged the work; separate icons file and repo; ESLint adoption enforcement. Agent detail: Manel owned UX/UI, conversation design (tone, answer formats), capability scoping with PM and engineering, and trust/accuracy patterns; post-GA iteration on tone, response format, and per-customer terminology. Managers confirmed as real users 2026-07-06: most had their own comp plan and could query team info.
 
 Stack: Figma, Token Studio, Style Dictionary, GitHub, npm, Storybook, Chromatic, ESLint.

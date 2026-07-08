@@ -90,7 +90,7 @@ Build and infrastructure:
 - Covered five squads
 - The Button was the first component shipped end to end through the pipeline, in one Maker Days week — first proof the pipeline worked
 
-Measurement: success criteria were defined up front (80% of new UI from Abax components, 100% deprecation of legacy MUI where equivalents existed) with a planned metrics framework (MUI vs Abax component counts, disabled ESLint rules, token usage). Adoption was tracked, but the data is not recoverable. Own this directly in copy: the measurement happened, the numbers are gone. Do not fabricate figures.
+Measurement: success criteria were defined up front (80% of new UI from Abax components, 100% deprecation of legacy MUI where equivalents existed), tracked by counting Abax vs legacy MUI components in the codebase. Reconstructed readings supplied by Manel 2026-07-08 (raw exports not recoverable): new UI from Abax components at ~47% at departure, still climbing; two of five squads had completed the form element migration, a third was mid-migration. These are the canonical figures; do not invent others. ESLint violations only ever surfaced as editor tooltips and were never aggregated: never claim a violation count or trend.
 
 Governance (8+ months of active operation, the part most DS cases skip):
 - Structured issue reporting (categories, Slack channel, Notion)
@@ -111,6 +111,8 @@ Starting condition: the product didn't look broken, but it wasn't designed with 
 - Monthly FE meetings were the governance mechanism: everyone presented progress, problems discussed, goals set
 - Ongoing product audit throughout tenure: systematically capture all instances of a pattern, define variants and states, ticket it, decide fix-now vs defer-into-upcoming-feature. The deferral judgment matters: not every inconsistency was worth fixing immediately
 - Separate icons file and icons repo. Figma variables throughout
+
+Verified counts (measured directly from the artifacts 2026-07-08, canonical for all documents): Figma library 161 component sets, ~1,600 variants; 630 token variables (417 primitive, 189 semantic); 157 icons in the icons repo; tokens repo 84 commits, 14 reviewed PRs, May 2024 to Feb 2026 (no version tags, so claim update counts, never "releases"). Adoption from the audit board: 10 of 18 core screens fully on system components at departure, growing monthly.
 
 Key signals:
 - The CTO: "from a 2010 app to a 2020 app" (unprompted, during a review session, after the audit had been running for a while — it reflects product-wide change, not a Figma library existing)

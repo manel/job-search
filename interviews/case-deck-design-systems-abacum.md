@@ -176,6 +176,8 @@ These are the decisions that determine whether a DS actually gets used. They don
 **Speaker notes:**
 By the end of my time at Abacum, Abax covered all five squads. Adoption was enforced at the linting layer, not on trust. Storybook deployed in Chromatic gave engineering a running reference that stayed in sync with the library.
 
+Tracking against the success criteria put new UI built from Abax components at around 47% when I left, measured by counting Abax against legacy MUI components in the codebase. Short of the 80% target and still climbing; migration sat in the squads' own backlogs, not with a central team. Two of the five squads had completed the form element migration, and a third was mid-migration.
+
 [NEEDS INPUT: One concrete before/after that shows what the DS enabled. Something like: "New engineers joining could ship their first UI component in a day rather than spending the first week understanding what pattern to follow across five squads." Or a feature that shipped noticeably faster. What's one real example you remember?]
 
 The system didn't require me to be in the room for it to work. That was the outcome I was aiming for: infrastructure that operates independently of the person who built it. If I had left and nothing changed in how the squads worked, the DS had succeeded. If it needed me to maintain it, it was still a side project.
@@ -194,6 +196,9 @@ Name the read-only state debate. Two sides with legitimate reasoning. Resolution
 
 **"How did this connect to business outcomes?"**
 Five squads maintaining independent components means a shared UI change happens five times, with a real chance of subtle inconsistency across implementations. The DS doesn't eliminate that cost immediately, but it caps its growth. And the ESLint enforcement means it doesn't degrade over time under deadline pressure. For customers, a consistent product surface signals a product worth trusting — which is a sales and retention argument, not just an aesthetics one.
+
+**"How did you measure adoption?"**
+By counting Abax against legacy MUI components in the codebase, against the criteria set upfront: 80% of new UI from Abax components, 100% MUI deprecation where equivalents existed. The last reading I carry is around 47% of new UI from Abax when I left, still climbing. The raw exports aren't something I can produce today. Never claim an ESLint violation count or trend; violations only surfaced as editor tooltips and were never aggregated.
 
 **"What was your specific contribution vs the team's?"**
 Co-led the business case with the head of design. Drove the two-library Figma structure and the governance process. Defined the token naming conventions. I didn't build the original pipeline — an engineer did. I owned what happened inside it: the governance, the contribution process, the decision-making on tensions.

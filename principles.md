@@ -8,7 +8,7 @@ Writing rules and tone standards that apply to every output: CVs, cover letters,
 
 - No em dashes. Rewrite every em dash as a comma, period, or new sentence.
 - No colon-list stacking. Use prose.
-- No bullet points in cover letters or case study body copy.
+- No bullet points in cover letters or case study body copy. Exception: case study Outcomes sections use a short bullet list (the `outcome-list` pattern), one outcome per line, strongest first.
 - Active voice. Address the reader directly where appropriate.
 - No "we" without immediately clarifying your specific role.
 - No overclaiming. If you didn't own it fully, say what you owned.
@@ -179,4 +179,4 @@ The full categorized lists of banned verbs, adjectives, nouns, intensifiers, ope
 - Section structure: h2 headline, lead paragraph with class="lead", body paragraphs, h3 subheadings for subsections.
 - No section-label spans unless specifically requested.
 - No decorative motion. Screen recordings as evidence of a system working are appropriate.
-- Outcomes sections: use named qualitative signals. Own the absence of metrics directly. Don't hedge with "we believe" or "we think."
+- Outcomes sections: a lead paragraph with the strongest claim, then a `ul.outcome-list` of short bullets, one outcome each, measured numbers first, qualitative signals after. Own the absence of metrics directly. Don't hedge with "we believe" or "we think."

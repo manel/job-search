@@ -198,6 +198,8 @@ Throughout my time at Remuner I ran a continuous product audit: systematically c
 
 The deferral judgment is where most of the work was. Not every inconsistency was worth fixing immediately. Some were cheap to fix and high-visibility. Others were deep in an edge-case flow that engineering couldn't afford to touch. Knowing when to defer is as important as knowing what to fix.
 
+The audit board doubled as the adoption tracker: 10 of the product's 18 core screens were fully on system components by the time I left, and the count grew every month as refactors were absorbed into feature work.
+
 ---
 
 ## Slide 11 — Outcome [NEW]
@@ -207,11 +209,11 @@ The deferral judgment is where most of the work was. Not every inconsistency was
 **Visual:** Three-column layout: Delivery speed | Engineering consistency | Organizational scalability. CTO quote anchoring the top.
 
 **Speaker notes:**
-The CTO said "from a 2010 app to a 2020 app" unprompted during a review after the audit had been running for several months. It reflected product-wide change. A design system that only lives in Figma doesn't move a product's visual coherence.
+The CTO said "from a 2010 app to a 2020 app" unprompted during a review after the audit had been running for several months. It reflected product-wide change. A design system that only lives in Figma doesn't move a product's visual coherence. By then the audit board, which doubled as the adoption tracker, had 10 of the product's 18 core screens fully on system components, growing every month as refactors were absorbed into feature work.
 
 Three concrete outcomes behind it.
 
-Delivery speed. The system covered 54 component families with a full domain-specific layer: 21 chart types, card variants named for product personas, tier and progress states, nine data visualization palettes. Every screen that used those components skipped the rebuild-from-scratch cycle. [NEEDS INPUT: one specific feature that shipped faster because a DS component existed.]
+Delivery speed. The system covered 54 component families with a full domain-specific layer: 21 chart types, card variants named for product personas, tier and progress states, nine data visualization palettes. In library terms: 161 component sets, around 1,600 variants, 630 token variables, and 157 icons in their own repository. Every screen that used those components skipped the rebuild-from-scratch cycle. [NEEDS INPUT: one specific feature that shipped faster because a DS component existed.]
 
 Engineering consistency. Token enforcement via CI and ESLint. Hardcoded hex in a PR became a caught violation, not a shipping inconsistency. Engineers started calling tokens by name in code reviews: "color-text-primary" instead of "#2D2D2D". That shift is behavioral, not cosmetic.
 
@@ -288,7 +290,7 @@ The start-small approach was the mechanism. Rather than building a complete syst
 **"How did this connect to business outcomes?"**
 A DS at a startup with a growing engineering team is a velocity investment. Without it, every new feature is designed and built as a one-off, and each new engineer extends the inconsistency. With it, there's a shared contract that reduces decision overhead on every screen. The CTO's comment points to something beyond velocity. The product was visibly coherent in a way it hadn't been, which matters for enterprise sales.
 
-Note: there are no hard quantitative metrics in this case (no before/after build times, no component adoption rate, no regression count). Own this proactively rather than waiting to be asked. The proxy signals are: CTO's unprompted before/after observation, the pipeline reaching production (not just Figma), and the AI product shipping on top of the system. If pressed for numbers, say: "I didn't have instrumentation in place to measure it. What I can point to is what the system made possible — and what the CTO said unprompted." Don't apologize for the absence; frame it as a startup reality and name the proxies with confidence. Flag for future: if the deck is reviewed for a role that emphasises data-driven design, add adoption enforcement data (ESLint rule hits, Storybook coverage) as a proxy metric layer.
+Note (updated 2026-07-08, metrics now available and verifiable from artifacts Manel owns): adoption is 10 of 18 core screens fully on system components at departure, tracked on the audit board and growing monthly. Scale: 161 component sets and ~1,600 variants in the Figma library, 630 token variables (417 primitive, 189 semantic), 157 icons in the icons repo, 84 commits and 14 reviewed PRs to the token repo over 21 months. If asked how adoption was measured: the audit board was the tracker, run screen by screen, by me. Never claim npm "releases" (the repo has no version tags; say token updates or commits) and never claim an ESLint violation trend. The CTO quote and the behavioral signals remain the qualitative anchors on top of the numbers.
 
 **"What's the difference between what you built here and at Abacum?"**
 Scale, constraints, and approach. Abacum: co-led a business case, worked with an engineering team that built the original pipeline, governed across five squads. Remuner: sole designer, adapted and owned the pipeline, smaller token scope by design. The same principles, applied with the constraints of a smaller team and a narrower budget. And a harder lesson learned about the difference between infrastructure that's functional and infrastructure that's trustworthy.
