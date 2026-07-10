@@ -54,6 +54,8 @@ Known targets to check manually:
 ## Limitations to know
 
 - Manfred, Tecnoempleo, JobFluent, and Welcome to the Jungle are incompatible with automated scanning tools (career-ops). Check manually.
+- 2026-07-08: Lever, Welcome to the Jungle, Wellfound, jobgether, startup.jobs, and LinkedIn job pages all block Claude's automated fetch (403/expired redirects). Working alternatives: web search snippets, General Catalyst's job board (jobs.generalcatalyst.com), company-owned careers pages (qonto.com worked, n26.com position pages 404 without a session). For blocked ATSs, paste JD text into the session manually.
+- 2026-07-08: web-search-sourced postings are frequently already closed (Contentsquare, Qonto, both Perk roles all dead on manual check the same day). Search snippets and aggregator boards lag by weeks. Rule: a role sourced via web search is not "found" until its status is verified on the company's own ATS; verify before assessing, not after.
 - Factorial's ATS does not surface reliably on any third-party board. Always go direct.
 - LinkedIn Easy Apply roles tend to have higher applicant volume. For target companies, always apply via their own ATS if available.
 

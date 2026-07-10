@@ -31,7 +31,7 @@ May 2024 – March 2026 | Barcelona (Remote)
 
 - Sole designer; owned product design and the design system across the full product surface.
 - Built the component library and token pipeline from scratch: Token Studio to Style Dictionary to npm, with CI validation and the W3C token format.
-- Designed and shipped an AI agent, a chat panel plus embedded in-app answers where sales reps and managers consult their commission data, sales plans, and team info; GA to all customers.
+- Designed and shipped an AI agent, a chat panel plus embedded in-app answers where sales reps and managers consult their commission data, sales plans, and team info; released to all customers.
 - Introduced Figma variables and a structured token architecture; the CTO described the change as going from a 2010 app to a 2020 app.
 
 Title note (verified 2026-07-08): formal title was Senior Product Designer throughout; operated as de facto design lead (sole designer, owned direction, priorities, and DS governance). The company chose not to retitle to avoid a pay bump. In writing and interviews: claim the lead-level scope, never the title.

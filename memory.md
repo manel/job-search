@@ -20,6 +20,8 @@ Read this file at the start of every session alongside CLAUDE.md.
 
 ## Writing rules (discovered in use)
 
+**2026-07-09** — No jargon in Manel's voice documents that he wouldn't say unprompted in an interview. "GA" (General Availability) was in the Qonto CV and cover letter and he had to ask what it meant; a recruiter probing that term would have exposed it as ghostwritten. Test for every term of art: would Manel use this word on a call. If not, plain language ("released to all customers").
+
 **2026-06-08** — Em dashes are the single most flagged AI writing pattern in outputs. Check for them explicitly before every output, not as part of a general review. They survive casual passes.
 
 **2026-06-08** — "I am excited to", "I am passionate about", and "I would love the opportunity" are instant rejection signals in cover letters. They appear more often than expected in first drafts. Treat them as hard stops.
@@ -88,6 +90,8 @@ Read this file at the start of every session alongside CLAUDE.md.
 
 **2026-07-02** — Factorial process origin, corrected by Manel: the recruiter reached out off the cold application before Liliana's referral ping had any effect. The only screen in the pipeline so far came from a cold application. Do not cite Factorial as warm-path evidence. Note the pattern instead: the one conversion was a Barcelona-local company positioned as founding-designer breadth; the fast form rejections were global-remote DS-titled roles with the largest applicant pools.
 
+**2026-07-08** — Spendesk closed before the application went out. Assessed as a strong fit 2026-06-12 (Barcelona hybrid, the converting segment), then the package sat blocked ~3 weeks on one unresolved claim (the AI agent description) and the role was delisted 2026-07-08. Rule: a fit-assessed role in the converting segment gets its package out within one week. If a claim is unresolved, ship without it and add it later; a blocked application and no application cost the same.
+
 **2026-06-08** — Fit assessment must run before any writing. Writing a CV or cover letter for a role that hasn't been assessed is wasted work. Skipping assessment to save time always costs more time downstream.
 
 **2026-06-08** — Salary positioning must be set before writing a cover letter. Never start writing with compensation open. It creates a decision point mid-draft that contaminates the tone.
@@ -105,3 +109,5 @@ Read this file at the start of every session alongside CLAUDE.md.
 **2026-06-08** — Motion as evidence (screen recordings showing a system working in production) is appropriate and strengthens the DS case. Motion as decoration undermines systems-thinking credibility. Do not rebuild the portfolio in Framer.
 
 **2026-06-08** — The AI case study (Remuner AI agent) is worth pursuing but has open questions: what signal exists on the shipped agent, and how much of the design Manel personally owned. Do not invest time writing this case until those questions are answered.
+
+**2026-07-10** — AI-assisted design tooling is appearing as a named qualification in target-segment JDs, not a nice-to-have. Four in one week: Vista AI Logomaker lists "Claude Code, Figma Make, or Cursor" as a requirement; AirHelp (Lead PD, mobile) asks for prototyping with "Cursor, Claude — building real flows instead of static mocks"; Perk Events requires "AI as a working default" (Claude, Cursor, Bolt, Figma, Git); INFINNI (Senior PD, remote EU) requires "above-average, in-depth skill in Figma, FigJam, and AI tools like Claude". The shipped Remuner agent plus daily AI-assisted practice is direct evidence most Senior candidates can't show. Surface it early in CVs and cover letters for roles that carry this signal, not as a buried differentiator. Complements the 2026-06-29 entry: AI usage is also a standing interview evaluation thread (Factorial, two rounds).

@@ -18,6 +18,10 @@
 | Senior/Staff Product Designer (IT spinoff) | Factorial | **Unresolved — see negotiation notes** |
 | Senior Product Designer | Finom | €78K |
 | Staff Product Designer (DS) | Hostaway | €85K min / €100K max |
+| Senior Product Designer - AI Lab | Qonto | €85K opening (set 2026-07-09) |
+| Senior UI/UX Designer, Evinova Design System | AstraZeneca (Evinova) | €85K opening (set 2026-07-09): Senior DS scope carries the DS premium over the €78K Senior standard, matching the Hostaway DS floor. If their form or recruiter states a band, open at its top |
+| Product Designer (UI/UX) | CloudPay | €78K opening (set 2026-07-09): scope reads Senior despite the unleveled title. If the screen reveals a mid-level band, exit; do not price down to fit |
+| Senior Design System Designer (repost) | Bitpanda | €85K opening (set 2026-07-10): Senior DS scope, same premium logic as Evinova. June application went out with no salary stated; this position covers the reapplication |
 
 ## Negotiation notes
 
@@ -26,6 +30,7 @@
 - BVNK: €90K is the opening position for a Lead DS role. Crypto-adjacent, London-based company, remote-friendly.
 - Factorial: **Salary band data obtained 2026-06-25.** Internal bands: Senior €68K–€80K (+25% ESOPs), Staff €93K–€107K (+50% ESOPs). ESOPs vest 4 years, 1-year cliff. Email title "Senior/Staff PD" — level undecided, Marta likely determines it. Manel is comfortable with €80K as a starting point. Strategic note: Senior ceiling is €80K with no in-band growth room; if Staff, open at €93K. Do not volunteer a number before level is clarified. If asked: "That depends on where this role sits in your framework — can you tell me whether you're thinking Senior or Staff?" If Senior: €80K. If Staff: €93K opening.
 - Finom: €78K reflects the market position for the role scope. Not a stretch number.
+- Qonto AI Lab: €85K sits between the €78K Senior standard and BVNK's €90K Lead position. Justification if probed: sole designer in a ~15-person AI Lab is broader than a standard Senior seat, and the shipped-agent evidence is exactly what the role buys. If they volunteer a band with a higher ceiling, open at their top per the standing rule.
 - Hostaway: €85K is the minimum acceptable. €100K is the opening ask given Staff scope.
 
 ### Factorial full comp ladder (from their tier table, logged 2026-07-01)

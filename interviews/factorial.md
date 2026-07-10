@@ -415,6 +415,25 @@ Left with an uncertain read. The framing landed, the narration process was mostl
 
 ### Reading
 
-This is a failed live challenge, not a career signal. The rejection maps directly to the automation MVP disagreement from the session: the panel wanted a vision of what the product could be at full scope, and what was presented was a careful, minimal, validated flow. The preparation guide did not adequately cover the vision-first requirement for a "build from zero" challenge. That gap is now documented in `interviews/prep.md` under Live design challenges.
+This is a failed live challenge, not a career signal.
+
+---
+
+## Re-entry: Platform Domain role
+**Date:** 2026-07-09
+
+Marta's rejection email (2026-07-02, Catalan) explicitly invited another occasion. On 2026-07-09 Manel replied in her thread about the Senior Product Designer - Platform Domain opening (posted days earlier). Sent text, verbatim:
+
+> Hola Marta,
+>
+> He vist la posició oberta de Senior Product Designer a Platform Domain i m'ha cridat l'atenció perquè crec que també encaixa amb la meva experiència en plataformes, workflows complexos, integracions i col·laboració amb equips d'enginyeria.
+>
+> Abans de presentar candidatura, et volia preguntar si creus que té sentit tenint en compte el procés que vam fer fa unes setmanes, o si el perfil que busqueu continua sent diferent del meu.
+>
+> Si creus que aquest rol pot tenir més encaix amb el meu perfil, m'encantaria aplicar.
+>
+> Que vagi molt bé!
+
+Fallback (tracked in applications.md): if no reply by 2026-07-13, apply via the careers form; her reply can still route in parallel. If a process starts: do not relitigate the June challenge, and if a live challenge repeats, vision-first from minute one (rejection feedback above; corrective in prep.md). The rejection maps directly to the automation MVP disagreement from the session: the panel wanted a vision of what the product could be at full scope, and what was presented was a careful, minimal, validated flow. The preparation guide did not adequately cover the vision-first requirement for a "build from zero" challenge. That gap is now documented in `interviews/prep.md` under Live design challenges.
 
 The one-hour format is not a fair evaluation of a full design career. It is what it is.
