@@ -22,6 +22,7 @@
 | Senior UI/UX Designer, Evinova Design System | AstraZeneca (Evinova) | €85K opening (set 2026-07-09): Senior DS scope carries the DS premium over the €78K Senior standard, matching the Hostaway DS floor. If their form or recruiter states a band, open at its top |
 | Product Designer (UI/UX) | CloudPay | €78K opening (set 2026-07-09): scope reads Senior despite the unleveled title. If the screen reveals a mid-level band, exit; do not price down to fit |
 | Senior Design System Designer (repost) | Bitpanda | €85K opening (set 2026-07-10): Senior DS scope, same premium logic as Evinova. June application went out with no salary stated; this position covers the reapplication |
+| Staff Product Designer - Events | Perk (TravelPerk) | €95K opening (set 2026-07-10): Staff scope above the €93K Senior benchmark. Not volunteered; state 95,000 only if the form or a screen asks. If they publish or volunteer a band, open at its top per the standing rule |
 
 ## Negotiation notes
 
@@ -32,6 +33,7 @@
 - Finom: €78K reflects the market position for the role scope. Not a stretch number.
 - Qonto AI Lab: €85K sits between the €78K Senior standard and BVNK's €90K Lead position. Justification if probed: sole designer in a ~15-person AI Lab is broader than a standard Senior seat, and the shipped-agent evidence is exactly what the role buys. If they volunteer a band with a higher ceiling, open at their top per the standing rule.
 - Hostaway: €85K is the minimum acceptable. €100K is the opening ask given Staff scope.
+- Perk Events: €95K sits between Factorial's €93K Staff floor and Hostaway's €100K remote Staff ask; Barcelona hybrid at a 1,800-person company. Justification if probed: design lead for the whole Events product line, a multi-sided platform, and the shipped-agent evidence matches the JD's AI requirement. No band published on the Ashby posting (checked 2026-07-10). The JD is a Staff req, so no level ambiguity; do not price down if they counter with a Senior band, ask where the role sits instead.
 
 ### Factorial full comp ladder (from their tier table, logged 2026-07-01)
 
