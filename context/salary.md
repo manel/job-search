@@ -2,11 +2,15 @@
 
 ## Rules (never break these)
 
-- Always open at the top of the range.
-- Never give a range when the ceiling is known. State the number.
+- **Changed 2026-07-22 (was: always open at the top of the range).** Anchor conservative: state a number at the floor of the realistic range for the role, not the ceiling.
+- If a band is published, state its floor, not its top.
+- If no band is published, default to the plain Senior floor (currently €76K-€78K) even when the scope reads elevated (a DS premium, or Staff-adjacent responsibilities folded into a Senior title). Don't price up for scope unless Manel explicitly says to for that specific role.
+- Never give a range when a single number is asked for. State one number.
 - Never share previous salary if asked. Redirect: "I'm targeting X based on the scope of the role and market data."
 - Compensation was below market for scope at previous roles. Do not anchor to past numbers.
-- Barcelona Senior Product Designer 75th percentile benchmark: ~€93K (Levels.fyi data).
+- Barcelona Senior Product Designer 75th percentile benchmark: ~€93K (Levels.fyi data). Kept for reference only; the conservative-anchoring rule above governs the number actually stated.
+
+**Reasoning for the 2026-07-22 change:** Manel submitted 3Commas at €76K instead of the €90K position originally set here, and asked to make conservative anchoring the standing rule: he'd rather get hired and negotiate up from inside than risk a screen-level cut for pricing too high, and he believes some past rejections were salary-driven. Counter-evidence on record (see memory.md 2026-07-22): the closed-applications table doesn't clearly support that read. Wayflyer, Bitpanda DS2, and Qonto were template rejections with no reason given. The one case with an actual salary flag, CloudPay, was a level mismatch (a Senior-scoped number on what turned out to be a mid-level band), which conservative anchoring wouldn't have prevented since the real problem was the level read, not the number. This is a risk-tolerance decision, not a confirmed pattern. Recorded here so the reasoning stays visible.
 
 ## Agreed positions by role
 
@@ -23,6 +27,13 @@
 | Product Designer (UI/UX) | CloudPay | €78K opening (set 2026-07-09): scope reads Senior despite the unleveled title. If the screen reveals a mid-level band, exit; do not price down to fit |
 | Senior Design System Designer (repost) | Bitpanda | €85K opening (set 2026-07-10): Senior DS scope, same premium logic as Evinova. June application went out with no salary stated; this position covers the reapplication |
 | Staff Product Designer - Events | Perk (TravelPerk) | €95K opening (set 2026-07-10): Staff scope above the €93K Senior benchmark. Not volunteered; state 95,000 only if the form or a screen asks. If they publish or volunteer a band, open at its top per the standing rule |
+| Senior / Staff Product Designer | Wayflyer | €90K if the form forces one number (set 2026-07-14): dual-leveled req, remote-Europe fintech, no published band. Sits between the €85K Senior positions (Qonto, Datavant) and the €95K Staff position (Perk). On a screen, do not volunteer before level is clarified (Factorial rule): if Senior, €85K; if Staff, €95K |
+| Senior UX Designer, Provider Experience | Datavant | €85K, stated 85,000 EUR on the application form 2026-07-13 (the form asked; single number per the no-range rule). Set same day: Senior title but platform-wide design authority scope, large US corp. Manel questioned the number against Factorial's €80K Senior ceiling before submitting; held at 85 on the reference-class argument (US employer, €93K Barcelona 75th percentile, CloudPay was a level mismatch not price evidence). If a screen reveals their band, this is the anchor already on record |
+| Senior Product Designer | Rover.com | €76,027 (set 2026-07-22): published band €62,722-€76,027, open at the top per the standing rule. Exception to the €78K Senior floor — Manel confirmed opening at the band ceiling rather than holding at 78 despite the €2K gap. Fit was assessed skip (consumer marketplace, comp below floor) and overridden by Manel; do not push back on the number again, it's decided |
+| Diseñador Principal de Experiencia de Usuario (Principal UX Designer) | Schneider Electric | €79K (set 2026-07-22): no band published. First Principal-level role in the pipeline — Principal sits above Staff (Hostaway topped at €100K, Perk Staff at €95K), but Manel set 79K, barely above the €78K Senior floor and well under the Staff range. Fit was assessed skip (generic/templated JD, no product specifics, industrial-conglomerate domain concern) and overridden by Manel; do not push back on the number, it's decided. Flag if this comes up in a screen: the number reads low for a Principal title, worth having a rationale ready if asked |
+| Senior Product Designer (Design System) | OLX Group (Otodom) | €85K opening (set 2026-07-22): no salary published. Senior DS scope, same premium logic as Evinova and the Bitpanda DS repost (€85K = €78K Senior standard plus the DS premium). Remote across Spain/Portugal/Poland, no remote-premium adjustment made since the reference benchmark is already Barcelona-based. If they publish or volunteer a band, open at its top per the standing rule |
+| Senior Product Designer (QuantPilot) | 3Commas | €76K submitted 2026-07-22 (superseded the €90K position originally set same day). Manel chose the plain Senior floor over the scope-adjusted premium, and used the occasion to change the standing rule to conservative anchoring (see Rules above and memory.md 2026-07-22). Do not revert to €90K for this role; if a screen or offer conversation reopens comp, hold at 76 unless Manel says otherwise |
+| Senior User Experience Designer | Bunge | €78K opening (set 2026-07-22, first role priced under the conservative-anchoring rule): no salary published, no reference position for the internal-enterprise/agribusiness domain. Plain Senior floor per the standing rule, no premium added despite the named-DS-ownership component in the JD. If they publish or volunteer a band, state its floor per the rule, not its top |
 
 ## Negotiation notes
 

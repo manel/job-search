@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "WebFetch",
+      "Bash(curl -s *)",
+      "Bash(curl -sL *)"
+    ]
+  }
+}

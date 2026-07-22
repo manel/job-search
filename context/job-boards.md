@@ -70,3 +70,4 @@ Known targets to check manually:
 ## What hasn't
 
 - career-ops automated scanning: results were low quality and low volume for Senior IC design roles. Discontinued.
+- thelastofsaas.es directory: swept in full 2026-07-13 (~110 companies, 5 pages). Overwhelmingly martech/e-commerce tooling (CRO, chatbots, email marketing); the domain-relevant cut was ~11 companies (SeQura, Ealyx, Pleo, PayFit, Metricool, Stripe, Adyen, Algolia, Sentry, Contentful, Hotjar) and none had a relevant opening on the day. Don't re-sweep the directory; the shortlist's careers pages can be spot-checked directly in future sourcing sessions if the pipeline is thin.

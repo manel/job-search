@@ -50,7 +50,9 @@ The work I care about happens before any screen gets drawn. What should exist, h
 
 Most recently I've led design at Abacum (FP&A) and Remuner (sales compensation), often as the first or only designer on the problem. Before that, co-running a UX studio in Barcelona, designing client products and often building them too. That's where I started tying component libraries in Sketch to front-end code.
 
-I've built two production design systems from scratch, including the token pipeline that keeps Figma and code from drifting apart. At Remuner I also designed and shipped an AI agent for sales reps and managers.
+I've built two production design systems from scratch, including a token pipeline I hardened with Codex to keep Figma and code from drifting apart. At Remuner I also designed and shipped an AI agent for sales reps and managers.
+
+Claude Code and Figma Make are part of my daily toolkit now too.
 
 Looking for Senior, Lead, or Staff IC roles in B2B SaaS, fintech, or data-heavy products. Remote, or hybrid in Barcelona.
 
@@ -93,6 +95,8 @@ Date grouping fixed on the live profile 2026-06-12.
 - [ ] Portfolio link (manel-leiva.com) present in the profile intro. No Featured pins; decided 2026-06-12 to keep the portfolio as the single entry point
 - [ ] About has no typos, ends with the role-targeting statement
 - [ ] Remuner entry includes the AI agent and the token pipeline
+- [ ] About states the daily AI practice (Claude Code, Codex, Figma Make), not just the shipped agent
+- [ ] "Artificial Intelligence (AI)" added to the profile Skills section (Codex is not a selectable LinkedIn skill tag)
 - [ ] Teaching entries trimmed
 - [ ] KOM dates fixed
 - [ ] No banned vocabulary anywhere (check "optimization", "scalable", "seamless")
