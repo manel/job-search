@@ -437,3 +437,42 @@ Marta's rejection email (2026-07-02, Catalan) explicitly invited another occasio
 Fallback (tracked in applications.md): if no reply by 2026-07-13, apply via the careers form; her reply can still route in parallel. If a process starts: do not relitigate the June challenge, and if a live challenge repeats, vision-first from minute one (rejection feedback above; corrective in prep.md). The rejection maps directly to the automation MVP disagreement from the session: the panel wanted a vision of what the product could be at full scope, and what was presented was a careful, minimal, validated flow. The preparation guide did not adequately cover the vision-first requirement for a "build from zero" challenge. That gap is now documented in `interviews/prep.md` under Live design challenges.
 
 The one-hour format is not a fair evaluation of a full design career. It is what it is.
+
+Submitted via the careers form 2026-07-15 (Marta never replied to the 2026-07-09 thread before the fallback date). No confirmation email arrived, treated as a notification-config gap, not a signal.
+
+---
+
+## Round 1 (re-entry): Talent screen or Marta re-engagement
+**Date:** Not yet scheduled
+
+### Clarify first
+- Who runs this round: Lucia repeating the original Talent screen, a different recruiter, or Marta engaging directly given the prior relationship. Confirm on scheduling, don't assume.
+- Whether the panel remembers the June rejection reasoning or this reads as a cold profile again. Don't volunteer the rejection story unless asked; if asked, use it as evidence of iteration, not a wound.
+- Whether "Platform Domain" has a different design lead than Marta, or she still owns it.
+
+### What Factorial most likely cares about (this round)
+- Whether this is a considered re-application with a real reason (Platform Domain's fit) or a scattershot reapply. The 2026-07-09 message already made this case in writing; the screen will probe whether that reasoning holds up live.
+- Fit for a systems-heavy domain: integrations marketplace, agentic AI patterns, DS advancement, "make complex systems feel simple." This is closer to Manel's actual strength than the June IT-spinoff req was.
+- Whether the vision-first gap from the June rejection has actually been addressed, not just acknowledged.
+
+### Lead story for this round
+Breadth across Abacum and Remuner (positioning.md's Factorial mapping: founding-designer breadth), but pull Modeling Syntax and Dataset Manager forward as the concrete evidence for "integrations, complex workflows, DS advancement" specifically named in the Platform Domain posting. Do not open with the June rejection. If it comes up, the honest framing is in the Rejection section above: a failed live challenge, not a career signal, and the corrective (vision-first) is already internalized.
+
+### Likely questions → story map
+- "Why apply again after being rejected in June?" → Direct answer: Marta's rejection email invited it, and Platform Domain's actual scope (integrations, workflows, DS) is a tighter match than the June req. Reference Priority Zero framing style: state it plainly, don't over-explain.
+- "Walk me through your background" → Opening intro from prep.md, weighted toward Abacum integrations/engine squad work since Platform Domain is integrations-shaped.
+- "Tell me about a time you changed your approach mid-project" → Story A (Dataset Manager).
+- "How do you handle ambiguity in a technical domain you don't own end to end?" → Story D (Modeling Syntax), direct engineering collaboration on formula syntax.
+- "What would you do differently in a live design challenge this time?" → Be ready even at screen stage: vision-before-scoping, per the corrected Live design challenge section in prep.md. Don't wait for Round 3 to show this is understood.
+
+### [NEEDS YOUR STORY] gaps this round could hit
+- Q10 (disagreed with your manager) is still unfilled in prep.md. A design-director-level conversation with Marta could reasonably probe this given the founder-driven Remuner departure context already on record.
+
+### Questions to ask them
+- Who owns the Platform Domain roadmap, and how does design get involved before scope is fixed?
+- What's the biggest open design problem in the integrations marketplace right now?
+
+### Salary reminder
+Unresolved, see salary.md negotiation notes. Internal bands: Senior €68K-€80K (+25% ESOP), Staff €93K-€107K (+50% ESOP). Do not volunteer a number before level is clarified. If asked: "That depends on where this role sits in your framework, can you tell me whether you're thinking Senior or Staff?" If Senior: €80K. If Staff: €93K opening.
+
+*After this round happens: run `/debrief-interview Factorial "Round 1 re-entry"` while it's fresh.*

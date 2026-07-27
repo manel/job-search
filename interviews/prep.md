@@ -438,6 +438,50 @@ Concrete markers: an engineer citing your DS documentation to resolve a debate. 
 
 ---
 
+## Enterprise / legacy-product question bank
+
+Collected externally (not tied to an active process, no IBM entry in the pipeline as of 2026-07-23). Kept here because the domain, long-lived enterprise software, legacy modernization, regulated and global stakeholders, recurs across the kind of roles being targeted. Grouped by theme. Where an existing story already answers the question, that is noted instead of writing new material. Where there is a real gap, it is flagged rather than invented.
+
+### Theme: modernize or extend a legacy product without breaking it
+
+Covers: "designing for a product that's been in market 15+ years without breaking habits," "a design system with 8 years of legacy patterns, modernize without a full rebuild," "a client on an older version wants new features," "a redesign breaks backward compatibility for enterprise contracts," "90% of users on outdated browsers or restricted corporate environments."
+
+Use: Story B (Abax DS). The "kept MUI as base to reduce scope and accelerate adoption rather than build from scratch" decision is a direct answer to "modernize without a full rebuild." Frame the general principle: legacy constraints are not obstacles to route around, they are scope information. The redesign that respects them is usually the one that ships.
+
+### Theme: inherited, inconsistent component library across product lines
+
+"You inherit a component library used inconsistently across five product lines. Where do you start?"
+
+This is Story B's setup almost exactly (ad-hoc components across five squads, no mandate). Use as-is, no new material needed. Start: audit for the highest-cost inconsistency, not the most visible one. Business case before build, as in the original story.
+
+### Theme: defend a simpler solution against "more options = more powerful"
+
+"How do you defend a simplification of a complex enterprise workflow to a client who equates more options with more power?"
+
+Use: Story A (Dataset Manager), the "no SQL" call. Same shape: a more powerful option existed, the evidence showed it was wrong for the actual user base, the case was made on data not opinion. Also see Behavioral Q3 above, same story already covers this.
+
+### Theme: sole designer, multiple product lines, competing release cycles
+
+"You're the sole designer supporting three enterprise product lines with different release cycles. How do you prioritize?"
+
+Merge with the existing Ways-of-working "Prioritization" answer (startup: survival and retention first; scale-up: highest-leverage change given engineering cost) plus Story C's sole-designer-at-Remuner context for credibility. No new story needed, combine the two.
+
+### Theme: long-time power users resist change, even improvements
+
+"A long-time enterprise client's power users resist any UI change, even improvements. How do you introduce redesign without losing their trust?"
+
+Use: Story C (earning trust quickly) for the trust mechanism, plus Story A for the change-management angle (the change was justified by research, not imposed). The honest addition: with entrenched power users, the fix is usually sequencing, not persuasion, ship the change where the cost of being wrong is lowest first, let the evidence build trust before touching the workflow they rely on most.
+
+### Gaps, no direct material, do not invent
+
+- **Global stakeholder conflict.** "Stakeholders in the US, India, and Germany all review the same design and give conflicting feedback. How do you reconcile it?" No direct experience at this scale, reinforces the stakeholder-navigation gap already logged in Growth Q20. If asked, answer from principle (separate signal from noise, find the shared success metric each region actually cares about, escalate the tradeoff rather than picking a side unilaterally) and be honest that the org-scale version of this is the least-reps area, per Q20.
+- **AI feature judgment in a legacy tool.** "Your PM wants to add an AI feature to a legacy enterprise tool. How do you decide where AI adds value vs. noise?" Closest real material is the AI-assisted token pipeline at Remuner (Growth Q21, Q23), but that is process AI, not a user-facing feature decision. Answer from principle if asked: value is where the tool currently forces the user to do translation or lookup work themselves; noise is AI bolted onto a flow that already works. Do not claim direct experience deciding this for a shipped, user-facing feature.
+- **Researching specialized users you are not** (network admins, data engineers). No documented case. If asked, answer from the general research approach (Story A's structured sessions), but do not claim domain-specialist research experience that is not there.
+- **Regulated-industry compliance restricting UX patterns** (banking, healthcare). Abacum and Modeling Syntax are financial-data-adjacent but not documented as compliance-driven pattern restrictions. Flag as [NEEDS YOUR STORY] if there is a real KOM or Abacum incident here; otherwise do not claim it.
+- **Accessibility gap found during a client audit, post-shipment.** No documented incident. [NEEDS YOUR STORY]. If none exists, do not manufacture one, answer from principle only if pressed (triage by user impact, patch the highest-severity gap first, retrospective on why it shipped).
+
+---
+
 ## Case presentation round
 
 This section assumes a 30-45 minute format: walk us through a project, then Q&A.

@@ -170,7 +170,7 @@ The full categorized lists of banned verbs, adjectives, nouns, intensifiers, ope
 
 ### Cover letter
 - Plain text. Three paragraphs max, 150 words target, 180 hard cap.
-- First sentence states the fit, not who you are. The recruiter already has the CV.
+- Opens with one generic identity line, identical across every letter: "Senior Product Designer with 15 years designing complex B2B products" (the CV summary's first line). Changed 2026-07-24 at Manel's request, was "first sentence states the fit, not who you are." Immediately after, get specific: the rest of paragraph one is the role-specific evidence, not more identity framing.
 - No subject line unless specifically requested.
 - No sign-off flourishes beyond "Best, Manel" or equivalent.
 - Salary position confirmed before writing. Stated clearly in the letter if the role asks for it or it's strategically appropriate.
