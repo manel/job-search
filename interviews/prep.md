@@ -110,7 +110,7 @@ Rehearse the primary answer out loud until it sounds like a fact, not a wound. T
 
 ### Who I am
 
-I'm analytical and have high standards, for my own work and for other people's. I point things out when they're not working, back it up with data, and push back on decisions when the evidence says something different. I'd rather have that conversation early than let a problem compound. I'm also calm by default. Complex problems focus me; they don't stress me.
+I'm an analytical person with high standards, and I try to hold myself and my team to those standards. I point things out when they're not working, back it up with data, and push back on decisions when the evidence says something different. I'd rather have that conversation early than let a problem compound. I'm also calm by default. Complex problems focus me, and I'm genuinely passionate about technology, both professionally and personally. I enjoy experimenting with new tools and ideas, especially in areas like AI, electronics, networking, 3D printing, infrastructure, and self-hosting.
 
 ### Work and history
 
