@@ -50,11 +50,18 @@ Rule: pursue relevant warm paths, but do not treat a referral as pipeline progre
 
 ## What the evidence does not support
 
-### There is no demonstrated salary-rejection pattern
+### Compensation pressure is a signal, not a demonstrated rejection cause
 
-Rejected applications span stated or discussed positions from EUR 67,000-70,000 through EUR 81,000, while several generic rejections occurred where salary was not stated. Biorce's explicit reason was a level mismatch, and Secfix said EUR 67,000-70,000 was within range. Murphy AI is the only case where Manel suspects salary contributed, but Murphy gave no reason.
+Rejected applications span stated or discussed positions from EUR 67,000-70,000 through EUR 81,000, while several generic rejections occurred where salary was not stated. No employer has explicitly identified compensation as the rejection reason. Biorce's explicit reason was a level mismatch. Murphy AI is the only case where Manel suspects salary contributed, but Murphy gave no reason.
 
-Do not lower salary globally based on this dataset. Use the employer's published band when available, calibrate to verified level, and record whether a number was actually requested and stated. Reassess after a larger prospective sample.
+There is nevertheless a repeated market signal. Manel recalls that, outside some published job-description ranges, recruiter conversations for Spain generally did not exceed EUR 60,000-65,000. Secfix specifically said that EUR 67,000-70,000 was somewhat high for Spain. This does not prove causation, but it does show that some target roles may have budgets below Manel's previous EUR 76,000-85,000 Senior positioning.
+
+Do not collapse these two conclusions:
+
+- **Causation:** the evidence does not show that salary caused the recorded rejections.
+- **Market constraint:** recruiter conversations suggest that EUR 60,000-65,000 is a common ceiling in part of the Spain-based market, and higher expectations may reduce the available pool.
+
+Use the employer's published band when available and ask for the range before stating a number whenever possible. For unbanded roles, compare the likely budget with Manel's explicit target and walk-away floor before investing heavily. Record the range given by the employer, whether salary was asked, the number stated, and the outcome. Reassess after a larger prospective sample.
 
 ### Generic rejection emails cannot diagnose portfolio weaknesses
 
@@ -68,7 +75,7 @@ Do not lower salary globally based on this dataset. Use the employer's published
 4. Link the exact portfolio case for AI and design-system applications.
 5. Seek a warm path before or alongside submission, without delaying a ready application indefinitely.
 6. After repeated screen rejection at one company, require changed evidence, role shape, or access before reapplying.
-7. Keep salary calibrated to verified level and published bands; do not make an unsupported global reduction.
+7. Keep salary calibrated to verified level and published bands. Treat EUR 60,000-65,000 as an observed Spain-market signal, not a universal band or an automatic target.
 8. Track application channel, warm path, portfolio version, outcome stage, and rejection-reason class prospectively.
 
 ## Metrics for the next cohort

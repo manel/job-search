@@ -7,11 +7,12 @@ This repository is the durable source of truth for Manel Leiva's Senior, Lead, a
 Before making a recommendation or drafting application material:
 
 1. Read `strategy/positioning.md` and `strategy/target-roles.md`.
-2. Read `strategy/pipeline-findings.md` before recommending application volume, salary changes, or sourcing tactics.
-3. Read `evidence/experience-facts.md` before making claims about experience or outcomes.
-4. Read the relevant file in `applications/records/` before acting on a live process.
-5. Treat dated external research, salary figures, and old application status as stale until checked.
-6. Update the relevant durable record after a confirmed change. Do not leave important decisions only in chat.
+2. Read `strategy/pipeline-findings.md` before recommending application volume or sourcing tactics.
+3. Read `strategy/compensation.md` before recommending a salary figure or interpreting compensation evidence.
+4. Read `evidence/experience-facts.md` before making claims about experience or outcomes.
+5. Read the relevant file in `applications/records/` before acting on a live process.
+6. Treat dated external research, salary figures, and old application status as stale until checked.
+7. Update the relevant durable record after a confirmed change. Do not leave important decisions only in chat.
 
 ## Evidence classes
 
