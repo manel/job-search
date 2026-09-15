@@ -1,12 +1,12 @@
 ---
 company: Enginy
 role: Product Designer (job body: Senior Product Designer)
-status: deferred
+status: in-progress
 status_verified_on: 2026-09-15
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-09-15
-fit_decision: defer
+fit_decision: proceed
 role_lane: mixed
 application_channel: unknown
 warm_path: "No known personal connection; Jaume Puig, CTO and co-founder, publicly invited candidates to DM him about the role"
@@ -15,7 +15,7 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Confirm the base-salary range and normal office cadence; if both are viable, prepare a focused application and contact Jaume Puig alongside submission
+next_action: Finalise the CV layout, confirm the base-salary range and normal office cadence, then apply directly and contact Jaume Puig alongside submission
 next_action_on: 2026-09-16
 salary_stated:
 job_url: https://job-boards.eu.greenhouse.io/enginy/jobs/4968694101
@@ -26,9 +26,9 @@ source: JD supplied by Manel; Greenhouse job API; Enginy website; public LinkedI
 
 ## Decision
 
-**Defer.** The role is a strong match on domain and work shape, but two practical gates should be resolved before investing in a tailored package: compensation and the normal office cadence. The posting is labelled in-person, offers Product and Engineering 48 work-from-home days per year, and gives no salary range.
+**Proceed, with early validation of practical conditions.** Manel chose to prepare an application package on 2026-09-15. The role is a strong match on domain and work shape. Compensation and the normal office cadence remain unresolved: the posting is labelled in-person, offers Product and Engineering 48 work-from-home days per year, and gives no salary range.
 
-If Enginy confirms a base range compatible with Manel's approximately EUR 60,000 Senior floor and an office pattern Manel accepts, proceed promptly. The vacancy was first published on 2026-09-14.
+Do not state a salary before asking for Enginy's range when the process allows. The vacancy was first published on 2026-09-14, so the package should not be delayed while researching a speculative range.
 
 ## Fit assessment
 
@@ -71,6 +71,12 @@ No existing Enginy application or known personal connection is recorded. Direct 
 
 Jaume Puig, Enginy's CTO and co-founder, publicly promoted the vacancy and asked candidates with recent PR-shipping evidence to DM him. If the practical gates pass, contact him alongside the direct application with the Remuner design-system case and one precise sentence about the reviewed and merged pipeline work. This is a public hiring route, not a warm referral.
 
+## Prepared materials
+
+- Tailored CV copy: `materials/cv/tailored/enginy-product-designer.md`
+- Cover letter: `materials/cover-letters/enginy-product-designer.md`
+- No submission is recorded. The tailored CV still needs to be placed in the approved visual template and exported to PDF.
+
 ## Sources
 
 - **Confirmed:** JD copy supplied by Manel on 2026-09-15.
@@ -82,3 +88,4 @@ Jaume Puig, Enginy's CTO and co-founder, publicly promoted the vacancy and asked
 ## History
 
 - 2026-09-15: Role assessed from the JD supplied by Manel. Decision set to defer pending confirmation of compensation and normal office cadence. Exact Greenhouse job ID was open and had first been published on 2026-09-14.
+- 2026-09-15: Manel chose to prepare an application. Decision changed to proceed and status changed to in-progress. Tailored CV copy and a short cover letter were prepared; no application was submitted.

@@ -39,6 +39,7 @@ This dashboard indexes confirmed application states. Update the individual appli
 
 ## Not submitted
 
+- [Enginy, Product Designer](records/enginy-product-designer.md): tailored CV copy and cover letter prepared; salary range and normal office cadence remain unconfirmed.
 - [Deel, Senior Product Designer](records/deel-senior-product-designer.md): materials prepared, but application not submitted.
 - [Deel, Senior Staff Product Designer, AI](records/deel-senior-staff-product-designer-ai.md): materials prepared, but application not submitted.
 - [Rover, Senior Product Designer](records/rover-senior-product-designer.md): materials prepared, but application not submitted.
