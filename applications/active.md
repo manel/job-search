@@ -4,6 +4,7 @@ This dashboard indexes confirmed application states. Update the individual appli
 
 ## Confirmed active
 
+- [Enginy, Product Designer](records/enginy-product-designer.md): applied directly on 2026-09-15 with EUR 62,000 gross annual stated. Send the prepared LinkedIn message to Jaume Puig.
 - [Spendesk, Confirmed Product Designer](records/spendesk-confirmed-product-designer.md): interviewing; waiting for Head of Design feedback. Follow up on 2026-09-17 if Clement has not replied.
 - [RemoFirst, Senior Product Designer](records/remofirst-senior-product-designer.md): applied 2026-09-03. Follow up on 2026-09-17 if there has been no response.
 - [eDreams ODIGEO, Senior Product Designer, Conversational Service Design](records/edreams-senior-product-designer-conversational-service-design.md): applied 2026-09-10. Review status on 2026-09-24 if there has been no response.
@@ -39,7 +40,6 @@ This dashboard indexes confirmed application states. Update the individual appli
 
 ## Not submitted
 
-- [Enginy, Product Designer](records/enginy-product-designer.md): tailored CV copy and cover letter prepared; salary range and normal office cadence remain unconfirmed.
 - [Deel, Senior Product Designer](records/deel-senior-product-designer.md): materials prepared, but application not submitted.
 - [Deel, Senior Staff Product Designer, AI](records/deel-senior-staff-product-designer-ai.md): materials prepared, but application not submitted.
 - [Rover, Senior Product Designer](records/rover-senior-product-designer.md): materials prepared, but application not submitted.

@@ -1,23 +1,23 @@
 ---
 company: Enginy
 role: Product Designer (job body: Senior Product Designer)
-status: in-progress
+status: applied
 status_verified_on: 2026-09-15
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-09-15
 fit_decision: proceed
 role_lane: mixed
-application_channel: unknown
+application_channel: direct
 warm_path: "No known personal connection; Jaume Puig, CTO and co-founder, publicly invited candidates to DM him about the role"
-portfolio_version:
-applied_on:
-last_contact_on:
-outcome_stage: not-submitted
+portfolio_version: 2026-09-15
+applied_on: 2026-09-15
+last_contact_on: 2026-09-15
+outcome_stage: no-response
 rejection_reason_class: none
-next_action: Finalise the CV layout, confirm the base-salary range and normal office cadence, then apply directly and contact Jaume Puig alongside submission
-next_action_on: 2026-09-16
-salary_stated: Not yet submitted; EUR 62,000 gross annual entered in the draft application form
+next_action: Send the prepared LinkedIn message to Jaume Puig with the Remuner design-system case; clarify salary range and normal office cadence at the first human exchange
+next_action_on: 2026-09-15
+salary_stated: EUR 62,000 gross annual
 job_url: https://job-boards.eu.greenhouse.io/enginy/jobs/4968694101
 source: JD supplied by Manel; Greenhouse job API; Enginy website; public LinkedIn activity from Jaume Puig
 ---
@@ -28,7 +28,7 @@ source: JD supplied by Manel; Greenhouse job API; Enginy website; public LinkedI
 
 **Proceed, with early validation of practical conditions.** Manel chose to prepare an application package on 2026-09-15. The role is a strong match on domain and work shape. Compensation and the normal office cadence remain unresolved: the posting is labelled in-person, offers Product and Engineering 48 work-from-home days per year, and gives no salary range.
 
-Do not state a salary before asking for Enginy's range when the process allows. The vacancy was first published on 2026-09-14, so the package should not be delayed while researching a speculative range.
+The application form required a salary expectation, so Manel stated EUR 62,000 gross annual. Enginy's range remains unknown and should be clarified at the first human exchange. The vacancy was first published on 2026-09-14.
 
 ## Fit assessment
 
@@ -75,7 +75,7 @@ Jaume Puig, Enginy's CTO and co-founder, publicly promoted the vacancy and asked
 
 - Tailored CV copy: `materials/cv/tailored/enginy-product-designer.md`
 - Cover letter: `materials/cover-letters/enginy-product-designer.md`
-- No submission is recorded. The tailored CV still needs to be placed in the approved visual template and exported to PDF.
+- Application submission was confirmed by Manel on 2026-09-15.
 
 ## Sources
 
@@ -91,3 +91,4 @@ Jaume Puig, Enginy's CTO and co-founder, publicly promoted the vacancy and asked
 - 2026-09-15: Manel chose to prepare an application. Decision changed to proceed and status changed to in-progress. Tailored CV copy and a short cover letter were prepared; no application was submitted.
 - 2026-09-15: Cover letter revised at Manel's request to use a closer, warmer voice based on his previous application writing. Evidence and scope claims were unchanged.
 - 2026-09-15: Manel entered EUR 62,000 gross annual as the salary expectation in the application form. Submission is not yet confirmed, so this is not recorded as disclosed to Enginy.
+- 2026-09-15: Manel confirmed that the direct application was submitted. Status changed to applied; EUR 62,000 gross annual recorded as disclosed to Enginy.
