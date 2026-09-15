@@ -89,3 +89,4 @@ Jaume Puig, Enginy's CTO and co-founder, publicly promoted the vacancy and asked
 
 - 2026-09-15: Role assessed from the JD supplied by Manel. Decision set to defer pending confirmation of compensation and normal office cadence. Exact Greenhouse job ID was open and had first been published on 2026-09-14.
 - 2026-09-15: Manel chose to prepare an application. Decision changed to proceed and status changed to in-progress. Tailored CV copy and a short cover letter were prepared; no application was submitted.
+- 2026-09-15: Cover letter revised at Manel's request to use a closer, warmer voice based on his previous application writing. Evidence and scope claims were unchanged.
