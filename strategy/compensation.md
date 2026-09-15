@@ -17,6 +17,12 @@ Treat this as credible first-hand recollection about market budgets, not as a me
 5. Record four separate facts: employer range, whether salary was asked, what Manel stated, and whether the employer gave compensation feedback.
 6. Never label salary as a rejection reason unless the employer says so.
 
-## Unresolved decision
+## Current Senior position
 
-The project does not yet contain Manel's current target salary, acceptable range, or walk-away floor. Do not invent these figures from past applications; confirm them before recommending an application or negotiation position.
+- Working minimum for a Senior Product Designer role: approximately EUR 60,000 gross annual base.
+- Preference: maximize compensation above that floor when the role, company, and published range support it.
+- EUR 60,000 is a decision floor, not the default opening number.
+- When a range is published, use the range and role fit to choose the position; do not automatically volunteer the floor.
+- Total compensation, role quality, flexibility, and growth may affect the final decision, so treat the floor as approximate until evaluating an actual offer.
+
+The minimum and target for Lead and Staff IC roles remain unconfirmed. Do not extrapolate them automatically from the Senior floor.

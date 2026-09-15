@@ -63,6 +63,8 @@ Do not collapse these two conclusions:
 
 Use the employer's published band when available and ask for the range before stating a number whenever possible. For unbanded roles, compare the likely budget with Manel's explicit target and walk-away floor before investing heavily. Record the range given by the employer, whether salary was asked, the number stated, and the outcome. Reassess after a larger prospective sample.
 
+As of 2026-09-15, Manel's working minimum for the right Senior Product Designer role is approximately EUR 60,000 gross annual base, with a preference to negotiate higher. This is a floor for deciding whether a role is viable, not the number to lead with automatically.
+
 ### Generic rejection emails cannot diagnose portfolio weaknesses
 
 “Closer match,” “many qualified applicants,” and similar language are outcomes, not feedback. Do not convert them into claims about visual craft, seniority, location, AI depth, or design-system scale.
