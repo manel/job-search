@@ -40,7 +40,8 @@ This dashboard indexes confirmed application states. Update the individual appli
 
 ## Not submitted
 
-- [Moniepoint, Staff Product Designer](records/moniepoint-staff-product-designer.md): assessed and skipped on 2026-09-15 because the posting does not establish Staff-level scope; assess the separate Senior Product Designer - Design System vacancy instead.
+- [Moniepoint, Senior Product Designer — Design System](records/moniepoint-senior-product-designer-design-system.md): assessed as proceed on 2026-09-15; prepare a focused application led by the Abacum and Remuner design-system cases.
+- [Moniepoint, Staff Product Designer](records/moniepoint-staff-product-designer.md): assessed and skipped on 2026-09-15 because the posting does not establish Staff-level scope; the separate design-system vacancy is the better route.
 - [Deel, Senior Product Designer](records/deel-senior-product-designer.md): materials prepared, but application not submitted.
 - [Deel, Senior Staff Product Designer, AI](records/deel-senior-staff-product-designer-ai.md): materials prepared, but application not submitted.
 - [Rover, Senior Product Designer](records/rover-senior-product-designer.md): materials prepared, but application not submitted.

@@ -15,7 +15,7 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Assess Moniepoint's separate Senior Product Designer - Design System vacancy before drafting any Moniepoint application
+next_action: None; the separate Senior Product Designer - Design System vacancy was assessed as the better route
 next_action_on:
 salary_stated: Not stated; employer range unknown
 job_url: https://job-boards.eu.greenhouse.io/moniepoint/jobs/4710852101
@@ -74,3 +74,4 @@ No prior Moniepoint application or known warm connection is recorded. The only c
 ## History
 
 - 2026-09-15: Role assessed before drafting. Official Greenhouse vacancy confirmed open for remote Spain. Decision set to skip because the posting does not establish Staff scope and is less aligned than Moniepoint's separate Senior Product Designer - Design System vacancy. No materials were drafted and no application was submitted.
+- 2026-09-15: The separate Senior Product Designer - Design System vacancy was assessed with a proceed decision, completing this record's next action.
