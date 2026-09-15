@@ -17,7 +17,7 @@ outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Finalise the CV layout, confirm the base-salary range and normal office cadence, then apply directly and contact Jaume Puig alongside submission
 next_action_on: 2026-09-16
-salary_stated:
+salary_stated: Not yet submitted; EUR 62,000 gross annual entered in the draft application form
 job_url: https://job-boards.eu.greenhouse.io/enginy/jobs/4968694101
 source: JD supplied by Manel; Greenhouse job API; Enginy website; public LinkedIn activity from Jaume Puig
 ---
@@ -90,3 +90,4 @@ Jaume Puig, Enginy's CTO and co-founder, publicly promoted the vacancy and asked
 - 2026-09-15: Role assessed from the JD supplied by Manel. Decision set to defer pending confirmation of compensation and normal office cadence. Exact Greenhouse job ID was open and had first been published on 2026-09-14.
 - 2026-09-15: Manel chose to prepare an application. Decision changed to proceed and status changed to in-progress. Tailored CV copy and a short cover letter were prepared; no application was submitted.
 - 2026-09-15: Cover letter revised at Manel's request to use a closer, warmer voice based on his previous application writing. Evidence and scope claims were unchanged.
+- 2026-09-15: Manel entered EUR 62,000 gross annual as the salary expectation in the application form. Submission is not yet confirmed, so this is not recorded as disclosed to Enginy.
