@@ -1,7 +1,7 @@
 ---
 company: Moniepoint
 role: Senior Product Designer - Design System
-status: assessed
+status: in-progress
 status_verified_on: 2026-09-15
 status_confidence: confirmed
 posting_status: open
@@ -15,7 +15,7 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Prepare a focused application led by the live Abacum and Remuner design-system cases; apply directly and ask for the salary range at the first human exchange
+next_action: Paste the tailored CV into Figma, export independently, and submit through Greenhouse with both design-system cases; ask for the salary range at the first human exchange
 next_action_on:
 salary_stated: Not stated; employer range unknown
 job_url: https://job-boards.eu.greenhouse.io/moniepoint/jobs/4955355101
@@ -65,6 +65,12 @@ No prior Moniepoint application or personal connection is recorded, and the hiri
 
 This is a useful retest of the design-systems lane. The earlier zero-conversation result across seven design-system applications predates the expanded live portfolio evidence and therefore should not be treated as evidence against this application.
 
+## Prepared materials
+
+- Tailored CV copy: `materials/cv/tailored/moniepoint-senior-product-designer-design-system.md`
+- Cover letter: `materials/cover-letters/moniepoint-senior-product-designer-design-system.md`
+- No PDF was generated. Application submission is not confirmed.
+
 ## Sources
 
 - **Confirmed:** JD supplied by Manel on 2026-09-15.
@@ -76,3 +82,4 @@ This is a useful retest of the design-systems lane. The earlier zero-conversatio
 ## History
 
 - 2026-09-15: Role assessed before drafting. Decision set to proceed. Official vacancy confirmed open for remote Spain; no application materials were drafted and no application was submitted.
+- 2026-09-15: Tailored CV copy and a short cover letter were prepared as Markdown files. No PDF was generated and no application was submitted.
