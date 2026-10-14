@@ -144,7 +144,7 @@ Keep the revised assets stable through the cohort unless a factual or functional
 - [Audit script](../../scripts/audit-application-funnel.py): recomputes the cycle count from current canonical records; manual historical stage annotations are explicit and require review after a status change.
 - [Canonical experience evidence](../../evidence/experience-facts.md), including the corrected Abax denominator.
 - [Previous pipeline baseline](../../context/pipeline-findings.md).
-- Read-only legacy sources: `context/applications.md`, `context/portfolio.md`, `context/ai-agent-notes.md`, `cv/cv-base.md`, and `cv-pdf-to-send/`.
+- Read-only legacy sources: `context/applications.md` (now `applications/archive-2026-07.md`), `context/portfolio.md`, `context/ai-agent-notes.md`, `cv/cv-base.md`, and `cv-pdf-to-send/`.
 - Live pages are linked in the portfolio table above. Recommendations are the audit's interpretation; they are not recruiter feedback.
 
 No historical application assets or live portfolio files were changed during this audit.

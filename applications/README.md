@@ -72,3 +72,14 @@ If materials exist but submission is unconfirmed, use `in-progress`, not `applie
 Application status and vacancy status are separate. A stale application may point to a vacancy that is still open. Use `posting_status` only after checking the exact job ID or URL.
 
 Record the application channel, warm path, portfolio version, and outcome stage whenever evidence exists. These fields are required for meaningful conversion analysis. Leave them unknown rather than reconstructing them from memory.
+
+## Follow-up policy
+
+- About 10 business days after applying with no response: send a short status nudge through the channel used to apply.
+- About 3 weeks with no response: find the hiring manager or a designer on the team on LinkedIn. Method in `context/outreach.md`.
+- 5 weeks with no response: set `stale`. Stop investing.
+- Every open record carries a dated `next_action` and `next_action_on`. A SessionStart hook (`.claude/hooks/check-overdue.sh`) reads `next_action_on` from each record's frontmatter and surfaces any that are due, except for closed statuses (`rejected`, `skipped`, `stale`, `withdrawn`, `role-closed`, `hired`). Keep `next_action_on` a single `YYYY-MM-DD` date.
+
+## Earlier pipeline (June–August 2026)
+
+[archive-2026-07.md](archive-2026-07.md) is the frozen pre-September pipeline table. Check it for earlier skip reasons, warm paths and ATS notes before assessing a company again. Do not update it.

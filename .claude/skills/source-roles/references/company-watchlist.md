@@ -38,7 +38,7 @@ Add one row to `sourcing/role-leads.csv` with both URLs when available. Use the
 official job ID or URL to distinguish similarly titled vacancies. Record
 `posting_status: open` only when the exact official posting was checked.
 
-After initial location and relevance checks pass, follow `playbooks/assess-role.md`
+After initial location and relevance checks pass, run `/assess-fit`
 and create the canonical application record before drafting materials.
 
 ## Cadence

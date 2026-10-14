@@ -1,6 +1,6 @@
 # TODO
 
-Single list of open items. Snapshot dated 2026-07-02, rebuilt from the full search diagnosis run that day. Pipeline follow-up dates live only in `context/applications.md` (a SessionStart hook surfaces overdue ones automatically); do not duplicate them here. The hook also surfaces the "This week" section below at every session start. Remove items when done.
+Single list of open items. Snapshot dated 2026-07-02, rebuilt from the full search diagnosis run that day. Pipeline follow-up dates live only in the `next_action_on` field of `applications/records/` (a SessionStart hook surfaces overdue ones automatically); do not duplicate them here. The hook also surfaces the "This week" section below at every session start. Remove items when done.
 
 Diagnosis summary behind this plan (2026-07-02): 7 applications in 6 weeks, 1 screen (Factorial, cold apply, Barcelona-local, reached round 3). Fast rejections were global-remote DS-titled roles, the hardest segment, hit while the Remuner DS case was live with broken images. First-order problems in order: volume collapsed after June 4; portfolio DS evidence missing/broken; segment weighting wrong; AI differentiator invisible.
 

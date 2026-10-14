@@ -22,7 +22,7 @@ If any of these hit, the warm path comes first. The application can still go in,
 3. Second degree: Current company = target, Connections = 2nd. Check mutual connections on each hit to find the bridge person.
 4. While the search is open, note the design team and likely hiring manager (title keyword "design"). Needed later for the 3-week silent-application step.
 
-An empty result is an answer. Record it in `context/applications.md` and cold apply; don't keep the search as a pending action.
+An empty result is an answer. Record it in the role's `warm_path` field in `applications/records/` and cold apply; don't keep the search as a pending action.
 
 ## Asking for a referral
 
@@ -39,7 +39,7 @@ If they don't reply in a week: one follow-up, then drop it. Do not escalate to o
 
 ## Hiring manager outreach (the 3-week silent-application step)
 
-When an application has had no response for ~3 weeks (see follow-up policy in `context/applications.md`), find the most likely hiring manager or a senior designer on the team on LinkedIn.
+When an application has had no response for ~3 weeks (see follow-up policy in `applications/README.md`), find the most likely hiring manager or a senior designer on the team on LinkedIn.
 
 The message, short:
 - Applied for [role] on [date], still interested
@@ -57,4 +57,4 @@ Do not apologize for reaching out. Do not write more than five sentences. Do not
 
 ## Active warm paths
 
-Tracked in `context/applications.md` under "Warm paths to investigate". Keep that list current; this file holds the method, not the state.
+Tracked per role in the `warm_path` field and contacts section of `applications/records/` (June–August paths are in the Warm paths section of `applications/archive-2026-07.md`). Keep the records current; this file holds the method, not the state.

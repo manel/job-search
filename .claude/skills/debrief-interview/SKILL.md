@@ -19,8 +19,8 @@ Ask Manel, one at a time, only what hasn't been volunteered already:
 5. Next step and expected timing?
 
 Then:
-- Append a debrief section to `interviews/[company].md` for that round.
-- Update the role's row in `context/applications.md` (status, next step, date).
+- Append a debrief section to `interviews/[company]/[company].md` for that round.
+- Update the role's record in `applications/records/` (status, `next_action`, `next_action_on`, a dated `## History` line), then `applications/active.md`.
 - If a question exposed a reusable gap or a pattern worth keeping (a question type that keeps appearing, a story that consistently lands or doesn't), add it to `memory.md` under the relevant section. One entry per signal, dated.
 - If a [NEEDS YOUR STORY] gap in `interviews/prep.md` got answered live in the interview, capture the story Manel actually told and replace the placeholder with it.
 

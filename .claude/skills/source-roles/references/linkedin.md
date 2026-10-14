@@ -14,7 +14,7 @@ LinkedIn is a discovery and context source. Always verify that the exact vacancy
 
 ## Targeting constraint
 
-The current Career OS target is remote work from Spain or hybrid work in Barcelona. If this constraint has not changed, exclude on-site roles from LinkedIn preferences and searches.
+The current target (`context/target-roles.md`) is remote work from Spain or hybrid work in Barcelona. If this constraint has not changed, exclude on-site roles from LinkedIn preferences and searches.
 
 Target titles:
 

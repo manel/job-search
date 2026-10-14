@@ -12,13 +12,13 @@ allowed-tools:
 $ARGUMENTS should contain: company name and round type.
 
 Before producing anything:
-1. Read `context/applications.md` — confirm the role is in the pipeline and get its current state.
+1. Read the role's file in `applications/records/` — confirm it is in the pipeline and get its current state and history.
 2. Read `interviews/prep.md` — the core story library and question maps.
-3. Read `interviews/[company].md` if it exists — prior rounds, interviewer notes, what already landed or didn't.
+3. Read `interviews/[company]/` if it exists — prior rounds, interviewer notes, what already landed or didn't. Also `interviews/behavioral-battle-cards.md` and `evidence/experience-facts.md` for what can be claimed.
 4. Read `context/positioning.md` — pick the lead story for this role type using the role-type mapping.
-5. Read `context/salary.md` — know the agreed position cold. Never walk into a round without it.
+5. Read `context/salary.md` and the record's `salary_stated` — know what was already said and the decision rules. Never walk into a round without it.
 
-Then produce a one-page brief in `interviews/[company].md` (create the file if it's the first round, append a new round section otherwise):
+Then produce a one-page brief in `interviews/[company]/[company].md` (create the folder and file if it's the first round, append a new round section otherwise):
 
 - Round, date, interviewer name and role (ask if unknown)
 - The 2–3 things this company most likely cares about, from the JD and prior rounds

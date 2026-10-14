@@ -15,26 +15,26 @@ Types:
 - `referral` — asking a known contact to refer you or point you to the hiring manager
 - `linkedin` — the 3-week silent-application message to a hiring manager or senior designer found on LinkedIn
 
-If type is omitted, read `context/applications.md` to find the role's status and current Next action and infer which type applies.
+If type is omitted, read the role's record in `applications/records/` to find its status and current `next_action` and infer which type applies.
 
 ## What this skill does
 
-1. Read `context/applications.md` for the role's status, applied date, next action, and any known contacts.
+1. Read the role's record in `applications/records/` for its status, applied date, next action, warm path, and any known contacts.
 2. Read `context/outreach.md` for the applicable message rules.
 3. Read `context/positioning.md` for the signal to lead with (DS roles vs. product roles have different leads).
-4. Confirm the fit assessment exists in `context/applications.md` before writing anything. If the role hasn't been assessed, stop and run `/assess-fit` first.
+4. Confirm the fit assessment exists in the record before writing anything. If the role hasn't been assessed, stop and run `/assess-fit` first.
 5. Ask for any information needed before drafting: who the contact is, how they know Manel, what their role is at the company.
 6. Draft the message.
 7. Show the draft for confirmation. Do not update anything until confirmed.
-8. After confirmation, update `context/applications.md`: add the outreach action to the Notes column with the date, and set the next follow-up date in the Next action column.
+8. Save the draft to `outreach/[company]-[contact]-[date].md` and link it from the record. Only after Manel confirms it was sent: append a dated `## History` line, update `last_contact_on`, and set the next `next_action`/`next_action_on`.
 
 ## Referral ask
 
 Use when a known contact can refer or introduce.
 
 Three things in the message, nothing else:
-- The specific role (title and link from `context/applications.md`)
-- One sentence on why the fit is real, taken from the fit assessment notes in `context/applications.md`. Do not invent or paraphrase; pull the language from what was already written.
+- The specific role (title and `job_url` from the record)
+- One sentence on why the fit is real, taken from the fit assessment in the record. Do not invent or paraphrase; pull the language from what was already written.
 - The ask: "would you be comfortable referring me, or pointing me at the hiring manager?"
 
 Include the CV and portfolio link (manel-leiva.com) in the same message. Do not make the contact ask for them.

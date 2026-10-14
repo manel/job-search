@@ -1,6 +1,6 @@
 # Deel
 
-Three parallel Deel reqs were assessed 2026-07-24 and packaged the same day (see context/applications.md, all three currently in-progress, none sent). Manel is deciding which to actually send, likely one, at most two, since applying to multiple reqs at the same company is visible to the same recruiting org. This file preps the anticipated recruiter screen for all three so prep is ready regardless of which one goes out first.
+Three parallel Deel reqs were assessed 2026-07-24 and packaged the same day (see applications/archive-2026-07.md, all three currently in-progress, none sent). Manel is deciding which to actually send, likely one, at most two, since applying to multiple reqs at the same company is visible to the same recruiting org. This file preps the anticipated recruiter screen for all three so prep is ready regardless of which one goes out first.
 
 No interview is scheduled for any of the three yet. Interviewer name and role: unknown, update when a screen is booked.
 

@@ -1,6 +1,6 @@
 # Job search project
 
-Private repo. Job search operations for Manel Leiva.
+Private repo. Job search operations for Manel Leiva: strategy, claimable evidence, one record per application, materials, and interview preparation.
 
 ## Structure
 
@@ -9,26 +9,32 @@ job-search/
 ├── CLAUDE.md                   ← Claude Code reads this first. Start here.
 ├── memory.md                   ← Dated observations and rules from the search
 ├── principles.md               ← Writing rules, tone, humanizer checklist
-├── context/
-│   ├── portfolio.md            ← Case studies, signals, portfolio writing rules
-│   ├── applications.md         ← Pipeline state, statuses, follow-up policy
-│   ├── positioning.md          ← Differentiation, role-type mapping (canonical)
-│   ├── salary.md               ← Compensation positions and negotiation rules
-│   ├── linkedin.md             ← Profile copy, audit, maintenance checklist
-│   ├── outreach.md             ← Warm paths and follow-up outreach playbook
-│   ├── job-boards.md           ← Where to search, what works
-│   └── design-systems-notes.md ← Raw DS intake archive
+├── TODO.md                     ← Open items
+├── applications/
+│   ├── active.md               ← Dashboard: the action queue
+│   ├── README.md               ← Record format, statuses, follow-up policy
+│   ├── records/                ← One file per company and role (source of truth)
+│   └── archive-2026-07.md      ← Frozen pre-September pipeline table
+├── evidence/                   ← Evidence register and contribution audits
+├── context/                    ← Target roles, positioning, salary, pipeline findings,
+│                                 writing rules, portfolio, LinkedIn, outreach, brand
 ├── cv/
-│   ├── cv-base.md              ← Master CV content. Edit here, not in role files.
-│   └── roles/                  ← Role-specific CV outputs (plain text, Figma-ready)
-├── cover-letters/
-│   └── roles/                  ← One file per cover letter
+│   ├── cv-base.md              ← Working CV base
+│   └── roles/                  ← Role-specific CV sources (Figma-ready)
+├── cover-letters/roles/        ← One file per cover letter
+├── outreach/                   ← Drafted messages to named contacts
+├── application-answers/        ← Drafted written answers for application forms
 ├── cv-pdf-to-send/             ← Final PDFs as sent, one folder per company
 ├── interviews/
 │   ├── prep.md                 ← Core story library, question maps
-│   └── [company].md            ← Per-process briefs and debriefs
+│   └── [company]/              ← Per-process briefs and debriefs
+├── sourcing/                   ← Company watchlist and role leads
+├── analysis/[date]/            ← Dated audits and funnel snapshots
+├── scripts/                    ← PDF merge, funnel audit, watchlist, interview reader
 └── portfolio/                  ← Git submodule → portfolio repo (manel-leiva.com)
 ```
+
+The full annotated tree and the rules for each folder are in `.claude/conventions/project-structure.md` and `.claude/conventions/evidence-and-records.md`.
 
 ## Setup
 
@@ -54,14 +60,14 @@ The `portfolio/` directory points to the portfolio repo. To work on case study c
 
 ## Working with Claude Code
 
-Open this directory in VS Code. Run Claude Code here. It reads `CLAUDE.md` automatically.
+Open this directory in VS Code or the terminal. Run Claude Code here. It reads `CLAUDE.md` automatically. A SessionStart hook (`.claude/hooks/check-overdue.sh`) surfaces overdue `next_action_on` dates from the application records; it is registered in `.claude/settings.local.json`.
 
 Slash commands (all in `.claude/skills/`):
 
 Application pipeline:
 - `/assess-fit` — evaluate a new role before writing anything
 - `/new-application` — set up a full application package (requires a fit assessment first)
-- `/update-pipeline` — update role status in applications.md
+- `/update-pipeline` — update a role's record and the dashboard after a confirmed change
 - `/source-roles` — weekly sourcing session, batch-assess new roles
 
 Follow-up and outreach:
@@ -74,3 +80,11 @@ Portfolio:
 Interviews:
 - `/prep-interview [company] [round]` — build a one-page brief for a round
 - `/debrief-interview [company] [round]` — capture what happened after a round
+
+## Reading in Obsidian
+
+The repo can be opened as an Obsidian vault. Vault settings in `.obsidian/` are committed; the per-session workspace files are ignored.
+
+## History
+
+From 2026-09-14 to 2026-10-14 the search ran in a separate repo, career-os (built with ChatGPT/Codex), while this repo was read-only. On 2026-10-14 career-os was merged in with its full git history: its `strategy/` became `context/`, its `materials/` became `cv/`, `cover-letters/`, `outreach/` and `application-answers/`, and its playbooks became skill references. Its 2026-10-13 chat audit (`analysis/2026-10-13/`) notes that the original ChatGPT project's 27 chats and their attachments have not been fully preserved; do not delete that project on the strength of this merge.

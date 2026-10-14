@@ -1,35 +1,32 @@
 #!/bin/bash
-# SessionStart hook: surface (1) overdue Next action dates from the Active
-# table in context/applications.md and (2) the open "This week" items in
-# TODO.md, injected as context at the start of every session.
+# SessionStart hook: surface (1) overdue next_action_on dates from the
+# frontmatter of open records in applications/records/ and (2) the open
+# "This week" items in TODO.md, injected as context at the start of every
+# session.
 
 DIR="${CLAUDE_PROJECT_DIR:-.}"
-APPS="$DIR/context/applications.md"
+RECORDS="$DIR/applications/records"
 TODO="$DIR/TODO.md"
 TODAY=$(date +%Y-%m-%d)
 CTX=""
 
-if [ -f "$APPS" ]; then
-  OVERDUE=$(awk -F'|' -v today="$TODAY" '
-    /^## Active/ { active=1; next }
-    active && /^## / { active=0 }
-    active && /^\|/ && $2 !~ /Role/ && $2 !~ /---/ {
-      cell=$6
-      while (match(cell, /[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]/)) {
-        d = substr(cell, RSTART, RLENGTH)
-        cell = substr(cell, RSTART + RLENGTH)
-        if (d <= today) {
-          company=$3; action=$6
-          gsub(/^ +| +$/, "", company)
-          gsub(/^ +| +$/, "", action)
-          print "- " company ": due " d " (" action ")"
-          break
-        }
-      }
+if [ -d "$RECORDS" ]; then
+  OVERDUE=$(awk -v today="$TODAY" '
+    FNR == 1 { fm=0; company=""; status=""; action=""; due="" }
+    /^---$/ { fm++; if (fm == 2) emit(); next }
+    fm == 1 && /^company:/ { company=val($0) }
+    fm == 1 && /^status:/ { status=val($0) }
+    fm == 1 && /^next_action:/ { action=val($0) }
+    fm == 1 && /^next_action_on:/ { due=val($0) }
+    function val(s) { sub(/^[a-z_]+: */, "", s); gsub(/^"|"$/, "", s); return s }
+    function emit() {
+      if (status ~ /^(rejected|skipped|stale|withdrawn|role-closed|hired)$/) return
+      if (due !~ /^[0-9]{4}-[0-9]{2}-[0-9]{2}$/ || due > today) return
+      print due "\t- " company " (" status "): due " due " (" substr(action, 1, 140) ")"
     }
-  ' "$APPS")
+  ' "$RECORDS"/*.md | sort | cut -f2-)
   if [ -n "$OVERDUE" ]; then
-    CTX="OVERDUE PIPELINE ACTIONS in context/applications.md (today: $TODAY). Surface these to the user before starting other work; follow-ups on live applications outrank new work. Suggest running /follow-up.
+    CTX="OVERDUE PIPELINE ACTIONS in applications/records/ (today: $TODAY). Surface these to the user before starting other work; follow-ups on live applications outrank new work. Suggest running /follow-up.
 $OVERDUE"
   fi
 fi

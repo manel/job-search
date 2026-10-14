@@ -2,25 +2,25 @@
 
 ### Before writing anything for a role application
 
-1. Read `context/applications.md` to check if the role has already been assessed or is in progress.
+1. Check `applications/records/` (and `applications/archive-2026-07.md` for June–August) to see if the role or company has already been assessed or is in progress.
 2. Run a fit assessment using the framework below. No assessment, no writing. This gate has no exceptions.
 3. Check `context/outreach.md`: is there a warm path? Warm paths come before or alongside cold applications. `/outreach [company] referral` drafts the ask.
-4. Check `context/salary.md` for the agreed compensation position before writing any cover letter.
-5. Read `principles.md` before producing any written output.
+4. Check `context/salary.md` before stating or recommending any salary figure.
+5. Read `principles.md` and `context/writing-rules.md` before producing any written output. Check experience claims against `evidence/experience-facts.md`.
 6. Run the `no-ai-slop` skill before drafting and the `humanizer` skill on every draft before output. This applies to all recruiter-facing prose (CV, cover letter, outreach, follow-up, LinkedIn) by default, not on request.
 7. Respect the length caps in `principles.md` ("Brevity and skimmability"). Recruiters scan; a document that fails the 10-second test fails, no matter how good the writing is.
 
 ### CV work
 
-- Master content lives in `cv/cv-base.md`. Never invent experience that isn't there.
+- The working base is `cv/cv-base.md`, grounded in `evidence/experience-facts.md`. Never invent experience that isn't there.
 - Role-specific CVs go in `cv/roles/[company-role].md`.
-- What leads depends on role type: the canonical mapping is in `context/positioning.md` ("How to position for specific role types"). Never change it without being asked.
-- Output format: plain text only. No markdown formatting beyond line breaks. Designed for copy-paste into Figma.
+- What leads depends on role type: the canonical mapping is in `context/positioning.md` ("Role-specific lead"). Never change it without being asked.
+- Format: follow "Tailored CV format" in `context/writing-rules.md`. The source is designed for copy-paste into Figma; PDF export and QA are separate tasks.
 - No em dashes. Ever.
 
 ### Cover letter work
 
-- Always confirm salary position from `context/salary.md` before writing. Never leave compensation open.
+- Check `context/salary.md` before writing. Do not state a figure in the letter unless the application requires one.
 - Fit assessment must happen before writing. Don't skip it.
 - Output format: plain text, same as CV.
 - Apply all rules from `principles.md` before outputting.
@@ -43,14 +43,14 @@
 ### Interview work
 
 - Core story library and question maps: `interviews/prep.md`. Stories repeat; the angle changes per role.
-- Per-company state lives in `interviews/[company].md`: one file per process, a section per round, debrief appended after each round.
+- Per-company material lives in `interviews/[company]/`: a main file per process (`[company].md`) with a section per round and the debrief appended after each round, plus any briefs, cheat sheets or challenge material.
 - `/prep-interview [company] [round]` builds the one-page brief. `/debrief-interview [company] [round]` captures what happened and feeds reusable signals into `memory.md`.
 - `prep.md` has [NEEDS YOUR STORY] gaps. Flag them when relevant; never fill them with invented material.
 
 ### Follow-up discipline
 
-- The follow-up policy lives at the top of `context/applications.md`: nudge at ~10 business days, LinkedIn outreach at ~3 weeks (method in `context/outreach.md`), stale at 5 weeks.
-- Every applied role has a dated Next action. When asked about the pipeline, check for overdue actions first and surface them.
+- The follow-up policy lives in `applications/README.md`: nudge at ~10 business days, LinkedIn outreach at ~3 weeks (method in `context/outreach.md`), stale at 5 weeks.
+- Every open record has a `next_action` and a dated `next_action_on`. When asked about the pipeline, check for overdue actions first and surface them.
 - `/follow-up` surfaces overdue next actions and drafts the appropriate message. Run it at the start of any session where the pipeline might have items due.
 
 ---

@@ -1,6 +1,10 @@
-# Applications
+# Applications archive (pre-September pipeline)
 
-Pipeline state as of 2026-07-02. Update this file whenever a role status changes.
+Frozen on 2026-10-14 when career-os was merged into this repo. This is the old pipeline table from `context/applications.md`, last maintained 2026-08-25. **It is not the source of truth.** Current status lives in `records/` and the dashboard in `active.md`.
+
+Keep it for what the records don't carry: the reasons behind June–July skips and deferrals, early warm paths, and ATS notes. Check it before assessing a company that was seen before. The status vocabulary and follow-up policy below are superseded by `README.md`.
+
+Pipeline state as of 2026-07-02, with later edits through 2026-08-25.
 
 ## Status vocabulary
 
