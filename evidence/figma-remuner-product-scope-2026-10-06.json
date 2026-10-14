@@ -1,0 +1,3645 @@
+{
+  "verified_on": "2026-10-06",
+  "method": "Read-only Figma Desktop Bridge inspection",
+  "files": [
+    {
+      "name": "Remuner | Datasets",
+      "file_key": "567oKEE7i0ktL73emiSdCL",
+      "url": "https://www.figma.com/design/567oKEE7i0ktL73emiSdCL",
+      "pages": [
+        {
+          "id": "1:2",
+          "name": "---"
+        },
+        {
+          "id": "0:1",
+          "name": "👇🏼 Handoff"
+        },
+        {
+          "id": "3416:22956",
+          "name": "1225 -> Dataset & integration errors"
+        },
+        {
+          "id": "3153:163724",
+          "name": "1125 -> Hide datasets for earnigs obfuscated roles"
+        },
+        {
+          "id": "2967:24683",
+          "name": "1025 -> Dataset processing state"
+        },
+        {
+          "id": "3032:72957",
+          "name": "1025 -> Multiple conditions"
+        },
+        {
+          "id": "2949:15053",
+          "name": "1025 -> Dataset fields format"
+        },
+        {
+          "id": "2803:8895",
+          "name": "0825 -> Add plan on parameters tooltip list"
+        },
+        {
+          "id": "2762:25076",
+          "name": "0725 -> Archive datasets"
+        },
+        {
+          "id": "2604:6365",
+          "name": "0725 -> Datasets in list form"
+        },
+        {
+          "id": "2536:12970",
+          "name": "0625 -> System alerts of critical changes"
+        },
+        {
+          "id": "2835:2321",
+          "name": "0925 -> Disable object selection if dataset in use"
+        },
+        {
+          "id": "2439:307672",
+          "name": "0625 -> Data source selector"
+        },
+        {
+          "id": "2389:1102",
+          "name": "0525 -> Parameters view on dataset card"
+        },
+        {
+          "id": "2236:9886",
+          "name": "0325 -> Link params to dataset"
+        },
+        {
+          "id": "2132:8372",
+          "name": "1024 -> Group by: formulated field"
+        },
+        {
+          "id": "2039:1963",
+          "name": "0824 -> Update Excel file"
+        },
+        {
+          "id": "1:11",
+          "name": "---"
+        },
+        {
+          "id": "1:3",
+          "name": "👇🏼 Exploration"
+        },
+        {
+          "id": "3127:4068",
+          "name": "1125 -> Obfuscate dataset"
+        },
+        {
+          "id": "3040:80650",
+          "name": "1025 -> Dataset & integration errors"
+        },
+        {
+          "id": "2918:288621",
+          "name": "1025 -> Show excel file loading"
+        },
+        {
+          "id": "2897:90209",
+          "name": "1025 -> Linked & Nested conditions 2"
+        },
+        {
+          "id": "2872:10982",
+          "name": "1025 -> Definir formato de datos"
+        },
+        {
+          "id": "2831:15403",
+          "name": "0925 -> Alert dialog for dataset objects"
+        },
+        {
+          "id": "2796:9892",
+          "name": "0825 -> Add plan on parameters tooltip list"
+        },
+        {
+          "id": "2715:3476",
+          "name": "0725 -> Archive datasets "
+        },
+        {
+          "id": "2563:3286",
+          "name": "0725 -> Datasets in list format"
+        },
+        {
+          "id": "2448:5019",
+          "name": "0625 -> Data source fields dialog logic"
+        },
+        {
+          "id": "2408:7739",
+          "name": "0625 -> Dataset source selector"
+        },
+        {
+          "id": "2383:2",
+          "name": "0525 -> Parameters view on dataset card"
+        },
+        {
+          "id": "2265:4691",
+          "name": "0325 -> Linked & Nested conditions"
+        },
+        {
+          "id": "2220:5305",
+          "name": "0225 -> Link params to dataset"
+        },
+        {
+          "id": "2118:3826",
+          "name": "1024 -> Group by"
+        },
+        {
+          "id": "1:10",
+          "name": "0824 -> Update Excel file"
+        },
+        {
+          "id": "1:12",
+          "name": "---"
+        },
+        {
+          "id": "1:5",
+          "name": "💠 Local components"
+        },
+        {
+          "id": "1:6",
+          "name": "---"
+        },
+        {
+          "id": "1:7",
+          "name": "📔 Cover"
+        },
+        {
+          "id": "1:8",
+          "name": "---"
+        }
+      ],
+      "selected_structures": [
+        {
+          "id": "2439:307672",
+          "name": "0625 -> Data source selector",
+          "items": [
+            {
+              "id": "2439:308586",
+              "name": "Captura de pantalla 2025-05-26 a las 17.30.02 4",
+              "type": "RECTANGLE",
+              "w": 1918,
+              "h": 989
+            },
+            {
+              "id": "2439:308587",
+              "name": "Captura de pantalla 2025-06-02 a las 17.08.26 1",
+              "type": "RECTANGLE",
+              "w": 1918,
+              "h": 1086
+            },
+            {
+              "id": "2439:308588",
+              "name": "Dialog",
+              "type": "INSTANCE",
+              "w": 1060,
+              "h": 731
+            },
+            {
+              "id": "2489:26109",
+              "name": "Dialog",
+              "type": "INSTANCE",
+              "w": 1060,
+              "h": 731
+            },
+            {
+              "id": "2439:308589",
+              "name": "Label / Section",
+              "type": "INSTANCE",
+              "w": 8190,
+              "h": 200
+            },
+            {
+              "id": "2489:25736",
+              "name": "Label / Section",
+              "type": "INSTANCE",
+              "w": 8190,
+              "h": 200
+            },
+            {
+              "id": "2439:308590",
+              "name": "Label / Step",
+              "type": "INSTANCE",
+              "w": 1918,
+              "h": 200
+            },
+            {
+              "id": "2439:308591",
+              "name": "Label / Step",
+              "type": "INSTANCE",
+              "w": 5882,
+              "h": 200
+            },
+            {
+              "id": "2489:26098",
+              "name": "Label / Step",
+              "type": "INSTANCE",
+              "w": 761,
+              "h": 200
+            },
+            {
+              "id": "2489:26100",
+              "name": "Label / Step",
+              "type": "INSTANCE",
+              "w": 775,
+              "h": 200
+            },
+            {
+              "id": "2439:308592",
+              "name": "Group 4",
+              "type": "GROUP",
+              "w": 10977,
+              "h": 1012
+            },
+            {
+              "id": "2439:311987",
+              "name": "Note",
+              "type": "INSTANCE",
+              "w": 400,
+              "h": 542
+            },
+            {
+              "id": "2489:26104",
+              "name": "Vector 1",
+              "type": "VECTOR",
+              "w": 81,
+              "h": 156
+            },
+            {
+              "id": "2489:26105",
+              "name": "Vector 2",
+              "type": "VECTOR",
+              "w": 68,
+              "h": 89
+            },
+            {
+              "id": "2489:26107",
+              "name": "image 1",
+              "type": "RECTANGLE",
+              "w": 588,
+              "h": 335
+            }
+          ]
+        }
+      ],
+      "annotation_snippets": [
+        {
+          "id": "2439:307672",
+          "name": "0625 -> Data source selector",
+          "annotations": [
+            "Problema: \nEste dialog permite seleccionar dos tipos de fuentes: CRM y Excel. Ambas no pueden ser seleccionadas a la vez.\nSolución:\nEn el diseño de dialog solo se puede seleccionar una fuente de datos, a escoger entre los CRM conectados o con opción de cargar fuente del ordenador (Excel).\nSi se selecciona Excel, aparecerá un campo para poder cargar el archivo.\nSpecs:\nAparecerán alertas de sistema si se quieren modificar una vez este activo en un plan."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Remuner | Settings",
+      "file_key": "6ud2wi9O3p82AotF9VHUBn",
+      "url": "https://www.figma.com/design/6ud2wi9O3p82AotF9VHUBn",
+      "pages": [
+        {
+          "id": "0:1",
+          "name": "👇🏼 Handoff"
+        },
+        {
+          "id": "1:2",
+          "name": "---"
+        },
+        {
+          "id": "1:9",
+          "name": "1024 -> SSO settings"
+        },
+        {
+          "id": "1:11",
+          "name": "---"
+        },
+        {
+          "id": "1:3",
+          "name": "👇🏼 Exploration"
+        },
+        {
+          "id": "1:10",
+          "name": "1024 -> Single Sign-On"
+        },
+        {
+          "id": "4026:5950",
+          "name": "1024 -> Global settings"
+        },
+        {
+          "id": "4123:4744",
+          "name": "0825 -> Select which metrics user IC will view"
+        },
+        {
+          "id": "1:12",
+          "name": "---"
+        },
+        {
+          "id": "1:5",
+          "name": "💠 Local components"
+        },
+        {
+          "id": "1:6",
+          "name": "---"
+        },
+        {
+          "id": "1:7",
+          "name": "📔 Cover"
+        },
+        {
+          "id": "1:8",
+          "name": "---"
+        }
+      ],
+      "selected_structures": [
+        {
+          "id": "1:9",
+          "name": "1024 -> SSO settings",
+          "items": [
+            {
+              "id": "4031:7245",
+              "name": "SSO settings flow",
+              "type": "SECTION"
+            },
+            {
+              "id": "4031:7246",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "4031:7518",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "4031:7592",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            }
+          ]
+        }
+      ],
+      "annotation_snippets": [
+        {
+          "id": "1:9",
+          "name": "1024 -> SSO settings",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "name": "Remuner | Roles & permissions",
+      "file_key": "yuXoXF2i7ugCFHbAJhnoWN",
+      "url": "https://www.figma.com/design/yuXoXF2i7ugCFHbAJhnoWN",
+      "pages": [
+        {
+          "id": "0:1",
+          "name": "👇🏼 Handoff"
+        },
+        {
+          "id": "1:9",
+          "name": "0124 -> Roles & permissions"
+        },
+        {
+          "id": "1:11",
+          "name": "---"
+        },
+        {
+          "id": "1:3",
+          "name": "👇🏼 Exploration"
+        },
+        {
+          "id": "2512:98950",
+          "name": "0525 -> Close periods roles"
+        },
+        {
+          "id": "1:10",
+          "name": "1224 -> Roles and permissions"
+        },
+        {
+          "id": "1:12",
+          "name": "---"
+        },
+        {
+          "id": "1:5",
+          "name": "💠 Local components"
+        },
+        {
+          "id": "1:6",
+          "name": "---"
+        },
+        {
+          "id": "1:7",
+          "name": "📔 Cover"
+        },
+        {
+          "id": "1:8",
+          "name": "---"
+        }
+      ],
+      "selected_structures": [
+        {
+          "id": "1:9",
+          "name": "0124 -> Roles & permissions",
+          "items": [
+            {
+              "id": "2329:77928",
+              "name": "Roles & permissions",
+              "type": "SECTION"
+            },
+            {
+              "id": "2329:77964",
+              "name": "Keyscreen / Admin / Users",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 960
+            },
+            {
+              "id": "2329:78267",
+              "name": "Keyscreen / Admin / Users",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 960
+            },
+            {
+              "id": "2329:78572",
+              "name": "Keyscreen / Admin / Users",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 960
+            },
+            {
+              "id": "2329:112250",
+              "name": "Plan sharing",
+              "type": "SECTION"
+            },
+            {
+              "id": "2329:117118",
+              "name": "Frame 2057",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 979
+            },
+            {
+              "id": "2329:142550",
+              "name": "Frame 2065",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 979
+            },
+            {
+              "id": "2329:117122",
+              "name": "Frame 2058",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 979
+            },
+            {
+              "id": "2329:151721",
+              "name": "Permission restriction communication",
+              "type": "SECTION"
+            },
+            {
+              "id": "2354:43887",
+              "name": "Frame 2072",
+              "type": "FRAME",
+              "w": 1460,
+              "h": 960
+            },
+            {
+              "id": "2354:44757",
+              "name": "Frame 2073",
+              "type": "FRAME",
+              "w": 1460,
+              "h": 960
+            },
+            {
+              "id": "2354:44760",
+              "name": "Frame 2074",
+              "type": "FRAME",
+              "w": 1460,
+              "h": 960
+            }
+          ]
+        }
+      ],
+      "annotation_snippets": [
+        {
+          "id": "1:9",
+          "name": "0124 -> Roles & permissions",
+          "annotations": [
+            "By default, for a new role, the values of the different permissions are “No access” or the lowest possible.\nUser has to proactively change each level of permission",
+            "Role name: [previous name] (N)\nValues: It gets the same values as the role that is dupliciated",
+            "System roles can only be duplicated, no edit no delete.\nOnly custom roles can be edited and deleted",
+            "Consolidate the actions available for a plan and the dialogs opened in each case",
+            "No access\nNav sections are hidden. E.g. IC can’t view admin entry points\nIn-screen actions are disabled with tooltip message\nCan view \nNav sections active if the role has the right permission\nIn-screen actions are enabled and the dialog is show in read only mode\nCan edit\nNav sections active if the role has the right permission\nIn-screen actions enabled and dialogs fully editable\nDelete resources disabled\nFull access\nCan view, edit and delete everything",
+            "Same logic as of now with system roles.\nIf a role has no access to the whole resource (Datasets, Plans, Users, etc), the navigation entry point is hidden",
+            "If a role has access to the whole resource (Datasets, Plans, Users, etc), the navigation entry point is visible but the actions:\nIf has dialog -> enabled and opens the dialog\nIf doesn’t have dialog -> disabled + tooltip",
+            "If a role has access to shared resources (dashboards or plans):\nNo specific resource shared -> user doesn’t have the navigation entry point\nA resource has been shared -> user has the navigation entry point + the specific resource visible (dashboard or plan)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Remuner | Period Locking & Closing",
+      "file_key": "Cwzy1PaZXXZmPFblpwvEHU",
+      "url": "https://www.figma.com/design/Cwzy1PaZXXZmPFblpwvEHU",
+      "pages": [
+        {
+          "id": "747:36856",
+          "name": "👇🏼 Handoff"
+        },
+        {
+          "id": "1894:2335",
+          "name": "0625 -> Approvers select validation"
+        },
+        {
+          "id": "1882:32574",
+          "name": "0625 -> Period closing approvals selector"
+        },
+        {
+          "id": "747:36857",
+          "name": "1224 -> Periods closing & approvals"
+        },
+        {
+          "id": "747:36855",
+          "name": "---"
+        },
+        {
+          "id": "747:36853",
+          "name": "👇🏼 Exploration"
+        },
+        {
+          "id": "403:2",
+          "name": "1124 -> Approvals workflow"
+        },
+        {
+          "id": "195:2",
+          "name": "FLOWS"
+        },
+        {
+          "id": "0:1",
+          "name": "(Old) * WIP * "
+        },
+        {
+          "id": "747:36391",
+          "name": "---"
+        },
+        {
+          "id": "747:36392",
+          "name": "Cover"
+        }
+      ],
+      "selected_structures": [
+        {
+          "id": "747:36857",
+          "name": "1224 -> Periods closing & approvals",
+          "items": [
+            {
+              "id": "747:36858",
+              "name": "Settings | General",
+              "type": "SECTION"
+            },
+            {
+              "id": "747:36859",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1223
+            },
+            {
+              "id": "747:36960",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1223
+            },
+            {
+              "id": "747:37059",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1223
+            },
+            {
+              "id": "747:39958",
+              "name": "Settings | Plan",
+              "type": "SECTION"
+            },
+            {
+              "id": "747:43104",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1223
+            },
+            {
+              "id": "747:50076",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1223
+            },
+            {
+              "id": "747:51192",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1223
+            },
+            {
+              "id": "759:52463",
+              "name": "Approver flow | IC",
+              "type": "SECTION"
+            },
+            {
+              "id": "759:52464",
+              "name": "Frame 2038",
+              "type": "FRAME",
+              "w": 1460,
+              "h": 931
+            },
+            {
+              "id": "759:52467",
+              "name": "My Plans",
+              "type": "FRAME",
+              "w": 1460,
+              "h": 1663
+            },
+            {
+              "id": "759:52771",
+              "name": "My Plans",
+              "type": "FRAME",
+              "w": 1460,
+              "h": 1663
+            },
+            {
+              "id": "871:80762",
+              "name": "Approver flow | Admin",
+              "type": "SECTION"
+            },
+            {
+              "id": "871:82054",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "871:82112",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "871:82217",
+              "name": "Frame 2052",
+              "type": "FRAME",
+              "w": 744,
+              "h": 1336
+            },
+            {
+              "id": "871:56256",
+              "name": "Approver flow | Team manager",
+              "type": "SECTION"
+            },
+            {
+              "id": "871:57703",
+              "name": "Frame 2047",
+              "type": "FRAME",
+              "w": 744,
+              "h": 1336
+            },
+            {
+              "id": "871:57715",
+              "name": "Keyscreen / IC / My Teams",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 2199
+            },
+            {
+              "id": "871:58019",
+              "name": "Keyscreen / IC / My Teams",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            }
+          ]
+        }
+      ],
+      "annotation_snippets": [
+        {
+          "id": "747:36857",
+          "name": "1224 -> Periods closing & approvals",
+          "annotations": [
+            "Current date: 5 nov 2024\nPeriod to review: Oct 2024",
+            "Frozen and missing approvals",
+            "This period is currently frozen (no data sync) and it needs to be approved by the IC and/or manager(s)/admin(s)",
+            "Approved by IC and managers",
+            "This period has been approved by the IC and his/her managers/admins\nThere are missing IC approvals in the same team",
+            "This period is closed:\nPeriod closing date\nAll approvers approved the period\nClosing manually forced",
+            "Create as component if possible\nInclude the button component\nDepending on the selection the actions will change as disabled",
+            "Bulk actions behaviour"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Remuner | Navigation",
+      "file_key": "mndiSWlmvCFcZXugl7qzOG",
+      "url": "https://www.figma.com/design/mndiSWlmvCFcZXugl7qzOG",
+      "pages": [
+        {
+          "id": "0:1",
+          "name": "→ Handoff 👇🏼"
+        },
+        {
+          "id": "1:2",
+          "name": "---"
+        },
+        {
+          "id": "2298:2647",
+          "name": "0525 -> Expandable menus"
+        },
+        {
+          "id": "2255:4509",
+          "name": "1024 -> Navigation settings"
+        },
+        {
+          "id": "2255:10550",
+          "name": "1024 -> Admin nav mobile"
+        },
+        {
+          "id": "1:9",
+          "name": "0624 -> Navigation consolidation"
+        },
+        {
+          "id": "1:11",
+          "name": "---"
+        },
+        {
+          "id": "1:3",
+          "name": "→ Exploration 👇🏼"
+        },
+        {
+          "id": "2227:1656",
+          "name": "1024 -> Navigation settings"
+        },
+        {
+          "id": "1:10",
+          "name": "0624 -> Navigation consolidation"
+        },
+        {
+          "id": "1:12",
+          "name": "---"
+        },
+        {
+          "id": "1:5",
+          "name": "💠 Local components"
+        },
+        {
+          "id": "1:6",
+          "name": "---"
+        },
+        {
+          "id": "1:7",
+          "name": "📔 Cover"
+        },
+        {
+          "id": "1:8",
+          "name": "---"
+        }
+      ],
+      "selected_structures": [
+        {
+          "id": "1:9",
+          "name": "0624 -> Navigation consolidation",
+          "items": [
+            {
+              "id": "2101:2180",
+              "name": "Navigation / Desktop",
+              "type": "SECTION"
+            },
+            {
+              "id": "2102:15476",
+              "name": "Navigation / Mobile",
+              "type": "SECTION"
+            },
+            {
+              "id": "2109:17771",
+              "name": "device",
+              "type": "FRAME",
+              "w": 375,
+              "h": 844
+            },
+            {
+              "id": "2109:20730",
+              "name": "device",
+              "type": "FRAME",
+              "w": 375,
+              "h": 844
+            },
+            {
+              "id": "2109:21463",
+              "name": "device",
+              "type": "FRAME",
+              "w": 375,
+              "h": 844
+            },
+            {
+              "id": "2186:1473",
+              "name": "User menu / Mobile",
+              "type": "SECTION"
+            },
+            {
+              "id": "2186:1477",
+              "name": "device",
+              "type": "FRAME",
+              "w": 375,
+              "h": 844
+            },
+            {
+              "id": "2186:1479",
+              "name": "device",
+              "type": "FRAME",
+              "w": 375,
+              "h": 844
+            },
+            {
+              "id": "2102:15934",
+              "name": "Navigation responsive behaviour",
+              "type": "SECTION"
+            },
+            {
+              "id": "2109:26732",
+              "name": "device",
+              "type": "FRAME",
+              "w": 375,
+              "h": 844
+            }
+          ]
+        }
+      ],
+      "annotation_snippets": [
+        {
+          "id": "1:9",
+          "name": "0624 -> Navigation consolidation",
+          "annotations": [
+            "Navigation can be expanded/collapsed using the button at the bottom.\nNavigation is automatically collapsed when viewport width <= 960 px\nMobile navigation when viewport <= 600 px\nMobile navigation always visible (sticky)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Remuner | My plans (IC)",
+      "file_key": "VupJTyuUY8TbtTYiAozZrF",
+      "url": "https://www.figma.com/design/VupJTyuUY8TbtTYiAozZrF",
+      "pages": [
+        {
+          "id": "4569:10319",
+          "name": "---"
+        },
+        {
+          "id": "0:1",
+          "name": "→ Handoff 👇🏼"
+        },
+        {
+          "id": "4711:14782",
+          "name": "0126 -> Plan details drawer"
+        },
+        {
+          "id": "4294:83411",
+          "name": "1025 -> My plans"
+        },
+        {
+          "id": "3515:65754",
+          "name": "0725 -> Decouple items from cards"
+        },
+        {
+          "id": "3542:97639",
+          "name": "0625 -> Show syncronisation on plan cards"
+        },
+        {
+          "id": "3542:77113",
+          "name": "0525 -> Expired plans visibility"
+        },
+        {
+          "id": "3400:6771",
+          "name": "0325 -> Bonus %"
+        },
+        {
+          "id": "3327:18986",
+          "name": "1124 -> Ranking frequencies"
+        },
+        {
+          "id": "2872:36841",
+          "name": "0724 -> Responsive cards (Mobile)"
+        },
+        {
+          "id": "2650:12577",
+          "name": "0724 -> Cards with multipliers"
+        },
+        {
+          "id": "1:9",
+          "name": "0524 - Card pacing and facelift"
+        },
+        {
+          "id": "1:11",
+          "name": "---"
+        },
+        {
+          "id": "1:3",
+          "name": "→ Exploration 👇🏼"
+        },
+        {
+          "id": "4559:1098",
+          "name": "1225 -> My plans refactor"
+        },
+        {
+          "id": "4430:85741",
+          "name": "1125 -> Plan details drawer"
+        },
+        {
+          "id": "3757:10576",
+          "name": "0925 -> Plans view skteches"
+        },
+        {
+          "id": "3496:20064",
+          "name": "0625 -> Decouple items from cards"
+        },
+        {
+          "id": "3542:93299",
+          "name": "0625 -> Show syncronisation on plan cards"
+        },
+        {
+          "id": "3542:2",
+          "name": "0525 -> Expired plans visibility"
+        },
+        {
+          "id": "3385:21137",
+          "name": "0325 -> Bonus %"
+        },
+        {
+          "id": "3412:2",
+          "name": "0325 -> Ranking exploration"
+        },
+        {
+          "id": "3313:23023",
+          "name": "1024 -> Ranking frequencies"
+        },
+        {
+          "id": "2437:49446",
+          "name": "0624 -> Responsive cards"
+        },
+        {
+          "id": "2418:691",
+          "name": "0624 -> Multipliers cards"
+        },
+        {
+          "id": "2383:53210",
+          "name": "0624 -> Pacing with AI icon"
+        },
+        {
+          "id": "1:10",
+          "name": "0524 -> Card pacing and facelift"
+        },
+        {
+          "id": "2002:28656",
+          "name": "0524 -> Metric cards"
+        },
+        {
+          "id": "2001:38926",
+          "name": "0524 -> Transaction table adjustments"
+        },
+        {
+          "id": "2001:34376",
+          "name": "0524 -> Card to list of items"
+        },
+        {
+          "id": "2001:37588",
+          "name": "0524 -> Pacing benchmark"
+        },
+        {
+          "id": "2001:36858",
+          "name": "0524 -> Customer web screenshots"
+        },
+        {
+          "id": "2001:39257",
+          "name": "0501 -> Old cards"
+        },
+        {
+          "id": "1:12",
+          "name": "---"
+        },
+        {
+          "id": "1:5",
+          "name": "💠 Local components"
+        },
+        {
+          "id": "1:6",
+          "name": "---"
+        },
+        {
+          "id": "1:7",
+          "name": "📔 Cover"
+        },
+        {
+          "id": "1:8",
+          "name": "---"
+        }
+      ],
+      "selected_structures": [
+        {
+          "id": "4294:83411",
+          "name": "1025 -> My plans",
+          "items": [
+            {
+              "id": "4294:83412",
+              "name": "My plans",
+              "type": "SECTION"
+            },
+            {
+              "id": "4294:83415",
+              "name": "Keyscreen / IC / My Plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 924
+            },
+            {
+              "id": "4294:86111",
+              "name": "Keyscreen / IC / My Plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1134
+            },
+            {
+              "id": "4294:95622",
+              "name": "mobile",
+              "type": "FRAME",
+              "w": 360,
+              "h": 1084
+            },
+            {
+              "id": "4317:87575",
+              "name": "My plans tabbed payout & multiple plan summary",
+              "type": "SECTION"
+            },
+            {
+              "id": "4317:87579",
+              "name": "Keyscreen / IC / My Plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 924
+            },
+            {
+              "id": "4317:89903",
+              "name": "Keyscreen / IC / My Plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 924
+            },
+            {
+              "id": "4317:90763",
+              "name": "Keyscreen / IC / My Plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 924
+            },
+            {
+              "id": "4313:81728",
+              "name": "Multiple frequency payouts",
+              "type": "SECTION"
+            },
+            {
+              "id": "4313:84018",
+              "name": "Keyscreen / IC / My Plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 924
+            },
+            {
+              "id": "4313:86365",
+              "name": "Keyscreen / IC / My Plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 924
+            },
+            {
+              "id": "4313:81820",
+              "name": "Keyscreen / IC / My Plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 924
+            },
+            {
+              "id": "4417:86523",
+              "name": "Payouts frequency indicators",
+              "type": "SECTION"
+            },
+            {
+              "id": "4417:86528",
+              "name": "Keyscreen / IC / My Plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 924
+            },
+            {
+              "id": "4417:86610",
+              "name": "Keyscreen / IC / My Plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 924
+            },
+            {
+              "id": "4417:86692",
+              "name": "Keyscreen / IC / My Plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 924
+            },
+            {
+              "id": "4450:94264",
+              "name": "Plan indicators",
+              "type": "SECTION"
+            },
+            {
+              "id": "4450:94268",
+              "name": "Keyscreen / IC / My Plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1180
+            },
+            {
+              "id": "4450:94710",
+              "name": "Keyscreen / IC / My Plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1180
+            },
+            {
+              "id": "4450:95168",
+              "name": "Keyscreen / IC / My Plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1180
+            },
+            {
+              "id": "4450:97006",
+              "name": "Manager \"view as\"",
+              "type": "SECTION"
+            },
+            {
+              "id": "4450:93804",
+              "name": "Keyscreen / IC / My Plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1148
+            },
+            {
+              "id": "4450:101104",
+              "name": "Keyscreen / IC / My Plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1148
+            },
+            {
+              "id": "4450:101096",
+              "name": "Keyscreen / Manager / My teams",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1512
+            }
+          ]
+        }
+      ],
+      "annotation_snippets": [
+        {
+          "id": "4294:83411",
+          "name": "1025 -> My plans",
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "name": "Remuner | Mappings",
+      "file_key": "ckwN0tSlbE2zrimqSGlvbN",
+      "url": "https://www.figma.com/design/ckwN0tSlbE2zrimqSGlvbN",
+      "pages": [
+        {
+          "id": "0:1",
+          "name": "👇🏼 Handoff"
+        },
+        {
+          "id": "1:9",
+          "name": "MMYY -> Feature - Iteration #"
+        },
+        {
+          "id": "2210:114300",
+          "name": "0725 -> Mappings"
+        },
+        {
+          "id": "1:11",
+          "name": "---"
+        },
+        {
+          "id": "1:3",
+          "name": "👇🏼 Exploration"
+        },
+        {
+          "id": "1:10",
+          "name": "0725 -> Mappings"
+        },
+        {
+          "id": "1:12",
+          "name": "---"
+        },
+        {
+          "id": "1:5",
+          "name": "💠 Local components"
+        },
+        {
+          "id": "1:6",
+          "name": "---"
+        },
+        {
+          "id": "1:7",
+          "name": "📔 Cover"
+        },
+        {
+          "id": "1:8",
+          "name": "---"
+        }
+      ],
+      "selected_structures": [
+        {
+          "id": "2210:114300",
+          "name": "0725 -> Mappings",
+          "items": [
+            {
+              "id": "2210:114359",
+              "name": "Mappping management",
+              "type": "SECTION"
+            },
+            {
+              "id": "2210:114377",
+              "name": "Keyscreen / Data sources",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1216
+            },
+            {
+              "id": "2210:114380",
+              "name": "Keyscreen / Data sources",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2210:114396",
+              "name": "Keyscreen / Data sources",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2210:114579",
+              "name": "Mapping table",
+              "type": "SECTION"
+            },
+            {
+              "id": "2210:114609",
+              "name": "Keyscreen / Data sources",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2210:114626",
+              "name": "Keyscreen / Data sources",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2210:114642",
+              "name": "Keyscreen / Data sources",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2210:115391",
+              "name": "Metrics / Parameters from mappings",
+              "type": "SECTION"
+            },
+            {
+              "id": "2210:115411",
+              "name": "Keyscreen / Plan designer",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 979
+            },
+            {
+              "id": "2210:115415",
+              "name": "Keyscreen / Plan designer",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 979
+            },
+            {
+              "id": "2210:115418",
+              "name": "Keyscreen / Plan designer",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 979
+            }
+          ]
+        }
+      ],
+      "annotation_snippets": [
+        {
+          "id": "2210:114300",
+          "name": "0725 -> Mappings",
+          "annotations": [
+            "Delete not possible for mappings being used",
+            "Trigger the prep and downloads file.\nName: [Mapping name].csv",
+            "Name: [Mapping name] copy N",
+            "Incompatible file\nFormat\nMissing column\n...",
+            "AND or OR available\nFirst one defines the rest. They can not be mixed",
+            "Los mappings forman pare del rol que puede editar datasets. Si puede editar datasets, puede editar mappings\nUn usuario que tenga permiso sólo a planes o parámetros no podrá crear un nuevo mapping desde la métrica o los parámetros\nUn usuario que tenga acceso sólo a datasets y mappings, podrá crearlos pero no podrá tocar nada en los planes y parámetros, como hasta ahora."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Remuner | HR Compliance",
+      "file_key": "TMFqslrpYHy3Fz7E6B7028",
+      "url": "https://www.figma.com/design/TMFqslrpYHy3Fz7E6B7028",
+      "pages": [
+        {
+          "id": "0:1",
+          "name": "👇🏼 Handoff"
+        },
+        {
+          "id": "3233:46051",
+          "name": "0625 -> Send letters to new users"
+        },
+        {
+          "id": "3157:60019",
+          "name": "0625 -> Template language"
+        },
+        {
+          "id": "3122:20460",
+          "name": "0625 -> Letter not signed warnings"
+        },
+        {
+          "id": "3025:92057",
+          "name": "0525 -> HR IC view"
+        },
+        {
+          "id": "2976:43685",
+          "name": "0525 -> Regenerate plan description"
+        },
+        {
+          "id": "2970:88043",
+          "name": "0525 -> Plan block contextual actions"
+        },
+        {
+          "id": "2868:79917",
+          "name": "0325 -> HR plan config"
+        },
+        {
+          "id": "2493:75415",
+          "name": "0325 -> Sales letter templates"
+        },
+        {
+          "id": "2691:79661",
+          "name": "0325 -> Plan statuses"
+        },
+        {
+          "id": "1:9",
+          "name": "0225 -> HR compliance"
+        },
+        {
+          "id": "1:11",
+          "name": "---"
+        },
+        {
+          "id": "1:3",
+          "name": "👇🏼 Exploration"
+        },
+        {
+          "id": "3170:16136",
+          "name": "0625 -> Send letter to new users "
+        },
+        {
+          "id": "3082:43254",
+          "name": "0625 -> Letter not signed warnings"
+        },
+        {
+          "id": "1:10",
+          "name": "0125 -> HR compliance"
+        },
+        {
+          "id": "1:12",
+          "name": "---"
+        },
+        {
+          "id": "1:5",
+          "name": "💠 Local components"
+        },
+        {
+          "id": "1:6",
+          "name": "---"
+        },
+        {
+          "id": "1:7",
+          "name": "📔 Cover"
+        },
+        {
+          "id": "1:8",
+          "name": "---"
+        }
+      ],
+      "selected_structures": [
+        {
+          "id": "1:9",
+          "name": "0225 -> HR compliance",
+          "items": [
+            {
+              "id": "2268:54029",
+              "name": "Company settings",
+              "type": "SECTION"
+            },
+            {
+              "id": "2268:55453",
+              "name": "Keyscreen / Settings",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2268:80072",
+              "name": "Sales letter template dialog",
+              "type": "SECTION"
+            },
+            {
+              "id": "2268:87610",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2720:29449",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2305:93194",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2268:71407",
+              "name": "Admin settings",
+              "type": "SECTION"
+            },
+            {
+              "id": "2268:71427",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2268:71518",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2268:71610",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2353:64358",
+              "name": "Template features",
+              "type": "SECTION"
+            },
+            {
+              "id": "2353:64548",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2353:64640",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2353:64733",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2399:72374",
+              "name": "IC | Documents repo",
+              "type": "SECTION"
+            },
+            {
+              "id": "2399:72376",
+              "name": "Keyscreen / IC / My Plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 931
+            },
+            {
+              "id": "2399:72381",
+              "name": "Keyscreen / IC / My Teams",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2402:73799",
+              "name": "Admin documents",
+              "type": "SECTION"
+            },
+            {
+              "id": "2402:75066",
+              "name": "Keyscreen / IC / My Teams",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2402:76108",
+              "name": "Keyscreen / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2402:77118",
+              "name": "Preview letter dialog",
+              "type": "SECTION"
+            },
+            {
+              "id": "2402:77120",
+              "name": "Keyscreen / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2402:77621",
+              "name": "Keyscreen / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "2402:78275",
+              "name": "Keyscreen / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            }
+          ]
+        }
+      ],
+      "annotation_snippets": [
+        {
+          "id": "1:9",
+          "name": "0225 -> HR compliance",
+          "annotations": [
+            "User\nFull name\nEmail\nAnnual salary\nPlan\nPlan name\nPlan description\nPlan start date\nPlan end date\nCurrency\nCompany\nCompany name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Remuner | Datasets",
+      "file_key": "VMALBdcCPmY2jhEl4C3tQM",
+      "url": "https://www.figma.com/design/VMALBdcCPmY2jhEl4C3tQM",
+      "pages": [
+        {
+          "id": "1:2",
+          "name": "---"
+        },
+        {
+          "id": "0:1",
+          "name": "👇🏼 Handoff"
+        },
+        {
+          "id": "3416:22956",
+          "name": "1225 -> Dataset & integration errors"
+        },
+        {
+          "id": "3153:163724",
+          "name": "1125 -> Hide datasets for earnigs obfuscated roles"
+        },
+        {
+          "id": "2967:24683",
+          "name": "1025 -> Dataset processing state"
+        },
+        {
+          "id": "3032:72957",
+          "name": "1025 -> Multiple conditions"
+        },
+        {
+          "id": "2949:15053",
+          "name": "1025 -> Dataset fields format"
+        },
+        {
+          "id": "2803:8895",
+          "name": "0825 -> Add plan on parameters tooltip list"
+        },
+        {
+          "id": "2762:25076",
+          "name": "0725 -> Archive datasets"
+        },
+        {
+          "id": "2604:6365",
+          "name": "0725 -> Datasets in list form"
+        },
+        {
+          "id": "2536:12970",
+          "name": "0625 -> System alerts of critical changes"
+        },
+        {
+          "id": "2835:2321",
+          "name": "0925 -> Disable object selection if dataset in use"
+        },
+        {
+          "id": "2439:307672",
+          "name": "0625 -> Data source selector"
+        },
+        {
+          "id": "2389:1102",
+          "name": "0525 -> Parameters view on dataset card"
+        },
+        {
+          "id": "2236:9886",
+          "name": "0325 -> Link params to dataset"
+        },
+        {
+          "id": "2132:8372",
+          "name": "1024 -> Group by: formulated field"
+        },
+        {
+          "id": "2039:1963",
+          "name": "0824 -> Update Excel file"
+        },
+        {
+          "id": "1:11",
+          "name": "---"
+        },
+        {
+          "id": "1:3",
+          "name": "👇🏼 Exploration"
+        },
+        {
+          "id": "3127:4068",
+          "name": "1125 -> Obfuscate dataset"
+        },
+        {
+          "id": "3040:80650",
+          "name": "1025 -> Dataset & integration errors"
+        },
+        {
+          "id": "2918:288621",
+          "name": "1025 -> Show excel file loading"
+        },
+        {
+          "id": "2897:90209",
+          "name": "1025 -> Linked & Nested conditions 2"
+        },
+        {
+          "id": "2872:10982",
+          "name": "1025 -> Definir formato de datos"
+        },
+        {
+          "id": "2831:15403",
+          "name": "0925 -> Alert dialog for dataset objects"
+        },
+        {
+          "id": "2796:9892",
+          "name": "0825 -> Add plan on parameters tooltip list"
+        },
+        {
+          "id": "2715:3476",
+          "name": "0725 -> Archive datasets "
+        },
+        {
+          "id": "2563:3286",
+          "name": "0725 -> Datasets in list format"
+        },
+        {
+          "id": "2448:5019",
+          "name": "0625 -> Data source fields dialog logic"
+        },
+        {
+          "id": "2408:7739",
+          "name": "0625 -> Dataset source selector"
+        },
+        {
+          "id": "2383:2",
+          "name": "0525 -> Parameters view on dataset card"
+        },
+        {
+          "id": "2265:4691",
+          "name": "0325 -> Linked & Nested conditions"
+        },
+        {
+          "id": "2220:5305",
+          "name": "0225 -> Link params to dataset"
+        },
+        {
+          "id": "2118:3826",
+          "name": "1024 -> Group by"
+        },
+        {
+          "id": "1:10",
+          "name": "0824 -> Update Excel file"
+        },
+        {
+          "id": "1:12",
+          "name": "---"
+        },
+        {
+          "id": "1:5",
+          "name": "💠 Local components"
+        },
+        {
+          "id": "1:6",
+          "name": "---"
+        },
+        {
+          "id": "1:7",
+          "name": "📔 Cover"
+        },
+        {
+          "id": "1:8",
+          "name": "---"
+        }
+      ],
+      "selected_structures": [
+        {
+          "id": "3032:72957",
+          "name": "1025 -> Multiple conditions",
+          "items": [
+            {
+              "id": "3032:73223",
+              "name": "Note",
+              "type": "INSTANCE",
+              "w": 400,
+              "h": 894
+            },
+            {
+              "id": "3084:40573",
+              "name": "Multiple conditions",
+              "type": "SECTION"
+            },
+            {
+              "id": "3032:72973",
+              "name": "Keyscreen / Data sources",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 964
+            },
+            {
+              "id": "3032:72977",
+              "name": "Keyscreen / Data sources",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 964
+            },
+            {
+              "id": "3032:73077",
+              "name": "Keyscreen / Data sources",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 964
+            }
+          ]
+        }
+      ],
+      "annotation_snippets": [
+        {
+          "id": "3032:72957",
+          "name": "1025 -> Multiple conditions",
+          "annotations": [
+            "Problema: \nAl seleccionar “Conditional formula” durante la creación de un campo, no era posible añadir condiciones anidadas ni gestionar varias reglas de forma flexible.  \nSolución: \nActualizar el componente y el flujo de creación de campos con fórmulas condicionales para permitir una configuración más completa.\nSpecs:  \nSe mostrará una tabla con un formato similar a Smart Rules, donde el usuario podrá definir reglas y condiciones. \nDebajo de todas las reglas aparecerá el recuadro “Else”, que definirá el valor en caso de que ninguna condición s"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Remuner | Dashboard (manager / admin)",
+      "file_key": "D3I7XGCC7WulmGtydRj5aI",
+      "url": "https://www.figma.com/design/D3I7XGCC7WulmGtydRj5aI",
+      "pages": [
+        {
+          "id": "0:1",
+          "name": "👇🏼 Handoff"
+        },
+        {
+          "id": "4916:36690",
+          "name": "1025 -> Arrange \"new dashboard\" button"
+        },
+        {
+          "id": "4758:7432",
+          "name": "0925 -> Show target on dashboard widgets"
+        },
+        {
+          "id": "4740:62386",
+          "name": "0925 -> Calculated (* and /) metrics on widgets"
+        },
+        {
+          "id": "4396:51466",
+          "name": "0825 -> Widget with pending payments"
+        },
+        {
+          "id": "4175:44490",
+          "name": "0725 -> Items widget"
+        },
+        {
+          "id": "3925:24106",
+          "name": "0725 -> Team's default prepopulated dashboard"
+        },
+        {
+          "id": "3721:74473",
+          "name": "0625 -> Add Members + payments to Split by"
+        },
+        {
+          "id": "3691:41509",
+          "name": "0625 -> Duplicate dashboard"
+        },
+        {
+          "id": "3636:3681",
+          "name": "0625 -> Export full dashboard"
+        },
+        {
+          "id": "3555:8579",
+          "name": "0525 -> Widget: Bonus performance"
+        },
+        {
+          "id": "3504:25521",
+          "name": "0325 -> Dashboard sharing"
+        },
+        {
+          "id": "3339:44186",
+          "name": "0225 -> Widget export"
+        },
+        {
+          "id": "3246:16339",
+          "name": "1224 -> Widget multicurrency alert"
+        },
+        {
+          "id": "3222:90383",
+          "name": "1224 -> Widget items + pagination"
+        },
+        {
+          "id": "3216:10176",
+          "name": "1224 -> Dashboard images"
+        },
+        {
+          "id": "2813:15116",
+          "name": "1124 -> Widget menu"
+        },
+        {
+          "id": "2799:41334",
+          "name": "1124 -> Widget library"
+        },
+        {
+          "id": "2792:43284",
+          "name": "1124 -> Dashboard earnings widget"
+        },
+        {
+          "id": "2712:24891",
+          "name": "1124 -> Dashboard metric widget"
+        },
+        {
+          "id": "1:9",
+          "name": "1024 -> Dashboard layout grid"
+        },
+        {
+          "id": "2474:32760",
+          "name": "1024 -> Dashboard resize widgets"
+        },
+        {
+          "id": "2474:33543",
+          "name": "1024 -> Dashboard drag & drop widgets"
+        },
+        {
+          "id": "2476:35805",
+          "name": "1024 -> Dashboard manager"
+        },
+        {
+          "id": "2478:40354",
+          "name": "1024 -> Dashboard permissions & sharing"
+        },
+        {
+          "id": "1:11",
+          "name": "---"
+        },
+        {
+          "id": "1:3",
+          "name": "👇🏼 Exploration"
+        },
+        {
+          "id": "5087:11064",
+          "name": "1225 -> Reordenar columnas widget items"
+        },
+        {
+          "id": "4938:48581",
+          "name": "1125 -> Show/hide name of team members on ranking"
+        },
+        {
+          "id": "4740:116367",
+          "name": "0925 -> Show target on dashboard widgets"
+        },
+        {
+          "id": "4625:85584",
+          "name": "0925 -> Add calculated metrics on widgets"
+        },
+        {
+          "id": "4389:71156",
+          "name": "0825 -> Widget multi currency"
+        },
+        {
+          "id": "4129:55508",
+          "name": "0725 -> Widget with pending payments"
+        },
+        {
+          "id": "4151:153891",
+          "name": "0725 -> Items widget - it. 2"
+        },
+        {
+          "id": "4053:61843",
+          "name": "0725 -> Items widget  - it. 1"
+        },
+        {
+          "id": "3738:33790",
+          "name": "0625 -> Team's default prepopulated dashboard"
+        },
+        {
+          "id": "3674:60232",
+          "name": "0625 -> Metric aggregation -> MOVE TO COMP PLANS"
+        },
+        {
+          "id": "3653:15994",
+          "name": "0625 -> Add Members + payments to Split by"
+        },
+        {
+          "id": "3627:972",
+          "name": "0625 -> Export full dashboard"
+        },
+        {
+          "id": "3612:2824",
+          "name": "0625 -> Duplicate dashboard"
+        },
+        {
+          "id": "3479:40138",
+          "name": "0325 -> Dashboard sharing"
+        },
+        {
+          "id": "2603:63859",
+          "name": "1024 -> Dashboard Exploration 2"
+        },
+        {
+          "id": "1:10",
+          "name": "0824 -> Dashboard exploration 1"
+        },
+        {
+          "id": "1:12",
+          "name": "---"
+        },
+        {
+          "id": "1:5",
+          "name": "💠 Local components"
+        },
+        {
+          "id": "1:6",
+          "name": "---"
+        },
+        {
+          "id": "1:7",
+          "name": "📔 Cover"
+        },
+        {
+          "id": "1:8",
+          "name": "---"
+        }
+      ],
+      "selected_structures": [
+        {
+          "id": "2478:40354",
+          "name": "1024 -> Dashboard permissions & sharing",
+          "items": [
+            {
+              "id": "2478:40355",
+              "name": "Features flows",
+              "type": "SECTION"
+            },
+            {
+              "id": "2478:40363",
+              "name": "main",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1538
+            },
+            {
+              "id": "2478:40402",
+              "name": "main",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1112
+            },
+            {
+              "id": "2478:40431",
+              "name": "main",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1112
+            },
+            {
+              "id": "2478:47550",
+              "name": ".confirmationShareDialog",
+              "type": "COMPONENT",
+              "w": 459,
+              "h": 120
+            }
+          ]
+        }
+      ],
+      "annotation_snippets": [
+        {
+          "id": "2478:40354",
+          "name": "1024 -> Dashboard permissions & sharing",
+          "annotations": [
+            "Add email notification",
+            "Add email notificationº",
+            "As a user I want to leave a dashboard\nAs a manager team I can see another team manager dashboard\nAs a user I want to delete a dashboard\nWhat happens to the global metrics?\nAs a user I want to reorder my dashboards\nAs a user I want to create a new dashboard",
+            "By default “Can view” is selected",
+            "Alerta (dialog) al compartir con otros usuarios:\n\n“Vas aa compartir TODOS los daotos... ¿Estás seguro?”"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Remuner | Dashboard (IC)",
+      "file_key": "ZKUJadWn8AGs81L0V7nUCG",
+      "url": "https://www.figma.com/design/ZKUJadWn8AGs81L0V7nUCG",
+      "pages": [
+        {
+          "id": "6182:21029",
+          "name": "---"
+        },
+        {
+          "id": "2877:5742",
+          "name": "👇🏼 Handoff"
+        },
+        {
+          "id": "6824:6308",
+          "name": "0226 -> Payments enhance "
+        },
+        {
+          "id": "5862:11373",
+          "name": "0925 -> Remu refinement"
+        },
+        {
+          "id": "6851:9475",
+          "name": "0226 -> Bonus tiers as multipliers"
+        },
+        {
+          "id": "6446:25242",
+          "name": "0226 -> Iterations UI for intuitiveness"
+        },
+        {
+          "id": "6440:244235",
+          "name": "0126 -> Share manager dashboards to ICs"
+        },
+        {
+          "id": "6160:23212",
+          "name": "1225 -> Notificaciones nuevos objetivos para IC"
+        },
+        {
+          "id": "5937:5489",
+          "name": "0925 -> Métricas negativas"
+        },
+        {
+          "id": "5796:65327",
+          "name": "0925 -> Show values on past tiers"
+        },
+        {
+          "id": "5543:71148",
+          "name": "0825 -> Personal target empty state"
+        },
+        {
+          "id": "5547:87575",
+          "name": "0825 -> Personal target dialog redesign"
+        },
+        {
+          "id": "5505:1885",
+          "name": "0725 -> Payouts with cumulative metrics"
+        },
+        {
+          "id": "3979:37129",
+          "name": "0525 -> IC dashboard"
+        },
+        {
+          "id": "3689:37181",
+          "name": "0425 -> Tiers table"
+        },
+        {
+          "id": "3042:8022",
+          "name": "0425 -> Earnings widget frequency"
+        },
+        {
+          "id": "2877:5741",
+          "name": "---"
+        },
+        {
+          "id": "2877:5740",
+          "name": "👇🏼 Exploration"
+        },
+        {
+          "id": "6759:39385",
+          "name": "0226 -> Bonus tiers as multipliers"
+        },
+        {
+          "id": "6715:20097",
+          "name": "0226 -> Payments enhance"
+        },
+        {
+          "id": "6341:16379",
+          "name": "0126 -> Share manager dashboards to ICs"
+        },
+        {
+          "id": "6202:28955",
+          "name": "0126 -> Iterations 2.0"
+        },
+        {
+          "id": "6047:19552",
+          "name": "1025 -> Linked items"
+        },
+        {
+          "id": "6005:2",
+          "name": "1025 -> Notificaciones nuevos objetivos para IC"
+        },
+        {
+          "id": "5803:60581",
+          "name": "0925 -> Remu logics"
+        },
+        {
+          "id": "5837:6605",
+          "name": "0925 -> Refinado Remu "
+        },
+        {
+          "id": "5831:3593",
+          "name": "0925 -> Métricas negativas"
+        },
+        {
+          "id": "5812:61321",
+          "name": "0925 -> Soria IC dashboard mockup"
+        },
+        {
+          "id": "5180:4843",
+          "name": "0725 -> Personal target dialog redesign"
+        },
+        {
+          "id": "5449:64035",
+          "name": "0725 -> Cumulative metrics"
+        },
+        {
+          "id": "5007:13047",
+          "name": "0725 -> Personal target empty state and completed state"
+        },
+        {
+          "id": "4886:42049",
+          "name": "0725 -> Filters on item's widget"
+        },
+        {
+          "id": "4283:2259",
+          "name": "0625 -> Global filters by date"
+        },
+        {
+          "id": "4263:47155",
+          "name": "0625 -> Dashboard widgets"
+        },
+        {
+          "id": "4238:2256",
+          "name": "0525 -> All hands 23052025"
+        },
+        {
+          "id": "3041:7057",
+          "name": "0425 -> Earnings widget frequency"
+        },
+        {
+          "id": "3633:29001",
+          "name": "0425 -> IA coaching"
+        },
+        {
+          "id": "2877:5739",
+          "name": "0325 -> Dashboard new widgets"
+        },
+        {
+          "id": "2494:226",
+          "name": "0624 -> Dashboard new styles"
+        },
+        {
+          "id": "1668:26",
+          "name": "FLOW"
+        },
+        {
+          "id": "0:1",
+          "name": "Page 1"
+        },
+        {
+          "id": "6217:48167",
+          "name": "---------------------------------"
+        },
+        {
+          "id": "6217:48168",
+          "name": "Cover"
+        }
+      ],
+      "selected_structures": [
+        {
+          "id": "3979:37129",
+          "name": "0525 -> IC dashboard",
+          "items": [
+            {
+              "id": "3979:37130",
+              "name": "Dashboard overview",
+              "type": "SECTION"
+            },
+            {
+              "id": "3979:42965",
+              "name": "main",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 925
+            },
+            {
+              "id": "4393:21927",
+              "name": "accrualsWidget",
+              "type": "FRAME",
+              "w": 430,
+              "h": 484
+            },
+            {
+              "id": "3979:37131",
+              "name": "Earnings widget",
+              "type": "SECTION"
+            },
+            {
+              "id": "4608:20310",
+              "name": "earningsWidget",
+              "type": "FRAME",
+              "w": 528,
+              "h": 572
+            },
+            {
+              "id": "4613:26352",
+              "name": "earningsWidget",
+              "type": "FRAME",
+              "w": 528,
+              "h": 572
+            },
+            {
+              "id": "4613:26567",
+              "name": "earningsWidget",
+              "type": "FRAME",
+              "w": 528,
+              "h": 532
+            },
+            {
+              "id": "4613:27333",
+              "name": "Label / Step",
+              "type": "INSTANCE",
+              "w": 785,
+              "h": 200
+            },
+            {
+              "id": "4613:32351",
+              "name": "Label / Step",
+              "type": "INSTANCE",
+              "w": 785,
+              "h": 200
+            },
+            {
+              "id": "4613:27335",
+              "name": "earningsWidget",
+              "type": "FRAME",
+              "w": 528,
+              "h": 564
+            },
+            {
+              "id": "3979:43811",
+              "name": "Payments widget",
+              "type": "SECTION"
+            },
+            {
+              "id": "5073:101719",
+              "name": "Keyscreen / IC / Dashboard",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1133
+            },
+            {
+              "id": "5083:17350",
+              "name": "Keyscreen / IC / Dashboard",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1133
+            },
+            {
+              "id": "5083:17978",
+              "name": "Keyscreen / IC / Dashboard",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1133
+            },
+            {
+              "id": "5087:19354",
+              "name": "Personal target widget",
+              "type": "SECTION"
+            },
+            {
+              "id": "5087:19355",
+              "name": "Keyscreen / IC / Dashboard",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1133
+            },
+            {
+              "id": "5095:54955",
+              "name": "Keyscreen / IC / Dashboard",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1133
+            },
+            {
+              "id": "5095:56211",
+              "name": "Keyscreen / IC / Dashboard",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1133
+            },
+            {
+              "id": "4650:25547",
+              "name": "TO DO: WIDGET EMPTY STATE CHART WITH / WITHOUT PROGRESS? LOADING ERROR",
+              "type": "TEXT",
+              "w": 1843,
+              "h": 625
+            },
+            {
+              "id": "4979:38693",
+              "name": "Metrics widget",
+              "type": "SECTION"
+            },
+            {
+              "id": "5052:55345",
+              "name": "Keyscreen / IC / Dashboard",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1079
+            },
+            {
+              "id": "5052:61336",
+              "name": "Keyscreen / IC / Dashboard",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1079
+            },
+            {
+              "id": "5070:12434",
+              "name": "Keyscreen / IC / Dashboard",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1079
+            },
+            {
+              "id": "5073:101317",
+              "name": "Confetti",
+              "type": "SECTION"
+            },
+            {
+              "id": "5073:100668",
+              "name": "Keyscreen / IC / Dashboard",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1079
+            }
+          ]
+        }
+      ],
+      "annotation_snippets": [
+        {
+          "id": "3979:37129",
+          "name": "0525 -> IC dashboard",
+          "annotations": [
+            "Multiplicadores\nRegularización\nRanking\nPonderados\nCalculados\nAñadir selector de mes en todos los widgets\n\nEdge cases:\nCon 1\nCon 6\nExplorar si mostramos el icono de ranking con el ranking completo\n\nEl filtro de fecha vasiempre desde la minima\nLas frecuencias mayores van asignadas en el ultimo mes del periodo\nSustituir select por flechas? Cambiar por current period",
+            "Propuesta de métricas actuales en formato tabla"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Remuner | Comp. plans",
+      "file_key": "H8ACDZmMY1kfsUH6Tx8BzX",
+      "url": "https://www.figma.com/design/H8ACDZmMY1kfsUH6Tx8BzX",
+      "pages": [
+        {
+          "id": "6988:52437",
+          "name": "---"
+        },
+        {
+          "id": "0:1",
+          "name": "👇🏼 Handoff"
+        },
+        {
+          "id": "7967:74607",
+          "name": "0126 -> New plan / plan info dialog refactor"
+        },
+        {
+          "id": "6987:42332",
+          "name": "1225 -> Bulk edit all members params"
+        },
+        {
+          "id": "6865:13607",
+          "name": "1225 -> Alerts (overrides, issues) when extending plan"
+        },
+        {
+          "id": "6749:17861",
+          "name": "1225 -> Duplicate payouts"
+        },
+        {
+          "id": "6674:76789",
+          "name": "1225 -> Frecuency, currency and custom c."
+        },
+        {
+          "id": "6491:137755",
+          "name": "1125 -> Manager feedback metric (Qualitative metric)"
+        },
+        {
+          "id": "6187:126344",
+          "name": "1125 -> Matrix payout"
+        },
+        {
+          "id": "5968:518662",
+          "name": "1125 -> Tiered metric targets"
+        },
+        {
+          "id": "5848:62555",
+          "name": "1125 -> Show/hide names from ranking"
+        },
+        {
+          "id": "5711:11505",
+          "name": "1025 -> MAX/MIN vs statements"
+        },
+        {
+          "id": "5668:19079",
+          "name": "1026 -> Empty targets/parameters warning extending a plan"
+        },
+        {
+          "id": "5530:193812",
+          "name": "1025 -> Weighted of weighted metrics"
+        },
+        {
+          "id": "5434:101624",
+          "name": "0925 -> True-up payout / plan (regularización)"
+        },
+        {
+          "id": "5402:167794",
+          "name": "0925 -> Multiplier dialog validation"
+        },
+        {
+          "id": "5335:36355",
+          "name": "0925 -> Plan's MIN/MAX with different metric frequencies 2"
+        },
+        {
+          "id": "5240:172274",
+          "name": "0925 -> Copy to future periods in parameters"
+        },
+        {
+          "id": "5146:154714",
+          "name": "0925 -> New comp.plan dialog refactor"
+        },
+        {
+          "id": "5136:389775",
+          "name": "0925 -> Edit closed periods - user flow rules for CTA"
+        },
+        {
+          "id": "5848:137822",
+          "name": "0825 -> Order and visibility of metrics"
+        },
+        {
+          "id": "4839:222599",
+          "name": "0825 -> Update of items and plans"
+        },
+        {
+          "id": "4683:208238",
+          "name": "0725 -> Smart rules (tiers for items)"
+        },
+        {
+          "id": "4539:53247",
+          "name": "0725 -> Metric labeling system"
+        },
+        {
+          "id": "4344:25995",
+          "name": "0625 -> Hide tiers chart"
+        },
+        {
+          "id": "4162:37522",
+          "name": "0625 -> Improvement of filter input"
+        },
+        {
+          "id": "4335:45088",
+          "name": "0625 -> Remove param naming"
+        },
+        {
+          "id": "4022:66084",
+          "name": "0625 -> Show filters on metric cards"
+        },
+        {
+          "id": "3870:152652",
+          "name": "0525 -> Tiers parameters"
+        },
+        {
+          "id": "3569:24523",
+          "name": "0525 -> Plan designer Icon tooltips"
+        },
+        {
+          "id": "3547:4158",
+          "name": "0425 -> Metric direction"
+        },
+        {
+          "id": "3390:24754",
+          "name": "0325 -> Metric ranking options currency & refactor"
+        },
+        {
+          "id": "3381:225349",
+          "name": "0325 -> Metric fields & filter refactor"
+        },
+        {
+          "id": "3381:223436",
+          "name": "0325 -> Currency units to metrics"
+        },
+        {
+          "id": "3087:41400",
+          "name": "0225 -> Metrics visibility"
+        },
+        {
+          "id": "3078:20307",
+          "name": "0125 -> Settlement payments offset"
+        },
+        {
+          "id": "3051:15078",
+          "name": "0125 -> Ranking order"
+        },
+        {
+          "id": "2852:39283",
+          "name": "1024 -> Metric dataset selector "
+        },
+        {
+          "id": "2777:84477",
+          "name": "0924 -> Regularisation payouts"
+        },
+        {
+          "id": "2548:44856",
+          "name": "0824 -> Comp plan & Payout min/max"
+        },
+        {
+          "id": "2502:85603",
+          "name": "0824 -> Add ranking from an existing metric"
+        },
+        {
+          "id": "2222:114878",
+          "name": "0724 -> Plan users with dates"
+        },
+        {
+          "id": "2251:41146",
+          "name": "0724 -> Payout & metrics order"
+        },
+        {
+          "id": "1:9",
+          "name": "0724 -> Payout corections (multipliers)"
+        },
+        {
+          "id": "1:11",
+          "name": "---"
+        },
+        {
+          "id": "1:3",
+          "name": "👇🏼👇🏼👇🏼👇🏼 Exploration 👇🏼👇🏼👇🏼👇🏼"
+        },
+        {
+          "id": "8052:3024",
+          "name": "0226 -> Remu plan generation"
+        },
+        {
+          "id": "6783:415387",
+          "name": "1225 -> Bulk edit all members params"
+        },
+        {
+          "id": "6837:92936",
+          "name": "1225 -> More about currencies"
+        },
+        {
+          "id": "6516:118928",
+          "name": "1125 -> Currencies settings"
+        },
+        {
+          "id": "6243:61218",
+          "name": "1125 -> Qualitative metrics"
+        },
+        {
+          "id": "6100:138507",
+          "name": "1125 -> Weighted metrics - Select all/ All metrics"
+        },
+        {
+          "id": "5978:558485",
+          "name": "1125 -> Target achievement vs difference"
+        },
+        {
+          "id": "5974:69879",
+          "name": "1125 -> Matrix payout (double tiered metrics)"
+        },
+        {
+          "id": "5971:452742",
+          "name": "1125 -> Duplicate payouts"
+        },
+        {
+          "id": "5903:163406",
+          "name": "1125 -> Tiered metric targets"
+        },
+        {
+          "id": "5848:2",
+          "name": "1125 -> Show/hide names from ranking"
+        },
+        {
+          "id": "5607:133924",
+          "name": "1025 -> MAX/ MIN con devengo vs pago"
+        },
+        {
+          "id": "5521:3",
+          "name": "1025 -> Aviso objetivos vacios al extender un plan"
+        },
+        {
+          "id": "5308:46030",
+          "name": "0925 -> Payout/plan regularization"
+        },
+        {
+          "id": "5294:4589",
+          "name": "0925 -> Plan's MIN/MAX with different metric frequencies"
+        },
+        {
+          "id": "5165:33855",
+          "name": "0925 -> Regularization plans"
+        },
+        {
+          "id": "5155:396172",
+          "name": "0925 -> Copy to future periods in parameters"
+        },
+        {
+          "id": "5136:360290",
+          "name": "0925 -> Edit closed periods - user flow rules for CTA"
+        },
+        {
+          "id": "5000:277296",
+          "name": "0825 -> Add unit to new comp plan metric"
+        },
+        {
+          "id": "4909:62123",
+          "name": "0825 -> New comp. plans dialog refactor"
+        },
+        {
+          "id": "5145:131232",
+          "name": "0925 -> Add currency to plan dialog creation"
+        },
+        {
+          "id": "4880:617",
+          "name": "0825 -> Introducir tiers parametrizados en masa"
+        },
+        {
+          "id": "4711:105171",
+          "name": "0725 -> Payout dialog refactor"
+        },
+        {
+          "id": "4624:34940",
+          "name": "0725 -> Update of items and plans"
+        },
+        {
+          "id": "4487:90260",
+          "name": "0725 -> Smart rules (tiers for items)"
+        },
+        {
+          "id": "4308:11875",
+          "name": "0725 -> Lógica editor de planes (botones Guardar y Salir)"
+        },
+        {
+          "id": "4377:87647",
+          "name": "0625 -> Add currency to plan creation dialog"
+        },
+        {
+          "id": "4337:43881",
+          "name": "0625 -> Hide tiers chart"
+        },
+        {
+          "id": "4335:1296",
+          "name": "0625 -> Metrics labeling system"
+        },
+        {
+          "id": "4291:67791",
+          "name": "0625 -> Remove param naming"
+        },
+        {
+          "id": "5848:74360",
+          "name": "0825 -> Order and visibility of metrics"
+        },
+        {
+          "id": "4114:33443",
+          "name": "0625 -> Improvement of filter input"
+        },
+        {
+          "id": "3900:134347",
+          "name": "0525 -> Show filters on metric cards"
+        },
+        {
+          "id": "3833:48590",
+          "name": "0525 -> Parametric tiers"
+        },
+        {
+          "id": "3557:162768",
+          "name": "0525 -> Icon tooltips"
+        },
+        {
+          "id": "3380:12506",
+          "name": "0325 -> Currency units for metrics, fields and ranking refactor"
+        },
+        {
+          "id": "3122:191371",
+          "name": "0225 -> Metrics visibility"
+        },
+        {
+          "id": "3060:72495",
+          "name": "0125 -> Settlement date"
+        },
+        {
+          "id": "2592:39625",
+          "name": "0924 -> Payouts regularizations"
+        },
+        {
+          "id": "2511:91261",
+          "name": "0824 -> Comp plan & Payout min/max"
+        },
+        {
+          "id": "2462:7563",
+          "name": "0824 -> Add ranking from an existing metric"
+        },
+        {
+          "id": "2125:83587",
+          "name": "0724 -> Payout & metrics order"
+        },
+        {
+          "id": "2136:39189",
+          "name": "0724 -> Plan users with dates"
+        },
+        {
+          "id": "1:10",
+          "name": "0724 -> Payout corections (multipliers)"
+        },
+        {
+          "id": "1:12",
+          "name": "---"
+        },
+        {
+          "id": "1:5",
+          "name": "💠 Local components"
+        },
+        {
+          "id": "6109:18690",
+          "name": "Designer"
+        },
+        {
+          "id": "1:6",
+          "name": "---"
+        },
+        {
+          "id": "1:7",
+          "name": "📔 Cover"
+        },
+        {
+          "id": "1:8",
+          "name": "---"
+        }
+      ],
+      "selected_structures": [
+        {
+          "id": "7967:74607",
+          "name": "0126 -> New plan / plan info dialog refactor",
+          "items": [
+            {
+              "id": "7341:235450",
+              "name": "New plan dialog refactor",
+              "type": "SECTION"
+            },
+            {
+              "id": "7608:101525",
+              "name": "Plans / Dialog / New Plan / Info",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "7609:43469",
+              "name": "Plans / Dialog / New Plan / Info",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "7608:101564",
+              "name": "Plans / Dialog / New Plan / Type",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "7967:420887",
+              "name": "Edit plan info dialog refactor",
+              "type": "SECTION"
+            },
+            {
+              "id": "7609:44065",
+              "name": "Keyscreen / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "7609:44069",
+              "name": "Plans / Dialog / Edit Plan",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "8014:6883",
+              "name": "Keyscreen / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            }
+          ]
+        },
+        {
+          "id": "6187:126344",
+          "name": "1125 -> Matrix payout",
+          "items": [
+            {
+              "id": "6187:126345",
+              "name": "Matrix payout",
+              "type": "SECTION"
+            },
+            {
+              "id": "6187:126346",
+              "name": "Keyscreen / Plan designer",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1654
+            },
+            {
+              "id": "6187:126350",
+              "name": "Keyscreen / Plan designer",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1654
+            },
+            {
+              "id": "6187:126354",
+              "name": "Keyscreen / Plan designer",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1654
+            },
+            {
+              "id": "6187:126402",
+              "name": "IC view",
+              "type": "SECTION"
+            },
+            {
+              "id": "6187:126405",
+              "name": "Keyscreen / IC / Dashboard",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1165
+            },
+            {
+              "id": "6187:126408",
+              "name": "Keyscreen / IC / Dashboard",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1165
+            },
+            {
+              "id": "6187:126413",
+              "name": "Keyscreen / IC / Dashboard",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1165
+            },
+            {
+              "id": "6367:322443",
+              "name": "image 1",
+              "type": "RECTANGLE",
+              "w": 571,
+              "h": 400
+            },
+            {
+              "id": "6367:322445",
+              "name": "Casos € y %. Se ve la métrica comisionable pero no hay ningún copy o elmento que identifique que se influye la matriz de forma análoga a cuando hay tiers. Caso Bonus. Al no haber objetivo comisionable ni importe del Bonus, aparece Bonus 0€ y la métrica comisionable vacía.",
+              "type": "TEXT",
+              "w": 858,
+              "h": 250
+            },
+            {
+              "id": "6367:322493",
+              "name": "Designer / Payout",
+              "type": "FRAME",
+              "w": 520,
+              "h": 204
+            },
+            {
+              "id": "6367:324056",
+              "name": "Designer / Payout",
+              "type": "FRAME",
+              "w": 520,
+              "h": 204
+            },
+            {
+              "id": "6367:324104",
+              "name": "Designer / Payout",
+              "type": "FRAME",
+              "w": 520,
+              "h": 204
+            },
+            {
+              "id": "6367:324042",
+              "name": "Label / Step",
+              "type": "INSTANCE",
+              "w": 630,
+              "h": 200
+            },
+            {
+              "id": "6367:324044",
+              "name": "Label / Step",
+              "type": "INSTANCE",
+              "w": 614,
+              "h": 200
+            },
+            {
+              "id": "6367:324046",
+              "name": "Label / Step",
+              "type": "INSTANCE",
+              "w": 457,
+              "h": 200
+            }
+          ]
+        },
+        {
+          "id": "5434:101624",
+          "name": "0925 -> True-up payout / plan (regularización)",
+          "items": [
+            {
+              "id": "5434:102353",
+              "name": "Note",
+              "type": "INSTANCE",
+              "w": 400,
+              "h": 1668
+            },
+            {
+              "id": "5435:70591",
+              "name": "Regularisation payouts",
+              "type": "SECTION"
+            },
+            {
+              "id": "5434:101630",
+              "name": "Plan settings",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1391
+            },
+            {
+              "id": "5434:101635",
+              "name": "Plan settings",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1391
+            },
+            {
+              "id": "5434:101640",
+              "name": "Plan settings",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1391
+            },
+            {
+              "id": "5435:70592",
+              "name": "Regularisation payout indicators",
+              "type": "SECTION"
+            },
+            {
+              "id": "5434:102074",
+              "name": "Keyscreen / IC / Dashboard",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1133
+            },
+            {
+              "id": "5434:102154",
+              "name": "Keyscreen / IC / Dashboard",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 1133
+            },
+            {
+              "id": "5558:271217",
+              "name": "True-up plans",
+              "type": "SECTION"
+            },
+            {
+              "id": "5563:400832",
+              "name": "Keyscreen / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "5563:401165",
+              "name": "Keyscreen / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            },
+            {
+              "id": "5558:271233",
+              "name": "Keyscreen / Compensation plans",
+              "type": "FRAME",
+              "w": 1440,
+              "h": 900
+            }
+          ]
+        }
+      ],
+      "annotation_snippets": [
+        {
+          "id": "7967:74607",
+          "name": "0126 -> New plan / plan info dialog refactor",
+          "annotations": [
+            "La currency por defecto (con la chip) será la que se configure para la empresa, y el resto de currencies del selector serán las que se añadan a la configuración (no todas las que existen).",
+            "Eliminamos Type of Role",
+            "En este dialog originalmente había un primer campo que preguntaba “What type of role is this plan for?” pero no se utiliza / no es relevante.",
+            "Añadimos info al selector",
+            "La info actual que sale en un tooltip des de un icono de Info del label “Formula” ahora pasa a ser la descripción de cada item del selector.",
+            "Mismo componente y contenido que se encuentra en Métricas desde el editor del plan"
+          ]
+        },
+        {
+          "id": "6187:126344",
+          "name": "1125 -> Matrix payout",
+          "annotations": []
+        },
+        {
+          "id": "5434:101624",
+          "name": "0925 -> True-up payout / plan (regularización)",
+          "annotations": [
+            "Problema:\nNo es posible regularizar payouts que no sean del mismo plan. Esto hace que el trabajo sea más lento y se repitan las configuraciones del payout regularizador varias veces.\nAdemás de eso, cuando se crea un payout regularizado, no se visualiza en la vista previa del designer ni en la preview. Solamente se ve en planes. También aparece información sobre payouts en el dashboard IC y no hay manera de distinguirlos.\nSolución:\nAñadir una lista con los planes y los payouts disponibles dentro del selector de “Payouts to be regularised”. \nSeña",
+            "Problema: Actualmente no se pueden regularizar planes.\nSolución: Permitir la regularización de planes desde los Settings de cada plan e indicar visualmente que están regularizados en Comp. plans y en My plans.\nSpecs:\nSección de Regularisation:\nAñadir una nueva sección dentro de Settings del plan llamada “Regularisation”.\nIncluir un toggle para activar/desactivar la regularización.\nAl activar el toggle, se mostrará un selector de planes disponibles para regularizar.\nVisualización de planes regularizados:\nAl guardar los settings, los planes selec"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Remuner | ⚛️ Core",
+      "file_key": "SmHO5c8ExGDaO6r2hDvbHy",
+      "url": "https://www.figma.com/design/SmHO5c8ExGDaO6r2hDvbHy",
+      "pages": [
+        {
+          "id": "0:1",
+          "name": "Colors"
+        },
+        {
+          "id": "33:47",
+          "name": "Elevation"
+        },
+        {
+          "id": "1:2",
+          "name": "Typography"
+        },
+        {
+          "id": "575:1456",
+          "name": "Shadows"
+        },
+        {
+          "id": "1:3",
+          "name": "Spacing"
+        },
+        {
+          "id": "1044:556",
+          "name": "---"
+        },
+        {
+          "id": "1044:557",
+          "name": "Exploration 👇🏼"
+        },
+        {
+          "id": "1044:555",
+          "name": "Color"
+        },
+        {
+          "id": "109:904",
+          "name": "---"
+        },
+        {
+          "id": "109:903",
+          "name": "Local components"
+        },
+        {
+          "id": "112:4",
+          "name": "---"
+        },
+        {
+          "id": "112:3",
+          "name": "Cover"
+        }
+      ],
+      "selected_structures": [
+        {
+          "id": "0:1",
+          "name": "Colors",
+          "items": [
+            {
+              "id": "39:2",
+              "name": "Paleta de colores",
+              "type": "FRAME",
+              "w": 650,
+              "h": 689
+            },
+            {
+              "id": "58:303",
+              "name": "$remuner-dark: #292847; $remuner-green: #2FDEB5; $remuner-green-1: #2FDEB5; $remuner-green-2: #34CCBB; $remuner-green-3: #42CAAA; $remuner-green-4: #3CA86E; $remuner-dark-1: #292847; $remuner-dark-2: #353359; $remuner-level-1: #6CC8BE; $remuner-level-2: #6CB7C8; $remuner-level-3: #6C9CC8; $remuner-level-4: #8890D2; $remuner-level-5: #A87CC3; $remuner-level-6: #D783A5; $remuner-level-7: #EAB797; $remuner-level-8: #E8D58F; $remuner-label: #8389CF; $remuner-caption: #00CAFF; $remuner-grey: #E2E1E6; $remuner-success: #34CCBB; $remuner-alert: #FF494B; $remuner-warning: #E3A68A; $remuner-info: #9097BA; $remuner-enabled: #6CA5D9; $remuner-disabled: #E2E1E6; $background-color: #E9E9EC; $background-color-grey: #FAFAFA; $remuner-ranking-1: #FFCB49; $remuner-ranking-2: #BDBDBD; $remuner-ranking-3: #B6A396; $remuner-ranking-4: #9A99B3; $remuner-status-completed: #5b5972; $remuner-status-error: #f00; $remuner-status-edition: #ffa552; $remuner-status-revision: #4869dd; $remuner-status-ready: #34CCBB; $remuner-gradient: linear-gradient(212deg, $remuner-green-1 19.23%, $remuner-green-2 48.44%);",
+              "type": "TEXT",
+              "w": 680,
+              "h": 1232
+            },
+            {
+              "id": "115:787",
+              "name": "$remuner-ranking-1: #FFCB49; $remuner-ranking-2: #BDBDBD; $remuner-ranking-3: #B6A396; $remuner-ranking-4: #9A99B3;",
+              "type": "TEXT",
+              "w": 229,
+              "h": 112
+            },
+            {
+              "id": "58:304",
+              "name": "Rectangle 29",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:305",
+              "name": "Rectangle 30",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:306",
+              "name": "Rectangle 31",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:307",
+              "name": "Rectangle 32",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:308",
+              "name": "Rectangle 33",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:309",
+              "name": "Rectangle 34",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:310",
+              "name": "Rectangle 35",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:311",
+              "name": "Rectangle 36",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:312",
+              "name": "Rectangle 37",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:313",
+              "name": "Rectangle 38",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:314",
+              "name": "Rectangle 39",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:315",
+              "name": "Rectangle 40",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:316",
+              "name": "Rectangle 41",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:317",
+              "name": "Rectangle 42",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:318",
+              "name": "Rectangle 43",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:319",
+              "name": "Rectangle 44",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:320",
+              "name": "Rectangle 45",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:321",
+              "name": "Rectangle 46",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:322",
+              "name": "Rectangle 47",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:323",
+              "name": "Rectangle 48",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:324",
+              "name": "Rectangle 49",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            },
+            {
+              "id": "58:325",
+              "name": "Rectangle 50",
+              "type": "RECTANGLE",
+              "w": 24,
+              "h": 24
+            }
+          ]
+        },
+        {
+          "id": "1:2",
+          "name": "Typography",
+          "items": [
+            {
+              "id": "43:47",
+              "name": "Typography",
+              "type": "FRAME",
+              "w": 1472,
+              "h": 3304
+            },
+            {
+              "id": "1227:1036",
+              "name": "Applied to",
+              "type": "TEXT",
+              "w": 60,
+              "h": 13
+            },
+            {
+              "id": "109:905",
+              "name": "Github",
+              "type": "SECTION"
+            },
+            {
+              "id": "109:906",
+              "name": "Audit",
+              "type": "SECTION"
+            },
+            {
+              "id": "327:337",
+              "name": "1234567890 0987654321",
+              "type": "TEXT",
+              "w": 93,
+              "h": 48
+            },
+            {
+              "id": "329:349",
+              "name": "3,097.50 6,475.00 1,234.11",
+              "type": "TEXT",
+              "w": 103,
+              "h": 96
+            },
+            {
+              "id": "329:369",
+              "name": "lnum tnum",
+              "type": "TEXT",
+              "w": 118,
+              "h": 32
+            },
+            {
+              "id": "329:352",
+              "name": "3,097.50 6,475.00 1,234.11",
+              "type": "TEXT",
+              "w": 93,
+              "h": 96
+            },
+            {
+              "id": "329:368",
+              "name": "default",
+              "type": "TEXT",
+              "w": 92,
+              "h": 32
+            },
+            {
+              "id": "327:346",
+              "name": "1234567890 0987654321",
+              "type": "TEXT",
+              "w": 113,
+              "h": 48
+            },
+            {
+              "id": "327:344",
+              "name": "1234567890 0987654321",
+              "type": "TEXT",
+              "w": 82,
+              "h": 48
+            },
+            {
+              "id": "327:347",
+              "name": "1234567890 0987654321",
+              "type": "TEXT",
+              "w": 99,
+              "h": 48
+            },
+            {
+              "id": "327:345",
+              "name": "1234567890 0987654321",
+              "type": "TEXT",
+              "w": 70,
+              "h": 40
+            },
+            {
+              "id": "327:348",
+              "name": "1234567890 0987654321",
+              "type": "TEXT",
+              "w": 85,
+              "h": 40
+            },
+            {
+              "id": "542:1616",
+              "name": "Heading: Meant for large titles. Title: Meant for small titles. Action: Meant for text within interactive elements. Input: Meant for text within text fields. Caption: Meant for text providing additional detail, like help & error messages.",
+              "type": "TEXT",
+              "w": 458,
+              "h": 75
+            },
+            {
+              "id": "542:1617",
+              "name": "Damato blog post",
+              "type": "TEXT",
+              "w": 101,
+              "h": 15
+            },
+            {
+              "id": "833:316",
+              "name": "Frame 1",
+              "type": "FRAME",
+              "w": 1280,
+              "h": 2472
+            },
+            {
+              "id": "834:420",
+              "name": "Frame 2",
+              "type": "FRAME",
+              "w": 1280,
+              "h": 2400
+            }
+          ]
+        }
+      ],
+      "annotation_snippets": [
+        {
+          "id": "0:1",
+          "name": "Colors",
+          "annotations": []
+        },
+        {
+          "id": "1:2",
+          "name": "Typography",
+          "annotations": []
+        }
+      ]
+    }
+  ],
+  "visually_inspected": [
+    {
+      "file_key": "6ud2wi9O3p82AotF9VHUBn",
+      "node_id": "4031:7246",
+      "subject": "SSO settings",
+      "visually_inspected": true
+    },
+    {
+      "file_key": "yuXoXF2i7ugCFHbAJhnoWN",
+      "node_id": "2329:77964",
+      "subject": "Roles and permissions",
+      "visually_inspected": true
+    },
+    {
+      "file_key": "Cwzy1PaZXXZmPFblpwvEHU",
+      "node_id": "759:52771",
+      "subject": "Closing-period approver flow",
+      "visually_inspected": true
+    },
+    {
+      "file_key": "mndiSWlmvCFcZXugl7qzOG",
+      "node_id": "2109:17771",
+      "subject": "Mobile navigation",
+      "visually_inspected": true
+    },
+    {
+      "file_key": "VupJTyuUY8TbtTYiAozZrF",
+      "node_id": "4294:83415",
+      "subject": "Representative plan view",
+      "visually_inspected": true
+    },
+    {
+      "file_key": "ckwN0tSlbE2zrimqSGlvbN",
+      "node_id": "2210:114609",
+      "subject": "Mapping table",
+      "visually_inspected": true
+    },
+    {
+      "file_key": "TMFqslrpYHy3Fz7E6B7028",
+      "node_id": "2399:72376",
+      "subject": "Documents-repository navigation entry",
+      "visually_inspected": true
+    },
+    {
+      "file_key": "VMALBdcCPmY2jhEl4C3tQM",
+      "node_id": "3032:73077",
+      "subject": "Dataset conditions",
+      "visually_inspected": true
+    },
+    {
+      "file_key": "567oKEE7i0ktL73emiSdCL",
+      "node_id": "2439:308588",
+      "subject": "Data-source selector",
+      "visually_inspected": true
+    },
+    {
+      "file_key": "D3I7XGCC7WulmGtydRj5aI",
+      "node_id": "2478:40363",
+      "subject": "Manager/admin dashboard",
+      "visually_inspected": true
+    },
+    {
+      "file_key": "ZKUJadWn8AGs81L0V7nUCG",
+      "node_id": "3979:42965",
+      "subject": "Representative dashboard",
+      "visually_inspected": true
+    },
+    {
+      "file_key": "H8ACDZmMY1kfsUH6Tx8BzX",
+      "node_id": "6187:126350",
+      "subject": "Compensation-plan matrix payout",
+      "visually_inspected": true
+    },
+    {
+      "file_key": "SmHO5c8ExGDaO6r2hDvbHy",
+      "node_id": "43:47",
+      "subject": "Core typography",
+      "visually_inspected": true
+    },
+    {
+      "file_key": "6ud2wi9O3p82AotF9VHUBn",
+      "node_id": "4031:7928",
+      "subject": "SSO configuration",
+      "visually_inspected": true
+    },
+    {
+      "file_key": "yuXoXF2i7ugCFHbAJhnoWN",
+      "node_id": "2329:81031",
+      "subject": "System and custom role list",
+      "visually_inspected": true
+    },
+    {
+      "file_key": "Cwzy1PaZXXZmPFblpwvEHU",
+      "node_id": "759:54358",
+      "subject": "Period-review reminder",
+      "visually_inspected": true
+    },
+    {
+      "file_key": "mndiSWlmvCFcZXugl7qzOG",
+      "node_id": "2109:20730",
+      "subject": "Expanded mobile navigation",
+      "visually_inspected": true
+    },
+    {
+      "file_key": "TMFqslrpYHy3Fz7E6B7028",
+      "node_id": "2402:78275",
+      "subject": "Compensation letter preview",
+      "visually_inspected": true
+    }
+  ],
+  "dataset_file_comparison": {
+    "matching_page_indexes": true,
+    "file_keys": [
+      "567oKEE7i0ktL73emiSdCL",
+      "VMALBdcCPmY2jhEl4C3tQM"
+    ],
+    "interpretation": "Copies or duplicate versions are possible; file lineage and canonical version are unconfirmed. Count the product area once."
+  },
+  "claim_boundary": "Artifacts corroborate product coverage; they do not independently establish personal authorship, delivery status, impact, or security/compliance outcomes."
+}

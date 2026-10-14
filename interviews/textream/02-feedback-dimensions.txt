@@ -1,0 +1,13 @@
+[Customer feedback / small change with impact]
+
+At Abacum, I identified a problem that forced users to leave the task they were working on.
+
+When configuring a dataset, they could assign dimensions to its columns. But if a dimension was missing, they had to leave the dataset, create it somewhere else, and then come back. Customers reported that this caused confusion and errors.
+
+I proposed putting basic dimension creation and editing directly into the open dataset. Product and Engineering agreed to build it.
+
+We kept advanced management in the separate area, so the first version addressed the immediate workflow problem without moving everything.
+
+The change shipped, and customers reported faster configuration, fewer errors, and less confusion. We didn't have a measured baseline, so I would describe that as qualitative customer feedback.
+
+[pause — let them ask]

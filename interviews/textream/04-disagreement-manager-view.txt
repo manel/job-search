@@ -1,0 +1,13 @@
+[Disagreement / mixed feedback]
+
+At Remuner, research on the manager view showed some basic workflow problems. Managers lacked an overview by metric, had to navigate through too many steps, and couldn't easily compare previous periods.
+
+I recommended fixing those problems before doing a broader redesign. The CEO and CTO chose to proceed with the full redesign instead.
+
+I explained my disagreement, then accepted the decision and worked to keep the research findings in the design. That included improving the metric overview and navigation.
+
+The redesign shipped. Feedback was positive about those improvements, but the overall response was mixed. Some users still struggled to find information they needed.
+
+I captured and analysed that feedback, separating problems that blocked tasks from other friction to guide future iterations. I can't claim that later iterations resolved them.
+
+[pause — let them ask]

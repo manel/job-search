@@ -1,0 +1,2606 @@
+{
+  "verified_on": "2026-10-06",
+  "method": "Local read-only ZIP/FIG decode using embedded Kiwi schema; document page/section hierarchy inspected; annotation extraction incomplete; no full canvas rendering",
+  "decoder_source": "https://github.com/evanw/kiwi",
+  "decoder_version": "kiwi-schema 0.5.0",
+  "archives": [
+    {
+      "id": "archive-0",
+      "archive_path": "/Volumes/Documents/Jobs/Remuner/Files (Figma)/Core/Currency symbol placement.zip",
+      "archive_name": "Currency symbol placement.zip",
+      "fig_member": "Core/Currency symbol placement.fig",
+      "fig_sha256": "f7505f3875ccd52b799de425ff837510896ea6d610f286426b9fec7bcd9f2e43",
+      "canvas_sha256": "d989105f66129d4829d3ffeb731e1eade3e377120d963015a989d4fd974a0f7e",
+      "meta": {
+        "client_meta": {
+          "background_color": {
+            "r": 0.11764705926179886,
+            "g": 0.11764705926179886,
+            "b": 0.11764705926179886,
+            "a": 1
+          },
+          "thumbnail_size": {
+            "width": 400,
+            "height": 400
+          },
+          "render_coordinates": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          }
+        },
+        "file_name": "Currency symbol placement",
+        "developer_related_links": [],
+        "exported_at": "2026-03-06T09:30:13.122Z"
+      },
+      "image_count": 107,
+      "canvas_version": 101,
+      "node_count": 25930,
+      "pages": [
+        {
+          "id": "0:1",
+          "name": "👇🏼 Handoff",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:8",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "2001:42",
+          "name": "0825 -> Currency symbol placement",
+          "sections": [],
+          "top_frames": [
+            {
+              "id": "2011:53055",
+              "name": "CardInTree",
+              "type": "FRAME"
+            },
+            {
+              "id": "2011:53078",
+              "name": "IC / PersonalTarget",
+              "type": "FRAME"
+            },
+            {
+              "id": "2011:52670",
+              "name": "Keyscreen / IC / Simulator",
+              "type": "FRAME"
+            },
+            {
+              "id": "2011:54238",
+              "name": "Manager / Metric",
+              "type": "FRAME"
+            },
+            {
+              "id": "2011:52842",
+              "name": "Keyscreen / IC / Simulator",
+              "type": "FRAME"
+            },
+            {
+              "id": "2011:54506",
+              "name": "Card",
+              "type": "FRAME"
+            },
+            {
+              "id": "2011:54586",
+              "name": "content",
+              "type": "FRAME"
+            },
+            {
+              "id": "2015:90391",
+              "name": "Individual / GlobalEarnings",
+              "type": "FRAME"
+            },
+            {
+              "id": "2011:54588",
+              "name": "content",
+              "type": "FRAME"
+            },
+            {
+              "id": "2011:54686",
+              "name": "Keyscreen / Plan Designer",
+              "type": "FRAME"
+            },
+            {
+              "id": "2011:54908",
+              "name": "Keyscreen / Plan Designer",
+              "type": "FRAME"
+            },
+            {
+              "id": "2011:55275",
+              "name": "Keyscreen / Plan Designer",
+              "type": "FRAME"
+            }
+          ]
+        },
+        {
+          "id": "1:12",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:9",
+          "name": "0925 -> Currency symbol placement",
+          "sections": [
+            {
+              "id": "2009:48911",
+              "name": "Currency position"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "2009:48911",
+              "name": "Currency position",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "1:5",
+          "name": "💠 Local components",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:11",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:6",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:3",
+          "name": "👇🏼 Exploration",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:7",
+          "name": "📔 Cover",
+          "sections": [],
+          "top_frames": [
+            {
+              "id": "2003:34412",
+              "name": "Cover",
+              "type": "FRAME"
+            }
+          ]
+        }
+      ],
+      "connected_file_comparison": []
+    },
+    {
+      "id": "archive-1",
+      "archive_path": "/Volumes/Documents/Jobs/Remuner/Files (Figma)/Core/Emails.zip",
+      "archive_name": "Emails.zip",
+      "fig_member": "Core/Emails.fig",
+      "fig_sha256": "b6fade8372c6b76ba523bff162fab25d7da3a74b021b4a410d8554a010d126ab",
+      "canvas_sha256": "c60e08940ead31baaecb329645dafabd7fc2de39e2314fb5cbadb522ccc06aac",
+      "meta": {
+        "client_meta": {
+          "background_color": {
+            "r": 0.11764705926179886,
+            "g": 0.11764705926179886,
+            "b": 0.11764705926179886,
+            "a": 1
+          },
+          "thumbnail_size": {
+            "width": 400,
+            "height": 400
+          },
+          "render_coordinates": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          }
+        },
+        "file_name": "Emails",
+        "developer_related_links": [],
+        "exported_at": "2026-03-06T09:27:24.468Z"
+      },
+      "image_count": 405,
+      "canvas_version": 106,
+      "node_count": 48134,
+      "pages": [
+        {
+          "id": "1009:484",
+          "name": "👇🏼 Exploration ",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1009:487",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "2534:20835",
+          "name": "1025 -> Newsletter Hubspot",
+          "sections": [],
+          "top_frames": [
+            {
+              "id": "2540:20457",
+              "name": "Group 633365",
+              "type": "FRAME"
+            },
+            {
+              "id": "2540:20476",
+              "name": "Frame 3092",
+              "type": "FRAME"
+            },
+            {
+              "id": "2543:104",
+              "name": "Mask group",
+              "type": "FRAME"
+            },
+            {
+              "id": "2543:138",
+              "name": "Frame 3094",
+              "type": "FRAME"
+            },
+            {
+              "id": "2543:150",
+              "name": "EU DesignTemplate",
+              "type": "FRAME"
+            },
+            {
+              "id": "2543:227",
+              "name": "EU DesignTemplate",
+              "type": "FRAME"
+            },
+            {
+              "id": "2546:2002",
+              "name": "streamline-plump:graph-bar-increase",
+              "type": "FRAME"
+            },
+            {
+              "id": "2543:281",
+              "name": "Frame 3095",
+              "type": "FRAME"
+            },
+            {
+              "id": "2546:135",
+              "name": "Frame 633246",
+              "type": "FRAME"
+            },
+            {
+              "id": "2546:150",
+              "name": "Frame 633247",
+              "type": "FRAME"
+            },
+            {
+              "id": "2546:1388",
+              "name": "Frame 633259",
+              "type": "FRAME"
+            },
+            {
+              "id": "2546:1593",
+              "name": "Frame 633260",
+              "type": "FRAME"
+            }
+          ]
+        },
+        {
+          "id": "2295:1116",
+          "name": "0525 -> Mobile version of emails",
+          "sections": [
+            {
+              "id": "2295:1117",
+              "name": "System notifications"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "2295:1117",
+              "name": "System notifications",
+              "type": "SECTION"
+            },
+            {
+              "id": "2322:17423",
+              "name": ".Users table",
+              "type": "FRAME"
+            },
+            {
+              "id": "2322:17799",
+              "name": ".Issues card",
+              "type": "FRAME"
+            },
+            {
+              "id": "2338:2671",
+              "name": "Email content",
+              "type": "FRAME"
+            },
+            {
+              "id": "2338:3263",
+              "name": "Issues type",
+              "type": "FRAME"
+            },
+            {
+              "id": "2386:3370",
+              "name": ".Table section",
+              "type": "FRAME"
+            },
+            {
+              "id": "2387:4403",
+              "name": ".Metric lines 1",
+              "type": "FRAME"
+            }
+          ]
+        },
+        {
+          "id": "1365:480",
+          "name": "0425 -> Notification system",
+          "sections": [
+            {
+              "id": "1370:797",
+              "name": "Notifications"
+            },
+            {
+              "id": "1370:808",
+              "name": "Emails / Notifications"
+            },
+            {
+              "id": "1376:920",
+              "name": "Benchmark"
+            },
+            {
+              "id": "1387:517",
+              "name": "Exploration Claims"
+            },
+            {
+              "id": "1402:563",
+              "name": "Exploration digest manager/IC individual resume"
+            },
+            {
+              "id": "1464:8426",
+              "name": "Issues (Claims)"
+            },
+            {
+              "id": "1485:16661",
+              "name": "SYSTEM"
+            },
+            {
+              "id": "1485:16662",
+              "name": "User invitation"
+            },
+            {
+              "id": "1485:16814",
+              "name": "Reset Password"
+            },
+            {
+              "id": "1485:16844",
+              "name": "Asigned plan"
+            },
+            {
+              "id": "1490:16875",
+              "name": "Closed plan"
+            },
+            {
+              "id": "1490:16894",
+              "name": "Closed period"
+            },
+            {
+              "id": "1490:16914",
+              "name": "Dashboard shared"
+            },
+            {
+              "id": "1495:17426",
+              "name": "Letter to sign"
+            },
+            {
+              "id": "1495:17451",
+              "name": "Update target for next period"
+            },
+            {
+              "id": "1495:17905",
+              "name": "Communication of new targets"
+            },
+            {
+              "id": "1495:18035",
+              "name": "Expiration of plans"
+            },
+            {
+              "id": "1495:18168",
+              "name": "Data source errors"
+            },
+            {
+              "id": "1514:18849",
+              "name": "Plan errors"
+            },
+            {
+              "id": "1522:19039",
+              "name": "Emails - System"
+            },
+            {
+              "id": "1646:4260",
+              "name": "Email digest"
+            },
+            {
+              "id": "1734:14242",
+              "name": "Exploration features"
+            },
+            {
+              "id": "2411:13599",
+              "name": "Digest con muchas métricas"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "1646:4260",
+              "name": "Email digest",
+              "type": "SECTION"
+            },
+            {
+              "id": "2085:19144",
+              "name": ".digest5",
+              "type": "FRAME"
+            },
+            {
+              "id": "1734:14242",
+              "name": "Exploration features",
+              "type": "SECTION"
+            },
+            {
+              "id": "1889:11597",
+              "name": "Frame 3077",
+              "type": "FRAME"
+            },
+            {
+              "id": "2411:13599",
+              "name": "Digest con muchas métricas",
+              "type": "SECTION"
+            },
+            {
+              "id": "1370:797",
+              "name": "Notifications",
+              "type": "SECTION"
+            },
+            {
+              "id": "1370:808",
+              "name": "Emails / Notifications",
+              "type": "SECTION"
+            },
+            {
+              "id": "1376:920",
+              "name": "Benchmark",
+              "type": "SECTION"
+            },
+            {
+              "id": "1387:517",
+              "name": "Exploration Claims",
+              "type": "SECTION"
+            },
+            {
+              "id": "1402:563",
+              "name": "Exploration digest manager/IC individual resume",
+              "type": "SECTION"
+            },
+            {
+              "id": "1485:16661",
+              "name": "SYSTEM",
+              "type": "SECTION"
+            },
+            {
+              "id": "1522:19039",
+              "name": "Emails - System",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "1259:475",
+          "name": "1024 -> Restablecer contraseña",
+          "sections": [],
+          "top_frames": [
+            {
+              "id": "1260:497",
+              "name": "Email",
+              "type": "FRAME"
+            }
+          ]
+        },
+        {
+          "id": "275:347",
+          "name": "FLOW",
+          "sections": [],
+          "top_frames": [
+            {
+              "id": "275:8085",
+              "name": "Group 1786",
+              "type": "FRAME"
+            },
+            {
+              "id": "275:8469",
+              "name": "Artboard",
+              "type": "FRAME"
+            },
+            {
+              "id": "275:8440",
+              "name": "Artboard",
+              "type": "FRAME"
+            },
+            {
+              "id": "275:8498",
+              "name": "Artboard",
+              "type": "FRAME"
+            },
+            {
+              "id": "275:8541",
+              "name": "Artboard",
+              "type": "FRAME"
+            },
+            {
+              "id": "275:8582",
+              "name": "Group 1807",
+              "type": "FRAME"
+            },
+            {
+              "id": "275:8623",
+              "name": "Group 1808",
+              "type": "FRAME"
+            },
+            {
+              "id": "275:8705",
+              "name": "Group 1810",
+              "type": "FRAME"
+            },
+            {
+              "id": "275:9394",
+              "name": "Group 1829",
+              "type": "FRAME"
+            },
+            {
+              "id": "305:123",
+              "name": "Frame 62",
+              "type": "FRAME"
+            },
+            {
+              "id": "275:10931",
+              "name": "Artboard",
+              "type": "FRAME"
+            },
+            {
+              "id": "307:2",
+              "name": "Responsive (<850px)",
+              "type": "FRAME"
+            }
+          ]
+        },
+        {
+          "id": "34:2247",
+          "name": "Old (con notificaciones y mails en espera)",
+          "sections": [],
+          "top_frames": [
+            {
+              "id": "181:390",
+              "name": "Group 1901",
+              "type": "FRAME"
+            },
+            {
+              "id": "217:183",
+              "name": "Group 1909",
+              "type": "FRAME"
+            },
+            {
+              "id": "181:326",
+              "name": "Group 1899",
+              "type": "FRAME"
+            },
+            {
+              "id": "217:126",
+              "name": "Group 1907",
+              "type": "FRAME"
+            },
+            {
+              "id": "181:415",
+              "name": "Group 1902",
+              "type": "FRAME"
+            },
+            {
+              "id": "181:333",
+              "name": "Group 1900",
+              "type": "FRAME"
+            },
+            {
+              "id": "217:133",
+              "name": "Group 1908",
+              "type": "FRAME"
+            },
+            {
+              "id": "51:4",
+              "name": "6",
+              "type": "FRAME"
+            },
+            {
+              "id": "34:2248",
+              "name": "1",
+              "type": "FRAME"
+            },
+            {
+              "id": "36:2925",
+              "name": "2",
+              "type": "FRAME"
+            },
+            {
+              "id": "34:2325",
+              "name": "2",
+              "type": "FRAME"
+            },
+            {
+              "id": "36:2973",
+              "name": "3",
+              "type": "FRAME"
+            }
+          ]
+        },
+        {
+          "id": "0:1",
+          "name": "Old",
+          "sections": [],
+          "top_frames": [
+            {
+              "id": "2:196",
+              "name": "Artboard 1",
+              "type": "FRAME"
+            },
+            {
+              "id": "2:218",
+              "name": "Artboard 4",
+              "type": "FRAME"
+            },
+            {
+              "id": "2:240",
+              "name": "Artboard 5",
+              "type": "FRAME"
+            },
+            {
+              "id": "2:316",
+              "name": "Artboard 8",
+              "type": "FRAME"
+            },
+            {
+              "id": "12:36",
+              "name": "Group 17 Copy 9",
+              "type": "FRAME"
+            },
+            {
+              "id": "33:307",
+              "name": "Group 43",
+              "type": "FRAME"
+            },
+            {
+              "id": "33:310",
+              "name": "Group 44",
+              "type": "FRAME"
+            },
+            {
+              "id": "34:315",
+              "name": "Artboard 19",
+              "type": "FRAME"
+            },
+            {
+              "id": "34:395",
+              "name": "Artboard 20",
+              "type": "FRAME"
+            },
+            {
+              "id": "34:443",
+              "name": "Artboard 21",
+              "type": "FRAME"
+            },
+            {
+              "id": "34:529",
+              "name": "Artboard 22",
+              "type": "FRAME"
+            },
+            {
+              "id": "34:663",
+              "name": "Artboard 23",
+              "type": "FRAME"
+            }
+          ]
+        },
+        {
+          "id": "1009:485",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "934:502",
+          "name": "💠 Local components",
+          "sections": [],
+          "top_frames": [
+            {
+              "id": "934:659",
+              "name": "email",
+              "type": "FRAME"
+            }
+          ]
+        },
+        {
+          "id": "934:674",
+          "name": "0624 -> AI recommendations",
+          "sections": [],
+          "top_frames": [
+            {
+              "id": "950:516",
+              "name": "email",
+              "type": "FRAME"
+            },
+            {
+              "id": "947:262",
+              "name": "Frame 4",
+              "type": "FRAME"
+            },
+            {
+              "id": "947:625",
+              "name": "Frame 8",
+              "type": "FRAME"
+            },
+            {
+              "id": "947:302",
+              "name": "Frame 6",
+              "type": "FRAME"
+            },
+            {
+              "id": "947:282",
+              "name": "Frame 5",
+              "type": "FRAME"
+            },
+            {
+              "id": "947:611",
+              "name": "Frame 7",
+              "type": "FRAME"
+            }
+          ]
+        },
+        {
+          "id": "1257:475",
+          "name": "Cover",
+          "sections": [],
+          "top_frames": [
+            {
+              "id": "1257:771",
+              "name": "📔 Cover",
+              "type": "FRAME"
+            }
+          ]
+        },
+        {
+          "id": "1009:486",
+          "name": "👇🏼 Handoff",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1009:488",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1009:483",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1647:7067",
+          "name": "0525 -> Notification system",
+          "sections": [
+            {
+              "id": "1647:7159",
+              "name": "System notifications"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "1647:7159",
+              "name": "System notifications",
+              "type": "SECTION"
+            }
+          ]
+        }
+      ],
+      "connected_file_comparison": []
+    },
+    {
+      "id": "archive-2",
+      "archive_path": "/Volumes/Documents/Jobs/Remuner/Files (Figma)/Core/Feedback system.zip",
+      "archive_name": "Feedback system.zip",
+      "fig_member": "Core/Feedback system.fig",
+      "fig_sha256": "1bc9547bf76f7a2b6418ad21ffbbdc7b39a323d651193375529a5dbb69bb2de2",
+      "canvas_sha256": "fd256cc1769ecb7c87c6c95877e6b874ab4d8381b83bbc1aa13d9a10379da48c",
+      "meta": {
+        "client_meta": {
+          "background_color": {
+            "r": 0.11764705926179886,
+            "g": 0.11764705926179886,
+            "b": 0.11764705926179886,
+            "a": 1
+          },
+          "thumbnail_size": {
+            "width": 400,
+            "height": 400
+          },
+          "render_coordinates": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          }
+        },
+        "file_name": "Feedback system",
+        "developer_related_links": [],
+        "exported_at": "2026-03-06T09:28:29.149Z"
+      },
+      "image_count": 128,
+      "canvas_version": 101,
+      "node_count": 11550,
+      "pages": [
+        {
+          "id": "0:1",
+          "name": "👇🏼 Handoff",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:10",
+          "name": "0425 -> Micro-Survey Engine",
+          "sections": [
+            {
+              "id": "2001:2",
+              "name": "Feedback system"
+            },
+            {
+              "id": "2001:211",
+              "name": "Benchmark"
+            },
+            {
+              "id": "2025:546",
+              "name": "Survey types"
+            },
+            {
+              "id": "2049:1084",
+              "name": "Persistent feedback widget"
+            },
+            {
+              "id": "2053:2278",
+              "name": "Micro-Survey Engine"
+            },
+            {
+              "id": "2055:4977",
+              "name": "Custom triggers"
+            },
+            {
+              "id": "2143:2984",
+              "name": "IA feedback"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "2001:2",
+              "name": "Feedback system",
+              "type": "SECTION"
+            },
+            {
+              "id": "2024:882",
+              "name": "Frame 10",
+              "type": "FRAME"
+            },
+            {
+              "id": "2024:839",
+              "name": "Frame 9",
+              "type": "FRAME"
+            },
+            {
+              "id": "2004:419",
+              "name": "Frame 2",
+              "type": "FRAME"
+            },
+            {
+              "id": "2001:211",
+              "name": "Benchmark",
+              "type": "SECTION"
+            },
+            {
+              "id": "2049:1084",
+              "name": "Persistent feedback widget",
+              "type": "SECTION"
+            },
+            {
+              "id": "2055:4977",
+              "name": "Custom triggers",
+              "type": "SECTION"
+            },
+            {
+              "id": "2143:2984",
+              "name": "IA feedback",
+              "type": "SECTION"
+            },
+            {
+              "id": "2053:2278",
+              "name": "Micro-Survey Engine",
+              "type": "SECTION"
+            },
+            {
+              "id": "2060:6362",
+              "name": "Frame 1956",
+              "type": "FRAME"
+            },
+            {
+              "id": "2060:6435",
+              "name": "Frame 1957",
+              "type": "FRAME"
+            },
+            {
+              "id": "2060:6528",
+              "name": "Frame 1958",
+              "type": "FRAME"
+            }
+          ]
+        },
+        {
+          "id": "1:8",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:12",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:9",
+          "name": "0925 -> IA feedback",
+          "sections": [
+            {
+              "id": "2155:6073",
+              "name": "IA feedback"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "2155:6073",
+              "name": "IA feedback",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "1:5",
+          "name": "💠 Local components",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:11",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:6",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:3",
+          "name": "👇🏼 Exploration",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:7",
+          "name": "📔 Cover",
+          "sections": [],
+          "top_frames": [
+            {
+              "id": "1:499",
+              "name": "Cover",
+              "type": "FRAME"
+            }
+          ]
+        }
+      ],
+      "connected_file_comparison": []
+    },
+    {
+      "id": "archive-3",
+      "archive_path": "/Volumes/Documents/Jobs/Remuner/Files (Figma)/Core/Issues.zip",
+      "archive_name": "Issues.zip",
+      "fig_member": "Core/Issues.fig",
+      "fig_sha256": "4371220e44314ee82be3291dfff7baf5d17bb0409582e869f86ed3cbb1520eb6",
+      "canvas_sha256": "674b85c116636c86d29e536026a06d6e09c5ec761b44d55799305bca25f3ac68",
+      "meta": {
+        "client_meta": {
+          "background_color": {
+            "r": 0.11764705926179886,
+            "g": 0.11764705926179886,
+            "b": 0.11764705926179886,
+            "a": 1
+          },
+          "thumbnail_size": {
+            "width": 400,
+            "height": 400
+          },
+          "render_coordinates": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          }
+        },
+        "file_name": "Issues",
+        "developer_related_links": [],
+        "exported_at": "2026-03-06T09:26:49.764Z"
+      },
+      "image_count": 138,
+      "canvas_version": 106,
+      "node_count": 54711,
+      "pages": [
+        {
+          "id": "3058:2972",
+          "name": "0126 -> Autocomplete with groups in user filter",
+          "sections": [
+            {
+              "id": "3058:23692",
+              "name": "Autocomplete with groups in user filter"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "3058:23692",
+              "name": "Autocomplete with groups in user filter",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "2849:2412",
+          "name": "0525 -> Enable bidirectional claims for managers",
+          "sections": [
+            {
+              "id": "2853:3194",
+              "name": "Report issues for manager"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "2853:3194",
+              "name": "Report issues for manager",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "0:1",
+          "name": "👇🏼 Handoff",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "3123:27871",
+          "name": "0226 -> Create Issues from Items",
+          "sections": [
+            {
+              "id": "3123:29411",
+              "name": "Create issue from item"
+            },
+            {
+              "id": "3123:31590",
+              "name": "Create issue from item"
+            },
+            {
+              "id": "3123:31887",
+              "name": "Create issue from metric/payout"
+            },
+            {
+              "id": "3123:32254",
+              "name": "Create issue from item"
+            },
+            {
+              "id": "3123:32994",
+              "name": "Revamp Issues"
+            },
+            {
+              "id": "3150:38459",
+              "name": "Referencia Iniciativa"
+            },
+            {
+              "id": "3150:38478",
+              "name": "Emails"
+            },
+            {
+              "id": "3150:40190",
+              "name": "Mobile"
+            },
+            {
+              "id": "3161:19782",
+              "name": "References of original flow"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "3123:29411",
+              "name": "Create issue from item",
+              "type": "SECTION"
+            },
+            {
+              "id": "3123:31590",
+              "name": "Create issue from item",
+              "type": "SECTION"
+            },
+            {
+              "id": "3123:31887",
+              "name": "Create issue from metric/payout",
+              "type": "SECTION"
+            },
+            {
+              "id": "3123:32994",
+              "name": "Revamp Issues",
+              "type": "SECTION"
+            },
+            {
+              "id": "3150:38478",
+              "name": "Emails",
+              "type": "SECTION"
+            },
+            {
+              "id": "3150:40190",
+              "name": "Mobile",
+              "type": "SECTION"
+            },
+            {
+              "id": "3150:38459",
+              "name": "Referencia Iniciativa",
+              "type": "SECTION"
+            },
+            {
+              "id": "3123:32254",
+              "name": "Create issue from item",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "1:10",
+          "name": "1024 -> Claim labels, bulk actions & download report",
+          "sections": [
+            {
+              "id": "2008:2678",
+              "name": "Flows"
+            },
+            {
+              "id": "2758:13944",
+              "name": "Claims / Mobile"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "2004:1514",
+              "name": ".labelPopoverContent",
+              "type": "FRAME"
+            },
+            {
+              "id": "2024:4414",
+              "name": "Frame 2049",
+              "type": "FRAME"
+            },
+            {
+              "id": "2024:4036",
+              "name": "Frame 2048",
+              "type": "FRAME"
+            },
+            {
+              "id": "2008:2678",
+              "name": "Flows",
+              "type": "SECTION"
+            },
+            {
+              "id": "2008:2981",
+              "name": ".notification",
+              "type": "FRAME"
+            },
+            {
+              "id": "2758:13944",
+              "name": "Claims / Mobile",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "2817:8354",
+          "name": "0525 -> Issues section for manager / ICs",
+          "sections": [
+            {
+              "id": "2817:11488",
+              "name": "DESKTOP"
+            },
+            {
+              "id": "2817:16751",
+              "name": "MOBILE"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "2817:11488",
+              "name": "DESKTOP",
+              "type": "SECTION"
+            },
+            {
+              "id": "2817:16751",
+              "name": "MOBILE",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "1:8",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "3008:18215",
+          "name": "0625 -> Autocomplete in issues filters",
+          "sections": [
+            {
+              "id": "3008:18581",
+              "name": "Filters with autocomplete"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "3008:18581",
+              "name": "Filters with autocomplete",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "1:12",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:9",
+          "name": "1024 -> Claims: labels, bulk actions, download CSV",
+          "sections": [
+            {
+              "id": "2042:5167",
+              "name": "Claim labels"
+            },
+            {
+              "id": "2042:9868",
+              "name": "Claims bulk actions"
+            },
+            {
+              "id": "2042:11285",
+              "name": "Flows"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "2042:5167",
+              "name": "Claim labels",
+              "type": "SECTION"
+            },
+            {
+              "id": "2042:9868",
+              "name": "Claims bulk actions",
+              "type": "SECTION"
+            },
+            {
+              "id": "2042:11285",
+              "name": "Flows",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "1:5",
+          "name": "💠 Local components",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:11",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:6",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:3",
+          "name": "👇🏼 Exploration",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "3040:15228",
+          "name": "0126 -> Create Issues from Items",
+          "sections": [
+            {
+              "id": "3057:7278",
+              "name": "Section 1"
+            },
+            {
+              "id": "3070:14084",
+              "name": "Create issue from item"
+            },
+            {
+              "id": "3070:22044",
+              "name": "Create issue from item"
+            },
+            {
+              "id": "3070:28897",
+              "name": "Create issue from item"
+            },
+            {
+              "id": "3070:31283",
+              "name": "Create issue from metric/payout"
+            },
+            {
+              "id": "3073:37978",
+              "name": "Revamp Issues"
+            },
+            {
+              "id": "3117:39807",
+              "name": "Drafts&References"
+            },
+            {
+              "id": "3117:39808",
+              "name": "Components"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "3040:15230",
+              "name": "Task-Inniciative",
+              "type": "FRAME"
+            },
+            {
+              "id": "3065:9071",
+              "name": "Keyscreen / IC / Dashboard",
+              "type": "FRAME"
+            },
+            {
+              "id": "3047:8433",
+              "name": "Keyscreen / IC / Single plan",
+              "type": "FRAME"
+            },
+            {
+              "id": "3070:14084",
+              "name": "Create issue from item",
+              "type": "SECTION"
+            },
+            {
+              "id": "3070:28897",
+              "name": "Create issue from item",
+              "type": "SECTION"
+            },
+            {
+              "id": "3070:31283",
+              "name": "Create issue from metric/payout",
+              "type": "SECTION"
+            },
+            {
+              "id": "3073:37978",
+              "name": "Revamp Issues",
+              "type": "SECTION"
+            },
+            {
+              "id": "3070:22044",
+              "name": "Create issue from item",
+              "type": "SECTION"
+            },
+            {
+              "id": "3117:39807",
+              "name": "Drafts&References",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "1:7",
+          "name": "📔 Cover",
+          "sections": [],
+          "top_frames": [
+            {
+              "id": "1:499",
+              "name": "Cover",
+              "type": "FRAME"
+            }
+          ]
+        },
+        {
+          "id": "2832:7020",
+          "name": "0525 -> Issues by manager",
+          "sections": [
+            {
+              "id": "2832:7021",
+              "name": "DESKTOP"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "2832:7021",
+              "name": "DESKTOP",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "2758:14877",
+          "name": "0525 -> Issues section for manager / ICs",
+          "sections": [],
+          "top_frames": [
+            {
+              "id": "2771:15427",
+              "name": "mobile",
+              "type": "FRAME"
+            },
+            {
+              "id": "2776:16869",
+              "name": "mobile",
+              "type": "FRAME"
+            },
+            {
+              "id": "2776:16707",
+              "name": "mobile",
+              "type": "FRAME"
+            },
+            {
+              "id": "2796:8303",
+              "name": "mobile",
+              "type": "FRAME"
+            },
+            {
+              "id": "2776:16247",
+              "name": "mobile",
+              "type": "FRAME"
+            },
+            {
+              "id": "2776:16382",
+              "name": "mobile",
+              "type": "FRAME"
+            },
+            {
+              "id": "2776:16477",
+              "name": "mobile",
+              "type": "FRAME"
+            },
+            {
+              "id": "2776:20696",
+              "name": "mobile",
+              "type": "FRAME"
+            },
+            {
+              "id": "2776:20951",
+              "name": "mobile",
+              "type": "FRAME"
+            },
+            {
+              "id": "2776:17210",
+              "name": "mobile",
+              "type": "FRAME"
+            },
+            {
+              "id": "2776:17599",
+              "name": "mobile",
+              "type": "FRAME"
+            },
+            {
+              "id": "2769:21007",
+              "name": "mobile",
+              "type": "FRAME"
+            }
+          ]
+        }
+      ],
+      "connected_file_comparison": []
+    },
+    {
+      "id": "archive-4",
+      "archive_path": "/Volumes/Documents/Jobs/Remuner/Files (Figma)/Core/Login.zip",
+      "archive_name": "Login.zip",
+      "fig_member": "Core/Login.fig",
+      "fig_sha256": "c5b9543a0631dcf5e479d6467851efc23941a1a26f151f953ccf84bf9acb7ab2",
+      "canvas_sha256": "51f14ef180f4b4d97c3344d3b63b02afb67d7dc2647c7ffb417e78477e2dd45d",
+      "meta": {
+        "client_meta": {
+          "background_color": {
+            "r": 0.8980392217636108,
+            "g": 0.8980392217636108,
+            "b": 0.8980392217636108,
+            "a": 1
+          },
+          "thumbnail_size": {
+            "width": 227,
+            "height": 400
+          },
+          "render_coordinates": {
+            "x": 0,
+            "y": 0,
+            "width": 7000,
+            "height": 12329
+          }
+        },
+        "file_name": "Login",
+        "developer_related_links": [],
+        "exported_at": "2026-03-06T09:32:58.850Z"
+      },
+      "image_count": 18,
+      "canvas_version": 101,
+      "node_count": 1870,
+      "pages": [
+        {
+          "id": "0:1",
+          "name": "👇🏼 Handoff",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:10",
+          "name": "1024 -> SSO login",
+          "sections": [
+            {
+              "id": "2002:37",
+              "name": "Status quo"
+            },
+            {
+              "id": "2002:38",
+              "name": "Login"
+            },
+            {
+              "id": "2008:200",
+              "name": "Recover password"
+            },
+            {
+              "id": "2008:201",
+              "name": "Invite users"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "2002:2492",
+              "name": "ms-symbollockup_signin_dark_short",
+              "type": "FRAME"
+            },
+            {
+              "id": "2002:2505",
+              "name": "ms-symbollockup_signin_light_short",
+              "type": "FRAME"
+            },
+            {
+              "id": "2002:2519",
+              "name": "web_light_sq_SI 1",
+              "type": "FRAME"
+            },
+            {
+              "id": "2008:200",
+              "name": "Recover password",
+              "type": "SECTION"
+            },
+            {
+              "id": "2002:2465",
+              "name": "ms-symbollockup_signin_light",
+              "type": "FRAME"
+            },
+            {
+              "id": "2002:37",
+              "name": "Status quo",
+              "type": "SECTION"
+            },
+            {
+              "id": "2002:2439",
+              "name": "ms-symbollockup_signin_dark",
+              "type": "FRAME"
+            },
+            {
+              "id": "2008:201",
+              "name": "Invite users",
+              "type": "SECTION"
+            },
+            {
+              "id": "2002:38",
+              "name": "Login",
+              "type": "SECTION"
+            },
+            {
+              "id": "2002:4712",
+              "name": "Keyscreen / Admin / Users",
+              "type": "FRAME"
+            }
+          ]
+        },
+        {
+          "id": "1:8",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:2",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:12",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:9",
+          "name": "1024 -> SSO",
+          "sections": [
+            {
+              "id": "2019:459",
+              "name": "Login"
+            },
+            {
+              "id": "2019:508",
+              "name": "Recover password"
+            },
+            {
+              "id": "2019:580",
+              "name": "Invite users"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "2019:459",
+              "name": "Login",
+              "type": "SECTION"
+            },
+            {
+              "id": "2019:508",
+              "name": "Recover password",
+              "type": "SECTION"
+            },
+            {
+              "id": "2019:580",
+              "name": "Invite users",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "1:5",
+          "name": "💠 Local components",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:11",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:6",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:3",
+          "name": "👇🏼 Exploration",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:7",
+          "name": "📔 Cover",
+          "sections": [],
+          "top_frames": [
+            {
+              "id": "1:499",
+              "name": "Cover",
+              "type": "FRAME"
+            }
+          ]
+        }
+      ],
+      "connected_file_comparison": []
+    },
+    {
+      "id": "archive-5",
+      "archive_path": "/Volumes/Documents/Jobs/Remuner/Files (Figma)/Core/Navigation.zip",
+      "archive_name": "Navigation.zip",
+      "fig_member": "Core/Navigation.fig",
+      "fig_sha256": "cdbea19521de83420dff18549312546102fe4fb94da852c11a82be60b8f74474",
+      "canvas_sha256": "5065610f794c1d1c570caeeb38446928c75a38a769e2b15f0fa304a9e42256ce",
+      "meta": {
+        "client_meta": {
+          "background_color": {
+            "r": 0.11764705926179886,
+            "g": 0.11764705926179886,
+            "b": 0.11764705926179886,
+            "a": 1
+          },
+          "thumbnail_size": {
+            "width": 400,
+            "height": 400
+          },
+          "render_coordinates": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          }
+        },
+        "file_name": "Navigation",
+        "developer_related_links": [],
+        "exported_at": "2026-03-06T09:32:39.979Z"
+      },
+      "image_count": 58,
+      "canvas_version": 106,
+      "node_count": 5708,
+      "pages": [
+        {
+          "id": "2298:2647",
+          "name": "0525 -> Expandable menus",
+          "sections": [
+            {
+              "id": "2298:15154",
+              "name": "Subnavigation"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "2298:15154",
+              "name": "Subnavigation",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "0:1",
+          "name": "→ Handoff 👇🏼",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "2255:10550",
+          "name": "1024 -> Admin nav mobile",
+          "sections": [
+            {
+              "id": "2255:10631",
+              "name": "Admin nav mobile"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "2255:10631",
+              "name": "Admin nav mobile",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "1:10",
+          "name": "0624 -> Navigation consolidation",
+          "sections": [],
+          "top_frames": [
+            {
+              "id": "2001:4216",
+              "name": "Keyscreen / My teams",
+              "type": "FRAME"
+            },
+            {
+              "id": "2041:1761",
+              "name": "Keyscreen / My teams",
+              "type": "FRAME"
+            },
+            {
+              "id": "2056:1886",
+              "name": "Navigation",
+              "type": "FRAME"
+            },
+            {
+              "id": "2056:1807",
+              "name": "Navigation",
+              "type": "FRAME"
+            },
+            {
+              "id": "2063:2122",
+              "name": "Navigation",
+              "type": "FRAME"
+            },
+            {
+              "id": "2003:835",
+              "name": "Keyscreen / My teams",
+              "type": "FRAME"
+            },
+            {
+              "id": "2007:961",
+              "name": "Keyscreen / My teams",
+              "type": "FRAME"
+            },
+            {
+              "id": "2041:1957",
+              "name": "Keyscreen / My teams",
+              "type": "FRAME"
+            },
+            {
+              "id": "2001:4400",
+              "name": "Keyscreen / My teams",
+              "type": "FRAME"
+            },
+            {
+              "id": "2015:8156",
+              "name": "Color",
+              "type": "FRAME"
+            },
+            {
+              "id": "2015:8168",
+              "name": "Color",
+              "type": "FRAME"
+            },
+            {
+              "id": "2038:1360",
+              "name": "Frame 1936",
+              "type": "FRAME"
+            }
+          ]
+        },
+        {
+          "id": "2255:4509",
+          "name": "1024 -> Navigation settings",
+          "sections": [
+            {
+              "id": "2255:4510",
+              "name": "Nav settings"
+            },
+            {
+              "id": "2255:8172",
+              "name": "Help button"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "2255:4510",
+              "name": "Nav settings",
+              "type": "SECTION"
+            },
+            {
+              "id": "2255:8172",
+              "name": "Help button",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "1:8",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:2",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:12",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:9",
+          "name": "0624 -> Navigation consolidation",
+          "sections": [
+            {
+              "id": "2101:2180",
+              "name": "Navigation / Desktop"
+            },
+            {
+              "id": "2102:15476",
+              "name": "Navigation / Mobile"
+            },
+            {
+              "id": "2102:15934",
+              "name": "Navigation responsive behaviour"
+            },
+            {
+              "id": "2186:1473",
+              "name": "User menu / Mobile"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "2101:2180",
+              "name": "Navigation / Desktop",
+              "type": "SECTION"
+            },
+            {
+              "id": "2186:1473",
+              "name": "User menu / Mobile",
+              "type": "SECTION"
+            },
+            {
+              "id": "2102:15476",
+              "name": "Navigation / Mobile",
+              "type": "SECTION"
+            },
+            {
+              "id": "2102:15934",
+              "name": "Navigation responsive behaviour",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "1:5",
+          "name": "💠 Local components",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:11",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:6",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:3",
+          "name": "→ Exploration 👇🏼",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:7",
+          "name": "📔 Cover",
+          "sections": [],
+          "top_frames": [
+            {
+              "id": "1:499",
+              "name": "Cover",
+              "type": "FRAME"
+            }
+          ]
+        },
+        {
+          "id": "2227:1656",
+          "name": "1024 -> Navigation settings",
+          "sections": [
+            {
+              "id": "2228:1657",
+              "name": "Section 1"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "2228:1657",
+              "name": "Section 1",
+              "type": "SECTION"
+            }
+          ]
+        }
+      ],
+      "connected_file_comparison": [
+        {
+          "file_key": "mndiSWlmvCFcZXugl7qzOG",
+          "name": "Remuner | Navigation",
+          "matching_page_entries": 15,
+          "connected_page_entries": 15,
+          "archive_page_entries": 15,
+          "exact_page_index_match": true
+        }
+      ]
+    },
+    {
+      "id": "archive-6",
+      "archive_path": "/Volumes/Documents/Jobs/Remuner/Files (Figma)/Core/Posición del símbolo de la moneda.zip",
+      "archive_name": "Posición del símbolo de la moneda.zip",
+      "fig_member": "Core/Posicio╠ün del si╠ümbolo de la moneda.fig",
+      "fig_sha256": "c67c132cbc1227cd6a125aee798a91f87078cfc522808dbdc877538d58e910a3",
+      "canvas_sha256": "1ee55215d264862c2ea80754c719049a590cf4ef8aa134d86555bfae78e97635",
+      "meta": {
+        "client_meta": {
+          "background_color": {
+            "r": 0.9607843160629272,
+            "g": 0.9607843160629272,
+            "b": 0.9607843160629272,
+            "a": 1
+          },
+          "thumbnail_size": {
+            "width": 400,
+            "height": 371
+          },
+          "render_coordinates": {
+            "x": -285,
+            "y": 506,
+            "width": 18251,
+            "height": 16910
+          }
+        },
+        "file_name": "Posición del símbolo de la moneda",
+        "developer_related_links": [],
+        "exported_at": "2026-03-06T09:31:09.768Z"
+      },
+      "image_count": 97,
+      "canvas_version": 101,
+      "node_count": 22529,
+      "pages": [
+        {
+          "id": "0:1",
+          "name": "Page 1",
+          "sections": [],
+          "top_frames": [
+            {
+              "id": "14:65055",
+              "name": "Individual / GlobalEarnings",
+              "type": "FRAME"
+            },
+            {
+              "id": "16:48986",
+              "name": "Individual / GlobalEarnings",
+              "type": "FRAME"
+            },
+            {
+              "id": "14:66053",
+              "name": "Individual / GlobalEarnings",
+              "type": "FRAME"
+            },
+            {
+              "id": "16:49031",
+              "name": "Individual / GlobalEarnings",
+              "type": "FRAME"
+            },
+            {
+              "id": "19:49823",
+              "name": "Card",
+              "type": "FRAME"
+            },
+            {
+              "id": "19:50049",
+              "name": "Card",
+              "type": "FRAME"
+            },
+            {
+              "id": "14:29968",
+              "name": "Card",
+              "type": "FRAME"
+            },
+            {
+              "id": "14:36497",
+              "name": "content",
+              "type": "FRAME"
+            },
+            {
+              "id": "14:36855",
+              "name": "content",
+              "type": "FRAME"
+            },
+            {
+              "id": "14:39043",
+              "name": "Keyscreen / Plan Designer",
+              "type": "FRAME"
+            },
+            {
+              "id": "14:48329",
+              "name": ".textfieldparameters",
+              "type": "FRAME"
+            },
+            {
+              "id": "14:51335",
+              "name": "Keyscreen / Plan Designer",
+              "type": "FRAME"
+            }
+          ]
+        }
+      ],
+      "connected_file_comparison": []
+    },
+    {
+      "id": "archive-7",
+      "archive_path": "/Volumes/Documents/Jobs/Remuner/Files (Figma)/Core/Roles & permissions.zip",
+      "archive_name": "Roles & permissions.zip",
+      "fig_member": "Core/Roles & permissions.fig",
+      "fig_sha256": "cb7774932de36c4c8d5e777d854f5f3c84386fa0d54e4481fcbbde046662e7a3",
+      "canvas_sha256": "775b89a306041689691323a6fad4e3a90732fe4581893fa61413eaeff8e680d9",
+      "meta": {
+        "client_meta": {
+          "background_color": {
+            "r": 0.11764705926179886,
+            "g": 0.11764705926179886,
+            "b": 0.11764705926179886,
+            "a": 1
+          },
+          "thumbnail_size": {
+            "width": 400,
+            "height": 400
+          },
+          "render_coordinates": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          }
+        },
+        "file_name": "Roles & permissions",
+        "developer_related_links": [],
+        "exported_at": "2026-03-06T09:32:14.405Z"
+      },
+      "image_count": 147,
+      "canvas_version": 101,
+      "node_count": 36465,
+      "pages": [
+        {
+          "id": "0:1",
+          "name": "👇🏼 Handoff",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:10",
+          "name": "1224 -> Roles and permissions",
+          "sections": [
+            {
+              "id": "2001:24",
+              "name": "Benchmark"
+            },
+            {
+              "id": "2002:88",
+              "name": "Inspiration"
+            },
+            {
+              "id": "2005:53",
+              "name": "Sketches | v1"
+            },
+            {
+              "id": "2112:810",
+              "name": "Sketches | v2"
+            },
+            {
+              "id": "2112:2474",
+              "name": "Sketches | v3"
+            },
+            {
+              "id": "2195:1076",
+              "name": "Proposal | v1"
+            },
+            {
+              "id": "2222:7900",
+              "name": "Proposal | v2"
+            },
+            {
+              "id": "2268:27239",
+              "name": "Proposal | v2"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "2001:24",
+              "name": "Benchmark",
+              "type": "SECTION"
+            },
+            {
+              "id": "2005:53",
+              "name": "Sketches | v1",
+              "type": "SECTION"
+            },
+            {
+              "id": "2268:27239",
+              "name": "Proposal | v2",
+              "type": "SECTION"
+            },
+            {
+              "id": "2112:2474",
+              "name": "Sketches | v3",
+              "type": "SECTION"
+            },
+            {
+              "id": "2112:810",
+              "name": "Sketches | v2",
+              "type": "SECTION"
+            },
+            {
+              "id": "2195:1076",
+              "name": "Proposal | v1",
+              "type": "SECTION"
+            },
+            {
+              "id": "2222:7900",
+              "name": "Proposal | v2",
+              "type": "SECTION"
+            },
+            {
+              "id": "2002:88",
+              "name": "Inspiration",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "1:8",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:12",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:9",
+          "name": "0124 -> Roles & permissions",
+          "sections": [
+            {
+              "id": "2329:77928",
+              "name": "Roles & permissions"
+            },
+            {
+              "id": "2329:112250",
+              "name": "Plan sharing"
+            },
+            {
+              "id": "2329:151721",
+              "name": "Permission restriction communication"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "2329:77928",
+              "name": "Roles & permissions",
+              "type": "SECTION"
+            },
+            {
+              "id": "2329:112250",
+              "name": "Plan sharing",
+              "type": "SECTION"
+            },
+            {
+              "id": "2329:151721",
+              "name": "Permission restriction communication",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "1:5",
+          "name": "💠 Local components",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:11",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:6",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:3",
+          "name": "👇🏼 Exploration",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:7",
+          "name": "📔 Cover",
+          "sections": [],
+          "top_frames": [
+            {
+              "id": "1:499",
+              "name": "Cover",
+              "type": "FRAME"
+            }
+          ]
+        },
+        {
+          "id": "2512:98950",
+          "name": "0525 -> Close periods roles",
+          "sections": [
+            {
+              "id": "2512:100180",
+              "name": "Section 1"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "2512:100180",
+              "name": "Section 1",
+              "type": "SECTION"
+            },
+            {
+              "id": "2512:98952",
+              "name": "Keyscreen / Admin / Users",
+              "type": "FRAME"
+            }
+          ]
+        }
+      ],
+      "connected_file_comparison": [
+        {
+          "file_key": "yuXoXF2i7ugCFHbAJhnoWN",
+          "name": "Remuner | Roles & permissions",
+          "matching_page_entries": 11,
+          "connected_page_entries": 11,
+          "archive_page_entries": 11,
+          "exact_page_index_match": true
+        }
+      ]
+    },
+    {
+      "id": "archive-8",
+      "archive_path": "/Volumes/Documents/Jobs/Remuner/Files (Figma)/Core/Settings.zip",
+      "archive_name": "Settings.zip",
+      "fig_member": "Core/Settings.fig",
+      "fig_sha256": "fdd620779214b3a2e032cf700ba457ae429a5fc825863aec9839bb00ee46b115",
+      "canvas_sha256": "7b999a5a69ec30af2c0da1f59756c8b009f166bd8b2a5e9f462e751e6ff73286",
+      "meta": {
+        "client_meta": {
+          "background_color": {
+            "r": 0.11764705926179886,
+            "g": 0.11764705926179886,
+            "b": 0.11764705926179886,
+            "a": 1
+          },
+          "thumbnail_size": {
+            "width": 400,
+            "height": 400
+          },
+          "render_coordinates": {
+            "x": 0,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          }
+        },
+        "file_name": "Settings",
+        "developer_related_links": [],
+        "exported_at": "2026-03-06T09:31:33.057Z"
+      },
+      "image_count": 64,
+      "canvas_version": 101,
+      "node_count": 8454,
+      "pages": [
+        {
+          "id": "0:1",
+          "name": "👇🏼 Handoff",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:10",
+          "name": "1024 -> Single Sign-On",
+          "sections": [
+            {
+              "id": "2002:38",
+              "name": "Proposal"
+            },
+            {
+              "id": "4017:1895",
+              "name": "Flow"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "4017:1895",
+              "name": "Flow",
+              "type": "SECTION"
+            },
+            {
+              "id": "4021:2056",
+              "name": "salesforce",
+              "type": "FRAME"
+            },
+            {
+              "id": "4030:5932",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME"
+            },
+            {
+              "id": "4030:6049",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME"
+            },
+            {
+              "id": "4030:6170",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME"
+            },
+            {
+              "id": "4030:6383",
+              "name": "Frame 11",
+              "type": "FRAME"
+            },
+            {
+              "id": "4030:6384",
+              "name": "Frame 12",
+              "type": "FRAME"
+            },
+            {
+              "id": "4030:6276",
+              "name": "Keyscreen / Admin / Compensation plans",
+              "type": "FRAME"
+            },
+            {
+              "id": "4021:2026",
+              "name": "hubspot",
+              "type": "FRAME"
+            },
+            {
+              "id": "4021:2069",
+              "name": "microsoft-dynamics-365-seeklogo 1",
+              "type": "FRAME"
+            },
+            {
+              "id": "2002:38",
+              "name": "Proposal",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "1:8",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:2",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "4026:5950",
+          "name": "1024 -> Global settings",
+          "sections": [
+            {
+              "id": "4026:6525",
+              "name": "Flow"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "4026:6525",
+              "name": "Flow",
+              "type": "SECTION"
+            },
+            {
+              "id": "4026:8596",
+              "name": "salesforce",
+              "type": "FRAME"
+            },
+            {
+              "id": "4026:8593",
+              "name": "hubspot",
+              "type": "FRAME"
+            },
+            {
+              "id": "4026:8599",
+              "name": "microsoft-dynamics-365-seeklogo 1",
+              "type": "FRAME"
+            }
+          ]
+        },
+        {
+          "id": "4123:4744",
+          "name": "0825 -> Select which metrics user IC will view",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:12",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:9",
+          "name": "1024 -> SSO settings",
+          "sections": [
+            {
+              "id": "4031:7245",
+              "name": "SSO settings flow"
+            }
+          ],
+          "top_frames": [
+            {
+              "id": "4031:7245",
+              "name": "SSO settings flow",
+              "type": "SECTION"
+            }
+          ]
+        },
+        {
+          "id": "1:5",
+          "name": "💠 Local components",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:11",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:6",
+          "name": "---",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:3",
+          "name": "👇🏼 Exploration",
+          "sections": [],
+          "top_frames": []
+        },
+        {
+          "id": "1:7",
+          "name": "📔 Cover",
+          "sections": [],
+          "top_frames": [
+            {
+              "id": "1:499",
+              "name": "Cover",
+              "type": "FRAME"
+            }
+          ]
+        }
+      ],
+      "connected_file_comparison": [
+        {
+          "file_key": "6ud2wi9O3p82AotF9VHUBn",
+          "name": "Remuner | Settings",
+          "matching_page_entries": 13,
+          "connected_page_entries": 13,
+          "archive_page_entries": 13,
+          "exact_page_index_match": true
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Page and section hierarchy only; not a full visual or annotation audit.",
+    "Matching page indexes do not prove identical canvas content.",
+    "Export timestamps are not project or release dates.",
+    "Currency archives have different hashes and structures; relationship beyond their titles is unresolved."
+  ]
+}

@@ -1,0 +1,19 @@
+[Walk me through a project — Dataset Manager]
+
+A good example is Dataset Manager at Abacum, a financial-planning platform.
+
+Finance teams needed to configure and transform their data before using it in their models. The existing setup relied on technical configuration files, so customers depended on the implementation team. Our goal was to make standard configuration something they could do more independently.
+
+I led the design and customer testing, working with Product and Engineering.
+
+An early version combined a simpler interface with SQL for writing transformations. Testing showed that users understood what they wanted to do with their data. They could explain the logic using Excel functions, but struggled to express it in SQL. I interpreted that as a mismatch between the product's language and their existing knowledge.
+
+I brought that finding to Product and Engineering. Together, we moved toward guided configuration and extended Abacum's existing modeling language, keeping it close to the spreadsheet concepts users already knew.
+
+We also addressed friction within the workflow. For example, users had to leave their dataset to create a missing dimension, then return and continue. I proposed letting them create and edit basic dimensions within the dataset, while keeping advanced management separate.
+
+The changes shipped. We had qualitative reports of customers reaching a working configuration in their first session, and customers reported less confusion and fewer errors after the dimension change. Those were qualitative outcomes, rather than instrumented measurements.
+
+The central design decision was to build around how finance users already understood their work, rather than asking them to learn a technical language just to complete it.
+
+[pause — let them ask]

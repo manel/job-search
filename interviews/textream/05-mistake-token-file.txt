@@ -1,0 +1,15 @@
+[Mistake / accountability / learning]
+
+At Remuner, I deleted a token file because I thought it was duplicated. The frontend still depended on it, and the next deployment caused a short production outage.
+
+The mistake was my assumption that the file was safe to remove.
+
+I restored it and pushed the fix. For the next several days, I manually checked that the required files were present before deployment.
+
+The team then added a required-file check while the dependency still needed to be cleaned up.
+
+The service was restored, and the checking process changed. I don't have an exact outage duration or a measured customer impact.
+
+If I were making that change again, I would verify which parts of the application depend on the file before treating it as a duplicate.
+
+[pause — let them ask]

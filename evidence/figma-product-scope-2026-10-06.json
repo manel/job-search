@@ -1,0 +1,667 @@
+{
+  "verified_on": "2026-10-06",
+  "method": "Read-only Figma Desktop Bridge inspection",
+  "files": [
+    {
+      "file_key": "6c5Iwbr9X5FdhaDj0GD81O",
+      "company": "Abacum",
+      "name_at_discovery": "Abacum | Dimensions - Implementation",
+      "current_name": "Abacum | Dimensions - Implementation",
+      "url": "https://www.figma.com/design/6c5Iwbr9X5FdhaDj0GD81O",
+      "pages": [
+        {
+          "id": "1890:28388",
+          "name": "Hand-off template"
+        },
+        {
+          "id": "1890:28389",
+          "name": "--------------------------------"
+        },
+        {
+          "id": "729:49195",
+          "name": "👀 Overview"
+        },
+        {
+          "id": "1936:6406",
+          "name": "2403 -> Dimension resource page"
+        },
+        {
+          "id": "1890:16604",
+          "name": "2402 -> Rename dimension items"
+        },
+        {
+          "id": "729:49194",
+          "name": "⏳ Dimension library"
+        },
+        {
+          "id": "729:49198",
+          "name": "- - - - - - - - - - "
+        },
+        {
+          "id": "729:49191",
+          "name": "Graveyard"
+        },
+        {
+          "id": "725:32442",
+          "name": "Cover"
+        }
+      ]
+    },
+    {
+      "file_key": "jf2hsBYAPS9ilnauvYHWDR",
+      "company": "Abacum",
+      "name_at_discovery": "Abacum | Dataset manager - Implementation",
+      "current_name": "Abacum | Dataset manager - Implementation",
+      "url": "https://www.figma.com/design/jf2hsBYAPS9ilnauvYHWDR",
+      "pages": [
+        {
+          "id": "7871:19377",
+          "name": "2403 -> Dependencies"
+        },
+        {
+          "id": "7779:15905",
+          "name": "2403 -> Dataset details"
+        },
+        {
+          "id": "6568:6036",
+          "name": "2311 -> Manual adjustments"
+        },
+        {
+          "id": "6698:31745",
+          "name": "2311 -> Reorder transformation steps"
+        },
+        {
+          "id": "6758:33601",
+          "name": "2311 -> Rename datasets, sync range"
+        },
+        {
+          "id": "6355:99626",
+          "name": "2309 -> Transformation improvements"
+        },
+        {
+          "id": "4546:159595",
+          "name": "✅ 2303 -> Activity"
+        },
+        {
+          "id": "3764:151862",
+          "name": "✅ 2302 -> Auto & manual update, update history"
+        },
+        {
+          "id": "3525:144255",
+          "name": "✅ 2212 -> Auto-sync HRIS"
+        },
+        {
+          "id": "3407:141636",
+          "name": "✅ 2212 -> Async saving"
+        },
+        {
+          "id": "3314:134036",
+          "name": "✅ 2211 -> Delete dataset"
+        },
+        {
+          "id": "3148:127690",
+          "name": "✅ 2210 -> Create dataset without financial option"
+        },
+        {
+          "id": "2915:128806",
+          "name": "✅ 2208 -> Transformation preview"
+        },
+        {
+          "id": "2900:122937",
+          "name": "✅ 2208 -> Data loads inside manager"
+        },
+        {
+          "id": "2878:119546",
+          "name": "✅ 2208 -> Actions & autocomplete"
+        },
+        {
+          "id": "2812:114540",
+          "name": "✅ 2207 -> Dimension dependencies"
+        },
+        {
+          "id": "2398:128492",
+          "name": "✅ 2205 -> Auto mapping v2"
+        },
+        {
+          "id": "2303:114141",
+          "name": "✅ 2205 -> Transformations v2"
+        },
+        {
+          "id": "2601:129828",
+          "name": "✅ 2203 -> Auto mapping"
+        },
+        {
+          "id": "975:50656",
+          "name": "✅ 2202 -> Transformations"
+        },
+        {
+          "id": "629:34356",
+          "name": "✅ 2202 -> Create "
+        },
+        {
+          "id": "547:43483",
+          "name": "🔒 2202 -> Manage dataset 2"
+        },
+        {
+          "id": "421:19214",
+          "name": "🔒 2202 -> Manage dataset 1"
+        },
+        {
+          "id": "65:20530",
+          "name": "- - - - - - - - - - "
+        },
+        {
+          "id": "6897:159294",
+          "name": "➕ Template"
+        },
+        {
+          "id": "4794:162667",
+          "name": "🪦 Graveyard"
+        },
+        {
+          "id": "56:20286",
+          "name": "Cover"
+        }
+      ]
+    },
+    {
+      "file_key": "u7ZLkxpgFamXpEkr3si18l",
+      "company": "Abacum",
+      "name_at_discovery": "Abacum | Syntax - Implementation",
+      "current_name": "Abacum | Syntax - Implementation",
+      "url": "https://www.figma.com/design/u7ZLkxpgFamXpEkr3si18l",
+      "pages": [
+        {
+          "id": "1630:21561",
+          "name": "Hand-off template"
+        },
+        {
+          "id": "1630:23206",
+          "name": "--------------------------------"
+        },
+        {
+          "id": "1630:21560",
+          "name": "2401 -> Formula popover"
+        },
+        {
+          "id": "1443:41036",
+          "name": "🟡 2303 -> Cohort formulas"
+        },
+        {
+          "id": "1188:71742",
+          "name": "✅ 2305 -> Alias in autocomplete, and dimension blocks"
+        },
+        {
+          "id": "1045:61884",
+          "name": "✅ 2303 -> Aggregations context"
+        },
+        {
+          "id": "870:29268",
+          "name": "✅ 2303 -> Syntax colors"
+        },
+        {
+          "id": "706:21302",
+          "name": "🟡 2303 -> Time ranges"
+        },
+        {
+          "id": "618:18366",
+          "name": "🟡 2302 -> Formula relationship"
+        },
+        {
+          "id": "9:8585",
+          "name": "🟡 2302 -> Autocomplete couples of objects"
+        },
+        {
+          "id": "504:10189",
+          "name": "✅ 2302 -> Highlighting variable relationship"
+        },
+        {
+          "id": "510:12665",
+          "name": "🟡 2302 -> Syntax usability"
+        },
+        {
+          "id": "516:12896",
+          "name": "-------"
+        },
+        {
+          "id": "0:1",
+          "name": "Cover"
+        }
+      ]
+    },
+    {
+      "file_key": "Qm2oEoyLPrWg3cX0bJBWvN",
+      "company": "Abacum",
+      "name_at_discovery": "Abacum | Engine - Implementation",
+      "current_name": "Abacum | Engine - Implementation",
+      "url": "https://www.figma.com/design/Qm2oEoyLPrWg3cX0bJBWvN",
+      "pages": [
+        {
+          "id": "729:49195",
+          "name": "👀 Overview"
+        },
+        {
+          "id": "2755:2",
+          "name": "🟡 2310 -> Order dimension items"
+        },
+        {
+          "id": "2558:283828",
+          "name": "🟡 2306 -> Duplicate module"
+        },
+        {
+          "id": "2558:278218",
+          "name": "🟡 2306 -> Delete modules (Iteration 2)"
+        },
+        {
+          "id": "2558:273491",
+          "name": "🟡 2306 -> Delete modules (Iteration 1)"
+        },
+        {
+          "id": "2309:210280",
+          "name": "🟡 2305 -> Custom sections"
+        },
+        {
+          "id": "2107:168712",
+          "name": "✅ 3105 -> Concurrency module changes"
+        },
+        {
+          "id": "2106:163239",
+          "name": "✅ 3005 -> Split toolbar"
+        },
+        {
+          "id": "2158:179935",
+          "name": "🟡 3005 -> Add variable description"
+        },
+        {
+          "id": "2158:195745",
+          "name": "✅ 3005 -> Relationship panel"
+        },
+        {
+          "id": "2103:162014",
+          "name": "✅ 2505 -> New modules page UI"
+        },
+        {
+          "id": "2084:137040",
+          "name": "✅ 2305 -> Logic panel"
+        },
+        {
+          "id": "2003:135009",
+          "name": "🟡 0805-> Show calcualtion time"
+        },
+        {
+          "id": "1989:130466",
+          "name": "🟡 0305 -> Auto-save"
+        },
+        {
+          "id": "1926:124238",
+          "name": "🟡 2304-> Re-order dimension items"
+        },
+        {
+          "id": "1831:113459",
+          "name": "🟡 2303 -> Search variable"
+        },
+        {
+          "id": "1519:75323",
+          "name": "✅ 2302 -> Power"
+        },
+        {
+          "id": "1514:72831",
+          "name": "✅ 2302 -> Change switch-over date"
+        },
+        {
+          "id": "1414:49255",
+          "name": "✅ 2302 -> Ramp up "
+        },
+        {
+          "id": "1436:51088",
+          "name": "✅ 2301 -> Show empty values"
+        },
+        {
+          "id": "1403:11522",
+          "name": "✅ 2301 -> Formulas"
+        },
+        {
+          "id": "1469:61778",
+          "name": "✅ 2301 -> Handle references to blank as 0s"
+        },
+        {
+          "id": "1410:31233",
+          "name": "✅ 2301 -> IF ELSE"
+        },
+        {
+          "id": "1405:15959",
+          "name": "✅ 2301 -> People planning formulas"
+        },
+        {
+          "id": "729:49198",
+          "name": "- - - - - - - - - - "
+        },
+        {
+          "id": "729:49191",
+          "name": "Graveyard"
+        },
+        {
+          "id": "729:49190",
+          "name": "Components"
+        },
+        {
+          "id": "725:32442",
+          "name": "Cover"
+        }
+      ]
+    },
+    {
+      "file_key": "567oKEE7i0ktL73emiSdCL",
+      "company": "Remuner",
+      "name_at_discovery": "Abacum | Datasets",
+      "current_name": "Remuner | Datasets",
+      "url": "https://www.figma.com/design/567oKEE7i0ktL73emiSdCL",
+      "pages": [
+        {
+          "id": "1:2",
+          "name": "---"
+        },
+        {
+          "id": "0:1",
+          "name": "👇🏼 Handoff"
+        },
+        {
+          "id": "3416:22956",
+          "name": "1225 -> Dataset & integration errors"
+        },
+        {
+          "id": "3153:163724",
+          "name": "1125 -> Hide datasets for earnigs obfuscated roles"
+        },
+        {
+          "id": "2967:24683",
+          "name": "1025 -> Dataset processing state"
+        },
+        {
+          "id": "3032:72957",
+          "name": "1025 -> Multiple conditions"
+        },
+        {
+          "id": "2949:15053",
+          "name": "1025 -> Dataset fields format"
+        },
+        {
+          "id": "2803:8895",
+          "name": "0825 -> Add plan on parameters tooltip list"
+        },
+        {
+          "id": "2762:25076",
+          "name": "0725 -> Archive datasets"
+        },
+        {
+          "id": "2604:6365",
+          "name": "0725 -> Datasets in list form"
+        },
+        {
+          "id": "2536:12970",
+          "name": "0625 -> System alerts of critical changes"
+        },
+        {
+          "id": "2835:2321",
+          "name": "0925 -> Disable object selection if dataset in use"
+        },
+        {
+          "id": "2439:307672",
+          "name": "0625 -> Data source selector"
+        },
+        {
+          "id": "2389:1102",
+          "name": "0525 -> Parameters view on dataset card"
+        },
+        {
+          "id": "2236:9886",
+          "name": "0325 -> Link params to dataset"
+        },
+        {
+          "id": "2132:8372",
+          "name": "1024 -> Group by: formulated field"
+        },
+        {
+          "id": "2039:1963",
+          "name": "0824 -> Update Excel file"
+        },
+        {
+          "id": "1:11",
+          "name": "---"
+        },
+        {
+          "id": "1:3",
+          "name": "👇🏼 Exploration"
+        },
+        {
+          "id": "3127:4068",
+          "name": "1125 -> Obfuscate dataset"
+        },
+        {
+          "id": "3040:80650",
+          "name": "1025 -> Dataset & integration errors"
+        },
+        {
+          "id": "2918:288621",
+          "name": "1025 -> Show excel file loading"
+        },
+        {
+          "id": "2897:90209",
+          "name": "1025 -> Linked & Nested conditions 2"
+        },
+        {
+          "id": "2872:10982",
+          "name": "1025 -> Definir formato de datos"
+        },
+        {
+          "id": "2831:15403",
+          "name": "0925 -> Alert dialog for dataset objects"
+        },
+        {
+          "id": "2796:9892",
+          "name": "0825 -> Add plan on parameters tooltip list"
+        },
+        {
+          "id": "2715:3476",
+          "name": "0725 -> Archive datasets "
+        },
+        {
+          "id": "2563:3286",
+          "name": "0725 -> Datasets in list format"
+        },
+        {
+          "id": "2448:5019",
+          "name": "0625 -> Data source fields dialog logic"
+        },
+        {
+          "id": "2408:7739",
+          "name": "0625 -> Dataset source selector"
+        },
+        {
+          "id": "2383:2",
+          "name": "0525 -> Parameters view on dataset card"
+        },
+        {
+          "id": "2265:4691",
+          "name": "0325 -> Linked & Nested conditions"
+        },
+        {
+          "id": "2220:5305",
+          "name": "0225 -> Link params to dataset"
+        },
+        {
+          "id": "2118:3826",
+          "name": "1024 -> Group by"
+        },
+        {
+          "id": "1:10",
+          "name": "0824 -> Update Excel file"
+        },
+        {
+          "id": "1:12",
+          "name": "---"
+        },
+        {
+          "id": "1:5",
+          "name": "💠 Local components"
+        },
+        {
+          "id": "1:6",
+          "name": "---"
+        },
+        {
+          "id": "1:7",
+          "name": "📔 Cover"
+        },
+        {
+          "id": "1:8",
+          "name": "---"
+        }
+      ]
+    }
+  ],
+  "screens_inspected": [
+    {
+      "file_key": "6c5Iwbr9X5FdhaDj0GD81O",
+      "node_id": "1937:8555",
+      "subject": "Dimensions resource page"
+    },
+    {
+      "file_key": "jf2hsBYAPS9ilnauvYHWDR",
+      "node_id": "6960:18995",
+      "subject": "Manual adjustments"
+    },
+    {
+      "file_key": "u7ZLkxpgFamXpEkr3si18l",
+      "node_id": "1179:70369",
+      "subject": "Formula relationship"
+    },
+    {
+      "file_key": "Qm2oEoyLPrWg3cX0bJBWvN",
+      "node_id": "2212:186968",
+      "subject": "Relationship panel"
+    },
+    {
+      "file_key": "Qm2oEoyLPrWg3cX0bJBWvN",
+      "node_id": "2085:138213",
+      "subject": "Logic panel"
+    },
+    {
+      "file_key": "567oKEE7i0ktL73emiSdCL",
+      "node_id": "3443:29881",
+      "subject": "Remuner dataset/integration error states"
+    }
+  ],
+  "annotations": [
+    {
+      "file_key": "6c5Iwbr9X5FdhaDj0GD81O",
+      "pages": [
+        {
+          "id": "1890:16604",
+          "name": "2402 -> Rename dimension items",
+          "annotations": [
+            "Refreshing dimensions page"
+          ]
+        }
+      ]
+    },
+    {
+      "file_key": "jf2hsBYAPS9ilnauvYHWDR",
+      "pages": [
+        {
+          "id": "6568:6036",
+          "name": "2311 -> Manual adjustments",
+          "annotations": [
+            "System column: Row type \nOriginal \nExcluded \nAdded",
+            "Row actions (also on right click)",
+            "System proposes existing column items to select, but allows creation of new items",
+            "To do: Cell bg tokens\nCreated + hover\nSkipped + hover\nSystem + hover",
+            "Global save\nShow always?\nHidden without unsaved changes?\nDisabled without unsaved changes?\nDisabled with errors?",
+            "All rows saved. Notification disappears.",
+            "Columns created through transformations are blocked from adjusting.",
+            "Original columns w/ transformations can be adjusted.",
+            "Open the transformation toolbar when clicking",
+            "Resync w/ adjustments"
+          ]
+        },
+        {
+          "id": "7871:19377",
+          "name": "2403 -> Dependencies",
+          "annotations": [
+            "column settings: MEASURE",
+            "column settings: DIMENSION",
+            "column settings: TIME",
+            "Dependencies only displayed on columns mapped to a dimension",
+            "As an admin user viewing a dataset, when I select a column in my dataset, an Info toolbar (as developed in https://abacum.atlassian.net/browse/ACTS-1925) appears with two sections: Column details and Column dependencies.",
+            "transformation column",
+            "‘Assign as’ dropdown menu to match column type (text / number / date). See options below.",
+            "Original data column that contains transformations",
+            "Column created by a transformation (not original data)\n\nType not editable\n‘Assign as’ dropdown menu to match column type (text / number / date). See options above.",
+            "dependencies / outgoing"
+          ]
+        }
+      ]
+    },
+    {
+      "file_key": "u7ZLkxpgFamXpEkr3si18l",
+      "pages": [
+        {
+          "id": "1630:21560",
+          "name": "2401 -> Formula popover",
+          "annotations": [
+            "Long param description",
+            "Error communication\nError prevention\nError resolution",
+            "As a user, I want to understand what a formula does, so I can pick the right one.\nAs a user, I want to know how a formula is written and the formula parameters, so I’ll make less mistakes",
+            "function help popover"
+          ]
+        },
+        {
+          "id": "1188:71742",
+          "name": "✅ 2305 -> Alias in autocomplete, and dimension blocks",
+          "annotations": [
+            "dimension blocks"
+          ]
+        },
+        {
+          "id": "1045:61884",
+          "name": "✅ 2303 -> Aggregations context",
+          "annotations": [
+            "hover SAME AS ACTUALS OFF",
+            "hover SAME AS ACTUALS",
+            "view options ACT",
+            "view options FCST"
+          ]
+        },
+        {
+          "id": "504:10189",
+          "name": "✅ 2302 -> Highlighting variable relationship",
+          "annotations": [
+            "All variables get highlighted with a dashed border",
+            "Backgraound changes to blue",
+            "Border: 1px dashed #00A8FF\nBorder dash 4px\nDash gap 4px",
+            "Should we go with an svg to control everything?\nhttps://kovart.github.io/dashed-border-generator/",
+            "variable on hover",
+            "Specify behaviour when variables of the formula are out of the viewport"
+          ]
+        }
+      ]
+    },
+    {
+      "file_key": "Qm2oEoyLPrWg3cX0bJBWvN",
+      "pages": [
+        {
+          "id": "2107:168712",
+          "name": "✅ 3105 -> Concurrency module changes",
+          "annotations": []
+        },
+        {
+          "id": "2158:195745",
+          "name": "✅ 3005 -> Relationship panel",
+          "annotations": [
+            "Name of the variable in the source module"
+          ]
+        }
+      ]
+    }
+  ]
+}
