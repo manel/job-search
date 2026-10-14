@@ -25,9 +25,9 @@ Recruiters scan, they don't read. A CV gets seconds on first pass; a cover lette
 - Front-load the words the reader is scanning for: design systems, tokens, B2B, fintech, and the exact terms from the JD. They belong in first lines, not buried mid-paragraph.
 - Cut warm-up. Delete any sentence whose only job is setting up the next sentence.
 - Length caps (hard):
-  - CV summary: 3 lines max.
-  - CV experience entry: 3 to 4 bullets, one line each. No entry longer than 5 lines total including the role header.
-  - Cover letter: 150 words target, 180 hard cap. Three paragraphs max, no paragraph over 3 lines.
+  - CV summary: two sentences (see `context/writing-rules.md`).
+  - CV experience entry: a short scope paragraph, then 3 to 4 focused bullets (see `context/writing-rules.md`).
+  - Cover letter: about 250 words maximum for the body. Greeting, three short paragraphs, a one-line close.
   - Outreach and follow-up messages: 80 words max. One ask per message.
 - The 10-second test before outputting: read only the first line of each entry or paragraph. If those lines alone don't make the case, restructure.
 
@@ -160,20 +160,9 @@ The full categorized lists of banned verbs, adjectives, nouns, intensifiers, ope
 
 ## Format rules by output type
 
-### CV
-- Plain text only. No markdown. No bold.
-- Sidebar skills section exists but is not a "core competencies" block.
-- Two-column layout implied by section structure (Claude doesn't need to reproduce the layout, just the content hierarchy).
-- Experience entries: role title, company, dates, then 3–4 tight bullets, one line each, strongest claim first. Prose paragraphs are the exception, not the default; they produce walls of text recruiters skip.
-- Length caps from "Brevity and skimmability" apply. One page total.
-- No "Cases" section in CV. Portfolio URL handles navigation.
+### CV and cover letter
 
-### Cover letter
-- Plain text. Three paragraphs max, 150 words target, 180 hard cap.
-- Opens with one generic identity line, identical across every letter: "Senior Product Designer with 15 years designing complex B2B products" (the CV summary's first line). Changed 2026-07-24 at Manel's request, was "first sentence states the fit, not who you are." Immediately after, get specific: the rest of paragraph one is the role-specific evidence, not more identity framing.
-- No subject line unless specifically requested.
-- No sign-off flourishes beyond "Best, Manel" or equivalent.
-- Salary position confirmed before writing. Stated clearly in the letter if the role asks for it or it's strategically appropriate.
+Structure and format for CVs and cover letters live in `context/writing-rules.md` ("Tailored CV format" and "Cover letter format"). This file governs their voice and language. The body copy is plain text with no bold; the Markdown file only adds a short header for its source and date.
 
 ### Case study HTML
 - Section structure: h2 headline, lead paragraph with class="lead", body paragraphs, h3 subheadings for subsections.

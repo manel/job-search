@@ -25,6 +25,14 @@
 - Reduce copy before reducing type size. Do not impose a one-page limit; keep role entries together where possible.
 - Unless requested otherwise, deliver Markdown source for Figma only. PDF export and QA are separate tasks.
 
+## Cover letter format
+
+- Open with a warm, simple greeting ("Hello [Company] team,"), then why this role interests Manel, tied to something specific about the product or problem. Do not open with a generic identity line.
+- Three short body paragraphs: the role-specific motivation, then the strongest evidence from one company, then the next. About 250 words maximum for the body.
+- No bullet points, no subject line unless requested, a plain close ("Best, Manel" or the equivalent in the letter's language).
+- No salary figure unless the application requires one; follow `context/salary.md`.
+- Write in the posting's language. Spanish letters keep Manel's edited wording; avoid literal translations.
+
 ## Base CV and role scope
 
 - Consult `evidence/product-work-inventory.md` for the broader product-area inventory and artifact references; use project-level claims only when supported in the experience register.
