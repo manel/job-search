@@ -6,5 +6,29 @@
       "Bash(curl -s *)",
       "Bash(curl -sL *)"
     ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR/.claude/hooks/check-overdue.sh\" 2>/dev/null || true",
+            "statusMessage": "Checking pipeline for overdue follow-ups"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r 'if (.tool_input.file_path // \"\") | test(\"interviews/prep\\\\.md$\") then {\"hookSpecificOutput\":{\"hookEventName\":\"PostToolUse\",\"additionalContext\":\"interviews/prep.md was just edited. Before responding, check every file in interviews/ (except prep.md itself) whose interview has not yet occurred \u2014 meaning it has a future date or no debrief section \u2014 and propagate any relevant changes from prep.md to those files now.\"}} else empty end' 2>/dev/null || true"
+          }
+        ]
+      }
+    ]
   }
 }
