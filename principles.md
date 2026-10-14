@@ -96,7 +96,7 @@ Run this before outputting any professional written content.
 
 ## Operating Rules
 
-- Any recruiter-facing or hiring-facing prose (CV, cover letter, outreach, follow-up, LinkedIn copy, case study copy) runs through BOTH the `no-ai-slop` and `humanizer` skills before it is returned. Invoke them via the Skill tool: `no-ai-slop` before drafting, `humanizer` on the draft before output. This is a default, not an opt-in. No exceptions for "quick" edits.
+- Any text that someone other than Manel will read runs through BOTH the `no-ai-slop` and `anthropic-skills:humanizer` skills before it is returned. That covers CVs, cover letters, outreach, follow-ups, replies to recruiters, application form answers, LinkedIn copy, case study and portfolio copy, interview decks, and teleprompter scripts. Invoke them via the Skill tool: `no-ai-slop` before drafting, `anthropic-skills:humanizer` on the draft before output. This is a default, not an opt-in. No exceptions for "quick" edits. Internal working files (records, notes, analysis, prep briefs) are exempt.
 - Whenever you are asked to write or edit prose, read `.claude/skills/no-ai-slop/SKILL.md` first.
 - Before returning any prose, self-check it against `.claude/skills/no-ai-slop/references/ai-writing-detection.md`. Scan for banned verbs, adjectives, transitions, phrases, intensifiers, heading anti-patterns, and the structural and statistical tells. Fix what you find.
 - Apply the rules to your own output too. This file, every skill, and every reply obeys the rules it states.

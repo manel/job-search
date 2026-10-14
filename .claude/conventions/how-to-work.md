@@ -7,7 +7,7 @@
 3. Check `context/outreach.md`: is there a warm path? Warm paths come before or alongside cold applications. `/outreach [company] referral` drafts the ask.
 4. Check `context/salary.md` before stating or recommending any salary figure.
 5. Read `principles.md` and `context/writing-rules.md` before producing any written output. Check experience claims against `evidence/experience-facts.md`.
-6. Run the `no-ai-slop` skill before drafting and the `humanizer` skill on every draft before output. This applies to all recruiter-facing prose (CV, cover letter, outreach, follow-up, LinkedIn) by default, not on request.
+6. Run the `no-ai-slop` skill before drafting and the `anthropic-skills:humanizer` skill on every draft before output. This applies to any text someone other than Manel will read (CV, cover letter, outreach, follow-up, recruiter replies, form answers, LinkedIn, case study copy, decks, scripts) by default, not on request. Full rule in `principles.md` ("Operating Rules").
 7. Respect the length caps in `principles.md` ("Brevity and skimmability"). Recruiters scan; a document that fails the 10-second test fails, no matter how good the writing is.
 
 ### CV work
@@ -31,7 +31,7 @@
 - Actual case study files are in `portfolio/` (submodule). Read those for current live copy.
 - HTML output follows the section structure defined in `context/portfolio.md`.
 - Live case copy never names colleagues, research participants, or customers. Roles only: "the head of design", "the CTO". Names in context files are internal reference.
-- Run humanizer principles from `principles.md` on all case study copy before outputting.
+- Run the `no-ai-slop` and `anthropic-skills:humanizer` skills on all case study copy before outputting.
 - `/review-case [case-name]` scores a live case against the evaluation standard. Run it before any application goes out if the case is relevant to the role.
 
 ### LinkedIn work

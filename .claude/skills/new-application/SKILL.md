@@ -31,10 +31,10 @@ Then:
 
 Output: a Markdown source ready for copy-paste into Figma. No em dashes. PDF export and QA are separate tasks.
 
-Before drafting, invoke the `no-ai-slop` skill. After drafting, run the `humanizer` skill on both documents before saving. Both are mandatory, not optional.
+Before drafting, invoke the `no-ai-slop` skill. After drafting, run the `anthropic-skills:humanizer` skill on both documents before saving. Both are mandatory, not optional.
 
 Enforce the length caps: cover letter body about 250 words maximum, greeting plus three short paragraphs (`context/writing-rules.md`, "Cover letter format"); CV entries per "Tailored CV format" in the same file. If a draft exceeds a cap, cut it before outputting; do not ask whether to.
 
-Run the humanizer checklist from `principles.md` before outputting. Flag anything that fails.
+Then check both against the humanizer checklist in `principles.md` (project-specific rules the skill doesn't cover). Flag anything that fails.
 
 After Manel confirms the application was sent, update the status to `applied` via `/update-pipeline` so follow-up dates get set. Save the sent PDFs in `cv-pdf-to-send/[Company]/`.
