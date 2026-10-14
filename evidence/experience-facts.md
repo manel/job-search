@@ -1,6 +1,6 @@
 # Experience facts
 
-This is the evidence register, not finished application copy. Each material claim includes its confidence and source. `job-search/...` references point to the read-only legacy repository.
+This is the evidence register, not finished application copy. Each material claim includes its confidence and source. Citations of `cv/cv-base.md` at commit `83bef9f` refer to the pre-merge CV base (July 2026), before career-os was merged into this repo on 2026-10-14.
 
 ## Candidate logistics
 
@@ -27,6 +27,12 @@ This is the evidence register, not finished application copy. Each material clai
 - **Source:** Manel's clarification during the Tether Senior Product Designer (Wallets) assessment on 2026-10-02.
 - **Verified:** 2026-10-02.
 - **External-use boundary:** This supports a limited working-knowledge claim. It does not establish professional wallet or crypto product-design experience, deep knowledge of networks, fees, or custody, or ownership of a shipped crypto product.
+
+- **Claim:** Manel has used Kraken for recurring (DCA) crypto purchases and is familiar with basic trading mechanics as a user.
+- **Class:** Confirmed direct user statement.
+- **Source:** Pre-merge positioning file (`context/positioning.md` at commit `83bef9f`), fintech/trading role mapping; reconfirmed by Manel on 2026-10-14.
+- **Verified:** 2026-10-14.
+- **External-use boundary:** Minor supporting detail. The useful claim is hands-on experience with cryptocurrencies as a user (exchange and self-custodial wallets). It is not trading expertise or crypto product-design experience.
 
 ## Product and Engineering collaboration
 
@@ -57,6 +63,8 @@ This is the evidence register, not finished application copy. Each material clai
 - **Source:** Manel's clarification during the OLX Senior Product Designer assessment on 2026-10-02.
 - **Verified:** 2026-10-02.
 - **External-use boundary:** This supports teaching and explaining design and implementation concepts. The exact component subject matter, institution, course level, dates, duration, and learner outcomes are not established by this confirmation.
+- **Course level:** The July 2026 CV base said "postgraduate level". On 2026-10-14 Manel said he believes it was not postgraduate but does not recall clearly. Do not claim postgraduate teaching.
+- **Placement:** Manel removed a separate teaching entry from LinkedIn because, placed between Kings of Mambo and Abacum, it made his experience read as roughly four years. Mention teaching inside the Kings of Mambo entry or as a skill, not as its own experience entry.
 
 ## Kings of Mambo
 
@@ -418,6 +426,36 @@ This is the evidence register, not finished application copy. Each material clai
 - **Source:** [Archive inventory](product-work-inventory.md) and [structured archive snapshot](figma-remuner-archive-scope-2026-10-06.json), inspected 2026-10-06.
 - **Verified:** 2026-10-06.
 - **External-use boundary:** No full canvas/annotation review was completed. Exact page-index matches are not proof of identical designs. Do not infer marketing, compliance/security expertise, production survey infrastructure or further shipped AI from page names.
+
+## Recovered from the pre-merge CV base
+
+These facts were recorded as verified by Manel in the July 2026 CV base and were not otherwise in this register when the repos were merged. Each item keeps its original verification date. **Source for all:** `cv/cv-base.md` at commit `83bef9f`, "Additional material" and notes under each entry. **Class:** Confirmed direct user statement, unless flagged.
+
+### Remuner
+
+- **Claim:** Formal title was Senior Product Designer throughout. Manel operated as de facto design lead: sole designer, owned direction, priorities and design-system governance. The company chose not to retitle to avoid a pay change. **Verified:** 2026-07-08. **External-use boundary:** Claim the lead-level scope, never the title.
+- **Claim:** Adapted the responsive web product for mobile and designed the app-wrapper UX; shipped as iOS and Android apps in summer 2024, still live in both stores. It is a webview app, not native platform design. **Verified:** 2026-07-22. **External-use boundary:** Use as shipped, live, mobile-adapted web app evidence. Do not claim native iOS/Android craft.
+- **Claim:** Built design-practice infrastructure anticipating future designers: a weekly design review, biweekly refinements, onboarding documentation, and process, principles and task-management documentation. **Verified:** 2026-07-23. **External-use boundary:** Frame as institutional infrastructure, not a personal working system.
+- **Claim:** With no PM at Remuner, Manel was involved in product strategy, definition and evolution from the design side throughout his tenure, including capability scoping for the AI agent with the founders and engineering. **Verified:** 2026-07-15 (no PM) and 2026-07-23 (strategy involvement).
+- **Claim:** Ran an ongoing product audit throughout the tenure: capture every instance of a UI pattern, define variants and states, ticket it, share with front-end engineers, then decide fix-now versus defer into an upcoming feature change. Monthly front-end meetings were the governance mechanism, where progress and problems were reviewed and goals set. The token export format (Sass variables plus utility classes matching Vuetify conventions) came out of these meetings, not a top-down call. **Verified:** 2026-07-22. **External-use boundary:** The CTO's "2010 app to a 2020 app" remark refers to these systematic updates to existing screens; keep it as a quote, not a metric.
+- **Claim:** Started with a deliberately small token set based on Abacum lessons; separate icons file and repository; ESLint rules to enforce design-system adoption. Managers were confirmed as real users of the AI agent (most had their own compensation plan and could query team information). **Verified:** July 2026 (agent users 2026-07-06).
+
+### Abacum
+
+- **Claim:** Built and ran a structured issue-reporting system for the Abax library with named categories (components not working, naming proposals, component improvements, detached instances), published through Notion and a #design-library Slack channel. **Verified:** 2026-07-22.
+- **Claim:** New components shipped behind feature flags; squads identified what to replace and added their own migration tickets to their sprint backlogs, so the central team did not gatekeep the rollout. Ran a weekly design-library sync across the design team with a standing discoverability agenda (detached instances, missing variants, what is ready to build). **Verified:** 2026-07-22.
+- **Claim:** Proposed process and quality-bar improvements for the design discipline. These were carried by the head of design. **Verified:** 2026-07-23. **External-use boundary:** Attribute as proposed to or co-led with the head of design, never sole ownership.
+- **Claim:** Structured user research on the Dataset Manager surfaced a mismatch between product terminology and users' mental models. **Verified:** July 2026.
+- **Flagged, conflicts with the Dataset Manager entry:** The July CV said Manel "made the call not to introduce SQL and extended the modeling syntax instead". The Dataset Manager section above records a published interim-SQL account and an unresolved chronology conflict. Do not use the July wording until that conflict is resolved.
+
+### Kings of Mambo
+
+- **Claim:** Work spanned research, information architecture, interaction design and delivery; mentored junior practitioners; used Advanced Custom Fields for CMS wiring and linting in the 2020 front-end starter kit. **Verified:** July 2026.
+
+### Education and skills
+
+- **Claim:** Higher National Diploma in Computing Design and Multimedia, ESI Barcelona, 2002. **Verified:** listed in the CV base; still present in `cv/cv-base.md`.
+- **Claim:** Uses Jobs to Be Done in research synthesis. **Verified:** listed in the July CV skills; no project-level evidence recorded.
 
 ## Shared claim discipline
 

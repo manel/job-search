@@ -32,6 +32,10 @@ This does not mean abandoning validation or inventing an unconstrained vision. T
 
 Treat this as feedback about one live challenge, not as a general judgment of Manel's seniority or career.
 
+## Compensation evidence
+
+Factorial shared its internal salary bands during this process (logged 2026-06-25): Senior EUR 68-80K (+25% ESOP), Staff EUR 93-107K (+50% ESOP); full ladder in `context/salary.md`. Level stayed undecided (Senior or Staff), so no number was stated. Manel was comfortable with EUR 80K as a Senior starting point. Source: pre-merge `context/salary.md` at commit `83bef9f`.
+
 ## Process
 
 - Round 1: Talent screen with Lucia Lorenzo Santos on 2026-06-22; advanced.

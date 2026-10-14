@@ -28,6 +28,12 @@ Lead each CV role with this scope, then choose the evidence most relevant to the
 | AI product | Remuner AI agent | Dataset Manager; AI-assisted design practice |
 | Design systems | Remuner and Abacum systems, governance, token pipeline | Product architecture and engineering partnership |
 | Staff or Lead IC | Abacum business-case and roadmap work; Remuner product/infrastructure prioritisation | Systems-level decisions and cross-functional delivery |
+| Fintech or trading | Modeling language and Dataset Manager (financial modeling) | Hands-on crypto use as a user (wallets, exchange); not trading or crypto product-design expertise |
+| Founding or early-stage | Breadth: sole designer at Remuner across the platform, two design systems, co-founder of the Kings of Mambo studio | Moving from zero to production without design infrastructure |
+
+## Target hiring manager
+
+Head of Design or VP Design at a B2B SaaS or fintech company, Series A-C or established. They have a design-systems gap or a complex product area that needs a senior IC who can work independently and cross-functionally. They are not hiring someone to manage a team. Under the current income-first priority (`context/target-roles.md`), this is the strongest-fit profile, not a filter.
 
 ## Risk to correct
 

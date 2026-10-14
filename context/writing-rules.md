@@ -17,6 +17,8 @@
 - Add `SELECTED WORK` near the top when direct case links materially help the application. Use two or three short descriptive links.
 - Under each recent role, begin with a short scope paragraph stating product coverage and responsibility. Follow it with three or four focused achievement bullets. The scope paragraph is separate from the selected achievements; do not let tailoring reduce a broad role to its best-documented project. In the Markdown source, keep each bullet as its own standalone paragraph so it can become a separate bullet in Figma. Do not collapse several achievements into one prose block or use more bullets merely to repeat keywords.
 - Give earlier roles two or three bullets. Preserve formal historical titles; tailor only the top headline.
+- The header title under the name is customised to the open role (for example "Product Designer, Design Systems"), an established practice confirmed 2026-07-06. Experience-entry titles stay as they were held and are never inflated.
+- Mention teaching within the Kings of Mambo entry or as a skill, never as its own experience entry: placed between Kings of Mambo and Abacum it makes the career read as about four years.
 - Keep each bullet focused on one problem, responsibility, decision, or supported result. Preserve ownership and evidence qualifiers when shortening.
 - Consolidate skills into three or four compact inline groups. Prefer relevant evidence over exhaustive keyword lists.
 - When a role explicitly values AI-tool use, retain one concrete, verified AI-assisted workflow in the experience section and make `AI-assisted workflows` visible in the skills label. Do not hide it under a generic tools list, treat AI-product design as proof of tool use, or overstate technical implementation.

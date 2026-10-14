@@ -16,6 +16,8 @@ Treat this as credible first-hand recollection about market budgets, not as a me
 4. Do not invest heavily in a process whose likely ceiling is below Manel's walk-away floor.
 5. Record four separate facts: employer range, whether salary was asked, what Manel stated, and whether the employer gave compensation feedback.
 6. Never label salary as a rejection reason unless the employer says so.
+7. Match the form. If it accepts a range, a range is fine; if it asks for one number, give one number, not a range.
+8. Never share current or previous salary. If asked: "I'm not sharing previous compensation, but I'm targeting [X] for this role based on scope and market data."
 
 ## Current Senior position
 
@@ -34,3 +36,18 @@ Treat this as credible first-hand recollection about market budgets, not as a me
 - Net cash received is not the correct comparison for application salary fields because withholding and flexible-benefit usage are personal and package-specific.
 
 The minimum and target for Lead and Staff IC roles remain unconfirmed. Do not extrapolate them automatically from the Senior floor.
+
+## Employer band evidence
+
+- **Factorial (internal ladder, supplied by Factorial during the IT-spinoff process, logged 2026-06-25 and 2026-07-01):** Junior EUR 31-39K; Mid EUR 47-56K (+10% ESOP); Senior EUR 68-80K (+25% ESOP); Staff EUR 93-107K (+50% ESOP); Senior Staff EUR 120-136K, Principal EUR 150.5-180K and Distinguished EUR 200K (all +50% ESOP). ESOP is a percentage of total salary, vesting 4 years with a 1-year cliff. This is the only full band an employer has given Manel directly. Source: pre-merge `context/salary.md` at commit `83bef9f`.
+
+## External benchmarks
+
+- **Barcelona Senior Product Designer, 75th percentile: about EUR 93K.** External research (Levels.fyi), recorded June-July 2026; exact retrieval date not recorded. Reference only: recruiter budgets Manel has heard for Spain mostly stop at EUR 60-65K (see Evidence boundary above).
+
+## History
+
+From 2026-07-22 to 2026-10-11 the standing rule was conservative anchoring at a EUR 76-78K Senior floor, with per-role positions set before each application. The income-first update above replaced it. What was actually stated to each employer is recorded in the `salary_stated` field of each record in `applications/records/`. The full July file is at commit `83bef9f`.
+
+Equity mechanics and Manel's Abacum option grant are in `context/equity.md`.
+
