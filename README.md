@@ -28,9 +28,9 @@ job-search/
 ├── interviews/
 │   ├── prep.md                 ← Core story library, question maps
 │   └── [company]/              ← Per-process briefs and debriefs
-├── sourcing/                   ← Company watchlist and role leads
+├── sourcing/                   ← Company watchlists, role leads, scanner config
 ├── analysis/[date]/            ← Dated audits and funnel snapshots
-├── scripts/                    ← PDF merge, funnel audit, watchlist, interview reader
+├── scripts/                    ← Role scan, posting check, PDF merge, funnel audit
 └── portfolio/                  ← Git submodule → portfolio repo (manel-leiva.com)
 ```
 

@@ -19,3 +19,9 @@ secrets/
 # Obsidian per-session layout
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+
+# Role scanner (scripts/scan-roles.py): generated config and runtime files.
+# scan-history.tsv is kept: it is the dedup memory between scans.
+sourcing/scan/portals.yml
+sourcing/scan/data/*
+!sourcing/scan/data/scan-history.tsv

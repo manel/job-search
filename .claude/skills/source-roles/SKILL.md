@@ -12,17 +12,20 @@ allowed-tools:
 
 This is the weekly top-of-funnel ritual. Read `context/pipeline-findings.md` before recommending volume or channels. Board list and channel notes live in `context/job-boards.md`. Many boards can't be scanned automatically, so Manel often browses and pastes; this skill does the assessment and bookkeeping.
 
-Two methods, each with a reference:
+Three methods:
+- **Automated scan (start here):** `python3 scripts/scan-roles.py`. Adds new matching postings from the watchlist and `sourcing/remote-companies.csv` to `sourcing/role-leads.csv`. Details in `sourcing/README.md`.
 - **Company watchlist:** `references/company-watchlist.md`. Work through `sourcing/company-watchlist.csv` (`watch` weekly, `review` in batches, `paused` monthly) and record vacancies in `sourcing/role-leads.csv`. See `sourcing/README.md` for refreshing the watchlist.
 - **LinkedIn:** `references/linkedin.md` for Open to Work, saved searches, alerts and contact discovery.
 
 Source-checking rule: the official career page or ATS posting is the only evidence that a vacancy is open. LinkedIn and search snippets are leads.
 
 **Step 1 — Pipeline hygiene first, before any new roles:**
+Run `python3 scripts/check-postings.py` and report any open record whose posting has expired; propose the `posting_status` update, but do not write it until Manel confirms.
 Read the frontmatter of `applications/records/`. List overdue `next_action_on` dates and any applied roles crossing the 5-week stale threshold this week. Surface these before assessing anything new; follow-ups on live applications outrank new applications.
 Check `deferred` records: has any revisit condition been met?
 
-**Step 2 — Assess what was pasted in $ARGUMENTS (or found in step 1's sources):**
+**Step 2 — Assess what was pasted in $ARGUMENTS, plus new rows in `sourcing/role-leads.csv` with `initial_fit: not assessed`:**
+Run `scripts/scan-roles.py` first if it hasn't run this week.
 Run each role through the `/assess-fit` framework (read that skill for the full checklist).
 For URLs, fetch the JD if the ATS allows it; if it doesn't, ask Manel to paste the text.
 One verdict per role: Proceed / Defer / Skip, two or three sentences each. Don't soften skips.

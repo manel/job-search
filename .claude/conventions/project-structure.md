@@ -41,9 +41,9 @@ job-search/
 │   ├── decks/                  ← case presentation decks
 │   ├── textream/               ← teleprompter scripts
 │   └── archive/                ← rehearsal transcripts
-├── sourcing/                   ← company watchlist and role leads (discovery, not pipeline)
+├── sourcing/                   ← watchlist, remote companies, role leads, scanner config (discovery, not pipeline)
 ├── analysis/[date]/            ← dated audits and funnel snapshots
-├── scripts/                    ← PDF merge, funnel audit, watchlist and reader builders
+├── scripts/                    ← role scan, posting check, PDF merge, funnel audit, builders
 └── portfolio/                  ← git submodule → manel-leiva portfolio repo
 ```
 

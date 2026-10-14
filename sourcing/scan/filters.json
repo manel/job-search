@@ -1,0 +1,77 @@
+{
+  "location_filter": {
+    "allow": [
+      "Remote",
+      "Barcelona",
+      "Spain",
+      "España",
+      "Europe",
+      "EMEA",
+      "Remote-EMEA",
+      "Remote-EU",
+      "Remote-Europe",
+      "Worldwide",
+      "Global"
+    ],
+    "block": [
+      "Remote-AMER",
+      "Remote-Americas",
+      "Americas",
+      "United States",
+      "San Francisco",
+      "New York",
+      "Canada",
+      "Vancouver",
+      "Bogota",
+      "Colombia",
+      "Latin America",
+      "LATAM",
+      "Tel Aviv",
+      "Israel",
+      "on-site only",
+      "relocation required"
+    ]
+  },
+  "title_filter": {
+    "positive": [
+      "Product Designer",
+      "UX Designer",
+      "UI Designer",
+      "Interaction Designer",
+      "Experience Designer",
+      "Design Systems",
+      "Design System",
+      "DS Designer",
+      "Systems Designer",
+      "Lead Designer",
+      "Staff Designer",
+      "Principal Designer",
+      "UX Lead",
+      "Product Design Lead"
+    ],
+    "negative": [
+      "Junior",
+      "Intern",
+      "Graduate",
+      "Motion Designer",
+      "Graphic Designer",
+      "Brand Designer",
+      "Visual Designer",
+      "Marketing Designer",
+      "Illustration",
+      "Video",
+      "3D",
+      "Game Designer",
+      "Manager",
+      "Director",
+      "VP",
+      "Head of Design"
+    ],
+    "seniority_boost": [
+      "Senior",
+      "Staff",
+      "Principal",
+      "Lead"
+    ]
+  }
+}
