@@ -15,3 +15,7 @@ scratch/
 # Sensitive — never commit
 *.env
 secrets/
+
+# Obsidian per-session layout
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
