@@ -1,101 +1,145 @@
-# Alan — live technical interview preparation
+# Alan — live technical interview (case round)
 
-Started 2026-10-13. Availability submitted; appointment confirmation pending. Sources: [canonical record](../../applications/records/alan-product-designer.md), Celine’s email supplied by Manel, and [experience register](../../evidence/experience-facts.md). This is a preparation plan, not Alan’s confirmed assessment rubric.
+Rebuilt 2026-10-14 from Alan's official prep page and its Loom walkthrough. Sources: [canonical record](../../applications/records/alan-product-designer.md), Celine's emails supplied by Manel on 2026-10-14, [Alan prep page](https://alaninsurance.notion.site/Preparing-for-the-technical-product-design-interview-with-Alan-1191426e8be780759a55c5fa836cbf3b) and [Loom walkthrough](https://www.loom.com/share/871febee365a413e88d9d4c9f5d61bd6) (by a member of Alan's design team, dated 8 December 2025), both read 2026-10-14.
 
-## Confirmed format
+## Logistics
 
-90 minutes: the brief arrives by email at the start; work offline for 20 minutes, then join Google Meet for 70 minutes working on the case with interviewers. Brief topic, deliverables, tool constraints, interviewers and date/time are unknown. Alan asks for disclosure of AI use during hiring; exact limits and procedure are unknown.
+- **Date:** Friday 2026-10-16, 14:00–15:30 (Europe/Madrid, confirmed by Manel). Offline block 14:00–14:20, Meet 14:20–15:30.
+- **Interviewer:** Christelle Mozzati, Product Designer. Hiring manager: Aiswarya Kolisetty. Recruiter: Celine Brunel. Whether Aiswarya joins is unknown.
+- **Format:** 90 min. The brief arrives by email. 20 min offline, then 70 min on Google Meet.
+- **Brief timing:** the Loom says the case may land 10–30 min *before* the start. Have your inbox open 30 min early and read it as soon as it arrives.
+- **Tools:** Figma is their default; anything else is fine if you say so at the start. AI is allowed if you say when and how you used it (Celine, 2026-10-14). Output does not need to be polished.
 
-Do not assume a healthcare scenario, Figma deliverable, coded prototype or polished presentation. Read the actual brief before choosing the output.
+**Domain is unknown.** Nothing from Alan says the case will be about health or insurance. Prepare the method, not the domain. The Alan-specific notes below apply only if the brief turns out to be about Alan's own product.
 
-## What Celine’s feedback changes
+## What they score (official, verbatim categories)
 
-They already recognised simplifying complex products and AI/code practice. The gap is a clear account of how Manel reframes a problem, chooses a direction, and connects it to user/business results. Do not spend most of preparation demonstrating tools again.
+1. **Problem-solving:** clarify the problem, structure the approach, work within the time.
+2. **Strategic thinking:** balance assumptions, business constraints and data.
+3. **User-centricity:** reason about user needs and turn them into a **user journey, not UI**.
+4. **Collaboration:** ask questions, synthesise context, refine ideas in real time.
 
-Make the chain explicit: **initial request → evidence → reframed problem → alternatives → recommendation and tradeoff → what changed → evidence of impact**.
+**The end deliverable is one user flow.** Screens are not expected. The Loom says the flow can wait until the last 10–15 minutes and warns against rushing to it.
 
-A user improvement can support a business rationale without proving a business result. Say what was intended, what was observed, and what you could not measure separately.
+## The two things that decide this round
 
-## Direction-setting stories — evidence audit
+1. **Synthesis.** The Loom names the common pitfall: gathering lots of context without synthesising it. Stop after the questions, take a few minutes to synthesise (you can say "give me three minutes to synthesise"), and write down the problem, assumptions and hypotheses before you ideate.
+2. **Celine's gap from round 1:** your answers on direction and impact stayed general. In this round, make it concrete: name the problem you chose, the direction, the tradeoff, and **which user and business signals would show it worked**. Say a metric out loud and put it on the board.
 
-| Story | Confirmed contribution and outcome | Detail to recover |
+## Time plan (Alan's recommended split)
+
+| Block | Time | What's on the board at the end |
 | --- | --- | --- |
-| Dataset Manager | Led design/testing; user difficulty with SQL despite familiar Excel logic; team moved toward familiar modeling language and guided configuration; shipped self-service; first-session setup qualitative/recollection | Initial request, recommendations, effort objection and dataset compatibility constraint confirmed; numeric business outcomes remain unverified |
-| IC dashboard | Turned vague feedback into calculation/metric/payment-timing problems through interviews; personally designed all changes; shipped; testing showed users understood missing information | One concrete severity/prioritisation choice; what you deferred; any observed business effect, or acknowledge none measured |
-| Abax Maker Days | Co-led business case; capacity tradeoff; focused week put tokens and first Button in production | Your recommendation, why small proof was valuable, what decision it unlocked; no measured ROI |
+| Offline | 20 min | Brief restated in your words · facts vs. assumptions · your question list, ranked · a first guess at the core problem |
+| Discovery | ~20 min | Answers captured as stickies under User / Business / Data / Constraints |
+| Synthesis | ~5 min inside discovery | Problem statement · 2–3 assumptions · hypothesis · success signals |
+| Ideation and flow | ~30 min | 2–3 directions with tradeoffs, one chosen with them, then the flow at the end |
+| Discussion | ~20 min | Pros/cons of your choices, what you'd test first, what comes next |
 
-Start with Dataset Manager. Prepare one complete direction-setting episode before collecting more examples. Existing personal accounts and current evidence take precedence over older or inconsistent wording. Do not invent OKR figures, revenue impact or sole roadmap authority.
+Say at the start how you plan to use the time. Alan's page asks you to arrive with a structure, so stating it scores on its own.
 
-## Dataset Manager — direction-setting answer
+## Figma board: set up before Friday
 
-Updated 2026-10-13. Initial request, research proposal, personal recommendation, development objection and compatibility constraint are supported by Manel’s account. Release and qualitative outcome come from the existing register. The statement about the cheaper option missing the goal expresses the rationale; it is not a measured counterfactual.
+One Figma file with six labelled frames, left to right. Share the link at the start of the call.
 
-At Abacum, I was initially asked to improve dataset configuration so customers could move away from editing JSON files. I wasn’t convinced that improving the interface alone would solve the problem, so I recommended research before committing to a direction.
+1. **Brief:** paste it, highlight key words, list your assumptions.
+2. **Questions:** your ranked list, with answers added as they come.
+3. **Synthesis:** use this template:
+   > For **[user]** in **[situation]**, the problem is **[X]**, shown by **[evidence they gave]**. If we solve it, members **[outcome]** and Alan **[business outcome]**. We're assuming **[A1, A2]**. We'll know it works if **[signal]**.
+4. **North star:** one or two lines on what this experience looks like if Alan gets it fully right. This is the Factorial lesson (2026-07-02): show the full ambition first so your scoping reads as a choice. In Alan's format it stays short.
+5. **Directions:** 2–3 options compared on member value, business impact, effort/risk and trust. Mark the one you'd pick.
+6. **Flow:** entry trigger → steps → exit, with 2–3 important states (error, not covered, uncertain, human handoff). Annotate the decisions on the flow itself.
 
-Testing showed that finance users could explain the transformations they needed using Excel functions, but struggled to express them in SQL. I recommended an ordered list of actions on the dataset, such as transformation or aggregation, combined with language closer to what users already knew.
+## Starter questions (Alan asks you to bring these)
 
-Product and Engineering were concerned about the development effort. SQL was already used for these transformations, so extending Abacum’s modeling language would take more work. They didn’t agree immediately; they needed to review the evidence and make further checks.
+Pick 6–8 once you have the brief. Ask the most useful first, not all of them.
 
-I advocated the more familiar approach because the goal was customer autonomy. A solution that was easier for us to build would still miss that goal if customers couldn’t use it. We also had to introduce changes carefully because existing customers already had datasets we needed to protect.
+Written generically. If the brief is about Alan's product, swap in the Alan versions in brackets.
 
-The guided product shipped, and we had qualitative reports of customers reaching a working configuration in their first session. That supports the user outcome. Reducing dependence on implementation specialists was the intended business benefit; I don’t have a measured business result to claim.
+**User**
+- Who is the user here? Is the person who pays the same as the person who uses it? (Alan: member, employer/HR admin, or clinician? Which country?)
+- What triggers this journey? What are they trying to get done at that moment?
+- What happens today, and where does it break: drop-off, support contacts, complaints?
+- Do we have research, support tickets or member verbatims on this?
 
-**Memory chain:** UX request → propose research → familiar user language → effort objection → protect existing data → self-service result.
+**Business**
+- Why is this a priority now? Which metric is the team accountable for?
+- Is this mainly a growth, retention, cost-of-care or support-load problem?
+- Does the buyer care about this, or only the user? (Alan: employer vs. member)
 
-**In reserve:** The evidence supports extension of the existing language, not necessarily creating one from scratch. Exact SQL/formula release sequence and migration mechanism are not established here. Do not claim quantified business impact or a zero-loss migration. Keep syntax details for follow-up questions.
+**Data**
+- What do we know in numbers: volume, funnel, drop-off, contact reasons?
+- Is there anything we believe but haven't measured?
 
-## Offline 20 minutes — suggested allocation
+**Constraints**
+- Sensitive data or regulation: who is allowed to see what? (Alan: health data, medical confidentiality)
+- One market or several? (Alan: France, Spain, Belgium, Canada)
+- Is a human in the loop (support, operations, experts), and what does that cost? (Alan: care team, doctors)
+- Engineering or timeline limits? Existing patterns in the app we should reuse?
 
-This is a flexible practice structure. Follow the actual brief if it requests something different.
+**Scope**
+- What would you like to see by the end: one flow on app, web, or both?
 
-| Time | Work | Useful output |
-| --- | --- | --- |
-| 0–3 min | Read task, requested deliverable and constraints | Brief in your own words; separate facts from assumptions |
-| 3–7 min | Identify user, triggering situation, task and problem | One user/task and the consequence of failure |
-| 7–11 min | Choose focus and define success | Prioritised problem; why it matters; user/business success signals |
-| 11–16 min | Compare a couple of approaches | Recommended direction, rejected alternative and tradeoff |
-| 16–20 min | Sketch a focused flow and prepare discussion | Rough flow, important states, open questions |
+If they ask what features you'd add, turn it into a question about which decisions or tasks the user is trying to complete, then work back from that (Factorial lesson, 2026-07-01).
 
-Avoid polishing before the problem is clear. The useful first artifact is something the interviewers can react to. An outline or rough flow may be more appropriate than screens, depending on the brief.
+## Alan domain context (only if the case is about Alan's product; external research from round 1, inference flagged)
 
-## Live 70 minutes — practice structure
+Alan sells health insurance mainly through employers. Employees become members and get insurance, care access (Alan Clinic: doctors by chat or video), prevention and reimbursements in one app. Operates in France, Belgium, Spain and Canada. **Inference, and only if the case is about Alan's own product:** possible territory includes reimbursements and coverage understanding, getting care quickly, onboarding, prevention engagement, and employer admin tasks. Don't present any Alan metric as known; ask for it.
 
-The interviewers may lead or redirect. Use this as a rehearsal structure, not a schedule to impose.
+## Ideation moves that score
 
-- **Opening:** Explain what you understand, what you assumed and what you need to clarify. Ask a few high-value questions before committing to a direction.
-- **Focus:** Agree the user/problem and success criteria. Make scope choices explicit.
-- **Explore:** Compare alternatives and choose a direction. Explain your reasoning, including consequences for users and the business.
-- **Develop together:** Sketch or build at the fidelity needed for the requested task. Show the core flow and relevant states/edge cases. Invite critique at decision points.
-- **Respond:** Treat new information as a reason to reconsider. Explain what it changes and retain or revise your choice.
-- **Close:** Recap problem, recommendation, tradeoff, remaining uncertainty and how you would validate the solution.
+- Diverge on purpose. Pick options that differ in kind: self-serve vs. human-assisted vs. proactive/automated. Avoid three versions of the same idea.
+- Bring the interviewers into convergence: "Given what you said about [constraint], I'd drop B. Does that match what you'd expect?" The Loom says that involving them makes convergence easier.
+- Name the tradeoff in product terms, not as "validate first". If they challenge your scope, name the specific assumption v1 tests and what you'd lose by automating before members trust it (Factorial lesson, 2026-07-01).
+- When they add new information, say what it changes: "That changes my assumption about X, so I'd move to Y."
 
-## Spoken anchors for a new case
+## From the Dashinsky book: what applies to this round
 
-These are optional phrases, not a scripted answer to an unseen brief.
+General takeaways are in [prep.md](../prep.md) ("Live design challenge"). These are the ones that change something for this round:
 
-- “The brief asks for X. The user problem I want to clarify first is Y.”
-- “I’m assuming X because the brief doesn’t specify it. Is that a reasonable assumption?”
-- “I’d prioritise this because … The consequence of leaving it unresolved is …”
-- “The alternative is … It gives us … but costs …”
-- “For users, success would mean … For the business, I’d look at … I’d also watch …”
-- “That new information changes my earlier assumption. I’d adjust …”
-- “This is the direction I’d test first, not a claim that we’ve validated it.”
+- **Check whether the buyer and the user are different people,** whatever the domain. If the case is Alan's product, they are: employers buy, employees use.
+- **Put the user's emotional state in the context notes** (rushed, anxious, money at stake). It justifies choices like reassurance, clear costs and a human fallback. Especially relevant if the case is health-related.
+- **Agenda on the board:** write Discovery → Synthesis → Directions → Flow → Measure in the first minute. This is Alan's "come with a structure", made visible.
+- **Choosing a direction:** quick reach/value/effort placement of 2–3 options, out loud, then pick. Answers Celine's "how you choose a direction".
+- **Metrics:** one member metric, one business metric, one guardrail (e.g. fewer support contacts *without* lower satisfaction, or faster care access *without* more unnecessary visits). Answers Celine's impact gap.
+- **Build the flow from a task list,** then add the step before (what triggers it) and the step after (what the member needs next).
+- **Ignore the book's time split.** It spends 30 of 60 min on UI. Alan wants a journey, with the flow coming last.
 
-## AI use and logistics
+## Close (last ~5 min, or when asked)
 
-If using AI, disclose actual tools and their role. Example to adapt only if true: “I used [tool] to [specific task]. I reviewed its output and made the design decisions myself.” Do not hide use in the offline portion or imply all tools are approved.
+Recap in five lines: problem → direction chosen → tradeoff accepted → signals for member and business → what you'd test first and what comes after v1.
 
-**Tool clarification requested, 2026-10-13:** Manel confirmed sending Celine a reply acknowledging AI disclosure and asking about other tool requirements/restrictions. Employer response remains pending. Availability is submitted; the appointment is not yet confirmed.
+## AI use: decide now
 
-**Practice setup:** Figma, with disclosed LLM support as needed. Preparation now focuses on solving an unfamiliar live case; direction-setting stories are supporting material. No mock case has yet been completed.
+Recommendation: **work in Figma by hand during the live part.** They're scoring how you think and collaborate in real time, and an AI step in front of them uses up that time. If you use AI offline (e.g. to restate the brief or check your question list), say so at the start in one sentence: what tool, what for, and that the decisions are yours.
 
-No need to request the case in advance. The email says it arrives at the start.
+## If the discussion turns to past work
 
-## Practice sequence
+Use Dataset Manager as the direction-setting example, since it's the clearest answer to Celine's gap. Memory chain: UX request → proposed research first → users think in Excel, not SQL → effort objection from Product/Eng → protect existing datasets → shipped, first-session setup (qualitative). No numeric business result; say so. Card A in [battle cards](../behavioral-battle-cards.md) for follow-ups.
 
-1. Recover a specific direction-setting episode and write a concise evidence-bounded answer.
-2. Practise one question at a time, with follow-up probes on alternatives, ownership and impact.
-3. Run an invented practice brief using the 20/70 split. It must be labelled a rehearsal scenario, not a leaked or predicted Alan case.
-4. Review whether the problem, recommendation, tradeoff and evidence were clear. Retry the weakest part.
+Answer drafted 2026-10-13 from Manel's account and the register:
 
-Current state: brief prepared; strategic-story clarification and mock case not yet completed. Technical booking remains unconfirmed.
+> At Abacum, I was initially asked to improve dataset configuration so customers could move away from editing JSON files. I wasn't convinced that improving the interface alone would solve the problem, so I recommended research before committing to a direction. Testing showed that finance users could explain the transformations they needed using Excel functions, but struggled to express them in SQL. I recommended an ordered list of actions on the dataset, combined with language closer to what users already knew. Product and Engineering were concerned about the development effort; they needed to review the evidence. I advocated the more familiar approach because the goal was customer autonomy. We also had to protect datasets existing customers already had. The guided product shipped, and we had qualitative reports of customers reaching a working configuration in their first session. Reducing dependence on implementation specialists was the intended business benefit; I don't have a measured business result to claim.
+
+Limits: extension of the existing modeling language, not a new one from scratch. No quantified business impact, no zero-loss migration claim.
+
+## Questions for them (end of the session)
+
+1. "How close was this case to a problem the team is actually working on? What did you end up doing?"
+2. "In this team, who decides which problem a designer works on, and how early is design involved?"
+3. "What separates a strong designer here in their first six months from an average one?"
+
+## Salary
+
+Unlikely in this round. If raised: compensation is tied to assessed level; ask which level they're considering and the matching Spain package. Don't give a number first. Floor guidance is in `context/salary.md` (the 60k gate was relaxed 2026-10-11; no new number set).
+
+## Rehearsal plan
+
+- **Thu 15 morning:** Build the Figma board template, then mock case 1 with Claude playing the interviewer, on the 20/70 timing. Use Dashinsky's primary-care task (book 3.4, don't read the answer first), then compare.
+- **Thu 15 afternoon:** Mock case 2 in a domain unrelated to health (e.g. a consumer marketplace or a B2B tool), so you practise the method rather than the domain. Review: was the synthesis explicit, and did a metric get named?
+- **Fri 16 morning:** Short retry of the weakest block only. No new mock.
+- **Fri 16, 13:30:** Inbox open, Figma file ready, screen share tested.
+
+Mock briefs are made up for rehearsal and labelled as such. They are not predictions of Alan's case.
+
+After the interview: run `/debrief-interview alan case`.

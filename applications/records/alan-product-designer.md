@@ -2,7 +2,7 @@
 company: Alan
 role: Product Designer
 status: interviewing
-status_verified_on: 2026-10-13
+status_verified_on: 2026-10-14
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-10-01
@@ -12,11 +12,11 @@ application_channel: direct
 warm_path: unknown
 portfolio_version:
 applied_on: 2026-10-01
-last_contact_on: 2026-10-13
+last_contact_on: 2026-10-14
 outcome_stage: technical-interview
 rejection_reason_class: none
-next_action: Await technical-interview confirmation and Celine’s clarification of tool requirements/restrictions; practise the live case in Figma and disclose any AI-tool use
-next_action_on:
+next_action: Attend live technical interview with Christelle Mozzati (Product Designer); rehearse two mock cases beforehand; run /debrief-interview after
+next_action_on: 2026-10-16
 salary_stated: Unknown; employer range and submitted compensation answer were not confirmed
 job_url: https://jobs.ashbyhq.com/alan/1bf22834-f85d-4581-95a8-0a0278ba9013?departmentId=f4057159-b3bb-419a-954e-658d9b58f377
 source: Celine Brunel’s progression and feedback email received 2026-10-13 at 10:50, supplied by Manel; Jorge Bodas’s interview confirmation supplied by Manel on 2026-10-06; official hiring-process and compensation pages checked 2026-10-06; Jorge Bodas’s first-interview invitation and submitted availability supplied by Manel on 2026-10-06; exact Ashby job description supplied by Manel on 2026-10-01; official public Ashby job-board API checked 2026-10-01; Career OS evidence register
@@ -36,7 +36,11 @@ Confirmed employer assessment, not independent measurement of project outcomes:
 - **Strength:** AI/code practice aligns with Alan’s way of working. Her email mentions connecting Claude to Figma, frontend work, and AI-assisted token/component/documentation work. Preserve this as employer feedback; it does not independently verify every tool or activity.
 - **Gap to address:** Project direction and impact were not concrete enough in the first discussion. Celine said the answers about impact/strategy stayed general, citing references to making OKRs progress and exploring different visions. Alan wants a clearer account of how Manel reframes a problem, chooses a direction, and demonstrates results for users and the business. This is specific feedback about evidence communicated in the interview, not proof that Manel lacks strategic ability.
 
-### Live technical interview — scheduling pending
+### Live technical interview — confirmed for 2026-10-16
+
+**Confirmed, emails from Celine supplied by Manel on 2026-10-14:** Interview on Friday 2026-10-16 with Christelle Mozzati (Product Designer). Hiring manager: Aiswarya Kolisetty; recruiter: Celine Brunel. Time: 14:00–15:30 Europe/Madrid (confirmed by Manel 2026-10-14). Tools: Figma is the team default; any tool is fine if announced at the start. AI tools are allowed if Manel says when and how he used them. The exercise is intentionally open; polish is not expected. Alan's official prep page and Loom walkthrough (read 2026-10-14) state the deliverable is one user flow, scored on problem-solving, strategic thinking, user-centricity (journey over UI) and collaboration. Brief: [Live technical interview](../../interviews/alan/alan-technical-interview.md).
+
+#### Earlier scheduling notes
 
 - **Total duration:** 90 minutes.
 - **First 20 minutes:** Brief arrives by email at the start; work on it offline.
@@ -171,4 +175,5 @@ Alan’s [compensation page](https://alan.com/en/careers/a/salary-equity) says a
 - 2026-10-07: First-interview brief adapted to current platform-wide Remuner scope, Abacum squad progression, and confirmed shared design practices. Dataset Manager remains the lead proof; dashboard release/outcomes and personal motivation remain unconfirmed. No application-stage change.
 - 2026-10-13 10:50 (email time zone not shown): Celine confirmed completion of the first meeting and progression to a live technical interview. Recorded positive simplification/AI-code feedback and the need for concrete problem-reframing, direction and outcome examples. Technical format is 20 minutes offline plus 70 minutes in Google Meet. Availability submission and booking remain unconfirmed. AI use must be disclosed per employer request; no numeric compensation or level confirmed.
 - 2026-10-13: Technical-interview preparation started around Celine’s specific feedback, a proposed 20/70 practice structure and evidence-bounded direction-setting stories. No technical availability submission, booking or rehearsal completion confirmed.
+- 2026-10-14: Celine confirmed the live technical interview for Friday 2026-10-16 with Christelle Mozzati, answered the tools question (Figma default, any tool if announced, AI allowed with disclosure) and shared Alan's prep page. Technical brief rebuilt around the official criteria and the one-user-flow deliverable. Manel confirmed the time as 14:00–15:30 Europe/Madrid.
 - 2026-10-13: Manel confirmed sending the reply to Celine stating availability had been submitted and asking about tool requirements/restrictions. Awaiting appointment confirmation and employer clarification; exact submitted time windows remain unrecorded. Manel intends to practise in Figma with disclosed LLM support.
