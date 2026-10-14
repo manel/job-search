@@ -270,11 +270,11 @@ This is one of the most important answers.
 
 Suggested answer:
 
-> "There are a few things that caught my attention. First, the complexity of the product is very relevant to my experience. I've spent the last few years working on financial and data-heavy B2B products where the challenge is making complex workflows understandable.
+> "There are a few things that caught my attention. First, **the complexity of the product** is very relevant to my experience. I've spent the last few years working on financial and data-heavy B2B products where the challenge is making complex workflows understandable.
 >
-> Second, the role combines product design with design-system work, which is something I've done quite deeply, including the implementation and governance side.
+> Second, the role combines product design with **design-system work, which is something I've done quite deeply**, including the implementation and governance side.
 >
-> And the AI aspect is particularly interesting to me because I recently shipped a production AI agent, so I'm interested in continuing to work on how AI can be integrated into real workflows rather than just as a standalone feature.
+> And the AI aspect is particularly interesting to me because I recently shipped a production AI agent, so **I'm interested in continuing to work on how AI can be integrated into real workflows** rather than just as a standalone feature.
 >
 > Spendesk also seems to be at an interesting point where the product and organisation are scaling while the complexity of the problems is increasing."
 
