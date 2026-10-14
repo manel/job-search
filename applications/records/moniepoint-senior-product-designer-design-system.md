@@ -26,7 +26,7 @@ source: Greenhouse acknowledgment dated 2026-09-15 12:04 supplied by Manel on 20
 
 ## Current status
 
-Application receipt is confirmed by Moniepoint's Greenhouse acknowledgment dated 2026-09-15 at 12:04, supplied by Manel on 2026-09-23. No human review, interview invitation, or decision is recorded. A saved CV exists at `job-search/cv-pdf-to-send/Moniepoint/Manel Leiva CV 2026.pdf`; its presence and current readability do not establish the exact bytes uploaded or which case links were submitted.
+Application receipt is confirmed by Moniepoint's Greenhouse acknowledgment dated 2026-09-15 at 12:04, supplied by Manel on 2026-09-23. No human review, interview invitation, or decision is recorded. A saved CV exists at `cv-pdf-to-send/Moniepoint/Manel Leiva CV 2026.pdf`; its presence and current readability do not establish the exact bytes uploaded or which case links were submitted.
 
 ## Decision
 
@@ -71,8 +71,8 @@ This is a useful retest of the design-systems lane. The earlier zero-conversatio
 
 ## Prepared materials
 
-- Tailored CV copy: `materials/cv/tailored/moniepoint-senior-product-designer-design-system.md`
-- Cover letter: `materials/cover-letters/moniepoint-senior-product-designer-design-system.md`
+- Tailored CV copy: `cv/roles/moniepoint-senior-product-designer-design-system.md`
+- Cover letter: `cover-letters/roles/moniepoint-senior-product-designer-design-system.md`
 - The initial preparation generated Markdown only. A saved PDF was found during the 2026-09-23 audit, and Manel supplied the application receipt confirming submission on 2026-09-15.
 
 ## Sources

@@ -44,9 +44,9 @@ Xavi later confirmed that the application was correctly registered in Perk's sys
 
 ## Materials and records
 
-- Legacy tailored CV: `job-search/cv/roles/perk-staff-product-designer-events.md`
-- Legacy tailored cover letter: `job-search/cover-letters/roles/perk-staff-product-designer-events.md`
-- Legacy sent PDFs: `job-search/cv-pdf-to-send/Perk/`
+- Legacy tailored CV: `cv/roles/perk-staff-product-designer-events.md`
+- Legacy tailored cover letter: `cover-letters/roles/perk-staff-product-designer-events.md`
+- Legacy sent PDFs: `cv-pdf-to-send/Perk/`
 
 ## History
 

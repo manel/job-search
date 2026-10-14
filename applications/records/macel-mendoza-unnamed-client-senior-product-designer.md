@@ -35,17 +35,17 @@ source: Recruiter-post text supplied by Manel; closely matching David Kennedy Re
 
 ## Fit
 
-- **Confirmed strengths:** sole-designer ownership at Remuner, production conversational AI UX, repeated AI-assisted interactive prototypes for user testing, two production design systems, and close engineering collaboration. Sources: `evidence/experience-facts.md` and `strategy/positioning.md`.
+- **Confirmed strengths:** sole-designer ownership at Remuner, production conversational AI UX, repeated AI-assisted interactive prototypes for user testing, two production design systems, and close engineering collaboration. Sources: `evidence/experience-facts.md` and `context/positioning.md`.
 - **Central evidence gaps:** the register does not establish five years of end-to-end consumer product design, shipped consumer mobile-first products at scale, or a portfolio demonstrating the requested consumer UI craft. B2B experience does not satisfy a consumer-specific tenure requirement automatically.
 - **Mobile boundary:** the Yuno record documents responsive web shipped through iOS/Android webview apps. That is relevant mobile delivery, but does not by itself prove this role's consumer/mobile-first/scale requirements. The supplied post does not explicitly require native mobile; do not manufacture that gate.
 - **AI boundary:** production conversational AI and repeated AI-assisted prototyping are supported. Daily frequency, specific creative image/video workflows, and their outcomes are not established by those facts.
-- **Preference mismatch:** `strategy/target-roles.md` prefers complex B2B product and systems work over consumer-mobile craft-led and growth-focused roles, and calls weak domain fit a Skip unless Manel explicitly overrides it.
+- **Preference mismatch:** `context/target-roles.md` prefers complex B2B product and systems work over consumer-mobile craft-led and growth-focused roles, and calls weak domain fit a Skip unless Manel explicitly overrides it.
 - **Unknown personal gates:** willingness to work on adult-content products and to start as a contractor. Neither is assumed to be a rejection reason.
 - **Scope:** appears compatible with Senior IC ownership; no direct-report requirement is stated. Meaningful authority over product decisions is unverified; collaboration with founders alone does not establish it.
 
 ## Commercial checks if reconsidered
 
-Request the client/product name, contractor rate and currency, paid-leave/payment terms, expected hours/time-zone overlap, termination terms, and concrete conversion conditions before tailoring. `Competitive package` gives no usable range, and potential full-time conversion is not a commitment. The approximate EUR 60,000 employee base floor in `strategy/compensation.md` is not a contractor invoicing equivalent.
+Request the client/product name, contractor rate and currency, paid-leave/payment terms, expected hours/time-zone overlap, termination terms, and concrete conversion conditions before tailoring. `Competitive package` gives no usable range, and potential full-time conversion is not a commitment. The approximate EUR 60,000 employee base floor in `context/salary.md` is not a contractor invoicing equivalent.
 
 ## History
 

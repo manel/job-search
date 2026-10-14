@@ -1,5 +1,5 @@
 # CV — Finom, Senior Product Designer, Credit & Cards
-# Prepared 2026-10-13. Sources: materials/cv/cv-base.md, evidence/experience-facts.md, and the verified role assessment.
+# Prepared 2026-10-13. Sources: cv/cv-base.md, evidence/experience-facts.md, and the verified role assessment.
 # Draft for review. Plain text below the line, ready for Figma. No PDF generated or application submitted.
 
 ---

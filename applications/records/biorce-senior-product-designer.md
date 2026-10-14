@@ -28,10 +28,10 @@ The application had strong domain-shape overlap: AI-native health technology, a 
 
 ## Materials and records
 
-- Legacy interview brief: `job-search/interviews/biorce/biorce.md`
-- Legacy tailored CV: `job-search/cv/roles/biorce-senior-product-designer.md`
-- Legacy tailored cover letter: `job-search/cover-letters/roles/biorce-senior-product-designer.md`
-- Legacy sent PDFs: `job-search/cv-pdf-to-send/Biorce/`
+- Legacy interview brief: `interviews/biorce/biorce.md`
+- Legacy tailored CV: `cv/roles/biorce-senior-product-designer.md`
+- Legacy tailored cover letter: `cover-letters/roles/biorce-senior-product-designer.md`
+- Legacy sent PDFs: `cv-pdf-to-send/Biorce/`
 
 ## Reusable signal
 

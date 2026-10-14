@@ -28,13 +28,13 @@ source: Interview invitation from Aiste Kleizaite and booking update supplied by
 
 **Employer update, 2026-10-08 at 09:59 (email time zone not shown):** Aiste said the process is progressing more slowly than expected because of the number of candidates being assessed. She expects to provide a response on Friday 2026-10-09 or, at the latest, Tuesday 2026-10-13. She asked Manel to flag any other advanced process. No progression, rejection or compensation feedback was communicated.
 
-Manel reports first interviews with Haddock today, 2026-10-08 at 10:50, and Alan tomorrow, 2026-10-09. These are early-stage interviews, not advanced processes or offers. A [Spanish reply](../../materials/outreach/kabilio-aiste-process-update-2026-10-08.md) has been prepared; sending remains unconfirmed. Attendance at the previously scheduled Kabilio screening and its content have not been explicitly confirmed.
+Manel reports first interviews with Haddock today, 2026-10-08 at 10:50, and Alan tomorrow, 2026-10-09. These are early-stage interviews, not advanced processes or offers. A [Spanish reply](../../outreach/kabilio-aiste-process-update-2026-10-08.md) has been prepared; sending remains unconfirmed. Attendance at the previously scheduled Kabilio screening and its content have not been explicitly confirmed.
 
 Kabilio invited Manel to a 30-minute first interview by Google Meet with Aiste Kleizaite. Aiste asked about availability during the week of 2026-09-28 and supplied a Cal.com booking link. No suitable slot remained that week, so Manel booked a slot at 12:00 during the week of 2026-10-05 and sent Aiste a reply confirming this.
 
 The booking and reply are confirmed from Manel's report. On 2026-10-04, Manel requested preparation for tomorrow's meeting, confirming the date as Monday 2026-10-05. He also confirmed that the call will be in Spanish. The recorded time is 12:00; the calendar confirmation, time zone and Meet link have not been reviewed.
 
-Prepared [Spanish screening brief](../../interviews/kabilio-first-interview.md) on 2026-10-04: introduction, motivation, evidence-bounded examples, departure answer, compensation and first-call questions. The official posting remains accessible and advertises the role on 2026-10-04; it explicitly places salary discussion in the first call. Employer salary range and actual Senior ownership remain unknown.
+Prepared [Spanish screening brief](../../interviews/kabilio/kabilio-first-interview.md) on 2026-10-04: introduction, motivation, evidence-bounded examples, departure answer, compensation and first-call questions. The official posting remains accessible and advertises the role on 2026-10-04; it explicitly places salary discussion in the first call. Employer salary range and actual Senior ownership remain unknown.
 
 ## Decision
 
@@ -117,8 +117,8 @@ No prior Kabilio application or confirmed warm contact was found in Career OS. T
 
 ## Prepared materials
 
-- [Tailored CV](../../materials/cv/tailored/kabilio-senior-ux-ui-designer.md), prepared 2026-10-01 as Markdown source for Figma.
-- [Cover letter](../../materials/cover-letters/kabilio-senior-ux-ui-designer.md), prepared 2026-10-01 as Markdown source for Figma or the application form.
+- [Tailored CV](../../cv/roles/kabilio-senior-ux-ui-designer.md), prepared 2026-10-01 as Markdown source for Figma.
+- [Cover letter](../../cover-letters/roles/kabilio-senior-ux-ui-designer.md), prepared 2026-10-01 as Markdown source for Figma or the application form.
 
 The direct application was confirmed submitted by Manel on 2026-10-01. The exact submitted files, PDF QA result, form answers, salary range, and receipt details have not been reconfirmed or archived.
 
@@ -129,7 +129,7 @@ The direct application was confirmed submitted by Manel on 2026-10-01. The exact
 - **External research, verified 2026-10-01:** [Exact official Kabilio posting](https://jobs.kabilio.es/jobs/7603770-senior-ux-ui-designer), including role scope, team, location, contract, requirements, process, and open state.
 - **Confirmed user-supplied evidence, 2026-10-01:** Full JD pasted by Manel; consistent with the official posting.
 - **Confirmed current portfolio, verified live 2026-10-01:** [Dataset Manager](https://www.manel-leiva.com/cases/dataset-manager), [Modeling language](https://www.manel-leiva.com/cases/modeling-syntax), and [Remuner AI agent](https://www.manel-leiva.com/cases/ai-agent).
-- **Confirmed internal evidence:** `strategy/positioning.md`, `strategy/target-roles.md`, `strategy/compensation.md`, `strategy/pipeline-findings.md`, and `evidence/experience-facts.md`.
+- **Confirmed internal evidence:** `context/positioning.md`, `context/target-roles.md`, `context/salary.md`, `context/pipeline-findings.md`, and `evidence/experience-facts.md`.
 
 ## History
 

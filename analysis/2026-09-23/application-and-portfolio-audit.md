@@ -143,8 +143,8 @@ Keep the revised assets stable through the cohort unless a factual or functional
 - [PDF inspection dataset](pdf-audit.json): current file paths, hashes, sizes, extraction lengths, font types, and annotation counts.
 - [Audit script](../../scripts/audit-application-funnel.py): recomputes the cycle count from current canonical records; manual historical stage annotations are explicit and require review after a status change.
 - [Canonical experience evidence](../../evidence/experience-facts.md), including the corrected Abax denominator.
-- [Previous pipeline baseline](../../strategy/pipeline-findings.md).
-- Read-only legacy sources: `/Users/manel/Dev/job-search/context/applications.md`, `context/portfolio.md`, `context/ai-agent-notes.md`, `cv/cv-base.md`, and `cv-pdf-to-send/`.
+- [Previous pipeline baseline](../../context/pipeline-findings.md).
+- Read-only legacy sources: `context/applications.md`, `context/portfolio.md`, `context/ai-agent-notes.md`, `cv/cv-base.md`, and `cv-pdf-to-send/`.
 - Live pages are linked in the portfolio table above. Recommendations are the audit's interpretation; they are not recruiter feedback.
 
 No historical application assets or live portfolio files were changed during this audit.
@@ -198,4 +198,4 @@ Separate recruiter profile review: [Pilar, unnamed client](../../applications/re
 
 **Changed priority:** practise clear spoken storytelling and concise behavioural answers before Datavant's recruiter screen on Friday 25 September. The existing record tentatively lists 10:45–11:15 CEST; acceptance reply is unconfirmed. A scheduled screen is not a completed interview. Select a few relevant, specific episodes; keep context brief, explain personal actions and decisions, and state only supported outcomes. Rehearse aloud without slides, then use unfamiliar prompts and a listener's retelling to check relevance and comprehension. The STAR article supplies the situation/task/action/result structure; the proposed timings and practice checks are our working plan, not employer requirements.
 
-**Status:** example selection, spoken rehearsal, listener checks, and improvement validation remain pending. Keep the ongoing CV-template work. Broader deck simplification follows the urgent rehearsal and should use what that practice reveals. The [application-assets rework plan](../../strategy/application-assets-rework.md) contains the actionable sequence. No decks or recruiter communications were changed as part of this addendum.
+**Status:** example selection, spoken rehearsal, listener checks, and improvement validation remain pending. Keep the ongoing CV-template work. Broader deck simplification follows the urgent rehearsal and should use what that practice reveals. The [application-assets rework plan](../../context/application-assets-rework.md) contains the actionable sequence. No decks or recruiter communications were changed as part of this addendum.

@@ -70,8 +70,8 @@ The official Greenhouse application is open. Required candidate fields are CV, L
 
 ## Prepared materials
 
-- Tailored CV copy: `materials/cv/tailored/wizeline-senior-product-designer-barcelona-hybrid.md`
-- Cover letter: `materials/cover-letters/wizeline-senior-product-designer-barcelona-hybrid.md`
+- Tailored CV copy: `cv/roles/wizeline-senior-product-designer-barcelona-hybrid.md`
+- Cover letter: `cover-letters/roles/wizeline-senior-product-designer-barcelona-hybrid.md`
 - No PDF was generated. Application submission is not confirmed.
 
 ## Sources

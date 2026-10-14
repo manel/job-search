@@ -43,8 +43,8 @@ Treat this as feedback about one live challenge, not as a general judgment of Ma
 
 - Reapplication advice: see the recovered note below; no new submission is confirmed.
 
-- Legacy interview record: `job-search/interviews/factorial/factorial.md`
-- Legacy challenge preparation and debriefs: `job-search/interviews/factorial/`
+- Legacy interview record: `interviews/factorial/factorial.md`
+- Legacy challenge preparation and debriefs: `interviews/factorial/`
 
 ## History
 

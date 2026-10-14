@@ -36,9 +36,9 @@ EUR 85,000 was the prepared salary position. It was not stated in the cover lett
 
 ## Materials and records
 
-- Legacy tailored CV: `job-search/cv/roles/bitpanda-senior-design-system-designer.md`
-- Legacy tailored cover letter: `job-search/cover-letters/roles/bitpanda-senior-design-system-designer.md`
-- Legacy sent PDFs: `job-search/cv-pdf-to-send/Bitpanda/DS2/`
+- Legacy tailored CV: `cv/roles/bitpanda-senior-design-system-designer.md`
+- Legacy tailored cover letter: `cover-letters/roles/bitpanda-senior-design-system-designer.md`
+- Legacy sent PDFs: `cv-pdf-to-send/Bitpanda/DS2/`
 
 ## History
 

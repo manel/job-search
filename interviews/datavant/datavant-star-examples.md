@@ -185,7 +185,7 @@ Do not add anecdotes, quotes, or metrics simply to reach ten cards.
 
 ## Evidence sources
 
-- Current authority: [experience facts](../evidence/experience-facts.md), [Datavant record](../applications/records/datavant-senior-ux-designer-provider-experience.md), [Spendesk preparation](spendesk-hiring-manager.md), and [supporting questions](spendesk-hiring-manager-questions.md). The current register supersedes older conflicting phrasing.
-- Read-only historical detail reviewed 2026-09-25: `/Users/manel/Dev/job-search/context/portfolio.md` (Dataset Manager, Modeling Syntax, AI Agent); `/Users/manel/Dev/job-search/context/design-systems-notes.md` (Maker Days, governance, deprecation, Remuner audit); `/Users/manel/Dev/job-search/context/ai-agent-notes.md` (ownership, format selection, trust limits and corrections).
+- Current authority: [experience facts](../../evidence/experience-facts.md), [Datavant record](../../applications/records/datavant-senior-ux-designer-provider-experience.md), [Spendesk preparation](../spendesk/spendesk-hiring-manager.md), and [supporting questions](../spendesk/spendesk-hiring-manager-questions.md). The current register supersedes older conflicting phrasing.
+- Read-only historical detail reviewed 2026-09-25: `context/portfolio.md` (Dataset Manager, Modeling Syntax, AI Agent); `context/design-systems-notes.md` (Maker Days, governance, deprecation, Remuner audit); `context/ai-agent-notes.md` (ownership, format selection, trust limits and corrections).
 - Earlier Dataset Manager rehearsal, 2026-09-23 to 2026-09-25: Manel's recorded account of the initial UI hypothesis, research finding, PM/lead-engineer discussion, and familiar modeling functions. This adds personal recall, not independent measurement.
 - Employer interview guide supplied 2026-09-25 establishes the request for 5-10 examples and behavioral/situational preparation; it does not prescribe these particular stories.

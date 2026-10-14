@@ -93,7 +93,7 @@ This is the evidence register, not finished application copy. Each material clai
 
 - **Claim:** The departure was company-initiated in March 2026.
 - **Class:** Recorded historical fact; not separately reconfirmed in the current conversation.
-- **Source:** `job-search/interviews/prep.md`, “Priority zero: Why did you leave Remuner?”, read at Manel's request on 2026-09-29.
+- **Source:** `interviews/prep.md`, “Priority zero: Why did you leave Remuner?”, read at Manel's request on 2026-09-29.
 - **External-use boundary:** Do not imply a voluntary resignation or mutually initiated departure. Do not infer performance findings or an employer-confirmed rationale from the fit account.
 
 ### Role and scope
@@ -111,7 +111,7 @@ This is the evidence register, not finished application copy. Each material clai
 
 - **Claim:** Sole designer across the product during the relevant period.
 - **Class:** Confirmed.
-- **Source:** `job-search/cv/cv-base.md`, Remuner entry.
+- **Source:** `cv/cv-base.md` at pre-merge commit `83bef9f`, Remuner entry.
 - **Verified:** 2026-07-08.
 
 ### Design-practice foundations
@@ -198,12 +198,12 @@ This is the evidence register, not finished application copy. Each material clai
 
 - **Claim:** Designed and launched a production conversational AI agent for sales-compensation questions. It was released to all customers before March 2026.
 - **Class:** Confirmed.
-- **Source:** `job-search/context/portfolio.md`, AI Agent entry; current approved CV copy confirmed in the Career Strategy project chat.
+- **Source:** `context/portfolio.md`, AI Agent entry; current approved CV copy confirmed in the Career Strategy project chat.
 - **Verified:** 2026-09-10.
 
 - **Claim:** Owned the UX/UI, conversation design, answer formats, design-side capability scoping, and trust patterns. Capability decisions were shared with the founders and engineering; there was no PM during this project.
 - **Class:** Confirmed.
-- **Source:** `job-search/context/portfolio.md`, AI Agent entry; `job-search/memory.md`, corrections dated 2026-07-15.
+- **Source:** `context/portfolio.md`, AI Agent entry; `memory.md`, corrections dated 2026-07-15.
 - **Verified:** 2026-07-15.
 
 - **Claim:** Manel defined the visual and conversation design and set up the role-based context provided to the agent. Managers could receive information about their own plans and their teams' plans, while individual contributors were limited to their own plans. These role differences also constrained the actions or capabilities available to each type of user.
@@ -218,12 +218,12 @@ This is the evidence register, not finished application copy. Each material clai
 
 - **Claim:** The agent answered questions about commissions and plans and refused off-scope questions. It used one global chat surface with structured answers such as tables and lists. Sales reps consulted their own information; managers could also query team information.
 - **Class:** Confirmed.
-- **Source:** `job-search/context/portfolio.md`, AI Agent entry; `job-search/memory.md`, corrections dated 2026-07-06 and 2026-07-16.
+- **Source:** `context/portfolio.md`, AI Agent entry; `memory.md`, corrections dated 2026-07-06 and 2026-07-16.
 - **Verified:** 2026-07-16.
 
 - **Claim:** The agent produced measurable adoption, revenue, or accuracy improvements.
 - **Class:** Unknown. No claimable metrics or named outcome signal are on record.
-- **Source:** `job-search/context/portfolio.md`, AI Agent evidence position.
+- **Source:** `context/portfolio.md`, AI Agent evidence position.
 - **Verified:** 2026-07-16.
 
 ### AI-assisted product prototyping
@@ -243,12 +243,12 @@ This is the evidence register, not finished application copy. Each material clai
 
 - **Claim:** Built the Remuner component library and design system from scratch as sole designer.
 - **Class:** Confirmed.
-- **Source:** `job-search/cv/cv-base.md`; `job-search/context/portfolio.md`, Remuner design-system entry.
+- **Source:** `cv/cv-base.md` at pre-merge commit `83bef9f`; `context/portfolio.md`, Remuner design-system entry.
 - **Verified:** 2026-07-23.
 
 - **Claim:** Brought the Abacum token-pipeline foundation into Remuner and owned the design brief, decisions, and outcome. Engineers adapted it to Remuner's Vuetify and Sass stack. In February 2026, Manel used Codex to add CI and safety checks, drift detection, smoke tests, W3C token format, an HTML preview, and JSON output. Engineers reviewed and merged the work.
 - **Class:** Confirmed.
-- **Source:** `job-search/context/portfolio.md`, Remuner pipeline-ownership note; `job-search/memory.md`, 2026-06-08 ownership correction.
+- **Source:** `context/portfolio.md`, Remuner pipeline-ownership note; `memory.md`, 2026-06-08 ownership correction.
 - **Verified:** 2026-07-23.
 
 - **External-use boundary:** Do not claim sole technical implementation or original authorship of the token pipeline.
@@ -324,12 +324,12 @@ This is the evidence register, not finished application copy. Each material clai
 
 - **Claim:** Led design and customer testing for a self-serve Dataset Manager that introduced a guided UI layer over JSON-based configuration and translated technical concepts into finance-team language.
 - **Class:** Confirmed.
-- **Source:** `job-search/cv/cv-base.md`; `job-search/context/portfolio.md`, Dataset Manager entry.
+- **Source:** `cv/cv-base.md` at pre-merge commit `83bef9f`; `context/portfolio.md`, Dataset Manager entry.
 - **Verified:** 2026-09-10.
 
 - **Claim:** The implementation team's read was that standard dataset configuration took roughly half the previous time. Customers could reach a working configuration in their first session.
 - **Class:** Recollection, not instrumented measurement.
-- **Source:** Manel's 2026-06-12 confirmation, recorded in `job-search/context/portfolio.md`; current approved CV copy confirmed 2026-09-10.
+- **Source:** Manel's 2026-06-12 confirmation, recorded in `context/portfolio.md`; current approved CV copy confirmed 2026-09-10.
 - **Verified:** 2026-09-10.
 
 - **External-use boundary:** Attribute the time reduction to the implementation team's read. Do not present it as measured analytics or invent a more precise figure.
@@ -368,7 +368,7 @@ This is the evidence register, not finished application copy. Each material clai
 
 - **Claim:** Led research and design for a consistent formula language using customer-call evidence and competitor benchmarking; syntax decisions were made with Engineering.
 - **Class:** Confirmed.
-- **Source:** `job-search/cv/cv-base.md`; current approved CV copy confirmed in the Career Strategy project chat.
+- **Source:** `cv/cv-base.md` at pre-merge commit `83bef9f`; current approved CV copy confirmed in the Career Strategy project chat.
 - **Verified:** 2026-09-10.
 
 ### Abax design system
@@ -381,7 +381,7 @@ This is the evidence register, not finished application copy. Each material clai
 
 - **Claim:** The 80% adoption goal followed the successful Maker Days initiative. Manel clarified that the tracked goal and approximately 47% departure figure referred to Abax versus MUI component uses across the codebase. Frontend engineers used custom monthly scripts, and the team was still improving the metric.
 - **Class:** Confirmed personal account of target, sequence and measurement approach; achieved percentage remains reconstructed recollection.
-- **Source:** Manel's explicit denominator confirmations and roadmap corrections in thread `01a0a6af-f60d-75d1-b416-341af19cb3ee`, 2026-09-17; supporting [interview preparation](../interviews/spendesk-hiring-manager.md). Recovered 2026-10-13.
+- **Source:** Manel's explicit denominator confirmations and roadmap corrections in thread `01a0a6af-f60d-75d1-b416-341af19cb3ee`, 2026-09-17; supporting [interview preparation](../interviews/spendesk/spendesk-hiring-manager.md). Recovered 2026-10-13.
 - **Verified:** Direct account captured 2026-09-17; transcript checked 2026-10-13. Raw measurement not independently verified.
 - **External-use boundary:** 80% is a target, not achieved adoption or the Maker Days success criterion. No deadline, rationale for the threshold, exact script-counting unit or raw monthly series is recoverable from these confirmations. Historical wording “new UI” is ambiguous without the denominator clarification.
 
@@ -393,12 +393,12 @@ This is the evidence register, not finished application copy. Each material clai
 
 - **Claim:** Co-led the design-system business case with the head of design and worked on its token architecture, component library, governance, and engineering pipeline.
 - **Class:** Confirmed.
-- **Source:** `job-search/cv/cv-base.md`; `job-search/context/portfolio.md`, Abax entry.
+- **Source:** `cv/cv-base.md` at pre-merge commit `83bef9f`; `context/portfolio.md`, Abax entry.
 - **Verified:** 2026-07-24.
 
 - **Claim:** Abax covered five squads. At departure, a reconstructed monthly codebase count put Abax at approximately 47% of tracked Abax and MUI component uses; two squads had completed the form-element migration and a third was mid-migration.
 - **Class:** Recollection/reconstructed measurement; raw exports are unavailable.
-- **Source:** `job-search/context/portfolio.md`, Abax measurement note; Manel clarified the codebase-wide denominator and monthly frontend scripts on 2026-09-17.
+- **Source:** `context/portfolio.md`, Abax measurement note; Manel clarified the codebase-wide denominator and monthly frontend scripts on 2026-09-17.
 - **Verified:** 2026-09-17.
 
 - **External-use boundary:** “Adopted across five squads” is acceptable compact CV wording, but longer materials should include the actual migration state when adoption depth matters.

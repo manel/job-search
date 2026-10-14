@@ -34,8 +34,8 @@ EUR 78,000 gross annual was stated in the application form.
 
 ## Materials and records
 
-- Legacy tailored CV: `job-search/cv/roles/cloudpay-product-designer-uiux.md`
-- Legacy tailored cover letter and form answers: `job-search/cover-letters/roles/cloudpay-product-designer-uiux.md`
+- Legacy tailored CV: `cv/roles/cloudpay-product-designer-uiux.md`
+- Legacy tailored cover letter and form answers: `cover-letters/roles/cloudpay-product-designer-uiux.md`
 
 ## History
 

@@ -26,11 +26,11 @@ The process is on hold for Manel. Ingrid also said she would be away for two wee
 
 Retain `status: interviewing` because the first interview is complete and no final outcome has been communicated; `process_state: on-hold` captures the employer's current position. Move the dashboard entry out of the active action queue. The 2026-11-03 review date is an internal planning choice, not an employer commitment.
 
-[Reply to Ingrid](../../materials/outreach/haddock-ingrid-process-update-2026-10-12.md) prepared on 2026-10-12; sending is unconfirmed.
+[Reply to Ingrid](../../outreach/haddock-ingrid-process-update-2026-10-12.md) prepared on 2026-10-12; sending is unconfirmed.
 
 ## Fit summary
 
-The [original booking acknowledgement](../../materials/outreach/haddock-ingrid-booking-2026-09-29.md) was recovered from chat on 2026-10-13. It refers to the superseded 2 October slot, is historical only, and is not confirmed sent.
+The [original booking acknowledgement](../../outreach/haddock-ingrid-booking-2026-09-29.md) was recovered from chat on 2026-10-13. It refers to the superseded 2 October slot, is historical only, and is not confirmed sent.
 
 The role was considered a relevant B2B SaaS opportunity. The detailed fit assessment and submitted-material record have not yet been migrated.
 

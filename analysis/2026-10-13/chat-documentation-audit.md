@@ -27,12 +27,12 @@ The initial local audit did not cover the original server-side list. The follow-
 | Personal LLM use, 2026-09-10 | [Experience register](../../evidence/experience-facts.md#personal-ai-use) | Homelab/network and light coaching/tracking directly confirmed; assistant elaborations excluded from the fact claim. |
 | Abax all-hands presentation, target sequencing, denominator and qualitative feedback, 2026-09-17 | [Experience register](../../evidence/experience-facts.md#abax-design-system) | Separate intended buy-in, adoption target, reconstructed counts and perceived improvements. No new quantitative result. |
 | Dataset Manager chronology/attribution conflict | [Experience register](../../evidence/experience-facts.md#dataset-manager) | Published interim-SQL account conflicts with older “SQL dropped” wording; estimate attribution also differs. Flagged, not resolved by assumption. |
-| Final Jaume outreach with the requested code-experience addition | [Enginy draft](../../materials/outreach/enginy-jaume-puig-2026-09-15.md) | Sending unconfirmed. |
-| Aideen feedback request after rejection | [Datavant draft](../../materials/outreach/datavant-aideen-feedback-request-2026-10-04.md) | Sending and any response unconfirmed. |
-| User-edited Spendesk survey answers and revised closing | [Survey draft](../../materials/outreach/spendesk-candidate-survey-2026-09-29.md) | Submission unconfirmed; no numeric survey ratings recovered. |
-| Original Haddock booking acknowledgement | [Historical draft](../../materials/outreach/haddock-ingrid-booking-2026-09-29.md) | Superseded 2 October appointment; do not send now. |
-| eDreams professional/personal AI-use form answer | [Historical draft](../../materials/application-answers/edreams-ai-use-2026-09-10.md) | Actual submitted wording unknown; assistant elaborations labelled. |
-| Warm-copy and senior design-system framing preferences | [Writing rules](../../strategy/writing-rules.md) | Preserve approved copy; foreground scope and stewardship; avoid unsupported Kings of Mambo chronology. |
+| Final Jaume outreach with the requested code-experience addition | [Enginy draft](../../outreach/enginy-jaume-puig-2026-09-15.md) | Sending unconfirmed. |
+| Aideen feedback request after rejection | [Datavant draft](../../outreach/datavant-aideen-feedback-request-2026-10-04.md) | Sending and any response unconfirmed. |
+| User-edited Spendesk survey answers and revised closing | [Survey draft](../../outreach/spendesk-candidate-survey-2026-09-29.md) | Submission unconfirmed; no numeric survey ratings recovered. |
+| Original Haddock booking acknowledgement | [Historical draft](../../outreach/haddock-ingrid-booking-2026-09-29.md) | Superseded 2 October appointment; do not send now. |
+| eDreams professional/personal AI-use form answer | [Historical draft](../../application-answers/edreams-ai-use-2026-09-10.md) | Actual submitted wording unknown; assistant elaborations labelled. |
+| Warm-copy and senior design-system framing preferences | [Writing rules](../../context/writing-rules.md) | Preserve approved copy; foreground scope and stewardship; avoid unsupported Kings of Mambo chronology. |
 
 Each recovered draft is linked from the relevant application record. Preply's record was written before adding its dashboard entry. Existing application outcomes and contact dates were not inferred from draft recovery.
 

@@ -1,6 +1,6 @@
 # Alan — live technical interview preparation
 
-Started 2026-10-13. Availability submitted; appointment confirmation pending. Sources: [canonical record](../applications/records/alan-product-designer.md), Celine’s email supplied by Manel, and [experience register](../evidence/experience-facts.md). This is a preparation plan, not Alan’s confirmed assessment rubric.
+Started 2026-10-13. Availability submitted; appointment confirmation pending. Sources: [canonical record](../../applications/records/alan-product-designer.md), Celine’s email supplied by Manel, and [experience register](../../evidence/experience-facts.md). This is a preparation plan, not Alan’s confirmed assessment rubric.
 
 ## Confirmed format
 

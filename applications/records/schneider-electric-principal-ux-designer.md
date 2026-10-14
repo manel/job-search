@@ -36,8 +36,8 @@ EUR 79,000 was the prepared salary position. It was not submitted to Schneider E
 
 ## Materials and records
 
-- Legacy tailored CV: `job-search/cv/roles/schneider-principal-ux-designer.md`
-- Legacy tailored cover letter: `job-search/cover-letters/roles/schneider-principal-ux-designer.md`
+- Legacy tailored CV: `cv/roles/schneider-principal-ux-designer.md`
+- Legacy tailored cover letter: `cover-letters/roles/schneider-principal-ux-designer.md`
 
 ## History
 

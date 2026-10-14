@@ -38,11 +38,11 @@ Use `Employee Referral` and name Smailing Ventura only if he explicitly agrees t
 
 **Cover letter**
 
-Use `materials/cover-letters/datavant-senior-ux-designer-provider-experience.md`.
+Use `cover-letters/roles/datavant-senior-ux-designer-provider-experience-2026-09.md`.
 
 **Resume/CV**
 
-Lay out `materials/cv/tailored/datavant-senior-ux-designer-provider-experience.md` in Figma. Before submission, verify that the exported PDF has the correct page order, selectable text, embedded fonts, and working links.
+Lay out `cv/roles/datavant-senior-ux-designer-provider-experience-2026-09.md` in Figma. Before submission, verify that the exported PDF has the correct page order, selectable text, embedded fonts, and working links.
 
 ## Confirm before submission
 

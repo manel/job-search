@@ -37,7 +37,7 @@ source: LinkedIn conversation supplied by Manel on 2026-09-27
 
 The supplied attachment contains the conversation, including Manel's request for job description, salary, contract type and client identity, followed by Hugo's reply. The JD cuts off during preferred experience. A public search on 2026-09-27 did not establish an exact official Conkord posting; similar third-party vacancies are not evidence of the same client or contract.
 
-Basis: `strategy/positioning.md`, `strategy/target-roles.md`, `strategy/compensation.md`, `evidence/experience-facts.md`, and the Kings of Mambo entry in the read-only legacy CV.
+Basis: `context/positioning.md`, `context/target-roles.md`, `context/salary.md`, `evidence/experience-facts.md`, and the Kings of Mambo entry in the read-only legacy CV.
 
 ## History
 

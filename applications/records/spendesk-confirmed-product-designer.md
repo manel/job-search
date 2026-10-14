@@ -37,10 +37,10 @@ Strong overlap with financial and data-heavy B2B workflows, AI product work, des
 
 ## Materials and records
 
-- [Candidate survey response](../../materials/outreach/spendesk-candidate-survey-2026-09-29.md): recovered 2026-10-13 from Manel's edited response snapshots and the final revised closing answer. Survey submission remains unconfirmed.
-- Legacy interview preparation: `job-search/interviews/spendesk/spendesk-round1.md`
-- Legacy sent PDFs: `job-search/cv-pdf-to-send/Spendesk/`
-- Hiring Manager preparation: `interviews/spendesk-hiring-manager.md`
+- [Candidate survey response](../../outreach/spendesk-candidate-survey-2026-09-29.md): recovered 2026-10-13 from Manel's edited response snapshots and the final revised closing answer. Survey submission remains unconfirmed.
+- Legacy interview preparation: `interviews/spendesk/spendesk-round1.md`
+- Legacy sent PDFs: `cv-pdf-to-send/Spendesk/`
+- Hiring Manager preparation: `interviews/spendesk/spendesk-hiring-manager.md`
 
 ## History
 

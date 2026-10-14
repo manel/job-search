@@ -22,7 +22,7 @@ Rejected. Murphy AI said it had decided to proceed with other candidates. The me
 
 ## Materials and records
 
-- Legacy CV: `job-search/cv-pdf-to-send/MurphyAI/Manel Leiva CV 2026.pdf`
+- Legacy CV: `cv-pdf-to-send/MurphyAI/Manel Leiva CV 2026.pdf`
 
 Whether other materials were submitted is unknown.
 

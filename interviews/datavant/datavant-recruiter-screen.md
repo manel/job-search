@@ -6,15 +6,15 @@
 **Date:** Completed on Friday, 2026-09-25, confirmed by Manel  
 **Stage:** Recruiter screen completed; progression to Hiring Manager Interview confirmed; scheduling pending
 
-**Debrief, 2026-09-25:** Manel felt the interview with Aideen went very well and said this preparation document was very good. Aideen's subsequent email confirms progression to a 30-minute Hiring Manager Interview. Her scheduling update supplied on 2026-09-28 names Mary Bergeron and tentatively books Wednesday 30 September, 20:30-21:00 CEST, with Thursday and Friday alternatives; Manel's acceptance remains pending. Current scheduling details and employer preparation requirements are captured in the [application record](../applications/records/datavant-senior-ux-designer-provider-experience.md#hiring-manager-interview). The preparation below is retained as used; individual rehearsal exercises were not confirmed completed.
+**Debrief, 2026-09-25:** Manel felt the interview with Aideen went very well and said this preparation document was very good. Aideen's subsequent email confirms progression to a 30-minute Hiring Manager Interview. Her scheduling update supplied on 2026-09-28 names Mary Bergeron and tentatively books Wednesday 30 September, 20:30-21:00 CEST, with Thursday and Friday alternatives; Manel's acceptance remains pending. Current scheduling details and employer preparation requirements are captured in the [application record](../../applications/records/datavant-senior-ux-designer-provider-experience.md#hiring-manager-interview). The preparation below is retained as used; individual rehearsal exercises were not confirmed completed.
 
 ## Immediate priority before Friday: clear spoken answers
 
-**Added 2026-09-23 at Manel's request. Practice remains pending.** Spendesk rejected Manel citing presentation skills and Cyrièle's difficulty following his decks. Manel also recalls losing his own story and struggling with Clement's recruiter-screen questions asking for a specific past situation. No particular slide or moment was identified. See the [Spendesk feedback record](../applications/records/spendesk-confirmed-product-designer.md).
+**Added 2026-09-23 at Manel's request. Practice remains pending.** Spendesk rejected Manel citing presentation skills and Cyrièle's difficulty following his decks. Manel also recalls losing his own story and struggling with Clement's recruiter-screen questions asking for a specific past situation. No particular slide or moment was identified. See the [Spendesk feedback record](../../applications/records/spendesk-confirmed-product-designer.md).
 
 For Friday, prioritise selecting a relevant example and explaining it clearly aloud. Use the rest of this document as reference, not a script to read in full. A complete deck redesign is subsequent work; this meeting is recorded as a recruiter screen.
 
-For a product-case walkthrough, use problem framing → exploration → solution → outcomes, with your responsibility clear throughout. This is the proposed [deck structure](../strategy/application-assets-rework.md#case-structure-alongside-star), not a confirmed Datavant requirement. Manel certainly recalls Cyrièle asking for problem framing; the other three labels are tentative recollection. Use concise STAR answers for behavioural prompts, and follow Aideen's question rather than forcing every answer into a full case walkthrough.
+For a product-case walkthrough, use problem framing → exploration → solution → outcomes, with your responsibility clear throughout. This is the proposed [deck structure](../../context/application-assets-rework.md#case-structure-alongside-star), not a confirmed Datavant requirement. Manel certainly recalls Cyrièle asking for problem framing; the other three labels are tentative recollection. Use concise STAR answers for behavioural prompts, and follow Aideen's question rather than forcing every answer into a full case walkthrough.
 
 ### Prepare three short story cards
 
@@ -26,7 +26,7 @@ Use four bullet cues per card: situation, personal responsibility, action and ra
 | Disagreement / influencing others / a tradeoff | Abax investment and bounded Maker Days test | Explain Engineering's capacity concern, your shared business-case work with the Head of Design, the staffing tradeoff and production test. Keep the outcome tied to what shipped; do not invent ROI or claim sole ownership. |
 | A mistake / learning from failure | Remuner token-file deletion | Explain the mistaken duplicate-file assumption, short production outage, recovery, and subsequent deployment check and dependency change. Own the mistake; do not invent outage duration or claim recurrence was measured. |
 
-The latter two examples are documented in `interviews/spendesk-hiring-manager.md`. Confirm the exact incident details from your recollection before using them; do not fill gaps with a plausible story.
+The latter two examples are documented in `interviews/spendesk/spendesk-hiring-manager.md`. Confirm the exact incident details from your recollection before using them; do not fill gaps with a plausible story.
 
 ### Rehearse retrieval, not a memorised speech
 

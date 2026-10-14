@@ -61,7 +61,7 @@ Before investing in the take-home process, verify Spain eligibility directly wit
 
 - **External research, verified 2026-10-02:** [Exact official Cast AI posting](https://cast.ai/careers/apply/?gh_jid=4422270009), including the restricted country list, responsibilities, requirements, salary, process, and open state.
 - **External research, verified 2026-10-02:** [Exact Jobgether Lever repost](https://jobs.lever.co/jobgether/a01f4168-f5b6-4a07-9c41-9aae6def7b7a), which labels the role as Spain-based despite the conflicting employer eligibility list.
-- **Confirmed internal evidence:** `strategy/positioning.md`, `strategy/target-roles.md`, `strategy/pipeline-findings.md`, `strategy/compensation.md`, and `evidence/experience-facts.md`.
+- **Confirmed internal evidence:** `context/positioning.md`, `context/target-roles.md`, `context/pipeline-findings.md`, `context/salary.md`, and `evidence/experience-facts.md`.
 
 ## History
 

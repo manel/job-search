@@ -190,4 +190,4 @@ No conviertas estas dudas en un interrogatorio. Una pregunta bien formulada sobr
 - [Centro de ayuda de haddock](https://support.haddock.app/es/), comprobado el 1 de octubre de 2026: áreas actuales del producto, Fina, inventarios, documentos, conciliación, proveedores y personal.
 - La reserva de Google Calendar suministrada por Manel confirma fecha, duración y Google Meet. No confirma la agenda.
 - Las respuestas sobre experiencia se limitan a `evidence/experience-facts.md`; las cifras recordadas o reconstruidas se presentan como tales.
-- La revisión del 7 de octubre incorpora el alcance de `materials/cv/cv-base.md` y las prácticas, principios y usos de IA confirmados en el registro de experiencia. El inventario de Figma y la shortlist de portfolio sirven como contexto; no prueban por sí solos contribución, lanzamiento ni impacto de cada proyecto.
+- La revisión del 7 de octubre incorpora el alcance de `cv/cv-base.md` y las prácticas, principios y usos de IA confirmados en el registro de experiencia. El inventario de Figma y la shortlist de portfolio sirven como contexto; no prueban por sí solos contribución, lanzamiento ni impacto de cada proyecto.

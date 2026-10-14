@@ -38,8 +38,8 @@ EUR 85,000 was the prepared salary position. The job description did not ask for
 
 ## Materials and records
 
-- Legacy tailored CV: `job-search/cv/roles/qonto-senior-product-designer-ai-lab.md`
-- Legacy tailored cover letter: `job-search/cover-letters/roles/qonto-senior-product-designer-ai-lab.md`
+- Legacy tailored CV: `cv/roles/qonto-senior-product-designer-ai-lab.md`
+- Legacy tailored cover letter: `cover-letters/roles/qonto-senior-product-designer-ai-lab.md`
 
 ## History
 

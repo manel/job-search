@@ -38,7 +38,7 @@ Track this separately from the named-role application funnel; also show an inclu
 > Te tengo en cuenta para futuras oportunidades. 💫
 > Muchas gracias por tu tiempo. :)
 
-Saved CV: `/Users/manel/Dev/job-search/cv-pdf-to-send/Pilar (LinkedIn)/Manel Leiva CV 2026.pdf`. Exact submitted bytes remain unverified.
+Saved CV: `cv-pdf-to-send/Pilar (LinkedIn)/Manel Leiva CV 2026.pdf`. Exact submitted bytes remain unverified.
 
 ## History
 

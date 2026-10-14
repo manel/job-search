@@ -58,8 +58,8 @@ Finom publishes no salary range, while the application requires a gross annual E
 
 ## Prepared materials and application notes
 
-- [Tailored CV](../../materials/cv/tailored/finom-senior-product-designer-credit-cards.md), prepared 2026-10-13.
-- [Cover letter](../../materials/cover-letters/finom-senior-product-designer-credit-cards.md), prepared 2026-10-13.
+- [Tailored CV](../../cv/roles/finom-senior-product-designer-credit-cards.md), prepared 2026-10-13.
+- [Cover letter](../../cover-letters/roles/finom-senior-product-designer-credit-cards.md), prepared 2026-10-13.
 - Exactly two Markdown sources were prepared; the assistant generated no PDF. Submission is now user-confirmed, but use of these exact materials and final PDF QA remain unconfirmed. CV retains the full Remuner and Abacum remit, with selected customer-research, feedback, AI, system and commerce evidence. The letter acknowledges the recent web-product background. No native-mobile, lending, card, repayment or KYC design ownership is claimed.
 - Dataset Manager, AI agent and Abacum design-system case URLs returned HTTP 200 on 2026-10-13. This is a link check, not a new content or visual-craft audit.
 - Form checked 2026-10-13: requires CV, LinkedIn, portfolio, availability, work authorization, English level, location and gross annual EUR salary expectation, plus experience questions. No was recommended for the current-or-most-recent-role native-mobile question. Manel confirmed Spanish citizenship in chat; a work-authorization answer was prepared on that basis. The exact submitted answers, including mobile, English, availability and salary, remain unconfirmed.

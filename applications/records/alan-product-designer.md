@@ -133,13 +133,13 @@ Alan’s [compensation page](https://alan.com/en/careers/a/salary-equity) says a
 
 ## Prepared materials
 
-- Technical-interview preparation: [Live technical brief](../../interviews/alan-technical-interview.md), started 2026-10-13. Strategic-story clarification and mock rehearsal remain pending.
+- Technical-interview preparation: [Live technical brief](../../interviews/alan/alan-technical-interview.md), started 2026-10-13. Strategic-story clarification and mock rehearsal remain pending.
 
-- First-interview brief: [Alan first interview](../../interviews/alan-first-interview.md).
+- First-interview brief: [Alan first interview](../../interviews/alan/alan-first-interview.md).
 - Reusable behavioral cue cards: [Battle cards](../../interviews/behavioral-battle-cards.md). Seven supported behavioral stories, including the shipped IC-dashboard vague-feedback example. Personal Alan motivation is recorded in the brief. Spoken rehearsal is not independently verified.
 
-- Tailored CV: `materials/cv/tailored/alan-product-designer.md`
-- Cover letter: `materials/cover-letters/alan-product-designer.md`
+- Tailored CV: `cv/roles/alan-product-designer.md`
+- Cover letter: `cover-letters/roles/alan-product-designer.md`
 - Both were prepared as Markdown source for Figma. The direct application was confirmed submitted by Manel on 2026-10-01. The exact submitted files, PDF QA result, form answers, compensation answer, and receipt details have not been reconfirmed or archived.
 
 ## Sources
@@ -153,7 +153,7 @@ Alan’s [compensation page](https://alan.com/en/careers/a/salary-equity) says a
 
 - **Confirmed current role text:** Exact Ashby job description supplied by Manel on 2026-10-01.
 - **External research, verified 2026-10-01:** Alan's [official public Ashby job-board API](https://api.ashbyhq.com/posting-api/job-board/alan?includeCompensation=true) confirmed the exact job ID, title, Design & Research department, full-time employment, listed state, locations, publication timestamp of 2026-07-20, application URL, and absence of published compensation metadata.
-- **Confirmed internal evidence:** `evidence/experience-facts.md`, `strategy/positioning.md`, `strategy/target-roles.md`, and `strategy/pipeline-findings.md`.
+- **Confirmed internal evidence:** `evidence/experience-facts.md`, `context/positioning.md`, `context/target-roles.md`, and `context/pipeline-findings.md`.
 
 ## History
 

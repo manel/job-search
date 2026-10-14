@@ -37,8 +37,8 @@ The role was considered a reasonable fit despite Bunge being an agribusiness rat
 
 ## Materials and records
 
-- Legacy tailored CV: `job-search/cv/roles/bunge-senior-user-experience-designer.md`
-- Legacy tailored cover letter: `job-search/cover-letters/roles/bunge-senior-user-experience-designer.md`
+- Legacy tailored CV: `cv/roles/bunge-senior-user-experience-designer.md`
+- Legacy tailored cover letter: `cover-letters/roles/bunge-senior-user-experience-designer.md`
 
 ## History
 

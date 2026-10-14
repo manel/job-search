@@ -80,7 +80,7 @@ No New Relic contact or prior New Relic application is recorded. Check for a rel
 
 - **External research, verified 2026-10-01:** [Official New Relic posting](https://job-boards.greenhouse.io/newrelic/jobs/5396630008); title, location, open state, responsibilities, requirements, and hiring conditions. The full job description was also supplied directly by Manel on 2026-10-01.
 - **Confirmed current portfolio, verified live 2026-10-01:** [AI Agent](https://www.manel-leiva.com/cases/ai-agent), [Abax design system](https://www.manel-leiva.com/cases/design-systems), and [Dataset Manager](https://www.manel-leiva.com/cases/dataset-manager).
-- **Confirmed internal evidence:** `evidence/experience-facts.md`, `strategy/positioning.md`, and `strategy/target-roles.md`.
+- **Confirmed internal evidence:** `evidence/experience-facts.md`, `context/positioning.md`, and `context/target-roles.md`.
 
 ## History
 

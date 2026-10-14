@@ -99,8 +99,8 @@ Jobgether Lever posting `ce267460-c258-4c82-a45d-fa787b92116c` is an anonymized 
 
 ## Prepared materials
 
-- [Tailored CV](../../materials/cv/tailored/whitetech-senior-product-designer.md), prepared 2026-10-01 as Markdown source for Figma.
-- [Cover letter](../../materials/cover-letters/whitetech-senior-product-designer.md), prepared 2026-10-01 as Markdown source for Figma or the application form.
+- [Tailored CV](../../cv/roles/whitetech-senior-product-designer.md), prepared 2026-10-01 as Markdown source for Figma.
+- [Cover letter](../../cover-letters/roles/whitetech-senior-product-designer.md), prepared 2026-10-01 as Markdown source for Figma or the application form.
 
 Manel confirmed that the direct WhiteTech application was submitted on the morning of 2026-10-02. The exact submitted files, salary answer, other form answers, PDF extraction QA, and receipt details were not confirmed.
 
@@ -119,7 +119,7 @@ Manel confirmed that the direct WhiteTech application was submitted on the morni
 - **External research, verified 2026-10-02:** [Anonymized Jobgether Lever repost](https://jobs.lever.co/jobgether/ce267460-c258-4c82-a45d-fa787b92116c), listed for Spain and published 2026-09-28. Its near-verbatim match to the direct WhiteTech posting supports treating it as the same underlying vacancy; Jobgether does not explicitly identify WhiteTech.
 - **Confirmed user-supplied evidence, 2026-10-01:** Full JD pasted by Manel; consistent with the official posting.
 - **Confirmed current portfolio, verified live 2026-10-01:** [Abacum design system](https://www.manel-leiva.com/cases/design-systems), [Dataset Manager](https://www.manel-leiva.com/cases/dataset-manager), and [Remuner design system](https://www.manel-leiva.com/cases/design-system-remuner).
-- **Confirmed internal evidence:** `strategy/positioning.md`, `strategy/target-roles.md`, `strategy/compensation.md`, `strategy/pipeline-findings.md`, and `evidence/experience-facts.md`.
+- **Confirmed internal evidence:** `context/positioning.md`, `context/target-roles.md`, `context/salary.md`, `context/pipeline-findings.md`, and `evidence/experience-facts.md`.
 
 ## History
 
@@ -127,7 +127,7 @@ Manel confirmed that the direct WhiteTech application was submitted on the morni
 - 2026-10-01: Manel confirmed `No` for the Ukrainian/Russian question because he does not speak Russian; no Ukrainian proficiency is claimed. He reported an Abacum payslip figure of approximately EUR 5,461 `remuneración total` and approximately EUR 3,686 received after taxes and Cobee usage. Recorded EUR 5,500 gross monthly as a provisional employee/EOR recommendation, not an approved or disclosed figure. Pay-period structure and WhiteTech's engagement model remain unresolved.
 - 2026-10-01: Manel confirmed that the Abacum payslip included EUR 245.78 of `prorrata pagas extras`. This supports a 12-month comparator of EUR 65,532 gross annual. WhiteTech's engagement model remains unresolved, and EUR 5,500 gross monthly remains provisional rather than approved or disclosed.
 - 2026-10-01: Manel approved EUR 5,500 gross monthly for the application under an employee/EOR assumption. Prepared a tailored CV and cover letter as Markdown source for Figma. No PDF generated, form completed, salary disclosed, outreach sent, or application submitted.
-- 2026-10-02: Revised the tailored CV to the established reusable format after Manel flagged format drift: two summary sentences, four focused bullets per recent role, three bullets for earlier studio work, and four compact skills groups. Added the format as a durable rule in `strategy/writing-rules.md`. No application submitted.
+- 2026-10-02: Revised the tailored CV to the established reusable format after Manel flagged format drift: two summary sentences, four focused bullets per recent role, three bullets for earlier studio work, and four compact skills groups. Added the format as a durable rule in `context/writing-rules.md`. No application submitted.
 - 2026-10-02: Kept verified AI-tool use visible in the CV experience and skills through the concrete Codex-assisted, engineering-reviewed token-pipeline example. Removed it from the summary because it is supporting evidence rather than the primary positioning. Added a rule preventing relevant AI-assisted workflow evidence from being lost during future tailoring. No application submitted.
 - 2026-10-02: Assessed Jobgether Lever posting `ce267460-c258-4c82-a45d-fa787b92116c`. Its responsibilities, requirements, and distinctive benefits match the direct WhiteTech vacancy closely enough to treat it as an anonymized duplicate rather than a new role. Fit remains Proceed at high priority, but use the direct WhiteTech Greenhouse route and do not submit a second application through Jobgether. No application submitted.
 - 2026-10-02: Manel confirmed that he submitted the direct WhiteTech application that morning. Status changed to applied; exact submitted files, salary and other form answers, PDF QA, and receipt details remain unknown. The duplicate Jobgether route was explicitly changed to Skip / do not proceed.

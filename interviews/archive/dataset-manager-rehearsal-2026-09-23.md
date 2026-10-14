@@ -113,7 +113,7 @@ I’ll read that section and the supporting evidence, then prepare the three sto
 
 ## 2026-09-25T07:35:24.185Z — assistant
 
-I misunderstood: you meant three different examples. I’ve now read the [Datavant preparation file](/Users/manel/Dev/career-os/interviews/datavant-recruiter-screen.md) and its supporting notes. They also contain the Dataset Manager outcome I should have checked earlier.
+I misunderstood: you meant three different examples. I’ve now read the [Datavant preparation file](../datavant/datavant-recruiter-screen.md) and its supporting notes. They also contain the Dataset Manager outcome I should have checked earlier.
 
 Each card follows the requested four cues, with wording you can practise aloud.
 
@@ -147,5 +147,5 @@ Each card follows the requested four cues, with wording you can practise aloud.
 - **Result and learning:** We recovered from the outage and changed both the deployment check and the dependency. I learned that a design-token repository feeding a live product needs the same care as other production code. A file looking redundant isn’t enough evidence that it is safe to delete.
 :::
 
-The Abax and Remuner cards follow the [recorded incident notes](/Users/manel/Dev/career-os/interviews/spendesk-hiring-manager.md:80). **Check that their details match your recollection before using them**, especially the staffing decision and recovery sequence.
+The Abax and Remuner cards follow the [recorded incident notes](../spendesk/spendesk-hiring-manager.md). **Check that their details match your recollection before using them**, especially the staffing decision and recovery sequence.
 

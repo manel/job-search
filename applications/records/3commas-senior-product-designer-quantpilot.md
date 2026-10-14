@@ -36,9 +36,9 @@ EUR 76,000 gross annual was stated in the application form.
 
 ## Materials and records
 
-- Legacy tailored CV: `job-search/cv/roles/3commas-senior-product-designer-quantpilot.md`
-- Legacy tailored cover letter and form answers: `job-search/cover-letters/roles/3commas-senior-product-designer-quantpilot.md`
-- Legacy interview preparation: `job-search/interviews/3commas/3commas.md`
+- Legacy tailored CV: `cv/roles/3commas-senior-product-designer-quantpilot.md`
+- Legacy tailored cover letter and form answers: `cover-letters/roles/3commas-senior-product-designer-quantpilot.md`
+- Legacy interview preparation: `interviews/3commas/3commas.md`
 
 ## History
 

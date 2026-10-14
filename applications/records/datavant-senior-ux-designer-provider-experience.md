@@ -42,7 +42,7 @@ Datavant sent an automated acknowledgment at 11:52 CEST confirming receipt. That
 
 **Manel's selection, 2026-09-28:** Wednesday 2026-09-30 at 20:30-21:00 CEST works for him. Confirmation reply prepared; sending remains unconfirmed.
 
-**Interviewer background, 2026-09-29:** Manel supplied and identified Mary Bergeron's LinkedIn profile. It lists Product Team at Datavant since July 2026, former Senior Director of Product Management at Kyruus (June 2020-July 2024), and earlier Senior Product Manager roles at ezCater and Wayfair. These are profile-reported facts. Her specific current title and this role's reporting line remain unknown. The profile establishes product-management experience; the employer guide's Product Design leader description should not be treated as her verified title. The [hiring-manager brief](../../interviews/datavant-hiring-manager.md) now includes her background, dated recommendations, and explicitly inferred preparation implications. The scheduled interview stage is unchanged.
+**Interviewer background, 2026-09-29:** Manel supplied and identified Mary Bergeron's LinkedIn profile. It lists Product Team at Datavant since July 2026, former Senior Director of Product Management at Kyruus (June 2020-July 2024), and earlier Senior Product Manager roles at ezCater and Wayfair. These are profile-reported facts. Her specific current title and this role's reporting line remain unknown. The profile establishes product-management experience; the employer guide's Product Design leader description should not be treated as her verified title. The [hiring-manager brief](../../interviews/datavant/datavant-hiring-manager.md) now includes her background, dated recommendations, and explicitly inferred preparation implications. The scheduled interview stage is unchanged.
 
 **Employer preparation guide, reviewed 2026-09-25:** `Senior_UX_Designer_-_Interview_Prep.docx_(1).pdf`, supplied by Manel from `/Users/manel/Downloads/` (pages 1-2).
 
@@ -52,13 +52,13 @@ Datavant sent an automated acknowledgment at 11:52 CEST confirming receipt. That
 - **Interview Styles:** Behavioral and situational questions. The guide asks candidates to review STAR and prepare 5-10 specific past examples they can discuss in depth.
 - The recruiter will confirm the specific schedule, interviewers, and team-specific adjustments. The guide does not request a portfolio presentation for the Hiring Manager Interview.
 
-**Preparation, 2026-09-25:** Created a [hiring-manager brief](../../interviews/datavant-hiring-manager.md) and [eight-card STAR bank](../../interviews/datavant-star-examples.md) at Manel's request. Seven cards have a documented project or episode; the prioritisation card needs a specific incident. Interactive practice starts with a research-changed-the-design question; no hiring-manager mock answer has yet been received or assessed. Scheduling remains unconfirmed.
+**Preparation, 2026-09-25:** Created a [hiring-manager brief](../../interviews/datavant/datavant-hiring-manager.md) and [eight-card STAR bank](../../interviews/datavant/datavant-star-examples.md) at Manel's request. Seven cards have a documented project or episode; the prioritisation card needs a specific incident. Interactive practice starts with a research-changed-the-design question; no hiring-manager mock answer has yet been received or assessed. Scheduling remains unconfirmed.
 
 ## Recruiter screen
 
 **Completed, confirmed by Manel on 2026-09-25:** Manel had the interview with Aideen and felt it went very well. Aideen said she would email availability for the next round in the week of 2026-09-28. That email has since arrived and confirms progression to the Hiring Manager Interview; scheduling remains pending.
 
-**Preparation feedback, confirmed by Manel on 2026-09-25:** Manel said the [preparation brief](../../interviews/datavant-recruiter-screen.md) was very good. It included three short story cards, spoken rehearsal, listener-comprehension checks, and a recovery phrase following Spendesk's feedback. Completion of the individual practice exercises was not reported.
+**Preparation feedback, confirmed by Manel on 2026-09-25:** Manel said the [preparation brief](../../interviews/datavant/datavant-recruiter-screen.md) was very good. It included three short story cards, spoken rehearsal, listener-comprehension checks, and a recovery phrase following Spendesk's feedback. Completion of the individual practice exercises was not reported.
 
 Aideen Kelly, Talent Acquisition Partner at Datavant, invited Manel to a 30-minute video screening interview on 2026-09-23. After Manel submitted his availability, Aideen tentatively scheduled the call for Friday, 2026-09-25, from 10:45 to 11:15 CEST via Zoom. The interview is now confirmed completed.
 
@@ -106,17 +106,17 @@ The direct application has been submitted. Manel sent Smailing a LinkedIn messag
 
 ## Materials and records
 
-- [Feedback request to Aideen](../../materials/outreach/datavant-aideen-feedback-request-2026-10-04.md): drafted at Manel's request on 2026-10-04; recovered 2026-10-13. Sending and any feedback response remain unconfirmed.
-- Current tailored CV: `materials/cv/tailored/datavant-senior-ux-designer-provider-experience.md`
-- Current cover letter: `materials/cover-letters/datavant-senior-ux-designer-provider-experience.md`
-- Current application answers: `materials/application-answers/datavant-senior-ux-designer-provider-experience.md`
-- Prepared outreach: `materials/outreach/datavant-smailing-ventura.md`
-- Recruiter-screen preparation: `interviews/datavant-recruiter-screen.md`
-- Hiring-manager preparation: `interviews/datavant-hiring-manager.md`
-- STAR example bank: `interviews/datavant-star-examples.md`
-- Legacy July CV: `job-search/cv/roles/datavant-senior-ux-designer-provider-experience.md`
-- Legacy July cover letter and form answers: `job-search/cover-letters/roles/datavant-senior-ux-designer-provider-experience.md`
-- Legacy July sent PDFs: `job-search/cv-pdf-to-send/Datavant/`
+- [Feedback request to Aideen](../../outreach/datavant-aideen-feedback-request-2026-10-04.md): drafted at Manel's request on 2026-10-04; recovered 2026-10-13. Sending and any feedback response remain unconfirmed.
+- Current tailored CV: `cv/roles/datavant-senior-ux-designer-provider-experience-2026-09.md`
+- Current cover letter: `cover-letters/roles/datavant-senior-ux-designer-provider-experience-2026-09.md`
+- Current application answers: `application-answers/datavant-senior-ux-designer-provider-experience.md`
+- Prepared outreach: `outreach/datavant-smailing-ventura.md`
+- Recruiter-screen preparation: `interviews/datavant/datavant-recruiter-screen.md`
+- Hiring-manager preparation: `interviews/datavant/datavant-hiring-manager.md`
+- STAR example bank: `interviews/datavant/datavant-star-examples.md`
+- Legacy July CV: `cv/roles/datavant-senior-ux-designer-provider-experience.md`
+- Legacy July cover letter and form answers: `cover-letters/roles/datavant-senior-ux-designer-provider-experience.md`
+- Legacy July sent PDFs: `cv-pdf-to-send/Datavant/`
 - No PDF was generated by Codex or stored in the repository. Application submission and LinkedIn outreach to Smailing Ventura are confirmed.
 
 ## Sources

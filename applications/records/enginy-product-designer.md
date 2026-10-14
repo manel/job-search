@@ -73,9 +73,9 @@ Jaume Puig, Enginy's CTO and co-founder, publicly promoted the vacancy and asked
 
 ## Prepared materials
 
-- [LinkedIn message to Jaume Puig](../../materials/outreach/enginy-jaume-puig-2026-09-15.md): original final draft recovered from chat on 2026-10-13; sending remains unconfirmed.
-- Tailored CV copy: `materials/cv/tailored/enginy-product-designer.md`
-- Cover letter: `materials/cover-letters/enginy-product-designer.md`
+- [LinkedIn message to Jaume Puig](../../outreach/enginy-jaume-puig-2026-09-15.md): original final draft recovered from chat on 2026-10-13; sending remains unconfirmed.
+- Tailored CV copy: `cv/roles/enginy-product-designer.md`
+- Cover letter: `cover-letters/roles/enginy-product-designer.md`
 - Application submission was confirmed by Manel on 2026-09-15.
 
 ## Sources

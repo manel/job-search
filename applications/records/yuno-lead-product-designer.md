@@ -90,7 +90,7 @@ No prior Yuno application or warm contact is recorded in Career OS. The verified
 - **External research, verified 2026-10-02:** [Exact official Yuno Lever posting](https://jobs.lever.co/yuno/629673a2-c969-4c1b-8dbf-8e8be7bb455b), confirming the open role, Spain eligibility, remote IC scope, responsibilities, minimum qualifications, and benefits.
 - **External research, verified 2026-10-02:** [Live Yuno Lever application form](https://jobs.lever.co/yuno/629673a2-c969-4c1b-8dbf-8e8be7bb455b/apply), confirming the required compensation and English fields and the payments-experience question.
 - **Confirmed current portfolio, verified live 2026-10-02:** [Dataset Manager](https://www.manel-leiva.com/cases/dataset-manager), [Remuner AI agent](https://www.manel-leiva.com/cases/ai-agent), and [Abacum design system](https://www.manel-leiva.com/cases/design-systems).
-- **Confirmed internal evidence:** `strategy/positioning.md`, `strategy/target-roles.md`, `strategy/compensation.md`, `strategy/pipeline-findings.md`, `evidence/experience-facts.md`, and the recorded boundary on responsive-web delivery through iOS and Android webview apps.
+- **Confirmed internal evidence:** `context/positioning.md`, `context/target-roles.md`, `context/salary.md`, `context/pipeline-findings.md`, `evidence/experience-facts.md`, and the recorded boundary on responsive-web delivery through iOS and Android webview apps.
 
 ## History
 

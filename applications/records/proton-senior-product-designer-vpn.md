@@ -53,7 +53,7 @@ Required: CV, portfolio, office selection, current country, work eligibility, sa
 ## Sources
 
 - [Official JD and form](https://job-boards.eu.greenhouse.io/proton/jobs/4999112101), retrieved directly via curl after web-reader failure, 2026-10-13.
-- `strategy/target-roles.md`, `strategy/positioning.md`, `strategy/compensation.md`, `evidence/experience-facts.md`, `materials/cv/cv-base.md`.
+- `context/target-roles.md`, `context/positioning.md`, `context/salary.md`, `evidence/experience-facts.md`, `cv/cv-base.md`.
 
 ## History
 

@@ -75,14 +75,14 @@ No portfolio upload beyond the resume is required, and no explicit native-mobile
 
 ## Materials prepared
 
-- Tailored CV: `materials/cv/tailored/airhelp-senior-product-designer-b2b-product.md`
-- Cover letter: `materials/cover-letters/airhelp-senior-product-designer-b2b-product.md`
+- Tailored CV: `cv/roles/airhelp-senior-product-designer-b2b-product.md`
+- Cover letter: `cover-letters/roles/airhelp-senior-product-designer-b2b-product.md`
 
 ## Sources
 
 - **External research, verified 2026-09-23:** [Official Workable posting](https://apply.workable.com/airhelp/j/18A8C03F58/), exact role, locations, responsibilities, benefits, and published salary ranges.
 - **External research, verified 2026-09-23:** [Official Workable application form](https://apply.workable.com/airhelp/j/18A8C03F58/apply/), required questions and eligibility gates.
-- **Confirmed internal evidence:** `strategy/positioning.md`, `strategy/target-roles.md`, `strategy/compensation.md`, `evidence/experience-facts.md`, and current base-CV mobile evidence.
+- **Confirmed internal evidence:** `context/positioning.md`, `context/target-roles.md`, `context/salary.md`, `evidence/experience-facts.md`, and current base-CV mobile evidence.
 
 ## History
 

@@ -33,8 +33,8 @@ The submission confirmation shows the resume but does not show a cover letter. A
 
 ## Materials and records
 
-- Legacy CV: `job-search/cv-pdf-to-send/Remofirst/Manel Leiva CV 2026.pdf`
-- Legacy cover-letter file: `job-search/cv-pdf-to-send/Remofirst/Manel Leiva CL 2026.pdf`
+- Legacy CV: `cv-pdf-to-send/Remofirst/Manel Leiva CV 2026.pdf`
+- Legacy cover-letter file: `cv-pdf-to-send/Remofirst/Manel Leiva CL 2026.pdf`
 
 ## History
 

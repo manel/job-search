@@ -75,7 +75,7 @@ Do not present the design-token pipeline as repeated production frontend-feature
 - **External research, verified 2026-10-01:** [Official Bending Spoons FAQ](https://jobs.bendingspoons.com/faq), including Spain eligibility, one-active-application rule, reapplication guidance, and general process.
 - **External research, verified 2026-10-01:** [Official company product page](https://www.bendingspoons.com/), confirming a portfolio spanning products such as Vimeo, Evernote, StreamYard, and Brightcove; the vacancy does not identify an assignment.
 - **External research, partially verified 2026-10-01:** [Official application page](https://jobs.bendingspoons.com/positions/6686d0e2a65ca3994b3a415b/apply). The three-step flow and first-step personal details were indexed; later steps were not accessible.
-- **Confirmed internal evidence:** `strategy/positioning.md`, `strategy/target-roles.md`, `strategy/pipeline-findings.md`, `strategy/compensation.md`, and `evidence/experience-facts.md`.
+- **Confirmed internal evidence:** `context/positioning.md`, `context/target-roles.md`, `context/pipeline-findings.md`, `context/salary.md`, and `evidence/experience-facts.md`.
 
 ## History
 

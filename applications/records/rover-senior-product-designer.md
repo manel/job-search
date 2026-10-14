@@ -32,8 +32,8 @@ EUR 76,027, the top of the published range, was prepared as the salary position.
 
 ## Materials and records
 
-- Legacy tailored CV: `job-search/cv/roles/rover-senior-product-designer.md`
-- Legacy tailored cover letter: `job-search/cover-letters/roles/rover-senior-product-designer.md`
+- Legacy tailored CV: `cv/roles/rover-senior-product-designer.md`
+- Legacy tailored cover letter: `cover-letters/roles/rover-senior-product-designer.md`
 
 ## History
 

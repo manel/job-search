@@ -89,5 +89,5 @@ The most exposed answers are **why Button first**, **why 80%**, **what 47% meant
 ## Sources
 
 - [Spendesk role description](https://career.spendesk.com/jobs/8209958-confirmed-product-designer), checked 16 September 2026. It describes the portfolio stage and the role's product, design-system, research, and AI scope.
-- `interviews/spendesk-hiring-manager.md` and `applications/records/spendesk-confirmed-product-designer.md` for confirmed interview details and preparation boundaries.
-- `evidence/experience-facts.md` and the Abax notes in `/Users/manel/Dev/job-search/context/design-systems-notes.md` for ownership and outcome limits.
+- `interviews/spendesk/spendesk-hiring-manager.md` and `applications/records/spendesk-confirmed-product-designer.md` for confirmed interview details and preparation boundaries.
+- `evidence/experience-facts.md` and the Abax notes in `context/design-systems-notes.md` for ownership and outcome limits.

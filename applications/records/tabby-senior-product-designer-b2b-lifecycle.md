@@ -67,8 +67,8 @@ The response confirms retrospectively that Manel applied, but the submission dat
 
 ## Prepared materials
 
-- [Tailored CV](../../materials/cv/tailored/tabby-senior-product-designer-b2b-lifecycle.md), prepared 2026-09-29.
-- [Cover letter](../../materials/cover-letters/tabby-senior-product-designer-b2b-lifecycle.md), prepared 2026-09-29.
+- [Tailored CV](../../cv/roles/tabby-senior-product-designer-b2b-lifecycle.md), prepared 2026-09-29.
+- [Cover letter](../../cover-letters/roles/tabby-senior-product-designer-b2b-lifecycle.md), prepared 2026-09-29.
 - Markdown source for Figma. Lead evidence is Dataset Manager, supported by Remuner product ownership and design-system stewardship. No KYC or merchant-lifecycle ownership claimed. Whether these prepared files were the versions submitted is unknown.
 
 ## History

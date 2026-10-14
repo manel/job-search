@@ -4,7 +4,7 @@ import json
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
-brief = (ROOT / 'interviews/alan-first-interview.md').read_text()
+brief = (ROOT / 'interviews/alan/alan-first-interview.md').read_text()
 pages = json.loads((ROOT / 'interviews/textream/alan-first-meeting.textream').read_text())
 items = []
 for page in pages:
@@ -35,6 +35,6 @@ items = [item for group in ['About me', 'Interview', 'Project battle cards', 'Re
 
 template = (ROOT / 'interviews/reader-template.html').read_text()
 data = json.dumps(items, ensure_ascii=False).replace('<', '\\u003c')
-out = ROOT / 'interviews/alan-reader.html'
+out = ROOT / 'interviews/alan/alan-reader.html'
 out.write_text(template.replace('__READER_DATA__', data))
 print(f'{out}: {len(items)} sections')

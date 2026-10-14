@@ -34,8 +34,8 @@ EUR 78,000 was the recorded salary position. The available evidence does not con
 
 ## Materials and records
 
-- Legacy tailored CV: `job-search/cv/roles/fluidra-senior-design-systems-designer.md`
-- Legacy tailored cover letter: `job-search/cover-letters/roles/fluidra-senior-design-systems-designer.md`
+- Legacy tailored CV: `cv/roles/fluidra-senior-design-systems-designer.md`
+- Legacy tailored cover letter: `cover-letters/roles/fluidra-senior-design-systems-designer.md`
 
 ## History
 

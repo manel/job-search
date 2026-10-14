@@ -6,9 +6,9 @@ This repository is the durable source of truth for Manel Leiva's Senior, Lead, a
 
 Before making a recommendation or drafting application material:
 
-1. Read `strategy/positioning.md` and `strategy/target-roles.md`.
-2. Read `strategy/pipeline-findings.md` before recommending application volume or sourcing tactics.
-3. Read `strategy/compensation.md` before recommending a salary figure or interpreting compensation evidence.
+1. Read `context/positioning.md` and `context/target-roles.md`.
+2. Read `context/pipeline-findings.md` before recommending application volume or sourcing tactics.
+3. Read `context/salary.md` before recommending a salary figure or interpreting compensation evidence.
 4. Read `evidence/experience-facts.md` before making claims about experience or outcomes.
 5. Read the relevant file in `applications/records/` before acting on a live process.
 6. Treat dated external research, salary figures, and old application status as stale until checked.
@@ -30,7 +30,7 @@ For every external claim, record its source and last verification date. A short 
 
 - Strategy belongs in `strategy/`.
 - Claimable work history belongs in `evidence/`.
-- The working CV base is `materials/cv/cv-base.md`. Preserve each role's scope paragraph when tailoring; use `strategy/writing-rules.md` for format and claim discipline.
+- The working CV base is `cv/cv-base.md`. Preserve each role's scope paragraph when tailoring; use `context/writing-rules.md` for format and claim discipline.
 - One application record exists per company and role in `applications/records/`.
 - `applications/active.md` is a dashboard, not a second source of truth.
 - Tailored CVs, letters, and sent PDFs are historical records. Never overwrite an item after it has been sent.

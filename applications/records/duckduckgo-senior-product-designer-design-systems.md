@@ -99,7 +99,7 @@ No prior DuckDuckGo application or named warm contact was found in Career OS. Us
 - **External research, verified 2026-10-02:** Live Ashby application-form data for the same posting, confirming the visible required and optional fields above. No form was completed or submitted.
 - **External research, checked 2026-10-02:** [DuckDuckGo how we work](https://duckduckgo.com/how-we-work), confirming a distributed team in more than 27 countries; this does not establish Spain eligibility for this vacancy.
 - **Confirmed current portfolio, verified live 2026-10-02:** [Abacum design system](https://www.manel-leiva.com/cases/design-systems), [Remuner design system](https://www.manel-leiva.com/cases/design-system-remuner), and [Remuner AI agent](https://www.manel-leiva.com/cases/ai-agent).
-- **Confirmed internal evidence:** `evidence/experience-facts.md`, `strategy/positioning.md`, `strategy/target-roles.md`, `strategy/compensation.md`, and current approved CV copy.
+- **Confirmed internal evidence:** `evidence/experience-facts.md`, `context/positioning.md`, `context/target-roles.md`, `context/salary.md`, and current approved CV copy.
 
 ## History
 

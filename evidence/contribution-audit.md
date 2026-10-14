@@ -15,7 +15,7 @@ Manel asked to pause OLX CV reworking and continue the inventory/audit. Portfoli
 - [Product-work inventory](product-work-inventory.md): artifact observations and Figma links.
 - [Abacum snapshot](figma-product-scope-2026-10-06.json) and [Remuner snapshot](figma-remuner-product-scope-2026-10-06.json): page indexes, sampled structures, annotations and inspected node IDs.
 - [Experience register](experience-facts.md): confirmed individual contributions and supported outcomes.
-- Existing interview preparation: [Spendesk](../interviews/spendesk-hiring-manager.md) and [Datavant](../interviews/datavant-hiring-manager.md). These contain useful accounts of Abax's shared operating model; where personal authorship of a practice is unclear, ask rather than assigning it to Manel.
+- Existing interview preparation: [Spendesk](../interviews/spendesk/spendesk-hiring-manager.md) and [Datavant](../interviews/datavant/datavant-hiring-manager.md). These contain useful accounts of Abax's shared operating model; where personal authorship of a practice is unclear, ask rather than assigning it to Manel.
 
 These groups combine related iterations into coherent workstreams. They are not a project count, an exhaustive work history, or a confirmed list of shipped work. Covers, templates, exploration/handoff copies and the two matching Remuner Dataset indexes are not separate projects.
 
@@ -94,7 +94,7 @@ All three foundations now have concrete user-confirmed examples: shared file org
 
 ## Audit completion and focused follow-up
 
-The source inventory and scope consolidation are complete for the supplied connected files and nine archives. The [portfolio shortlist](../strategy/portfolio-story-shortlist.md) sets the editorial priorities. This does not mean every project is attributed or publication-ready.
+The source inventory and scope consolidation are complete for the supplied connected files and nine archives. The [portfolio shortlist](../context/portfolio-story-shortlist.md) sets the editorial priorities. This does not mean every project is attributed or publication-ready.
 
 The earlier foundation questions have now been answered with concrete practices and participants. Do not restart them or request another broad file dump. Next, confirm contribution, release status and one consequential decision for the selected Remuner example only. Qualitative feedback or a documented limitation is useful; metrics are not required. Other workstreams remain searchable candidates, with their unknowns explicit.
 

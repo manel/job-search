@@ -154,7 +154,7 @@ Si pierdes el hilo: «Déjame resumirlo. El problema era… Yo me encargué de�
 
 ## Sources and evidence boundaries
 
-- [Application record](../applications/records/kabilio-senior-ux-ui-designer.md): invitation, booking, approved salary expectations and application uncertainties.
-- [Experience facts](../evidence/experience-facts.md): personal ownership, shared decisions, outcomes and departure boundaries.
-- [Prepared CV](../materials/cv/tailored/kabilio-senior-ux-ui-designer.md) and [Spanish letter](../materials/cover-letters/kabilio-senior-ux-ui-designer.md): prepared positioning; the actual submitted files remain unknown.
+- [Application record](../../applications/records/kabilio-senior-ux-ui-designer.md): invitation, booking, approved salary expectations and application uncertainties.
+- [Experience facts](../../evidence/experience-facts.md): personal ownership, shared decisions, outcomes and departure boundaries.
+- [Prepared CV](../../cv/roles/kabilio-senior-ux-ui-designer.md) and [Spanish letter](../../cover-letters/roles/kabilio-senior-ux-ui-designer.md): prepared positioning; the actual submitted files remain unknown.
 - Official product and job pages linked above, checked 2026-10-04. Suggested answers and questions are preparation, not statements from the interviewer.

@@ -6,9 +6,9 @@ Adapted 2026-10-07 to the latest confirmed role scope and design-practice eviden
 
 Confirmed scope: motivation, background, past-project walkthroughs, from Jorge’s confirmation supplied 2026-10-06. Manel believes Celine is a Senior Product Designer; independent verification on 2026-10-09 was inconclusive. Her title and the exact portfolio format remain unconfirmed. A deck was not requested in the supplied email.
 
-[Local interview reader](alan-reader.html) includes the spoken answers and the rest of this brief. [Textream version](textream/alan-first-meeting.textream) contains the spoken pages. Use one page per story; app testing and spoken rehearsal remain pending.
+[Local interview reader](alan-reader.html) includes the spoken answers and the rest of this brief. [Textream version](../textream/alan-first-meeting.textream) contains the spoken pages. Use one page per story; app testing and spoken rehearsal remain pending.
 
-Keep the [behavioral selector and cue cards](behavioral-battle-cards.md) open during rehearsal. Keep only the selector and chosen card visible during the call; avoid scrolling through the full reference bank.
+Keep the [behavioral selector and cue cards](../behavioral-battle-cards.md) open during rehearsal. Keep only the selector and chosen card visible during the call; avoid scrolling through the full reference bank.
 
 ## First-call priorities
 
@@ -180,9 +180,9 @@ After: record what was discussed, role scope, salary/level information, next ste
 
 ## Sources and boundaries
 
-- [Alan application record](../applications/records/alan-product-designer.md): Jorge’s emails and current appointment.
-- [Experience register](../evidence/experience-facts.md), re-read 2026-10-07: ownership, broad remit, mentoring, departure, results and limits.
-- [Detailed story bank](datavant-star-examples.md): supporting historical details; current register takes precedence.
-- [Positioning](../strategy/positioning.md), [target roles](../strategy/target-roles.md), [compensation](../strategy/compensation.md), [writing rules](../strategy/writing-rules.md).
+- [Alan application record](../../applications/records/alan-product-designer.md): Jorge’s emails and current appointment.
+- [Experience register](../../evidence/experience-facts.md), re-read 2026-10-07: ownership, broad remit, mentoring, departure, results and limits.
+- [Detailed story bank](../datavant/datavant-star-examples.md): supporting historical details; current register takes precedence.
+- [Positioning](../../context/positioning.md), [target roles](../../context/target-roles.md), [compensation](../../context/salary.md), [writing rules](../../context/writing-rules.md).
 - Official [hiring-process guide](https://alan.com/en/careers/a/hiring-process-step-by-step), checked 2026-10-06: screening covers role/history/next step and motivation; later stages vary by role. Exact design sequence remains unknown.
 - Official [compensation policy](https://alan.com/en/careers/a/salary-equity), checked 2026-10-06: assessed level determines salary/equity; France/Spain grid is published; final offer is binding. Guide says level is non-negotiable once decided. Numeric grid values were not verified.

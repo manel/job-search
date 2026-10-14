@@ -73,13 +73,13 @@ The live Lever form requires a CV, name, email, phone, current location, and con
 - **External research, verified 2026-10-02:** [Exact official OLX posting](https://jobs.eu.lever.co/olx/8d783669-ace0-409c-b003-b61087a4b69b), including title, Spain-remote location, responsibilities, requirements, contract, benefits, and hiring process.
 - **External research, verified 2026-10-02:** [Live OLX Lever application form](https://jobs.eu.lever.co/olx/8d783669-ace0-409c-b003-b61087a4b69b/apply), including required fields and Spain-location acknowledgment.
 - **Confirmed current portfolio, verified live 2026-10-02:** [AI Agent](https://www.manel-leiva.com/cases/ai-agent), [Abacum design system](https://www.manel-leiva.com/cases/design-systems), [Remuner design system](https://www.manel-leiva.com/cases/design-system-remuner), and [Dataset Manager](https://www.manel-leiva.com/cases/dataset-manager).
-- **Confirmed internal evidence:** `evidence/experience-facts.md`, `strategy/positioning.md`, `strategy/target-roles.md`, `strategy/pipeline-findings.md`, and `applications/records/olx-otodom-senior-design-system-designer.md`.
+- **Confirmed internal evidence:** `evidence/experience-facts.md`, `context/positioning.md`, `context/target-roles.md`, `context/pipeline-findings.md`, and `applications/records/olx-otodom-senior-design-system-designer.md`.
 
 ## Prepared materials
 
-- [CV source](../../materials/cv/tailored/olx-senior-product-designer-ai-native.md)
-- [Cover-letter source](../../materials/cover-letters/olx-senior-product-designer-ai-native.md)
-- [Daria outreach drafts](../../materials/outreach/olx-daria-brylova.md)
+- [CV source](../../cv/roles/olx-senior-product-designer-ai-native.md)
+- [Cover-letter source](../../cover-letters/roles/olx-senior-product-designer-ai-native.md)
+- [Daria outreach drafts](../../outreach/olx-daria-brylova.md)
 
 ## History
 

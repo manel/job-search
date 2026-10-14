@@ -43,4 +43,4 @@ The vague-feedback story was added on 2026-10-09 from Manel’s account; design 
 
 ## Local browser reader
 
-Open [alan-reader.html](../alan-reader.html) in a browser. It includes all Textream answers plus the reference sections from [alan-first-interview.md](../alan-first-interview.md). Use search, text-size controls and left/right arrow keys; load a revised Textream file with the button in the sidebar. To refresh both answers and Markdown reference notes on disk, run `python3 scripts/build-alan-reader.py` from the repository. No server, account, or network connection is required.
+Open [alan-reader.html](../alan/alan-reader.html) in a browser. It includes all Textream answers plus the reference sections from [alan-first-interview.md](../alan/alan-first-interview.md). Use search, text-size controls and left/right arrow keys; load a revised Textream file with the button in the sidebar. To refresh both answers and Markdown reference notes on disk, run `python3 scripts/build-alan-reader.py` from the repository. No server, account, or network connection is required.

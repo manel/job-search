@@ -32,8 +32,8 @@ EUR 85,000 was the recorded salary position. The available evidence does not con
 
 ## Materials and records
 
-- Legacy tailored CV: `job-search/cv/roles/deel-staff-product-designer.md`
-- Legacy tailored cover letter: `job-search/cover-letters/roles/deel-staff-product-designer.md`
+- Legacy tailored CV: `cv/roles/deel-staff-product-designer.md`
+- Legacy tailored cover letter: `cover-letters/roles/deel-staff-product-designer.md`
 
 ## History
 

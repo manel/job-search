@@ -6,7 +6,7 @@
 
 Live homepage inspected in Firefox. Search-tool extraction differed from the browser and is not reliable for the current homepage copy. The desktop view retains a long introduction before work; selected projects run Dataset Manager, Modeling language, Remuner AI, Abax, Remuner design system. Mobile layout has not been rechecked.
 
-Evidence: `evidence/experience-facts.md`, especially Remuner platform scope, Abacum squad scope, Dataset Manager and pipeline ownership. Editorial context: `strategy/portfolio-story-shortlist.md`. This is a presentation assessment, not an explanation for employer rejections.
+Evidence: `evidence/experience-facts.md`, especially Remuner platform scope, Abacum squad scope, Dataset Manager and pipeline ownership. Editorial context: `context/portfolio-story-shortlist.md`. This is a presentation assessment, not an explanation for employer rejections.
 
 ## Homepage proposal
 

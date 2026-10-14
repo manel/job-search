@@ -34,7 +34,7 @@ Manel reports an initial response on Friday 2026-08-14 at 12:21. Submission and 
 
 The legacy ledger marked this role skipped on 2026-07-08 because its then-published EUR 50,000-65,000 band was below the then-target salary. Manel's 2026-09-23 confirmation establishes that he subsequently entered the process. Do not retain the old skip as the final outcome or infer what salary he stated. The URL and Senior title come from the legacy Valeria record; the pasted email itself does not identify the requisition.
 
-Saved CV: `/Users/manel/Dev/job-search/cv-pdf-to-send/ValeriaHR/Manel Leiva CV 2026.pdf`. Exact submitted bytes are unverified.
+Saved CV: `cv-pdf-to-send/ValeriaHR/Manel Leiva CV 2026.pdf`. Exact submitted bytes are unverified.
 
 ## Employer wording supplied by Manel
 

@@ -26,8 +26,8 @@ The legacy assessment considered this the strongest of the three Deel openings b
 
 ## Materials and records
 
-- Legacy tailored CV: `job-search/cv/roles/deel-senior-staff-product-designer-ai.md`
-- Legacy tailored cover letter: `job-search/cover-letters/roles/deel-senior-staff-product-designer-ai.md`
+- Legacy tailored CV: `cv/roles/deel-senior-staff-product-designer-ai.md`
+- Legacy tailored cover letter: `cover-letters/roles/deel-senior-staff-product-designer-ai.md`
 
 ## History
 

@@ -36,9 +36,9 @@ EUR 85,000 was the recorded salary position. The available evidence does not con
 
 ## Materials and records
 
-- Legacy tailored CV: `job-search/cv/roles/olx-otodom-senior-product-designer-design-system.md`
-- Legacy tailored cover letter: `job-search/cover-letters/roles/olx-otodom-senior-product-designer-design-system.md`
-- Legacy interview preparation: `job-search/interviews/olx/olx.md`
+- Legacy tailored CV: `cv/roles/olx-otodom-senior-product-designer-design-system.md`
+- Legacy tailored cover letter: `cover-letters/roles/olx-otodom-senior-product-designer-design-system.md`
+- Legacy interview preparation: `interviews/olx/olx.md`
 
 ## History
 
