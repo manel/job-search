@@ -21,7 +21,7 @@ Proceed; application materials have not been prepared. Recheck the vacancy befor
 
 ## Needs clarification or evidence
 
-Resolve the stated next step before investing further. A Proceed assessment can still have an unresolved prerequisite; Conkord has a Skip recommendation awaiting your decision.
+Resolve the stated next step before investing further. A Proceed assessment can still have an unresolved prerequisite.
 
 - [Proton, Senior Product Designer (VPN)](records/proton-senior-product-designer-vpn.md): deferred on 2026-10-13. Live Barcelona vacancy, EUR 49,000–80,000; confirm willingness for mostly onsite work and identify shipped consumer visual-craft/motion evidence. Strong systems and complex-workflow overlap; no application or materials prepared.
 
@@ -30,7 +30,6 @@ Resolve the stated next step before investing further. A Proceed assessment can 
 - [DuckDuckGo, Senior Product Designer, Design Systems](records/duckduckgo-senior-product-designer-design-systems.md): Proceed, medium-priority stretch; confirm Spain employment eligibility before preparing the CV and required written answers. No materials prepared or application submitted.
 - [Tether, Senior Product Designer (Wallets)](records/tether-senior-product-designer-wallets.md): proceed as a medium-priority stretch. Manel has practical self-custodial-wallet experience and partial crypto-domain knowledge, but no shipped wallet/crypto product or wallet-specific portfolio case. Check the USD range and Spain engagement model before applying; application answers must be Manel's own.
 - [AIOS Medical, Product Designer](records/aios-product-designer.md): Proceed, medium priority; confirm interest in the healthcare mission and high-intensity culture before drafting. Product allocation, Spain engagement, base/equity split and US overlap remain checks. No materials prepared or application submitted.
-- [Conkord, Senior E-commerce UX Designer](records/conkord-senior-ecommerce-ux-designer.md): recruiter exchange confirmed from supplied messages; skip recommended on 2026-09-27 for B2C e-commerce evidence mismatch and contract terms. No decline sent; user decision pending.
 
 ## Confirmed active
 
@@ -59,6 +58,7 @@ Employer has paused progression for Manel without communicating a final rejectio
 
 Not being pursued under the recorded decisions. Prepared historical materials do not make a role active.
 
+- [Conkord, Senior E-commerce UX Designer](records/conkord-senior-ecommerce-ux-designer.md): Manel declined via LinkedIn (confirmed 2026-10-14; send date not confirmed). B2C e-commerce focus and freelance budget for three days onsite; asked the recruiter to keep him in mind for B2B Senior roles.
 - [Preply, Global Senior CRM & Lifecycle Designer](records/preply-global-senior-crm-lifecycle-designer.md): September 22 Skip recovered from chat on 2026-10-13. Direct CRM/lifecycle and retention/conversion evidence was missing. No application confirmed; current vacancy unknown. Reassess against the income-first priority if a concrete opportunity returns.
 - [Macel Mendoza, unnamed client — Senior Product Designer](records/macel-mendoza-unnamed-client-senior-product-designer.md): skipped on 2026-10-05 for consumer mobile-first/craft-led work mismatch and unsupported consumer-at-scale requirements. Closely matching agency vacancy verified; actual client and recruiter mandate unknown. No outreach or application sent.
 - [Cast AI (Kimchi), Senior Product Designer](records/cast-ai-senior-product-designer-kimchi.md): skipped on 2026-10-02. Jobgether labels the vacancy as Spain-based, but Cast AI's exact official posting explicitly restricts applications to 12 other European countries and excludes Spain. No materials prepared or application submitted.

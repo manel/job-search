@@ -1,8 +1,8 @@
 ---
 company: Conkord — unnamed insurance client
 role: Senior E-commerce UX Designer
-status: recruiter-contact
-status_verified_on: 2026-09-27
+status: skipped
+status_verified_on: 2026-10-14
 status_confidence: confirmed
 posting_status: unknown
 fit_decision: skip
@@ -11,9 +11,9 @@ application_channel: LinkedIn recruiter outreach
 warm_path: Hugo Miranda — Business Manager at Conkord
 applied_on:
 last_contact_on: 2026-09-25
-outcome_stage: recruiter-information-exchange
+outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Recommended decline; reply not sent and user decision not confirmed
+next_action: None. Manel asked Hugo to keep him in mind for Senior B2B product roles; respond if Hugo comes back with one
 salary_stated: No candidate expectation stated; recruiter budget EUR 220–300 per day on a B2B contract
 job_url:
 source: LinkedIn conversation supplied by Manel on 2026-09-27
@@ -23,7 +23,7 @@ source: LinkedIn conversation supplied by Manel on 2026-09-27
 
 ## Assessment
 
-**Skip recommendation on the current evidence.** This is an assessment, not a confirmed withdrawal or employer rejection. No application or call is confirmed.
+**Skipped. Manel declined by message to Hugo** ([text](../../outreach/conkord-hugo-miranda-decline.md)), citing the B2C e-commerce focus versus his B2B work, and a budget below what he'd consider for a freelance engagement with three days onsite. No application or call took place.
 
 - **Confirmed from recruiter:** Barcelona hybrid, three days onsite; B2B contract at approximately EUR 220–300/day; initial term through the end of 2026, with renewal anticipated in 2027. Renewal is not a commitment. Client identity was requested but remains undisclosed.
 - **Required work:** End-to-end B2C purchase and post-purchase journeys, landing/product pages, basket and checkout; user testing; decisions informed by analytics and A/B testing specialists.
@@ -44,3 +44,4 @@ Basis: `context/positioning.md`, `context/target-roles.md`, `context/salary.md`,
 - 2026-09-24: Recruiter contacted Manel; Manel requested more details. Date inferred from the Thursday conversation label and Friday Sep 25 sidebar date.
 - 2026-09-25: Recruiter supplied contract budget, initial duration and partial JD.
 - 2026-09-27: Conversation reviewed; skip recommended. No decline sent.
+- 2026-10-14: Manel confirmed he declined via LinkedIn and supplied the message text; exact send date not confirmed. He asked Hugo to keep him in mind for Senior Product Designer roles on B2B products. Status set to skipped.
