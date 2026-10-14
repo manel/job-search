@@ -6,6 +6,13 @@ Senior Product Designer based in Barcelona. Strongest in complex B2B workflows, 
 
 The useful through-line is making complex product logic understandable and usable, not visual-production work alone.
 
+## Role breadth
+
+- **Remuner:** Sole designer with product-design responsibility across the sales-compensation platform, including data integrations and configuration, compensation plans and payouts, rep and manager experiences, approval workflows, roles and permissions, and administration. AI-agent and design-system work are selected examples within that remit.
+- **Abacum:** Product-design work across the Integrations squad and later the Engine squad, covering integrations, dataset workflows, dimensions, mappings, models, and the modeling language. Dataset Manager is one selected project, not the whole role.
+
+Lead each CV role with this scope, then choose the evidence most relevant to the vacancy. Product-design ownership does not imply sole product-strategy or engineering ownership.
+
 ## Proof themes
 
 - Complex financial and compensation workflows at Abacum and Remuner.

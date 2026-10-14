@@ -1,11 +1,11 @@
 ---
 company: BVNK
 role: Lead Product Designer, Design System
-status: stale
-status_verified_on: 2026-09-14
+status: role-closed
+status_verified_on: 2026-09-22
 status_confidence: confirmed
-posting_status: unknown
-posting_checked_on:
+posting_status: closed
+posting_checked_on: 2026-09-22
 fit_decision: proceed
 applied_on: 2026-06-01
 last_contact_on: 2026-07-09
@@ -13,14 +13,14 @@ next_action: None; reactivate if BVNK responds
 next_action_on:
 salary_stated: EUR 90,000 position recorded; whether it was stated in the application is unknown
 job_url: https://job-boards.eu.greenhouse.io/bvnk/jobs/4876105101
-source: Direct status confirmation from Manel; legacy application ledger
+source: Direct status confirmation from Manel; legacy application ledger; official BVNK Greenhouse posting and jobs board checked 2026-09-22
 ---
 
 # BVNK — Lead Product Designer, Design System
 
-## Current status
+## Outcome
 
-The application is stale. Manel confirmed on 2026-09-14 that BVNK had not responded since the application was submitted on 2026-06-01. This is not a confirmed rejection. The vacancy's current status has not been verified.
+BVNK did not respond to the application submitted on 2026-06-01. On 2026-09-22, the exact Greenhouse URL redirected to BVNK's openings page with an error flag. The board listed 13 other live roles and no Product Design vacancy. The vacancy is therefore recorded as `role-closed`, not as an employer rejection.
 
 ## Fit assessment
 
@@ -40,3 +40,4 @@ EUR 90,000 was the recorded salary position. The available evidence does not con
 - 2026-06-01: Application submitted.
 - 2026-07-09: Connection note sent to Anton Yee.
 - 2026-09-14: Manel confirmed there had been no response; application marked stale.
+- 2026-09-22: The exact vacancy redirected to BVNK's openings page with an error flag and was absent from the 13 live roles; recorded as role closed with no employer decision.

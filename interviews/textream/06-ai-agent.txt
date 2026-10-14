@@ -1,0 +1,13 @@
+[AI / scope / trust / zero to one]
+
+At Remuner, I designed a conversational agent for questions about commissions and sales plans.
+
+As the sole designer, I owned the interface, conversation design, answer formats, and design-side boundaries. Engineering owned the technical architecture, and we agreed the scope with the founders. There wasn't a PM on this project.
+
+We started from the data Engineering could make available. I designed the experience around supported questions, refusals for questions outside that scope, and different contexts for reps and managers.
+
+Reps could ask about their own plans. Managers could also ask about their teams. Answers used tables or lists when that made the information easier to understand.
+
+The agent launched to all customers. Feedback was mixed, and we continued improving tone, terminology, and presentation. I don't have reliable adoption or accuracy metrics, so I wouldn't present the launch as proof that every answer was correct.
+
+[pause — let them ask]

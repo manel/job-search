@@ -1,0 +1,659 @@
+{
+  "checked_on": "2026-09-23",
+  "method": "pypdf extraction and font/annotation inspection; pdfplumber cross-check for BVNK, Datavant, Biorce, AirHelp, Datavant 2, Moniepoint; visual review of both AirHelp and old Datavant pages and Biorce page 1",
+  "limits": "Current saved files may differ from bytes originally submitted. Type3 fonts are not classified as no text when extraction succeeds. Link count is PDF annotation count; viewer auto-detection may still work.",
+  "files": [
+    {
+      "folder": "3commas",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/3commas/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1011,
+      "chars": [
+        1651,
+        1019
+      ],
+      "starts": [
+        "Manel Leiva Senior Product Designer , AI Products S U M M A R Y Senior Product Designer wi",
+        "Senior UX Designer & Co-founder Kings of Mambo Sep 2010 - Nov 2021 \u00b7 Barcelona, hybrid Co-"
+      ],
+      "links": 0,
+      "sha256": "6c6d82735b10eea52d7fcf343382568529ade653d28afee2d2f0f44ec641f0b0",
+      "font_subtypes": [
+        "/Type3"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "AirHelp",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/AirHelp/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 23,
+      "chars": [
+        1818,
+        1342
+      ],
+      "starts": [
+        "Senior Product Designer Manel Leiva SUMMARY Senior Product Designer with 15 years designin",
+        "\u2022 Built the Abax design system alongside product work: token  architecture, component libr"
+      ],
+      "links": 0,
+      "sha256": "98d6c97f8514dbfbb3591b0ed5cd250177c4e2272c3f1a0b7bf2e527fcdfccbc",
+      "font_subtypes": [
+        "/Type0"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "BVNK",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/BVNK/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1165,
+      "chars": [
+        0,
+        0
+      ],
+      "starts": [
+        "",
+        ""
+      ],
+      "links": 0,
+      "sha256": "6670c43ef9c791b88e298ae97ee755d20f434d977a5eb0b64c0fc7d9034fb11a",
+      "font_subtypes": [],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Biorce",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Biorce/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1123,
+      "chars": [
+        1777,
+        1221
+      ],
+      "starts": [
+        "Manel Leiva Senior Design Systems Designer S U M M A R Y Senior Product Designer with 15 y",
+        "Senior UX Designer & Co-founder Kings of Mambo Sep 2010 - Nov 2021 \u00b7 Barcelona, hybrid Co-"
+      ],
+      "links": 0,
+      "sha256": "3f0a3b8a20a7be25b29aa7ace1c27767c22f29de69f772ebe360a0cb855cd319",
+      "font_subtypes": [
+        "/Type3"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Bitpanda/DS",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Bitpanda/DS/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 4030,
+      "chars": [
+        2546,
+        907
+      ],
+      "starts": [
+        "Manel Leiva Senior Design Systems Designer S U M M A R Y Senior Design Systems Designer wi",
+        "Kept MUI as the base component library rather than building from scratch.  That tradeof f "
+      ],
+      "links": 0,
+      "sha256": "47db4468b9e12584acb7be8f6d31c5c36a23e758241a0ff771f200ae147d576e",
+      "font_subtypes": [
+        "/Type3"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Bitpanda/DS2",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Bitpanda/DS2/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 771,
+      "chars": [
+        0,
+        0
+      ],
+      "starts": [
+        "",
+        ""
+      ],
+      "links": 0,
+      "sha256": "c9325805e4ec32f9e0288907f501ba96e9b72b5652a588e1a9255f6b93ac5a69",
+      "font_subtypes": [],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Bitpanda/Trading",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Bitpanda/Trading/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1174,
+      "chars": [
+        0,
+        0
+      ],
+      "starts": [
+        "",
+        ""
+      ],
+      "links": 0,
+      "sha256": "2ce3755339af2a027ec2f1d0bc4f61ef3c14200e418bf02f4bfb86e9a8958e1d",
+      "font_subtypes": [],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Bunge",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Bunge/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1194,
+      "chars": [
+        1986,
+        1221
+      ],
+      "starts": [
+        "Manel Leiva Senior UX Designer S U M M A R Y Senior Product Designer with 15 years designi",
+        "Senior UX Designer & Co-founder Kings of Mambo Sep 2010 - Nov 2021 \u00b7 Barcelona, hybrid Co-"
+      ],
+      "links": 0,
+      "sha256": "9e8dc03c1f2e1e054051839fdc9fa4c09b815698a9e0e059fd4630b47580f33c",
+      "font_subtypes": [
+        "/Type3"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Cloudpay",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Cloudpay/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 770,
+      "chars": [
+        0,
+        0
+      ],
+      "starts": [
+        "",
+        ""
+      ],
+      "links": 0,
+      "sha256": "9adbb65090426079d26ac5b21ec85fc6b1264426b5c3816bc817ceeddbc56a56",
+      "font_subtypes": [],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Datavant",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Datavant/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 942,
+      "chars": [
+        0,
+        0
+      ],
+      "starts": [
+        "",
+        ""
+      ],
+      "links": 0,
+      "sha256": "4e79aeb512277e6efd6587149ef65e4393d8238c97e686a876079c3a03392c99",
+      "font_subtypes": [],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Datavant 2",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Datavant 2/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 23,
+      "chars": [
+        1929,
+        1374
+      ],
+      "starts": [
+        "Senior Product Designer Manel Leiva SUMMARY Senior Product Designer with 15 years designin",
+        "\u2022 Built the Abax design system alongside product work: token  architecture, component libr"
+      ],
+      "links": 0,
+      "sha256": "3a03eb613e281c9b3f37fd4cb061bde1f697c643dcf123029a7b9bfe86c25492",
+      "font_subtypes": [
+        "/Type0"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Deel",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Deel/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1119,
+      "chars": [
+        1770,
+        1221
+      ],
+      "starts": [
+        "Manel Leiva Staf f Product Designer S U M M A R Y Staf f Product Designer with 15 years de",
+        "Senior UX Designer & Co-founder Kings of Mambo Sep 2010 - Nov 2021 \u00b7 Barcelona, hybrid Co-"
+      ],
+      "links": 0,
+      "sha256": "1f8959179235769802b74fb4469686148b66498c5770f81816aa46ac4f6d9e1c",
+      "font_subtypes": [
+        "/Type3"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Enginy",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Enginy/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1244,
+      "chars": [
+        1697,
+        1641
+      ],
+      "starts": [
+        "Manel Leiva Senior Product Designer S U M M A R Y Senior Product Designer with 15 years de",
+        "Built the Abax design system alongside product work: token  architecture, component librar"
+      ],
+      "links": 0,
+      "sha256": "859d748df226455a05e289354e5ee1f08d55839893e240b21e5aba0729cfb5a4",
+      "font_subtypes": [
+        "/Type3"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Evinova",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Evinova/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 771,
+      "chars": [
+        0,
+        0
+      ],
+      "starts": [
+        "",
+        ""
+      ],
+      "links": 0,
+      "sha256": "3dafe8b07aba47e11e9a73e2a1acfa7641580e5487038f3b4bb760f37f524027",
+      "font_subtypes": [],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Factorial/IT spinoff",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Factorial/IT spinoff/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1213,
+      "chars": [
+        2526,
+        713
+      ],
+      "starts": [
+        "Manel Leiva Senior Product Designer S U M M A R Y Senior Product Designer with a track rec",
+        "Contributed to design system standardisation across squads: token  architecture, component"
+      ],
+      "links": 0,
+      "sha256": "2e10f69354549eadbdcf45689cbf564b326c46d9f4cf5eba70f3cc10e6f250fb",
+      "font_subtypes": [
+        "/Type3"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Factorial/Platform domain",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Factorial/Platform domain/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1152,
+      "chars": [
+        1881,
+        1221
+      ],
+      "starts": [
+        "Manel Leiva Senior Product Designer S U M M A R Y Senior Product Designer with 15 years de",
+        "Senior UX Designer & Co-founder Kings of Mambo Sep 2010 - Nov 2021 \u00b7 Barcelona, hybrid Co-"
+      ],
+      "links": 0,
+      "sha256": "d3cd049a3d791b16fa31290e5aa45029375135418cfd0e9e4419a1b2f6735322",
+      "font_subtypes": [
+        "/Type3"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Finom",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Finom/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1170,
+      "chars": [
+        0,
+        0
+      ],
+      "starts": [
+        "",
+        ""
+      ],
+      "links": 0,
+      "sha256": "e41042a4a877878af7e930fd9ffc133f9f6a05549d1e3bf9d8d5dae6d804154d",
+      "font_subtypes": [],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Fluidra",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Fluidra/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1124,
+      "chars": [
+        1825,
+        1221
+      ],
+      "starts": [
+        "Manel Leiva Senior Design Systems Designer S U M M A R Y Senior Product Designer with 15 y",
+        "Senior UX Designer & Co-founder Kings of Mambo Sep 2010 - Nov 2021 \u00b7 Barcelona, hybrid Co-"
+      ],
+      "links": 0,
+      "sha256": "51bb1b9cdd3d4d40102f23f92e6341b7b7e7911f0e1b2d4cae8b40448b242caf",
+      "font_subtypes": [
+        "/Type3"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Hostaway",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Hostaway/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1318,
+      "chars": [
+        0,
+        0
+      ],
+      "starts": [
+        "",
+        ""
+      ],
+      "links": 0,
+      "sha256": "79553b77194179aab342a0617f7c778d3a8e8de3aac918275e4c42d00da001b1",
+      "font_subtypes": [],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Moniepoint",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Moniepoint/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 23,
+      "chars": [
+        1759,
+        1339
+      ],
+      "starts": [
+        "Senior Product Designer Manel Leiva SUMMARY Senior Product Designer with 15 years designin",
+        "\u2022 Set adoption targets up front and used feature flags and squad- owned migration backlogs"
+      ],
+      "links": 0,
+      "sha256": "b5e89af5fe2aaa34640bf323a45f7f89e9bd553fc734c9d6d93c0dcbea833c51",
+      "font_subtypes": [
+        "/Type0"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "MurphyAI",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/MurphyAI/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1451,
+      "chars": [
+        2000,
+        1939
+      ],
+      "starts": [
+        "Manel Leiva Senior Product Designer S U M M A R Y Senior Product Designer with 15 years of",
+        "Co-led the business case for Abacum's design system with the Head of  Design and presented"
+      ],
+      "links": 0,
+      "sha256": "83d92b7014e35ba8a14f8660d2d6874eea7a2110ce69508a6337c871715afba2",
+      "font_subtypes": [
+        "/Type3"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "OLX",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/OLX/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1078,
+      "chars": [
+        1910,
+        1019
+      ],
+      "starts": [
+        "Manel Leiva Senior Product Designer , Design  Systems S U M M A R Y Senior Product Designe",
+        "Senior UX Designer & Co-founder Kings of Mambo Sep 2010 - Nov 2021 \u00b7 Barcelona, hybrid Co-"
+      ],
+      "links": 0,
+      "sha256": "f6b345f6cca4711fe4f28c1d40538f628e8fd47f5272f16eacd76643b2757c26",
+      "font_subtypes": [
+        "/Type3"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Perk",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Perk/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 783,
+      "chars": [
+        0,
+        0
+      ],
+      "starts": [
+        "",
+        ""
+      ],
+      "links": 0,
+      "sha256": "46ae9ee226e9a42cd8ccbc7635c325377892810622794093411d0f3374cb3d97",
+      "font_subtypes": [],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Pilar (LinkedIn)",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Pilar (LinkedIn)/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1320,
+      "chars": [
+        1901,
+        1545
+      ],
+      "starts": [
+        "Manel Leiva Senior Product Designer S U M M A R Y Senior Product Designer with 15 years of",
+        "Led research and design for a consistent formula language across the  modelling layer , us"
+      ],
+      "links": 0,
+      "sha256": "93c5bbf7f6b8ef7c1d3c6e182e596eaca4019837a08fb37616bb8f323a6f5839",
+      "font_subtypes": [
+        "/Type3"
+      ],
+      "confirmed_cycle_in_audit": false,
+      "separate_confirmed_recruiter_review": true
+    },
+    {
+      "folder": "Qonto",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Qonto/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 786,
+      "chars": [
+        0,
+        0
+      ],
+      "starts": [
+        "",
+        ""
+      ],
+      "links": 0,
+      "sha256": "b4cd3283197afda6b5bd79c9661bb16e0326367dc44db723f7cf656e763eedef",
+      "font_subtypes": [],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Remofirst",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Remofirst/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1449,
+      "chars": [
+        2023,
+        1881
+      ],
+      "starts": [
+        "Manel Leiva Senior Product Designer S U M M A R Y Senior Product Designer with 15 years of",
+        "Used customer feedback and qualitative research to inform product  decisions across comple"
+      ],
+      "links": 0,
+      "sha256": "9c7934b6b091109c98d0a850fce9ba96df533a155740adcd12821d607be349dc",
+      "font_subtypes": [
+        "/Type3"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Secfix",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Secfix/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1465,
+      "chars": [
+        2006,
+        1959
+      ],
+      "starts": [
+        "Manel Leiva Senior Product Designer S U M M A R Y Senior Product Designer with 15 years of",
+        "Co-led the business case for Abacum's design system with the Head of  Design and presented"
+      ],
+      "links": 0,
+      "sha256": "908e769b32a5d0b4151e5aed85d78086569727d446d87d94ef09f12231f5ca41",
+      "font_subtypes": [
+        "/Type3"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Spendesk",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Spendesk/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1465,
+      "chars": [
+        2006,
+        1959
+      ],
+      "starts": [
+        "Manel Leiva Senior Product Designer S U M M A R Y Senior Product Designer with 15 years of",
+        "Co-led the business case for Abacum's design system with the Head of  Design and presented"
+      ],
+      "links": 0,
+      "sha256": "908e769b32a5d0b4151e5aed85d78086569727d446d87d94ef09f12231f5ca41",
+      "font_subtypes": [
+        "/Type3"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Typeform",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Typeform/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1196,
+      "chars": [
+        2624,
+        518
+      ],
+      "starts": [
+        "Manel Leiva Senior Product Designer S U M M A R Y Senior Product Designer specialising in ",
+        "Senior UX Designer & Co-founder Kings of Mambo Sep 2010 - Nov 2021 \u00b7 Barcelona, hybrid Co-"
+      ],
+      "links": 0,
+      "sha256": "ea68ebcda7e1ee676ae4ef7da1293458d61c25670147682556839434d0f10ee5",
+      "font_subtypes": [
+        "/Type3"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "ValeriaHR",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/ValeriaHR/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1152,
+      "chars": [
+        1881,
+        1221
+      ],
+      "starts": [
+        "Manel Leiva Senior Product Designer S U M M A R Y Senior Product Designer with 15 years de",
+        "Senior UX Designer & Co-founder Kings of Mambo Sep 2010 - Nov 2021 \u00b7 Barcelona, hybrid Co-"
+      ],
+      "links": 0,
+      "sha256": "b97844781a1a2ebf995e92064f253ebbd3f8863e940bba71bbbc3dd2f7b7a110",
+      "font_subtypes": [
+        "/Type3"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "Wayflyer",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/Wayflyer/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1096,
+      "chars": [
+        1878,
+        1080
+      ],
+      "starts": [
+        "Manel Leiva Senior Product Designer S U M M A R Y Senior Product Designer with 15 years de",
+        "Senior UX Designer & Co-founder Kings of Mambo Sep 2010 - Nov 2021 \u00b7 Barcelona, hybrid Co-"
+      ],
+      "links": 0,
+      "sha256": "d05e4b73ef8244f31fbeb08198ccba7fefb52f16e90310a102325cb1da2b5470",
+      "font_subtypes": [
+        "/Type3"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    },
+    {
+      "folder": "eDreams",
+      "path": "/Users/manel/Dev/job-search/cv-pdf-to-send/eDreams/Manel Leiva CV 2026.pdf",
+      "pages": 2,
+      "kb": 1142,
+      "chars": [
+        1901,
+        1036
+      ],
+      "starts": [
+        "Manel Leiva Senior Product Designer S U M M A R Y Senior Product Designer with 15 years of",
+        "Led research and design for a consistent formula language across the  modelling layer , us"
+      ],
+      "links": 0,
+      "sha256": "2a883faf434380053c9db0f2ec34dfb890ea664b0135681ad66190fdb995c319",
+      "font_subtypes": [
+        "/Type3"
+      ],
+      "confirmed_cycle_in_audit": true,
+      "separate_confirmed_recruiter_review": false
+    }
+  ]
+}

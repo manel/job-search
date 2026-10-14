@@ -1,5 +1,17 @@
 # Pipeline findings
 
+**Rehearsal recovery, 2026-10-13:** The [23–25 September worktree transcript](../interviews/archive/dataset-manager-rehearsal-2026-09-23.md) contains two English practice answers with assistant feedback. Earlier statements that no practice answer had been received should be read as dated snapshots. This establishes submitted practice, not independently verified spoken fluency or improvement.
+
+**Current evidence note, 2026-10-13:** [Alan's first-interview feedback](../applications/records/alan-product-designer.md) confirms progression and recognises complex-product simplification and AI/code practice, while asking for more concrete project direction and outcome examples. Prepare the live technical exercise around problem framing, alternatives, tradeoffs and success criteria. This is additional interview evidence, not a diagnosis of earlier screening rejections. The September “next action” and numerical snapshots below are historical; the Datavant process subsequently ended in rejection. [Chat recovery audit](../analysis/2026-10-13/chat-documentation-audit.md).
+
+**Feedback update, 2026-09-23:** [Spendesk](../applications/records/spendesk-confirmed-product-designer.md) rejected Manel after the Hiring Manager portfolio interview. Manel reports that Spendesk described him as a strong candidate but cited very low presentation skills and Cyrièle's difficulty following the decks. She shared [The Muse's STAR-method article](https://www.themuse.com/advice/star-interview-method) (reviewed 2026-09-23). This establishes a presentation-comprehension concern in this interview; it does not explain earlier screen rejections. No specific slide or moment was identified, and the relative contribution of slides, pacing, and delivery remains unknown.
+
+**Separate self-report:** Manel recalls sometimes feeling lost in his own story and struggling to answer Clement's recruiter-screen behavioural prompts, such as “tell me about a moment when…”. This is Manel's recollection, not an independent employer assessment of Clement's comprehension. It makes relevant example selection and concise spoken answers an urgent practice priority beyond deck visuals.
+
+**Next action, pending:** rehearse aloud before Datavant's Friday 25 September recruiter screen, using specific examples and a concise situation/task/action/result structure. The record tentatively lists 10:45–11:15 CEST; acceptance reply remains unconfirmed. Test whether an unfamiliar listener can accurately repeat the problem, Manel's role, key decision, and supported outcome, and whether the answer addresses the question asked. Follow this with broader deck simplification. See the [rework plan](application-assets-rework.md) and [dated audit addendum](../analysis/2026-09-23/application-and-portfolio-audit.md#feedback-addendum--23-september-2026-after-the-snapshot). No rehearsal or improvement validation is recorded as completed. Historical numerical snapshots below predate this feedback and remain unchanged.
+
+**Newer audit:** [23 September application and live-portfolio audit](../analysis/2026-09-23/application-and-portfolio-audit.md). The cycle-level count is now 32 confirmed role applications across 28 named companies, with five known first interviews/screens (15.6%). One additional recruiter profile review via Pilar is tracked separately (33 submissions/reviews inclusive). Valeria and Moniepoint were reconciled from direct user-supplied evidence during the audit. It counts Datavant's July and September applications separately. The report separates unresolved outcomes, portfolio eras, PDF defects, and testable presentation hypotheses. The 14 September baseline below is retained as history.
+
 Snapshot: 2026-09-14. Based on 32 reconciled role records. This analysis describes the recorded pipeline; it does not establish why employers made decisions unless they supplied specific feedback.
 
 ## Baseline
@@ -69,6 +81,14 @@ As of 2026-09-15, Manel's working minimum for the right Senior Product Designer 
 
 “Closer match,” “many qualified applicants,” and similar language are outcomes, not feedback. Do not convert them into claims about visual craft, seniority, location, AI depth, or design-system scale.
 
+### Figma PDF exports may be an ATS-screening confound
+
+**Confirmed observation, reported by Manel on 2026-09-15:** PDFs exported from the current Figma workflow contain outlined text rather than embedded fonts. This makes the files substantially larger and prevents the text from being reliably selected, searched, or parsed.
+
+**Inference:** CVs exported this way may not be readable by an applicant tracking system and could be one contributor to low submitted-to-conversation conversion. The current evidence does not establish that these PDFs caused any rejection or quantify their effect.
+
+Before submitting a CV, verify that its PDF contains selectable, extractable text and embedded fonts. Use an alternative export workflow when it does not. Record the PDF generation method for the next cohort so this factor can be separated from targeting, framing, portfolio proof, location, and other screening variables.
+
 ## Operating changes
 
 1. Apply only after the domain, work type, IC scope, location, and genuine-interest gates pass.
@@ -79,6 +99,7 @@ As of 2026-09-15, Manel's working minimum for the right Senior Product Designer 
 6. After repeated screen rejection at one company, require changed evidence, role shape, or access before reapplying.
 7. Keep salary calibrated to verified level and published bands. Treat EUR 60,000-65,000 as an observed Spain-market signal, not a universal band or an automatic target.
 8. Track application channel, warm path, portfolio version, outcome stage, and rejection-reason class prospectively.
+9. Verify that every submitted CV PDF has selectable, extractable text and embedded fonts; record its generation method.
 
 ## Metrics for the next cohort
 
@@ -91,5 +112,6 @@ Review after the next 10 submitted applications:
 - rejection stage and whether feedback was generic or specific;
 - salary requested, salary stated, published band, and outcome;
 - portfolio version and exact case linked.
+- CV PDF generation method and whether its text was extractable.
 
 Ten applications will still be a small sample. Use the review to identify large directional changes, not to claim statistical certainty.

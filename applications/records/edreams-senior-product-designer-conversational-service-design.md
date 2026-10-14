@@ -18,6 +18,8 @@ source: eDreams automated submission confirmation supplied by Manel; Career Stra
 
 ## Current state
 
+The [professional/personal AI-use answer](../../materials/application-answers/edreams-ai-use-2026-09-10.md) was recovered from the application chat on 2026-10-13. It is the historical draft, not a verified copy of the submitted form answer; its evidence limits are recorded in the file.
+
 Application submission is confirmed. As of 2026-09-14, only the automated acknowledgement had been received; no human response had arrived. eDreams said it would review the application and contact Manel within the following weeks if there was an initial fit.
 
 Review the status on 2026-09-24, the tenth business day after submission. Do not reply to the automated confirmation address. If a follow-up is appropriate, first identify a recruiter, hiring manager, or other usable channel.

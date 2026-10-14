@@ -1,0 +1,17 @@
+[Vague feedback / clarify the real problem]
+
+At Remuner, we received feedback that the dashboard for sales reps wasn't intuitive enough. I didn't want to assume that meant we needed to redesign the interface.
+
+I identified the users who had given that feedback and arranged interviews to understand where they were getting stuck.
+
+The same complaint described different problems. One user didn't understand how their compensation plan was calculated. Another couldn't tell which metrics affected it. A third saw a commission amount but didn't know when they would receive it, because their payout covered a three-month period.
+
+We compared those findings with our existing evidence and prioritised the problems by severity, focusing on changes that could help users quickly.
+
+As the sole designer, I designed all of the changes. For example, I added access to a summary of the plan calculation, with a route to the full detail. For quarterly payouts, I designed a period selector and information about payment timing and when the period would close.
+
+The changes shipped. In testing, users could understand the information they had previously been missing. That gave us qualitative evidence that the changes addressed those specific problems.
+
+The important point was turning one vague complaint into separate, actionable problems, each with its own solution.
+
+[pause — let them ask]

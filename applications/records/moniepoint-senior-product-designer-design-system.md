@@ -1,8 +1,8 @@
 ---
 company: Moniepoint
 role: Senior Product Designer - Design System
-status: in-progress
-status_verified_on: 2026-09-15
+status: applied
+status_verified_on: 2026-09-23
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-09-15
@@ -11,18 +11,22 @@ role_lane: design-systems
 application_channel: direct
 warm_path: No personal connection recorded; hiring owner unknown
 portfolio_version: 2026-09-15
-applied_on:
-last_contact_on:
-outcome_stage: not-submitted
+applied_on: 2026-09-15
+last_contact_on: 2026-09-15
+outcome_stage: no-response
 rejection_reason_class: none
-next_action: Paste the tailored CV into Figma, export independently, and submit through Greenhouse with both design-system cases; ask for the salary range at the first human exchange
-next_action_on:
-salary_stated: Not stated; employer range unknown
+next_action: Await a human response; review status on 2026-09-29 and ask for the salary range at the first human exchange
+next_action_on: 2026-09-29
+salary_stated: No stated figure recorded; submitted form value unverified; employer range unknown
 job_url: https://job-boards.eu.greenhouse.io/moniepoint/jobs/4955355101
-source: JD supplied by Manel; official Moniepoint Greenhouse posting; confirmed internal evidence; live portfolio cases
+source: Greenhouse acknowledgment dated 2026-09-15 12:04 supplied by Manel on 2026-09-23; JD supplied by Manel; official Moniepoint Greenhouse posting; confirmed internal evidence; live portfolio cases
 ---
 
 # Moniepoint — Senior Product Designer, Design System
+
+## Current status
+
+Application receipt is confirmed by Moniepoint's Greenhouse acknowledgment dated 2026-09-15 at 12:04, supplied by Manel on 2026-09-23. No human review, interview invitation, or decision is recorded. A saved CV exists at `job-search/cv-pdf-to-send/Moniepoint/Manel Leiva CV 2026.pdf`; its presence and current readability do not establish the exact bytes uploaded or which case links were submitted.
 
 ## Decision
 
@@ -61,7 +65,7 @@ Both cases were confirmed live on 2026-09-15. The application should link them d
 
 ## Sourcing path
 
-No prior Moniepoint application or personal connection is recorded, and the hiring owner is unknown. Apply through the official Greenhouse posting while checking Manel's own network for a real mutual connection; do not delay a ready application for speculative outreach.
+No personal connection is recorded, and the hiring owner is unknown. The direct Greenhouse application is confirmed submitted on 2026-09-15.
 
 This is a useful retest of the design-systems lane. The earlier zero-conversation result across seven design-system applications predates the expanded live portfolio evidence and therefore should not be treated as evidence against this application.
 
@@ -69,7 +73,7 @@ This is a useful retest of the design-systems lane. The earlier zero-conversatio
 
 - Tailored CV copy: `materials/cv/tailored/moniepoint-senior-product-designer-design-system.md`
 - Cover letter: `materials/cover-letters/moniepoint-senior-product-designer-design-system.md`
-- No PDF was generated. Application submission is not confirmed.
+- The initial preparation generated Markdown only. A saved PDF was found during the 2026-09-23 audit, and Manel supplied the application receipt confirming submission on 2026-09-15.
 
 ## Sources
 
@@ -83,3 +87,5 @@ This is a useful retest of the design-systems lane. The earlier zero-conversatio
 
 - 2026-09-15: Role assessed before drafting. Decision set to proceed. Official vacancy confirmed open for remote Spain; no application materials were drafted and no application was submitted.
 - 2026-09-15: Tailored CV copy and a short cover letter were prepared as Markdown files. No PDF was generated and no application was submitted.
+- 2026-09-15 12:04: Greenhouse acknowledged receipt of the Senior Product Designer - Design System application. This event was supplied and reconciled on 2026-09-23; it supersedes the preparation-only status above.
+- 2026-09-23: Manel supplied the acknowledgment. Status corrected to applied; no human response confirmed.

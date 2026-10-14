@@ -2,6 +2,17 @@
 
 Create one file per company and role in `records/`, named `company-role.md`.
 
+Use [the dashboard](active.md) to review the action queue. Keep its sections distinct:
+
+- **Ready to apply:** Proceed with CV/cover-letter sources prepared; export, PDF QA and vacancy checks may remain.
+- **Prepare application:** Proceed, with drafting still needed and no recorded prerequisite blocking it.
+- **Needs clarification or evidence:** a prerequisite, portfolio gap or user decision remains unresolved. Retain the actual Proceed/Defer/Skip assessment in the summary.
+- **Confirmed active:** submission or an ongoing employer process is confirmed.
+- **Skipped:** the recorded decision is not to pursue; historical prepared materials do not make it active.
+- **Rejected / closed vacancies / unverified provenance:** retain these separately from candidate fit decisions.
+
+Dashboard placement is an action grouping, not a new application status or fit decision. Use the individual record as the source of truth; include the next action and preserve uncertainty. Date vacancy checks so an old assessment is not mistaken for a live opening.
+
 Use this frontmatter:
 
 ```yaml

@@ -6,3 +6,28 @@
 - Avoid generic AI language, inflated claims, filler, and em dashes.
 - Preserve current approved copy unless the task is explicitly a rewrite.
 - A cover letter should be short, role-specific, and grounded in the fit assessment.
+- Use a warm, simple greeting and natural motivation in cover letters and outreach. Preserve Manel's edited wording; avoid literal translations that sound unnatural in Spanish.
+- For design-system roles, lead with building and maintaining systems, cross-squad scope and ongoing stewardship. A count of systems built is supporting evidence, not the whole seniority argument.
+- Avoid unsupported chronology such as “before moving into SaaS” for Kings of Mambo or unnecessary “recent” qualifiers. Its broader product scope is documented in the evidence register.
+
+## Tailored CV format
+
+- Reuse the established structure in `materials/cv/tailored/`; do not invent a new layout for each application.
+- Use two concise summary sentences: the approved general positioning first, then the strongest role-specific evidence. Do not turn the summary into a dense paragraph or repeat the skills section.
+- Add `SELECTED WORK` near the top when direct case links materially help the application. Use two or three short descriptive links.
+- Under each recent role, begin with a short scope paragraph stating product coverage and responsibility. Follow it with three or four focused achievement bullets. The scope paragraph is separate from the selected achievements; do not let tailoring reduce a broad role to its best-documented project. In the Markdown source, keep each bullet as its own standalone paragraph so it can become a separate bullet in Figma. Do not collapse several achievements into one prose block or use more bullets merely to repeat keywords.
+- Give earlier roles two or three bullets. Preserve formal historical titles; tailor only the top headline.
+- Keep each bullet focused on one problem, responsibility, decision, or supported result. Preserve ownership and evidence qualifiers when shortening.
+- Consolidate skills into three or four compact inline groups. Prefer relevant evidence over exhaustive keyword lists.
+- When a role explicitly values AI-tool use, retain one concrete, verified AI-assisted workflow in the experience section and make `AI-assisted workflows` visible in the skills label. Do not hide it under a generic tools list, treat AI-product design as proof of tool use, or overstate technical implementation.
+- Reduce copy before reducing type size. Do not impose a one-page limit; keep role entries together where possible.
+- Unless requested otherwise, deliver Markdown source for Figma only. PDF export and QA are separate tasks.
+
+## Base CV and role scope
+
+- Consult `evidence/product-work-inventory.md` for the broader product-area inventory and artifact references; use project-level claims only when supported in the experience register.
+- Use `materials/cv/cv-base.md` as the working base for future CVs. It is grounded in the evidence register; newly revised copy remains subject to Manel's review.
+- Preserve platform-wide product-design responsibility at Remuner and the Integrations-to-Engine progression at Abacum in every tailored CV. Shorten the area list when needed, but retain the breadth and ownership boundary.
+- Tailor the selected achievements and their order to the vacancy. Keep detailed project evidence in the register rather than filling the CV with a feature inventory.
+- Treat Figma/implementation files as evidence of artifacts and product coverage. They do not establish personal ownership, release status, research findings, or impact without corroboration.
+- Do not overwrite submitted CVs when revising the base. Apply the new structure to future drafts and explicitly requested revisions.

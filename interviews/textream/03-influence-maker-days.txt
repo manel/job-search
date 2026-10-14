@@ -1,0 +1,13 @@
+[Pushback / influence / capacity tradeoff]
+
+At Abacum, Engineering was concerned that a design system would compete with squad priorities and never make it into production.
+
+I co-led the business case with the Head of Design. We showed examples of inconsistencies across the product and compared different ways to staff the work.
+
+The team chose a focused Maker Days week. That meant more people stepping away from squad work, but for a shorter period.
+
+My contribution included the business case and parts of the token and component-library work. Engineering built the original implementation pipeline.
+
+During that week, the token setup and the first Button reached production. That gave us concrete evidence that the path from design to code worked. It didn't prove financial return or complete the wider migration.
+
+[pause — let them ask]

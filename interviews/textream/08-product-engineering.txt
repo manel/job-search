@@ -1,0 +1,9 @@
+[Working with Product and Engineering]
+
+I work closely with Product and Engineering from the beginning of a project. Before I start designing, I involve them to understand the problem, the project requirements, and any technical constraints.
+
+I keep them involved as the design develops, rather than waiting until handoff. I share work in progress so we can check that the direction still makes sense and identify anything that might be difficult to build.
+
+If a constraint comes up, we can discuss the options while the design is still evolving. That helps me avoid making assumptions and discovering important issues too late.
+
+[pause — let them ask]

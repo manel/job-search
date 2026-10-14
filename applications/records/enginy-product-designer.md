@@ -73,6 +73,7 @@ Jaume Puig, Enginy's CTO and co-founder, publicly promoted the vacancy and asked
 
 ## Prepared materials
 
+- [LinkedIn message to Jaume Puig](../../materials/outreach/enginy-jaume-puig-2026-09-15.md): original final draft recovered from chat on 2026-10-13; sending remains unconfirmed.
 - Tailored CV copy: `materials/cv/tailored/enginy-product-designer.md`
 - Cover letter: `materials/cover-letters/enginy-product-designer.md`
 - Application submission was confirmed by Manel on 2026-09-15.
@@ -92,3 +93,4 @@ Jaume Puig, Enginy's CTO and co-founder, publicly promoted the vacancy and asked
 - 2026-09-15: Cover letter revised at Manel's request to use a closer, warmer voice based on his previous application writing. Evidence and scope claims were unchanged.
 - 2026-09-15: Manel entered EUR 62,000 gross annual as the salary expectation in the application form. Submission is not yet confirmed, so this is not recorded as disclosed to Enginy.
 - 2026-09-15: Manel confirmed that the direct application was submitted. Status changed to applied; EUR 62,000 gross annual recorded as disclosed to Enginy.
+- 2026-10-13: Recovered the final 2026-09-15 LinkedIn draft, including the code-experience addition requested by Manel. No new contact or employer response confirmed.
