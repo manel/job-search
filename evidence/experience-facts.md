@@ -234,6 +234,12 @@ This is the evidence register, not finished application copy. Each material clai
 - **Source:** `context/portfolio.md`, AI Agent evidence position.
 - **Verified:** 2026-07-16.
 
+- **Claim:** The rep letters (agreement lifecycle) workflow is a separate AI feature from the agent. It ran autonomously: the system read a plan's rules and generated a user-readable sales letter with the plan conditions, with no chat or user interaction. The agent did not generate letters.
+- **Class:** Confirmed direct user statement.
+- **Source:** `memory.md` entry dated 2026-06-12 (pre-merge, commit `83bef9f`).
+- **Verified:** 2026-06-12.
+- **External-use boundary:** CVs sent before 2026-06-12 compressed the two into one line ("agent that generates compensation letters"). If asked, explain they were two separate AI features.
+
 ### AI-assisted product prototyping
 
 - **Claim:** At Remuner, Manel repeatedly used AI-assisted workflows to build working product prototypes that users could interact with for testing. The prototypes were not connected to the production application.

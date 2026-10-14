@@ -2,7 +2,9 @@
 
 Observations, patterns, and rules captured during the job search. Updated via /remember.
 
-Read this file at the start of every session alongside CLAUDE.md.
+Read this file at the start of every session alongside CLAUDE.md. Claimable facts about Manel's work belong in `evidence/experience-facts.md`, not here; this file holds lessons learned in use.
+
+Cleaned 2026-10-14 during the career-os merge: entries now covered by the evidence register, `context/positioning.md` or `context/writing-rules.md` were removed; the full earlier version is at commit `83bef9f`.
 
 ---
 
@@ -32,21 +34,7 @@ Read this file at the start of every session alongside CLAUDE.md.
 
 **2026-06-08** — Avoid "built without a dedicated team" phrasing. It draws attention to resource constraints rather than outcomes and sounds like an excuse dressed as an achievement.
 
-**2026-06-12** — The Remuner AI agent and the rep letters (agreement lifecycle) workflow are SEPARATE projects. Corrected same day: the letters workflow DID use AI, but autonomously — the system read the plan's rules and generated a user-readable sales letter with the plan conditions. No user interaction, no chat. The agent is the interactive one; it does not generate letters. CVs sent before this date carry the conflated claim ("agent that generates compensation letters"); the graceful interview correction is: "two separate AI features — an interactive agent for reps to consult their data, and autonomous letter generation from plan rules. Early CVs compressed them into one line."
-
-**2026-06-12** — Remuner AI agent, canonical description (from Manel directly). A chat panel plus embedded answers inside the app that let sales reps consult their own data: ERP line items, aggregations by period, where to focus, understanding their sales plan, and decisions based on it. GA to all customers before March 2026. Manel owned the full UX/UI, conversation design (tone, answer formats), capability scoping with PM/eng, and trust/accuracy patterns. Post-release feedback was mixed; iterated on tone, response format, and per-customer terminology (the same object was a "deal", "contract", or "item" depending on the customer). Evidence position: no claimable metrics or named signal; pre-release user interviews showed strong interest ("a genuine tool to improve their work"). Own the absence of metrics; the post-GA iteration loop is the interview story, not a public claim. RESOLVED 2026-07-06: managers confirmed as real users (see entry below).
-
-**2026-07-15** — There was NO PM at Remuner, corrected by Manel while reviewing Factorial form answers. The 2026-06-12 canonical agent description says "capability scoping with PM/eng"; the accurate version is capability scoping with the founders and engineering. Product decisions sat with the founders (consistent with the founder-driven departure context). Check any copy that mentions a Remuner PM; cv-base additional material fixed same day.
-
-**2026-07-16** — There was only ONE AI surface at Remuner, corrected by Manel during AI agent case intake (context/ai-agent-notes.md, Q5). The 2026-06-12 canonical description says "a chat panel plus embedded answers inside the app," which wrongly implies two surfaces. In fact there was a single global chat panel, not tied to the section of the app the rep was in. "Embedded answers" meant the answers themselves rendered as tailored structured content (tables, lists, formats specific to the question type), not a second embedded-AI surface. Both this and the PM correction above are now applied in context/portfolio.md and cv-base.md; propagated 2026-07-20.
-
-**2026-07-22** — Remuner shipped a mobile app, surfaced by Manel during the Glovo assessment after "zero mobile evidence" was cited as a skip-reasoning gap. Summer 2024: Manel adapted the Remuner web product's responsive design for mobile, then that responsive build was embedded in an iOS/Android app wrapper (webview-based, not native UI patterns). He owned all of it: the responsive adaptation, the app wrapper UX, and it shipped to both app stores, where it remains live today. Accurate framing for future use: real, shipped, still-live mobile app experience, but it's a responsive-web-in-webview app, not native iOS/Android pattern design — don't overclaim native mobile craft. Important distinction: this is NOT yet in cv-base.md or the live portfolio, so it doesn't count as demonstrable evidence until added. Past skip reasoning citing "zero mobile evidence in the portfolio" (Wallapop, AirHelp, Glovo, Epassi) was accurate about what a reviewer would currently see, not about whether the experience exists — don't conflate the two again. If a mobile-relevant role comes up, this is real material to add to cv-base.md and worth a line in the Remuner section.
-
-**2026-07-06** — Remuner AI agent: managers WERE real users, confirmed by Manel. Most managers had a compensation plan of their own, and they could also query team info through the agent. "And managers" is safe in all copy. This closes the 2026-06-12 OPEN question; remove "without the manager claim" caveats wherever they appear (Spendesk notes, applications.md).
-
 **2026-06-08** — Do not overclaim technical ownership of the token pipeline. Manel adapted the Abacum pipeline at Remuner using AI assistance. An engineer built the original at Abacum. The correct framing is ownership of the brief, decisions, and outcome — not the implementation.
-
-**2026-06-08** — Teaching experience is not a standalone work entry. Weave it into the About or summary as skills developed: explaining complex systems, mentoring, depth of craft. Listing it as a job entry dilutes the product design focus.
 
 **2026-06-08** — Outcomes sections must use named qualitative signals, not vague positive claims. "The project was well received" is not a signal. "The CTO said unprompted: from a 2010 app to a 2020 app" is a signal. Name the person, name the moment.
 
@@ -59,18 +47,6 @@ Read this file at the start of every session alongside CLAUDE.md.
 ## References and departure context
 
 **2026-06-12** — Departure from Remuner (March 2026) was company-initiated. Never propose Remuner-based references or LinkedIn recommendation asks. The CTO quote stays in case studies (it happened and is documented), but it cannot be converted into a public or checkable reference. "Why did you leave Remuner" is a guaranteed interview question and needs a prepared answer before any screen — see interviews/prep.md.
-
----
-
-## Role-specific notes
-
-**2026-06-08** — Linear: strong fit assessed. Deferred because it requires a few weeks of active product use before applying. Revisit when Linear becomes a primary tool. No warm path identified yet — worth researching before applying.
-
-**2026-06-08** — Perk Flights: a former Abacum contact may be available as a warm intro. Genuine interest in the role is unresolved. Do not pursue until that question is answered honestly.
-
-**2026-06-08** — Finom: cover letter still pending as of June 2026. Agreed salary position €78K.
-
-**2026-06-08** — Bitpanda Advanced Trading: salary position not yet set. Determine before writing cover letter.
 
 ---
 
@@ -102,21 +78,13 @@ Read this file at the start of every session alongside CLAUDE.md.
 
 **2026-06-08** — Fit assessment must run before any writing. Writing a CV or cover letter for a role that hasn't been assessed is wasted work. Skipping assessment to save time always costs more time downstream.
 
-**2026-06-08** — Salary positioning must be set before writing a cover letter. Never start writing with compensation open. It creates a decision point mid-draft that contaminates the tone.
+**2026-06-08** — Salary positioning must be set before writing a cover letter. Never start writing with compensation open. It creates a decision point mid-draft that contaminates the tone. *Superseded 2026-10-11 by the income-first priority: ask for the range first and don't put a figure in the letter unless the form requires one. See `context/salary.md`.*
 
-**2026-06-08** — Genuine interest is a real criterion, not a soft one. Roles where genuine interest is marginal or absent should be skipped, not dressed up with strong language. The cover letter will show it regardless.
-
-**2026-06-08** — DS-first roles (BVNK, Hostaway, Bitpanda DS): lead with Remuner DS work. Token pipeline is the headline technical signal. CTO quote is the credibility anchor.
-
-**2026-06-08** — Product design roles with DS component (Typeform, Finom): lead with Abacum integrations. Frame DS as a capability you bring to product work, not the primary identity.
-
-**2026-06-08** — Fintech and trading roles (Bitpanda Advanced Trading): lead with Modeling Syntax. Domain note: Kraken DCA user, familiar with trading mechanics. Not an expert, but not starting from zero.
-
-**2026-06-08** — Founding designer roles (Factorial): lead with breadth. Two companies, two systems, sole designer experience, zero to production without infrastructure support.
+**2026-06-08** — Genuine interest is a real criterion, not a soft one. Roles where genuine interest is marginal or absent should be skipped, not dressed up with strong language. The cover letter will show it regardless. *Partly superseded 2026-10-11: under the income-first priority a weak domain or non-ideal product is not a skip on its own; genuine willingness to do the work still matters. See `context/target-roles.md`.*
 
 **2026-06-08** — Motion as evidence (screen recordings showing a system working in production) is appropriate and strengthens the DS case. Motion as decoration undermines systems-thinking credibility. Do not rebuild the portfolio in Framer.
 
-**2026-06-08** — The AI case study (Remuner AI agent) is worth pursuing but has open questions: what signal exists on the shipped agent, and how much of the design Manel personally owned. Do not invest time writing this case until those questions are answered.
+**2026-06-08** — The AI case study (Remuner AI agent) is worth pursuing but has open questions: what signal exists on the shipped agent, and how much of the design Manel personally owned. Do not invest time writing this case until those questions are answered. *Resolved: ownership and evidence were settled in July and the case went live on 2026-07-23. Facts are in `evidence/experience-facts.md`.*
 
 **2026-07-13** — Qonto AI Lab rejected at screen in 2 business days, template rejection, no human contact. This was the strongest-fit assessment in the pipeline with direct evidence for the JD's rarest requirement (shipped AI agent with guardrails/error states). Extends the 2026-07-02 pattern: fast form rejections are a property of the segment (global-remote roles at high-profile companies, largest applicant pools), not of application quality — the best package in the queue died exactly as fast as the weakest. Consequences: (1) don't over-invest polish time in global-remote applications at name-brand companies; ship them fast and cheap, the screen is a volume lottery; (2) Barcelona-local remains the only segment that has ever converted to a human conversation; weight sourcing and effort accordingly; (3) a "strongest fit" label predicts interview performance, not screen survival — stop treating screen outcomes as feedback on positioning.
 
