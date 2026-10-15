@@ -12,6 +12,42 @@ Rebuilt 2026-10-14 from Alan's official prep page and its Loom walkthrough. Sour
 
 **Domain is unknown.** Nothing from Alan says the case will be about health or insurance. Prepare the method, not the domain. The Alan-specific notes below apply only if the brief turns out to be about Alan's own product.
 
+## Your interviewer: Christelle Mozzati
+
+External research, checked 2026-10-15. Sources: [personal site](https://christellemozzati.com/), [GitHub profile](https://github.com/cmozzati) (company: Alan, location: Lyon), [getprog.ai profile](https://www.getprog.ai/profile/3350525) (search snippet only), [LinkedIn](https://www.linkedin.com/in/christellemozzati/) (not readable without login), and Alan's [Behind the screens](https://aiswaryak.substack.com/p/alan-design-behind-the-screens-9263628dcbb1) post (Aiswarya Kolisetty, 2022-08-26).
+
+**Who she is**
+- Senior Product Designer at Alan since March 2022 (about 4.5 years), based in Lyon. French; the interview is in English.
+- Was a **Product Manager** before. At Unow (digital learning) she did design system, product design and product management.
+- Earlier work leans on craft: branding, icons, illustration and web design (Mapado ticketing, Trackin delivery app, Copark parking app, WP Rocket, illustrations for Michelin). She has a Noun Project icon set, Dribbble and Behance.
+- Taught digital design at Master 2 level (Bellecour École), curated design talks for BlendWebMix 2017, and has spoken on branding and product-centric startup design. Wrote about dark patterns and product management.
+- Motto on every profile: "J'aime faire de belles choses avec des gens bien" (make beautiful things with good people).
+- **Unknown:** which Alan team or product area she works on now. Don't guess in the room. If it comes up naturally, ask.
+
+**Her on record about Alan (2022 post):**
+- On research: "it's SO refreshing to have an in-house research team! We have access to fundamental research... It is a game changer."
+- On async: "The no-meeting rule is key to take back control of your time."
+
+**What this means for the session (inference)**
+- **PM background:** she'll notice whether you frame the problem and name business impact, or jump to solutions. That's the same gap Celine flagged. The synthesis frame and the metric matter even more with her.
+- **She values research:** "What research or member verbatims do we have?" is a natural early question, and she can probably answer it.
+- **Craft background:** the flow doesn't need polish, but a tidy, labelled board reads well to someone who taught design. Keep stickies aligned and frames named.
+- **Written, async culture:** Alan decides through written GitHub issues (goal, context, proposals, then the author decides). Write your decisions on the board in that shape: goal, context, options, decision. Your board is your written argument.
+- **Teacher and collaborator:** treat her like a teammate. Think out loud, ask what she'd expect, adjust when she pushes.
+- **Don't** bring up her personal interests or older side projects. Asking about her work at Alan is fine; showing you've read her personal site is not.
+
+## Alan context refresh (external research, checked 2026-10-15)
+
+Only use this if the case is about Alan's product or it comes up in conversation. Never present a figure as something they told you.
+
+- **Funding:** June 2026, €480M round led by Prosus at a €5.5B valuation, for international expansion and AI product development ([Prosus](https://www.prosus.com/news-insights/2026/prosus-leads-euros-480-million-funding-round-in-alan-to-shape-the-future-of-ai-powered-healthcare)). A Canadian outlet reports different dollar figures; use Prosus's.
+- **Scale:** about 1.1 to 1.2M members; €800M ARR in Q1 2026, up 53% year on year; profitable in France. Headcount grows slowly relative to revenue, which they credit to AI.
+- **Mo (AI health assistant):** available to all members in France. Runs on about 20 AI agents, and worrying conversations are escalated to the medical team within 15 minutes. Planned for Canada in 2027 ([The Logic](https://thelogic.co/news/alan-insurance-expansion-ai/), 2026-07-28).
+- **Claims:** AI-assisted. Most reimbursements land within minutes, and rejections come with a plain-language explanation (same source).
+- **Canada:** Alan Clinic mental health therapy in-app for Ontario members (February 2026, [Business Wire](https://www.businesswire.com/news/home/20260217347722/en/Alan-Launches-Alan-Clinic-in-Canada-Bringing-Mental-Health-Care-Directly-Into-the-Insurance-App)), licensed in Quebec, about 4,000 Canadian workers covered. Plans for four new countries in the next 18 months.
+
+**If the case touches Alan's product (inference):** the likely ground is AI with a human fallback, trust around health data, explaining a decision to a worried member (rejected claim, not covered), or launching in a new market. Your Remuner AI-agent work (capability boundaries, trust patterns, structured answers) is the relevant past experience. In the flow, always design the moment where the AI hands over to a human and what the member sees while waiting.
+
 ## What they score (official, verbatim categories)
 
 1. **Problem-solving:** clarify the problem, structure the approach, work within the time.
@@ -39,6 +75,8 @@ Rebuilt 2026-10-14 from Alan's official prep page and its Loom walkthrough. Sour
 Say at the start how you plan to use the time. Alan's page asks you to arrive with a structure, so stating it scores on its own.
 
 ## Figma board: set up before Friday
+
+Our recommendation, not Alan's: neither the prep page nor the Loom mentions preparing a board. Derived from their scoring categories, the "arrive with a structure" ask and the Dashinsky agenda. Optional; keep it to a few minutes of setup.
 
 One Figma file with six labelled frames, left to right. Share the link at the start of the call.
 
@@ -128,6 +166,7 @@ Limits: extension of the existing modeling language, not a new one from scratch.
 1. "How close was this case to a problem the team is actually working on? What did you end up doing?"
 2. "In this team, who decides which problem a designer works on, and how early is design involved?"
 3. "What separates a strong designer here in their first six months from an average one?"
+4. Alternative for Christelle: "You've been at Alan since 2022. How has Mo and the AI work changed what a designer actually does on a member journey?"
 
 ## Salary
 
