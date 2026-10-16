@@ -7,10 +7,12 @@ status_confidence: confirmed
 fit_decision: proceed
 applied_on: 2026-09-03
 last_contact_on: 2026-09-03
-next_action: Follow up if no response has arrived
-next_action_on: 2026-09-17
+next_action: Send one follow-up (posting still live); set stale if no reply within a week
+next_action_on: 2026-10-16
 salary_stated: USD 5,900 gross per month
 job_url: https://remofirst.workable.com/jobs/5998962
+posting_status: open
+posting_checked_on: 2026-10-16
 source: Workable submission confirmation supplied by Manel
 ---
 
@@ -40,3 +42,4 @@ The submission confirmation shows the resume but does not show a cover letter. A
 
 - 2026-09-03 11:37: Application submitted successfully through Workable.
 - 2026-09-14: Submission details migrated from the confirmation supplied by Manel. Manel confirmed that no employer response had arrived.
+- 2026-10-16: Posting check: the recorded Workable URL redirects to https://apply.workable.com/remofirst/j/E10F168CEB, still listed on RemoFirst's Workable board. Posting live.

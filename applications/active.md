@@ -41,10 +41,9 @@ Resolve the stated next step before investing further. A Proceed assessment can 
 - [WhiteTech, Senior Product Designer](records/whitetech-senior-product-designer.md): direct Greenhouse application confirmed submitted on 2026-10-02; awaiting an employer response. Exact submitted files, salary and other form answers, PDF QA, and receipt details remain unconfirmed. Skip the duplicate Jobgether route.
 - [CloudTalk, Senior Product Designer](records/cloudtalk-senior-product-designer.md): direct Workable application confirmed submitted on 2026-10-02 with EUR 65,000 gross annual stated; awaiting an employer response. Exact submitted files, cooperation answer, portfolio version, PDF QA, and receipt details remain unconfirmed.
 - [Alan, Product Designer](records/alan-product-designer.md): live technical interview with Christelle Mozzati completed 2026-10-16 (therapist-matching case). Awaiting Celine's decision; check in on 2026-10-23 if nothing has arrived. Debrief in `interviews/alan/alan-technical-interview.md`.
-- [Moniepoint, Senior Product Designer — Design System](records/moniepoint-senior-product-designer-design-system.md): Greenhouse receipt confirmed for 2026-09-15 at 12:04; awaiting a human response. Submission reconciled on 2026-09-23.
-- [Enginy, Product Designer](records/enginy-product-designer.md): applied directly on 2026-09-15 with EUR 62,000 gross annual stated. Send the prepared LinkedIn message to Jaume Puig.
-- [RemoFirst, Senior Product Designer](records/remofirst-senior-product-designer.md): applied 2026-09-03. Follow up on 2026-09-17 if there has been no response.
-- [eDreams ODIGEO, Senior Product Designer, Conversational Service Design](records/edreams-senior-product-designer-conversational-service-design.md): applied 2026-09-10. Review status on 2026-09-24 if there has been no response.
+- [PromoFarma / DocMorris, Product Designer (E-commerce)](records/promofarma-product-designer-ecommerce.md): applied 2026-10-16 on the Head of Product's recommendation; EUR 38,000 stated; Workday acknowledgment received; HoP notified and passed it to the right person. Nudge Talent Acquisition on 2026-10-30 if nothing arrives.
+- [Enginy, Product Designer](records/enginy-product-designer.md): applied directly on 2026-09-15 with EUR 62,000 gross annual stated; LinkedIn message to Jaume Puig sent the same day, no reply. Posting still live. Set stale on 2026-10-20 if nothing arrives.
+- [RemoFirst, Senior Product Designer](records/remofirst-senior-product-designer.md): applied 2026-09-03; no response. Posting still live (same job, new Workable URL). One follow-up due now.
 - [Bunge, Senior User Experience Designer](records/bunge-senior-user-experience-designer.md): candidate portal confirmed on 2026-09-22 that the profile is still being considered; no direct employer response received.
 
 ## On hold
@@ -101,7 +100,8 @@ Not being pursued under the recorded decisions. Prepared historical materials do
 
 ## Vacancy closed before a decision or submission
 
-- [PromoFarma / DocMorris, Product Designer (E-commerce)](records/promofarma-product-designer-ecommerce.md): vacancy closure and non-submission confirmed by Manel on 2026-10-13. Unsent tailored CV deleted; no next action.
+- [Moniepoint, Senior Product Designer — Design System](records/moniepoint-senior-product-designer-design-system.md): applied 2026-09-15; posting removed by 2026-10-16 with no human response. Remaining DS openings are a Nigeria repost and a manager role (skip). No next action.
+- [eDreams ODIGEO, Senior Product Designer, Conversational Service Design](records/edreams-senior-product-designer-conversational-service-design.md): applied 2026-09-10; posting and all designer openings removed by 2026-10-16 with no employer response. No next action.
 - [Finom, Senior Product Designer](records/finom-senior-product-designer.md): vacancy delisted without an application response; not an employer rejection.
 - [Spendesk, Senior Product Designer (older vacancy)](records/spendesk-senior-product-designer-older-vacancy.md): vacancy delisted before submission; no application was sent.
 - [Typeform, Senior Product Designer (Integrations)](records/typeform-senior-product-designer-integrations.md): vacancy absent from Typeform's official jobs feed on 2026-09-22; no application response was received.

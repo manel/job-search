@@ -5,7 +5,7 @@ status: applied
 status_verified_on: 2026-10-02
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-10-02
+posting_checked_on: 2026-10-16
 fit_decision: proceed
 role_lane: mixed
 application_channel: direct

@@ -2,10 +2,10 @@
 company: Enginy
 role: Product Designer (job body: Senior Product Designer)
 status: applied
-status_verified_on: 2026-09-15
+status_verified_on: 2026-10-16
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-09-15
+posting_checked_on: 2026-10-16
 fit_decision: proceed
 role_lane: mixed
 application_channel: direct
@@ -15,8 +15,8 @@ applied_on: 2026-09-15
 last_contact_on: 2026-09-15
 outcome_stage: no-response
 rejection_reason_class: none
-next_action: Send the prepared LinkedIn message to Jaume Puig with the Remuner design-system case; clarify salary range and normal office cadence at the first human exchange
-next_action_on: 2026-09-15
+next_action: Set stale if no reply from Enginy or Jaume Puig by 2026-10-20 (5 weeks)
+next_action_on: 2026-10-20
 salary_stated: EUR 62,000 gross annual
 job_url: https://job-boards.eu.greenhouse.io/enginy/jobs/4968694101
 source: JD supplied by Manel; Greenhouse job API; Enginy website; public LinkedIn activity from Jaume Puig
@@ -94,3 +94,5 @@ Jaume Puig, Enginy's CTO and co-founder, publicly promoted the vacancy and asked
 - 2026-09-15: Manel entered EUR 62,000 gross annual as the salary expectation in the application form. Submission is not yet confirmed, so this is not recorded as disclosed to Enginy.
 - 2026-09-15: Manel confirmed that the direct application was submitted. Status changed to applied; EUR 62,000 gross annual recorded as disclosed to Enginy.
 - 2026-10-13: Recovered the final 2026-09-15 LinkedIn draft, including the code-experience addition requested by Manel. No new contact or employer response confirmed.
+- 2026-10-16: Manel confirmed the LinkedIn message to Jaume Puig was sent on 2026-09-15. No reply. Posting still live on Greenhouse (checked 2026-10-16).
+- 2026-10-16: Greenhouse check: the applied-for posting 4968694101 is now titled "Senior Product Designer" (updated 2026-09-30). The only other Enginy opening, 4827698101, is Senior Product Manager (first published 2026-04-07), not a design role.

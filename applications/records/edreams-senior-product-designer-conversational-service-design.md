@@ -1,16 +1,18 @@
 ---
 company: eDreams ODIGEO
 role: Senior Product Designer, Conversational Service Design
-status: applied
-status_verified_on: 2026-09-14
+status: role-closed
+status_verified_on: 2026-10-16
 status_confidence: confirmed
 fit_decision: proceed
 applied_on: 2026-09-10
 last_contact_on: 2026-09-10
-next_action: Review status and identify a usable follow-up contact if no response has arrived
-next_action_on: 2026-09-24
+next_action: None; posting removed with no employer response
+next_action_on: 2026-10-16
 salary_stated: EUR 58,000 gross annual base
 job_url: https://www.edreamsodigeocareers.com/job/senior-product-designer-conversational-service-design-hybrid/
+posting_status: closed
+posting_checked_on: 2026-10-16
 source: eDreams automated submission confirmation supplied by Manel; Career Strategy project application work
 ---
 
@@ -37,3 +39,5 @@ Strong match to the Remuner conversational AI work: capability boundaries, refus
 
 - 2026-09-10 11:53: eDreams sent an automated confirmation that the application had been received.
 - 2026-09-14: Submission confirmed from the email supplied by Manel. Manel confirmed that no human response had arrived.
+- 2026-10-16: Posting check: the job URL returns 404. Posting closed; application status unchanged (no employer response confirmed).
+- 2026-10-16: Manel confirmed that neither the posting nor any designer opening can be found on eDreams careers. Status changed to role-closed.

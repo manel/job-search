@@ -1,11 +1,11 @@
 ---
 company: Moniepoint
 role: Senior Product Designer - Design System
-status: applied
-status_verified_on: 2026-09-23
+status: role-closed
+status_verified_on: 2026-10-16
 status_confidence: confirmed
-posting_status: open
-posting_checked_on: 2026-09-15
+posting_status: closed
+posting_checked_on: 2026-10-16
 fit_decision: proceed
 role_lane: design-systems
 application_channel: direct
@@ -15,8 +15,8 @@ applied_on: 2026-09-15
 last_contact_on: 2026-09-15
 outcome_stage: no-response
 rejection_reason_class: none
-next_action: Await a human response; review status on 2026-09-29 and ask for the salary range at the first human exchange
-next_action_on: 2026-09-29
+next_action: None; original posting removed with no employer response
+next_action_on: 2026-10-16
 salary_stated: No stated figure recorded; submitted form value unverified; employer range unknown
 job_url: https://job-boards.eu.greenhouse.io/moniepoint/jobs/4955355101
 source: Greenhouse acknowledgment dated 2026-09-15 12:04 supplied by Manel on 2026-09-23; JD supplied by Manel; official Moniepoint Greenhouse posting; confirmed internal evidence; live portfolio cases
@@ -89,3 +89,6 @@ This is a useful retest of the design-systems lane. The earlier zero-conversatio
 - 2026-09-15: Tailored CV copy and a short cover letter were prepared as Markdown files. No PDF was generated and no application was submitted.
 - 2026-09-15 12:04: Greenhouse acknowledged receipt of the Senior Product Designer - Design System application. This event was supplied and reconciled on 2026-09-23; it supersedes the preparation-only status above.
 - 2026-09-23: Manel supplied the acknowledgment. Status corrected to applied; no human response confirmed.
+- 2026-10-16: Posting check: job 4955355101 returns 404 on the Greenhouse API. A new "Senior Product Designer - Design System" posting (4997735101, first published 2026-10-05, location "Remote, Nigeria") is live: https://job-boards.eu.greenhouse.io/moniepoint/jobs/4997735101. Possibly a repost or a separate geography req; whether it covers remote Spain is unverified. Application status unchanged.
+- 2026-10-16: Manel found https://job-boards.eu.greenhouse.io/moniepoint/jobs/4987960101. It is a different role: "Product Design Manager - Design System", Remote Spain, first published 2026-09-28, asking for case studies showing how the candidate led and developed designers. People management required; skip under the IC-only rule.
+- 2026-10-16: Manel asked to close the record. Status changed to role-closed: the applied-for posting was removed with no human response, and the remaining Moniepoint DS openings are a Nigeria repost and a manager role.

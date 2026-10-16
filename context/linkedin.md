@@ -2,7 +2,7 @@
 
 Profile content, audit, and maintenance rules. LinkedIn is the highest-traffic surface in the search: recruiters check it before opening a CV. It must carry the same positioning as `context/positioning.md` and obey every rule in `principles.md`.
 
-Profile: linkedin.com/in/manelleiva
+Profile: linkedin.com/in/maneleiva
 Last audited: 2026-06-12 (content pasted by Manel, not scraped).
 
 ---
