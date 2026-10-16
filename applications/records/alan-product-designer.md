@@ -2,7 +2,7 @@
 company: Alan
 role: Product Designer
 status: interviewing
-status_verified_on: 2026-10-14
+status_verified_on: 2026-10-16
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-10-01
@@ -12,11 +12,11 @@ application_channel: direct
 warm_path: unknown
 portfolio_version:
 applied_on: 2026-10-01
-last_contact_on: 2026-10-14
+last_contact_on: 2026-10-16
 outcome_stage: technical-interview
 rejection_reason_class: none
-next_action: Attend live technical interview with Christelle Mozzati (Product Designer); rehearse two mock cases beforehand; run /debrief-interview after
-next_action_on: 2026-10-16
+next_action: Await Celine's decision on the live technical interview; if nothing has arrived, send a short check-in to Celine
+next_action_on: 2026-10-23
 salary_stated: Unknown; employer range and submitted compensation answer were not confirmed
 job_url: https://jobs.ashbyhq.com/alan/1bf22834-f85d-4581-95a8-0a0278ba9013?departmentId=f4057159-b3bb-419a-954e-658d9b58f377
 source: Celine Brunel’s progression and feedback email received 2026-10-13 at 10:50, supplied by Manel; Jorge Bodas’s interview confirmation supplied by Manel on 2026-10-06; official hiring-process and compensation pages checked 2026-10-06; Jorge Bodas’s first-interview invitation and submitted availability supplied by Manel on 2026-10-06; exact Ashby job description supplied by Manel on 2026-10-01; official public Ashby job-board API checked 2026-10-01; Career OS evidence register
@@ -25,6 +25,10 @@ source: Celine Brunel’s progression and feedback email received 2026-10-13 at 
 # Alan — Product Designer
 
 ## Current process
+
+**Live technical interview completed, 2026-10-16 (confirmed by Manel):** One session with Christelle Mozzati only. Alan's case was "Find the right therapist": member–therapist matching for video therapy, France, 2–3 weeks to ship, 2 engineers. Manel delivered an AI-assisted intake → recommended therapists → booking flow, drawn over Alan's app screenshots. Christelle asked how to know a match was good and which metrics to use. Next step: Christelle reports to Celine, and Celine communicates the decision. The possible next round (a conversation with another designer or the head of the design group) is Manel's understanding, not confirmed. No timing was given. Full debrief: [technical brief, debrief section](../../interviews/alan/alan-technical-interview.md).
+
+**Team context, from Christelle on 2026-10-16 (Manel's recollection):** Christelle works on the insurance side. About 14 designers and a 5–6 person research team, organised in pods that coordinate several verticals. A design system exists, and a separate team maintains consistency across platforms and markets.
 
 **Progression confirmed, 2026-10-13:** Celine Brunel (celine.brunel@alan.eu) confirmed that the first meeting took place and Alan wants to move forward. Her email was received at 10:50 (email time zone not shown). The first interview is confirmed completed; the previously scheduled appointment was 2026-10-09 at 12:15 Europe/Madrid. No rescheduling was reported.
 
@@ -177,4 +181,6 @@ Alan’s [compensation page](https://alan.com/en/careers/a/salary-equity) says a
 - 2026-10-13: Technical-interview preparation started around Celine’s specific feedback, a proposed 20/70 practice structure and evidence-bounded direction-setting stories. No technical availability submission, booking or rehearsal completion confirmed.
 - 2026-10-14: Celine confirmed the live technical interview for Friday 2026-10-16 with Christelle Mozzati, answered the tools question (Figma default, any tool if announced, AI allowed with disclosure) and shared Alan's prep page. Technical brief rebuilt around the official criteria and the one-user-flow deliverable. Manel confirmed the time as 14:00–15:30 Europe/Madrid.
 - 2026-10-15: Researched the interviewer, Christelle Mozzati (Senior Product Designer at Alan since March 2022, Lyon, former PM, background in branding and craft), and refreshed Alan company context (Prosus round June 2026, Mo AI assistant, AI-assisted claims, Canada expansion). Added both to the technical brief as external research. Her current team at Alan is unknown.
+- 2026-10-16: Live technical interview completed with Christelle Mozzati (Manel's read: went well, unsure). Case: "Find the right therapist". Debrief recorded in the technical brief. Status remains interviewing; awaiting Celine's decision. Next action: check in with Celine on 2026-10-23 if nothing has arrived.
+- 2026-10-16: Manel sent Christelle a short reflection note on the "Exercise for today" thread, with Celine in copy. It acknowledged that discovery focused on prevention and awareness and missed the "Select a therapist" drop-off. Text: `outreach/alan-christelle-post-technical-2026-10-16.md`.
 - 2026-10-13: Manel confirmed sending the reply to Celine stating availability had been submitted and asking about tool requirements/restrictions. Awaiting appointment confirmation and employer clarification; exact submitted time windows remain unrecorded. Manel intends to practise in Figma with disclosed LLM support.

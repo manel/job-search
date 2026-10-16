@@ -10,6 +10,8 @@ Cleaned 2026-10-14 during the career-os merge: entries now covered by the eviden
 
 ## Recruiter and process signals
 
+**2026-10-16** — Kabilio rejected after the first interview: another candidate was already in final stages, remaining interviews were paused, and Manel's profile never reached the hiring manager. Same shape as Valeria HR (filled by a candidate "already far along") and close to Tabby (filled). Applied 2026-10-01, screened 2026-10-05, roughly when the leading candidate was closing. For small Barcelona companies, a late entry loses to timing, not to the package. Rule: when a recruiter screen goes well, ask where the process stands and how many candidates are ahead, and treat "slower than expected due to candidate volume" (Kabilio, 2026-10-08) as an early warning that someone else is ahead.
+
 **2026-06-08** — Bitpanda Design Systems role rejected. Bitpanda Advanced Trading role is a separate application, do not conflate the two.
 
 **2026-06-08** — Factorial uses a proprietary ATS at careers.factorialhr.com. Automated job scanning is unreliable. Always check manually.
@@ -63,6 +65,15 @@ Cleaned 2026-10-14 during the career-os merge: entries now covered by the eviden
 **2026-07-01** — "What reports can you derive from this system?" (Factorial Round 3) is a product scope trap. The instinct to generate report types on the spot is wrong — the correct answer is to redirect to user needs: "I'd ask what decisions IT and Finance are trying to make, then design reports backward from that." Generating features from a system description is a PM habit, not a design habit. Caught here; correct it in future challenges.
 
 **2026-07-01** — MVP scope disagreements in live challenges: if the panel challenges your MVP boundary, you need a tighter product argument than "validate first, automate later." That argument is defensible in a strategy conversation but reads as risk-avoidance in a fast-moving company. The stronger framing is: "here's the specific assumption we'd be able to validate with v1 that automation would actually mask, and here's what we'd lose if automation failed before trust was established." Name the tradeoff concretely, not abstractly.
+
+**2026-10-16** — "How would we know it worked?" is a standing probe at Alan. Celine flagged impact as too general in round 1, and Christelle asked it twice in the live case: how to know a member–therapist match was good, and which metrics. In live cases, the measurement question gets asked directly, whether or not the board has a metric on it.
+
+**2026-10-16** — In live cases, the synthesis keeps drifting away from the data point the brief hands over. This happened three times in a row:
+- **Juniper mock:** picked triage while the mapped break point was no-shows.
+- **Spendly mock:** picked the manager step against the map's own numbers.
+- **Alan live, "Find the right therapist":** framed the problem from Alan's vision paragraph ("reactive instead of preventive") instead of the task and data (matching, four therapists, biggest drop-off at "Select a therapist", 2–3 weeks). The only written option (awareness) didn't touch the drop-off. Christelle's questions steered the session back to matching.
+
+Rule: the company vision is background. The task, the constraints and the data point given define the problem. The problem statement must cite that data point, the chosen direction must attack it, and the metric must measure it as baseline → target (here: the drop-off at therapist selection). Before ideating, check: "Does my problem statement mention the number or the break point they gave me?"
 
 **2026-07-01** — Factorial culture signal: strong bias toward moving fast and shipping full feature sets early. They placed automation inside the MVP, not phase 2. If this role is offered and accepted, the push/caution tension is a real working dynamic to plan for, not an artifact of the interview format.
 

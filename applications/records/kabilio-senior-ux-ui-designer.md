@@ -1,8 +1,8 @@
 ---
 company: Kabilio
 role: Senior UX/UI Designer
-status: interviewing
-status_verified_on: 2026-10-08
+status: rejected
+status_verified_on: 2026-10-16
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-10-04
@@ -12,11 +12,11 @@ application_channel: direct
 warm_path: unknown
 portfolio_version:
 applied_on: 2026-10-01
-last_contact_on: 2026-10-08
+last_contact_on: 2026-10-16
 outcome_stage: first-interview
-rejection_reason_class: none
-next_action: Review and send the drafted reply to Aiste; await the promised update by 2026-10-13, then follow up on 2026-10-14 if none arrives
-next_action_on: 2026-10-13
+rejection_reason_class: specific
+next_action: None. Process closed; watch Kabilio careers for a future Senior or Lead role
+next_action_on: 2026-11-16
 salary_stated: Unknown; the submitted form required a range, but the exact value used was not reconfirmed
 job_url: https://jobs.kabilio.es/jobs/7603770-senior-ux-ui-designer
 source: Interview invitation from Aiste Kleizaite and booking update supplied by Manel on 2026-10-01; exact Kabilio Teamtailor posting and JD supplied by Manel, checked 2026-10-01; live portfolio cases; Career OS evidence register
@@ -25,6 +25,8 @@ source: Interview invitation from Aiste Kleizaite and booking update supplied by
 # Kabilio — Senior UX/UI Designer
 
 ## Current state
+
+**Rejected, 2026-10-16 at 13:29 (email time zone not shown):** Aiste Kleizaite emailed that Kabilio has closed the process and selected someone. Manel's profile was not assessed in depth with the hiring manager: Kabilio was in the final stages with another candidate and paused the remaining interviews. She apologised for the delay and invited Manel to watch for and apply to future openings. The process ended at the first-interview stage, before any hiring-manager review or case study. This is process-timing context, not feedback on skill, portfolio, level or salary. Do not infer salary as the cause. Whether the 2026-10-08 reply to Aiste was sent remains unconfirmed.
 
 **Employer update, 2026-10-08 at 09:59 (email time zone not shown):** Aiste said the process is progressing more slowly than expected because of the number of candidates being assessed. She expects to provide a response on Friday 2026-10-09 or, at the latest, Tuesday 2026-10-13. She asked Manel to flag any other advanced process. No progression, rejection or compensation feedback was communicated.
 
@@ -133,6 +135,8 @@ The direct application was confirmed submitted by Manel on 2026-10-01. The exact
 
 ## History
 
+- 2026-10-16: Prepared a short [Spanish reply](../../outreach/kabilio-aiste-rejection-reply-2026-10-16.md) thanking Aiste and asking to be considered for future design roles. Sending not confirmed.
+- 2026-10-16: Manel supplied Aiste's 13:29 rejection email. Kabilio selected another candidate who was already in the final stages, paused the remaining interviews, and did not review Manel's profile in depth with the hiring manager. Status changed to rejected; outcome stage remains first-interview; rejection reason class set to specific (process timing, no candidate-specific feedback). Invitation to reapply recorded as polite future-opportunity language, not an active process.
 - 2026-10-08: Manel supplied Aiste's 09:59 update: review delayed by candidate volume, response expected Friday 2026-10-09 or no later than Tuesday 2026-10-13. Application remains interviewing at the first-interview stage; no progression or rejection inferred. Manel reported first interviews with Haddock today and Alan tomorrow. Prepared a reply identifying both as first interviews, without naming the companies. At Manel's request, revised it to introduce subtle pressure by connecting the promised response window to planning his next steps, and removed the commitment to notify Aiste of other-process progression. Reply not confirmed sent.
 - 2026-10-04: Manel requested preparation for tomorrow's screening with Aiste Kleizaite, resolving the date to 2026-10-05, and confirmed Spanish. Prepared the Spanish screening brief and rechecked the official job and product pages. Time remains the previously recorded 12:00; calendar time zone and link not reviewed. Interview not yet completed; no progression or employer compensation confirmed.
 - 2026-10-01 13:18 CEST: Aiste Kleizaite confirmed that Kabilio had reviewed the application and invited Manel to a 30-minute first interview by Google Meet. She requested availability that week and supplied her Cal.com link.

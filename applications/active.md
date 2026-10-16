@@ -40,8 +40,7 @@ Resolve the stated next step before investing further. A Proceed assessment can 
 
 - [WhiteTech, Senior Product Designer](records/whitetech-senior-product-designer.md): direct Greenhouse application confirmed submitted on 2026-10-02; awaiting an employer response. Exact submitted files, salary and other form answers, PDF QA, and receipt details remain unconfirmed. Skip the duplicate Jobgether route.
 - [CloudTalk, Senior Product Designer](records/cloudtalk-senior-product-designer.md): direct Workable application confirmed submitted on 2026-10-02 with EUR 65,000 gross annual stated; awaiting an employer response. Exact submitted files, cooperation answer, portfolio version, PDF QA, and receipt details remain unconfirmed.
-- [Alan, Product Designer](records/alan-product-designer.md): live technical interview confirmed for Fri 2026-10-16, 14:00–15:30, with Christelle Mozzati (Product Designer); 20 min offline + 70 min Meet, one user flow as deliverable. Rehearse two mock cases first; brief in `interviews/alan/alan-technical-interview.md`.
-- [Kabilio, Senior UX/UI Designer](records/kabilio-senior-ux-ui-designer.md): Aiste's 2026-10-08 update confirms slower candidate review; response expected Friday 2026-10-09 or no later than Tuesday 2026-10-13. No progression or rejection communicated. [Reply drafted](../outreach/kabilio-aiste-process-update-2026-10-08.md), not confirmed sent. Follow up 2026-10-14 if no update.
+- [Alan, Product Designer](records/alan-product-designer.md): live technical interview with Christelle Mozzati completed 2026-10-16 (therapist-matching case). Awaiting Celine's decision; check in on 2026-10-23 if nothing has arrived. Debrief in `interviews/alan/alan-technical-interview.md`.
 - [Moniepoint, Senior Product Designer — Design System](records/moniepoint-senior-product-designer-design-system.md): Greenhouse receipt confirmed for 2026-09-15 at 12:04; awaiting a human response. Submission reconciled on 2026-09-23.
 - [Enginy, Product Designer](records/enginy-product-designer.md): applied directly on 2026-09-15 with EUR 62,000 gross annual stated. Send the prepared LinkedIn message to Jaume Puig.
 - [RemoFirst, Senior Product Designer](records/remofirst-senior-product-designer.md): applied 2026-09-03. Follow up on 2026-09-17 if there has been no response.
@@ -71,6 +70,7 @@ Not being pursued under the recorded decisions. Prepared historical materials do
 
 ## Rejected
 
+- [Kabilio, Senior UX/UI Designer](records/kabilio-senior-ux-ui-designer.md): rejected by email on 2026-10-16 after the first interview. Kabilio hired a candidate already in final stages and paused remaining interviews; profile never reached the hiring manager. Process-timing reason, no candidate-specific feedback.
 - [AirHelp, Senior Product Designer (B2B Product)](records/airhelp-senior-product-designer-b2b-product.md): rejected by email on 2026-10-05; employer chose to move forward with another candidate. Generic feedback; no interview recorded or specific rejection cause provided.
 - [Datavant, Senior UX Designer, Provider Experience](records/datavant-senior-ux-designer-provider-experience.md): rejected by email on 2026-10-03 after reaching the hiring-manager stage. Generic experience/role-fit explanation; no specific feedback. Planned hiring-manager interview completion remains unconfirmed.
 

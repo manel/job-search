@@ -29,7 +29,7 @@ External research, checked 2026-10-15. Sources: [personal site](https://christel
 - On async: "The no-meeting rule is key to take back control of your time."
 
 **What this means for the session (inference)**
-- **PM background:** she'll notice whether you frame the problem and name business impact, or jump to solutions. That's the same gap Celine flagged. The synthesis frame and the metric matter even more with her.
+- **PM background:** she'll notice whether you frame the problem before jumping to solutions. Don't play PM to match her: she's a designer now, and this round hires a designer. Lead with the user journey, the break points and what the member sees at each step. Business impact gets one line and one signal (Celine's gap), not a section. Decided with Manel 2026-10-15.
 - **She values research:** "What research or member verbatims do we have?" is a natural early question, and she can probably answer it.
 - **Craft background:** the flow doesn't need polish, but a tidy, labelled board reads well to someone who taught design. Keep stickies aligned and frames named.
 - **Written, async culture:** Alan decides through written GitHub issues (goal, context, proposals, then the author decides). Write your decisions on the board in that shape: goal, context, options, decision. Your board is your written argument.
@@ -80,6 +80,8 @@ Our recommendation, not Alan's: neither the prep page nor the Loom mentions prep
 
 One Figma file with six labelled frames, left to right. Share the link at the start of the call.
 
+Built 2026-10-15 as a FigJam template: [Live case board (template)](https://www.figma.com/board/Y18T6tOyf2ReDNt804AsEe). Duplicate it for each mock and for Friday; keep the template empty. After mock 1 (2026-10-15) it was trimmed: Directions uses sentence blocks instead of a table, and Facts, User state, North star, Option C, States, Guardrail and the written close are marked optional. During mock 2 Manel removed the agenda strip and North star. Synthesis now runs map → group stickies into 3–4 named groups → pick one out loud → one sentence. The sticky clustering shows the designer process; the sentence is what comes out of it (decided with Manel 2026-10-15).
+
 1. **Brief:** paste it, highlight key words, list your assumptions.
 2. **Questions:** your ranked list, with answers added as they come.
 3. **Synthesis:** use this template:
@@ -98,6 +100,7 @@ Written generically. If the brief is about Alan's product, swap in the Alan vers
 - Who is the user here? Is the person who pays the same as the person who uses it? (Alan: member, employer/HR admin, or clinician? Which country?)
 - What triggers this journey? What are they trying to get done at that moment?
 - What happens today, and where does it break: drop-off, support contacts, complaints?
+- What does the user see or know at each step today? (Added after mock 2: in the Spendly mock, the app showed only "Submitted" / "Paid" and nobody asked.)
 - Do we have research, support tickets or member verbatims on this?
 
 **Business**
@@ -110,6 +113,7 @@ Written generically. If the brief is about Alan's product, swap in the Alan vers
 - Is there anything we believe but haven't measured?
 
 **Constraints**
+- What are we not allowed to do here, legally or by policy? Which decisions must stay with a person, and which can the product make? (Added after mock 1: the domain-agnostic way to find rules you don't know. If the answer is "you decide", state the assumption out loud.)
 - Sensitive data or regulation: who is allowed to see what? (Alan: health data, medical confidentiality)
 - One market or several? (Alan: France, Spain, Belgium, Canada)
 - Is a human in the loop (support, operations, experts), and what does that cost? (Alan: care team, doctors)
@@ -181,4 +185,67 @@ Unlikely in this round. If raised: compensation is tied to assessed level; ask w
 
 Mock briefs are made up for rehearsal and labelled as such. They are not predictions of Alan's case.
 
+### Mock 1 result (2026-10-15, Juniper primary-care brief, Claude as Christelle)
+
+Board: [Live case board (Juniper clinics)](https://www.figma.com/board/wxAxvXE8xlnFjWfzQ1NR0P). The session ended before the discussion block; the planned pushback was not delivered.
+
+- **Strong:** opened with research, took the acute-vs-chronic challenge well, corrected own misreading of the 9-day wait, mapped a real break point (cancel only by phone → no-show), reached a flow.
+- **Weak:** no time plan stated until asked; no constraint or "why now" questions; problem statement stayed a fact ("they don't need to go to the clinic") instead of a user problem; chosen direction (triage) didn't attack the mapped break point (no-shows); pick justified by assertion, refused to name what was given up; flow puts date picker before visit reason and is happy-path only; metric boxes empty, so Celine's impact gap stayed open.
+- **Missed context that would have changed the pick:** software can't make triage decisions (a nurse must review), nurse capacity is limited, a value-based insurer contract makes avoidable visits costly from next year, booking API supports slot types, team is 1 PM + 4 eng for 6 months.
+- **Fixes for Friday:** (1) ask constraints and "why now" before synthesising; (2) check that the pick fixes the break point you circled, and say what you give up; (3) say one user signal and one business signal out loud and write them down.
+
 After the interview: run `/debrief-interview alan case`.
+
+## Mock 2 result (2026-10-15/16, Spendly expense reimbursement, made-up case)
+
+Scores (same 0–4 scale as mock 1): Problem-solving 3 · Strategic thinking 2.5 · User-centricity 3 · Collaboration 3.5. Up on every category.
+
+- **Strong:** asked why now, success and constraints; dug into the manager quote (emails, filter, what "business expense" means); took the €50 rule and rebuilt option B; added employee-facing states when pushed; flow branches with two failure paths looping back to the employee, a status under every step, and the manual-correction idea; metrics named the team's baseline (19 days); guardrail included invalid expenses getting through.
+- **Weak:** offline ran ~60 min against 20; synthesis picked the manager step with a reason the map contradicted (8 days submit vs 6 manager) and wrote the solution into the problem; A and B were the same kind of option; the third option (better manager notifications) was dropped on a guess, not data; pick justified by "more personas" and "I feel there's capacity"; never claimed the strongest point of B (checking at scan removes the 22% send-back, ~7 days each); flow first drawn from the list screen to "processed", not from paying to money received; manager notification for >€50 left unchanged; metrics had no targets and read the 30% "where is my money" figure as finance time.
+- **Fixes for the live round:** (1) justify the pick with a number from their data; (2) metrics as baseline → target, one for the user and one for the business; (3) hard-stop offline at 20 min and draw the flow from the real trigger to the real end.
+
+## Debrief: live technical interview (2026-10-16)
+
+Source: Manel's account on 2026-10-16, plus the board as left in the Figma file "Technical # 1 - Therapist - Manel (Copy)" (read through the Figma bridge the same day). Christelle Mozzati was the only interviewer. Manel's own read: it went well, but not sure.
+
+### The brief (Alan's own product)
+
+"Find the right therapist." Design the experience that improves matching between members and therapists for video consultations in the Alan app. Facts from the brief:
+- Four therapists, each with distinct specialisations (anxiety, depression, panic attacks, self-confidence, burn-out, anger management).
+- France only; digital mental health is still "new" there compared with the US or UK.
+- Initially for a selected group of members. First version to ship in 2–3 weeks, as part of the member coverage plan.
+- A therapy session lasts about 45 minutes; a general consultation lasts about 15.
+- The biggest drop-off in the current flow is the "Select a therapist" screen.
+- Booking and video calls already exist; no third-party solution is needed.
+- Deliverable: an overarching concept, distilled into a defined MVP, shown as a low-fidelity user journey map. Rethinking the therapist experience is out of scope.
+
+Alan's board template suggested Discovery (on your own) 20 · Problem definition 20 · Solution exploration 20 · Deliverable 20 · Q&A 10.
+
+### What happened
+
+- **Discovery:** Manel went through the whole question list and Christelle answered each one. Answers captured on the board: there are fewer doctors and more patients, and information is hard to reach. Members are less sensitive to mental health. Mental health issues lead to work problems and sick leave. More members have mental health problems and want therapy. Booking can take 3 to 6 months. The team is 2 engineers, with 2–3 weeks to build.
+- **Synthesis on the board:** "For patients being reactive instead of preventative the problem is they are not used to care for mental health and booking times." Evidence cited: low sensitivity to mental health, and booking taking up to 6 months. Member outcome: look after their mental health. Business outcome: fewer sick leaves and absences, and healthier employees who perform better.
+- **Exploration:** only Option A is written on the board. It's a mental health awareness section, plus signals throughout the app. Christelle then drove the exploration with direct questions:
+  - *How do we make it easier for a member to book a therapist?* Manel proposed a free-text "Please explain what you need" step, where AI reads the described symptoms and points to a recommendation, with "Or pick one" topic triage as the alternative.
+  - *How could "Choose your therapist" make it clear what the member is choosing?* Manel proposed expanding the cards with what each therapist does, their methods and a description. Manel drew a "Recommended" / "Other options" list showing availability and language, and a sheet over "Choose your therapist" with the therapist's methods.
+- **Edge cases:** Manel raised these unprompted: no therapist available, or the calendar full for a long period so the member has to choose another option. Discussed out loud; not drawn.
+- **Flow on the board:** drawn in red over Alan's app screenshots: Clinic → "Please explain what you need" (or topic triage) → recommended therapists → booking → teleconsultation, with a therapist detail sheet.
+
+### Questions the prep didn't cover
+
+- **"How do we know we made a good match between member and therapist?"** Manel's answer: a short follow-up form asking whether the member is satisfied and how to improve the flow.
+- **Metrics:** Christelle asked. Manel first went back to awareness: a section explaining mental health and therapies, with entry points across the app, to move members from reactive to preventive. Manel then named the number of consultations, compared with the current number, as the metric. No target was stated, and no metric was written on the board.
+
+### Stories used
+
+None. The session stayed on the case; no past-project story came up.
+
+### What we learned about Alan
+
+- Christelle works on the **insurance** side of the product.
+- About **14 designers** and a **research team of 5–6**. Work is organised in groups or pods that coordinate several verticals (Manel's recollection of the wording).
+- There is a **design system** in place. A separate team maintains consistency across platforms and markets. Christelle described them as the "guardians" of the design.
+
+### Next step
+
+Christelle will talk to Celine, and Celine will send the decision. If Alan moves forward, Manel understood the next round would be a getting-to-know-you conversation with another person from the design team, or with the head of the design group (unconfirmed). No timing was given.
