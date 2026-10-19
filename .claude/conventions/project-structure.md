@@ -43,7 +43,7 @@ job-search/
 │   └── archive/                ← rehearsal transcripts
 ├── sourcing/                   ← watchlist, remote companies, role leads, scanner config (discovery, not pipeline)
 ├── analysis/[date]/            ← dated audits and funnel snapshots
-├── scripts/                    ← role scan, posting check, PDF merge, funnel audit, builders
+├── scripts/                    ← role scan, posting check, PDF text check, PDF merge, funnel audit, builders
 └── portfolio/                  ← git submodule → manel-leiva portfolio repo
 ```
 

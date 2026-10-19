@@ -12,6 +12,12 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 ## This week
 
+- [ ] **Tue 2026-10-20: fix the Figma CV and letter template** before the next PDF export. Text from exports since 2026-10-13 extracts split ("wit h", "t he", "mont hly", "librar y"): the Flodesk, Learnwise and OLX Otodom DS CVs and letters, and the OLX PD letter. Older template (Deel CV) extracted its headings as single letters (`S U M M A R Y`); check the current template's headings too. Likely cause, not confirmed: ligatures, letter spacing or kerning. Change one setting, re-export a test page, run `python3 scripts/check-pdf-text.py <pdf>` until it passes. From then on, run the check on every PDF before sending. Never regenerate PDFs that were already sent.
+
+- [ ] **Tue 2026-10-20: reconcile the Perk (DS) CV before sending.** The PDF in `cv-pdf-to-send/Perk (DS)/` extracts clean but differs from `cv/roles/perk-senior-design-systems-designer.md`: the PDF has no case-study link line in the summary (breaks the one-case-link rule), says "Barcelona, hybrid" where the source says "Barcelona (Remote)", and words the summary and audit bullet differently. Decide which is correct, fix the other, then re-run `python3 scripts/check-pdf-text.py "cv-pdf-to-send/Perk (DS)/Manel Leiva CV 2026.pdf" --source cv/roles/perk-senior-design-systems-designer.md`.
+
+- [ ] **Tue 2026-10-20: portfolio PDF text.** The Flodesk portfolio PDF has no extractable email. Make sure the planned portfolio PDF (Portfolio section below) carries contact details as real text.
+
 - [ ] **Tue 2026-10-20:** prepare one concrete example each for Figma MCP work: accessibility audit (which components or colours, what failed, what changed), design-code parity check (which component, which options differed), and two-way token sync (what drifted, how it was caught). Needed before any design-systems interview (Perk, Flodesk, OLX Otodom) and for the Remuner case update. Record them in `evidence/experience-facts.md`.
 
 ## Portfolio
