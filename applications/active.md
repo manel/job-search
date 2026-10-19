@@ -17,6 +17,7 @@ Proceed; CV and cover-letter Markdown sources are prepared. Layout/export and PD
 Proceed; application materials have not been prepared. Recheck the vacancy before drafting.
 
 - [LearnWise, Senior UI/UX Designer](records/learnwise-senior-ui-ux-designer.md): proceed, HIGH priority, assessed 2026-10-19. Shipped AI product and from-scratch design system are the two hardest asks and both are Remuner evidence. B2B AI SaaS, Senior IC (80% hands-on, 20% mentoring), hybrid with Barcelona hub, EUR 55-65K published. Posted 2026-10-16: apply this week.
+- [Rover, Senior Product Designer](records/rover-senior-product-designer.md): proceed, medium priority; reversed from skip on 2026-10-19. Product work (roadmaps, workshops, metrics, design system), Barcelona Mondays and Thursdays, EUR 62.7-76K published. Native-app gap (Remuner is a webview). Refresh the July materials before sending.
 - [Stripe, Product Designer, Global](records/stripe-product-designer-global.md): proceed, medium priority, assessed 2026-10-19. Dashboard and checkout for cross-border selling (tax, payment methods, localization); Barcelona office; 6+ years. Runs alongside the open Stripe Design Systems application: keep salary and story consistent.
 - [SlashMobility (Mango), Senior Product Designer](records/slashmobility-senior-product-designer-mango.md): proceed, low priority; reversed from the July skip on 2026-10-19. Consultancy placement on Mango internal and B2B tools (stores, franchises, employees), Barcelona hybrid. Lean application; ask pay, contract and duration early.
 - [Perk, Senior Design Systems Designer (Suitcase)](records/perk-senior-design-systems-designer.md): proceed, HIGH priority, assessed 2026-10-19. Named system, 25+ designers, roadmap, adoption metrics, consolidation: matches the Abacum and Remuner evidence closely. Barcelona three days in office. Posted 2026-10-15. Referral via Xavi first. Gaps: WCAG 2.2 AA practice, Code Connect and MCP unconfirmed.
@@ -79,7 +80,6 @@ Not being pursued under the recorded decisions. Prepared historical materials do
 - [Moniepoint, Staff Product Designer](records/moniepoint-staff-product-designer.md): assessed and skipped on 2026-09-15 because the posting does not establish Staff-level scope; the separate design-system vacancy is the better route.
 - [Deel, Senior Product Designer](records/deel-senior-product-designer.md): recorded Skip; never submitted. Historical materials exist; no next action.
 - [Deel, Senior Staff Product Designer, AI](records/deel-senior-staff-product-designer-ai.md): recorded Skip; never submitted. Historical materials exist; no next action.
-- [Rover, Senior Product Designer](records/rover-senior-product-designer.md): recorded Skip; never submitted. Consumer-marketplace/work-type mismatch in the assessment; historical materials exist.
 - [Schneider Electric, Principal UX Designer](records/schneider-electric-principal-ux-designer.md): recorded Skip; never submitted. Generic scope and weak role-specific interest; watch only for relevant Quartz/EcoStruxure roles.
 
 ## Rejected
