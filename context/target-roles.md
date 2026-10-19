@@ -15,7 +15,7 @@ B2B SaaS, fintech, data-heavy platforms, or complex workflow software. Prefer Se
 
 ## Constraints
 
-- Remote roles or hybrid roles in Barcelona.
+- Remote roles, or hybrid or on-site roles in Barcelona. On-site Barcelona accepted by Manel on 2026-10-19 (Markin assessment); before that the constraint was remote or Barcelona hybrid only.
 - No relocation.
 - Individual-contributor scope, not people management.
 - Prefer product and systems-design work over UI-production, growth-marketing, or consumer-mobile craft-led roles.

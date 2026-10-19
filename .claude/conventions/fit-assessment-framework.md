@@ -7,7 +7,7 @@ Run this before any application. Score each dimension and give a clear proceed /
 | Domain | B2B SaaS, fintech, data-heavy, or complex workflow? |
 | Scope | Senior, Lead, or Staff IC? Not management, not junior? |
 | Work type | Product design and systems thinking? Not pure UI production? |
-| Location | Remote or Barcelona hybrid? |
+| Location | Remote, or Barcelona hybrid or on-site? |
 | Genuine interest | Would I actually want this job? |
 | Stack signal | Figma, design systems, complex workflows in JD? |
 | DS maturity (DS-titled roles only) | Is the system treated as product infrastructure (dedicated scope, named system, engineering investment), or is it a side project, support function, or pre-sales asset? Merkle and Fluidra are the reference failures. |
