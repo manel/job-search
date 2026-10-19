@@ -10,7 +10,7 @@ Organized on 2026-10-07 from recorded decisions; vacancies and employer statuses
 
 Dates are mirrored in each record's `next_action_on`. Ranking: fit strength, posting freshness, effort, then dependencies.
 
-1. **Tue 20 Oct, unblock:** follow-ups (CloudTalk, RemoFirst, WhiteTech, Enginy); warm asks (Xavi for Perk, Lucia for Factorial, Murphy founder); agency questions (Mauro at Babel, Menna at Senovo: client and rate); send Wizeline; export the base CV PDF.
+1. **Tue 20 Oct, unblock:** follow-ups (CloudTalk, RemoFirst, WhiteTech, Enginy); warm asks (Xavi for Perk, Lucia for Factorial, Murphy founder); agency questions (Mauro at Babel, Menna at Senovo: client and rate); Wizeline sent 2026-10-19; export the base CV PDF.
 2. **Tailored, about two a day:** LearnWise (21) → Hostinger, light (21) → Perk (22) → Flodesk (22) → OLX Otodom (23) → Markin (23) → Stripe Global (24) → Rover (24).
 3. **Light, week of 27 Oct:** Blacklane, Punto Health, iLovePDF (27) → Glovo Order Tracking, Preply CRM, SlashMobility (28) → Babel Retail Media once the client is known.
 4. **Minimal, base CV:** Extia, Pasiona (29), after the client-name check; Senovo only if the rate works. One agency per client.
@@ -20,7 +20,6 @@ Dates are mirrored in each record's `next_action_on`. Ranking: fit strength, pos
 
 Proceed; CV and cover-letter Markdown sources are prepared. Layout/export and PDF verification remain. Recheck the exact vacancy before submission; this section does not mean submission-ready PDFs exist.
 
-- [Wizeline, Senior Product Designer - Barcelona Hybrid](records/wizeline-senior-product-designer-barcelona-hybrid.md): tailored CV and cover letter prepared on 2026-09-23; paste the CV into Figma, verify the exported PDF, then apply with direct links to both design-system cases.
 - [LearnWise, Senior UI/UX Designer](records/learnwise-senior-ui-ux-designer.md): CV and cover letter prepared 2026-10-19 (AI agent lead, design system from scratch). Export the PDF and submit via the careers form; check step 2 for salary questions. EUR 55-65K published.
 
 ## Prepare application
@@ -62,6 +61,7 @@ Resolve the stated next step before investing further. A Proceed assessment can 
 
 ## Confirmed active
 
+- [Wizeline, Senior Product Designer - Barcelona Hybrid](records/wizeline-senior-product-designer-barcelona-hybrid.md): applied 2026-10-19 via Greenhouse (design-system role, OPIS account). Nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
 - [Finom, Senior Product Designer, Credit & Cards](records/finom-senior-product-designer-credit-cards.md): applied 2026-10-13, confirmed by Manel; awaiting employer response. EUR 65,000 gross annual was suggested, but the submitted amount and other answers are unconfirmed. Exact files, channel, portfolio version, PDF QA and receipt details remain unconfirmed.
 - [Stripe, Product Designer, Design Systems](records/stripe-product-designer-design-systems.md): applied 2026-09-28, retrospectively confirmed by Manel on 2026-10-13; awaiting employer response. Exact submitted files, answers, channel, portfolio version, PDF QA and receipt details remain unconfirmed. Vacancy last checked 2026-09-28.
 
