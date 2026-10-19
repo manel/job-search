@@ -45,3 +45,4 @@ EUR 85,000 was the recorded salary position. The available evidence does not con
 - 2026-07-22: Application submitted through Lever.
 - 2026-08-04 11:43: OLX rejected the application before interview without specific feedback.
 - 2026-09-14: Outcome migrated from the email supplied by Manel.
+- 2026-10-19: The same work was re-posted: Remote Spain a266bdf7 (created 2026-10-08) and Barcelona 78e773da (created 2026-07-27). This req 46650794 returns 404. The re-application is tracked in `olx-otodom-senior-design-system-designer-2026-10.md`.
