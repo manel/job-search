@@ -190,7 +190,7 @@ Corrected facts (2026-06-12, from Manel):
 
 ### 5. AI Agent (Remuner)
 URL: /cases/ai-agent
-Status: DRAFTED, not yet linked from the home page or the other cases' sidebars. Full intake in `context/ai-agent-notes.md`. Remaining before it ships: the annotated answer-anatomy hero and the formats inline image (Manel builds both from the Remu Figma components), then wire into navigation.
+Status: Live and linked (portfolio commits 2026-07-21: "Add AI agent case study, Remuner", "Wire AI agent case into navigation"; URL returns 200 on 2026-10-19). Earlier "DRAFTED" status superseded.
 
 Shipped, released to all customers before March 2026. Canonical description (from Manel, 2026-06-12, recorded in memory.md; corrected 2026-07-16, see `context/ai-agent-notes.md` Q5): ONE global chat surface inside the app, not tied to the section the rep was in, where sales reps consult their own data: ERP line items, aggregations by period, where to focus, understanding their sales plan and decisions based on it. There was no second embedded-AI surface; "embedded answers" means the answers themselves rendered as tailored structured content (tables, lists, formats specific to the question type). Manel owned the full UX/UI, conversation design (tone, answer formats), the design side of capability scoping, and trust/accuracy patterns. Remuner had no PM at the time; scoping decisions sat with the founders, engineering, and Manel (corrected 2026-07-15, see memory.md). Post-release feedback was mixed; he iterated on tone, response format, and per-customer terminology (the same object was a "deal", "contract", or "item" depending on the customer).
 
