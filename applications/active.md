@@ -21,12 +21,12 @@ Dates are mirrored in each record's `next_action_on`. Ranking: fit strength, pos
 Proceed; CV and cover-letter Markdown sources are prepared. Layout/export and PDF verification remain. Recheck the exact vacancy before submission; this section does not mean submission-ready PDFs exist.
 
 - [Perk, Senior Design Systems Designer (Suitcase)](records/perk-senior-design-systems-designer.md): materials and PDFs ready (`cv-pdf-to-send/Perk (DS)/`). Referral ask sent 2026-10-19 to Tanna Schumacher (former LABASAD student, designer at Perk). Apply through her referral, or directly on 2026-10-22 if no reply.
+- [Flodesk, Web System Designer, Brand](records/flodesk-web-system-designer-brand.md): CV and cover letter prepared 2026-10-19 (systems built and migrated, tokens as structured data, Kymco modular blocks). Export and apply via Greenhouse; EUR 50-65K published.
 
 ## Prepare application
 
 Proceed; application materials have not been prepared. Recheck the vacancy before drafting.
 
-- [Flodesk, Web System Designer, Brand](records/flodesk-web-system-designer-brand.md): proceed, HIGH priority, assessed 2026-10-19. Owns Studio blocks and the web design system; asks for a system built from scratch AND one inherited and improved, with an adoption story, and design output consumed as structured data. No production code. Barcelona hybrid, EUR 50-65K.
 - [Punto Health, Product Designer (UX/UI & Visual)](records/punto-health-product-designer.md): proceed, light application, assessed 2026-10-19. Seed digital-health startup; own UX/UI and the Figma design system plus generalist marketing design; Barcelona three days. Must-haves met; level (1+ years Figma filter) and pay are the risks. Easy Apply, base CV adjusted.
 - [Senovo IT, Senior UX Designer, E-commerce (12-month contract)](records/senovo-senior-ux-designer-ecommerce-contract.md): proceed, minimal effort. E-commerce and A/B must-haves unmet. Email Menna for rate, contract type and client name before any submission; possibly the same client as Conkord, Extia and Pasiona.
 - [Blacklane, Senior Product Designer](records/blacklane-senior-product-designer.md): proceed, medium-low, assessed 2026-10-19. Premium chauffeur service, Senior IC owning product areas on web and mobile; effectively remote in Spain with Barcelona co-working. Gaps: native platform conventions, luxury-grade visual craft, quantified experiments. Salary shared before interviews.

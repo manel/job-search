@@ -15,8 +15,8 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Tailored application via Greenhouse. Lead with design systems in both directions (Remuner from scratch, Abacum inherited and improved, with the adoption count) and design output consumed as structured data (token pipeline). Include web-design craft from the Kings of Mambo studio work
-next_action_on: 2026-10-22
+next_action: Export CV (and letter) PDFs to cv-pdf-to-send/Flodesk/, apply via Greenhouse; put manel-leiva.com/cases/design-systems in the links field. Check any salary question with Claude first (EUR 50-65K published)
+next_action_on: 2026-10-20
 salary_stated: Not stated; employer range EUR 50,000-65,000 (published)
 job_url: https://job-boards.greenhouse.io/flodesk/jobs/5428040008
 source: Flodesk Greenhouse API, fetched 2026-10-19 (first published 2026-09-18, updated 2026-10-14; Barcelona hybrid)
@@ -61,6 +61,13 @@ Senior IC. No years stated. It is under a design lead's art direction on brand s
 - **AI-legible system design:** Manel uses AI daily (Codex repository work, AI prototyping). Designing schemas so generation produces on-brand output is adjacent and not yet evidenced.
 - **Brand toolkits:** no specific evidence.
 
+## Materials
+
+- CV source: `cv/roles/flodesk-web-system-designer-brand.md` (prepared 2026-10-19)
+- Cover letter source: `cover-letters/roles/flodesk-web-system-designer-brand.md` (prepared 2026-10-19, 215 words)
+- Checked against the evidence register; no-ai-slop and humanizer applied. Not claimed: inheriting a system (Abax was a new system replacing MUI), brand toolkits, AI-generation schemas. Kymco modular content blocks used as the Studio-blocks parallel.
+
 ## History
 
 - 2026-10-19: Assessed from the Greenhouse posting. Proceed, high priority. No materials prepared.
+- 2026-10-19: Vacancy rechecked (open, updated 2026-10-14). CV and cover letter prepared.
