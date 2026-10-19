@@ -18,6 +18,7 @@ Proceed; application materials have not been prepared. Recheck the vacancy befor
 
 
 - [New Relic, Principal Product Designer](records/new-relic-principal-product-designer.md): proceed as a credible Principal-level stretch at medium-high priority. Strong AI-product, complex B2B, and design-system alignment; organization-wide Principal scope and designer mentoring are the main evidence gaps. No materials prepared or application submitted.
+- [Babel Profiles (unnamed retailer), Senior UX/UI Designer, Retail Media](records/babel-profiles-retail-senior-ux-ui-designer.md): proceed, assessed 2026-10-19. Barcelona, one office day a week, permanent, Senior IC on a new Retail Media team. Confirm genuine interest in shopper-facing retail first; conversion metrics and native mobile are evidence gaps. Agency channel: ask for the client and the range at first contact.
 
 ## Needs clarification or evidence
 
