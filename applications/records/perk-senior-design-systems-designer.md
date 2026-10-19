@@ -15,7 +15,7 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Ask Xavi to refer Manel to this role, and if possible name the Suitcase hiring manager; prepare the package alongside. Confirm MCP and Code Connect experience before claiming it
+next_action: Ask Xavi to submit a referral for this req (a referral usually has to come from him in Perk's system, before or right after the application); export the CV PDF and apply via Ashby. Tell Claude when sent
 next_action_on: 2026-10-22
 salary_stated: Not stated; no range published
 job_url: https://jobs.ashbyhq.com/Perk/78dafbf1-0f6d-46b7-b71a-2c59f7af31cf
@@ -68,6 +68,12 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 - **Localisation and content tokens:** Remuner's per-customer terminology in the AI agent is adjacent, not the same thing.
 - **Salary:** no range published. Follow `context/salary.md`; Perk is a large, well-funded company.
 
+## Materials
+
+- CV source: `cv/roles/perk-senior-design-systems-designer.md` (prepared 2026-10-19)
+- Cover letter source: `cover-letters/roles/perk-senior-design-systems-designer.md` (prepared 2026-10-19, 210 words)
+- Checked against the evidence register; no-ai-slop and humanizer applied. Code Connect and accessibility not claimed. Not yet exported or sent.
+
 ## Prior applications
 
 - Staff Product Designer, Events: referral via Xavi, rejected at CV review (`perk-staff-product-designer-events.md`). One screen rejection, different role shape.
@@ -76,3 +82,4 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 ## History
 
 - 2026-10-19: Posting fetched (published 2026-10-15, open). Assessed: Proceed, high priority, with a referral via Xavi. No materials prepared.
+- 2026-10-19: Manel confirmed Figma MCP use (Remuner tokens, explorations, presentations); CV and cover letter prepared.
