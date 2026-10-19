@@ -1,7 +1,7 @@
 ---
 company: Flodesk
 role: Web System Designer, Brand
-status: in-progress
+status: applied
 status_verified_on: 2026-10-19
 status_confidence: confirmed
 posting_status: open
@@ -10,14 +10,14 @@ fit_decision: proceed
 role_lane: design-systems
 application_channel: direct
 warm_path: none recorded
-portfolio_version:
-applied_on:
+portfolio_version: one-page portfolio PDF 2026-10-19 (materials/portfolio-onepager) plus live site
+applied_on: 2026-10-19
 last_contact_on:
-outcome_stage: not-submitted
+outcome_stage: no-response
 rejection_reason_class: none
-next_action: Export CV (and letter) PDFs to cv-pdf-to-send/Flodesk/, apply via Greenhouse; put manel-leiva.com/cases/design-systems in the links field. Check any salary question with Claude first (EUR 50-65K published)
-next_action_on: 2026-10-20
-salary_stated: Not stated; employer range EUR 50,000-65,000 (published)
+next_action: Nudge if silent (10 business days); LinkedIn outreach 2026-11-09; stale 2026-11-23. Before any interview prepare visible web-craft examples (Kymco blocks) and the Figma MCP examples
+next_action_on: 2026-11-02
+salary_stated: Not asked on the form; none stated. Employer range EUR 50,000-65,000 (published)
 job_url: https://job-boards.greenhouse.io/flodesk/jobs/5428040008
 source: Flodesk Greenhouse API, fetched 2026-10-19 (first published 2026-09-18, updated 2026-10-14; Barcelona hybrid)
 ---
@@ -72,3 +72,4 @@ Senior IC. No years stated. It is under a design lead's art direction on brand s
 - 2026-10-19: Assessed from the Greenhouse posting. Proceed, high priority. No materials prepared.
 - 2026-10-19: Vacancy rechecked (open, updated 2026-10-14). CV and cover letter prepared.
 - 2026-10-19: Portfolio one-pager PDF generated for the upload-only portfolio field: `cv-pdf-to-send/Flodesk/Manel Leiva Portfolio 2026.pdf` (source in `materials/portfolio-onepager/`).
+- 2026-10-19: Applied via Greenhouse (Manel confirmed): CV, cover letter, LinkedIn, one-page portfolio PDF. Form: hybrid Barcelona yes, resides in Spain yes, authorised to work yes, sponsorship no. No salary question. Follow-up: nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.

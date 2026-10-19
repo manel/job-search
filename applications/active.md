@@ -21,7 +21,6 @@ Dates are mirrored in each record's `next_action_on`. Ranking: fit strength, pos
 Proceed; CV and cover-letter Markdown sources are prepared. Layout/export and PDF verification remain. Recheck the exact vacancy before submission; this section does not mean submission-ready PDFs exist.
 
 - [Perk, Senior Design Systems Designer (Suitcase)](records/perk-senior-design-systems-designer.md): materials and PDFs ready (`cv-pdf-to-send/Perk (DS)/`). Referral ask sent 2026-10-19 to Tanna Schumacher (former LABASAD student, designer at Perk). Apply through her referral, or directly on 2026-10-22 if no reply.
-- [Flodesk, Web System Designer, Brand](records/flodesk-web-system-designer-brand.md): CV and cover letter prepared 2026-10-19 (systems built and migrated, tokens as structured data, Kymco modular blocks). Export and apply via Greenhouse; EUR 50-65K published.
 
 ## Prepare application
 
@@ -59,6 +58,7 @@ Resolve the stated next step before investing further. A Proceed assessment can 
 
 ## Confirmed active
 
+- [Flodesk, Web System Designer, Brand](records/flodesk-web-system-designer-brand.md): applied 2026-10-19 via Greenhouse with one-page portfolio PDF; no salary asked (range 50-65K). Nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
 - [LearnWise, Senior UI/UX Designer](records/learnwise-senior-ui-ux-designer.md): applied 2026-10-19 via careers form, EUR 62,000 stated (range 55-65K). Nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
 - [Hostinger, Product Designer (remote)](records/hostinger-product-designer.md): applied 2026-10-19 via Ashby, EUR 5,000/month stated (employer starts at 4,500). Nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
 - [Wizeline, Senior Product Designer - Barcelona Hybrid](records/wizeline-senior-product-designer-barcelona-hybrid.md): applied 2026-10-19 via Greenhouse (design-system role, OPIS account). Nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
