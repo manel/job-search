@@ -20,7 +20,7 @@ Dates are mirrored in each record's `next_action_on`. Ranking: fit strength, pos
 
 Proceed; CV and cover-letter Markdown sources are prepared. Layout/export and PDF verification remain. Recheck the exact vacancy before submission; this section does not mean submission-ready PDFs exist.
 
-- [Perk, Senior Design Systems Designer (Suitcase)](records/perk-senior-design-systems-designer.md): materials and PDFs ready (`cv-pdf-to-send/Perk (DS)/`). Xavi has left Perk, so no referral: apply directly now.
+- [Perk, Senior Design Systems Designer (Suitcase)](records/perk-senior-design-systems-designer.md): materials and PDFs ready (`cv-pdf-to-send/Perk (DS)/`). Referral ask sent 2026-10-19 to Tanna Schumacher (former LABASAD student, designer at Perk). Apply through her referral, or directly on 2026-10-22 if no reply.
 
 ## Prepare application
 

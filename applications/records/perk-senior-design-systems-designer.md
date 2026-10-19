@@ -15,7 +15,7 @@ applied_on:
 last_contact_on: 2026-10-19
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Send the LinkedIn message to Tanna (outreach/perk-tanna-schumacher-2026-10-19.md). Apply through her referral if she offers one; if no reply by 2026-10-22, apply directly via Ashby with the PDFs in cv-pdf-to-send/Perk (DS)/ and do not follow up
+next_action: Wait for Tanna's reply. If she offers a referral, apply through it; if no reply by 2026-10-22, apply directly via Ashby with the PDFs in cv-pdf-to-send/Perk (DS)/ (case link in the form's links field) and do not follow up
 next_action_on: 2026-10-22
 salary_stated: Not stated; no range published
 job_url: https://jobs.ashbyhq.com/Perk/78dafbf1-0f6d-46b7-b71a-2c59f7af31cf
@@ -88,3 +88,4 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 - 2026-10-19: Xavi replied that he left Perk about three weeks ago and cannot refer. Channel changed to direct; no other warm path at Perk on record.
 - 2026-10-19: Referral ask drafted for Tanna Schumacher (Perk product designer, 1st-degree connection, not personally known). Plan: hold the application until 2026-10-22 for her reply.
 - 2026-10-19: Manel recognised Tanna as a former student (LABASAD Sketch course, around 2018); message rewritten in Spanish opening with that connection.
+- 2026-10-19: Referral ask sent to Tanna on LinkedIn (sent text in `outreach/perk-tanna-schumacher-2026-10-19.md`).
