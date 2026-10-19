@@ -2,6 +2,7 @@
 # Prepared 2026-09-23. Source: current approved CV copy, evidence/experience-facts.md, and confirmed live portfolio cases.
 # Lead: component libraries, Figma variables, tokens, documentation, governance, and design-to-code alignment.
 # Revised 2026-10-19 before sending: Abacum line aligned with the evidence register (worked on, not built; no pipeline authorship), postgraduate teaching claim removed, languages added.
+# Note 2026-10-19: Manel does not put case links in the CV header; the two case-link lines below were probably not in the sent PDF (cv-pdf-to-send/Wizeline/). Unverified.
 # Plain text below the line, ready for Figma paste. No PDF generated.
 
 ---

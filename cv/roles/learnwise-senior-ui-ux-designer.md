@@ -10,8 +10,6 @@ Senior Product Designer, AI Products and Design Systems
 Barcelona, Spain
 manel-leiva.com
 linkedin.com/in/maneleiva
-AI agent, Remuner: manel-leiva.com/cases/ai-agent
-Design system from scratch, Remuner: manel-leiva.com/cases/design-system-remuner
 
 
 SUMMARY

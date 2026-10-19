@@ -10,8 +10,6 @@ Senior Product Designer, Design Systems
 Barcelona, Spain
 manel-leiva.com
 linkedin.com/in/maneleiva
-Design systems, Abacum and Remuner: manel-leiva.com/cases/design-systems
-Design system from scratch, Remuner: manel-leiva.com/cases/design-system-remuner
 
 
 SUMMARY

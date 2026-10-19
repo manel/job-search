@@ -1,5 +1,5 @@
 # CV — Base (working draft)
-# Revised 2026-10-10; languages line added and SELECTED WORK replaced by header case links 2026-10-19. Sources: established CV structure, evidence/experience-facts.md, and Manel’s role-scope clarification.
+# Revised 2026-10-10; languages line added and SELECTED WORK block and case links removed 2026-10-19 (links go in the letter or form). Sources: established CV structure, evidence/experience-facts.md, and Manel’s role-scope clarification.
 # Working draft for review; not a submitted CV.
 # Lead: complex B2B product design across data, financial modeling, and sales-compensation workflows.
 # Scope revised 2026-10-06 from Manel’s direct clarification, corroborated by the Figma inventory.
@@ -12,8 +12,6 @@ Senior Product Designer
 Barcelona, Spain
 manel-leiva.com
 linkedin.com/in/maneleiva
-AI agent, Remuner: manel-leiva.com/cases/ai-agent
-Data management layer, Abacum: manel-leiva.com/cases/dataset-manager
 
 
 SUMMARY
