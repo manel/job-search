@@ -1,7 +1,7 @@
 ---
 company: Hostinger
 role: Product Designer (remote, Europe/Spain)
-status: in-progress
+status: applied
 status_verified_on: 2026-10-19
 status_confidence: confirmed
 posting_status: open
@@ -10,14 +10,14 @@ fit_decision: proceed
 role_lane: product
 application_channel: direct
 warm_path: none recorded
-portfolio_version:
-applied_on:
+portfolio_version: live site 2026-10-19
+applied_on: 2026-10-19
 last_contact_on:
-outcome_stage: not-submitted
+outcome_stage: no-response
 rejection_reason_class: none
-next_action: Paste the CV into Figma, export and verify the PDF; apply via Ashby with the portfolio link (no cover letter unless the form asks). Tell Claude when sent
-next_action_on: 2026-10-21
-salary_stated: Not stated; published "starts at EUR 4,500/month", open to adjustment for experience
+next_action: Nudge if silent (10 business days); LinkedIn outreach 2026-11-09; stale 2026-11-23. At first contact confirm level and whether monthly pay is 12 or 14 payments
+next_action_on: 2026-11-02
+salary_stated: EUR 5,000 gross per month (form asked monthly expectation; stated 2026-10-19). Employer: "starts at EUR 4,500/month", open to adjustment
 job_url: https://jobs.ashbyhq.com/hostinger/4f8ecf6c-b51c-4682-a864-eb471f27ed89
 source: Hostinger Ashby job board API, fetched 2026-10-19 (published 2026-10-19; remote, based in Europe or Spain)
 ---
@@ -58,3 +58,4 @@ Mid to senior. 3+ years and no title level; the compensation line ("open to adju
 - July 2026: an earlier Hostinger Product Designer posting skipped (archive) on domain, level and pay.
 - 2026-10-19: New posting (published today) assessed: Proceed, medium-low.
 - 2026-10-19: Light CV prepared: `cv/roles/hostinger-product-designer.md` (headline Product Designer; hands-on ownership and research lead; Kymco consumer checkout included). No cover letter.
+- 2026-10-19: Applied via Ashby (Manel confirmed). Salary asked as monthly expectation: Manel entered EUR 5,000 (considered EUR 5,300; chose 5,000 to limit overqualification and band-ceiling risk). No cover letter. Follow-up: nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
