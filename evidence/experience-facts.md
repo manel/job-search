@@ -265,7 +265,7 @@ This is the evidence register, not finished application copy. Each material clai
 
 ### Design system and token pipeline
 
-- **Claim:** Manel uses the Figma MCP with an AI agent (Claude) in his design work. **At Remuner** (before March 2026) he used it to manage design tokens in Remuner's Figma files. **After Remuner**, continuing the same practice, he has used it to build and iterate on components and their variants, keep colours and colour shades consistent, and export tokens to code in two layers (core and semantic). He has also used it to generate design explorations and build presentations in Figma.
+- **Claim:** Manel uses the Figma MCP with an AI agent (Claude) in his design work. **At Remuner** (before March 2026) he used it to manage design tokens in Remuner's Figma files. **After Remuner**, continuing the same practice, he has used it to build and iterate on components and their variants, keep colours and colour shades consistent, and export tokens to code in two layers (core and semantic). He has also used it to generate design explorations, build presentations in Figma, and work on design-system documentation (documentation use confirmed 2026-10-19; whether any of it was at Remuner is not yet confirmed, so treat it as current practice).
 - **Class:** Confirmed direct user statement.
 - **Source:** Manel's answers during Perk application preparation on 2026-10-19 (two messages; the split between Remuner and later work was confirmed in the second).
 - **Verified:** 2026-10-19.
