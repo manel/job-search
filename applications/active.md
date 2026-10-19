@@ -60,6 +60,7 @@ Employer has paused progression for Manel without communicating a final rejectio
 
 Not being pursued under the recorded decisions. Prepared historical materials do not make a role active.
 
+- [Preply, Staff Product Designer (Barcelona)](records/preply-staff-product-designer-barcelona.md): skipped on 2026-10-19. The must-have is Staff/Lead experience in a mature design organisation on consumer, mobile-first products at scale; all three parts are missing.
 - [Conkord, Senior E-commerce UX Designer](records/conkord-senior-ecommerce-ux-designer.md): Manel declined via LinkedIn (confirmed 2026-10-14; send date not confirmed). B2C e-commerce focus and freelance budget for three days onsite; asked the recruiter to keep him in mind for B2B Senior roles.
 - [Preply, Global Senior CRM & Lifecycle Designer](records/preply-global-senior-crm-lifecycle-designer.md): September 22 Skip recovered from chat on 2026-10-13. Direct CRM/lifecycle and retention/conversion evidence was missing. No application confirmed; current vacancy unknown. Reassess against the income-first priority if a concrete opportunity returns.
 - [Macel Mendoza, unnamed client — Senior Product Designer](records/macel-mendoza-unnamed-client-senior-product-designer.md): skipped on 2026-10-05 for consumer mobile-first/craft-led work mismatch and unsupported consumer-at-scale requirements. Closely matching agency vacancy verified; actual client and recruiter mandate unknown. No outreach or application sent.
