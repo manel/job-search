@@ -83,7 +83,7 @@ Not being pursued under the recorded decisions. Prepared historical materials do
 - [Pilar, unnamed client profile review](records/pilar-unnamed-client-profile-review.md): recruiter confirmed downloading and reviewing the CV on 2026-09-15, then declined client fit without specific feedback. Employer and role unknown; tracked separately in application analytics.
 - [Perk, Staff Product Designer, Events](records/perk-staff-product-designer-events.md): rejected before interview on 2026-09-15 with no specific feedback.
 - [Secfix, Senior Product Designer](records/secfix-senior-product-designer.md): rejected after recruiter screening.
-- [Murphy AI, Founding Product Designer](records/murphy-ai-founding-product-designer.md): rejected on 2026-09-04.
+- [Murphy AI, Founding Product Designer](records/murphy-ai-founding-product-designer.md): rejected on 2026-09-04. Req still open on 2026-10-19: one direct-message re-approach planned (by 2026-10-22), no reapplication.
 - [Biorce, Senior Product Designer](records/biorce-senior-product-designer.md): rejected after recruiter screening; hiring team said the role was effectively mid-level for Manel's experience.
 - [Factorial, Senior Product Designer, Platform Domain](records/factorial-senior-product-designer-platform-domain.md): rejected on 2026-08-28 with no specific feedback.
 - [OLX Group (Otodom), Senior Design System Designer](records/olx-otodom-senior-design-system-designer.md): rejected before interview on 2026-08-04 with no specific feedback.
