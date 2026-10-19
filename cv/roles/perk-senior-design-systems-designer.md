@@ -10,6 +10,8 @@ Senior Product Designer, Design Systems
 Barcelona, Spain
 manel-leiva.com
 linkedin.com/in/maneleiva
+Design systems, Abacum and Remuner: manel-leiva.com/cases/design-systems
+Design system from scratch, Remuner: manel-leiva.com/cases/design-system-remuner
 
 
 SUMMARY
@@ -17,11 +19,6 @@ SUMMARY
 Senior Product Designer with 15 years designing complex B2B products and building and maintaining production design systems.
 Co-led the Abax design system across five squads at Abacum, with adoption tracked monthly against a target, then built Remuner's system from scratch as its sole designer.
 
-
-SELECTED WORK
-
-Design systems, Abacum and Remuner: manel-leiva.com/cases/design-systems
-Design system from scratch, Remuner: manel-leiva.com/cases/design-system-remuner
 
 
 EXPERIENCE
@@ -37,7 +34,7 @@ Ran an ongoing product audit: captured each UI pattern, defined its variants and
 
 Owned the design side of the token pipeline; used Codex to add CI validation, drift detection, smoke tests, W3C token output, an HTML preview, and JSON output through engineering-reviewed PRs.
 
-Used the Figma MCP with an AI agent to manage tokens and sync them with code, run accessibility checks, and write component documentation.
+Used the Figma MCP with an AI agent to manage tokens and sync them with code, run accessibility checks, work with components and write documentation.
 
 
 Abacum, Senior Product Designer

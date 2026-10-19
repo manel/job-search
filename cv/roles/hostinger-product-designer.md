@@ -1,7 +1,8 @@
 # CV — Hostinger, Product Designer (remote)
 # Prepared 2026-10-19. Light application: base CV adjusted, no cover letter. Sources: cv/cv-base.md, the OLX AI-native CV (approved bullets), evidence/experience-facts.md.
 # Lead: hands-on end-to-end ownership and research for non-expert users; consumer commerce from Kings of Mambo for the "consumer-focused" ask. Leadership scope kept low to limit overqualification risk.
-# Plain text below the line, ready for Figma paste. No PDF generated.
+# Sent 2026-10-19. The SELECTED WORK block below was NOT in the sent PDF (Manel never adds that block; noted 2026-10-19). Source otherwise unchanged as the record of what was sent.
+# Plain text below the line, ready for Figma paste.
 
 ---
 

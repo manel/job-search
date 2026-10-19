@@ -14,7 +14,7 @@
 
 - Reuse the established structure in `cv/roles/`; do not invent a new layout for each application.
 - Use two concise summary sentences: the approved general positioning first, then the strongest role-specific evidence. Do not turn the summary into a dense paragraph or repeat the skills section.
-- Add `SELECTED WORK` near the top when direct case links materially help the application. Use two or three short descriptive links.
+- Do not add a `SELECTED WORK` block; Manel never includes it in the Figma CV (confirmed 2026-10-19). When case links materially help (AI and design-system roles always), put one or two short descriptive case links in the header under the LinkedIn line, as in the Wizeline CV sent 2026-10-19.
 - Under each recent role, begin with a short scope paragraph stating product coverage and responsibility. Follow it with three or four focused achievement bullets. The scope paragraph is separate from the selected achievements; do not let tailoring reduce a broad role to its best-documented project. In the Markdown source, keep each bullet as its own standalone paragraph so it can become a separate bullet in Figma. Do not collapse several achievements into one prose block or use more bullets merely to repeat keywords.
 - Give earlier roles two or three bullets. Preserve formal historical titles; tailor only the top headline.
 - The header title under the name is customised to the open role (for example "Product Designer, Design Systems"), an established practice confirmed 2026-07-06. Experience-entry titles stay as they were held and are never inflated.

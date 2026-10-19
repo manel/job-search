@@ -10,19 +10,15 @@ Senior Product Designer, AI Products and Design Systems
 Barcelona, Spain
 manel-leiva.com
 linkedin.com/in/maneleiva
+AI agent, Remuner: manel-leiva.com/cases/ai-agent
+Design system from scratch, Remuner: manel-leiva.com/cases/design-system-remuner
 
 
 SUMMARY
 
 Senior Product Designer with 15 years designing and shipping complex B2B products.
-Designed a conversational AI agent that shipped to all Remuner customers, and built Remuner's design system from scratch as its sole designer.
+Takes AI and B2B features from customer research to release, including Remuner's conversational AI agent and a design system built from scratch.
 
-
-SELECTED WORK
-
-AI agent, Remuner: manel-leiva.com/cases/ai-agent
-Design system from scratch, Remuner: manel-leiva.com/cases/design-system-remuner
-Data management layer, Abacum: manel-leiva.com/cases/dataset-manager
 
 
 EXPERIENCE

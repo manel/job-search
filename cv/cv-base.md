@@ -1,5 +1,5 @@
 # CV — Base (working draft)
-# Revised 2026-10-10; languages line added 2026-10-19. Sources: established CV structure, evidence/experience-facts.md, and Manel’s role-scope clarification.
+# Revised 2026-10-10; languages line added and SELECTED WORK replaced by header case links 2026-10-19. Sources: established CV structure, evidence/experience-facts.md, and Manel’s role-scope clarification.
 # Working draft for review; not a submitted CV.
 # Lead: complex B2B product design across data, financial modeling, and sales-compensation workflows.
 # Scope revised 2026-10-06 from Manel’s direct clarification, corroborated by the Figma inventory.
@@ -12,6 +12,8 @@ Senior Product Designer
 Barcelona, Spain
 manel-leiva.com
 linkedin.com/in/maneleiva
+AI agent, Remuner: manel-leiva.com/cases/ai-agent
+Data management layer, Abacum: manel-leiva.com/cases/dataset-manager
 
 
 SUMMARY
@@ -19,12 +21,6 @@ SUMMARY
 Senior Product Designer with 15 years designing and shipping complex B2B products.
 Experience spans data integrations, financial modeling, and sales-compensation workflows, alongside shipped AI-product work and production design systems.
 
-
-SELECTED WORK
-
-AI agent, Remuner: manel-leiva.com/cases/ai-agent
-Design system, Abacum: manel-leiva.com/cases/design-systems
-Data management layer, Abacum: manel-leiva.com/cases/dataset-manager
 
 
 EXPERIENCE
