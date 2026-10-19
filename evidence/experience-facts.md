@@ -20,6 +20,12 @@ This is the evidence register, not finished application copy. Each material clai
 - **Source:** Manel's confirmation for the Kabilio application form on 2026-10-01.
 - **Verified:** 2026-10-01.
 
+- **Claim:** Manel's French is basic or none.
+- **Class:** Confirmed direct user statement.
+- **Source:** Manel's answer during the Pennylane role assessment on 2026-10-19.
+- **Verified:** 2026-10-19.
+- **External-use boundary:** Do not claim French. Roles that require French communication or French-language user research are skips.
+
 ### Crypto familiarity
 
 - **Claim:** Manel has practical experience using self-custodial wallets and partial familiarity with crypto terminology and concepts, but does not describe his knowledge as deep.

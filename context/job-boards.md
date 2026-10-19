@@ -69,5 +69,5 @@ Known targets to check manually:
 
 ## What hasn't
 
-- career-ops automated scanning: results were low quality and low volume for Senior IC design roles. Discontinued.
+- career-ops automated scanning, used as a full tool (its own profile and search): results were low quality and low volume for Senior IC design roles. Discontinued in that form. Since 2026-10-14 its scanner runs as an engine only, through `scripts/scan-roles.py`, against this repo's company watchlist and filters (commands in `README.md`). First run, 2026-10-14: 30 companies with a supported job board, 1,587 postings, 6 new leads into `sourcing/role-leads.csv`. Not yet proven: no lead from the scanner has reached an application.
 - thelastofsaas.es directory: swept in full 2026-07-13 (~110 companies, 5 pages). Overwhelmingly martech/e-commerce tooling (CRO, chatbots, email marketing); the domain-relevant cut was ~11 companies (SeQura, Ealyx, Pleo, PayFit, Metricool, Stripe, Adyen, Algolia, Sentry, Contentful, Hotjar) and none had a relevant opening on the day. Don't re-sweep the directory; the shortlist's careers pages can be spot-checked directly in future sourcing sessions if the pipeline is thin.

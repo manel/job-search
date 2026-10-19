@@ -5,7 +5,7 @@ status: in-progress
 status_verified_on: 2026-09-23
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-09-23
+posting_checked_on: 2026-10-19
 fit_decision: proceed
 role_lane: design-systems
 application_channel: direct
@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Paste the tailored CV into Figma, export and verify an ATS-readable PDF, then apply; ask about salary, hybrid cadence, team mandate, and account continuity at the first human exchange
-next_action_on:
+next_action_on: 2026-10-20
 salary_stated: Not stated; employer range unknown
 job_url: https://www.wizeline.ai/careers/job/?gh_jid=7384390
 source: Official Wizeline Greenhouse job record and application fields checked 2026-09-23; live portfolio cases; Career OS evidence register
@@ -84,3 +84,4 @@ The official Greenhouse application is open. Required candidate fields are CV, L
 
 - 2026-09-23: Exact official posting and application fields confirmed open. Role assessed before drafting and set to proceed. No application materials were prepared and no application was submitted.
 - 2026-09-23: Tailored CV and short cover letter prepared in Markdown. No PDF was generated and no application was submitted.
+- 2026-10-19: The scanner re-found this role (Greenhouse record last updated 2026-10-08, still open). The package was never submitted and the record had no `next_action_on`, so the overdue check never surfaced it. Set to 2026-10-20. Two other Wizeline Barcelona postings exist: UX Designer (7701620) on the same OPIS account with near-identical design-system scope, and Product Designer (7406176), a broader product-ownership role first published 2025-11-18 and likely an evergreen req. Apply here only; raise the product role with the recruiter at first contact instead of a second cold application.
