@@ -1,5 +1,5 @@
 # Cover letter — OLX (Otodom), Senior Design System Designer, re-application (October 2026)
-# Prepared 2026-10-19. Salary omitted (no range published). July letter kept unchanged.
+# Prepared 2026-10-19. Salary omitted (no range published). July letter kept unchanged. The July application is deliberately not mentioned (Manel's choice, 2026-10-19).
 # Plain text below the line, ready for the application form. No PDF generated.
 
 ---
@@ -12,7 +12,7 @@ I proposed and ran the contribution split there. Work in progress lived in an Ex
 
 At Remuner I was the only designer and built the system from scratch, with ESLint rules that enforced system components. I owned the design side of the token pipeline and used Codex to add CI validation and drift detection through PRs that engineers reviewed and merged. I also used the Figma MCP with an AI agent to keep tokens in sync with code, check contrast and write component documentation.
 
-Since my application in July, the design-systems case has been updated with these decisions: manel-leiva.com/cases/design-systems.
+The design-systems case covers these decisions in more detail: manel-leiva.com/cases/design-systems.
 
 Best,
 Manel

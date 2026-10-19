@@ -64,7 +64,7 @@ Senior. The body says "Senior Product Designer" on the design-system team. It is
 
 - CV source: `cv/roles/olx-otodom-senior-design-system-designer-2026-10.md` (prepared 2026-10-19; the July sources are unchanged)
 - Cover letter source: `cover-letters/roles/olx-otodom-senior-design-system-designer-2026-10.md` (prepared 2026-10-19, 231 words)
-- Lead: contribution split (Exploration file with [Experiment] prefix, canonical Implementation library after review), naming convention, read-only state, feature-flag migration, all from the live design-systems case. The letter names the case update since July without apologising.
+- Lead: contribution split (Exploration file with [Experiment] prefix, canonical Implementation library after review), naming convention, read-only state, feature-flag migration, all from the live design-systems case. The letter does not mention the July application (Manel's choice); it points to the case for the decisions.
 
 ## History
 
