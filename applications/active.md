@@ -17,6 +17,7 @@ Proceed; CV and cover-letter Markdown sources are prepared. Layout/export and PD
 Proceed; application materials have not been prepared. Recheck the vacancy before drafting.
 
 - [LearnWise, Senior UI/UX Designer](records/learnwise-senior-ui-ux-designer.md): proceed, HIGH priority, assessed 2026-10-19. Shipped AI product and from-scratch design system are the two hardest asks and both are Remuner evidence. B2B AI SaaS, Senior IC (80% hands-on, 20% mentoring), hybrid with Barcelona hub, EUR 55-65K published. Posted 2026-10-16: apply this week.
+- [Glovo, Staff Product Designer, Order Tracking](records/glovo-staff-product-designer-order-tracking.md): proceed, low priority, assessed 2026-10-19, pending genuine interest (failed for Glovo in July). Multi-brand order tracking across Delivery Hero apps; 5+ years bar; "app experience essential" is the gap (Remuner app is a webview).
 - [Markin, Product Designer](records/markin-product-designer.md): proceed, assessed 2026-10-19. On-site Barcelona (accepted). B2B enterprise growth platform with AI agents; end-to-end flows and design system. Unlevelled title, no published range: ask early. The form needs a CV link and a required "Why Markin" answer.
 
 - [New Relic, Principal Product Designer](records/new-relic-principal-product-designer.md): proceed as a credible Principal-level stretch at medium-high priority. Strong AI-product, complex B2B, and design-system alignment; organization-wide Principal scope and designer mentoring are the main evidence gaps. No materials prepared or application submitted.
@@ -60,6 +61,7 @@ Employer has paused progression for Manel without communicating a final rejectio
 
 Not being pursued under the recorded decisions. Prepared historical materials do not make a role active.
 
+- [Glovo, Staff Product Designer, UX team](records/glovo-staff-product-designer-ux.md): skip reconfirmed 2026-10-19 (first skipped 2026-07-22). Native iOS/Android standards and a UX leadership-team seat; evidence unchanged.
 - [Preply, Staff Product Designer (Barcelona)](records/preply-staff-product-designer-barcelona.md): skipped on 2026-10-19. The must-have is Staff/Lead experience in a mature design organisation on consumer, mobile-first products at scale; all three parts are missing.
 - [Conkord, Senior E-commerce UX Designer](records/conkord-senior-ecommerce-ux-designer.md): Manel declined via LinkedIn (confirmed 2026-10-14; send date not confirmed). B2C e-commerce focus and freelance budget for three days onsite; asked the recruiter to keep him in mind for B2B Senior roles.
 - [Preply, Global Senior CRM & Lifecycle Designer](records/preply-global-senior-crm-lifecycle-designer.md): September 22 Skip recovered from chat on 2026-10-13. Direct CRM/lifecycle and retention/conversion evidence was missing. No application confirmed; current vacancy unknown. Reassess against the income-first priority if a concrete opportunity returns.
