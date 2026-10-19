@@ -70,6 +70,12 @@ This is the evidence register, not finished application copy. Each material clai
 - **Source:** Manel's clarification during the OLX Senior Product Designer assessment on 2026-10-02.
 - **Verified:** 2026-10-02.
 - **External-use boundary:** This supports teaching and explaining design and implementation concepts. The exact component subject matter, institution, course level, dates, duration, and learner outcomes are not established by this confirmation.
+- **Claim:** One of Manel's teaching engagements was a Sketch course at LABASAD (online design school), around 2018. Tanna Schumacher, now a product designer at Perk, was one of his students.
+- **Class:** Recollection (Manel's statement); exact dates, course length and format not recorded.
+- **Source:** Manel's statement on 2026-10-19 while preparing the Perk referral ask.
+- **Verified:** 2026-10-19.
+- **External-use boundary:** Supports naming LABASAD and Sketch as a teaching example. Do not state exact years, cohort size or course level.
+
 - **Course level:** The July 2026 CV base said "postgraduate level". On 2026-10-14 Manel said he believes it was not postgraduate but does not recall clearly. Do not claim postgraduate teaching.
 - **Placement:** Manel removed a separate teaching entry from LinkedIn because, placed between Kings of Mambo and Abacum, it made his experience read as roughly four years. Mention teaching inside the Kings of Mambo entry or as a skill, not as its own experience entry.
 
