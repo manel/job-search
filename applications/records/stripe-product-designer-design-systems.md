@@ -72,3 +72,4 @@ The linked Greenhouse form is live and requires a portfolio, education fields, c
 - 2026-09-28: Tailored CV and cover letter prepared and checked for factual ownership, dates, role relevance, and natural wording. Application remains in-progress and not submitted.
 - 2026-09-28: Manel applied, retrospectively confirmed by his direct statement on 2026-10-13. Exact submitted files, form answers, channel, portfolio version, PDF QA and receipt details are unconfirmed.
 - 2026-10-13: Recorded Manel's confirmation of the 2026-09-28 submission; status changed to applied. No employer response recorded. Posting availability not rechecked.
+- 2026-10-19: A second Stripe role is being prepared: Product Designer, Global (`stripe-product-designer-global.md`). Keep salary and story consistent across both.
