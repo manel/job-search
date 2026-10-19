@@ -55,3 +55,4 @@ Xavi later confirmed that the application was correctly registered in Perk's sys
 - 2026-09-14: Manel confirmed that no response had arrived. Process marked stale under the five-week policy.
 - 2026-09-14: Exact vacancy checked. The Events role remained listed. The separate job ID `5a475961-c095-4006-a9ca-889b2e58b6b9` was verified as Staff Product Designer, Travel, owning Flights; it is not the role Manel applied to.
 - 2026-09-15: Perk sent a rejection before interview, saying it would proceed with candidates whose backgrounds and experience better matched the role. The message contained no specific feedback. Source: rejection email supplied by Manel.
+- 2026-10-19: Xavi left Perk around 2026-09-28; no longer a warm path to Perk.
