@@ -16,6 +16,8 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 ## Portfolio
 
+- [ ] **Portfolio PDF (5-8 pages)** for upload-only portfolio fields (Flodesk's Greenhouse form accepted only a file, 2026-10-19). Key visuals from the design-systems, Remuner system, Dataset Manager and AI agent cases, each with a clickable link; add Kymco modular blocks or other studio web work if presentable (web-craft roles). Reusable across applications. For Flodesk, a one-page case-card PDF was used as a stopgap.
+
 - [ ] Add Figma MCP use to the Remuner design-system case: one umbrella line (Manel does not want the full list), covering token sync with code, accessibility and parity checks, and documentation, mostly at Remuner. Needs one concrete example from Manel before writing case copy. Full list in `evidence/experience-facts.md` (2026-10-19).
 
 ## Interview prep (yours to write)
