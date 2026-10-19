@@ -42,7 +42,7 @@ Designed workflows across Abacum's data-integration and financial-modeling areas
 
 Co-led the Abax design-system business case with the head of design and presented it to engineering leadership; the work was selected for dedicated design and engineering time.
 
-Proposed and ran the contribution model: an Exploration file published with an [Experiment] prefix, and a canonical Implementation library that components entered only after review in the weekly design-library sync.
+Proposed and ran the contribution model across five squads, keeping proposals in a separate exploration library so only reviewed components reached the canonical one.
 
 Settled recurring component disputes: wrote the naming convention the team adopted, and resolved read-only state by adapting an existing MUI state.
 
