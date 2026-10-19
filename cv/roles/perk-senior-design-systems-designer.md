@@ -37,7 +37,7 @@ Ran an ongoing product audit: captured each UI pattern, defined its variants and
 
 Owned the design side of the token pipeline; used Codex to add CI validation, drift detection, smoke tests, W3C token output, an HTML preview, and JSON output through engineering-reviewed PRs.
 
-Managed design tokens in Remuner's Figma files with the Figma MCP and an AI agent.
+Used the Figma MCP with an AI agent to manage tokens and sync them with code, run accessibility checks, and write component documentation.
 
 
 Abacum, Senior Product Designer

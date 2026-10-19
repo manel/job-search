@@ -14,7 +14,7 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 ## Portfolio
 
-- [ ] Add Figma MCP use to the Remuner design-system case: tokens managed in the Remuner Figma files with an AI agent (at Remuner); since then components and variants, colour shades, and core and semantic token export with Claude (current practice). Confirmed 2026-10-19, see `evidence/experience-facts.md`. Needs one concrete example from Manel before writing case copy; keep the Remuner and later work clearly separated. Supports DS roles that list MCP tooling (Perk, Pennylane-type postings).
+- [ ] Add Figma MCP use to the Remuner design-system case: one umbrella line (Manel does not want the full list), covering token sync with code, accessibility and parity checks, and documentation, mostly at Remuner. Needs one concrete example from Manel before writing case copy. Full list in `evidence/experience-facts.md` (2026-10-19).
 
 ## Interview prep (yours to write)
 

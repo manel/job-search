@@ -67,7 +67,7 @@ SKILLS
 
 Product design and research: Complex B2B products, product architecture, multi-step flows, interaction design, visual design, customer interviews, structured user testing
 Design systems: Component architecture, states and variants, Figma libraries and variables, design tokens, documentation, governance, migration planning
-AI-assisted workflows and prototyping: Codex, Figma Make, Figma, FigJam, HTML, CSS, JavaScript
+AI-assisted workflows and prototyping: Codex, Figma MCP with Claude, Figma Make, Figma, FigJam, HTML, CSS, JavaScript
 Collaboration and delivery: Designer mentoring, teaching UX and components, GitHub, engineering alignment, implementation review, design critique, distributed teams
 Languages: Catalan and Spanish (native), English (fluent, C1)
 
