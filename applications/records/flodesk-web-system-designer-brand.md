@@ -73,3 +73,4 @@ Senior IC. No years stated. It is under a design lead's art direction on brand s
 - 2026-10-19: Vacancy rechecked (open, updated 2026-10-14). CV and cover letter prepared.
 - 2026-10-19: Portfolio one-pager PDF generated for the upload-only portfolio field: `cv-pdf-to-send/Flodesk/Manel Leiva Portfolio 2026.pdf` (source in `materials/portfolio-onepager/`).
 - 2026-10-19: Applied via Greenhouse (Manel confirmed): CV, cover letter, LinkedIn, one-page portfolio PDF. Form: hybrid Barcelona yes, resides in Spain yes, authorised to work yes, sponsorship no. No salary question. Follow-up: nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
+- 2026-10-19: Cover letter as sent says Abax was 'at about 47% against an 80% target'. The live case calls the 80% a separate target for new UI (different base). If asked: 80% was the target for new UI; 47% was the share of all tracked component uses.

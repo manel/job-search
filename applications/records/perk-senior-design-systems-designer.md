@@ -89,3 +89,4 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 - 2026-10-19: Referral ask drafted for Tanna Schumacher (Perk product designer, 1st-degree connection, not personally known). Plan: hold the application until 2026-10-22 for her reply.
 - 2026-10-19: Manel recognised Tanna as a former student (LABASAD Sketch course, around 2018); message rewritten in Spanish opening with that connection.
 - 2026-10-19: Referral ask sent to Tanna on LinkedIn (sent text in `outreach/perk-tanna-schumacher-2026-10-19.md`).
+- 2026-10-19: Removed the '80% target' comparison from the CV and letter (different denominators per the live case). PDFs in cv-pdf-to-send/Perk (DS)/ must be re-exported before applying.

@@ -15,7 +15,7 @@ linkedin.com/in/maneleiva
 SUMMARY
 
 Senior Product Designer with 15 years designing complex B2B products and building and maintaining production design systems.
-Co-led the Abax design system across five squads at Abacum, with adoption tracked monthly against a target, then built Remuner's system from scratch as its sole designer.
+Co-led the Abax design system across five squads at Abacum, with adoption tracked monthly, then built Remuner's system from scratch as its sole designer.
 Case study: manel-leiva.com/cases/design-systems
 
 
@@ -43,7 +43,7 @@ Designed workflows across Abacum's data-integration and financial-modeling areas
 
 Co-led the Abax design-system business case with the head of design and presented it to engineering leadership; the work was selected for dedicated design and engineering time.
 
-Moved squads from MUI to Abax: new components shipped behind feature flags and squads added their own migration tickets. A monthly codebase count put Abax at about 47% of tracked component uses at departure, against an 80% target.
+Moved squads from MUI to Abax: new components shipped behind feature flags and squads added their own migration tickets. A monthly codebase count put Abax at about 47% of tracked component uses at departure.
 
 Ran the weekly design-library sync and contribution process; components moved from exploration into the canonical library only after review.
 
