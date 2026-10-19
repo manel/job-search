@@ -15,10 +15,11 @@ This is the evidence register, not finished application copy. Each material clai
 - **Source:** Manel's confirmation for the Kabilio application form on 2026-10-01.
 - **Verified:** 2026-10-01.
 
-- **Claim:** Manel has professional-level Spanish, spoken and written.
+- **Claim:** Manel's languages: Catalan native, Spanish native, English professional (C1, Advanced, for CEFR-scale form fields).
 - **Class:** Confirmed direct user statement.
-- **Source:** Manel's confirmation for the Kabilio application form on 2026-10-01.
-- **Verified:** 2026-10-01.
+- **Source:** Manel's statement on 2026-10-19 (Punto Health and Senovo assessments). Supersedes the 2026-10-01 Kabilio-form entry, which recorded Spanish only as "professional-level".
+- **Verified:** 2026-10-19.
+- **External-use boundary:** Native Catalan and Spanish can be stated as such. Roles requiring Catalan or Spanish pass on language.
 
 - **Claim:** Manel's French is basic or none.
 - **Class:** Confirmed direct user statement.

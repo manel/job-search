@@ -51,7 +51,7 @@ Junior to mid band at a seed startup. Overqualification and a low salary range a
 
 - **Accessibility for older adults and cognitive, visual or dexterity limitations:** a nice-to-have, but central to the product. No accessibility evidence in the register.
 - **Mobile interface design:** Remuner apps are a webview.
-- **Catalan:** a plus; not recorded in the register. Confirm before claiming.
+- **Catalan:** a plus; Manel is a native speaker (confirmed 2026-10-19).
 
 ## History
 

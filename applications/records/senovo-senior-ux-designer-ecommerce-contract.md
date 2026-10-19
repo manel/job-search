@@ -51,3 +51,4 @@ Manel's evidence is Kings of Mambo studio e-commerce and a recollection of A/B w
 ## History
 
 - 2026-10-19: Assessed from the LinkedIn post. Proceed, minimal effort, conditional on rate and client.
+- 2026-10-19: Manel confirmed native Catalan and Spanish; the Spanish and Catalan plus is met.
