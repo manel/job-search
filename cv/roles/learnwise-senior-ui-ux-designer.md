@@ -65,7 +65,7 @@ Designed CMS content workflows, e-commerce experiences, and back-office interfac
 
 SKILLS
 
-AI products and AI-assisted workflows: Conversation design, answer formats, capability boundaries, trust patterns, prototyping with Codex and Figma Make
+AI products and AI-assisted workflows: Conversation design, answer formats, capability boundaries, trust patterns, prototyping with Codex and Figma Make, Figma MCP with Claude
 Design systems: Components built from scratch, design tokens, Figma libraries and variables, Storybook, documentation, governance, contribution process
 Product design and research: B2B SaaS, end-to-end feature design, customer interviews, usability testing, interaction and visual design
 Collaboration: Designer mentoring, design critique, engineering alignment, distributed teams

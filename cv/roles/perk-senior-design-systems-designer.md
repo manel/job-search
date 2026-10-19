@@ -67,7 +67,7 @@ Mentored junior practitioners and taught UX, components, and digital design.
 SKILLS
 
 Design systems: Token architecture, Figma variables and libraries, component states and variants, documentation, contribution and governance models, adoption tracking, migration planning
-Design to code and AI: Storybook, Token Studio, Style Dictionary, GitHub, ESLint, HTML, CSS, JavaScript, Figma MCP, Codex
+Design to code and AI: Storybook, Token Studio, Style Dictionary, GitHub, ESLint, HTML, CSS, JavaScript, Codex, Figma MCP with Claude (component variants, colour scales, core and semantic token export)
 Product design and research: Complex B2B workflows, interaction design, customer interviews, structured user testing
 Languages: Catalan and Spanish (native), English (fluent, C1)
 
