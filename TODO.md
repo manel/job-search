@@ -12,6 +12,8 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 ## This week
 
+- [ ] **Tue 2026-10-20:** prepare one concrete example each for Figma MCP work: accessibility audit (which components or colours, what failed, what changed), design-code parity check (which component, which options differed), and two-way token sync (what drifted, how it was caught). Needed before any design-systems interview (Perk, Flodesk, OLX Otodom) and for the Remuner case update. Record them in `evidence/experience-facts.md`.
+
 ## Portfolio
 
 - [ ] Add Figma MCP use to the Remuner design-system case: one umbrella line (Manel does not want the full list), covering token sync with code, accessibility and parity checks, and documentation, mostly at Remuner. Needs one concrete example from Manel before writing case copy. Full list in `evidence/experience-facts.md` (2026-10-19).
