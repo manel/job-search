@@ -1,12 +1,12 @@
 ---
 company: Extia (consultancy; client undisclosed)
 role: Senior UX Designer / Senior Product Designer (UX/UI), eCommerce
-status: skipped
+status: in-progress
 status_verified_on: 2026-10-19
 status_confidence: confirmed
 posting_status: unknown
 posting_checked_on: 2026-10-19
-fit_decision: skip
+fit_decision: proceed (minimal effort; changed from skip 2026-10-19)
 role_lane: product
 application_channel: recruiter
 warm_path: none (job poster Clara Perello, IT Business Manager, 3rd-degree)
@@ -15,8 +15,8 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: None
-next_action_on:
+next_action: Easy Apply with the base CV, no tailoring. Ask the client name at first contact; if it matches the Pasiona client, keep only one channel
+next_action_on: 2026-10-24
 salary_stated: Not stated
 job_url:
 source: LinkedIn post text pasted by Manel 2026-10-19 (posted about 3 weeks earlier, over 100 applicants, Easy Apply). No other listing found
@@ -44,3 +44,4 @@ The role shape closely matches the Conkord placement Manel declined on 2026-10-1
 ## History
 
 - 2026-10-19: Assessed from the LinkedIn post. Skip.
+- 2026-10-19: Changed to Proceed, minimal effort, after Manel confirmed e-commerce is not to be discarded (rule in `context/target-roles.md`). The must-have gap is unchanged, so: base CV only. Possible same client as Pasiona (`pasiona-senior-product-designer-ecommerce.md`).

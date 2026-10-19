@@ -20,6 +20,8 @@ B2B SaaS, fintech, data-heavy platforms, or complex workflow software. Prefer Se
 - Individual-contributor scope, not people management.
 - Prefer product and systems-design work over UI-production, growth-marketing, or consumer-mobile craft-led roles.
 
+**E-commerce and minimal-effort applications, confirmed by Manel 2026-10-19:** Manel prefers not to work in B2C e-commerce but will not rule it out, because starting work comes first. Do not skip e-commerce roles on preference or genuine interest. When a role fails a stated must-have but applying costs minutes (Easy Apply, short form, base CV), the decision can be **Proceed, minimal effort**: send the base CV with no tailoring, at the lowest priority. Tailored packages stay reserved for roles where the evidence clears the must-haves.
+
 ## Fit gate
 
 Assess every role before drafting. Evaluate domain, IC scope, work type, location, genuine interest, and relevant stack signals. For design-system roles, verify that the system is treated as product infrastructure rather than a side project.
