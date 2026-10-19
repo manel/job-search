@@ -69,6 +69,7 @@ Employer has paused progression for Manel without communicating a final rejectio
 Not being pursued under the recorded decisions. Prepared historical materials do not make a role active.
 
 - [Glovo, Staff Product Designer, UX team](records/glovo-staff-product-designer-ux.md): skip reconfirmed 2026-10-19 (first skipped 2026-07-22). Native iOS/Android standards and a UX leadership-team seat; evidence unchanged.
+- [Extia, Senior UX Designer, eCommerce (placement)](records/extia-senior-ux-designer-ecommerce.md): skipped on 2026-10-19. Essential: B2C e-commerce at large companies plus A/B-testing-driven work; Conkord-shaped role (declined 2026-10-14), possibly the same client.
 - [Keen, Senior Product Designer (UI/UX)](records/keen-senior-product-designer.md): skipped on 2026-10-19. Two explicit must-haves (job-board or marketplace, ATS) with no evidence for either; 100+ applicants.
 - [Factorial, Senior/Staff Product Designer (271104)](records/factorial-senior-staff-product-designer-271104.md): skipped on 2026-10-19. Likely the evergreen req behind the July process; now requires agentic-AI technical fluency and implementation.
 - [Ashby, Staff Design Engineer - EU](records/ashby-staff-design-engineer-eu.md): skipped on 2026-10-19. Requires production React/TypeScript engineering; Manel codes with AI help, not independently. The mid/senior Design Engineer posting skipped for the same reason; the Product Designer roles are US-only.
