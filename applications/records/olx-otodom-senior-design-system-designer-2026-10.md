@@ -15,8 +15,8 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Apply to ONE posting only (recommended: Remote Spain a266bdf7). New CV and short letter that lead with the contribution model and conflict resolution and link the design-systems case directly. Use the current salary rules, not the July EUR 85,000
-next_action_on: 2026-10-23
+next_action: Export the CV and letter PDFs to cv-pdf-to-send/OLX Otodom (DS) 2026-10/ (the July OLX folders stay untouched) and apply via Lever to the Remote Spain posting only; check any salary question with Claude first and keep it consistent with the OLX AI-native application
+next_action_on: 2026-10-19
 salary_stated: Not stated; no range published
 job_url: https://jobs.eu.lever.co/olx/a266bdf7-de7e-4310-ae1e-96b317bd939c
 source: OLX Lever API, both postings fetched 2026-10-19. Remote Spain a266bdf7 created 2026-10-08; Barcelona 78e773da ("Design System Designer") created 2026-07-27. Same description. The original req 46650794 now returns 404.
@@ -60,6 +60,13 @@ Senior. The body says "Senior Product Designer" on the design-system team. It is
 - **AI sandbox challenge in the third stage:** prepare with the framing-drill material.
 - **Large-pool DS roles:** the search's fastest form rejections were DS-titled roles with the largest applicant pools (`memory.md`, 2026-07-02).
 
+## Materials
+
+- CV source: `cv/roles/olx-otodom-senior-design-system-designer-2026-10.md` (prepared 2026-10-19; the July sources are unchanged)
+- Cover letter source: `cover-letters/roles/olx-otodom-senior-design-system-designer-2026-10.md` (prepared 2026-10-19, 231 words)
+- Lead: contribution split (Exploration file with [Experiment] prefix, canonical Implementation library after review), naming convention, read-only state, feature-flag migration, all from the live design-systems case. The letter names the case update since July without apologising.
+
 ## History
 
 - 2026-10-19: Manel found two Otodom postings. Both checked on Lever: same description, Remote Spain (created 2026-10-08) and Barcelona (created 2026-07-27). Original req 46650794 is closed. Materially changed evidence confirmed from portfolio history. Assessed: Proceed, one application.
+- 2026-10-19: Vacancy rechecked (open). CV and cover letter prepared.
