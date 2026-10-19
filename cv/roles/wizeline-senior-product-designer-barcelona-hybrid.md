@@ -1,6 +1,7 @@
 # CV — Wizeline, Senior Product Designer - Barcelona Hybrid
 # Prepared 2026-09-23. Source: current approved CV copy, evidence/experience-facts.md, and confirmed live portfolio cases.
 # Lead: component libraries, Figma variables, tokens, documentation, governance, and design-to-code alignment.
+# Revised 2026-10-19 before sending: Abacum line aligned with the evidence register (worked on, not built; no pipeline authorship), postgraduate teaching claim removed, languages added.
 # Plain text below the line, ready for Figma paste. No PDF generated.
 
 ---
@@ -35,7 +36,7 @@ Ran a monthly governance meeting with engineering to review progress, resolve im
 Abacum, Senior Product Designer
 January 2022 to April 2024, Barcelona (Remote)
 
-Built the Abax design system alongside product work: Figma variables, a two-tier token architecture, component library, governance, and a Token Studio to Style Dictionary pipeline used across five squads.
+Worked on the Abax design system alongside product work: Figma variables, a two-tier token architecture, component library, governance, and the Token Studio to Style Dictionary pipeline, adopted across five squads.
 Co-led the design-system business case with the head of design and presented it to engineering leadership; the work was selected for dedicated design and engineering time.
 Ran the weekly design-library sync and structured contribution process; components moved from exploration to the canonical implementation library only after review.
 Created contribution guidelines, naming and deprecation conventions, issue-reporting categories, and the release and migration process for existing product surfaces.
@@ -46,7 +47,7 @@ Kings of Mambo, Co-founder, UX Design Lead
 
 Co-founded and led a UX studio for 11 years; designed products for media, retail, finance, legal, and culture clients.
 Built much of what I designed, including CMS-connected WordPress themes, front-end component libraries, and a shared starter kit with a build pipeline and CSS variables.
-Taught UX and digital design at postgraduate level, including taking a design file through to a working CMS-driven site.
+Taught UX and digital design, including taking a design file through to a working CMS-driven site.
 
 
 SKILLS
@@ -57,6 +58,7 @@ Front-end alignment: MUI, Vuetify, Sass, HTML, CSS, JavaScript
 Product design: Product architecture, complex workflows, interaction design, visual design
 Research: Customer interviews, structured user testing, synthesis, Jobs to Be Done
 Collaboration: Engineering alignment, distributed teams, cross-functional facilitation, stakeholder presentations
+Languages: Catalan and Spanish (native), English (professional)
 
 
 EDUCATION
