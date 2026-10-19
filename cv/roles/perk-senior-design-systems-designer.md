@@ -16,6 +16,7 @@ SUMMARY
 
 Senior Product Designer with 15 years designing complex B2B products and building and maintaining production design systems.
 Co-led the Abax design system across five squads at Abacum, with adoption tracked monthly against a target, then built Remuner's system from scratch as its sole designer.
+Case study: manel-leiva.com/cases/design-systems
 
 
 
@@ -24,13 +25,13 @@ EXPERIENCE
 Remuner, Senior Product Designer
 May 2024 to March 2026, Barcelona (Remote)
 
-Owned product design across Remuner's sales-compensation platform as its sole designer. Scope spanned data integrations and configuration, compensation plans and payouts, rep and manager experiences, approval workflows, and administration.
+Owned product design across Remuner's sales-compensation platform as its sole designer. Scope spanned data integrations, compensation plans and payouts, rep and manager experiences, and approval workflows.
 
 Built the component library and design system from scratch, starting with a deliberately small token set, and added ESLint rules that enforced use of system components.
 
-Ran an ongoing product audit: captured each UI pattern, defined its variants and states, ticketed it for front-end engineers, and decided with them whether to fix it now or fold it into an upcoming feature. Progress was reviewed in a monthly front-end meeting.
+Ran an ongoing product audit with front-end engineers: each UI pattern got defined variants and states, a ticket, and a decision to fix it now or fold it into an upcoming feature.
 
-Owned the design side of the token pipeline; used Codex to add CI validation, drift detection, smoke tests, W3C token output, an HTML preview, and JSON output through engineering-reviewed PRs.
+Owned the design side of the token pipeline; used Codex to add CI validation, drift detection, and smoke tests through engineering-reviewed PRs.
 
 Used the Figma MCP with an AI agent to manage tokens and sync them with code, run accessibility checks, work with components and write documentation.
 
@@ -46,7 +47,7 @@ Moved squads from MUI to Abax: new components shipped behind feature flags and s
 
 Ran the weekly design-library sync and contribution process; components moved from exploration into the canonical library only after review.
 
-Worked on Abax's Figma variables, two-tier token architecture, components, and the Token Studio to Style Dictionary pipeline.
+Worked on Abax's two-tier token architecture and its Token Studio to Style Dictionary pipeline.
 
 
 Kings of Mambo, Co-founder, UX Design Lead

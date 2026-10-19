@@ -16,6 +16,7 @@ SUMMARY
 
 Senior Product Designer with 15 years designing and shipping complex B2B products.
 Takes AI and B2B features from customer research to release, including Remuner's conversational AI agent and a design system built from scratch.
+Case study: manel-leiva.com/cases/ai-agent
 
 
 
