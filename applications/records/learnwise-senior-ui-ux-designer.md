@@ -1,7 +1,7 @@
 ---
 company: LearnWise
 role: Senior UI/UX Designer
-status: in-progress
+status: applied
 status_verified_on: 2026-10-19
 status_confidence: confirmed
 posting_status: open
@@ -10,14 +10,14 @@ fit_decision: proceed
 role_lane: ai-product
 application_channel: direct
 warm_path: none recorded
-portfolio_version:
-applied_on:
+portfolio_version: live site 2026-10-19
+applied_on: 2026-10-19
 last_contact_on:
-outcome_stage: not-submitted
+outcome_stage: no-response
 rejection_reason_class: none
-next_action: Paste the CV into Figma, export and verify the PDF; submit via the careers form (step 2 not yet seen: check for salary or portfolio questions). Tell Claude when sent
-next_action_on: 2026-10-21
-salary_stated: Not stated; employer range EUR 55,000-65,000 base (published)
+next_action: Nudge if silent (10 business days); LinkedIn outreach 2026-11-09; stale 2026-11-23. Prepare mentoring example and showable AI-tool workflow examples before a first interview
+next_action_on: 2026-11-02
+salary_stated: EUR 62,000 gross annual (stated on the form 2026-10-19). Employer range EUR 55,000-65,000 published
 job_url: https://join.learnwise.ai/senior-ui-ux-designer
 source: Official LearnWise careers page fetched 2026-10-19 (posted 2026-10-16, apply form live)
 ---
@@ -73,3 +73,4 @@ None in `applications/records/` or `applications/archive-2026-07.md`.
 
 - 2026-10-19: Official posting fetched (posted 2026-10-16, open). Assessed: Proceed, high priority. No materials prepared.
 - 2026-10-19: CV and cover letter prepared. Lead: Remuner AI agent; support: Remuner design system from scratch, Dataset Manager, mentoring.
+- 2026-10-19: Applied via the LearnWise careers form (Manel confirmed). Form answers: years of SaaS/B2B UI/UX experience 10 (Abacum and Remuner about 4, plus B2B client products at Kings of Mambo; CV says 15 years of complex B2B products, so explain the difference if asked); portfolio with 3+ end-to-end cases Yes; owned or maintained a production design system Yes; user interviews and findings in English Yes; AI tools in product work Yes. Salary EUR 62,000. CV summary revised before sending (research-to-release line, case link as third summary line). Follow-up: nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
