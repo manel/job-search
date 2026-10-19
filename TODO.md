@@ -12,6 +12,10 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 ## This week
 
+## Portfolio
+
+- [ ] Add Figma MCP use to the Remuner design-system case: managing design tokens in the Figma files with an AI agent (confirmed 2026-10-19, see `evidence/experience-facts.md`). Needs Manel's details (which agent, which token operations, one concrete example) before writing case copy. Supports DS roles that list MCP tooling (Perk, Pennylane-type postings).
+
 ## Interview prep (yours to write)
 
 - [ ] The 5 remaining `[NEEDS YOUR STORY]` gaps in `interviews/prep.md`. Check `interviews/behavioral-battle-cards.md` first; some may already be covered there.

@@ -62,7 +62,7 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 ## Gaps
 
 - **WCAG 2.2 AA with keyboard and screen-reader behaviour:** no accessibility audit, remediation or conformance work in the register. Do not claim beyond general practice.
-- **Code Connect and MCP tooling:** not in the register. Confirm with Manel before claiming.
+- **MCP tooling:** confirmed 2026-10-19: Figma MCP with an AI agent to manage design tokens in Remuner's Figma files (and since). **Code Connect:** not confirmed; do not claim.
 - **Mobile:** the system covers web and mobile; Manel's mobile evidence is the Remuner webview app.
 - **Motion and visual-language ownership:** the case is about architecture more than visual direction.
 - **Localisation and content tokens:** Remuner's per-customer terminology in the AI agent is adjacent, not the same thing.

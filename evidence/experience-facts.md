@@ -265,6 +265,13 @@ This is the evidence register, not finished application copy. Each material clai
 
 ### Design system and token pipeline
 
+- **Claim:** Manel uses the Figma MCP with an AI agent in his design work. At Remuner (before March 2026) he used it to manage design tokens in Remuner's Figma files, and he has continued using it since. He has also used it to generate design explorations and to build presentations in Figma.
+- **Class:** Confirmed direct user statement.
+- **Source:** Manel's answers during Perk application preparation on 2026-10-19.
+- **Verified:** 2026-10-19.
+- **External-use boundary:** Supports "Figma MCP with an AI agent" for token management on a production design system, plus exploration and presentation work. Not recorded: which agent was used at Remuner, the token operations performed, how many files, or any measured effect. Figma Code Connect is not confirmed; do not claim it.
+
+
 - **Claim:** After deleting a token file he believed was duplicated, Manel discovered that the frontend application still depended on it and the next deployment caused a short production outage. He restored the file and pushed the fix. For several days he manually verified that required files were present before deployment; the team then introduced a required-file presence check until the frontend dependency could be properly cleaned up. Whether the later check was automated is not confirmed.
 - **Class:** Confirmed personal account; exact outage duration and check implementation are not recorded.
 - **Source:** Manel's Datavant hiring-manager preparation conversation on 2026-09-30.
