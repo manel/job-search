@@ -83,3 +83,4 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 
 - 2026-10-19: Posting fetched (published 2026-10-15, open). Assessed: Proceed, high priority, with a referral via Xavi. No materials prepared.
 - 2026-10-19: Manel confirmed Figma MCP use (Remuner tokens, explorations, presentations); CV and cover letter prepared.
+- 2026-10-19: Referral ask to Xavi drafted: `outreach/perk-xavi-francisco-2026-10-19.md` (not yet sent). Apply through his link if he sends one.
