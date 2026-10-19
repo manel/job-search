@@ -1,5 +1,5 @@
 # Perk — Xavi Francisco (former Abacum colleague), referral ask for Senior Design Systems Designer (Suitcase)
-# Drafted 2026-10-19. Not yet sent. Second referral ask: in July Xavi sent a referral link for Staff Product Designer, Events (rejected at CV review, 2026-09-15).
+# Drafted and sent 2026-10-19. Second referral ask: in July Xavi sent a referral link for Staff Product Designer, Events (rejected at CV review, 2026-09-15).
 # Language: Catalan (Manel's choice, 2026-10-19).
 # Channel: WhatsApp or LinkedIn, whichever was used in July. Attach the Perk CV PDF.
 

@@ -12,10 +12,10 @@ application_channel: referral
 warm_path: Xavi Francisco, former Abacum colleague at Perk (referred Manel for Staff Events in July)
 portfolio_version:
 applied_on:
-last_contact_on:
+last_contact_on: 2026-10-19
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Ask Xavi to submit a referral for this req (a referral usually has to come from him in Perk's system, before or right after the application); export the CV PDF and apply via Ashby. Tell Claude when sent
+next_action: Wait for Xavi's referral link and apply through it. If no link by 2026-10-22, apply directly via Ashby; one follow-up to Xavi on 2026-10-26 if he has not replied, then stop. PDFs ready in cv-pdf-to-send/Perk (DS)/
 next_action_on: 2026-10-22
 salary_stated: Not stated; no range published
 job_url: https://jobs.ashbyhq.com/Perk/78dafbf1-0f6d-46b7-b71a-2c59f7af31cf
@@ -84,3 +84,4 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 - 2026-10-19: Posting fetched (published 2026-10-15, open). Assessed: Proceed, high priority, with a referral via Xavi. No materials prepared.
 - 2026-10-19: Manel confirmed Figma MCP use (Remuner tokens, explorations, presentations); CV and cover letter prepared.
 - 2026-10-19: Referral ask to Xavi drafted: `outreach/perk-xavi-francisco-2026-10-19.md` (not yet sent). Apply through his link if he sends one.
+- 2026-10-19: Referral ask sent to Xavi in Catalan (`outreach/perk-xavi-francisco-2026-10-19.md`), with the CV attached. CV and cover-letter PDFs exported to `cv-pdf-to-send/Perk (DS)/` (the July Events PDFs in `cv-pdf-to-send/Perk/` are untouched). Not yet applied.

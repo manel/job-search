@@ -21,7 +21,7 @@ Dates are mirrored in each record's `next_action_on`. Ranking: fit strength, pos
 Proceed; CV and cover-letter Markdown sources are prepared. Layout/export and PDF verification remain. Recheck the exact vacancy before submission; this section does not mean submission-ready PDFs exist.
 
 - [LearnWise, Senior UI/UX Designer](records/learnwise-senior-ui-ux-designer.md): CV and cover letter prepared 2026-10-19 (AI agent lead, design system from scratch). Export the PDF and submit via the careers form; check step 2 for salary questions. EUR 55-65K published.
-- [Perk, Senior Design Systems Designer (Suitcase)](records/perk-senior-design-systems-designer.md): CV and cover letter prepared 2026-10-19 (adoption tracking, MUI migration, contribution model, Figma MCP). Ask Xavi for the referral, export the PDF, apply via Ashby.
+- [Perk, Senior Design Systems Designer (Suitcase)](records/perk-senior-design-systems-designer.md): materials and PDFs ready (`cv-pdf-to-send/Perk (DS)/`). Referral ask sent to Xavi 2026-10-19; apply through his link, or directly on 2026-10-22 if none.
 
 ## Prepare application
 
