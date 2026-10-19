@@ -15,7 +15,7 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Prepare the application this week (posted 2026-10-16; early entry matters). Lead with the Remuner AI agent and the Remuner design system from scratch; prepare showable AI-tool workflow examples
+next_action: Paste the CV into Figma, export and verify the PDF; submit via the careers form (step 2 not yet seen: check for salary or portfolio questions). Tell Claude when sent
 next_action_on: 2026-10-21
 salary_stated: Not stated; employer range EUR 55,000-65,000 base (published)
 job_url: https://join.learnwise.ai/senior-ui-ux-designer
@@ -59,6 +59,12 @@ Genuine Senior. 5+ years, end-to-end ownership, system ownership and team mentor
 
 Two-step form on the careers page. Step 1 is contact details. Step 2 was not visible in the fetched page; check it for salary or portfolio questions before submitting.
 
+## Materials
+
+- CV source: `cv/roles/learnwise-senior-ui-ux-designer.md` (prepared 2026-10-19)
+- Cover letter source: `cover-letters/roles/learnwise-senior-ui-ux-designer.md` (prepared 2026-10-19, 241 words)
+- Both checked against the evidence register and run through no-ai-slop and the humanizer. Not yet exported or sent.
+
 ## Prior applications
 
 None in `applications/records/` or `applications/archive-2026-07.md`.
@@ -66,3 +72,4 @@ None in `applications/records/` or `applications/archive-2026-07.md`.
 ## History
 
 - 2026-10-19: Official posting fetched (posted 2026-10-16, open). Assessed: Proceed, high priority. No materials prepared.
+- 2026-10-19: CV and cover letter prepared. Lead: Remuner AI agent; support: Remuner design system from scratch, Dataset Manager, mentoring.

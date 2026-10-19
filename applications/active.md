@@ -21,13 +21,13 @@ Dates are mirrored in each record's `next_action_on`. Ranking: fit strength, pos
 Proceed; CV and cover-letter Markdown sources are prepared. Layout/export and PDF verification remain. Recheck the exact vacancy before submission; this section does not mean submission-ready PDFs exist.
 
 - [Wizeline, Senior Product Designer - Barcelona Hybrid](records/wizeline-senior-product-designer-barcelona-hybrid.md): tailored CV and cover letter prepared on 2026-09-23; paste the CV into Figma, verify the exported PDF, then apply with direct links to both design-system cases.
+- [LearnWise, Senior UI/UX Designer](records/learnwise-senior-ui-ux-designer.md): CV and cover letter prepared 2026-10-19 (AI agent lead, design system from scratch). Export the PDF and submit via the careers form; check step 2 for salary questions. EUR 55-65K published.
 
 ## Prepare application
 
 Proceed; application materials have not been prepared. Recheck the vacancy before drafting.
 
 - [Flodesk, Web System Designer, Brand](records/flodesk-web-system-designer-brand.md): proceed, HIGH priority, assessed 2026-10-19. Owns Studio blocks and the web design system; asks for a system built from scratch AND one inherited and improved, with an adoption story, and design output consumed as structured data. No production code. Barcelona hybrid, EUR 50-65K.
-- [LearnWise, Senior UI/UX Designer](records/learnwise-senior-ui-ux-designer.md): proceed, HIGH priority, assessed 2026-10-19. Shipped AI product and from-scratch design system are the two hardest asks and both are Remuner evidence. B2B AI SaaS, Senior IC (80% hands-on, 20% mentoring), hybrid with Barcelona hub, EUR 55-65K published. Posted 2026-10-16: apply this week.
 - [Punto Health, Product Designer (UX/UI & Visual)](records/punto-health-product-designer.md): proceed, light application, assessed 2026-10-19. Seed digital-health startup; own UX/UI and the Figma design system plus generalist marketing design; Barcelona three days. Must-haves met; level (1+ years Figma filter) and pay are the risks. Easy Apply, base CV adjusted.
 - [Hostinger, Product Designer (remote)](records/hostinger-product-designer.md): proceed, medium-low, assessed 2026-10-19. Published today; fully remote from Spain; owns a design area end to end. From EUR 4,500/month, open to adjustment. Risk: 3+ years unlevelled (overqualification). Apply early.
 - [Senovo IT, Senior UX Designer, E-commerce (12-month contract)](records/senovo-senior-ux-designer-ecommerce-contract.md): proceed, minimal effort. E-commerce and A/B must-haves unmet. Email Menna for rate, contract type and client name before any submission; possibly the same client as Conkord, Extia and Pasiona.
