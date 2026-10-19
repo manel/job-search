@@ -68,7 +68,7 @@ SKILLS
 Product design and research: End-to-end feature design, customer interviews, usability testing, multi-step flows, interaction and visual design
 Design systems: Components, states and variants, Figma libraries and variables, design tokens, documentation
 AI-assisted workflows and prototyping: Codex, Figma Make, Figma, FigJam, HTML, CSS, JavaScript
-Languages: Catalan and Spanish (native), English (professional)
+Languages: Catalan and Spanish (native), English (fluent, C1)
 
 
 EDUCATION

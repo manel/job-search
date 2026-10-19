@@ -19,7 +19,7 @@ This is the evidence register, not finished application copy. Each material clai
 - **Class:** Confirmed direct user statement.
 - **Source:** Manel's statement on 2026-10-19 (Punto Health and Senovo assessments). Supersedes the 2026-10-01 Kabilio-form entry, which recorded Spanish only as "professional-level".
 - **Verified:** 2026-10-19.
-- **External-use boundary:** Native Catalan and Spanish can be stated as such. Roles requiring Catalan or Spanish pass on language.
+- **External-use boundary:** Native Catalan and Spanish can be stated as such. Roles requiring Catalan or Spanish pass on language. CV wording, agreed 2026-10-19: "Languages: Catalan and Spanish (native), English (fluent, C1)". C1 is self-assessed; do not describe it as certified.
 
 - **Claim:** Manel's French is basic or none.
 - **Class:** Confirmed direct user statement.

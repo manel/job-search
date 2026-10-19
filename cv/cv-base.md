@@ -1,5 +1,5 @@
 # CV — Base (working draft)
-# Revised 2026-10-10. Sources: established CV structure, evidence/experience-facts.md, and Manel’s role-scope clarification.
+# Revised 2026-10-10; languages line added 2026-10-19. Sources: established CV structure, evidence/experience-facts.md, and Manel’s role-scope clarification.
 # Working draft for review; not a submitted CV.
 # Lead: complex B2B product design across data, financial modeling, and sales-compensation workflows.
 # Scope revised 2026-10-06 from Manel’s direct clarification, corroborated by the Figma inventory.
@@ -69,6 +69,7 @@ Product design and research: Complex B2B products, product architecture, multi-s
 Design systems: Component architecture, states and variants, Figma libraries and variables, design tokens, documentation, governance, migration planning
 AI-assisted workflows and prototyping: Codex, Figma Make, Figma, FigJam, HTML, CSS, JavaScript
 Collaboration and delivery: Designer mentoring, teaching UX and components, GitHub, engineering alignment, implementation review, design critique, distributed teams
+Languages: Catalan and Spanish (native), English (fluent, C1)
 
 
 EDUCATION

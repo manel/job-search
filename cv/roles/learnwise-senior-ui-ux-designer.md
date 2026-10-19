@@ -69,7 +69,7 @@ AI products and AI-assisted workflows: Conversation design, answer formats, capa
 Design systems: Components built from scratch, design tokens, Figma libraries and variables, Storybook, documentation, governance, contribution process
 Product design and research: B2B SaaS, end-to-end feature design, customer interviews, usability testing, interaction and visual design
 Collaboration: Designer mentoring, design critique, engineering alignment, distributed teams
-Languages: Catalan and Spanish (native), English (professional)
+Languages: Catalan and Spanish (native), English (fluent, C1)
 
 
 EDUCATION
