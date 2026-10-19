@@ -15,7 +15,7 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Light application via Ashby, early (published 2026-10-19). Present the level as hands-on ownership rather than leadership scope, to limit overqualification risk. Ask the level and how the EUR 4,500/month base adjusts at first contact
+next_action: Paste the CV into Figma, export and verify the PDF; apply via Ashby with the portfolio link (no cover letter unless the form asks). Tell Claude when sent
 next_action_on: 2026-10-21
 salary_stated: Not stated; published "starts at EUR 4,500/month", open to adjustment for experience
 job_url: https://jobs.ashbyhq.com/hostinger/4f8ecf6c-b51c-4682-a864-eb471f27ed89
@@ -57,3 +57,4 @@ Mid to senior. 3+ years and no title level; the compensation line ("open to adju
 
 - July 2026: an earlier Hostinger Product Designer posting skipped (archive) on domain, level and pay.
 - 2026-10-19: New posting (published today) assessed: Proceed, medium-low.
+- 2026-10-19: Light CV prepared: `cv/roles/hostinger-product-designer.md` (headline Product Designer; hands-on ownership and research lead; Kymco consumer checkout included). No cover letter.
