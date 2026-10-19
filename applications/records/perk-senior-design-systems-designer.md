@@ -9,14 +9,14 @@ posting_checked_on: 2026-10-19
 fit_decision: proceed
 role_lane: design-systems
 application_channel: direct
-warm_path: none. Xavi Francisco left Perk around 2026-09-28 (his reply, 2026-10-19), so no referral is possible
+warm_path: Tanna Schumacher, Product Designer at Perk, 1st-degree LinkedIn connection not personally known (referral ask drafted 2026-10-19). Xavi Francisco left Perk around 2026-09-28
 portfolio_version:
 applied_on:
 last_contact_on: 2026-10-19
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Apply directly via Ashby now with the PDFs in cv-pdf-to-send/Perk (DS)/ (add manel-leiva.com/cases/design-systems in the links field). Tell Claude when sent
-next_action_on: 2026-10-19
+next_action: Send the LinkedIn message to Tanna (outreach/perk-tanna-schumacher-2026-10-19.md). Apply through her referral if she offers one; if no reply by 2026-10-22, apply directly via Ashby with the PDFs in cv-pdf-to-send/Perk (DS)/ and do not follow up
+next_action_on: 2026-10-22
 salary_stated: Not stated; no range published
 job_url: https://jobs.ashbyhq.com/Perk/78dafbf1-0f6d-46b7-b71a-2c59f7af31cf
 source: Perk Ashby job board API, fetched 2026-10-19 (published 2026-10-15; London, with Barcelona as a secondary location; hybrid, three days in office)
@@ -86,3 +86,4 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 - 2026-10-19: Referral ask to Xavi drafted: `outreach/perk-xavi-francisco-2026-10-19.md` (not yet sent). Apply through his link if he sends one.
 - 2026-10-19: Referral ask sent to Xavi in Catalan (`outreach/perk-xavi-francisco-2026-10-19.md`), with the CV attached. CV and cover-letter PDFs exported to `cv-pdf-to-send/Perk (DS)/` (the July Events PDFs in `cv-pdf-to-send/Perk/` are untouched). Not yet applied.
 - 2026-10-19: Xavi replied that he left Perk about three weeks ago and cannot refer. Channel changed to direct; no other warm path at Perk on record.
+- 2026-10-19: Referral ask drafted for Tanna Schumacher (Perk product designer, 1st-degree connection, not personally known). Plan: hold the application until 2026-10-22 for her reply.
