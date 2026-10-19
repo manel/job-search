@@ -70,3 +70,4 @@ Senior. The body says "Senior Product Designer" on the design-system team. It is
 
 - 2026-10-19: Manel found two Otodom postings. Both checked on Lever: same description, Remote Spain (created 2026-10-08) and Barcelona (created 2026-07-27). Original req 46650794 is closed. Materially changed evidence confirmed from portfolio history. Assessed: Proceed, one application.
 - 2026-10-19: Vacancy rechecked (open). CV and cover letter prepared.
+- 2026-10-19: Salary guidance if the form asks: EUR 65,000 gross annual (top of the observed Spain band; large company, specialist DS scope). The figure entered on the concurrent OLX AI-native application is unknown (Manel does not remember); if Talent notices a difference, the two roles have different scope.
