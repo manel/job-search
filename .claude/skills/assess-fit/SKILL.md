@@ -14,7 +14,7 @@ Then evaluate the role provided in $ARGUMENTS against this framework:
 - Domain (B2B SaaS / fintech / data-heavy / complex workflow): pass / marginal / fail
 - Scope (Senior, Lead, or Staff IC only — no management): pass / marginal / fail
 - Work type (product design and systems thinking, not UI production): pass / marginal / fail
-- Location (remote or Barcelona hybrid only): pass / fail
+- Location (remote, or Barcelona hybrid or on-site): pass / fail
 - Genuine interest (would Manel actually want this job): pass / marginal / fail
 - Stack signal (Figma, design systems, complex workflows in JD): pass / marginal / fail
 
