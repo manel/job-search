@@ -246,6 +246,14 @@ This is the evidence register, not finished application copy. Each material clai
 - **Verified:** 2026-06-12.
 - **External-use boundary:** CVs sent before 2026-06-12 compressed the two into one line ("agent that generates compensation letters"). If asked, explain they were two separate AI features.
 
+### Current coding level
+
+- **Claim:** Manel can write React/TypeScript components with substantial AI help, but not production-quality code independently.
+- **Class:** Confirmed direct user statement.
+- **Source:** Manel's answer during the Ashby Staff Design Engineer assessment on 2026-10-19.
+- **Verified:** 2026-10-19.
+- **External-use boundary:** Do not present Manel as a design engineer or front-end engineer for roles with engineering interviews or production-code ownership. Studio-era theme and commerce front-end work (Kings of Mambo) and AI-assisted repository work stay claimable as described in their entries. Roles that list React or front-end skills as a nice-to-have for prototyping or handoff are unaffected.
+
 ### AI-assisted product prototyping
 
 - **Claim:** At Remuner, Manel repeatedly used AI-assisted workflows to build working product prototypes that users could interact with for testing. The prototypes were not connected to the production application.
