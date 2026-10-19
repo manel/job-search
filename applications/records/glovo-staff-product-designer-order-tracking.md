@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Confirm Manel wants consumer delivery-app work (genuine interest failed for Glovo in July). If yes, lean application leading with multi-brand design-system work and complex platforms; Remuner iOS/Android webview app as app experience, stated as webview
-next_action_on: 2026-10-22
+next_action_on: 2026-10-28
 salary_stated: Not stated; no range published
 job_url: https://careers.glovoapp.com/job/staff-product-designer-in-barcelona-spain-jid-744000148478990/
 source: Official Glovo careers page fetched 2026-10-19 (published 2026-09-09)

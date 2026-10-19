@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Tailored application via Greenhouse. Lead with design systems in both directions (Remuner from scratch, Abacum inherited and improved, with the adoption count) and design output consumed as structured data (token pipeline). Include web-design craft from the Kings of Mambo studio work
-next_action_on: 2026-10-21
+next_action_on: 2026-10-22
 salary_stated: Not stated; employer range EUR 50,000-65,000 (published)
 job_url: https://job-boards.greenhouse.io/flodesk/jobs/5428040008
 source: Flodesk Greenhouse API, fetched 2026-10-19 (first published 2026-09-18, updated 2026-10-14; Barcelona hybrid)

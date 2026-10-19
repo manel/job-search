@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Lean application via LinkedIn (CV plus portfolio link); no cover letter unless asked. Ask the level and range at first contact
-next_action_on: 2026-10-21
+next_action_on: 2026-10-27
 salary_stated: Not stated; no range in the posting
 job_url: https://www.linkedin.com/jobs/view/4470839365/
 source: JD text pasted by Manel from LinkedIn job 4470839365 on 2026-10-19. No official careers page or ATS posting found (ilovepdf.com careers paths 404; no Ashby, Greenhouse, Lever, Workable, Personio or Recruitee board; web search found only an earlier, inactive Product Designer (Design System) listing on studentjob.es)

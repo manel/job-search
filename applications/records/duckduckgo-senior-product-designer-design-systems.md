@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Confirm that Spain is an eligible employment location; if it is, prepare a focused CV and the two required written answers, led by Abax and supported by Remuner
-next_action_on:
+next_action_on: 2026-10-27
 salary_stated: No candidate expectation stated; employer publishes USD 178,500 annually plus stock options, with compensation fixed by professional level regardless of geographic location
 job_url: https://jobs.ashbyhq.com/duck-duck-go/46757e0c-981c-4925-b007-b6f1829ae1be
 source: User-supplied job description and exact official DuckDuckGo Ashby posting and form checked 2026-10-02; live portfolio cases; Career OS evidence register

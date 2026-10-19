@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Investigate the USD compensation range and Spain engagement model; if viable, apply as a medium-priority stretch using only Manel's own written application answers
-next_action_on:
+next_action_on: 2026-10-27
 salary_stated: Not stated; employer range unknown and the application requires an annual expectation in USD
 job_url: https://careers.tether.io/o/senior-product-designer-wallets-100-remote-worldwide
 source: Exact official Tether Recruitee posting and live application form checked 2026-10-02; live portfolio cases; Career OS strategy and evidence register

@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Easy Apply with the base CV, no tailoring. Ask the client name at first contact; if it matches the Pasiona client, keep only one channel
-next_action_on: 2026-10-24
+next_action_on: 2026-10-29
 salary_stated: Not stated
 job_url:
 source: LinkedIn post text pasted by Manel 2026-10-19 (posted about 3 weeks earlier, over 100 applicants, Easy Apply). No other listing found

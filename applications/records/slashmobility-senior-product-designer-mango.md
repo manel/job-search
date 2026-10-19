@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Lean application through the Talentclue form. At first contact, ask about the salary range, contract (SlashMobility employment versus a project term), Mango team and duration, and office cadence
-next_action_on: 2026-10-23
+next_action_on: 2026-10-28
 salary_stated: Not stated; no range published
 job_url: https://slashmobility.talentclue.com/es/node/120368337/66909823
 source: Official Talentclue posting fetched 2026-10-19 (same URL as the July assessment; still open). July skip in applications/archive-2026-07.md line 110

@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Apply via the careers form. It needs a CV link (not an upload), a LinkedIn or portfolio link, and a required "Why Markin, why this role" answer, which must be drafted and humanized. Ask the level and range at first contact
-next_action_on: 2026-10-21
+next_action_on: 2026-10-23
 salary_stated: Not stated; no range published
 job_url: https://markin.ai/careers/product-designer
 source: Official Markin careers page fetched 2026-10-19 (Spanish version, application form live)

@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Ask Xavi to refer Manel to this role, and if possible name the Suitcase hiring manager; prepare the package alongside. Confirm MCP and Code Connect experience before claiming it
-next_action_on: 2026-10-21
+next_action_on: 2026-10-22
 salary_stated: Not stated; no range published
 job_url: https://jobs.ashbyhq.com/Perk/78dafbf1-0f6d-46b7-b71a-2c59f7af31cf
 source: Perk Ashby job board API, fetched 2026-10-19 (published 2026-10-15; London, with Barcelona as a secondary location; hybrid, three days in office)

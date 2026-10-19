@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Apply to ONE posting only (recommended: Remote Spain a266bdf7). New CV and short letter that lead with the contribution model and conflict resolution and link the design-systems case directly. Use the current salary rules, not the July EUR 85,000
-next_action_on: 2026-10-22
+next_action_on: 2026-10-23
 salary_stated: Not stated; no range published
 job_url: https://jobs.eu.lever.co/olx/a266bdf7-de7e-4310-ae1e-96b317bd939c
 source: OLX Lever API, both postings fetched 2026-10-19. Remote Spain a266bdf7 created 2026-10-08; Barcelona 78e773da ("Design System Designer") created 2026-07-27. Same description. The original req 46650794 now returns 404.

@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Base CV only, no tailoring, via the Personio form. Before submitting, or at first contact, ask the client's name; if it matches the Extia (or Conkord) client, keep only one channel
-next_action_on: 2026-10-24
+next_action_on: 2026-10-29
 salary_stated: Not stated
 job_url: https://pasiona.jobs.personio.com/job/2780277
 source: Pasiona Personio XML feed, fetched 2026-10-19 (created 2026-09-03; Barcelona, permanent, full-time)

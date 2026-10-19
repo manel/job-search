@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Apply, selecting Barcelona. Lead with complex financial workflows (Dataset Manager, modeling language) and AI-assisted high-fidelity prototyping. Keep the story and salary consistent with the open Design Systems application
-next_action_on: 2026-10-23
+next_action_on: 2026-10-24
 salary_stated: Not stated; published EUR 93,000-139,600 for the primary location (Dublin); Barcelona range not published for this role (Design Systems role listed EUR 56,200-84,400 for Barcelona)
 job_url: https://stripe.com/careers/listing/product-designer-global/7861422
 source: Stripe Greenhouse API and stripe.com listing, fetched 2026-10-19 (first published 2026-04-29, updated 2026-10-09). Offices: Dublin HQ, Barcelona; remote in Ireland only

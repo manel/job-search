@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Lean application framed as product thinking across the full journey (in-product UX plus lifecycle touchpoints); Remuner email template system as the closest artifact; no CRM performance claims
-next_action_on: 2026-10-23
+next_action_on: 2026-10-28
 salary_stated:
 job_url: https://preply.com/en/careers/apply?ashby_jid=e592d94a-b6fe-4f76-be07-0c3f38a5029b
 source: JD supplied by Manel and assistant fit assessment in local thread 01a0c848-4d9f-7c63-92e9-2b47cc8b7dae on 2026-09-22; recovered 2026-10-13

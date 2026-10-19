@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Light application via Ashby, early (published 2026-10-19). Present the level as hands-on ownership rather than leadership scope, to limit overqualification risk. Ask the level and how the EUR 4,500/month base adjusts at first contact
-next_action_on: 2026-10-22
+next_action_on: 2026-10-21
 salary_stated: Not stated; published "starts at EUR 4,500/month", open to adjustment for experience
 job_url: https://jobs.ashbyhq.com/hostinger/4f8ecf6c-b51c-4682-a864-eb471f27ed89
 source: Hostinger Ashby job board API, fetched 2026-10-19 (published 2026-10-19; remote, based in Europe or Spain)

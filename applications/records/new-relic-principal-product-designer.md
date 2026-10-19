@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Decide whether to prepare a focused application led by the AI Agent case and supported by Abax; verify compensation, work pattern, Principal calibration, and any decisive application-form gates before investing in a full package
-next_action_on:
+next_action_on: 2026-10-27
 salary_stated: Not stated; employer range unknown
 job_url: https://job-boards.greenhouse.io/newrelic/jobs/5396630008
 source: User-supplied job description and current official New Relic Greenhouse posting checked 2026-10-01; live portfolio cases; Career OS evidence register

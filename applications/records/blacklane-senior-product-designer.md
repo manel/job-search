@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Light-tailored application via Greenhouse. Lead with complex journeys and edge cases, outcomes stated within the evidence register, and the cleanest visual work. Salary is shared by Blacklane before interviews; record it
-next_action_on: 2026-10-23
+next_action_on: 2026-10-27
 salary_stated: Not stated; Blacklane shares the salary before the interview stage
 job_url: https://job-boards.greenhouse.io/blacklane/jobs/8754730002
 source: Blacklane Greenhouse API, fetched 2026-10-19 (first published 2026-09-10, updated 2026-10-12; Barcelona and Madrid)

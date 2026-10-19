@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Apply through ONE agency only (recommended: Babel, direct email to the named recruiter; not Hays Easy Apply). Ask the recruiter to name the client before submission, then decline the other agency
-next_action_on: 2026-10-21
+next_action_on: 2026-10-20
 salary_stated: Not stated; posting says "Competitive Salary"
 job_url: https://babelprofiles.com/current-vacancies/senior-ux-ui-designer-retail-with-english/
 source: Babel Profiles agency posting, fetched 2026-10-19; found by Manel on LinkedIn

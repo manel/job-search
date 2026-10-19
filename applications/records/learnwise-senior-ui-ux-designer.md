@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Prepare the application this week (posted 2026-10-16; early entry matters). Lead with the Remuner AI agent and the Remuner design system from scratch; prepare showable AI-tool workflow examples
-next_action_on: 2026-10-20
+next_action_on: 2026-10-21
 salary_stated: Not stated; employer range EUR 55,000-65,000 base (published)
 job_url: https://join.learnwise.ai/senior-ui-ux-designer
 source: Official LearnWise careers page fetched 2026-10-19 (posted 2026-10-16, apply form live)

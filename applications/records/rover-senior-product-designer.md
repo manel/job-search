@@ -10,7 +10,7 @@ fit_decision: proceed (medium priority; reversed from skip 2026-10-19)
 applied_on:
 last_contact_on:
 next_action: Refresh the July CV and cover letter against the current evidence register (they predate the September rework), then apply. Salary within the published EUR 62,722-76,027 per context/salary.md, not automatically the top
-next_action_on: 2026-10-23
+next_action_on: 2026-10-24
 salary_stated: Not stated; EUR 76,027 position was prepared from the published band ceiling
 job_url: https://jobs.lever.co/rover/bf6aa5e2-d5ad-4e10-8257-1990ca2533c2
 source: Direct confirmation from Manel; legacy application ledger

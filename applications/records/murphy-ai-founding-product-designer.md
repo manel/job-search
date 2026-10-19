@@ -8,7 +8,7 @@ fit_decision: proceed (re-approach by direct message only, 2026-10-19)
 applied_on:
 last_contact_on: 2026-09-04
 next_action: One direct LinkedIn message to the founder or design hiring lead (not the rejection sender), leading with self-service configuration and the Dataset Manager case; no salary in the message. If no reply in ~10 business days, close permanently
-next_action_on: 2026-10-22
+next_action_on: 2026-10-20
 salary_stated: EUR 80,000 gross annual
 job_url: https://careers.getmurphy.ai/jobs/8195463-founding-product-designer
 source: Rejection email supplied by Manel

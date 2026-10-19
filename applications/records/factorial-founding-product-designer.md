@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Message Lucia Lorenzo Santos asking whether the Founding role makes sense for Manel given his earlier process; apply only if she invites it. No cold application
-next_action_on: 2026-10-22
+next_action_on: 2026-10-20
 salary_stated: Not stated; employer range EUR 45,000-82,000 (published, includes variable)
 job_url: https://careers.factorial.com/job_posting/founding-product-designer-319459
 source: Official Factorial careers page fetched 2026-10-19 (posted 2026-08-26)

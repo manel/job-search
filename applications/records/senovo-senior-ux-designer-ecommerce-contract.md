@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Email Menna before any submission. Ask for the day rate or salary, contract type (freelance or employed through the agency) and the client name. Allow only one agency to submit Manel to a given client. Base CV only
-next_action_on: 2026-10-24
+next_action_on: 2026-10-20
 salary_stated: Not stated; rate unknown
 job_url:
 source: LinkedIn post text pasted by Manel 2026-10-19 (posted about a week earlier, 99 applicants, Easy Apply)

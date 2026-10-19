@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Confirm genuine interest in AIOS's healthcare mission and high-intensity culture; if positive, prepare a targeted application and clarify the product allocation, Spain engagement model, compensation split, and US-time-zone overlap at the first human exchange
-next_action_on:
+next_action_on: 2026-10-27
 salary_stated: Not stated; employer advertises USD 90,000-150,000 including equity, with no base/equity split
 job_url: https://jobs.ashbyhq.com/aios/781c4075-21bc-4c06-ba74-9c8f2a7a3cfc
 source: Exact official AIOS Ashby posting and live application form checked 2026-10-02; live portfolio cases; Career OS strategy and evidence register

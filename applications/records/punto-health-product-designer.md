@@ -16,7 +16,7 @@ last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
 next_action: Easy Apply with the base CV, summary pointed at sole-designer breadth (Remuner) and studio generalist range (Kings of Mambo); no cover letter. Ask level and range at first contact
-next_action_on: 2026-10-24
+next_action_on: 2026-10-27
 salary_stated: Not stated
 job_url:
 source: LinkedIn post text pasted by Manel 2026-10-19 (posted about a month earlier, over 100 applicants, Easy Apply). Official posting not checked
