@@ -71,3 +71,4 @@ Senior IC. No years stated. It is under a design lead's art direction on brand s
 
 - 2026-10-19: Assessed from the Greenhouse posting. Proceed, high priority. No materials prepared.
 - 2026-10-19: Vacancy rechecked (open, updated 2026-10-14). CV and cover letter prepared.
+- 2026-10-19: Portfolio one-pager PDF generated for the upload-only portfolio field: `cv-pdf-to-send/Flodesk/Manel Leiva Portfolio 2026.pdf` (source in `materials/portfolio-onepager/`).
