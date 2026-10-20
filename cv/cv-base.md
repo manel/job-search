@@ -30,7 +30,7 @@ Designed and shipped a conversational AI agent for commissions and sales plans; 
 
 Built interactive product prototypes through AI-assisted workflows for users to test, separate from the production application.
 
-Built and maintained the component library and token system; used Codex to add CI validation, drift detection, smoke tests, previews, and implementation outputs through engineering-reviewed PRs.
+Built the component library and owned the token system and its repo; used Codex to add CI validation, drift detection and smoke tests, and opened PRs that replaced hardcoded styles in the front-end app with tokens.
 
 
 Abacum, Senior Product Designer
