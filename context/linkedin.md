@@ -3,7 +3,7 @@
 Profile content, audit, and maintenance rules. LinkedIn is the highest-traffic surface in the search: recruiters check it before opening a CV. It must carry the same positioning as `context/positioning.md` and obey every rule in `principles.md`.
 
 Profile: linkedin.com/in/maneleiva
-Last audited: 2026-06-12 (content pasted by Manel, not scraped).
+Last audited: 2026-06-12 (content pasted by Manel, not scraped). About and Remuner entry re-pasted 2026-10-20; other entries still the June copy.
 
 ---
 
@@ -44,27 +44,29 @@ Everything below was addressed in the copy that went live on 2026-06-12, includi
 
 Senior Product Designer · B2B SaaS & Fintech · Complex Workflows & Design Systems
 
-### About (live, pasted by Manel 2026-10-20)
+### About (live, pasted by Manel 2026-10-20, after adding the token-repo and Figma MCP lines)
 
 I design complex B2B products where workflows, data and product architecture are hard to separate.
 
 I've built design systems from scratch, including token architectures, component libraries, implementation pipelines and governance adopted across multiple product squads.
 
+At Remuner I owned the token repository and opened front-end PRs that replaced hardcoded styles with tokens.
+
 Most recently, I designed and shipped a production AI agent that lets sales teams ask questions about their pay, including defining what the system could answer, how answers should be presented, and when it should refuse.
+
+Day to day I use Claude with the Figma MCP to sync tokens with code, check colour contrast and generate component documentation.
 
 I've worked primarily in B2B SaaS and finance products over the last few years, after co-founding and running a UX studio for more than a decade.
 
 I work closely with Product and Engineering from problem definition through implementation, particularly where technical constraints and product decisions are tightly connected.
 
-### Remuner — Senior Product Designer
+### Remuner — Senior Product Designer (live, pasted by Manel 2026-10-20)
 
-Sole designer at a B2B SaaS platform for sales incentive management, owning design across the entire product. I set the UX and UI direction across the full range of product complexity: multi-step approval workflows, role-based permission systems, data mapping and configuration flows, and real-time commission tracking for multiple user roles.
-
-I built the design foundation the product was missing: component library, two-tier token architecture, and a token pipeline (Token Studio to Style Dictionary to npm) that developers consume without friction. Started with a deliberately small token set, a lesson carried over from my previous system. The CTO described the before and after as going from a 2010 app to a 2020 app.
-
-I designed and shipped an AI agent for sales reps and managers.
-
-I also established the design practice from scratch: processes, rituals, and working principles.
+Sole designer at a B2B SaaS platform for sales incentive management, owning product design across data integrations and configuration, compensation plans and payouts, rep and manager experiences, approval workflows, roles and permissions.
+I designed and shipped a production AI agent for sales reps and managers to ask questions about commissions and plans. I owned conversation design, answer formats and role-based context, working with founders and Engineering to define its capabilities and boundaries.
+I also used AI-assisted workflows to build interactive product prototypes for user testing.
+I built the component library and token architecture, and worked with Engineering to adapt an existing token pipeline for Remuner. Later, I used Codex to add validation, drift detection and previews through engineering-reviewed PRs.
+As the first designer, I established working principles, project organisation and design rituals, including planning and refinement with Product and Engineering.
 
 ### Abacum — Senior Product Designer
 
