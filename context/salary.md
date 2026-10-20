@@ -22,6 +22,7 @@ Treat this as credible first-hand recollection about market budgets, not as a me
 ## Current Senior position
 
 - **Priority update, confirmed by Manel 2026-10-11:** Income continuity now takes precedence over previous compensation expectations. Manel is willing to accept lower pay for viable work. The previous approximate EUR 60,000 floor is no longer an automatic rejection gate; a replacement numeric minimum is unknown. Assess actual pay, hours and contract terms when available. Do not interpret flexibility as willingness to accept any amount or volunteer personal financial pressure to employers.
+- **Floor stated by Manel 2026-10-20 (Wizeline discussion):** EUR 40,000 gross annual is acceptable for a full-time employment contract in Barcelona; 40-48K "I can do", with starting paid work as the main concern. Treat 40K as the walk-away floor for employed full-time roles until Manel revises it. Freelance or agency contracts need the equivalent employed value (roughly 25-30% higher headline). Never state the floor to an employer; open higher (for Wizeline, around 50K).
 - Previous working minimum for a Senior Product Designer role: approximately EUR 60,000 gross annual base (superseded as a hard gate by the update above).
 - Preference: maximize compensation above that floor when the role, company, and published range support it.
 - EUR 60,000 is a historical comparator, not the default opening number or current hard floor.
