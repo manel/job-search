@@ -11,7 +11,7 @@ Organized on 2026-10-07 from recorded decisions; vacancies and employer statuses
 Dates are mirrored in each record's `next_action_on`. Ranking: fit strength, posting freshness, effort, then dependencies.
 
 1. **Tue 20 Oct, unblock:** follow-ups (CloudTalk, RemoFirst, WhiteTech, Enginy); warm asks (Lucia for Factorial, Murphy founder; Perk ask sent to Tanna 2026-10-19, Xavi left Perk); agency questions (Mauro at Babel, Menna at Senovo: client and rate); Wizeline availability sent, awaiting invite; export the base CV PDF.
-2. **Tailored, about two a day:** LearnWise (21) → Hostinger, light (21) → Perk (22) → Flodesk (22) → OLX Otodom (23) → Markin (23) → Stripe Global (24) → Rover (24).
+2. **Tailored, about two a day:** Perk (22, via Tanna or direct) → Markin (23) → Stripe Global (24) → Rover (24). LearnWise, Hostinger, Flodesk and OLX Otodom were pulled forward and sent 2026-10-19.
 3. **Light, week of 27 Oct:** Blacklane, Punto Health, iLovePDF (27) → Glovo Order Tracking, Preply CRM, SlashMobility (28) → Babel Retail Media once the client is known.
 4. **Minimal, base CV:** Extia, Pasiona (29), after the client-name check; Senovo only if the rate works. One agency per client.
 5. **Recheck vacancy first (27 Oct):** New Relic, DuckDuckGo, Tether, AIOS (last checked 1-2 Oct).
