@@ -60,12 +60,13 @@ I've worked primarily in B2B SaaS and finance products over the last few years, 
 
 I work closely with Product and Engineering from problem definition through implementation, particularly where technical constraints and product decisions are tightly connected.
 
-### Remuner — Senior Product Designer (live, pasted by Manel 2026-10-20)
+### Remuner — Senior Product Designer (live, pasted by Manel 2026-10-20; palette line added and work mode set to Hybrid the same day)
 
 Sole designer at a B2B SaaS platform for sales incentive management, owning product design across data integrations and configuration, compensation plans and payouts, rep and manager experiences, approval workflows, roles and permissions.
 I designed and shipped a production AI agent for sales reps and managers to ask questions about commissions and plans. I owned conversation design, answer formats and role-based context, working with founders and Engineering to define its capabilities and boundaries.
 I also used AI-assisted workflows to build interactive product prototypes for user testing.
 I built the component library and token architecture, and worked with Engineering to adapt an existing token pipeline for Remuner. Later, I used Codex to add validation, drift detection and previews through engineering-reviewed PRs.
+I built the colour palette, then used the Figma MCP to normalise its shades and bring the colours used in the product to WCAG AA contrast.
 As the first designer, I established working principles, project organisation and design rituals, including planning and refinement with Product and Engineering.
 
 ### Abacum — Senior Product Designer
