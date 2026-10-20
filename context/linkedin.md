@@ -44,17 +44,17 @@ Everything below was addressed in the copy that went live on 2026-06-12, includi
 
 Senior Product Designer · B2B SaaS & Fintech · Complex Workflows & Design Systems
 
-### About
+### About (live, pasted by Manel 2026-10-20)
 
-The work I care about happens before any screen gets drawn. What should exist, how it should connect, where the real friction is. B2B SaaS tends to have all of this in a concentrated form: user roles with genuinely different goals, data-heavy interfaces, workflows where the edge cases aren't edge cases at all.
+I design complex B2B products where workflows, data and product architecture are hard to separate.
 
-Most recently I've led design at Abacum (FP&A) and Remuner (sales compensation), often as the first or only designer on the problem. Before that, co-running a UX studio in Barcelona, designing client products and often building them too. That's where I started tying component libraries in Sketch to front-end code.
+I've built design systems from scratch, including token architectures, component libraries, implementation pipelines and governance adopted across multiple product squads.
 
-I've built two production design systems from scratch, including a token pipeline I hardened with Codex to keep Figma and code from drifting apart. At Remuner I also designed and shipped an AI agent for sales reps and managers.
+Most recently, I designed and shipped a production AI agent that lets sales teams ask questions about their pay, including defining what the system could answer, how answers should be presented, and when it should refuse.
 
-Claude Code and Figma Make are part of my daily toolkit now too.
+I've worked primarily in B2B SaaS and finance products over the last few years, after co-founding and running a UX studio for more than a decade.
 
-Looking for Senior, Lead, or Staff IC roles in B2B SaaS, fintech, or data-heavy products. Remote, or hybrid in Barcelona.
+I work closely with Product and Engineering from problem definition through implementation, particularly where technical constraints and product decisions are tightly connected.
 
 ### Remuner — Senior Product Designer
 
