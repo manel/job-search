@@ -1,8 +1,8 @@
 ---
 company: Wizeline
 role: Senior Product Designer - Barcelona Hybrid
-status: applied
-status_verified_on: 2026-10-19
+status: interviewing
+status_verified_on: 2026-10-20
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-10-19
@@ -12,11 +12,11 @@ application_channel: direct
 warm_path: unknown
 portfolio_version: 2026-09-23
 applied_on: 2026-10-19
-last_contact_on:
-outcome_stage: no-response
+last_contact_on: 2026-10-20
+outcome_stage: recruiter-screen # inferred: recruiter-run first interview, round type not stated
 rejection_reason_class: none
-next_action: Nudge Wizeline Talent if silent (10 business days); LinkedIn outreach 2026-11-09; stale 2026-11-23. At first human contact ask salary, hybrid cadence, team mandate and OPIS account continuity; raise the Product Designer req 7406176
-next_action_on: 2026-11-02
+next_action: Await David Ho's Google Meet invite (availability submitted for 21-23 Oct, 9:30-13:00 and 15:00-16:00 Madrid). On invite, record date, interviewer and round, then run /prep-interview wizeline. If no invite by end of 21 Oct, reply to David's email to confirm receipt. In the call ask salary range, hybrid cadence, team mandate, OPIS account continuity; raise Product Designer req 7406176
+next_action_on: 2026-10-21
 salary_stated: Not asked on the form; none stated
 job_url: https://www.wizeline.ai/careers/job/?gh_jid=7384390
 source: Official Wizeline Greenhouse job record and application fields checked 2026-09-23; live portfolio cases; Career OS evidence register
@@ -87,3 +87,5 @@ The official Greenhouse application is open. Required candidate fields are CV, L
 - 2026-10-19: The scanner re-found this role (Greenhouse record last updated 2026-10-08, still open). The package was never submitted and the record had no `next_action_on`, so the overdue check never surfaced it. Set to 2026-10-20. Two other Wizeline Barcelona postings exist: UX Designer (7701620) on the same OPIS account with near-identical design-system scope, and Product Designer (7406176), a broader product-ownership role first published 2025-11-18 and likely an evergreen req. Apply here only; raise the product role with the recruiter at first contact instead of a second cold application.
 - 2026-10-19: CV source revised before sending: Abacum line aligned with the evidence register (worked on, not built; no pipeline authorship); postgraduate-teaching claim removed (register, 2026-10-14); languages added. Cover letter unchanged. The form has no cover-letter or portfolio field; portfolio links are in the CV header.
 - 2026-10-19: Manel confirmed submission via Greenhouse with the CV source revised the same day (no cover letter field). Status applied. Follow-up: nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23. Sent PDF: cv-pdf-to-send/Wizeline/.
+- 2026-10-20: Recruiter David Ho (Wizeline) emailed that Manel is moving to the next stage: an interview via Google Meet, asking for availability through a calendar link. Round type and interviewer not stated; likely a recruiter screen (inference). Status interviewing (slot not yet booked). Source: email pasted by Manel. Nudge/LinkedIn/stale dates superseded.
+- 2026-10-20: Manel submitted availability in the recruiter's calendar tool: Wed 21, Thu 22, Fri 23 Oct, 9:30-13:00 and 15:00-16:00 (Madrid time). Awaiting the invite. Source: screenshot supplied by Manel.

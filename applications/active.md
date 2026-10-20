@@ -10,7 +10,7 @@ Organized on 2026-10-07 from recorded decisions; vacancies and employer statuses
 
 Dates are mirrored in each record's `next_action_on`. Ranking: fit strength, posting freshness, effort, then dependencies.
 
-1. **Tue 20 Oct, unblock:** follow-ups (CloudTalk, RemoFirst, WhiteTech, Enginy); warm asks (Xavi for Perk, Lucia for Factorial, Murphy founder); agency questions (Mauro at Babel, Menna at Senovo: client and rate); Wizeline sent 2026-10-19; export the base CV PDF.
+1. **Tue 20 Oct, unblock:** follow-ups (CloudTalk, RemoFirst, WhiteTech, Enginy); warm asks (Lucia for Factorial, Murphy founder; Perk ask sent to Tanna 2026-10-19, Xavi left Perk); agency questions (Mauro at Babel, Menna at Senovo: client and rate); Wizeline availability sent, awaiting invite; export the base CV PDF.
 2. **Tailored, about two a day:** LearnWise (21) → Hostinger, light (21) → Perk (22) → Flodesk (22) → OLX Otodom (23) → Markin (23) → Stripe Global (24) → Rover (24).
 3. **Light, week of 27 Oct:** Blacklane, Punto Health, iLovePDF (27) → Glovo Order Tracking, Preply CRM, SlashMobility (28) → Babel Retail Media once the client is known.
 4. **Minimal, base CV:** Extia, Pasiona (29), after the client-name check; Senovo only if the rate works. One agency per client.
@@ -20,7 +20,7 @@ Dates are mirrored in each record's `next_action_on`. Ranking: fit strength, pos
 
 Proceed; CV and cover-letter Markdown sources are prepared. Layout/export and PDF verification remain. Recheck the exact vacancy before submission; this section does not mean submission-ready PDFs exist.
 
-- [Perk, Senior Design Systems Designer (Suitcase)](records/perk-senior-design-systems-designer.md): materials and PDFs ready (`cv-pdf-to-send/Perk (DS)/`). Referral ask sent 2026-10-19 to Tanna Schumacher (former LABASAD student, designer at Perk). Apply through her referral, or directly on 2026-10-22 if no reply.
+- [Perk, Senior Design Systems Designer (Suitcase)](records/perk-senior-design-systems-designer.md): materials and PDFs ready and text-checked 2026-10-20 (`cv-pdf-to-send/Perk (DS)/`). Referral ask sent 2026-10-19 to Tanna Schumacher (former LABASAD student, designer at Perk). Apply through her referral, or directly on 2026-10-22 if no reply.
 
 ## Prepare application
 
@@ -57,11 +57,11 @@ Resolve the stated next step before investing further. A Proceed assessment can 
 
 ## Confirmed active
 
+- [Wizeline, Senior Product Designer - Barcelona Hybrid](records/wizeline-senior-product-designer-barcelona-hybrid.md): **interviewing.** Applied 2026-10-19 via Greenhouse; recruiter David Ho invited Manel to a Google Meet interview on 2026-10-20; availability sent for 21-23 Oct. Awaiting invite, then /prep-interview wizeline. Ask salary range, hybrid cadence, OPIS account continuity.
 - [OLX (Otodom), Senior Design System Designer, re-application](records/olx-otodom-senior-design-system-designer-2026-10.md): applied 2026-10-19 via Lever (Remote Spain). Concurrent with the OLX AI-native application. Nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
 - [Flodesk, Web System Designer, Brand](records/flodesk-web-system-designer-brand.md): applied 2026-10-19 via Greenhouse with one-page portfolio PDF; no salary asked (range 50-65K). Nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
 - [LearnWise, Senior UI/UX Designer](records/learnwise-senior-ui-ux-designer.md): applied 2026-10-19 via careers form, EUR 62,000 stated (range 55-65K). Nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
 - [Hostinger, Product Designer (remote)](records/hostinger-product-designer.md): applied 2026-10-19 via Ashby, EUR 5,000/month stated (employer starts at 4,500). Nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
-- [Wizeline, Senior Product Designer - Barcelona Hybrid](records/wizeline-senior-product-designer-barcelona-hybrid.md): applied 2026-10-19 via Greenhouse (design-system role, OPIS account). Nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
 - [Finom, Senior Product Designer, Credit & Cards](records/finom-senior-product-designer-credit-cards.md): applied 2026-10-13, confirmed by Manel; awaiting employer response. EUR 65,000 gross annual was suggested, but the submitted amount and other answers are unconfirmed. Exact files, channel, portfolio version, PDF QA and receipt details remain unconfirmed.
 - [Stripe, Product Designer, Design Systems](records/stripe-product-designer-design-systems.md): applied 2026-09-28, retrospectively confirmed by Manel on 2026-10-13; awaiting employer response. Exact submitted files, answers, channel, portfolio version, PDF QA and receipt details remain unconfirmed. Vacancy last checked 2026-09-28.
 

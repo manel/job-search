@@ -24,7 +24,7 @@ Experience spans data integrations, financial modeling, and sales-compensation w
 EXPERIENCE
 
 Remuner, Senior Product Designer
-May 2024 to March 2026, Barcelona (Remote)
+May 2024 to March 2026, Barcelona (hybrid)
 
 Owned product design across Remuner’s sales-compensation platform as its sole designer. Scope spanned data integrations and configuration, compensation plans and payouts, rep and manager experiences, approval workflows, and administration.
 
@@ -36,7 +36,7 @@ Built and maintained the component library and token system; used Codex to add C
 
 
 Abacum, Senior Product Designer
-January 2022 to April 2024, Barcelona (Remote)
+January 2022 to April 2024, Barcelona (hybrid)
 
 Designed workflows across Abacum’s data-integration and financial-modeling areas, first in the Integrations squad and later Engine. Work spanned integrations, datasets, dimensions and mappings, models, and the modeling language.
 
@@ -48,7 +48,7 @@ Co-led the Abax design-system business case with the head of design and worked o
 
 
 Kings of Mambo, Co-founder, UX Design Lead
-2010 to 2021, Barcelona
+2010 to 2021, Barcelona (on-site)
 
 Co-founded and led a UX studio for 11 years; designed products for media, retail, finance, legal, and culture clients.
 

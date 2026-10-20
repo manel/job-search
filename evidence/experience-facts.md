@@ -27,6 +27,12 @@ This is the evidence register, not finished application copy. Each material clai
 - **Verified:** 2026-10-19.
 - **External-use boundary:** Do not claim French. Roles that require French communication or French-language user research are skips.
 
+- **Claim:** Work mode per role: Remuner and Abacum hybrid (Barcelona); Kings of Mambo on-site, five days a week in the office.
+- **Class:** Confirmed direct user statement.
+- **Source:** Manel's correction while reconciling the Perk CV on 2026-10-20.
+- **Verified:** 2026-10-20.
+- **External-use boundary:** Supersedes "Barcelona (Remote)" in `cv/cv-base.md` and role CVs before 2026-10-20 (base corrected; sent CVs stay as sent). Do not describe Remuner or Abacum as remote roles, and do not cite them as remote-work experience.
+
 ### Crypto familiarity
 
 - **Claim:** Manel has practical experience using self-custodial wallets and partial familiarity with crypto terminology and concepts, but does not describe his knowledge as deep.

@@ -2,7 +2,7 @@
 company: Perk (formerly TravelPerk)
 role: Senior Design Systems Designer
 status: in-progress
-status_verified_on: 2026-10-19
+status_verified_on: 2026-10-20
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-10-19
@@ -90,3 +90,4 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 - 2026-10-19: Manel recognised Tanna as a former student (LABASAD Sketch course, around 2018); message rewritten in Spanish opening with that connection.
 - 2026-10-19: Referral ask sent to Tanna on LinkedIn (sent text in `outreach/perk-tanna-schumacher-2026-10-19.md`).
 - 2026-10-19: Removed the '80% target' comparison from the CV and letter (different denominators per the live case). PDFs in cv-pdf-to-send/Perk (DS)/ must be re-exported before applying.
+- 2026-10-20: CV and letter re-exported to cv-pdf-to-send/Perk (DS)/ (overwriting the unsent 2026-10-19 PDFs). Both pass `scripts/check-pdf-text.py --source`: real embedded Inter, no split words, no 80% comparison, case link restored in the summary, work mode corrected (Remuner and Abacum hybrid, Kings of Mambo on-site). Source CV synced to the PDF header and date format. Ready to send.

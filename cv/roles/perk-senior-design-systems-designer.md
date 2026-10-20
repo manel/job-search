@@ -1,15 +1,13 @@
 # CV — Perk, Senior Design Systems Designer (Suitcase)
 # Prepared 2026-10-19. Sources: Wizeline CV as revised 2026-10-19, cv/cv-base.md, evidence/experience-facts.md (Abax adoption and migration, Remuner ESLint and audit, Figma MCP confirmed 2026-10-19).
 # Lead (context/positioning.md, design systems): adoption tracking, migration off MUI, contribution model, token pipeline. Code Connect not claimed; no accessibility claim.
-# Plain text below the line, ready for Figma paste. No PDF generated.
+# Plain text below the line, ready for Figma paste. PDF exported 2026-10-20 (cv-pdf-to-send/Perk (DS)/); header and dates below mirror the PDF. Work mode corrected 2026-10-20 (Manel): Remuner and Abacum hybrid, Kings of Mambo on-site.
 
 ---
 
 Manel Leiva
 Senior Product Designer, Design Systems
-Barcelona, Spain
-manel-leiva.com
-linkedin.com/in/maneleiva
+maneleiva@gmail.com | +34 622 144 909 | manel-leiva.com | linkedin.com/in/maneleiva
 
 
 SUMMARY
@@ -23,7 +21,7 @@ Case study: manel-leiva.com/cases/design-systems
 EXPERIENCE
 
 Remuner, Senior Product Designer
-May 2024 to March 2026, Barcelona (Remote)
+May 2024 - Mar 2026, Barcelona (hybrid)
 
 Owned product design across Remuner's sales-compensation platform as its sole designer. Scope spanned data integrations, compensation plans and payouts, rep and manager experiences, and approval workflows.
 
@@ -37,7 +35,7 @@ Used the Figma MCP with an AI agent to manage tokens and sync them with code, ru
 
 
 Abacum, Senior Product Designer
-January 2022 to April 2024, Barcelona (Remote)
+Jan 2022 - Apr 2024, Barcelona (hybrid)
 
 Designed workflows across Abacum's data-integration and financial-modeling areas, first in the Integrations squad and later Engine. Work spanned integrations, datasets, dimensions and mappings, models, and the modeling language.
 
@@ -51,7 +49,7 @@ Worked on Abax's two-tier token architecture and its Token Studio to Style Dicti
 
 
 Kings of Mambo, Co-founder, UX Design Lead
-2010 to 2021, Barcelona
+Sep 2010 - Nov 2021, Barcelona (on-site)
 
 Co-founded and led a UX studio for 11 years; designed products for media, retail, finance, legal, and culture clients.
 
