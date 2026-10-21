@@ -1,23 +1,23 @@
 ---
 company: Perk (formerly TravelPerk)
 role: Senior Design Systems Designer
-status: in-progress
-status_verified_on: 2026-10-20
+status: applied
+status_verified_on: 2026-10-21
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-10-19
 fit_decision: proceed
 role_lane: design-systems
 application_channel: direct
-warm_path: Tanna Schumacher, Product Designer at Perk; Manel's former student (LABASAD Sketch course, around 2018), 1st-degree LinkedIn connection. Xavi Francisco left Perk around 2026-09-28
-portfolio_version:
-applied_on:
-last_contact_on: 2026-10-19
-outcome_stage: not-submitted
+warm_path: Tanna Schumacher, Product Designer at Perk; Manel's former student (LABASAD Sketch course, around 2018), 1st-degree LinkedIn connection; no reply to the 2026-10-19 ask; named as the connection on the form. Tim Archer, Senior Content Design Manager at Perk, 2nd-degree, posted the role on LinkedIn 2026-10-20. Xavi Francisco left Perk around 2026-09-28
+portfolio_version: Design Systems case (manel-leiva.com/cases/design-systems)
+applied_on: 2026-10-21
+last_contact_on: 2026-10-21
+outcome_stage: applied
 rejection_reason_class: none
-next_action: Wait for Tanna's reply. If she offers a referral, apply through it; if no reply by 2026-10-22, apply directly via Ashby with the PDFs in cv-pdf-to-send/Perk (DS)/ (case link in the form's links field) and do not follow up
-next_action_on: 2026-10-22
-salary_stated: Not stated; no range published
+next_action: Watch for a reply to the comment on Tim Archer's post. If he replies, answer and then consider a connection request. If there's no employer response, nudge on 2026-11-04, LinkedIn 2026-11-11, stale 2026-11-25
+next_action_on: 2026-11-04
+salary_stated: EUR 65,000 gross annual base (form field, 2026-10-21; no range published)
 job_url: https://jobs.ashbyhq.com/Perk/78dafbf1-0f6d-46b7-b71a-2c59f7af31cf
 source: Perk Ashby job board API, fetched 2026-10-19 (published 2026-10-15; London, with Barcelona as a secondary location; hybrid, three days in office)
 ---
@@ -65,7 +65,7 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 - **MCP tooling:** confirmed 2026-10-19: Figma MCP with an AI agent to manage design tokens in Remuner's Figma files (and since). **Code Connect:** not confirmed; do not claim.
 - **Mobile:** the system covers web and mobile; Manel's mobile evidence is the Remuner webview app.
 - **Motion and visual-language ownership:** the case is about architecture more than visual direction.
-- **Localisation and content tokens:** Remuner's per-customer terminology in the AI agent is adjacent, not the same thing.
+- **Localisation and content tokens:** covered since 2026-10-21: Manel managed translation keys and translations in SimpleLocalize at Remuner (`evidence/experience-facts.md`). The keys were part of the components (confirmed the same day), which matches the JD line "content tokens, so components carry their language requirements". Languages and key naming are unconfirmed.
 - **Salary:** no range published. Follow `context/salary.md`; Perk is a large, well-funded company.
 
 ## Materials
@@ -91,3 +91,8 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 - 2026-10-19: Referral ask sent to Tanna on LinkedIn (sent text in `outreach/perk-tanna-schumacher-2026-10-19.md`).
 - 2026-10-19: Removed the '80% target' comparison from the CV and letter (different denominators per the live case). PDFs in cv-pdf-to-send/Perk (DS)/ must be re-exported before applying.
 - 2026-10-20: CV and letter re-exported to cv-pdf-to-send/Perk (DS)/ (overwriting the unsent 2026-10-19 PDFs). Both pass `scripts/check-pdf-text.py --source`: real embedded Inter, no split words, no 80% comparison, case link restored in the summary, work mode corrected (Remuner and Abacum hybrid, Kings of Mambo on-site). Source CV synced to the PDF header and date format. Ready to send.
+- 2026-10-21: No reply from Tanna. Manel chose to apply a day early rather than wait.
+- 2026-10-21: Applied directly via Ashby with the PDFs in `cv-pdf-to-send/Perk (DS)/`. Form answers: salary EUR 65,000 gross annual base (Manel's choice; the assistant had suggested EUR 72,000); available immediately, no notice period; 3 days in office: Yes; connection: Yes, professional contact, Tanna Schumacher (Product Designer, former LABASAD student). Salary asked: yes; employer range: none published; compensation feedback: none.
+- 2026-10-21: Tim Archer's LinkedIn post about the role found. Public comment and connection note drafted (`outreach/perk-tim-archer-2026-10-21.md`).
+- 2026-10-21: Ashby showed the success screen ("Our Talent Team is currently reviewing applications for this role"). No confirmation email received; the success screen is the submission evidence.
+- 2026-10-21: Comment posted on Tim's post, asking about the state of content tokens in Suitcase and mentioning the SimpleLocalize keys built into components. Connection request not sent (Manel's choice).

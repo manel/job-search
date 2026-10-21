@@ -136,6 +136,12 @@ This is the evidence register, not finished application copy. Each material clai
 - **Source:** Manel's Datavant hiring-manager preparation conversation on 2026-09-30.
 - **Verified:** 2026-09-30.
 
+- **Claim:** At Remuner, Manel worked in SimpleLocalize (localisation platform) and managed the localisation keys ("tokens", in Manel's words) and translations himself. The keys were part of the components themselves, so components carried their translatable strings.
+- **Class:** Confirmed direct user statement.
+- **Source:** Manel, Perk application conversation on 2026-10-21 (component link confirmed the same day).
+- **Verified:** 2026-10-21.
+- **External-use boundary:** Supports localisation keys built into design-system components and hands-on management of translations in a live product. Safe phrasing: "managed translation keys and translations in SimpleLocalize, with the keys built into the components". Unconfirmed: the languages, how many components, the key naming convention, and whether the per-customer terminology work in the AI agent used the same setup. Do not claim a named content-token architecture or measured results.
+
 - **Claim:** Sole designer across the product during the relevant period.
 - **Class:** Confirmed.
 - **Source:** `cv/cv-base.md` at pre-merge commit `83bef9f`, Remuner entry.
