@@ -82,6 +82,20 @@ Jaume Puig, Enginy's CTO and co-founder, publicly promoted the vacancy and asked
 
 - **Saul Villa**, Manager, Talent Acquisition at Enginy since Feb 2026 (previously ~4 years recruiting at N26, latterly Executive Talent Partner). Runs the 26 Oct screen. 23 mutual LinkedIn connections, including a Sergi and a Sergio (not yet identified). Source: LinkedIn profile pasted by Manel, 2026-10-22.
 - **Diogo Rendeiro**, headline "creating magical tools that help sales reps win". About a month before 2026-10-22 he posted that he is hiring a maker-mindset designer at Enginy ("push PRs, not pixels", "Design Engineer / Product Builder", pods led by product engineers or product designers, "Onsite in sunny Barcelona", "Shipped a PR last week? DM me"). Saul reposted it. **Inference:** likely the hiring manager or design lead for this role; title not confirmed. No contact yet.
+- **Damián Rodrígues**, Senior Product Designer at Enginy (2nd-degree connection). Posted around 2026-10-21 that the Senior Product Designer opening is still open, with a deck on how he works day to day. Likely a peer on the team and possibly in a design round (inference). No contact yet.
+
+## How the design team works (Damián Rodrígues's deck, posted ~2026-10-21)
+
+External research, his own description of his current process ("ask me again in a few months"). Supplied by Manel as a PDF on 2026-10-22; PDF not kept.
+
+1. **Issue:** all work starts as a Linear issue inside a roadmap project: a product improvement or a new feature.
+2. **Understand:** a Claude project per problem. Quantitative via MCP to Datadog (usage), HubSpot (revenue) and their own database: how many customers, how, what it costs. Qualitative: Claude drafts the interview script from his research questions (he reviews), the team runs interviews, Granola transcribes, transcripts flow back to Claude via MCP. Messy flows or feedback get mapped in FigJam from Claude via MCP.
+3. **Design and ideate:** starts once the target metric is identified. Figma plus Mobbin; diverge and converge on trade-offs and edge cases.
+4. **Design and build:** the designer implements it himself in Cursor with Claude Code, or Codex. About 90% goes to production via PR. New or changed components are built in Storybook first, isolated with all states.
+5. **Ship:** PR linked to the Linear issue, reviewed, approved, deployed; Linear posts to Slack on completion.
+6. **Measure:** track the metric set at the start in Datadog. Moved means done; not moved becomes a new issue.
+
+**What it means for Manel:** the "maker" bar is literal: designers ship their own PRs most of the time. Manel's matching evidence: the Remuner token pipeline (Codex, reviewed and merged), Kings of Mambo production front-end, the Storybook and component work, and this Claude Code and MCP setup in daily use. The weak spot is step 6: metric-first framing and instrumented outcomes. Prepare one answer that names the metric up front, even where the measurement was qualitative.
 
 ## Sources
 
