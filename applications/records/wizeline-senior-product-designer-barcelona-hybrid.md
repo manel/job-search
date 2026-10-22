@@ -2,7 +2,7 @@
 company: Wizeline
 role: Senior Product Designer - Barcelona Hybrid
 status: interviewing
-status_verified_on: 2026-10-20
+status_verified_on: 2026-10-21
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-10-19
@@ -13,10 +13,10 @@ warm_path: unknown
 portfolio_version: 2026-09-23
 applied_on: 2026-10-19
 last_contact_on: 2026-10-20
-outcome_stage: recruiter-screen # inferred: recruiter-run first interview, round type not stated
+outcome_stage: recruiter-screen # invite titled "Phone-screen", organizer David Ho (recruiter)
 rejection_reason_class: none
-next_action: Await David Ho's Google Meet invite (availability submitted for 21-23 Oct, 9:30-13:00 and 15:00-16:00 Madrid). On invite, record date, interviewer and round, then run /prep-interview wizeline. If no invite by end of 21 Oct, reply to David's email to confirm receipt. In the call ask the salary range FIRST (see 2026-10-20 Index DS posting at EUR 36-38K), then hybrid cadence, team mandate, OPIS account continuity; mention the Design Systems Designer (Index) posting and ask whether it is the same team; raise Product Designer req 7406176
-next_action_on: 2026-10-21
+next_action: Phone screen Fri 23 Oct 2026, 12:30-13:00 Madrid, Google Meet meet.google.com/rsi-tnqz-zhv, organizer David Ho. Brief: interviews/wizeline/wizeline.md. In the call ask the salary range FIRST (script interviews/wizeline/salary-script.md), then hybrid cadence, team mandate, OPIS account continuity; ask whether the Design Systems Designer (Index) posting is the same team; raise Product Designer req 7406176
+next_action_on: 2026-10-23
 salary_stated: Not asked on the form; none stated
 job_url: https://www.wizeline.ai/careers/job/?gh_jid=7384390
 source: Official Wizeline Greenhouse job record and application fields checked 2026-09-23; live portfolio cases; Career OS evidence register
@@ -91,3 +91,5 @@ The official Greenhouse application is open. Required candidate fields are CV, L
 - 2026-10-20: Manel submitted availability in the recruiter's calendar tool: Wed 21, Thu 22, Fri 23 Oct, 9:30-13:00 and 15:00-16:00 (Madrid time). Awaiting the invite. Source: screenshot supplied by Manel.
 - 2026-10-20: Manel found a Wizeline LinkedIn posting, "Design Systems Designer" (Barcelona, hybrid three days in office, posted about 2026-10-17, 51 applicants, Easy Apply, job poster Jesus Reyes, Senior IT Recruiter). Published range EUR 36-38K. Scope: components for Index, "our core design system", multi-brand theming, Figma architecture, documentation, design-to-code; 5+ years, C1 English, WCAG; nice-to-have multi-brand or white-label in news media or publishing. Inference, not confirmed: same OPIS account as this role, so the Barcelona design budget may be far below the Senior range Manel targets. Decision: no separate application while this process is live; ask the range for this role first in the recruiter call, then raise the Index role. 1st-degree connection at Wizeline: Sofía Ricciari, Product Designer (optional intel on team and levels).
 - 2026-10-20: Salary plan for the recruiter call set: ask the range first; if pushed, around EUR 50K gross annual; Manel's private floor EUR 40K for full-time employment. Script: `interviews/wizeline/salary-script.md`.
+- 2026-10-20 (received; logged 2026-10-21): David Ho sent the Greenhouse calendar invite: "Manel Leiva, Senior Product Designer - Barcelona Hybrid - Phone-screen", Fri 23 Oct 2026, 12:30-13:00 Madrid, Google Meet meet.google.com/rsi-tnqz-zhv (phone +34 822 11 27 85, PIN 962929857). Guests: David Ho and Manel only, so a recruiter screen. Next action: prep on 22 Oct. Source: invite pasted by Manel.
+- 2026-10-22: Screen brief prepared: `interviews/wizeline/wizeline.md` (lead Abacum then Remuner systems; WCAG answer limited to the Remuner palette AA work; multi-brand flagged as a gap; Kings of Mambo client work and production front-end as consultancy and design-to-code proof).
