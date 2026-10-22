@@ -75,6 +75,12 @@ Cleaned 2026-10-14 during the career-os merge: entries now covered by the eviden
 
 Rule: the company vision is background. The task, the constraints and the data point given define the problem. The problem statement must cite that data point, the chosen direction must attack it, and the metric must measure it as baseline → target (here: the drop-off at therapist selection). Before ideating, check: "Does my problem statement mention the number or the break point they gave me?"
 
+**2026-10-22** — Alan rejected after the live case, and the feedback confirms the 2026-10-16 synthesis-drift rule from the employer's side. "Structuring discovery and anticipating key user challenges required significant guidance": Christelle had to steer the session to matching. "Proactive simplification and time management": the plan didn't converge on one flow early enough. Strategic awareness counted as a strength but didn't make up for a weak discovery structure. Two live-case rules follow:
+- Put the discovery structure on the board in the first minutes (task, signal, problem statement, metric), so the interviewer never has to supply it.
+- Name the two or three user challenges that could break the flow (here: trust in the match, availability, fit after the first session) before you draw anything.
+
+The drills in `interviews/drills/` practise the first rule. Their six lines don't cover the second yet.
+
 **2026-07-01** — Factorial culture signal: strong bias toward moving fast and shipping full feature sets early. They placed automation inside the MVP, not phase 2. If this role is offered and accepted, the push/caution tension is a real working dynamic to plan for, not an artifact of the interview format.
 
 ---

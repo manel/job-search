@@ -1,23 +1,23 @@
 ---
 company: Tether
 role: Senior Product Designer (Wallets)
-status: prospect
-status_verified_on: 2026-10-02
+status: applied
+status_verified_on: 2026-10-21
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-10-02
+posting_checked_on: 2026-10-21
 fit_decision: proceed
 role_lane: product
 application_channel: direct
 warm_path: unknown
-portfolio_version: 2026-10-02
-applied_on:
+portfolio_version: 2026-10-21
+applied_on: 2026-10-21
 last_contact_on:
-outcome_stage: not-submitted
+outcome_stage: awaiting-response
 rejection_reason_class: none
-next_action: Investigate the USD compensation range and Spain engagement model; if viable, apply as a medium-priority stretch using only Manel's own written application answers
-next_action_on: 2026-10-27
-salary_stated: Not stated; employer range unknown and the application requires an annual expectation in USD
+next_action: Nudge via the Recruitee thread or recruiter if no response; LinkedIn outreach 2026-11-11; set stale 2026-11-25
+next_action_on: 2026-11-04
+salary_stated: USD 80,000 annual (required form field; employer range unknown)
 job_url: https://careers.tether.io/o/senior-product-designer-wallets-100-remote-worldwide
 source: Exact official Tether Recruitee posting and live application form checked 2026-10-02; live portfolio cases; Career OS strategy and evidence register
 ---
@@ -30,7 +30,7 @@ source: Exact official Tether Recruitee posting and live application form checke
 
 That is enough to support the posting's `working understanding` language, but only narrowly. Manel explicitly does not claim deep crypto knowledge, and no professional wallet or crypto product-design experience is recorded. The application must present self-custodial-wallet use as practical domain familiarity and Abacum/Remuner as adjacent financial-product experience, not combine them into a false claim of shipped wallet work.
 
-No application materials were prepared and no application was submitted.
+Tailored CV prepared 2026-10-21 (see Prepared materials). No application submitted yet.
 
 ## Fit assessment
 
@@ -93,6 +93,13 @@ The form explicitly tells candidates not to use AI tools to complete the applica
 4. How much existing crypto depth is expected on day one and how the team evaluates it.
 5. Design-team size, research support, and what `ship weekly` means in practice.
 
+## Prepared materials
+
+- Tailored CV source: `cv/roles/tether-senior-product-designer-wallets.md`
+- No cover letter (no field on the form). Written answers are Manel's own; not drafted here.
+- Salary entered: USD 80,000 annual.
+- Sent CV: `cv-pdf-to-send/Tether/Manel Leiva CV 2026.pdf`
+
 ## Sources
 
 - **External research, verified 2026-10-02:** [Exact official Tether posting and application form](https://careers.tether.io/o/senior-product-designer-wallets-100-remote-worldwide), confirming the open role, Barcelona eligibility, responsibilities, requirements, and required application fields.
@@ -103,3 +110,7 @@ The form explicitly tells candidates not to use AI tools to complete the applica
 
 - 2026-10-02: Exact official posting and live application form assessed. Decision set to Defer pending confirmation of substantive existing knowledge of crypto networks, fees, and self-custody. No materials prepared, form completed, outreach sent, or application submitted.
 - 2026-10-02: Manel confirmed experience using self-custodial wallets and partial familiarity with the required crypto terminology, while explicitly stating that his knowledge is not deep. Decision changed from Defer to Proceed as a medium-priority stretch. No professional wallet or crypto product-design experience is claimed.
+- 2026-10-21: Posting rechecked, still live (HTTP 200, title unchanged). Manel asked whether it had been assessed; no decision change.
+- 2026-10-21: Manel decided to apply now (income-first). Tailored CV prepared; crypto shown only as personal use in skills. Suggested USD 80,000 for the required salary field (Spain engagement model unknown; contractor would need a higher headline than the EUR 40K employed floor; RemoFirst precedent USD 5,900/month). Not yet submitted.
+- 2026-10-21: Manel found that "Why are you interested in working at Tether?" is a video upload on the live form, not a text field (not captured in the 2026-10-02 form check). Content is Manel's own under the form's no-AI rule; only format and delivery guidance given.
+- 2026-10-21: Applied via Recruitee. Entered USD 80,000 in the salary field. Written answers and video were Manel's own (crypto use since 2021, tools including InVision, Sketch, Framer, Figma, Figma Make and Claude with the Figma Console MCP). Nudge 2026-11-04, LinkedIn 2026-11-11, stale 2026-11-25.

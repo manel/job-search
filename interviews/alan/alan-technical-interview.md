@@ -249,3 +249,7 @@ None. The session stayed on the case; no past-project story came up.
 ### Next step
 
 Christelle will talk to Celine, and Celine will send the decision. If Alan moves forward, Manel understood the next round would be a getting-to-know-you conversation with another person from the design team, or with the head of the design group (unconfirmed). No timing was given.
+
+### Outcome (2026-10-21)
+
+Rejected. Celine's email named strategic awareness (why now for Alan, business case, other countries), honesty about gaps, taking feedback well and adapting when the AI option was ruled out. The reasons given: discovery structure and anticipating key user challenges "required significant guidance", plus a need for more proactive simplification and time management. This matches the debrief above: the synthesis came from the vision paragraph, and Christelle's questions steered the session back to matching. Record: `applications/records/alan-product-designer.md`.

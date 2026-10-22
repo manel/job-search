@@ -1,8 +1,8 @@
 ---
 company: Alan
 role: Product Designer
-status: interviewing
-status_verified_on: 2026-10-16
+status: rejected
+status_verified_on: 2026-10-22
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-10-01
@@ -12,19 +12,25 @@ application_channel: direct
 warm_path: unknown
 portfolio_version:
 applied_on: 2026-10-01
-last_contact_on: 2026-10-16
-outcome_stage: technical-interview
-rejection_reason_class: none
-next_action: Await Celine's decision on the live technical interview; if nothing has arrived, send a short check-in to Celine
+last_contact_on: 2026-10-21
+outcome_stage: live-challenge
+rejection_reason_class: specific
+next_action: None. Optional: reply to Celine with thanks; she offered to discuss the decision
 next_action_on: 2026-10-23
 salary_stated: Unknown; employer range and submitted compensation answer were not confirmed
 job_url: https://jobs.ashbyhq.com/alan/1bf22834-f85d-4581-95a8-0a0278ba9013?departmentId=f4057159-b3bb-419a-954e-658d9b58f377
-source: Celine Brunel’s progression and feedback email received 2026-10-13 at 10:50, supplied by Manel; Jorge Bodas’s interview confirmation supplied by Manel on 2026-10-06; official hiring-process and compensation pages checked 2026-10-06; Jorge Bodas’s first-interview invitation and submitted availability supplied by Manel on 2026-10-06; exact Ashby job description supplied by Manel on 2026-10-01; official public Ashby job-board API checked 2026-10-01; Career OS evidence register
+source: Celine Brunel's rejection email of 2026-10-21 17:43, supplied by Manel on 2026-10-22; Celine Brunel’s progression and feedback email received 2026-10-13 at 10:50, supplied by Manel; Jorge Bodas’s interview confirmation supplied by Manel on 2026-10-06; official hiring-process and compensation pages checked 2026-10-06; Jorge Bodas’s first-interview invitation and submitted availability supplied by Manel on 2026-10-06; exact Ashby job description supplied by Manel on 2026-10-01; official public Ashby job-board API checked 2026-10-01; Career OS evidence register
 ---
 
 # Alan — Product Designer
 
 ## Current process
+
+**Rejected after the live technical interview, 2026-10-21 (email from Celine Brunel, 17:43, supplied by Manel):** Alan closed the process. Celine's feedback, close to verbatim:
+
+- **Strengths:** good strategic awareness and big-picture view (why this matters for Alan now, the business case, other countries). Honest when he didn't know something; took feedback well. Adapted smoothly when the AI option was ruled out.
+- **Reasons:** the approach to structuring discovery and anticipating key user challenges "required significant guidance". Combined with the need for more proactive simplification and time management, Alan concluded the role's expectations "at this time" are not the best match.
+- Celine invited a future application and offered to discuss the decision.
 
 **Live technical interview completed, 2026-10-16 (confirmed by Manel):** One session with Christelle Mozzati only. Alan's case was "Find the right therapist": member–therapist matching for video therapy, France, 2–3 weeks to ship, 2 engineers. Manel delivered an AI-assisted intake → recommended therapists → booking flow, drawn over Alan's app screenshots. Christelle asked how to know a match was good and which metrics to use. Next step: Christelle reports to Celine, and Celine communicates the decision. The possible next round (a conversation with another designer or the head of the design group) is Manel's understanding, not confirmed. No timing was given. Full debrief: [technical brief, debrief section](../../interviews/alan/alan-technical-interview.md).
 
@@ -184,3 +190,4 @@ Alan’s [compensation page](https://alan.com/en/careers/a/salary-equity) says a
 - 2026-10-16: Live technical interview completed with Christelle Mozzati (Manel's read: went well, unsure). Case: "Find the right therapist". Debrief recorded in the technical brief. Status remains interviewing; awaiting Celine's decision. Next action: check in with Celine on 2026-10-23 if nothing has arrived.
 - 2026-10-16: Manel sent Christelle a short reflection note on the "Exercise for today" thread, with Celine in copy. It acknowledged that discovery focused on prevention and awareness and missed the "Select a therapist" drop-off. Text: `outreach/alan-christelle-post-technical-2026-10-16.md`.
 - 2026-10-13: Manel confirmed sending the reply to Celine stating availability had been submitted and asking about tool requirements/restrictions. Awaiting appointment confirmation and employer clarification; exact submitted time windows remain unrecorded. Manel intends to practise in Figma with disclosed LLM support.
+- 2026-10-22: Rejected. Celine Brunel's email of 2026-10-21 17:43 closed the process after the live technical interview, with specific feedback: discovery structure and anticipating key user challenges needed significant guidance; more proactive simplification and time management needed. Strengths named: strategic awareness, honesty, coachability, adapting when the AI option was ruled out. Rejection class: specific. The feedback matches Manel's 2026-10-16 debrief and the synthesis-drift rule in memory.md. Optional reply to Celine; no follow-up owed.

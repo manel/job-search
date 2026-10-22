@@ -10,7 +10,7 @@ Organized on 2026-10-07 from recorded decisions; vacancies and employer statuses
 
 Dates are mirrored in each record's `next_action_on`. Ranking: fit strength, posting freshness, effort, then dependencies.
 
-1. **Tue 20 Oct, unblock:** follow-ups (CloudTalk, RemoFirst, WhiteTech; Enginy interview booked Mon 26 Oct); warm asks (Lucia for Factorial, Murphy founder; Perk ask sent to Tanna 2026-10-19, Xavi left Perk); agency questions (Mauro at Babel, Menna at Senovo: client and rate); Wizeline availability sent, awaiting invite; export the base CV PDF.
+1. **Tue 20 Oct, unblock:** follow-ups (CloudTalk, WhiteTech; RemoFirst DM sent 22 Oct; Enginy interview booked Mon 26 Oct); warm asks (Lucia for Factorial, Murphy founder; Perk ask sent to Tanna 2026-10-19, Xavi left Perk); agency questions (Mauro at Babel, Menna at Senovo: client and rate); Wizeline availability sent, awaiting invite; export the base CV PDF.
 2. **Tailored, about two a day:** Perk (applied 2026-10-21) → Markin (23) → Stripe Global (24) → Rover (24). LearnWise, Hostinger, Flodesk and OLX Otodom were pulled forward and sent 2026-10-19.
 3. **Light, week of 27 Oct:** Blacklane, Punto Health, iLovePDF (27) → Glovo Order Tracking, Preply CRM, SlashMobility (28) → Babel Retail Media once the client is known.
 4. **Minimal, base CV:** Extia, Pasiona (29), after the client-name check; Senovo only if the rate works. One agency per client.
@@ -69,7 +69,7 @@ Resolve the stated next step before investing further. A Proceed assessment can 
 - [WhiteTech, Senior Product Designer](records/whitetech-senior-product-designer.md): direct Greenhouse application confirmed submitted on 2026-10-02; awaiting an employer response. Exact submitted files, salary and other form answers, PDF QA, and receipt details remain unconfirmed. Skip the duplicate Jobgether route.
 - [CloudTalk, Senior Product Designer](records/cloudtalk-senior-product-designer.md): direct Workable application confirmed submitted on 2026-10-02 with EUR 65,000 gross annual stated; awaiting an employer response. Exact submitted files, cooperation answer, portfolio version, PDF QA, and receipt details remain unconfirmed.
 - [PromoFarma / DocMorris, Product Designer (E-commerce)](records/promofarma-product-designer-ecommerce.md): applied 2026-10-16 on the Head of Product's recommendation; EUR 38,000 stated; Workday acknowledgment received; HoP notified and passed it to the right person. Nudge Talent Acquisition on 2026-10-30 if nothing arrives.
-- [RemoFirst, Senior Product Designer](records/remofirst-senior-product-designer.md): applied 2026-09-03; no response. Posting still live (same job, new Workable URL). One follow-up due now.
+- [RemoFirst, Senior Product Designer](records/remofirst-senior-product-designer.md): applied 2026-09-03; no response. LinkedIn DM to Patricia Pérez (recruiter) sent 2026-10-22. Mark stale if no reply by 29 Oct.
 - [Bunge, Senior User Experience Designer](records/bunge-senior-user-experience-designer.md): candidate portal confirmed on 2026-09-22 that the profile is still being considered; no direct employer response received.
 
 ## On hold
