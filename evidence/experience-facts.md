@@ -47,6 +47,12 @@ This is the evidence register, not finished application copy. Each material clai
 - **Verified:** 2026-10-14.
 - **External-use boundary:** Minor supporting detail. The useful claim is hands-on experience with cryptocurrencies as a user (exchange and self-custodial wallets). It is not trading expertise or crypto product-design experience.
 
+- **Claim:** Manel has been an active crypto user since 2021. He has tried several hot and cold wallets and buy/sell flows, and found setting up a new seed phrase and choosing a network painful as a user.
+- **Class:** Confirmed direct user statement.
+- **Source:** Manel's own Tether application answer, written by him and shared for review on 2026-10-21.
+- **Verified:** 2026-10-21.
+- **External-use boundary:** User experience only. Supports first-hand familiarity with wallet onboarding and network-selection friction. It does not establish professional crypto product-design experience or deep technical knowledge of custody or networks.
+
 ## Product and Engineering collaboration
 
 - **Claim:** Manel involves Product and Engineering at the beginning of projects, before designing, to understand project details and technical constraints. He keeps them involved throughout design to check direction and identify issues that could make implementation difficult.
@@ -100,6 +106,16 @@ This is the evidence register, not finished application copy. Each material clai
 - **Verified:** 2026-10-11.
 - **Artifact corroboration:** Read-only Kymco code inspection shows product, cart, multi-step checkout, dealer/delivery, payment/financing, reservation, account and operational-admin artifacts. FUNK3D live site credits Kings of Mambo.
 - **External-use boundary:** Launch and real orders are user-confirmed, not inferred from code. Do not attribute every backend module to Manel; specifically confirmed admin work concerns page-content blocks. Apply WP/ACF to WordPress work, not Shopify. Broad implementation ownership does not prove sole backend/payment engineering. Exact dates, research and measured outcomes remain unknown. Financing template includes temporarily-disabled options. Do not infer conversion improvements, analytics practice, current-site authorship or multi-market localization.
+
+### Engineering workflow on studio builds
+
+- **Claim:** On the Kings of Mambo websites he coded, Manel worked as the engineer on his builds: he wrote his own code, pushed it to the Git remote (GitHub per Manel; Kymco's remote was Bitbucket) and deployed it himself.
+- **Class:** Confirmed direct user statement.
+- **Source:** Manel, 2026-10-22, correcting an Enginy screen-prep note that said the register did not support production-code ownership.
+- **Verified:** 2026-10-22.
+- **Stack (confirmed by Manel 2026-10-22):** HTML, CSS, JavaScript, jQuery, PHP and WordPress, across the whole Kings of Mambo period. No modern (2021-era) JavaScript frameworks.
+- **Kymco repo inspection (read-only, `~/Dev/kymco`, 2026-10-22):** October CMS v1.0.432 on Laravel 5.5 (PHP 7); Twig theme, Sass, jQuery 3.5.1, Grunt build (Sass, concat, uglify, jshint, PurgeCSS, BrowserSync). Remote on Bitbucket (`kingsofmambo`), not GitHub, for this project. Manel authored about 1,690 of about 1,990 commits (as "Manel Leiva" and "Manel"), 2019-07-03 to 2021-10-19, concentrated in the theme (`themes/kymco`), front-end sources (`kom-dev/sass`, `kom-dev/js`) and the shop plugin's `pageblocks`, models, controllers and lang files. The other main committer (fjgarces, about 290 commits) worked mainly on `plugins/kymco/shop`, `apiauth`, `extrapackages` and API docs.
+- **External-use boundary:** Claimable: shipped and deployed production front-end code on studio commerce and content sites in HTML/CSS/JS, jQuery, PHP, WordPress, Shopify themes and October CMS (Laravel); on Kymco, front-end owner plus page-block CMS work in PHP, with the bulk of the repo's commits. Do not claim React, TypeScript or modern JS frameworks from this period. Do not claim back-end, API or payment engineering on Kymco (another developer's area). Commit counts are from git history and include small commits; use "most of the commits" rather than a number externally. Deployment (Manel, 2026-10-22, recollection): manual FTP at first, later automated; the tool is not remembered (possibly a CLI script or a deploy app). The Kymco repo has no deploy config, pipeline file or deploy-related commit messages, so the method is not recoverable from it. Externally say "deployed my own work, first by FTP, later automated"; do not name a tool or CI. Code review (Manel, 2026-10-22): at Kings of Mambo, his code was reviewed only when needed, for large PRs or more complex changes; otherwise he shipped without review. At Remuner, his PRs were reviewed (see the Remuner front-end PR and token-pipeline entries). Externally: "reviewed for larger or complex changes" at the studio; do not imply a formal review process there. Whether other projects used GitHub or Bitbucket is not checked; say "Git" when unsure. This does not change the current-coding-level entry under Remuner.
 
 ### Product and workflow scope
 
@@ -271,7 +287,7 @@ This is the evidence register, not finished application copy. Each material clai
 - **Class:** Confirmed direct user statement.
 - **Source:** Manel's answer during the Ashby Staff Design Engineer assessment on 2026-10-19.
 - **Verified:** 2026-10-19.
-- **External-use boundary:** Do not present Manel as a design engineer or front-end engineer for roles with engineering interviews or production-code ownership. Studio-era theme and commerce front-end work (Kings of Mambo) and AI-assisted repository work stay claimable as described in their entries. Roles that list React or front-end skills as a nice-to-have for prototyping or handoff are unaffected.
+- **External-use boundary:** Do not present Manel as a design engineer or front-end engineer for roles with engineering interviews or production-code ownership. Studio-era production front-end work (Kings of Mambo: own code, pushed to GitHub, self-deployed, Kymco checkout took real orders) and AI-assisted repository work stay claimable as described in their entries; this entry limits claims about current independent React/TypeScript, not past shipping. Roles that list React or front-end skills as a nice-to-have for prototyping or handoff are unaffected.
 
 ### AI-assisted product prototyping
 

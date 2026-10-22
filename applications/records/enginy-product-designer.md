@@ -1,8 +1,8 @@
 ---
 company: Enginy
 role: Product Designer (job body: Senior Product Designer)
-status: applied
-status_verified_on: 2026-10-16
+status: interviewing
+status_verified_on: 2026-10-22
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-10-19
@@ -12,11 +12,11 @@ application_channel: direct
 warm_path: "No known personal connection; Jaume Puig, CTO and co-founder, publicly invited candidates to DM him about the role"
 portfolio_version: 2026-09-15
 applied_on: 2026-09-15
-last_contact_on: 2026-09-15
-outcome_stage: no-response
+last_contact_on: 2026-10-21
+outcome_stage: recruiter-screen
 rejection_reason_class: none
-next_action: Send one follow-up (posting still live, retitled Senior since application); set stale if no reply by 2026-11-03
-next_action_on: 2026-10-20
+next_action: Interview Mon 26 Oct 2026, 11:30-12:00 Madrid, Google Meet meet.google.com/njk-uojp-rkf, recruiter screen with Saul Villa (Manager, Talent Acquisition). Run /prep-interview enginy screen. Ask salary range, office cadence, level and who runs the design rounds
+next_action_on: 2026-10-23
 salary_stated: EUR 62,000 gross annual
 job_url: https://job-boards.eu.greenhouse.io/enginy/jobs/4968694101
 source: JD supplied by Manel; Greenhouse job API; Enginy website; public LinkedIn activity from Jaume Puig
@@ -78,6 +78,11 @@ Jaume Puig, Enginy's CTO and co-founder, publicly promoted the vacancy and asked
 - Cover letter: `cover-letters/roles/enginy-product-designer.md`
 - Application submission was confirmed by Manel on 2026-09-15.
 
+## Contacts
+
+- **Saul Villa**, Manager, Talent Acquisition at Enginy since Feb 2026 (previously ~4 years recruiting at N26, latterly Executive Talent Partner). Runs the 26 Oct screen. 23 mutual LinkedIn connections, including a Sergi and a Sergio (not yet identified). Source: LinkedIn profile pasted by Manel, 2026-10-22.
+- **Diogo Rendeiro**, headline "creating magical tools that help sales reps win". About a month before 2026-10-22 he posted that he is hiring a maker-mindset designer at Enginy ("push PRs, not pixels", "Design Engineer / Product Builder", pods led by product engineers or product designers, "Onsite in sunny Barcelona", "Shipped a PR last week? DM me"). Saul reposted it. **Inference:** likely the hiring manager or design lead for this role; title not confirmed. No contact yet.
+
 ## Sources
 
 - **Confirmed:** JD copy supplied by Manel on 2026-09-15.
@@ -97,3 +102,9 @@ Jaume Puig, Enginy's CTO and co-founder, publicly promoted the vacancy and asked
 - 2026-10-16: Manel confirmed the LinkedIn message to Jaume Puig was sent on 2026-09-15. No reply. Posting still live on Greenhouse (checked 2026-10-16).
 - 2026-10-16: Greenhouse check: the applied-for posting 4968694101 is now titled "Senior Product Designer" (updated 2026-09-30). The only other Enginy opening, 4827698101, is Senior Product Manager (first published 2026-04-07), not a design role.
 - 2026-10-19: Manel flagged two open Enginy postings. Rechecked: 4968694101 is the Senior Product Designer role applied to (published 2026-09-14, still open); 4827698101 is Senior Product Manager (published 2026-04-07), not a design role. No second design opening. The follow-up policy's ~10-business-day nudge was never sent (only contact: LinkedIn message to Jaume Puig on 2026-09-15). Decision: one follow-up on 2026-10-20 instead of setting stale; stale if no reply by 2026-11-03.
+- 2026-10-21: Email from Saul Villa (saul.villa@enginy.ai), received 12:53, moving Manel to the next stage for the Senior Product Designer role and asking for 3-4 full-hour availability options over the next 7 working days via a scheduling link. Round type, interviewer and date not stated. Status changed to interviewing (process advanced; interview being scheduled). Whether the planned 2026-10-20 follow-up was sent is unconfirmed. Still open for the first human exchange: Enginy's salary range (EUR 62,000 already stated), normal office cadence (in-person label, 48 WFH days a year), and level calibration.
+- 2026-10-21: Manel submitted availability via the scheduling link (confirmation screenshot): Fri 23 Oct 10:00-12:00 and 14:00-16:00; Sun 25 Oct 9:30-13:00 and 14:00-16:00; Mon 26 Oct and Tue 27 Oct 9:30-13:00 and 14:00-16:00. Time zone not shown on the confirmation (assumed Madrid). No additional notes. Fri 23 Oct slots sit around the Wizeline screen (12:30-13:00).
+- 2026-10-21: Manel edited the availability to remove Sunday 25 Oct (non-working day). Final slots (confirmation screenshot): Fri 23 Oct, Mon 26, Tue 27 and Wed 28 Oct, each 9:30-13:00 and 14:00-16:00 (Fri 23: 10:00-12:00 and 14:00-16:00).
+- 2026-10-22: Confirmation email from Saul Villa (sent 2026-10-21 14:35): interview booked Mon 26 Oct 2026, 11:30-12:00 (GMT+01:00 Madrid), Google Meet meet.google.com/njk-uojp-rkf, interviewer Saul Villa. Slot is 30 minutes, although the request asked for full-hour availability. Round type not stated; Saul Villa's role at Enginy not stated. outcome_stage left at cv-review until the round type is known.
+- 2026-10-22: Manel supplied Saul Villa's LinkedIn profile: Manager, Talent Acquisition at Enginy (Feb 2026 to present). Round read as a recruiter screen (TA interviewer, 30-minute slot); outcome_stage set to recruiter-screen. Saul's activity includes a repost of Diogo Rendeiro's design hiring post (onsite Barcelona, PR-shipping designers); Diogo recorded as the likely hiring manager (inference). The post's "Onsite" wording adds to the office-cadence question.
+- 2026-10-22: Correction. The screen-prep note saying the evidence register does not support production-code ownership was wrong: Kings of Mambo front-end implementation (FUNK3D, Somia, Kymco; Kymco checkout took real orders) is confirmed. Manel added that he wrote his own code, pushed to GitHub and deployed it himself (now in `evidence/experience-facts.md`). The fit assessment's "Maker bar" risk is narrower: past production shipping is evidenced; the gaps are recency (studio era) and current React/TypeScript without AI help.
