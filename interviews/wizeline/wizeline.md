@@ -74,7 +74,7 @@ Source: auto-transcript of the call pasted by Manel (names and places garbled in
 
 **Salary**
 - David asked for expectations first. Manel said "around 50-55" and asked for their range in the same answer (the script said one number, about 50K).
-- Range given: Level 4 (Senior) entry point EUR 49K gross (heard as "49,49" in the transcript; exact figure to confirm). No negotiation: two months ago there was room, not now, because clients are cutting costs and there are many candidates.
+- Range given: Level 4 (Senior) entry point EUR 49K gross (David said it twice; confirmed by Manel). No negotiation: two months ago there was room, not now, because clients are cutting costs and there are many candidates.
 - Benefits: EUR 100/month hybrid-work allowance ("puts you over 50"), EUR 220/month food and transport on a non-taxable meal card, full medical insurance, a home-office budget, certification support, performance reviews every six months, defined career paths, training culture (formerly Wizeline Academy), internal AI projects.
 - Manel said it is aligned with what he is looking for.
 

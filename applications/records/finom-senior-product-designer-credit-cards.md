@@ -1,21 +1,21 @@
 ---
 company: Finom
 role: Senior Product Designer — Credit & Cards
-status: applied
-status_verified_on: 2026-10-13
+status: rejected
+status_verified_on: 2026-10-23
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-10-13
 fit_decision: proceed
 role_lane: product
-application_channel: unknown
+application_channel: direct # Lever; rejection came from hire.eu.lever.co
 warm_path: unknown
 portfolio_version:
 applied_on: 2026-10-13
-last_contact_on:
-outcome_stage: no-response
-rejection_reason_class: none
-next_action: Await employer response; clarify mobile expectations, compensation and assignment scope if invited to proceed
+last_contact_on: 2026-10-23
+outcome_stage: application-screen
+rejection_reason_class: generic
+next_action: None. Closed.
 next_action_on:
 salary_stated: Submitted value unconfirmed; EUR 65,000 gross annual, negotiable, recommended in chat before submission; employer range unknown
 job_url: https://jobs.eu.lever.co/pnlfin/08d589e7-dcc5-4eea-8145-99e01c621c91
@@ -73,3 +73,4 @@ Finom publishes no salary range, while the application requires a gross annual E
 - 2026-10-13: Prepared tailored CV and cover letter as two Markdown sources at Manel's request. Direct portfolio links checked. No PDFs generated, form answers entered, outreach sent or application submitted.
 - 2026-10-13: Manel confirmed Spanish citizenship while completing the form. Prepared work-authorization wording and recommended EUR 65,000 gross annual, negotiable. These are suggested answers, not independently confirmed submitted values.
 - 2026-10-13: Manel confirmed applying. Status changed to applied; awaiting employer response. Submitted files, exact form answers, route, portfolio version, PDF QA and receipt remain unconfirmed.
+- 2026-10-23: Rejected by Lever template email from the Finom Recruitment Team at the application-screen stage, ten days after applying. Generic reason (high volume of strong applications, "specific to this role and current timing"); no feedback. Inference, not confirmed: the native-mobile requirement, answered No in the screening question, was the likely filter. Source: email pasted by Manel.

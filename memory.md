@@ -91,6 +91,8 @@ The drills in `interviews/drills/` practise the first rule. Their six lines don'
 
 ## Strategic observations
 
+**2026-10-23** — Finom Credit & Cards rejected at the application screen ten days after applying, by Lever template. The role was skipped twice (22 Sep, 2 Oct) on its explicit native-mobile requirement, then sent on 13 Oct under the income-first priority with the screening question answered No. Inference, not confirmed: the knock-out question did the filtering. Rule: when a form asks a hard requirement as a yes/no screening question and the honest answer is No, treat the application as a low-odds lottery ticket. Send it only if it costs under an hour, and don't count it as pipeline.
+
 **2026-06-08** — Warm referrals are higher leverage than cold applications. When assessing a new role, always check whether a warm path exists before defaulting to a cold apply.
 
 **2026-07-02** — Factorial process origin, corrected by Manel: the recruiter reached out off the cold application before Liliana's referral ping had any effect. The only screen in the pipeline so far came from a cold application. Do not cite Factorial as warm-path evidence. Note the pattern instead: the one conversion was a Barcelona-local company positioned as founding-designer breadth; the fast form rejections were global-remote DS-titled roles with the largest applicant pools.
