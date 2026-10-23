@@ -12,6 +12,8 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 ## This week
 
+- [ ] **Wizeline UX interview, Fri 30 Oct 17:00: build the deck and canvas by Tue 27 Oct.** Brief done: `interviews/wizeline/wizeline.md`, Round 2. To do: cut `interviews/decks/case-deck-design-systems-remuner.md` to seven slides, adding the WCAG AA palette slide; build the FigJam whiteboard canvas and test screen-sharing it in Meet. Manel to supply: one feature that shipped faster because a component existed; a palette before/after or contrast visual from Figma; confirmation on LinkedIn that both interviewers work at Wizeline. The palette visual also unblocks the Remuner case additions below.
+
 - [ ] **Remuner DS case additions: approve and apply.** Drafts in `context/remuner-case-additions-2026-10-20.md` (palette HSL normalisation and WCAG AA, own front-end PRs, Figma MCP with Storybook views, stack row). Manel to approve the wording and say whether a palette visual exists; then edit the case in `portfolio/`, commit there, update the pointer, and ask before pushing.
 
 - [ ] **Abacum front-end PRs: details for the Abax case.** Recorded as a plain fact 2026-10-20. Ask Manel: part of the MUI-to-Abax migration or general cleanup; roughly how many; reviewed and merged by engineers; any AI tools. Then decide whether it goes into "Making adoption stick" in `portfolio/public/cases/design-systems.html`.
