@@ -44,9 +44,9 @@ Design systems mapping (`context/positioning.md`): **Abacum system (Story B)** f
 
 Ask the salary range first (script). Then pick from:
 
-1. **Account and contract:** Is the role tied to the OPIS account, is it a Spanish employment contract with Wizeline, and what happens between assignments?
-2. **Team and remit:** Who would I work with on the design-system side, and who decides what the system prioritises? (`prep.md` DS questions, adapted.)
-3. **The other postings:** Is the Design Systems Designer (Index) posting the same team? Is Product Designer req 7406176 something I should be considered for too?
+1. **Client and contract:** "Is this role placed with one client, or does it move between projects? And would I be employed by Wizeline in Spain, or is it a freelance contract?" If he names a client, follow with: "What happens when that project ends?" Don't name OPIS yourself; it comes from Greenhouse metadata, not the JD.
+2. **Team:** "Who would I work with day to day on the design system, and who decides what it works on next?" (`prep.md` DS questions, adapted.)
+3. **The other postings:** "I saw a Design Systems Designer role for Index on LinkedIn. Is that the same team as this one?" Then: "There's also a Product Designer opening in Barcelona. Could I be considered for that too?" (req 7406176)
 
 Also confirm the next steps and who runs them.
 
@@ -61,3 +61,36 @@ Also confirm the next steps and who runs them.
 ### After the call
 
 Run `/debrief-interview wizeline screen`. Log the range, what you stated, contract type and office cadence in the record.
+
+### Debrief (2026-10-23)
+
+Source: auto-transcript of the call pasted by Manel (names and places garbled in places; corrected where obvious).
+
+**Role and client**
+- Client: a US media and publishing multinational ("probably one of the biggest in the world"), office in Poblenou. Wizeline says it is close to an exclusive partner covering most of the client's tech team and has hired close to 100 people for it, with growth expected over the next four years. Consistent with the `OPIS Barcelona` Greenhouse tag (inference, not confirmed).
+- Hybrid: 2-3 days a week at the client's office, depending on the project. Manel accepted.
+- Contract: permanent position with Wizeline, not tied to the client. If the project ends, people stay on the bench until a new project; one Wizeline senior designer has been on the bench for seven months and will be in this process. Clients sometimes hire Wizeline's best designers directly (unofficial).
+- Team: the client is hiring a large number of product designers for design systems work. Teams also include Wizeline designers in Mexico. Manager and day-to-day: David deferred to the design team interview.
+
+**Salary**
+- David asked for expectations first. Manel said "around 50-55" and asked for their range in the same answer (the script said one number, about 50K).
+- Range given: Level 4 (Senior) entry point EUR 49K gross (heard as "49,49" in the transcript; exact figure to confirm). No negotiation: two months ago there was room, not now, because clients are cutting costs and there are many candidates.
+- Benefits: EUR 100/month hybrid-work allowance ("puts you over 50"), EUR 220/month food and transport on a non-taxable meal card, full medical insurance, a home-office budget, certification support, performance reviews every six months, defined career paths, training culture (formerly Wizeline Academy), internal AI projects.
+- Manel said it is aligned with what he is looking for.
+
+**Process**
+1. Written questions (three DS scenarios), pasted in chat, answer by email in 15-30 minutes, no AI ("they will detect and reject"). Sent 2026-10-23: `application-answers/wizeline-screen-written-questions-2026-10-23.md`.
+2. Technical interview with Wizeline: present one previous project. Likely with the senior designer on the bench. Confirms level 4 and leads to a potential offer.
+3. Client meeting.
+- Blocker: most senior design roles at the client are on hold. The client postponed all interviews on 22 Oct, probably an internal restructuring of headcount and projects. Could take a couple of weeks. Wizeline offered to run its own technical interview meanwhile.
+- David shares the answers and portfolio (linked from the CV) with the team; feedback expected between today and Mon 26 Oct.
+- Asked about long trips planned: none.
+
+**Questions Manel asked:** one client only or others (answered above); Wizeline's or the client's design team (client's); who the manager would be (deferred). Not raised: the Index Design Systems Designer posting, Product Designer req 7406176.
+
+**What Manel said that later rounds must stay consistent with** (check against `evidence/experience-facts.md` before the technical interview):
+- 15+ years in design; design systems for about 6-8 years, starting in the Sketch era.
+- Leaving Remuner: design didn't have much influence on product; not a good fit, parted ways. Left in March, took time off.
+- "Owner or lead of the design system" at both Abacum and Remuner, "working from the ground up... tokens, then components, governance, documentation". The register supports this for Remuner. For Abacum it says co-led with the head of design, and "worked on, not built" the pipeline.
+- Uses agents to produce DS artifacts and documentation and "can push code to production" for developers. Also said he can push code to production "to test and see if we can move the metric". The register supports engineer-reviewed PRs at Remuner and Abacum, not shipping experiments against a metric.
+- Remuner token repo owner: Figma variables translated and exported to design tokens and pushed to the main repository. Supported.

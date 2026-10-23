@@ -2,7 +2,7 @@
 company: Wizeline
 role: Senior Product Designer - Barcelona Hybrid
 status: interviewing
-status_verified_on: 2026-10-21
+status_verified_on: 2026-10-23
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-10-19
@@ -12,12 +12,12 @@ application_channel: direct
 warm_path: unknown
 portfolio_version: 2026-09-23
 applied_on: 2026-10-19
-last_contact_on: 2026-10-20
-outcome_stage: recruiter-screen # invite titled "Phone-screen", organizer David Ho (recruiter)
+last_contact_on: 2026-10-23
+outcome_stage: recruiter-screen-done # screen 23 Oct with David Ho; written DS questions sent same day; next round is a Wizeline technical interview (present a past project)
 rejection_reason_class: none
-next_action: Phone screen Fri 23 Oct 2026, 12:30-13:00 Madrid, Google Meet meet.google.com/rsi-tnqz-zhv, organizer David Ho. Brief: interviews/wizeline/wizeline.md. In the call ask the salary range FIRST (script interviews/wizeline/salary-script.md), then hybrid cadence, team mandate, OPIS account continuity; ask whether the Design Systems Designer (Index) posting is the same team; raise Product Designer req 7406176
-next_action_on: 2026-10-23
-salary_stated: Not asked on the form; none stated
+next_action: Await David Ho's feedback on the screen and written answers (expected 23-26 Oct). If none by Tue 27 Oct, nudge by email. If invited to the technical interview, run /prep-interview wizeline case (present one previous project; Abacum or Remuner DS case) and check the live-claim consistency list in interviews/wizeline/wizeline.md. Client hiring is on hold (interviews postponed 22 Oct).
+next_action_on: 2026-10-27
+salary_stated: 2026-10-23 recruiter screen, asked first: "around 50-55" (EUR K gross annual), with a request for their range. Wizeline stated Level 4 (Senior) entry EUR 49K gross, no negotiation, plus EUR 100/month hybrid allowance and EUR 220/month meal card
 job_url: https://www.wizeline.ai/careers/job/?gh_jid=7384390
 source: Official Wizeline Greenhouse job record and application fields checked 2026-09-23; live portfolio cases; Career OS evidence register
 ---
@@ -93,3 +93,4 @@ The official Greenhouse application is open. Required candidate fields are CV, L
 - 2026-10-20: Salary plan for the recruiter call set: ask the range first; if pushed, around EUR 50K gross annual; Manel's private floor EUR 40K for full-time employment. Script: `interviews/wizeline/salary-script.md`.
 - 2026-10-20 (received; logged 2026-10-21): David Ho sent the Greenhouse calendar invite: "Manel Leiva, Senior Product Designer - Barcelona Hybrid - Phone-screen", Fri 23 Oct 2026, 12:30-13:00 Madrid, Google Meet meet.google.com/rsi-tnqz-zhv (phone +34 822 11 27 85, PIN 962929857). Guests: David Ho and Manel only, so a recruiter screen. Next action: prep on 22 Oct. Source: invite pasted by Manel.
 - 2026-10-22: Screen brief prepared: `interviews/wizeline/wizeline.md` (lead Abacum then Remuner systems; WCAG answer limited to the Remuner palette AA work; multi-brand flagged as a gap; Kings of Mambo client work and production front-end as consultancy and design-to-code proof).
+- 2026-10-23: Recruiter screen with David Ho held. Client: US media and publishing multinational, Poblenou office, hybrid 2-3 days at the client. Permanent Wizeline contract; bench between projects. Salary: Manel said "around 50-55"; Wizeline's Level 4 entry is EUR 49K gross, non-negotiable, plus EUR 100/month hybrid and EUR 220/month meal card, medical insurance and other benefits. Process: written questions, Wizeline technical interview (present a past project), client meeting. Client senior design hiring is on hold (interviews postponed 22 Oct, restructuring); Wizeline can run its technical interview meanwhile. Three written DS questions answered without AI and emailed the same day: `application-answers/wizeline-screen-written-questions-2026-10-23.md`. Feedback expected by Mon 26 Oct. Debrief: `interviews/wizeline/wizeline.md`. Index posting and req 7406176 not raised.

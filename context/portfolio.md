@@ -1,7 +1,7 @@
 # Portfolio Context
 
 Portfolio live at: manel-leiva.com
-Stack: Next.js, Vercel (Hobby tier). Fully public, no password (confirmed 2026-06-12).
+Stack: plain HTML and CSS served from `public/` on Vercel (Hobby tier), no build step or framework. Fully public, no password (confirmed 2026-06-12). Technical conventions (sidebar copied in every case file, branches, deploy) live in the portfolio repo's `CLAUDE.md`.
 Portfolio repo is linked as a git submodule at `../portfolio/` relative to this file.
 
 To update case study copy: edit files in the `portfolio/` submodule, commit there first, then update the submodule pointer in this repo.
@@ -71,11 +71,11 @@ Internal reference (names never appear in live copy): Maria, Eduardo, Guillermo,
 ---
 
 ### 3. Design Systems (Abacum + Remuner)
-URL: /cases/design-systems
-Status: Complete and live
-Title: From scattered components to a production design system
+Status: Complete and live, as two separate case pages:
+- Abacum: URL /cases/design-systems, title "A production design system"
+- Remuner: URL /cases/design-system-remuner, title "Design system from scratch"
 
-Summary: Promoted, built buy-in for, and implemented production-ready design systems at two companies alongside regular product work.
+Summary: Promoted, built buy-in for, and implemented production-ready design systems at two companies alongside regular product work. The notes below cover both companies; each subsection maps to its own page.
 
 #### Abacum (Abax)
 

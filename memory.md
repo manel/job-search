@@ -12,6 +12,10 @@ Cleaned 2026-10-14 during the career-os merge: entries now covered by the eviden
 
 **2026-10-16** — Kabilio rejected after the first interview: another candidate was already in final stages, remaining interviews were paused, and Manel's profile never reached the hiring manager. Same shape as Valeria HR (filled by a candidate "already far along") and close to Tabby (filled). Applied 2026-10-01, screened 2026-10-05, roughly when the leading candidate was closing. For small Barcelona companies, a late entry loses to timing, not to the package. Rule: when a recruiter screen goes well, ask where the process stands and how many candidates are ahead, and treat "slower than expected due to candidate volume" (Kabilio, 2026-10-08) as an early warning that someone else is ahead.
 
+**2026-10-23** — Wizeline (IT consultancy) ended the recruiter screen with three written design-systems scenario questions pasted in chat: custom UI vs. the system under a deadline, unifying two forked data-table components, and craft vs. WCAG vs. front-end APIs. Answers were due by email within 15-30 minutes, written without AI; the recruiter said AI answers get detected and rejected. Expect timed, no-AI written scenarios from agencies and consultancies screening DS roles. The answers are written process judgment, so have the Remuner audit loop, the Abax rollout mechanics (feature flags, squad-owned migration, usage scripts) and the Remuner palette story ready to write from memory.
+
+**2026-10-23** — Wizeline's recruiter said salary negotiation room disappeared about two months earlier: clients are cutting costs and many candidates are available, so every Level 4 (Senior) hire gets the same entry figure (EUR 49K). Treat consultancy offers in Barcelona as fixed bands for now; the room to move is in the level, not the number.
+
 **2026-06-08** — Bitpanda Design Systems role rejected. Bitpanda Advanced Trading role is a separate application, do not conflate the two.
 
 **2026-06-08** — Factorial uses a proprietary ATS at careers.factorialhr.com. Automated job scanning is unreliable. Always check manually.

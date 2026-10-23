@@ -1,14 +1,18 @@
 ---
 company: RemoFirst
 role: Senior Product Designer
-status: applied
-status_verified_on: 2026-09-14
+status: rejected
+status_verified_on: 2026-10-23
 status_confidence: confirmed
 fit_decision: proceed
 applied_on: 2026-09-03
-last_contact_on: 2026-10-22
-next_action: Check email for Patricia Pérez's portfolio feedback (promised by 2026-10-23); if none, one light LinkedIn nudge
-next_action_on: 2026-10-26
+last_contact_on: 2026-10-23
+application_channel: direct
+warm_path: none
+outcome_stage: cv-review
+rejection_reason_class: generic
+next_action: If Patricia replies with a specific gap, record it here and in memory.md; no chase if she doesn't
+next_action_on: 2026-10-30
 salary_stated: USD 5,900 gross per month
 job_url: https://remofirst.workable.com/jobs/5998962
 posting_status: open
@@ -20,11 +24,9 @@ source: Workable submission confirmation supplied by Manel
 
 ## Current state
 
-Application submission is confirmed. Patricia Pérez replied to the LinkedIn DM on 2026-10-22: the portfolio is under manual review and she will send feedback by email by 2026-10-23. She knows Remuner and RemoFirst uses it internally.
+Rejected 2026-10-23 by email from Patricia Pérez after a manual portfolio review: "moving forward with other candidates whose experience more closely matches what we need for this particular role." No specific feedback. She offered to keep Manel's details on file for future openings unless he asks for removal.
 
-"Feedback" is ambiguous: it may be next steps or a decline. Do not read it as a positive signal until the email arrives.
-
-Interview angle if it advances: RemoFirst is a Remuner customer, so the Remuner work is a product their own team uses. Lead with it, scoped as sole designer (see `evidence/experience-facts.md`).
+The Remuner overlap (RemoFirst uses it internally) did not carry the screen. The decline names no gap, so it is not evidence about the portfolio either way.
 
 ## Submitted information
 
@@ -51,3 +53,5 @@ The submission confirmation shows the resume but does not show a cover letter. A
 - 2026-10-16: Posting check: the recorded Workable URL redirects to https://apply.workable.com/remofirst/j/E10F168CEB, still listed on RemoFirst's Workable board. Posting live.
 - 2026-10-22: Follow-up sent as a LinkedIn DM to Patricia Pérez (Global Talent Partner, 1st-degree connection), who posted the role on LinkedIn about a month earlier. Message: applied via Workable on 3 Sep, asked whether the application reached her and is still under consideration; fit line on Remuner (sole designer, sales-compensation platform: plan calculations, payouts, approval workflows, permissions, AI agent, design system); portfolio link. Posting still live on Workable (https://apply.workable.com/remofirst/j/E10F168CEB/).
 - 2026-10-22 11:28: Patricia replied on LinkedIn. Portfolios are reviewed carefully and without AI, apologised for the delay. She knows Remuner and RemoFirst uses it internally. Will give feedback by email by tomorrow (2026-10-23).
+- 2026-10-23 12:42: Rejection email from Patricia Pérez (Senior Product Designer - RemoFirst). Portfolio reviewed; moving forward with candidates whose experience more closely matches the role. Generic reason, no specific feedback. Offers to keep details on file for future openings unless Manel asks for removal. Source: email supplied by Manel.
+- 2026-10-23: Reply sent to Patricia in the email thread: consented to keeping details on file, asked what experience the role needed that the portfolio didn't show. Text: `outreach/remofirst-patricia-post-rejection-2026-10-23.md`. Sent, confirmed by Manel.

@@ -110,7 +110,13 @@ Rehearse the primary answer out loud until it sounds like a fact, not a wound. T
 
 ### Who I am
 
-I'm an analytical person with high standards, and I try to hold myself and my team to those standards. I point things out when they're not working, back it up with data, and push back on decisions when the evidence says something different. I'd rather have that conversation early than let a problem compound. I'm also calm by default. Complex problems focus me, and I'm genuinely passionate about technology, both professionally and personally. I enjoy experimenting with new tools and ideas, especially in areas like AI, electronics, networking, 3D printing, infrastructure, and self-hosting.
+I’m a Senior Product Designer based in Barcelona.
+
+I co-founded Kings of Mambo, a UX studio that I ran for eleven years. I worked across research, interaction and visual design, prototyping, and delivery for clients in several industries.
+
+At Abacum, I worked on data integrations and later financial modeling. One of my main projects was Dataset Manager, where I led design and customer testing to help finance teams configure their data more independently.
+
+Most recently, I was the sole designer at Remuner, a sales-compensation platform. My scope covered data configuration, compensation plans, rep and manager experiences, approvals, and permissions. I also designed its conversational AI agent and built the design system.
 
 ### Work and history
 

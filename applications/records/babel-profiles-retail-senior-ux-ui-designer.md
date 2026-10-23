@@ -1,8 +1,8 @@
 ---
 company: Babel Profiles (agency) for an unnamed European consumer electronics retailer
 role: Senior UX/UI Designer (Retail Media)
-status: applied
-status_verified_on: 2026-10-20
+status: rejected
+status_verified_on: 2026-10-22
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-10-20
@@ -12,11 +12,11 @@ application_channel: recruiter
 warm_path: none recorded; Babel recruiter named on the posting (Mauro Parteli, mauro@babelprofiles.com); Hays poster Pablo Hermelo is a 2nd-degree LinkedIn connection
 portfolio_version:
 applied_on: 2026-10-20
-last_contact_on:
-outcome_stage: no-response
-rejection_reason_class: none
-next_action: Email Mauro Parteli today: applied via the form, one evidence line, ask the client name. Do not apply via Hays or Babel's LinkedIn Easy Apply. Then nudge Mauro if silent (10 business days); stale 2026-11-24
-next_action_on: 2026-10-20
+last_contact_on: 2026-10-22
+outcome_stage: cv-review
+rejection_reason_class: generic
+next_action: None. Closed by Babel. Do not apply to the same role via Hays. CV stays in Babel's database; consider Babel for future B2B roles.
+next_action_on:
 salary_stated: EUR 56,000-60,000 gross annual (form min/max), 2026-10-20. Published range EUR 50-60K (Babel LinkedIn post, seen 2026-10-20)
 job_url: https://babelprofiles.com/current-vacancies/senior-ux-ui-designer-retail-with-english/
 source: Babel Profiles agency posting, fetched 2026-10-19; found by Manel on LinkedIn
@@ -67,6 +67,7 @@ None at Babel Profiles or an identifiable client in `applications/records/` or t
 
 - 2026-10-20: Babel's own LinkedIn post found (title "Senior UX/UI Designer (Retail)", reposted, over 100 applicants, Easy Apply, published range EUR 50-60K, hybrid). Same role and client description. Babel vacancy page rechecked: recruiter Mauro Parteli (mauro@babelprofiles.com, +34 931 222 232); official route is the "Apply now" Recruitly form.
 - 2026-10-20: Manel applied via Babel's Recruitly form with the base CV (`cv-pdf-to-send/Base/`). Languages: English Full Professional, Spanish and Catalan Native Level. Salary EUR 56,000-60,000 (inside the published band, below the earlier 60K comparator under income-first). Not applied via Hays or LinkedIn Easy Apply.
+- 2026-10-22: Rejected by template email from info@babelprofiles.com (15:31), two days after applying: "a lot of qualified applications", not proceeding; CV kept in their database for future roles. No candidate-specific feedback; client still undisclosed. Email to Mauro (`outreach/babel-mauro-parteli-2026-10-20.md`) not confirmed sent; now moot. Source: email supplied by Manel.
 
 ## Second channel: Hays
 

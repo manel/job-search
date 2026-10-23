@@ -16,7 +16,7 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 - [ ] **Abacum front-end PRs: details for the Abax case.** Recorded as a plain fact 2026-10-20. Ask Manel: part of the MUI-to-Abax migration or general cleanup; roughly how many; reviewed and merged by engineers; any AI tools. Then decide whether it goes into "Making adoption stick" in `portfolio/public/cases/design-systems.html`.
 
-- [ ] **Send the Babel email to Mauro** (`outreach/babel-mauro-parteli-2026-10-20.md`), then log it in the record. Still open today: Senovo questions to Menna, and the overdue follow-ups (`/follow-up`).
+- [ ] **Senovo questions to Menna** and the overdue follow-ups (`/follow-up`). Babel email to Mauro dropped: Babel rejected 2026-10-22.
 
 - [ ] **Portfolio PDF text.** The Flodesk portfolio PDF has no extractable email (underlined links, see memory.md 2026-10-20). The planned portfolio PDF (Portfolio section below) must carry contact details as real text: no underlined text, then run the PDF check.
 
