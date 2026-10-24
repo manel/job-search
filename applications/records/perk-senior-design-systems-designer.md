@@ -9,13 +9,13 @@ posting_checked_on: 2026-10-19
 fit_decision: proceed
 role_lane: design-systems
 application_channel: direct
-warm_path: Tanna Schumacher, Product Designer at Perk; Manel's former student (LABASAD Sketch course, around 2018), 1st-degree LinkedIn connection; no reply to the 2026-10-19 ask; named as the connection on the form. Tim Archer, Senior Content Design Manager at Perk, 2nd-degree, posted the role on LinkedIn 2026-10-20. Xavi Francisco left Perk around 2026-09-28
+warm_path: Tanna Schumacher, Product Designer at Perk; Manel's former student (LABASAD Sketch course, around 2018), 1st-degree LinkedIn connection; replied 2026-10-23 (refers only if not yet applied); told of the 21 Oct application and sent the CV 2026-10-24; named as the connection on the form. Tim Archer, Senior Content Design Manager at Perk, 2nd-degree, posted the role on LinkedIn 2026-10-20. Xavi Francisco left Perk around 2026-09-28
 portfolio_version: Design Systems case (manel-leiva.com/cases/design-systems)
 applied_on: 2026-10-21
-last_contact_on: 2026-10-21
+last_contact_on: 2026-10-24
 outcome_stage: applied
 rejection_reason_class: none
-next_action: Watch for a reply to the comment on Tim Archer's post. If he replies, answer and then consider a connection request. If there's no employer response, nudge on 2026-11-04, LinkedIn 2026-11-11, stale 2026-11-25
+next_action: Watch for Tanna's answer (whether she can still flag the CV internally) and for a reply to the comment on Tim Archer's post. If he replies, answer and then consider a connection request. If there's no employer response, nudge on 2026-11-04, LinkedIn 2026-11-11, stale 2026-11-25
 next_action_on: 2026-11-04
 salary_stated: EUR 65,000 gross annual base (form field, 2026-10-21; no range published)
 job_url: https://jobs.ashbyhq.com/Perk/78dafbf1-0f6d-46b7-b71a-2c59f7af31cf
@@ -96,3 +96,6 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 - 2026-10-21: Tim Archer's LinkedIn post about the role found. Public comment and connection note drafted (`outreach/perk-tim-archer-2026-10-21.md`).
 - 2026-10-21: Ashby showed the success screen ("Our Talent Team is currently reviewing applications for this role"). No confirmation email received; the success screen is the submission evidence.
 - 2026-10-21: Comment posted on Tim's post, asking about the state of content tokens in Suitcase and mentioning the SimpleLocalize keys built into components. Connection request not sent (Manel's choice).
+- 2026-10-23: Tanna replied after her holiday: she can recommend Manel only if he has not applied yet; asked for email, phone, CV and confirmation he works in English.
+- 2026-10-24: Reply drafted (`outreach/perk-tanna-schumacher-2026-10-19.md`) disclosing the 21 Oct application and asking her to pass the CV to the hiring team. Not yet sent.
+- 2026-10-24: Reply sent to Tanna on LinkedIn with `cv-pdf-to-send/Perk (DS)/Manel Leiva CV 2026.pdf` attached (CV PDF re-checked: `check-pdf-text.py --source` OK). Asked her to pass it to the hiring team given the existing application.

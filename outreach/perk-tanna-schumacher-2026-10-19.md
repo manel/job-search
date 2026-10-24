@@ -19,3 +19,19 @@ En Abacum llevé el design system Abax junto al head of design, en cinco squads,
 Gracias de todas maneras.
 
 ¡Un saludo!
+
+---
+
+# 2026-10-23: Tanna replied (back from holiday): she can recommend Manel "solo si no has aplicado ya"; asked for email, phone, CV, and whether he can work in English.
+# 2026-10-24: Reply drafted. Discloses the 21 Oct direct application (she would find it in Ashby anyway) and asks her to pass the CV to the hiring team instead. Attach cv-pdf-to-send/Perk (DS)/Manel Leiva CV 2026.pdf (the version sent). SENT 2026-10-24 with that CV attached (text assumed as drafted; Manel did not report edits).
+
+¡Hola Tanna! Faltaría más, espero que hayas descansado.
+
+Como no sabía nada, apliqué directamente el 21 de octubre por Ashby y te puse como contacto en el formulario. Si eso ya no te deja recomendarme, lo entiendo. Si aun así puedes pasarle mi CV a quien lleve la contratación de Suitcase, me ayudarías mucho.
+
+Y sí, trabajo en inglés sin problema.
+
+maneleiva@gmail.com
++34 622 144 909
+
+Te adjunto el CV. ¡Gracias!
