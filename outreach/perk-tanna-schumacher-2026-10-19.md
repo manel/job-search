@@ -23,15 +23,19 @@ Gracias de todas maneras.
 ---
 
 # 2026-10-23: Tanna replied (back from holiday): she can recommend Manel "solo si no has aplicado ya"; asked for email, phone, CV, and whether he can work in English.
-# 2026-10-24: Reply drafted. Discloses the 21 Oct direct application (she would find it in Ashby anyway) and asks her to pass the CV to the hiring team instead. Attach cv-pdf-to-send/Perk (DS)/Manel Leiva CV 2026.pdf (the version sent). SENT 2026-10-24 with that CV attached (text assumed as drafted; Manel did not report edits).
+# 2026-10-24: Reply SENT on LinkedIn with cv-pdf-to-send/Perk (DS)/Manel Leiva CV 2026.pdf attached. Discloses the 21 Oct direct application and asks her to pass the CV to the hiring team. Text below is exactly what Manel sent (he rewrote the opener, dropped "por Ashby", added "pero sí").
 
-¡Hola Tanna! Faltaría más, espero que hayas descansado.
+¡Hola Tanna!
 
-Como no sabía nada, apliqué directamente el 21 de octubre por Ashby y te puse como contacto en el formulario. Si eso ya no te deja recomendarme, lo entiendo. Si aun así puedes pasarle mi CV a quien lleve la contratación de Suitcase, me ayudarías mucho.
+Espero que hayas tenido buenas vacaciones.
+
+Como no sabía nada, apliqué directamente el 21 de octubre, pero sí te puse como contacto en el formulario. Si eso ya no te deja recomendarme, lo entiendo. Si aun así puedes pasarle mi CV a quien lleve la contratación de Suitcase, me ayudarías mucho.
 
 Y sí, trabajo en inglés sin problema.
 
 maneleiva@gmail.com
 +34 622 144 909
 
-Te adjunto el CV. ¡Gracias!
+Te adjunto el CV.
+
+¡Muchas gracias!
