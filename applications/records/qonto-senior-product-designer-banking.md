@@ -4,8 +4,8 @@ role: Senior Product Designer, Banking (credit and investments)
 status: in-progress
 status_verified_on: 2026-10-23
 status_confidence: confirmed
-posting_status: open
-posting_checked_on: 2026-10-23
+posting_status: closed
+posting_checked_on: 2026-10-25
 fit_decision: proceed
 role_lane: product
 application_channel: direct
@@ -15,8 +15,8 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: DM Christina Chen (ask about the role and the freelance mission), then apply via Lever the same day with a tailored CV and a 2-3 project portfolio selection
-next_action_on: 2026-10-24
+next_action: DM Christina Chen asking whether the Senior role or the freelance mission is still open (revised draft in outreach/qonto-christina-chen-2026-10-24.md); apply only where she points, using the prepared files
+next_action_on: 2026-10-27
 salary_stated: Not stated; no range published
 job_url: https://jobs.lever.co/qonto/3afa5f7c-a35b-4227-b0fc-5dcbe6345596
 source: Official Lever posting fetched 2026-10-23; LinkedIn post by Christina Chen (https://www.linkedin.com/posts/christinachn_qonto-hiring-freelance-share-7518678843566546944-ICq7/), about 2 days old on 2026-10-23, screenshot supplied by Manel
@@ -67,3 +67,5 @@ Christina Chen is the hiring manager and asked people to reach out. Send a short
 ## History
 
 - 2026-10-23: Lead from Christina Chen's LinkedIn post (supplied by Manel). Exact Lever posting fetched and open. Assessed: Proceed, high priority. No outreach or application sent.
+- 2026-10-24: Application files drafted, not sent: `cv/roles/qonto-senior-product-designer-banking.md`, `application-answers/qonto-senior-product-designer-banking.md` (Lever form, fetched 2026-10-24; no cover-letter or salary field), `outreach/qonto-christina-chen-2026-10-24.md`. Posting now titled "Product Designer - Banking" on Lever; the body still says Senior.
+- 2026-10-25: Manel found the application closed. Lever posting and /apply return 404; the Qonto Lever board lists no postings. qonto.com/en/careers now links to Ashby (jobs.ashbyhq.com/qonto, 41 jobs), with no design roles listed. Closed or not migrated; unknown which. Christina DM revised to ask whether the role or the freelance mission is still open. Not applied.

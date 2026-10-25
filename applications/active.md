@@ -24,7 +24,7 @@ Proceed; CV and cover-letter Markdown sources are prepared. Layout/export and PD
 
 Proceed; application materials have not been prepared. Recheck the vacancy before drafting.
 
-- [Qonto, Senior Product Designer, Banking](records/qonto-senior-product-designer-banking.md): proceed, high priority, assessed 2026-10-23. Credit, loans, savings and investments for 650K+ businesses; explicitly Senior; Barcelona hybrid listed. The hiring manager (Christina Chen) posted publicly two days ago asking people to reach out: DM her and apply the same day (24 Oct). Gap: no regulated-process or Legal/Compliance work to claim. She is also hiring freelancers from November: ask about it.
+- [Qonto, Senior Product Designer, Banking](records/qonto-senior-product-designer-banking.md): proceed, high priority, but the posting is down (Lever 404 on 2026-10-25; Qonto moved to Ashby, no design roles listed). Next: DM Christina Chen (hiring manager, invited outreach) asking whether the role or the November freelance mission is still open, by 27 Oct. CV, form answers and DM drafted. Gap: no regulated-process or Legal/Compliance work to claim.
 
 - [Punto Health, Product Designer (UX/UI & Visual)](records/punto-health-product-designer.md): proceed, light application, assessed 2026-10-19. Seed digital-health startup; own UX/UI and the Figma design system plus generalist marketing design; Barcelona three days. Must-haves met; level (1+ years Figma filter) and pay are the risks. Easy Apply, base CV adjusted.
 - [Senovo IT, Senior UX Designer, E-commerce (12-month contract)](records/senovo-senior-ux-designer-ecommerce-contract.md): proceed, minimal effort. E-commerce and A/B must-haves unmet. Email Menna for rate, contract type and client name before any submission; possibly the same client as Conkord, Extia and Pasiona.
@@ -48,7 +48,7 @@ Resolve the stated next step before investing further. A Proceed assessment can 
 
 - [Proton, Senior Product Designer (VPN)](records/proton-senior-product-designer-vpn.md): deferred on 2026-10-13. Live Barcelona vacancy, EUR 49,000–80,000; confirm willingness for mostly onsite work and identify shipped consumer visual-craft/motion evidence. Strong systems and complex-workflow overlap; no application or materials prepared.
 
-- [Qonto, Product Designer, Customer Lifecycle](records/qonto-product-designer-customer-lifecycle.md): deferred on 2026-10-07 pending Senior IC calibration and Barcelona salary range. Strong complex-financial-workflow fit; unlevelled title and 2+ year threshold create level risk. Exact posting and form are live; no application or outreach sent.
+- [Qonto, Product Designer, Customer Lifecycle](records/qonto-product-designer-customer-lifecycle.md): deferred on 2026-10-07 pending Senior IC calibration and Barcelona salary range. Strong complex-financial-workflow fit; unlevelled title and 2+ year threshold create level risk. Posting returned 404 on 2026-10-25; no application or outreach sent.
 - [Yuno, Lead Product Designer](records/yuno-lead-product-designer.md): deferred until the Remuner design-system case contains verified mobile evidence. Manel confirmed that he can add relevant screens and copy, but the section must explain his contribution, mobile decisions and constraints, and the shipped iOS and Android webview result rather than merely show screens. No materials prepared or application submitted.
 
 ## Confirmed active

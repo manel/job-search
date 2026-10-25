@@ -4,8 +4,8 @@ role: Product Designer, Customer Lifecycle
 status: deferred
 status_verified_on: 2026-10-14
 status_confidence: confirmed
-posting_status: open
-posting_checked_on: 2026-10-07
+posting_status: closed
+posting_checked_on: 2026-10-25
 fit_decision: defer
 role_lane: product
 application_channel: direct
@@ -62,3 +62,4 @@ The [Senior Product Designer, AI Lab application](qonto-senior-product-designer-
 
 - 2026-10-07: Exact posting and form verified; assessed against current strategy, experience evidence and prior Qonto application. Decision: Defer pending Senior-level and salary verification. No application or outreach sent.
 - 2026-10-14: Status label normalised from `not-submitted` to `deferred` (the standard term for the recorded Defer decision) during the repo merge. No change in decision or next action.
+- 2026-10-25: Lever posting returns 404; Qonto moved its job board to Ashby (jobs.ashbyhq.com/qonto), which lists no design roles. Treated as closed.
