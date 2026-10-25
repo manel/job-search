@@ -15,8 +15,8 @@ applied_on: 2026-09-15
 last_contact_on: 2026-10-21
 outcome_stage: recruiter-screen
 rejection_reason_class: none
-next_action: Interview Mon 26 Oct 2026, 11:30-12:00 Madrid, Google Meet meet.google.com/njk-uojp-rkf, recruiter screen with Saul Villa (Manager, Talent Acquisition). Run /prep-interview enginy screen. Ask salary range, office cadence, level and who runs the design rounds
-next_action_on: 2026-10-23
+next_action: Interview Mon 26 Oct 2026, 11:30-12:00 Madrid, Google Meet meet.google.com/njk-uojp-rkf, recruiter screen with Saul Villa (Manager, Talent Acquisition). Brief: interviews/enginy/enginy.md. Ask salary range, office cadence, level and who runs the design rounds
+next_action_on: 2026-10-26
 salary_stated: EUR 62,000 gross annual
 job_url: https://job-boards.eu.greenhouse.io/enginy/jobs/4968694101
 source: JD supplied by Manel; Greenhouse job API; Enginy website; public LinkedIn activity from Jaume Puig

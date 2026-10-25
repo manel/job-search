@@ -12,7 +12,14 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 ## This week
 
-- [ ] **Wizeline UX interview, Fri 30 Oct 17:00: build the deck and canvas by Tue 27 Oct.** Brief done: `interviews/wizeline/wizeline.md`, Round 2. To do: cut `interviews/decks/case-deck-design-systems-remuner.md` to seven slides, adding the WCAG AA palette slide; build the FigJam whiteboard canvas and test screen-sharing it in Meet. Manel to supply: one feature that shipped faster because a component existed; a palette before/after or contrast visual from Figma; confirmation on LinkedIn that both interviewers work at Wizeline. The palette visual also unblocks the Remuner case additions below.
+- [ ] **Wizeline UX interview, Fri 30 Oct 17:00: build the deck and canvas by Tue 27 Oct.** Brief done: `interviews/wizeline/wizeline.md`, Round 2. To do: cut `interviews/decks/case-deck-design-systems-remuner.md` to seven slides, adding the WCAG AA palette slide. Manel to supply: one feature that shipped faster because a component existed; a palette before/after or contrast visual from Figma; confirmation on LinkedIn that both interviewers work at Wizeline. The palette visual also unblocks the Remuner case additions below.
+  - [ ] Reply-all to David Ho's 23 Oct email: confirm the slot and say the whiteboard will be in a Figma file (decided 2026-10-24 over FigJam: DS panel, likely component or token prompt, shows tool fluency and covers multi-brand live). If they name another tool, rework the canvas plan.
+  - [ ] Build the whiteboard Figma Design file: empty framing sections (problem, constraints, users and consumers, options, decision, open questions).
+  - [ ] Add a sticky-note component and a connector style to it, so rough capture is as fast as FigJam.
+  - [ ] Add a starter kit: primitive and semantic token collection with two brand modes, plus two or three base components (button, input).
+  - [ ] Run one mock DS prompt in the file against a 25-minute timer; tighten the setup if FigJam habits slow you down.
+  - [ ] Test screen-sharing the Figma file in Google Meet.
+  - [ ] Update the Round 2 canvas plan in `interviews/wizeline/wizeline.md` and the record's `next_action` from FigJam to Figma.
 
 - [ ] **Remuner DS case additions: approve and apply.** Drafts in `context/remuner-case-additions-2026-10-20.md` (palette HSL normalisation and WCAG AA, own front-end PRs, Figma MCP with Storybook views, stack row). Manel to approve the wording and say whether a palette visual exists; then edit the case in `portfolio/`, commit there, update the pointer, and ask before pushing.
 
