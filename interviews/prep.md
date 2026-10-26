@@ -80,7 +80,7 @@ This question will come up in every process. The departure was company-initiated
 
 **The answer (memorize this version, not a paraphrase):**
 
-"It was a company decision. Remuner operated in a very founder-driven way — product direction came from the top, and design input didn't always have real weight in those calls. That's a legitimate model for a certain kind of startup, but it's not where I do my best work. By early 2026, the fit wasn't there and we parted ways. What I'd say about the work: the design system shipped to production, and the CTO described the product's before-and-after as going from a 2010 app to a 2020 app — that was unprompted. I'm proud of what got built."
+"We parted ways in March. Remuner operated in a very founder-driven way: product direction came from the top, and design input didn't always have real weight in those calls. That's a legitimate model for a certain kind of startup, but it's not where I do my best work, and by early 2026 both sides could see the fit wasn't there. What I'd say about the work: the design system shipped to production, and the CTO described the product's before-and-after as going from a 2010 app to a 2020 app. That was unprompted. I'm proud of what got built."
 
 Then stop. Do not add anything.
 
@@ -90,7 +90,15 @@ Then stop. Do not add anything.
 - No implication about collaboration or team dynamics. This is about how product decisions get made, not about who was in the room.
 - The CTO quote closes on evidence of quality, not victimhood.
 
-**If they probe — "were there any signs it wasn't working?"**
+**If they ask directly whether you left or were let go:**
+
+"It was their call. I'd already felt the fit wasn't right."
+
+Then stop. Answer honestly; never call it mutual or your own decision (reference checks can contradict it). Don't mention timing or that you expected a conversation first; it reads as a grievance. Confirmed by Manel 2026-10-26: he had felt the fit was wrong before March; the decision itself came as a surprise.
+
+**Company where designers work directly with founders (e.g. Enginy):** drop "Remuner operated in a very founder-driven way:" and open the reason with "Product direction at Remuner came from the top". In the probe answer, say "when the call sits at the top" instead of "with founders".
+
+**If they probe: "were there any signs it wasn't working?"**
 
 "Yes. There were decisions that moved faster than the research could inform them. I pushed back where I could, but when the call sits with founders, there's a limit to how much that changes. I'd rather be honest about that than pretend it was purely external."
 
