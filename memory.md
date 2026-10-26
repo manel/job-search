@@ -10,6 +10,8 @@ Cleaned 2026-10-14 during the career-os merge: entries now covered by the eviden
 
 ## Recruiter and process signals
 
+**2026-10-26** — Perk Senior Design Systems Designer rejected by Ashby template five days after a direct application, hours after Tanna's referral was confirmed. Strongest DS fit on record (named system, adoption metrics, Barcelona hybrid) and still no screen. That makes five DS-titled roles at product companies rejected before any interview (Hostaway, Bitpanda twice, OLX Otodom in August, Perk), against one DS-shaped interview, at a consultancy (Wizeline). Inference, not confirmed: a referral added after the application does not rescue it, and the DS CV is not clearing CV review at well-funded product companies regardless of fit. Rule: at companies where a warm contact exists, wait for the referral before applying (Manel applied a day early here). Before the next DS-titled application, review what the DS CV leads with against these JDs.
+
 **2026-10-16** — Kabilio rejected after the first interview: another candidate was already in final stages, remaining interviews were paused, and Manel's profile never reached the hiring manager. Same shape as Valeria HR (filled by a candidate "already far along") and close to Tabby (filled). Applied 2026-10-01, screened 2026-10-05, roughly when the leading candidate was closing. For small Barcelona companies, a late entry loses to timing, not to the package. Rule: when a recruiter screen goes well, ask where the process stands and how many candidates are ahead, and treat "slower than expected due to candidate volume" (Kabilio, 2026-10-08) as an early warning that someone else is ahead.
 
 **2026-10-23** — Wizeline (IT consultancy) ended the recruiter screen with three written design-systems scenario questions pasted in chat: custom UI vs. the system under a deadline, unifying two forked data-table components, and craft vs. WCAG vs. front-end APIs. Answers were due by email within 15-30 minutes, written without AI; the recruiter said AI answers get detected and rejected. Expect timed, no-AI written scenarios from agencies and consultancies screening DS roles. The answers are written process judgment, so have the Remuner audit loop, the Abax rollout mechanics (feature flags, squad-owned migration, usage scripts) and the Remuner palette story ready to write from memory.
@@ -84,6 +86,10 @@ Rule: the company vision is background. The task, the constraints and the data p
 - Name the two or three user challenges that could break the flow (here: trust in the match, availability, fit after the first session) before you draw anything.
 
 The drills in `interviews/drills/` practise the first rule. Their six lines don't cover the second yet.
+
+**2026-10-26** — "How do you use AI day to day?" was one of only four content questions in Enginy's 30-minute recruiter screen, after Factorial asked it in both rounds. At AI-native companies it is now a recruiter-screen question, not a hiring-manager one. Keep the three-use answer ready (AI prototypes for testing, design system work through the Figma MCP, publishing your own code within limits); it drew no follow-up at Enginy.
+
+**2026-10-26** — Enginy's screen asked how bugs that reach designers get handled. Not in the prep. Early-stage teams without full PM coverage probe whether the designer files and triages issues alone. Have a concrete Remuner example ready.
 
 **2026-07-01** — Factorial culture signal: strong bias toward moving fast and shipping full feature sets early. They placed automation inside the MVP, not phase 2. If this role is offered and accepted, the push/caution tension is a real working dynamic to plan for, not an artifact of the interview format.
 

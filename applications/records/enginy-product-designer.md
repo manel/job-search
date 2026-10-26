@@ -12,11 +12,11 @@ application_channel: direct
 warm_path: "No known personal connection; Jaume Puig, CTO and co-founder, publicly invited candidates to DM him about the role"
 portfolio_version: 2026-09-15
 applied_on: 2026-09-15
-last_contact_on: 2026-10-21
+last_contact_on: 2026-10-26
 outcome_stage: recruiter-screen
 rejection_reason_class: none
-next_action: Interview Mon 26 Oct 2026, 11:30-12:00 Madrid, Google Meet meet.google.com/njk-uojp-rkf, recruiter screen with Saul Villa (Manager, Talent Acquisition). Brief: interviews/enginy/enginy.md. Ask salary range, office cadence, level and who runs the design rounds
-next_action_on: 2026-10-26
+next_action: Await Saul Villa's message on next steps (he meets the VP of Product Tue 27 Oct). Next stage would be a take-home design test. If nothing by Wed 28 Oct, reply to his last email asking for an update
+next_action_on: 2026-10-28
 salary_stated: EUR 62,000 gross annual
 job_url: https://job-boards.eu.greenhouse.io/enginy/jobs/4968694101
 source: JD supplied by Manel; Greenhouse job API; Enginy website; public LinkedIn activity from Jaume Puig
@@ -28,7 +28,9 @@ source: JD supplied by Manel; Greenhouse job API; Enginy website; public LinkedI
 
 **Proceed, with early validation of practical conditions.** Manel chose to prepare an application package on 2026-09-15. The role is a strong match on domain and work shape. Compensation and the normal office cadence remain unresolved: the posting is labelled in-person, offers Product and Engineering 48 work-from-home days per year, and gives no salary range.
 
-The application form required a salary expectation, so Manel stated EUR 62,000 gross annual. Enginy's range remains unknown and should be clarified at the first human exchange. The vacancy was first published on 2026-09-14.
+The application form required a salary expectation, so Manel stated EUR 62,000 gross annual. The vacancy was first published on 2026-09-14.
+
+**Resolved in the 2026-10-26 screen:** band EUR 50-60K gross annual plus a 10% bonus (below the 62K stated; Manel said it could work). Office: 48 WFH days a year now, 60 from 2027, used flexibly. Process: screen, take-home design test, VP of Product, final round.
 
 ## Fit assessment
 
@@ -123,3 +125,5 @@ External research, his own description of his current process ("ask me again in 
 - 2026-10-22: Manel supplied Saul Villa's LinkedIn profile: Manager, Talent Acquisition at Enginy (Feb 2026 to present). Round read as a recruiter screen (TA interviewer, 30-minute slot); outcome_stage set to recruiter-screen. Saul's activity includes a repost of Diogo Rendeiro's design hiring post (onsite Barcelona, PR-shipping designers); Diogo recorded as the likely hiring manager (inference). The post's "Onsite" wording adds to the office-cadence question.
 - 2026-10-22: Correction. The screen-prep note saying the evidence register does not support production-code ownership was wrong: Kings of Mambo front-end implementation (FUNK3D, Somia, Kymco; Kymco checkout took real orders) is confirmed. Manel added that he wrote his own code, pushed to GitHub and deployed it himself (now in `evidence/experience-facts.md`). The fit assessment's "Maker bar" risk is narrower: past production shipping is evidenced; the gaps are recency (studio era) and current React/TypeScript without AI help.
 - 2026-10-26: Manel confirmed genuine interest: he wants this role, primarily on-site, in outbound-sales software. Closes the open "Genuine interest" risk in the fit assessment. Merged status of the Remuner front-end PRs confirmed and added to `evidence/experience-facts.md`.
+- 2026-10-26: Recruiter screen with Saul Villa held (in Spanish; he joined about five minutes late). Salary: Manel referred to the 62K on the form and asked for the band; Saul stated EUR 50-60K gross annual with room to move inside it, plus a 10% project-linked bonus; Manel said it could work. Start: immediately. Office: 48 WFH days a year now, 60 from 2027, flexible use; Manel accepted. Team: two product designers, hiring one now and one more before year end; PMs and designers report to the VP of Product; six squads, 6-9 month projects, two-week releases; company grew from 40 (Feb) to 85 people. Process: (1) screen, (2) take-home design test, (3) VP of Product, (4) final round (interviewer unclear in the transcript, likely the CEO). Saul meets the VP of Product on 27 Oct and will send next steps. Debrief: `interviews/enginy/enginy.md`.
+- 2026-10-26: Manel confirmed the EUR 50-60K + 10% bonus band is acceptable for this role. He prefers a job inside the band to holding at 62K, so an offer in the band will not be rejected on salary.

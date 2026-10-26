@@ -44,6 +44,8 @@ The minimum and target for Lead and Staff IC roles remain unconfirmed. Do not ex
 
 - **Wizeline (IT consultancy, Barcelona hybrid, stated by recruiter David Ho in the 2026-10-23 screen):** Level 4 (Senior) entry EUR 49K gross annual (David said it twice; confirmed by Manel 2026-10-23), described as fixed with no negotiation. Plus EUR 100/month hybrid allowance, EUR 220/month non-taxable meal and transport card, full medical insurance, home-office budget, certification support. Permanent employment contract. Wizeline's Design Systems Designer (Index) LinkedIn posting publishes EUR 36-38K. Source: record `applications/records/wizeline-senior-product-designer-barcelona-hybrid.md`.
 
+- **Enginy (AI sales startup, Barcelona on-site, stated by recruiter Saul Villa in the 2026-10-26 screen):** Senior Product Designer EUR 50-60K gross annual, with room to move inside the band, plus a 10% bonus tied to projects. Manel had stated EUR 62K on the form; after hearing the band he said it could work. Source: record `applications/records/enginy-product-designer.md`.
+
 ## External benchmarks
 
 - **Barcelona Senior Product Designer, 75th percentile: about EUR 93K.** External research (Levels.fyi), recorded June-July 2026; exact retrieval date not recorded. Reference only: recruiter budgets Manel has heard for Spain mostly stop at EUR 60-65K (see Evidence boundary above).

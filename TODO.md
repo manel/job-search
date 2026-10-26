@@ -42,6 +42,17 @@ The hook also surfaces open items in "This week" at every session start. Keep it
   - [ ] Layout in `portfolio/public/css/case.css`: captions from 12px at 55% opacity to body size; media column uninterrupted by long prose; check against `context/brand.md` first.
   - [ ] Review the pilot with `/review-case dataset-manager`, then decide on Modeling Syntax, AI agent and the two DS cases (the Storybook recording already covers part of the DS proof).
 
+## Design-systems lane review
+
+Raised 2026-10-26 after the Perk DS rejection at CV review (zero interviews from DS-titled roles at product companies; see memory.md 2026-10-26). The gaps below are inference, not employer feedback. Do this before the next DS-titled application, or once OLX Otodom (Oct) and Stripe DS resolve.
+
+- [ ] **DS reads as secondary on the CV.** Both titles are Senior Product Designer and the Abacum entry opens on Integrations and Engine. Reorder bullets in the DS CV so system work leads; keep the scope paragraphs.
+- [ ] **Accessibility nearly absent.** Add the Remuner palette line (HSL normalisation, in-use colours to WCAG AA) once the case-additions draft is approved. Keyboard and screen-reader work stays unclaimed.
+- [ ] **No visual foundations evidence.** The CV is all architecture and tooling. Check what else is claimable (type scale, iconography, motion) in `evidence/experience-facts.md`; ask Manel, don't invent.
+- [ ] **Scale and native mobile.** Largest system served five squads; mobile is the Remuner webview. Not fixable by writing: decide whether to keep applying to large multi-platform DS teams (Perk, OLX, Bitpanda, Hostaway shape) or retarget to web-first B2B SaaS where one senior PD builds and runs the system. Record the decision in `context/target-roles.md`.
+- [ ] **Smaller factors to check:** the visible gap since March 2026; React expectations in DS JDs (production React not claimable).
+- [ ] **Real signal:** record any answer from Tanna on why Perk passed (`applications/records/perk-senior-design-systems-designer.md`).
+
 ## Interview prep (yours to write)
 
 - [ ] The 5 remaining `[NEEDS YOUR STORY]` gaps in `interviews/prep.md`. Check `interviews/behavioral-battle-cards.md` first; some may already be covered there.

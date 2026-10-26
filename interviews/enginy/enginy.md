@@ -8,6 +8,9 @@ Record: `applications/records/enginy-product-designer.md`. CV source: `cv/roles/
 - **Interviewer:** Saul Villa, Manager, Talent Acquisition at Enginy (since Feb 2026; about four years recruiting at N26 before that).
 - **Purpose of this round:** filter. Saul checks the must-haves a recruiter can tick: level, maker bar, English, on-site, money, availability. Short answers, one proof each, then stop. He asked for full-hour slots but booked 30 minutes, so expect a fast pace.
 
+### What Enginy does
+Enginy is AI sales software that helps B2B sales teams find the right prospects, get their contact details and research them automatically. It then sends email and LinkedIn outreach and sorts the replies in one inbox, so reps spend their time on interested leads instead of manual prospecting.
+
 ### What Enginy most likely cares about
 
 1. **Maker bar, taken literally.** Diogo Rendeiro's post ("push PRs, not pixels", "Shipped a PR last week? DM me") and Damián Rodrígues's deck (about 90% of his designs go to production through his own PRs in Cursor or Claude Code; components built first in Storybook). Saul reposted Diogo, so he will screen for it.
@@ -205,3 +208,41 @@ Q13 is the most useful single question for a recruiter screen: it surfaces his d
 ### After the call
 
 Run `/debrief-interview enginy screen`. Log the range, what you stated, office cadence, level and the next rounds in the record.
+
+### Debrief (2026-10-26)
+
+Source: call transcript (FluidVoice, re-transcribed in Spanish and merged by Manel). The call was held in Spanish. Saul joined about five minutes late because no meeting room was free. Several turns in the transcript are cut off mid-sentence, so details marked "cut off" below are incomplete.
+
+**Questions Saul asked, in order**
+
+1. Background walkthrough. Manel covered the studio (designed and wrote front end: HTML, CSS, JavaScript, PHP, pushed to production), Abacum (integrations squad, then modeling), and Remuner (plans, approvals, rep and manager views, AI agent, design system from scratch, publishing code with AI).
+2. A project you took from the start, including discovery and problem solving. Manel told the Remuner rep dashboard story: vague "not intuitive" feedback, interviews with the reps who gave it, explorations reviewed with engineering for feasibility and effort, handoff in Figma, then fewer clicks than the old slideshow and reps opening the plan view less. Qualitative feedback said the experience improved.
+3. Follow-up: how was the feedback collected, quantitative or qualitative? Manel: both, dashboards tracking the target metrics plus interviews to check the changes worked.
+4. How were bugs that reached the designers handled? Manel: at Remuner he worked partly like a PM (without holding the role), creating issues, reporting the problem and proposing or exploring fixes.
+5. How do you use AI day to day? Manel gave three uses: AI-built prototypes for user testing instead of static Figma flows; design system work from Claude through the Figma MCP (tokens, palettes, components, variants aligned with code props); publishing code himself within set limits, without waiting on engineering.
+6. Motivation: Saul noted Manel is no longer at Remuner and asked what draws him to an AI startup and to Enginy. Manel: the AI sits between the rep and the prospect, which raises trust design problems; he knows sales reps from Remuner; and the designer-publishes-code model. (Part of this answer is cut off.)
+7. Start date. Manel: immediately, nothing planned.
+8. Salary (see below).
+9. Office policy (see below).
+
+Not asked: why Manel left Remuner, English level, other processes, design system experience as its own question, a direct "do you code" question.
+
+**Salary.** Manel said he had put 62 on the form and asked for the band and the full package. Saul stated **EUR 50-60K gross annual, with room to move within it, plus a 10% bonus** tied to projects and design-vertical features. Manel replied: "Me parece bien, creo que podría llegar a cuadrar."
+
+**Office.** Current policy: 48 work-from-home days a year, used flexibly (for example four office days and one home day every week, or five office days and blocks of remote days); 24-31 Dec is free to work from anywhere. **From 2027: 60 days a year.** Manel said office work is no problem and noted 60 days is about one home day a week.
+
+**Team and company**
+
+- Design: two product designers now. Hiring one now and one more before the end of 2026.
+- Product management: "three people plus one". Engineering: a number of engineers starting "11" (cut off).
+- Work runs as 6-9 month projects split into smaller features, released every two weeks in sprints. Project teams are 3-6 people; some have a PM, some only a product designer, some both.
+- Currently six squads. People are reassigned when projects end, by skills.
+- Headcount: 40 when Saul joined in Feb 2026, 85 now, still growing into 2027.
+- AI-first: their design system is connected to Claude and Notion. Engineers also build prototypes and pass them to design; designers build prototypes for sales and account managers to test with customers. They want designers who don't wait weeks on engineering.
+- Reporting: product designers and PMs all report to the VP of Product. Saul said eight reports is too many and the structure is being worked out (cut off).
+
+**Process.** Four stages: (1) this screen; (2) a take-home design test, not live; (3) interview with the VP of Product; (4) final interview with a person the transcript renders as "nuestro sitio" (likely the CEO; unconfirmed).
+
+**Next step.** Saul speaks with the VP of Product on Tue 27 Oct and said he would tell Manel the next steps the same day.
+
+**Prep coverage.** Q1, Q3, Q5, Q6, Q10 and Q12 came up as scripted. The bug-handling question (Q4 in the list above) was not in the prep.
