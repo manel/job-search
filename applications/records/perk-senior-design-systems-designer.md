@@ -2,21 +2,21 @@
 company: Perk (formerly TravelPerk)
 role: Senior Design Systems Designer
 status: applied
-status_verified_on: 2026-10-21
+status_verified_on: 2026-10-26
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-10-19
 fit_decision: proceed
 role_lane: design-systems
-application_channel: direct
-warm_path: Tanna Schumacher, Product Designer at Perk; Manel's former student (LABASAD Sketch course, around 2018), 1st-degree LinkedIn connection; replied 2026-10-23 (refers only if not yet applied); told of the 21 Oct application and sent the CV 2026-10-24; named as the connection on the form; 2026-10-25 said she will ask internally on Mon 26 Oct and that she had been covering this position herself. Tim Archer, Senior Content Design Manager at Perk, 2nd-degree, posted the role on LinkedIn 2026-10-20. Xavi Francisco left Perk around 2026-09-28
+application_channel: referral
+warm_path: Tanna Schumacher, Product Designer at Perk; Manel's former student (LABASAD Sketch course, around 2018), 1st-degree LinkedIn connection; replied 2026-10-23 (refers only if not yet applied); told of the 21 Oct application and sent the CV 2026-10-24; named as the connection on the form; 2026-10-25 said she will ask internally on Mon 26 Oct and that she had been covering this position herself; submitted the referral in Ashby 2026-10-26. Tim Archer, Senior Content Design Manager at Perk, 2nd-degree, posted the role on LinkedIn 2026-10-20. Xavi Francisco left Perk around 2026-09-28
 portfolio_version: Design Systems case (manel-leiva.com/cases/design-systems)
 applied_on: 2026-10-21
-last_contact_on: 2026-10-25
+last_contact_on: 2026-10-26
 outcome_stage: applied
 rejection_reason_class: none
-next_action: Tanna asks internally on Mon 26 Oct. Check for her answer on 2026-10-27; don't chase her before then. Also watch for a reply to the comment on Tim Archer's post. If there's no employer response, nudge on 2026-11-04, LinkedIn 2026-11-11, stale 2026-11-25
-next_action_on: 2026-10-27
+next_action: Referral submitted 2026-10-26; wait for the Perk Talent Team. Watch for a reply to the comment on Tim Archer's post. If there's no employer response, nudge on 2026-11-09 (reply to the Ashby referral confirmation, or ask Tanna whether she has heard anything), LinkedIn 2026-11-16, stale 2026-11-30
+next_action_on: 2026-11-09
 salary_stated: EUR 65,000 gross annual base (form field, 2026-10-21; no range published)
 job_url: https://jobs.ashbyhq.com/Perk/78dafbf1-0f6d-46b7-b71a-2c59f7af31cf
 source: Perk Ashby job board API, fetched 2026-10-19 (published 2026-10-15; London, with Barcelona as a secondary location; hybrid, three days in office)
@@ -100,3 +100,4 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 - 2026-10-24: Reply drafted (`outreach/perk-tanna-schumacher-2026-10-19.md`) disclosing the 21 Oct application and asking her to pass the CV to the hiring team. Not yet sent.
 - 2026-10-24: Reply sent to Tanna on LinkedIn with `cv-pdf-to-send/Perk (DS)/Manel Leiva CV 2026.pdf` attached (CV PDF re-checked: `check-pdf-text.py --source` OK). Asked her to pass it to the hiring team given the existing application.
 - 2026-10-25: Tanna replied on LinkedIn (Spanish): thanks, she will ask on Monday (26 Oct); she had been covering the position Manel applied for. Meaning not clarified (likely interim DS work on Suitcase). If the process advances, she is the best informal source on Suitcase's current state.
+- 2026-10-26: Tanna confirmed on LinkedIn that she submitted the referral ("ya te hice el referral, al menos nos aseguramos de que leen tu CV"). Same morning, Ashby email from Perk Talent Team (no-reply@ashbyhq.com), "Confirmation of Your Referral to Perk": referred for a position, application received and under review. The email names no role; this is the only open Perk application, so it is taken to be this one. Channel changed to referral. Follow-up dates reset from the referral date: nudge 2026-11-09, LinkedIn 2026-11-16, stale 2026-11-30.
