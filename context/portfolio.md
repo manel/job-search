@@ -18,6 +18,8 @@ Manel Leiva — Senior Product Designer
 - Remuner (Senior Product Designer, May 2024–Mar 2026, sole designer and DS lead)
 - Postgraduate teaching: UX and digital design. Framed in portfolio as skills developed (explaining complex systems, depth of craft, mentoring). Not a standalone work entry.
 
+Source material available (confirmed by Manel 2026-10-26): all Figma files for Abacum and Remuner, plus the front-end and back-end code. Real screens and recordings are possible for both companies, with anonymised data.
+
 Education: Higher National Diploma in Computing Design and Multimedia from ESI (2002). Vocational qualification (Spanish CFGS equivalent). Not a university degree.
 
 ---
@@ -203,6 +205,43 @@ CVs sent before 2026-06-12 described the agent as "generates compensation letter
 **Sales rep plan creation experience for admins.** Designed in Manel's final months (late 2025 / early 2026). In development when he left in March 2026; some of it was built and ready for internal testing. If ever used as case material, the only honest framing is: designed end to end, partially built at departure, outcomes unknown. Never imply it shipped.
 
 ---
+
+## Reference portfolios
+
+### Jason Spidle, spidleweb.net (saved 2026-10-26)
+
+External research, read 2026-10-26 from the page markup (visual design not reviewed). Principal Product Designer, Minneapolis, ten years of studio work (Foundry, Blueshift) on data-heavy B2B: agtech, healthcare, financial services. Same territory as Manel's.
+
+How it is built:
+- **Cases are proof, not narrative.** No section headings, no process, no outcomes. Each case is a title, a one-line subtitle, a metadata list, a 2–3 sentence role paragraph, then 6–9 screens or short looping recordings, each with a 1–2 sentence caption. About 250–300 words per case.
+- **Subtitle in the user's terms.** "Producers can compare a swine herd's projected margins with feed costs and sales." What the user can now do, not what the project was.
+- **Metadata as a definition list:** Role, Studio + years, Scope (e.g. "Web app, Design system"), Industry, Team (teammates linked).
+- **Captions carry the design reasoning.** Each one states a behaviour plus, often, the reason: "Removing one asks for confirmation because other feed views use the same table." "The ingredient editor uses the table's fields so buyers can finish entering prices with the full list still visible behind it."
+- **Concrete data inside the captions.** "The import matches Bob to Bob Hansen before creating 1,265 tickets." "Raising winter wheat's assumed price from $6.20 to $7.20 changes the projected loss per acre to a profit." Realistic fake data reads as real domain knowledge.
+- **Recordings over stills.** Conservis Maps: 8 captioned videos. Each video has an aria-label written as a task ("Filtering the list and the map").
+- **Confidential work rebuilt and disclosed.** Beacon FC moves a life sciences product to soccer scouting: "I changed the domain and data to soccer scouting to protect confidential information. The design problem and my role are the same." Shipped as a working prototype.
+- **Homepage is a media feed.** Every screen across all cases, each deep-linked by anchor, plus prototypes, tools and experiments. A reel video at the top.
+- **About page states the operating model:** dense operational data into clear decisions; Figma daily; design systems; working browser prototypes built with coding agents to test workflows with realistic data. Availability line: "Open to contract and full-time roles."
+- **Writing section:** build posts about his own Figma plugins.
+
+Layout and visuals (from his CSS, 2026-10-26):
+- **Case page is two columns:** a sticky 276px left rail holds the title (48px uppercase display face in the case's accent colour), subtitle and facts; the right column is almost only media, filling the viewport width minus the rail and 40px gutters. Text never interrupts the media column.
+- **80px between figures.** One figure per row, full column width.
+- **Captions are body text, not footnotes:** 21px, max 560px wide, 20px below the media.
+- **Video:** muted, looping, with controls, poster frame, loaded on demand. Phone screens sit side by side (max 300px each) on a tinted band, each with its own caption.
+- **Frames:** 1px hairline outline, no rounded corners or shadows. Stills zoom on click. Prototypes embed as an iframe behind a poster with a "try it" button.
+- **Per-case colour theme** (one hue per case) for the title accent and a "next case" band at the bottom in the next case's colours.
+- **Home:** 5-column grid of every screen and clip across all cases, with a "show more" that shows the top of the next row.
+
+Compared with Manel's case pages (`portfolio/public/css/case.css`, 2026-10-26): images already run the full main column width, so size is not the main gap. The gaps are: 4–5 media per case against his 8–9; no video loops; captions at 12px and 55% opacity, which are effectively invisible; media interleaved with long prose in a 660px text column, so the page reads as an essay with pictures.
+
+What transfers to Manel (ranked by hiring impact):
+1. A captioned proof layer under each judgment narrative: recordings or stills with one-sentence captions that state behaviour + reason, using realistic domain data (finance for Abacum, sales compensation for Remuner).
+2. User-terms subtitle on every case and home card.
+3. Real flows recorded with anonymised data. Manel has the Figma files and FE/BE code for both companies, so he can run the front end locally with seeded fake data (customer names, figures) and record actual product flows. Say in one sentence that the data is illustrative.
+4. About page: state the prototyping-with-coding-agents practice and contract availability (income-first since 2026-10-11).
+
+What does not transfer: dropping decisions and outcomes. His format works because a decade of shipped studio breadth is the proof. Manel's cases are evaluated on judgment (see "Case study storytelling principle"); the proof layer supplements that narrative, it does not replace it. Linking teammates by name conflicts with the names rule above.
 
 ## Portfolio evaluation standard
 

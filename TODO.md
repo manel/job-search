@@ -35,6 +35,13 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 - [ ] Add Figma MCP use to the Remuner design-system case: one umbrella line (Manel does not want the full list), covering token sync with code, accessibility and parity checks, and documentation, mostly at Remuner. Examples recorded in `evidence/experience-facts.md` on 2026-10-20 (palette HSL normalisation and AA contrast, shipped via the tokens repo; component parity; Storybook views and docs; hardcoded-colour PRs). Full list in `evidence/experience-facts.md` (2026-10-19).
 
+- [ ] **Case visual rework, modelled on spidleweb.net (raised 2026-10-26).** Reference and analysis in `context/portfolio.md` ("Reference portfolios"). Goal: each case gets a proof layer of 8 or so large figures, mostly looping recordings, each with a readable one-sentence caption (behaviour plus reason, realistic domain data). Keep the judgment narrative; the media supplements it. Pilot on one case before touching the rest.
+  - [ ] Pilot case: Dataset Manager. Run the Abacum front end locally with seeded fake finance data (Manel has the Figma files and FE/BE code); list the 8 flows worth recording.
+  - [ ] Record the clips (muted loop, poster frame). No real customer data in any frame; screens only, never code.
+  - [ ] Write the captions; run `no-ai-slop` and `anthropic-skills:humanizer`. Add a user-terms subtitle ("Finance teams can…") and a one-line note that the data is illustrative.
+  - [ ] Layout in `portfolio/public/css/case.css`: captions from 12px at 55% opacity to body size; media column uninterrupted by long prose; check against `context/brand.md` first.
+  - [ ] Review the pilot with `/review-case dataset-manager`, then decide on Modeling Syntax, AI agent and the two DS cases (the Storybook recording already covers part of the DS proof).
+
 ## Interview prep (yours to write)
 
 - [ ] The 5 remaining `[NEEDS YOUR STORY]` gaps in `interviews/prep.md`. Check `interviews/behavioral-battle-cards.md` first; some may already be covered there.
