@@ -1,7 +1,7 @@
 # Remuner design-system case: drafted additions (2026-10-20)
 
 Target file: `portfolio/public/cases/design-system-remuner.html` (submodule: edit there, commit there, then update the pointer here; ask Manel before pushing, a push may deploy the live site).
-Status: DRAFT, awaiting Manel's approval. Facts from Manel's answers on 2026-10-20, recorded in `evidence/experience-facts.md` (Design system and token pipeline: Figma MCP examples). Run no-ai-slop and humanizer again after any edit.
+Status: APPLIED 2026-10-30 (A-D plus stack row, with a rewritten Notion sentence, build-order paragraph, late-joiner bullet and marketing-site line; approved by Manel). Facts from Manel's answers on 2026-10-20, recorded in `evidence/experience-facts.md` (Design system and token pipeline: Figma MCP examples). Run no-ai-slop and humanizer again after any edit.
 
 Limits from the register: say WCAG AA (never AAA), no named failing colours, no PR counts, no claim that engineers adopted the Storybook views.
 
@@ -22,6 +22,14 @@ Some fixes I made myself. Where the audit found hardcoded styles or missing toke
 ## C. Append to "The token pipeline and its evolution"
 
 I also used the Figma MCP, first with Codex and then with Claude, to keep Figma and code aligned. I generated component variants with props named to match the engineering components, and a Storybook view per component with a props grid covering every state and variant, which I used to find and fix inconsistencies. The component documentation came out of the same workflow.
+
+## D. Append to "The ongoing product audit" (added 2026-10-30, draft)
+
+The audit board lived in Notion, and two checks in the code fed it. A lint rule flagged styles that bypassed the tokens, and a script counted which components each template used. I ran the script every week, set each screen's status from its counts and my review, and brought the results to the monthly engineering meeting.
+
+The lint rule started strict, and engineers ended up fixing old code to get changes through. We loosened it so it only blocked new violations. Old code got fixed when feature work reached it, the same call the audit made for components.
+
+Limits: no trend or counts (data not recoverable); "a lint rule", never a named tool (engineering's choice, not recorded); Figma speed stays out.
 
 ## Stack row
 
