@@ -2,7 +2,7 @@
 company: Wizeline
 role: Senior Product Designer - Barcelona Hybrid
 status: interviewing
-status_verified_on: 2026-10-23
+status_verified_on: 2026-11-02
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-10-19
@@ -12,11 +12,11 @@ application_channel: direct
 warm_path: unknown
 portfolio_version: 2026-09-23
 applied_on: 2026-10-19
-last_contact_on: 2026-10-23
-outcome_stage: design-interview # invited 23 Oct to the Wizeline UX interview: 15-min design-systems case presentation + 25-min whiteboard challenge; Fri 30 Oct 17:00-18:00
+last_contact_on: 2026-11-02
+outcome_stage: design-interview # UX interview passed 2 Nov at Level 4; next round is the client interview, slot not yet set (client hiring was on hold)
 rejection_reason_class: none
-next_action: UX interview Fri 30 Oct 2026, 17:00-18:00 Madrid, with Max Gutiérrez Liceaga (probable Associate Tech Director - Design) and Jesús Alonso Gutiérrez Ruiz (probable Lead Product Designer). Brief done (interviews/wizeline/wizeline.md, Round 2). Next: cut the Remuner deck to seven slides with the WCAG AA palette slide, find the faster-shipped feature example, build and test the FigJam canvas. Run /debrief-interview after the call.
-next_action_on: 2026-10-27
+next_action: Build the "what I bring to the client" pitch the UX panel said was missing and run /prep-interview wizeline for the client interview; don't wait for the slot. If David Ho has sent no slot by Mon 16 Nov, ask him for the client's timeline.
+next_action_on: 2026-11-04
 salary_stated: 2026-10-23 recruiter screen, asked first: "around 50-55" (EUR K gross annual), with a request for their range. Wizeline stated Level 4 (Senior) entry EUR 49K gross, no negotiation, plus EUR 100/month hybrid allowance and EUR 220/month meal card
 job_url: https://www.wizeline.ai/careers/job/?gh_jid=7384390
 source: Official Wizeline Greenhouse job record and application fields checked 2026-09-23; live portfolio cases; Career OS evidence register
@@ -98,3 +98,6 @@ The official Greenhouse application is open. Required candidate fields are CV, L
 - 2026-10-23: Greenhouse invite received: UX Interview, Fri 30 Oct 2026, 17:00-18:00 (Manel's calendar, Madrid time assumed). Organizer David Ho; interviewers Jesus Alonso Gutierrez Ruiz and Max Gutiérrez Liceaga, roles not stated. The cc'd Jesus is not Jesus Reyes (the Index posting's recruiter); the earlier guess is corrected. The 60-minute slot leaves about 20 minutes beyond the 15 + 25 format, likely for questions. Source: invite pasted by Manel.
 - 2026-10-23: LinkedIn search by Manel for the two interviewers (inference; employer not visible in the results). Max: the likely match is "Max Gutierrez Liceaga, Associate Tech Director - Design", Mexico City, 2nd degree, mutual connection Thiago Soares. A second, 3rd-degree profile with the same name has no headline. Jesus: the likely match is "Jesús Alonso Gutiérrez Ruiz, Lead Product Designer en ..." (employer cut off), 3rd degree; another profile with the same name has no headline. If the matches hold, this is a design-led panel: a design director and a lead designer, probably from Wizeline's Mexico design practice. 17:00 Madrid is 10:00 in Mexico City, which fits. Open both profiles in prep to confirm Wizeline as the employer. Source: screenshots supplied by Manel.
 - 2026-10-23: UX interview brief prepared: `interviews/wizeline/wizeline.md`, Round 2. Case: Remuner design system (Story C), cut to seven slides with a new WCAG AA palette slide; Abacum (Story B) held for scale questions. Whiteboard: FigJam canvas with framing frames, prompt unknown.
+- 2026-10-27: UX interview deck built in Figma ("Remuner DS" file, row "Wizeline: Remuner DS case", 10 slides for the 15-minute slot). Figures checked against the Core and Components files: 630 variables (417/189/2/22), 161 component sets, 1,438 variants (the old deck's ~1,600 is unsupported). Talk track: `interviews/wizeline/ux-interview-deck.md`.
+- 2026-10-30: UX interview held. Remuner case presented; no whiteboard challenge, the panel asked to see how the files were structured and Manel walked through implementation files. Feedback in the call: presentation good; they wanted to see the components built following atomic design (shown in the files); missing was what Manel would bring to the table, which matters for the next round, a client meeting, because clients want proof of why to hire a designer. Decision expected within two days. No news on the client meeting date or the client hiring freeze. Debrief: `interviews/wizeline/wizeline.md`. Source: Manel.
+- 2026-11-02 (14:13): David Ho emailed "positive feedback as an L4"; he will follow up once the client interview slots are available. UX interview passed; level confirmed as Level 4 (Senior, EUR 49K entry per the 23 Oct screen). Status stays interviewing. Client interview date, interviewers and format unknown; the client hiring freeze reported 23 Oct may delay it. Source: email pasted by Manel.

@@ -39,3 +39,15 @@ maneleiva@gmail.com
 Te adjunto el CV.
 
 ¡Muchas gracias!
+
+---
+
+# 2026-10-28: Thank-you after the 26 Oct rejection, with a no-pressure ask for the reason. SENT on LinkedIn Wed 2026-10-28, 11:12, exactly as below (screenshot supplied by Manel 2026-11-02). No reply on record. Perk's TA call invite followed on 2026-11-02.
+
+¡Hola Tanna!
+
+Muchas gracias por hacer el referral, y por hacerlo tan rápido. Esa misma tarde me llegó el correo de que no seguían con mi candidatura, sin más detalle.
+
+Si en algún momento te enteras de por qué no pasó el filtro, me ayudaría mucho saberlo. Si no es fácil preguntar, no te preocupes.
+
+¡Un saludo!

@@ -6,7 +6,7 @@
 
 ---
 
-## Slide 1 — Cover [NEW]
+## Slide 1: Cover [NEW]
 
 **Headline:** Building operational leverage as the first designer
 
@@ -21,7 +21,7 @@ This case covers how I did that as the sole designer, alongside continuous produ
 
 ---
 
-## Slide 1-OLD — Cover [SKIP]
+## Slide 1-OLD: Cover [SKIP]
 
 **Headline:** A design system as the sole designer at a startup
 
@@ -30,13 +30,13 @@ This case covers how I did that as the sole designer, alongside continuous produ
 **Speaker notes:**
 I picked this case because IMO it fits the role you are hiring for. Being a founding designer means being a sole designer from day zero without or with little infrastructure to inherit.
 
-I was the sole designer at Remuner. No components, no tokens, no shared contract between design and engineering when I arrived. Everything in this case was built alongside product delivery on a team that went from three engineers to six.
+I was the sole designer at Remuner. No components, no tokens, no shared contract between design and engineering when I arrived. Everything in this case was built alongside product delivery on a team that went from two engineers to five.
 
 I'm going to share the process, the decisions and mistakes.
 
 ---
 
-## Slide 2 — Starting condition
+## Slide 2: Starting condition
 
 **Headline:** Not a bad-looking product. A fragmented implementation.
 
@@ -51,7 +51,7 @@ The gap was in both layers, not just the implementation.
 
 ---
 
-## Slide 3 — The constraint
+## Slide 3: The constraint
 
 **Headline:** Sole designer. Product work can't stop.
 
@@ -66,16 +66,16 @@ The sole designer constraint shaped everything. If I spent three months building
 
 ---
 
-## Slide 4 — Scope, format, pipeline [NEW]
+## Slide 4: Scope, format, pipeline [NEW]
 
 **Headline:** Three decisions that shaped how the system scaled
 
-**Visual:** Three-column layout: (1) Scope — what was deferred vs built; (2) Format — token export format matching engineering stack; (3) Pipeline — flow diagram showing Token Studio → Style Dictionary → GitHub → Vuetify/Storybook.
+**Visual:** Three-column layout: (1) Scope: what was deferred vs built; (2) Format: token export format matching engineering stack; (3) Pipeline: flow diagram showing Token Studio → Style Dictionary → GitHub → Vuetify/Storybook.
 
 **Speaker notes:**
 Three decisions shaped how the system scaled without getting in the way of product delivery.
 
-Scope: I went tighter than my Abacum experience. Build what the product uses now, extend when it needs more. Dark mode and motion tokens were deferred explicitly. No hypothetical surfaces — every token and component earned its place by being used.
+Scope: I went tighter than my Abacum experience. Build what the product uses now, extend when it needs more. Dark mode and motion tokens were deferred explicitly. No hypothetical surfaces; every token and component earned its place by being used. The build order followed the same rule. Foundations came first: the palette and its shades, then spacing, border-radius and typography tokens, because every component depended on them. Then the components the product used most, which were form fields: TextField, Textarea and Select. There was no standard Select; each screen had its own. When I audited every select in the product, autocompletes turned up mixed in with them, so Autocomplete came next. I wrote the tickets with the full spec and the screens to update, and the new Select replaced the old ones as feature work reached each screen, for example the permissions screen during the permissions feature.
 
 Format: The engineers worked in Vuetify, which uses Sass variables. I exported tokens as both Sass variables and utility classes to match the syntax they already thought in. This came out of the monthly FE meetings, not a top-down decision.
 
@@ -83,7 +83,7 @@ Pipeline: Token Studio, Style Dictionary, GitHub. The foundation came from my Ab
 
 ---
 
-## Slide 4-OLD — Applied lesson [SKIP]
+## Slide 4-OLD: Applied lesson [SKIP]
 
 **Headline:** What I decided not to build, and why
 
@@ -106,7 +106,7 @@ The comparison with Abacum isn't just "smaller team, smaller system." It's the s
 
 ---
 
-## Slide 5-OLD — Speaking the same language [SKIP]
+## Slide 5-OLD: Speaking the same language [SKIP]
 
 **Headline:** Tokens exported as Sass variables and utility classes
 
@@ -121,7 +121,7 @@ This decision came out of the monthly FE meetings. Not top-down. The engineers t
 
 ---
 
-## Slide 6-OLD — Pipeline [SKIP]
+## Slide 6-OLD: Pipeline [SKIP]
 
 **Headline:** Token Studio → Style Dictionary → GitHub → Vuetify / Storybook
 
@@ -130,7 +130,7 @@ This decision came out of the monthly FE meetings. Not top-down. The engineers t
 **Speaker notes:**
 The token architecture had three tiers. A branding collection with two variables (the two brand colors). A core collection of 417 primitives: the full color spectrum, spacing, border-radius, and raw typography values. A product collection of 189 semantic tokens covering color, space, and domain-specific surfaces: rankings, tiers, progress indicators, table cell spacing, nine data visualization palettes.
 
-Variables handled the token layer — color, spacing, and all domain-specific surfaces. Token Studio reads variables directly, so the pipeline was built on variables. Text styles and elevation effect styles (S/M/L) existed alongside the variable system: typography and elevation were defined as Figma styles and consumed directly by components. The two coexisted; the pipeline owned the color and spacing layer, styles owned typography and elevation.
+Variables handled the token layer: color, spacing, and all domain-specific surfaces. Token Studio reads variables directly, so the pipeline was built on variables. Text styles and elevation effect styles (S/M/L) existed alongside the variable system: typography and elevation were defined as Figma styles and consumed directly by components. The two coexisted; the pipeline owned the color and spacing layer, styles owned typography and elevation.
 
 The pipeline foundation came from my Abacum work. I brought it in; the engineers adapted it to Remuner's stack (Vuetify, Sass variables). That's the honest version of what I own and what the team did.
 
@@ -138,7 +138,7 @@ The pipeline at this point was functional. But it wasn't trustworthy. What happe
 
 ---
 
-## Slide 7 — The production incident
+## Slide 7: The production incident
 
 **Headline:** The token repo was production infrastructure. I didn't treat it that way.
 
@@ -153,7 +153,7 @@ The immediate fix was straightforward: recover the file, push a fix. But the str
 
 ---
 
-## Slide 8 — What hardened the pipeline
+## Slide 8: What hardened the pipeline
 
 **Headline:** CI enforcement, drift detection, and a preview sandbox
 
@@ -170,7 +170,7 @@ I used AI as an implementation accelerator, but ownership stayed mine: defining 
 
 ---
 
-## Slide 9 — Governance
+## Slide 9: Governance
 
 **Headline:** Monthly FE meetings as the operating mechanism
 
@@ -185,9 +185,11 @@ The ranking tokens show how this worked in practice. The first implementation us
 
 The same pattern applied to components. The Select component was replaced with a new implementation. The old one still exists as a dedicated page labeled "DEPRECATED → Select", kept in place so any engineer still referencing it can find it. Consistent principle across both layers: nothing disappears quietly; it gets marked first.
 
+Between meetings, engineers and the product team logged component problems and inconsistencies on a Notion page I set up, so the components kept being iterated instead of waiting a month for the next meeting. (How many issues were logged isn't recorded; don't give a number.)
+
 ---
 
-## Slide 10 — The product audit
+## Slide 10: The product audit
 
 **Headline:** Systematic capture of every pattern, running alongside product work
 
@@ -200,9 +202,11 @@ The deferral judgment is where most of the work was. Not every inconsistency was
 
 The audit board doubled as the adoption tracker: 10 of the product's 18 core screens were fully on system components by the time I left, and the count grew every month as refactors were absorbed into feature work.
 
+The board lived in Notion, and two checks in the code fed it. A lint rule flagged styles that bypassed the tokens, and a script counted which components each template used. I ran the script every week, set each screen's status from its counts and my review, and brought the results to the monthly meeting. The lint rule started strict, and engineers ended up fixing old code just to get changes through, so we loosened it to block only new violations. Old code got fixed when feature work reached it, the same fix-now-or-defer call the audit made for components. (The team built the rule and the script; the weekly results aren't recoverable, so describe the mechanism, never a trend.)
+
 ---
 
-## Slide 11 — Outcome [NEW]
+## Slide 11: Outcome [NEW]
 
 **Headline:** Three outcomes. Each in production, not just in Figma.
 
@@ -213,17 +217,17 @@ The CTO said "from a 2010 app to a 2020 app" unprompted during a review after th
 
 Three concrete outcomes behind it.
 
-Delivery speed. The system covered 54 component families with a full domain-specific layer: 21 chart types, card variants named for product personas, tier and progress states, nine data visualization palettes. In library terms: 161 component sets, around 1,600 variants, 630 token variables, and 157 icons in their own repository. Every screen that used those components skipped the rebuild-from-scratch cycle. [NEEDS INPUT: one specific feature that shipped faster because a DS component existed.]
+Delivery speed. The system covered 54 component families with a full domain-specific layer: 21 chart types, card variants named for product personas, tier and progress states, nine data visualization palettes. In library terms: 161 component sets, around 1,600 variants, 630 token variables, and 157 icons in their own repository. Every screen that used those components skipped the rebuild-from-scratch cycle. [This bucket shows coverage, not measured speed. If asked "how much faster?", say it wasn't measured: in Figma it was your impression as sole designer; point to the 10 of 18 screens and the Select rollout.] [NEEDS INPUT: one specific feature that shipped faster because a DS component existed.]
 
 Engineering consistency. Token enforcement via CI and a lint rule, loosened to block only new violations. Hardcoded hex in a PR became a caught violation, not a shipping inconsistency. Engineers started calling tokens by name in code reviews: "color-text-primary" instead of "#2D2D2D". That shift is behavioral, not cosmetic.
 
-Organizational scalability. A new designer joined late in my tenure, built a screen fast, and flagged where the system fell short instead of working around it. New engineers inherited a shared contract instead of the fragmented patterns that existed on day one.
+Organizational scalability. A designer and a PM joined in my last months, and both worked from the component library. The designer built a screen fast and flagged where the system fell short instead of working around it. New engineers inherited a shared contract instead of the fragmented patterns that existed on day one.
 
 One thing I'd do differently: harden the pipeline before something breaks. The CI infrastructure came from a production incident. The learning is correct; the timing shouldn't have required an outage.
 
 ---
 
-## Slide 11-OLD — Outcome [SKIP]
+## Slide 11-OLD: Outcome [SKIP]
 
 **Headline:** "From a 2010 app to a 2020 app" (CTO, unprompted)
 
@@ -254,11 +258,11 @@ One thing I'd do differently: harden the pipeline proactively, before something 
 
 ---
 
-## Slide 12 — For this role [NEW]
+## Slide 12: For this role [NEW]
 
 **Headline:** How this maps to Factorial's spinoff
 
-**Visual:** Two-column layout: left — operating principles from Remuner; right — how each maps to Factorial's domain (inventory, MDM, ticketing, onboarding workflows, analytics).
+**Visual:** Two-column layout: left, operating principles from Remuner; right, how each maps to Factorial's domain (inventory, MDM, ticketing, onboarding workflows, analytics).
 
 **Speaker notes:**
 The products are different. The operating model is the same.
@@ -285,15 +289,21 @@ The founding designer job at Remuner wasn't to make the product look good. It wa
 Harden the pipeline earlier. I treated the token repo as a design asset for too long before I understood it needed to be governed as infrastructure. The production incident accelerated work that should have been built into the initial setup.
 
 **"How did you balance DS work with product delivery?"**
-The start-small approach was the mechanism. Rather than building a complete system before shipping anything, I built the minimum viable token set and governance structure, then extended it as product work revealed gaps. The monthly FE meetings kept it from drifting without requiring dedicated allocation.
+The start-small approach was the mechanism. Rather than building a complete system before shipping anything, I built the minimum viable token set and governance structure, then extended it as product work revealed gaps. The monthly FE meetings kept it from drifting without requiring dedicated allocation. Between meetings, a lint rule that blocked only new token violations and a weekly component count kept the audit board current, so drift showed up without anyone stopping feature work to look for it.
 
 **"How did this connect to business outcomes?"**
 A DS at a startup with a growing engineering team is a velocity investment. Without it, every new feature is designed and built as a one-off, and each new engineer extends the inconsistency. With it, there's a shared contract that reduces decision overhead on every screen. The CTO's comment points to something beyond velocity. The product was visibly coherent in a way it hadn't been, which matters for enterprise sales.
 
-Note (updated 2026-07-08, metrics now available and verifiable from artifacts Manel owns): adoption is 10 of 18 core screens fully on system components at departure, tracked on the audit board and growing monthly. Scale: 161 component sets and ~1,600 variants in the Figma library, 630 token variables (417 primitive, 189 semantic), 157 icons in the icons repo, 84 commits and 14 reviewed PRs to the token repo over 21 months. If asked how adoption was measured (updated 2026-10-30, see `evidence/experience-facts.md`, adoption measurement): the audit board in Notion was the tracker. The team built a token-compliance lint rule and a script that counted component usage in templates. I ran the script weekly, and each screen's status on the board came from those counts plus my review. The results went to the monthly FE meeting through Notion. (The lint tool was engineering's choice and isn't recorded; say "lint rule".) The rule started strict, but it forced engineers to fix old code, so we loosened it to a ratchet: only new violations failed. Old code got fixed when feature work reached it, the same rule as the audit's fix-now-or-defer call. The weekly data isn't recoverable, so describe the mechanism, not a trend. On Figma speed, say plainly it was my impression as sole designer and wasn't measured. Never claim npm "releases" (the repo has no version tags; say token updates or commits) and never claim an ESLint violation trend. The CTO quote and the behavioral signals remain the qualitative anchors on top of the numbers.
+Note (updated 2026-07-08, metrics now available and verifiable from artifacts Manel owns): adoption is 10 of 18 core screens fully on system components at departure, tracked on the audit board and growing monthly. Scale: 161 component sets and ~1,600 variants in the Figma library, 630 token variables (417 primitive, 189 semantic), 157 icons in the icons repo, 84 commits and 14 reviewed PRs to the token repo over 21 months. If asked how adoption was measured (updated 2026-10-30, see `evidence/experience-facts.md`, adoption measurement): the audit board in Notion was the tracker. The team built a token-compliance lint rule and a script that counted component usage in templates. I ran the script weekly, and each screen's status on the board came from those counts plus my review. The results went to the monthly FE meeting through Notion. (The lint tool was engineering's choice and isn't recorded; say "lint rule".) The rule started strict, but it forced engineers to fix old code, so we loosened it to a ratchet: only new violations failed. Old code got fixed when feature work reached it, the same rule as the audit's fix-now-or-defer call. The weekly data isn't recoverable, so describe the mechanism, not a trend. On Figma speed, say plainly it was my impression as sole designer and wasn't measured. Never claim npm "releases" (the repo has no version tags; say token updates or commits) and never claim a lint violation trend. The CTO quote and the behavioral signals remain the qualitative anchors on top of the numbers.
 
 **"What's the difference between what you built here and at Abacum?"**
 Scale, constraints, and approach. Abacum: co-led a business case, worked with an engineering team that built the original pipeline, governed across five squads. Remuner: sole designer, adapted and owned the pipeline, smaller token scope by design. The same principles, applied with the constraints of a smaller team and a narrower budget. And a harder lesson learned about the difference between infrastructure that's functional and infrastructure that's trustworthy.
 
+**"Did the system serve more than the product?"** (added 2026-10-30, see `evidence/experience-facts.md`, marketing website library)
+Yes, the marketing website. It used the same core tokens as the app plus its own semantic layer, so the site's colours matched the product. I built a separate Figma library for it and used it to design pages and hand them off to the agency that built the WordPress site. I owned the tokens and the exports, and the agency had to use the tokens. It built its own components on its side, and those weren't a design system. I kept the marketing library in sync by hand whenever a core token changed. I also built a template kit so the marketing team could publish LinkedIn posts without me. Same brand on both, so never call it multi-brand or white-label theming. No counts of pages, assets or time saved.
+
+**"How did you handle accessibility?"** (added 2026-10-30)
+I normalised the palette in HSL with the Figma MCP, then ran contrast checks and brought the colours the product used to WCAG AA. In components, errors carry a message as well as the red border, so they don't rely on colour alone, and in some cases I made sure states were readable by screen readers. Be straight about the limit: field focus was a border-colour change, while buttons had a separate focus ring. Never claim full screen-reader, keyboard or WCAG 2.2 conformance, and never quote ratios for the muted and action text colours (darkened after the Figma file was last saved; shipped values not remembered).
+
 **"How does this apply to Factorial?"**
-The spinoff context maps directly to Remuner: no prior designer, no infrastructure, greenfield product in a complex operational domain. The difference is I'd apply the same principles faster and with more confidence — and I'd harden the pipeline as part of the initial setup rather than after an incident forces it.
+The spinoff context maps directly to Remuner: no prior designer, no infrastructure, greenfield product in a complex operational domain. The difference is I'd apply the same principles faster and with more confidence, and I'd harden the pipeline as part of the initial setup rather than after an incident forces it.

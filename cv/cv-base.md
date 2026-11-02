@@ -1,6 +1,7 @@
 # CV — Base (working draft)
 # Revised 2026-10-10; languages line added and SELECTED WORK block and case links removed 2026-10-19 (links go in the letter or form). Sources: established CV structure, evidence/experience-facts.md, and Manel’s role-scope clarification.
 # Working draft for review; not a submitted CV.
+# 2026-10-30: Abax adoption outcome added to the Abacum entry (47% of all tracked component uses, 80% goal on the same count; evidence register, Abax measurement). The Base PDF predates it.
 # Lead: complex B2B product design across data, financial modeling, and sales-compensation workflows.
 # Scope revised 2026-10-06 from Manel’s direct clarification, corroborated by the Figma inventory.
 # Plain text below the line, ready for Figma paste. PDF exported 2026-10-20 to cv-pdf-to-send/Base/ (passes check-pdf-text --source); header and dates mirror it. Manel's decision 2026-10-20: keep the "Design Systems" subtitle and no case link in the base.
@@ -42,7 +43,7 @@ Led design and customer testing for Dataset Manager, translating JSON configurat
 
 Led research and design for a consistent formula language, using customer evidence and competitor benchmarking to shape syntax decisions with Engineering.
 
-Co-led the Abax design-system business case with the head of design and worked on token architecture, components, governance, and the engineering pipeline across five squads.
+Co-led the Abax design-system business case with the head of design and worked on token architecture, components, governance, and the engineering pipeline across five squads. Abax reached about 47% of component uses at departure, against an 80% goal.
 
 
 Kings of Mambo, Co-founder, UX Design Lead

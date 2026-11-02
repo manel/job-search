@@ -88,10 +88,10 @@ That distinction mattered more than I expected. Before Maker Days, working on th
 
 **Headline:** Two decisions made early that constrained everything that followed
 
-**Visual:** Diagram of two-tier token architecture: primitive layer (raw values: colors, spacing) + semantic layer (contextual names: color-text-primary, space-component-padding). Below it: MUI component library as base. Success criteria annotated: 80% of new UI from Abax components, 100% MUI deprecation where equivalents existed.
+**Visual:** Diagram of two-tier token architecture: primitive layer (raw values: colors, spacing) + semantic layer (contextual names: color-text-primary, space-component-padding). Below it: MUI component library as base. Success criteria annotated: Abax at 80% of all component uses, reached through reworks, iterations and new features; 100% MUI deprecation where equivalents existed.
 
 **Speaker notes:**
-Two decisions shaped the whole build. We also defined success criteria before starting: 80% of new UI built from Abax components, 100% deprecation of legacy MUI in areas where equivalents existed. Having the criteria set upfront gave us a way to measure adoption that engineering could track themselves rather than taking our word for it.
+Two decisions shaped the whole build. We also defined success criteria before starting: Abax at 80% of all component uses in the codebase, reached as squads reworked screens, iterated or built new features, and 100% deprecation of legacy MUI in areas where equivalents existed. Having the criteria set upfront gave us a way to measure adoption that engineering could track themselves rather than taking our word for it.
 
 First: keep MUI as the base component library rather than building from scratch. All five squads were already on MUI. Replacing it meant rewriting every component across all five squads — with no immediate product benefit, requiring a level of engineering buy-in we didn't have, and impossible to scope into the Maker Days quarters we were working in. The constraint wasn't just that it would take longer. It was that the ask had to be achievable in increments the team could justify. Building on MUI made each quarter's work shippable.
 
@@ -176,7 +176,7 @@ These are the decisions that determine whether a DS actually gets used. They don
 **Speaker notes:**
 By the end of my time at Abacum, Abax covered all five squads. Adoption was enforced at the linting layer, not on trust. Storybook deployed in Chromatic gave engineering a running reference that stayed in sync with the library.
 
-Tracking against the success criteria put new UI built from Abax components at around 47% when I left, measured by counting Abax against legacy MUI components in the codebase. Short of the 80% target and still climbing; migration sat in the squads' own backlogs, not with a central team. Two of the five squads had completed the form element migration, and a third was mid-migration.
+When I left, Abax accounted for around 47% of all tracked components in the codebase, counting every Abax and legacy MUI use. The goal was 80% of that same count. Short of the target and still climbing; token violations and old components were replaced as sprints and new features reached them; migration sat in the squads' own backlogs, not with a central team. Two of the five squads had completed the form element migration, and a third was mid-migration.
 
 [NEEDS INPUT: One concrete before/after that shows what the DS enabled. Something like: "New engineers joining could ship their first UI component in a day rather than spending the first week understanding what pattern to follow across five squads." Or a feature that shipped noticeably faster. What's one real example you remember?]
 
@@ -198,7 +198,7 @@ Name the read-only state debate. Two sides with legitimate reasoning. Resolution
 Five squads maintaining independent components means a shared UI change happens five times, with a real chance of subtle inconsistency across implementations. The DS doesn't eliminate that cost immediately, but it caps its growth. And the ESLint enforcement means it doesn't degrade over time under deadline pressure. For customers, a consistent product surface signals a product worth trusting — which is a sales and retention argument, not just an aesthetics one.
 
 **"How did you measure adoption?"**
-By counting Abax against legacy MUI components in the codebase, against the criteria set upfront: 80% of new UI from Abax components, 100% MUI deprecation where equivalents existed. The last reading I carry is around 47% of new UI from Abax when I left, still climbing. The raw exports aren't something I can produce today. Never claim an ESLint violation count or trend; violations only surfaced as editor tooltips and were never aggregated.
+(Updated 2026-10-30, see `evidence/experience-facts.md`, Abax measurement.) In code and in Figma. In code, the front-end engineers' monthly scripts counted every Abax and legacy MUI component use; the last reading was around 47% Abax, against a goal of 80% of that full count, still climbing. In Figma, I ran a script every week on the ready-for-dev frames. It counted Abax instances against total layers, and layers named like an Abax component that weren't instances, which flagged likely detaches. We didn't run a clean-up push: token violations and old components were replaced as sprints and new features reached them. The raw exports aren't something I can produce today, so describe the mechanism, not a trend. Never claim an ESLint violation count or trend; violations only surfaced as editor tooltips and were never aggregated.
 
 **"What was your specific contribution vs the team's?"**
 Co-led the business case with the head of design. Drove the two-library Figma structure and the governance process. Defined the token naming conventions. I didn't build the original pipeline — an engineer did. I owned what happened inside it: the governance, the contribution process, the decision-making on tensions.

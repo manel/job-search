@@ -1,8 +1,8 @@
 ---
 company: CloudTalk
 role: Senior Product Designer (Remote in Europe)
-status: applied
-status_verified_on: 2026-10-02
+status: rejected
+status_verified_on: 2026-10-29
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-10-16
@@ -12,11 +12,11 @@ application_channel: direct
 warm_path: unknown
 portfolio_version: unknown
 applied_on: 2026-10-02
-last_contact_on: 2026-10-02
-outcome_stage: no-response
-rejection_reason_class: none
-next_action: Await an employer response; review status if none has arrived
-next_action_on: 2026-10-16
+last_contact_on: 2026-10-29
+outcome_stage: cv-review
+rejection_reason_class: generic
+next_action: None. Closed by employer; no chase. Reapply only to a different CloudTalk role.
+next_action_on: 2026-10-29
 salary_stated: EUR 65,000 gross annual
 job_url: https://apply.workable.com/cloudtalk/j/2B7FA6A0F6
 source: Exact official CloudTalk Workable posting and live application form checked 2026-10-02; live portfolio cases; Career OS evidence register
@@ -113,3 +113,4 @@ The application was confirmed submitted on 2026-10-02. The exact submitted files
 - 2026-10-02: Exact official posting, live application fields, and three live portfolio cases assessed. Decision set to Proceed at high priority, subject to compensation and cooperation-model checks. No materials prepared, form completed, outreach sent, or application submitted.
 - 2026-10-02: Prepared a tailored CV and cover letter as Markdown source. The CV leads with the Abacum design system, keeps the Remuner AI-agent and verified AI-assisted workflow evidence visible, and describes the mobile product accurately as responsive web shipped through iOS and Android webview apps. No PDF generated, form completed, outreach sent, or application submitted.
 - 2026-10-02: Manel confirmed that the direct Workable application was submitted with EUR 65,000 gross annual as the compensation expectation. Exact submitted files, PDF QA, cooperation answer, portfolio version, and receipt details remain unconfirmed. Status changed to applied; review on 2026-10-16 if no response has arrived.
+- 2026-10-29: Rejected by Workable template email (CloudTalk Talent Acquisition), 27 days after applying, at application review. Generic reason ("experience more closely matches what we need"), no feedback, no human contact. No nudge is recorded for the 2026-10-16 follow-up date. Status changed to rejected; source: ATS email supplied by Manel.

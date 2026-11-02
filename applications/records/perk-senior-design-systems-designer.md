@@ -1,8 +1,8 @@
 ---
 company: Perk (formerly TravelPerk)
 role: Senior Design Systems Designer
-status: rejected
-status_verified_on: 2026-10-26
+status: interviewing
+status_verified_on: 2026-11-02
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-10-19
@@ -12,11 +12,11 @@ application_channel: referral
 warm_path: Tanna Schumacher, Product Designer at Perk; Manel's former student (LABASAD Sketch course, around 2018), 1st-degree LinkedIn connection; replied 2026-10-23 (refers only if not yet applied); told of the 21 Oct application and sent the CV 2026-10-24; named as the connection on the form; 2026-10-25 said she will ask internally on Mon 26 Oct and that she had been covering this position herself; submitted the referral in Ashby 2026-10-26. Tim Archer, Senior Content Design Manager at Perk, 2nd-degree, posted the role on LinkedIn 2026-10-20. Xavi Francisco left Perk around 2026-09-28
 portfolio_version: Design Systems case (manel-leiva.com/cases/design-systems)
 applied_on: 2026-10-21
-last_contact_on: 2026-10-26
-outcome_stage: cv-review
-rejection_reason_class: generic
-next_action: Rejected 2026-10-26 (generic Ashby template). Thank Tanna on LinkedIn for the referral and ask, without pressure, whether she can find out why it didn't go through. Record any answer here. No reapplication to this req
-next_action_on: 2026-10-27
+last_contact_on: 2026-11-02
+outcome_stage: recruiter-screen
+rejection_reason_class: none
+next_action: Await Clare Watts's calendar invite for the 15-minute TA call (availability sent 2026-11-02 for 5, 6, 9 and 10 Nov). When booked, record date and time and run /prep-interview perk screen. If no invite by 4 Nov, reply to Clare's email to check. Optional short LinkedIn note to Tanna that Perk invited you to a call
+next_action_on: 2026-11-04
 salary_stated: EUR 65,000 gross annual base (form field, 2026-10-21; no range published)
 job_url: https://jobs.ashbyhq.com/Perk/78dafbf1-0f6d-46b7-b71a-2c59f7af31cf
 source: Perk Ashby job board API, fetched 2026-10-19 (published 2026-10-15; London, with Barcelona as a secondary location; hybrid, three days in office)
@@ -102,3 +102,6 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 - 2026-10-25: Tanna replied on LinkedIn (Spanish): thanks, she will ask on Monday (26 Oct); she had been covering the position Manel applied for. Meaning not clarified (likely interim DS work on Suitcase). If the process advances, she is the best informal source on Suitcase's current state.
 - 2026-10-26: Tanna confirmed on LinkedIn that she submitted the referral ("ya te hice el referral, al menos nos aseguramos de que leen tu CV"). Same morning, Ashby email from Perk Talent Team (no-reply@ashbyhq.com), "Confirmation of Your Referral to Perk": referred for a position, application received and under review. The email names no role; this is the only open Perk application, so it is taken to be this one. Channel changed to referral. Follow-up dates reset from the referral date: nudge 2026-11-09, LinkedIn 2026-11-16, stale 2026-11-30.
 - 2026-10-26: Rejected. Ashby template email from Perk Talent Team (no-reply@ashbyhq.com), 14:26, "Thank You for Your Interest in the Senior Design Systems Designer Role": moving forward with candidates whose backgrounds "better match this role". No feedback, no interview. Arrived the same day as the referral confirmation, five days after applying. Rejection reason class: generic. Salary not cited and not to be assumed as the cause. Follow-up dates cancelled.
+- 2026-11-02: Rejection reversed. Clare Watts (Senior Talent Acquisition Partner, clare.watts@perk.com) emailed at 14:04, subject "Perk Interview Request", inviting Manel to a 15-minute Talent Acquisition call for the Senior Design Systems Designer role: background, motivation for the role, team and culture. Scheduling via Ashby link (https://you.ashbyhq.com/meeting/dad1a549-0f51-45e5-ae40-045393ddac51/); slots not yet picked. No mention of the 26 Oct rejection. Inference, not confirmed: Tanna's referral got the CV a human read after the template cut. Status changed to interviewing, outcome stage to recruiter-screen, rejection reason class to none. Source: email pasted by Manel. EUR 65,000 is already on the form: expect the recruiter to anchor on it; follow `context/salary.md` if asked again.
+- 2026-11-02 (logged late): Manel sent Tanna the thank-you on LinkedIn on Wed 2026-10-28, 11:12, as drafted in `outreach/perk-tanna-schumacher-2026-10-19.md`: thanks for the referral, the rejection arrived that afternoon, and a no-pressure ask for why. No reply on record. Inference, not confirmed: she may have raised it internally, which would explain the reversal. Source: screenshot supplied by Manel.
+- 2026-11-02: Manel submitted availability in Clare's Ashby scheduling link: Thu 5, Fri 6, Mon 9 and Tue 10 Nov, each 9:00-13:00 and 14:30-17:00. Time zone not shown on the screen; taken to be Madrid time (inference). Awaiting the calendar invite. Source: screenshot supplied by Manel.

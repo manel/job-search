@@ -1,0 +1,115 @@
+# Wizeline UX interview: Remuner DS case deck (talk track)
+
+Deck: Figma file "Remuner DS", one slide row (19 Figma slides plus two skipped originals at the end: deck slide 3 is five builds, deck slide 5 is four, deck slide 7 is three; builds use smart animate with earlier items dimmed). Built 2026-10-27; rebuilt the same day for strategy and JD coverage. Slide 5 updated 2026-10-29 with the marketing library.
+Slot: 15 minutes per David Ho's email (STAR: situation, task, actions, outcomes; role and team; no long paragraphs, no small assets). The 25-minute whiteboard follows, so don't run over.
+Every figure below was checked against the Figma files on 2026-10-27 or against `evidence/experience-facts.md`.
+
+The slides carry one point each. The detail is here, said aloud.
+
+| # | Slide | Time | Say |
+|---|---|---|---|
+| 1 | Cover | 0:20 | I was Remuner's only designer. This is the design system I built while still doing all the product work. |
+| 2 | Situation | 1:15 | Every engineer had their own components, with Vuetify defaults filling the gaps. Point at the audit: text ran from 9px to 25px, and there were values like 22.0099px. There were no Figma components. |
+| 3 | The constraint (5 builds, 4 clicks) | 1:30 | Click on each need as you name it, then once more for the decision. Three needs competed for my hours: features that couldn't stop, no system, and a team going from 2 to 5 engineers who would copy whatever already existed. My call was to build the system inside feature work. Then the ownership split: I owned the brief, the libraries, the tokens repo and the audit. Engineers adapted the pipeline and built the components in code. |
+| 4 | Prioritisation | 2:00 | Foundations first, because every component depended on them. Then the most-used components, which here were forms: TextField, Textarea, Select. The Select audit showed selects and autocompletes mixed together, so Autocomplete came next. Dark mode and motion were deferred because no screen needed them. |
+| 5 | Architecture | 1:55 | One core of 417 primitives in one repo, which I owned. The app has its own semantic layer (189 tokens) and 161 component sets, including a domain layer for ranking, tiers and the IC and manager widgets. The marketing site used the same core with its own semantic layer. I ran the exports, and the agency injected them into WordPress. The marketing site also had its own Figma library on the same core: buttons, form fields, page sections. I designed pages with it for the agency, and they had to use the tokens. I also built LinkedIn templates on it so the marketing team could publish without me. Typography switches by mode for desktop and mobile. This is the bridge to multi-brand: a brand would be another semantic layer or mode over the same core. Both products were one brand, so say that. |
+| 6 | Select end to end | 2:00 | No standard Select existed. I audited every instance and turned the requirements into one component: 131 variants and 13 props named like the code, covering rest, hover, focus and disabled, plus error and multiple. It went in screen by screen as features reached each screen, for example the permissions screen. I wrote the tickets with the spec and where to apply it. The old one stayed on a "DEPRECATED -> Select" page, marked, so engineers could still find it. Autocomplete shares almost all of Select's props (state, size, orientation, multiple); one name differs, `hasInfo` against `infoVisual`, so don't say "identical". |
+| 7 | Accessibility | 1:30 | The base colours were inherited and I built the ramps. I normalised them in HSL with the Figma MCP. Text and icon colours meet AA (ratios on the slide, measured 2026-10-29). Where AA and harmony clashed, AA won. Helper text and links were the last ones, darkened before I left. Errors carry a message, not just a red border, and some components were checked with screen readers. Say "AA" and "some", and stop there. The original slide 7 is skipped in Figma (its focus claim was wrong for fields). |
+| 8 | Adoption and governance | 2:05 | The loop: audit, ticket, feature work, monthly front-end meeting. A lint rule (loosened to block only new violations) and a weekly component count fed the audit board. Nothing was removed silently: the ranking tokens are still in the file marked "TO DELETE". The mistake: I deleted a token file the app used and caused a short outage. In February 2026 I hardened the repo with Codex, with an engineer reviewing every step. If I did it again, CI on the tokens repo from the first commit. |
+| 9 | Outcome | 1:30 | 10 of 18 core screens when I left in March 2026, tracked on the audit board. Then the three buckets. Close on the CTO quote. |
+| 10 | Handover | 0:30 | A designer and a PM joined in my last months and worked from the library. I set up a Notion page where engineers and product logged inconsistencies and problems, so the team could keep iterating the components. Then hand over to the whiteboard. |
+
+Total: 14:35, which leaves 25 seconds of slack.
+
+## JD coverage
+
+| JD | Slide |
+|---|---|
+| Building and refining components for edge cases, accessibility and multi-brand | 6, 7 |
+| Organising Figma libraries for other designers | 5 (marketing library and templates used by the marketing team), plus 10 (a designer and a PM who joined late worked from the library; Notion page for feedback) |
+| Tokens and variables for theming and multi-brand | 5 |
+| Linking the core system to product-area libraries | 5 (core, then product semantic, then domain components) |
+| Documentation | Say it on 6: docs and a Storybook view per component were generated with the Figma MCP. Not on a slide. |
+| WCAG in components | 7 |
+| Design to code | 3, 5, 6 |
+| Versioning and contribution | 8 |
+| AI tooling | 7, 8 (one line each) |
+
+## Limits (from the register)
+
+- No npm releases and no ESLint violation trend. "14 reviewed PRs" means PRs to the tokens repo. The number of app PRs isn't recorded.
+- Variants: Select has 131 and the library has 1,438 (counted 2026-10-27). The old deck's "around 1,600" isn't supported.
+- Screen readers: "in some cases" only. No keyboard or WCAG 2.2 conformance claim.
+- Multi-brand: never say you shipped it. The marketing site is the same brand.
+- Marketing library (added 2026-10-29): the agency used the tokens because you required it, and built its own components, which weren't a design system. Never say the live site ran on your components. No count of pages, assets or time saved.
+- Marketing sync: the marketing Figma file holds its own local copy of the core tokens; it doesn't link to the app library. If asked how core changes reached it: "By hand. Every time a core token changed, I updated the marketing library. Changes came often at first, then the core stabilised." If they push, the better setup is one published core library both files consume; say you'd do that now.
+- The faster-shipped feature is still missing (NEEDS YOUR STORY). If they ask for a delivery-speed example, say you don't have a measured one and point to the 10 of 18 screens and the Select rollout.
+
+## Visual sources
+
+- Slide 2 audit: Core file, Typography page, "Audit" section.
+- Slide 6: Components file, "DEPRECATED -> Select" page (before) and the Select set, top rows (after).
+- Slide 7 ramps: Core file, Color page, "Spectrum v2", Brand and UI rows. These are the current ramps, not a before/after. Ratios: tokens bound in Select and TextField, Components file, measured on white 2026-10-29. Error field: TextField hasError="Yes", text filled in for the slide. In that file, helper text (#909DA3, 2.8:1) and links (#1594D1, 3.4:1) still fail; Manel fixed them later, values not remembered, so never quote ratios for them.
+
+## Speaker notes to paste into Figma
+
+The Figma plugin API can't write Slides speaker notes, so paste these by hand. Text in [brackets] is an action. Don't read it aloud.
+
+**Figma 1 (Cover)**
+I was Remuner's only designer. I built this design system while I did all the product work.
+
+**Figma 2 (Situation)**
+Every front-end engineer had built their own components. Vuetify defaults filled the gaps. [Point at the audit.] Text ran from 9px to 25px, with values like 22.0099px. There were no components in Figma.
+
+**Figma 3 (Constraint)**
+I had three needs and the same hours for all of them. [Click as you name each one.]
+
+**Figma 4**
+First, features couldn't stop.
+
+**Figma 5**
+Second, there was no system.
+
+**Figma 6**
+Third, the team was growing from 2 to 5 engineers. New people would copy whatever already existed.
+
+**Figma 7**
+[Click.] So I built the system inside feature work. I owned the brief, the Figma libraries, the tokens repo and the audit. Engineers adapted the token pipeline and built the components in code.
+
+**Figma 8 (Prioritisation)**
+I started with foundations, because every component depended on them. Then I built the components every screen used. Here that meant forms: TextField, Textarea and Select. The Select audit showed selects and autocompletes mixed together, so Autocomplete came next. I left dark mode and motion for later. No screen needed them yet.
+
+**Figma 9 (Architecture, build 1: core)**
+Everything starts from one core: 417 primitives in one repo, which I owned. [Click.]
+
+**Figma 10 (Architecture, build 2: app)**
+The app has its own semantic layer of 189 tokens and 161 component sets. Some of those are domain components, like ranking, tiers and the IC and manager widgets. [Click.]
+
+**Figma 11 (Architecture, build 3: marketing)**
+The marketing website had its own semantic layer on the same core. [Point at the core.] I ran the token exports, and the agency put them into WordPress. I also built a Figma library for the website, with buttons, form fields and page sections. I designed pages with it for the agency, and they had to use the tokens. Then I made LinkedIn templates, so the marketing team could publish without me. [Click.]
+
+**Figma 12 (Architecture, build 4: full picture)**
+Typography changes by mode: titles are 32px on desktop and 22px on mobile. A new brand would be one more semantic layer on this core. [Say clearly that both products were the same brand. Don't call it multi-brand.]
+
+**Figma 13 (Select)**
+There was no standard Select. Each screen had its own. I audited every instance and turned what I found into one component: 131 variants and 13 props, named like the code. [Point at the props panel.] These are the same names as in the code and in the Storybook view I generated for it. It went in screen by screen, as features reached each screen. The permissions screen is one example. I wrote the tickets with the spec and where to use it. I kept the old one on a page marked "DEPRECATED", so engineers could still find it. [If asked about Autocomplete: it shares almost all of Select's props. Don't say identical.]
+
+**Figma 14 (Accessibility, build 1: ramps)**
+The base colours were inherited, and I built the shade ramps. I used the Figma MCP to normalise them in HSL. When AA and visual harmony clashed, I chose AA. [Click.]
+
+**Figma 15 (Accessibility, build 2: contrast)**
+Text and icon colours meet AA. [Point at the ratios.] Helper text and links were the last ones. I darkened them to AA before I left. [Don't quote ratios for helper text or links.] [Click.]
+
+**Figma 16 (Accessibility, build 3: states)**
+Errors don't rely on colour alone. [Point at the error field.] They show a message, not just a red border. I checked some components with screen readers. [If asked about focus: buttons have a focus ring; on fields, focus is a border colour change.]
+
+**Figma 17 (Adoption and governance)**
+The system grew through a loop: audit, ticket, feature work, and a monthly meeting with the front-end team. Nothing was removed without warning. [Point at the "Nothing removed silently" line.] Old tokens and the old Select stayed in the files, marked, until we agreed to remove them. The old ranking tokens are still in the file, marked "TO DELETE".
+Two checks in the code fed the audit board. A lint rule flagged styles that bypassed the tokens, and a script counted the components each template used. I ran it every week. The lint rule started strict, and engineers had to fix old code just to ship a change, so we loosened it to block only new violations. [Added 2026-10-30. Say "the team built" the rule and script; never name the lint tool; no trend or counts.]
+I made one real mistake. I deleted a token file the app still used, and it caused a short outage. In February 2026 I hardened the repo with Codex. An engineer reviewed every step. If I did it again, I'd put CI on the tokens repo from the first commit.
+
+**Figma 18 (Outcome)**
+When I left in March 2026, 10 of 18 core screens used system components. I tracked that on the audit board, from the weekly component count and my own review of each screen. [If asked about speed: not measured. In Figma it was your impression as sole designer.] [Walk through the three buckets.] [Close on the CTO quote.]
+
+**Figma 19 (Handover)**
+In my last months, a new designer and a PM joined. Both worked from the component library. I set up a Notion page where engineers and the product team logged inconsistencies and problems, so we could keep improving the components. [Hand over to the whiteboard.]

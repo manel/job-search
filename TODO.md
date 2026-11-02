@@ -12,16 +12,12 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 ## This week
 
-- [ ] **Wizeline UX interview, Fri 30 Oct 17:00: build the deck and canvas by Tue 27 Oct.** Brief done: `interviews/wizeline/wizeline.md`, Round 2. To do: cut `interviews/decks/case-deck-design-systems-remuner.md` to seven slides, adding the WCAG AA palette slide. Manel to supply: one feature that shipped faster because a component existed; a palette before/after or contrast visual from Figma; confirmation on LinkedIn that both interviewers work at Wizeline. The palette visual also unblocks the Remuner case additions below.
-  - [ ] Reply-all to David Ho's 23 Oct email: confirm the slot and say the whiteboard will be in a Figma file (decided 2026-10-24 over FigJam: DS panel, likely component or token prompt, shows tool fluency and covers multi-brand live). If they name another tool, rework the canvas plan.
-  - [ ] Build the whiteboard Figma Design file: empty framing sections (problem, constraints, users and consumers, options, decision, open questions).
-  - [ ] Add a sticky-note component and a connector style to it, so rough capture is as fast as FigJam.
-  - [ ] Add a starter kit: primitive and semantic token collection with two brand modes, plus two or three base components (button, input).
-  - [ ] Run one mock DS prompt in the file against a 25-minute timer; tighten the setup if FigJam habits slow you down.
-  - [ ] Test screen-sharing the Figma file in Google Meet.
-  - [ ] Update the Round 2 canvas plan in `interviews/wizeline/wizeline.md` and the record's `next_action` from FigJam to Figma.
+- [x] **Wizeline UX interview held 30 Oct.** Debrief in `interviews/wizeline/wizeline.md`. No whiteboard; the canvas sub-tasks are moot.
+- [x] **Wizeline UX interview passed 2 Nov** at Level 4 (David Ho email).
+- [ ] **Wizeline client interview prep by Wed 4 Nov.** Build the "what I bring to the client" pitch (the gap the UX panel named) and run `/prep-interview wizeline`. Slot pending from David Ho; ask for the timeline if nothing by Mon 16 Nov.
 
-- [ ] **Remuner DS case additions: approve and apply.** Drafts in `context/remuner-case-additions-2026-10-20.md` (palette HSL normalisation and WCAG AA, own front-end PRs, Figma MCP with Storybook views, stack row). Manel to approve the wording and say whether a palette visual exists; then edit the case in `portfolio/`, commit there, update the pointer, and ask before pushing.
+- [x] **Remuner DS case additions: applied and pushed 2026-10-30 (portfolio 8c6ffdb).** Drafts in `context/remuner-case-additions-2026-10-20.md` (palette HSL normalisation and WCAG AA, own front-end PRs, Figma MCP with Storybook views, stack row). Manel to approve the wording and say whether a palette visual exists; then edit the case in `portfolio/`, commit there, update the pointer, and ask before pushing.
+- [ ] **LinkedIn Abacum entry (deferred 2026-10-30).** Add the Abax outcome (about 47% of component uses at departure, against an 80% goal) and apply the co-led wording from `context/linkedin.md`; Manel pastes it live, then update that file.
 
 - [ ] **Abacum front-end PRs: details for the Abax case.** Recorded as a plain fact 2026-10-20. Ask Manel: part of the MUI-to-Abax migration or general cleanup; roughly how many; reviewed and merged by engineers; any AI tools. Then decide whether it goes into "Making adoption stick" in `portfolio/public/cases/design-systems.html`.
 
@@ -44,14 +40,14 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 ## Design-systems lane review
 
-Raised 2026-10-26 after the Perk DS rejection at CV review (zero interviews from DS-titled roles at product companies; see memory.md 2026-10-26). The gaps below are inference, not employer feedback. Do this before the next DS-titled application, or once OLX Otodom (Oct) and Stripe DS resolve.
+Raised 2026-10-26 after the Perk DS rejection at CV review (zero interviews from DS-titled roles at product companies; see memory.md 2026-10-26). The gaps below are inference, not employer feedback. Do this before the next DS-titled application, or once Stripe DS resolves. OLX Otodom (Oct) resolved 2026-10-29: rejected at CV review again. Perk reversed its rejection on 2026-11-02 with a TA call invite after Tanna's referral, so the Perk data point now argues for referrals, not against the DS CV.
 
 - [ ] **DS reads as secondary on the CV.** Both titles are Senior Product Designer and the Abacum entry opens on Integrations and Engine. Reorder bullets in the DS CV so system work leads; keep the scope paragraphs.
 - [ ] **Accessibility nearly absent.** Add the Remuner palette line (HSL normalisation, in-use colours to WCAG AA) once the case-additions draft is approved. Keyboard and screen-reader work stays unclaimed.
 - [ ] **No visual foundations evidence.** The CV is all architecture and tooling. Check what else is claimable (type scale, iconography, motion) in `evidence/experience-facts.md`; ask Manel, don't invent.
 - [ ] **Scale and native mobile.** Largest system served five squads; mobile is the Remuner webview. Not fixable by writing: decide whether to keep applying to large multi-platform DS teams (Perk, OLX, Bitpanda, Hostaway shape) or retarget to web-first B2B SaaS where one senior PD builds and runs the system. Record the decision in `context/target-roles.md`.
 - [ ] **Smaller factors to check:** the visible gap since March 2026; React expectations in DS JDs (production React not claimable).
-- [ ] **Real signal:** record any answer from Tanna on why Perk passed (`applications/records/perk-senior-design-systems-designer.md`).
+- [ ] **Real signal:** Perk reopened 2026-11-02 (TA call invite). If Manel advances, ask Clare or Tanna what moved the CV after the template rejection (`applications/records/perk-senior-design-systems-designer.md`).
 
 ## Interview prep (yours to write)
 

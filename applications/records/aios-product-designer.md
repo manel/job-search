@@ -1,8 +1,8 @@
 ---
 company: AIOS Medical
 role: Product Designer
-status: applied
-status_verified_on: 2026-10-21
+status: rejected
+status_verified_on: 2026-10-27
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-10-21
@@ -12,11 +12,11 @@ application_channel: direct
 warm_path: unknown
 portfolio_version: 2026-10-21
 applied_on: 2026-10-21
-last_contact_on:
-outcome_stage: awaiting-response
-rejection_reason_class: none
-next_action: If no response, send one short status nudge via the Ashby/email channel; LinkedIn outreach to Ryan Wu (Head of Product Design) 2026-11-11; stale 2026-11-25. At first human exchange ask the base salary range and base/equity split, product allocation (clinical/internal tools vs consumer mobile), Spain engagement model and US-time-zone overlap
-next_action_on: 2026-11-04
+last_contact_on: 2026-10-26
+outcome_stage: application-screen
+rejection_reason_class: generic
+next_action: None. Closed.
+next_action_on:
 salary_stated: Not asked on the form; none stated. Employer advertises USD 90,000-150,000 including equity, with no base/equity split
 job_url: https://jobs.ashbyhq.com/aios/781c4075-21bc-4c06-ba74-9c8f2a7a3cfc
 source: Exact official AIOS Ashby posting and live application form checked 2026-10-02; live portfolio cases; Career OS strategy and evidence register
@@ -30,7 +30,7 @@ source: Exact official AIOS Ashby posting and live application form checked 2026
 
 This is not a clean fit. AIOS says mobile-app work is a major focus, while Manel's confirmed mobile evidence is a responsive web product shipped through iOS and Android webview wrappers, not native-mobile product craft. The posting also spans both clinical software and a consumer-facing app without saying which product this hire would own. The fit is materially stronger if the role is primarily clinical software or internal tools; it becomes a weaker, lower-priority opportunity if it is mainly consumer-mobile execution.
 
-Applied 2026-10-21 via Ashby (see Prepared materials).
+Applied 2026-10-21 via Ashby (see Prepared materials). Rejected 2026-10-26 at the application screen (Ashby template, no feedback).
 
 ## Strong matches
 
@@ -104,3 +104,4 @@ An answer to `Why are you interested in joining Aios Medical?` is visible but no
 - 2026-10-21: Manel confirmed genuine interest and will apply (income-first priority since 2026-10-11). Status in-progress. Posting pasted by Manel the same day: page heading now reads "$100-200k/yr inc equity" while the compensation section still states USD 90,000-150,000 including equity. Treat the higher figure as unconfirmed; ask for the base range at first contact.
 - 2026-10-21: Posting confirmed live on the AIOS Ashby board API (listed, published 2026-06-23; title now carries "$100-200k/yr inc equity"). A separate Web Designer posting (USD 75-150K inc equity) exists; not assessed. Tailored CV and letter drafted; not submitted.
 - 2026-10-21: First paragraph of the letter revised at Manel's request ("I spent four years" replaced with "My recent work has been", to avoid reading as junior). Manel confirmed submission via Ashby the same day, with the letter text (greeting and sign-off removed) in the optional "Why are you interested in joining Aios Medical?" field. Portfolio field entry not separately confirmed (planned: manel-leiva.com/cases/dataset-manager). No salary asked. Status applied. Follow-up: nudge 2026-11-04, LinkedIn 2026-11-11, stale 2026-11-25.
+- 2026-10-26: Rejected by Ashby template email (no-reply@ashbyhq.com, "there isn't a fit at this time"), five days after applying. Generic reason, no feedback; no human contact at any stage. Inference, not confirmed: the mobile-app emphasis (major focus in the posting; Manel's mobile evidence is webview only) is the likeliest filter. Status rejected, closed. Recorded 2026-10-27 from the email Manel supplied.

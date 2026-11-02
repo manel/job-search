@@ -1,8 +1,8 @@
 ---
 company: OLX (Otodom)
 role: Senior Design System Designer (re-opened; Remote Spain)
-status: applied
-status_verified_on: 2026-10-19
+status: rejected
+status_verified_on: 2026-10-29
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-10-19
@@ -12,11 +12,11 @@ application_channel: direct
 warm_path: none recorded for Otodom; Daria outreach noted (unconfirmed) on the concurrent OLX AI-native application
 portfolio_version: live site 2026-10-19
 applied_on: 2026-10-19
-last_contact_on:
-outcome_stage: no-response
-rejection_reason_class: none
-next_action: Nudge if silent (10 business days); LinkedIn outreach 2026-11-09; stale 2026-11-23. Before any interview: conflict-resolution and contribution-model stories, AI sandbox challenge prep, Figma MCP examples
-next_action_on: 2026-11-02
+last_contact_on: 2026-10-29
+outcome_stage: cv-review
+rejection_reason_class: generic
+next_action: None. Closed. Do not reapply to this Otodom role; feeds the DS lane review in TODO.md
+next_action_on:
 salary_stated: Unknown; not reported by Manel at submission (guidance was EUR 65,000 if asked)
 job_url: https://jobs.eu.lever.co/olx/a266bdf7-de7e-4310-ae1e-96b317bd939c
 source: OLX Lever API, both postings fetched 2026-10-19. Remote Spain a266bdf7 created 2026-10-08; Barcelona 78e773da ("Design System Designer") created 2026-07-27. Same description. The original req 46650794 now returns 404.
@@ -72,3 +72,4 @@ Senior. The body says "Senior Product Designer" on the design-system team. It is
 - 2026-10-19: Vacancy rechecked (open). CV and cover letter prepared.
 - 2026-10-19: Salary guidance if the form asks: EUR 65,000 gross annual (top of the observed Spain band; large company, specialist DS scope). The figure entered on the concurrent OLX AI-native application is unknown (Manel does not remember); if Talent notices a difference, the two roles have different scope.
 - 2026-10-19: Applied via Lever to the Remote Spain posting a266bdf7 (Manel confirmed). Sent PDFs: `cv-pdf-to-send/OLX Otodom (DS) 2026-10/`. Letter does not mention the July application. Follow-up: nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
+- 2026-10-29: Rejected by Lever template email from OLX Talent Acquisition, ten days after applying. Generic reason ("this particular role isn't the right match at this time"), no feedback, no human contact. Second rejection at CV review for the same role (first 2026-08-04), despite the portfolio additions since July. The email offers a consent link to keep details on file; not recorded as given. Follow-up dates cleared.

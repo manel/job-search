@@ -182,3 +182,23 @@ Already settled at the screen: Level 4 entry EUR 49K, which you called aligned. 
 ### After the call
 
 Run `/debrief-interview wizeline ux-interview` the same evening.
+
+### Debrief (2026-10-30)
+
+Source: Manel's account after the call.
+
+**Format as run**
+- Case presentation given (Remuner deck). No whiteboard challenge: the panel used that time to look at how Manel's files were structured. Manel showed examples of implementation files.
+
+**Feedback given in the call**
+- The presentation was good.
+- They wanted to see how the components were built following atomic design. Manel answered by opening the files and walking through them.
+- Missing from the presentation: what Manel would bring to the table. The next round is a meeting with the client, and the panel said that part matters because clients want proof of why they should hire a designer.
+
+**Prep vs. what came up**
+- Not covered by the prep: a live walkthrough of the Figma file and component construction (atomic design), and a client-facing value pitch.
+- The whiteboard canvas prepared for this round went unused.
+
+**Process**
+- Decision expected within two days at most (by Mon 2 Nov).
+- Next round, if passed: client meeting. No news on when; the client's hiring freeze (reported 23 Oct) was not addressed.
