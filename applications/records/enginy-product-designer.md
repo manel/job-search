@@ -5,7 +5,7 @@ status: interviewing
 status_verified_on: 2026-10-22
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-10-19
+posting_checked_on: 2026-11-03
 fit_decision: proceed
 role_lane: mixed
 application_channel: direct
@@ -85,6 +85,7 @@ Jaume Puig, Enginy's CTO and co-founder, publicly promoted the vacancy and asked
 - **Saul Villa**, Manager, Talent Acquisition at Enginy since Feb 2026 (previously ~4 years recruiting at N26, latterly Executive Talent Partner). Runs the 26 Oct screen. 23 mutual LinkedIn connections, including a Sergi and a Sergio (not yet identified). Source: LinkedIn profile pasted by Manel, 2026-10-22.
 - **Diogo Rendeiro**, headline "creating magical tools that help sales reps win". About a month before 2026-10-22 he posted that he is hiring a maker-mindset designer at Enginy ("push PRs, not pixels", "Design Engineer / Product Builder", pods led by product engineers or product designers, "Onsite in sunny Barcelona", "Shipped a PR last week? DM me"). Saul reposted it. **Inference:** likely the hiring manager or design lead for this role; title not confirmed. No contact yet.
 - **Damián Rodrígues**, Senior Product Designer at Enginy (2nd-degree connection). Posted around 2026-10-21 that the Senior Product Designer opening is still open, with a deck on how he works day to day. Likely a peer on the team and possibly in a design round (inference). No contact yet.
+- **Kai Brandt**, CEO at Enginy (per his byline on the pampam.city "Barcelona-based Startups in 2026" list, fetched 2026-11-04; title from that byline only). Possibly the stage-4 final interviewer (inference, see 2026-10-26 entry). No contact yet.
 
 ## How the design team works (Damián Rodrígues's deck, posted ~2026-10-21)
 

@@ -114,6 +114,12 @@ Rehearse the primary answer out loud until it sounds like a fact, not a wound. T
 
 ---
 
+## "What have you been doing since March?"
+
+Confirmed by Manel 2026-11-03: deepening his Claude and Figma MCP work, plus occasional freelance work. Lead with the MCP work when the role names AI or MCP tooling. Freelance clients, scope and dates are not recorded; don't add detail beyond what Manel gives on the call.
+
+---
+
 ## Opening intro
 
 ### Who I am

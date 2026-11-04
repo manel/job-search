@@ -1,11 +1,11 @@
 ---
 company: WhiteTech
 role: Senior Product Designer
-status: applied
-status_verified_on: 2026-10-02
+status: stale
+status_verified_on: 2026-11-03
 status_confidence: confirmed
-posting_status: open
-posting_checked_on: 2026-10-16
+posting_status: closed
+posting_checked_on: 2026-11-03
 fit_decision: proceed
 role_lane: mixed
 application_channel: direct
@@ -15,8 +15,8 @@ applied_on: 2026-10-02
 last_contact_on: 2026-10-02
 outcome_stage: no-response
 rejection_reason_class: none
-next_action: Await an employer response; review status if none has arrived
-next_action_on: 2026-10-16
+next_action: None
+next_action_on:
 salary_stated: Unknown; the form required gross monthly EUR expectations, but the submitted answer was not confirmed
 job_url: https://job-boards.eu.greenhouse.io/whitetech/jobs/4987197101
 duplicate_job_url: https://jobs.lever.co/jobgether/ce267460-c258-4c82-a45d-fa787b92116c
@@ -131,3 +131,4 @@ Manel confirmed that the direct WhiteTech application was submitted on the morni
 - 2026-10-02: Kept verified AI-tool use visible in the CV experience and skills through the concrete Codex-assisted, engineering-reviewed token-pipeline example. Removed it from the summary because it is supporting evidence rather than the primary positioning. Added a rule preventing relevant AI-assisted workflow evidence from being lost during future tailoring. No application submitted.
 - 2026-10-02: Assessed Jobgether Lever posting `ce267460-c258-4c82-a45d-fa787b92116c`. Its responsibilities, requirements, and distinctive benefits match the direct WhiteTech vacancy closely enough to treat it as an anonymized duplicate rather than a new role. Fit remains Proceed at high priority, but use the direct WhiteTech Greenhouse route and do not submit a second application through Jobgether. No application submitted.
 - 2026-10-02: Manel confirmed that he submitted the direct WhiteTech application that morning. Status changed to applied; exact submitted files, salary and other form answers, PDF QA, and receipt details remain unknown. The duplicate Jobgether route was explicitly changed to Skip / do not proceed.
+- 2026-11-03: Posting found closed (Greenhouse API) on 2026-11-03 with no employer response since the 2026-10-02 application. Manel set the record to stale. Not a rejection; vacancy outcome unknown.

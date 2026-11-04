@@ -13,6 +13,8 @@ next_action: Review whether a brief follow-up is useful if no update arrives; re
 next_action_on: 2026-11-03
 salary_stated:
 job_url: https://jobs.haddock.app/jobs/8110363-senior-product-designer-b2b-saas
+posting_status: open
+posting_checked_on: 2026-11-03
 source: Ingrid Cesáreo email dated 2026-10-09 at 16:24, supplied by Manel on 2026-10-12; Google Calendar booking confirmation supplied by Manel on 2026-09-29; interview invitation from Ingrid Cesáreo supplied by Manel on 2026-09-29; Teamtailor submission confirmation supplied by Manel
 ---
 

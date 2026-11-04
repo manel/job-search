@@ -16,18 +16,25 @@ initial location/relevance check has passed.
 
 ## Refresh the company universe
 
-Download the current upstream `companies.csv`, then run:
+Since 2026-11 the upstream publishes JSON, not `companies.csv`. Clone or pull
+the upstream repo, then point the script at its `data/` directory:
 
 ```sh
+git clone https://github.com/pugarte7/spanish-top-tech-companies.git /tmp/sttc
 python3 scripts/build-company-watchlist.py \
-  --input /path/to/companies.csv \
+  --input /tmp/sttc/data \
   --overrides sourcing/company-overrides.csv \
   --output sourcing/company-watchlist.csv
 ```
 
-The upstream compensation figures are reports for software engineers in Spain.
-They are retained only as a company-level compensation signal. They are not
-Product Designer salary evidence.
+`careers_url` comes from the override first, then from upstream `boards.json`
+(Greenhouse, Ashby, Lever, Workday and others). A company that drops out of the
+upstream list stays only if it has an override or an application record.
+
+The engineering columns are software engineer pay at that company, a
+company-level signal only. `designer_median_base_eur` is Product Designer pay at
+that company, often from very few salaries. Spain-wide Product Designer bands
+from the same source are in `context/salary.md`.
 
 ## Automated scan
 

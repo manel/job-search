@@ -5,17 +5,17 @@ status: interviewing
 status_verified_on: 2026-11-02
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-10-19
+posting_checked_on: 2026-11-03
 fit_decision: proceed
 role_lane: design-systems
 application_channel: referral
 warm_path: Tanna Schumacher, Product Designer at Perk; Manel's former student (LABASAD Sketch course, around 2018), 1st-degree LinkedIn connection; replied 2026-10-23 (refers only if not yet applied); told of the 21 Oct application and sent the CV 2026-10-24; named as the connection on the form; 2026-10-25 said she will ask internally on Mon 26 Oct and that she had been covering this position herself; submitted the referral in Ashby 2026-10-26. Tim Archer, Senior Content Design Manager at Perk, 2nd-degree, posted the role on LinkedIn 2026-10-20. Xavi Francisco left Perk around 2026-09-28
 portfolio_version: Design Systems case (manel-leiva.com/cases/design-systems)
 applied_on: 2026-10-21
-last_contact_on: 2026-11-02
+last_contact_on: 2026-11-04
 outcome_stage: recruiter-screen
 rejection_reason_class: none
-next_action: Await Clare Watts's calendar invite for the 15-minute TA call (availability sent 2026-11-02 for 5, 6, 9 and 10 Nov). When booked, record date and time and run /prep-interview perk screen. If no invite by 4 Nov, reply to Clare's email to check. Optional short LinkedIn note to Tanna that Perk invited you to a call
+next_action: Brief ready (interviews/perk/perk.md, written 2026-11-03). Rehearse the "why Suitcase" answer out loud before the TA Preliminary on Thu 5 Nov, 15:30-15:55 Madrid, Clare Watts, Google Meet. Run /debrief-interview perk "TA Preliminary" right after
 next_action_on: 2026-11-04
 salary_stated: EUR 65,000 gross annual base (form field, 2026-10-21; no range published)
 job_url: https://jobs.ashbyhq.com/Perk/78dafbf1-0f6d-46b7-b71a-2c59f7af31cf
@@ -105,3 +105,8 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 - 2026-11-02: Rejection reversed. Clare Watts (Senior Talent Acquisition Partner, clare.watts@perk.com) emailed at 14:04, subject "Perk Interview Request", inviting Manel to a 15-minute Talent Acquisition call for the Senior Design Systems Designer role: background, motivation for the role, team and culture. Scheduling via Ashby link (https://you.ashbyhq.com/meeting/dad1a549-0f51-45e5-ae40-045393ddac51/); slots not yet picked. No mention of the 26 Oct rejection. Inference, not confirmed: Tanna's referral got the CV a human read after the template cut. Status changed to interviewing, outcome stage to recruiter-screen, rejection reason class to none. Source: email pasted by Manel. EUR 65,000 is already on the form: expect the recruiter to anchor on it; follow `context/salary.md` if asked again.
 - 2026-11-02 (logged late): Manel sent Tanna the thank-you on LinkedIn on Wed 2026-10-28, 11:12, as drafted in `outreach/perk-tanna-schumacher-2026-10-19.md`: thanks for the referral, the rejection arrived that afternoon, and a no-pressure ask for why. No reply on record. Inference, not confirmed: she may have raised it internally, which would explain the reversal. Source: screenshot supplied by Manel.
 - 2026-11-02: Manel submitted availability in Clare's Ashby scheduling link: Thu 5, Fri 6, Mon 9 and Tue 10 Nov, each 9:00-13:00 and 14:30-17:00. Time zone not shown on the screen; taken to be Madrid time (inference). Awaiting the calendar invite. Source: screenshot supplied by Manel.
+- 2026-11-02 (15:06): Clare Watts emailed the booking, subject "Perk | Video Interview for Manel | Senior Design Systems Designer": "TA Preliminary", Thu 2026-11-05, 15:30-15:55 Europe/Madrid, interviewer Clare Watts (Senior Talent Acquisition Partner), Google Meet https://meet.google.com/oue-gzhv-jni. She asked Manel to reply to the email and accept the calendar invite to confirm. The slot is 25 minutes, not the 15 in her first email. Source: email pasted by Manel.
+- 2026-11-03: Prep brief for the TA Preliminary written in `interviews/perk/perk.md` (Suitcase section). Gap flagged: no prepared answer to "what have you been doing since March". Reply to Clare and invite acceptance still not recorded.
+- 2026-11-03: JD rechecked via the Ashby API: still open, and a second Senior Design Systems Designer posting exists (published 2026-10-21; location not checked). The JD names Code Connect ("Experience prototyping with AI tools and with Storybook, Code Connect and MCP tooling"). Manel gave the since-March answer (Claude and Figma MCP work, occasional freelance); added to the brief and `interviews/prep.md`.
+- 2026-11-04 (logged late): Manel replied to Clare on Mon 2026-11-02, 16:18, and accepted the calendar invite: "Thanks for setting this up. I've accepted the calendar invite for Thursday 5 November at 15:30 Madrid time. Looking forward to talking with you." Booking confirmed. Source: email pasted by Manel.
+- 2026-11-04: Tanna replied on LinkedIn to the 28 Oct thank-you: "que pena, voy a intentar buscar quien pasa el primer filtro, probablemente HR". She had not heard of the reversal. Manel replied the same day that Talent had invited him to a first call (tomorrow), that he hadn't mentioned it to avoid adding noise, so she no longer needs to ask, and thanked her for the referral (text in `outreach/perk-tanna-schumacher-2026-10-19.md`). Her message suggests she did not raise the rejection internally before the reversal; what moved the CV is still unknown.

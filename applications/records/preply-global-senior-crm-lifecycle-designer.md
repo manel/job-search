@@ -5,7 +5,7 @@ status: in-progress
 status_verified_on: 2026-10-19
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-10-19
+posting_checked_on: 2026-11-03
 fit_decision: proceed (low priority; reversed from skip 2026-10-19)
 role_lane: lifecycle-marketing
 application_channel: direct

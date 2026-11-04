@@ -12,9 +12,9 @@ Dates are mirrored in each record's `next_action_on`. Ranking: fit strength, pos
 
 1. **Tue 20 Oct, unblock:** follow-ups (WhiteTech; CloudTalk rejected 29 Oct; RemoFirst rejected 23 Oct; Enginy screen done 26 Oct, next steps due 27 Oct); warm asks (Lucia for Factorial, Murphy founder; Perk DS rejected 26 Oct, reversed 2 Nov with a TA call invite, Tanna thanked 28 Oct); agency questions (Menna at Senovo: client and rate; Babel rejected 22 Oct); Wizeline UX interview passed 2 Nov (L4), client interview slot pending; export the base CV PDF.
 2. **Tailored, about two a day:** Perk (applied 2026-10-21, rejected 26 Oct, TA call invite 2 Nov) → Markin (23) → Stripe Global (24) → Rover (24). LearnWise, Hostinger, Flodesk and OLX Otodom were pulled forward and sent 2026-10-19 (OLX Otodom rejected 29 Oct).
-3. **Light, week of 27 Oct:** Blacklane, Punto Health, iLovePDF (27) → Glovo Order Tracking, Preply CRM, SlashMobility (28).
+3. **Light, week of 27 Oct:** Blacklane, Punto Health, iLovePDF (27) → Preply CRM, SlashMobility (28). Glovo Order Tracking closed 3 Nov.
 4. **Minimal, base CV:** Extia, Pasiona (29), after the client-name check; Senovo only if the rate works. One agency per client.
-5. **Recheck vacancy first (27 Oct):** New Relic (last checked 1-2 Oct). Tether applied 2026-10-21 (AIOS rejected 26 Oct).
+5. **Recheck vacancy first (27 Oct):** New Relic (last checked 1-2 Oct). Tether applied 2026-10-21, stale 3 Nov (AIOS rejected 26 Oct).
 
 ## Ready to apply
 
@@ -36,7 +36,6 @@ Proceed; application materials have not been prepared. Recheck the vacancy befor
 - [SlashMobility (Mango), Senior Product Designer](records/slashmobility-senior-product-designer-mango.md): proceed, low priority; reversed from the July skip on 2026-10-19. Consultancy placement on Mango internal and B2B tools (stores, franchises, employees), Barcelona hybrid. Lean application; ask pay, contract and duration early.
 - [Factorial, Founding Product Designer](records/factorial-founding-product-designer.md): proceed through a warm route only, assessed 2026-10-19. New startup inside Factorial (workflows, policies, analytics), Barcelona office, EUR 45-82K. Two Factorial rejections in two months, so message recruiter Lucia Lorenzo Santos first; no cold application.
 - [Preply, Global Senior CRM & Lifecycle Designer](records/preply-global-senior-crm-lifecycle-designer.md): proceed, low priority; reversed from skip on 2026-10-19. The must-have now accepts product experience and Manel confirmed interest. Barcelona hybrid, open since July. Frame as product thinking across journey and lifecycle; no CRM results to claim.
-- [Glovo, Staff Product Designer, Order Tracking](records/glovo-staff-product-designer-order-tracking.md): proceed, low priority, assessed 2026-10-19, pending genuine interest (failed for Glovo in July). Multi-brand order tracking across Delivery Hero apps; 5+ years bar; "app experience essential" is the gap (Remuner app is a webview).
 - [Markin, Product Designer](records/markin-product-designer.md): proceed, assessed 2026-10-19. On-site Barcelona (accepted). B2B enterprise growth platform with AI agents; end-to-end flows and design system. Unlevelled title, no published range: ask early. The form needs a CV link and a required "Why Markin" answer.
 
 - [New Relic, Principal Product Designer](records/new-relic-principal-product-designer.md): proceed as a credible Principal-level stretch at medium-high priority. Strong AI-product, complex B2B, and design-system alignment; organization-wide Principal scope and designer mentoring are the main evidence gaps. No materials prepared or application submitted.
@@ -53,19 +52,16 @@ Resolve the stated next step before investing further. A Proceed assessment can 
 
 ## Confirmed active
 
-- [Perk, Senior Design Systems Designer (Suitcase)](records/perk-senior-design-systems-designer.md): **interviewing.** The 26 Oct template rejection was reversed: Clare Watts (Senior TA) invited Manel to a 15-minute TA call on 2 Nov, likely via Tanna's referral. EUR 65,000 stated. Tanna thanked 28 Oct. Availability sent 2 Nov (5, 6, 9, 10 Nov). **Next: await the invite, then `/prep-interview perk screen`; check with Clare 4 Nov if nothing arrives.**
+- [Perk, Senior Design Systems Designer (Suitcase)](records/perk-senior-design-systems-designer.md): **interviewing.** The 26 Oct template rejection was reversed: Clare Watts (Senior TA) invited Manel to a 15-minute TA call on 2 Nov, likely via Tanna's referral. EUR 65,000 stated. Tanna thanked 28 Oct and told of the TA call 4 Nov. TA Preliminary confirmed (reply sent and invite accepted 2 Nov): **Thu 5 Nov, 15:30-15:55 Madrid**, Clare Watts, Google Meet. **Brief ready (`interviews/perk/perk.md`). Next: rehearse "why Suitcase"; debrief after the call.**
 - [Nebius, Senior Product Designer, Compute, Nebius Console](records/nebius-senior-product-designer-compute-console.md): applied 2026-10-28 via Greenhouse (Remote - Europe), Dataset Manager lead. Ask the range and confirm Spain eligibility at first contact. Nudge 2026-11-11, LinkedIn 2026-11-18, stale 2026-12-02.
-- [Tether, Senior Product Designer (Wallets)](records/tether-senior-product-designer-wallets.md): applied 2026-10-21 via Recruitee (remote worldwide); USD 80,000 stated; answers and video were Manel's own. Ask the engagement model (employee, EOR or contractor) at first contact. Nudge 2026-11-04, LinkedIn 2026-11-11, stale 2026-11-25.
 - [Enginy, Senior Product Designer](records/enginy-product-designer.md): **interviewing.** Applied directly 2026-09-15, EUR 62,000 stated. Recruiter screen with Saul Villa done 26 Oct: band EUR 50-60K + 10% bonus, 48 WFH days a year (60 from 2027). Next stages: take-home design test, VP of Product, final round. Take-home started 29 Oct: redesign Social Selling in the repo `~/Dev/social-selling-take-home-manel`, 6-8 h, plus PROPOSAL.md. Claude Code API key received from Saul 2 Nov; his "back in 7 days" would mean Mon 9 Nov, which conflicts with the README's Thu 5 Nov. **Next: confirm receipt to Saul and ask which date applies; work to Thu 5 Nov until he answers.**
-- [Wizeline, Senior Product Designer - Barcelona Hybrid](records/wizeline-senior-product-designer-barcelona-hybrid.md): **interviewing, UX interview passed 2 Nov at L4.** Next round: client interview, slot pending from David Ho (client hiring was on hold). Panel gap to close: "what you bring to the table". Level 4 entry EUR 49K, non-negotiable; hybrid 2-3 days at the client (Poblenou). **Next: build the client pitch and run /prep-interview by Wed 4 Nov; ask David for the timeline if no slot by Mon 16 Nov.**
+- [Wizeline, Senior Product Designer - Barcelona Hybrid](records/wizeline-senior-product-designer-barcelona-hybrid.md): **interviewing, UX interview passed 2 Nov at L4.** Next round: client interview, slot pending from David Ho (client hiring was on hold). Format per David: portfolio, the presentation (Remuner deck) and usual interview questions. Panel gap to close: "what you bring to the table". Level 4 entry EUR 49K, non-negotiable; hybrid 2-3 days at the client (Poblenou). **Next: build the client pitch and run /prep-interview by Wed 4 Nov; ask David for the timeline if no slot by Mon 16 Nov.**
 - [Flodesk, Web System Designer, Brand](records/flodesk-web-system-designer-brand.md): applied 2026-10-19 via Greenhouse with one-page portfolio PDF; no salary asked (range 50-65K). Nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
 - [LearnWise, Senior UI/UX Designer](records/learnwise-senior-ui-ux-designer.md): applied 2026-10-19 via careers form, EUR 62,000 stated (range 55-65K). Nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
-- [Hostinger, Product Designer (remote)](records/hostinger-product-designer.md): applied 2026-10-19 via Ashby, EUR 5,000/month stated (employer starts at 4,500). Nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
 - [Stripe, Product Designer, Design Systems](records/stripe-product-designer-design-systems.md): applied 2026-09-28, retrospectively confirmed by Manel on 2026-10-13; awaiting employer response. Exact submitted files, answers, channel, portfolio version, PDF QA and receipt details remain unconfirmed. Vacancy last checked 2026-09-28.
 
 - [OLX, Senior Product Designer](records/olx-senior-product-designer-ai-native.md): submission confirmed by Manel on 2026-10-13; awaiting employer response. Exact submitted files, form answers, portfolio version, PDF QA, and receipt details remain unconfirmed. Daria outreach not confirmed sent.
 
-- [WhiteTech, Senior Product Designer](records/whitetech-senior-product-designer.md): direct Greenhouse application confirmed submitted on 2026-10-02; awaiting an employer response. Exact submitted files, salary and other form answers, PDF QA, and receipt details remain unconfirmed. Skip the duplicate Jobgether route.
 - [PromoFarma / DocMorris, Product Designer (E-commerce)](records/promofarma-product-designer-ecommerce.md): applied 2026-10-16 on the Head of Product's recommendation; EUR 38,000 stated; Workday acknowledgment received; HoP notified and passed it to the right person. Nudge Talent Acquisition on 2026-10-30 if nothing arrives.
 - [Bunge, Senior User Experience Designer](records/bunge-senior-user-experience-designer.md): candidate portal confirmed on 2026-09-22 that the profile is still being considered; no direct employer response received.
 
@@ -73,7 +69,6 @@ Resolve the stated next step before investing further. A Proceed assessment can 
 
 Employer has paused progression for Manel without communicating a final rejection. Conditional reconsideration is not a scheduled next step.
 
-- [DuckDuckGo, Senior Product Designer, Design Systems](records/duckduckgo-senior-product-designer-design-systems.md): deferred by Manel 2026-10-21 (stretch: consumer-brand and native-platform gaps; Spain eligibility unconfirmed). Posting live, USD 178.5K. Revisit 2026-10-28.
 
 - [Haddock, Senior Product Designer B2B SaaS](records/haddock-senior-product-designer-b2b-saas.md): first interview completed 2026-10-08. Ingrid's 2026-10-09 email says they are advancing with other candidates and may reconsider profiles like Manel's if those do not fit. She also announced two weeks away from “la semana del 16”; no response deadline promised. [Reply drafted](../outreach/haddock-ingrid-process-update-2026-10-12.md), sending unconfirmed. Internal review 2026-11-03.
 
@@ -130,12 +125,20 @@ Not being pursued under the recorded decisions. Prepared historical materials do
 - [Bitpanda, Senior Product Designer — Advanced Trading](records/bitpanda-senior-product-designer-advanced-trading.md): rejected before interview on 2026-06-08 with no specific feedback.
 - [Factorial, Senior / Staff Product Designer (IT spinoff)](records/factorial-senior-staff-product-designer-it-spinoff.md): rejected after three rounds on 2026-07-02; specific feedback concerned vision and impact thinking in the live challenge.
 
+## Stale
+
+- [WhiteTech, Senior Product Designer](records/whitetech-senior-product-designer.md): applied 2026-10-02, no response; posting closed by 2026-11-03. Set stale 2026-11-03.
+- [Hostinger, Product Designer (remote)](records/hostinger-product-designer.md): applied 2026-10-19, no response; posting closed by 2026-11-03. Set stale 2026-11-03.
+- [Tether, Senior Product Designer (Wallets)](records/tether-senior-product-designer-wallets.md): applied 2026-10-21, no response; posting closed by 2026-11-03. Set stale 2026-11-03.
+
 ## Unverified application provenance
 
 - [SweepTech, Senior Product Designer](records/sweeptech-senior-product-designer.md): email supplied on 2026-10-03 reports position filled, but Manel does not remember applying. No prior record or submission evidence found; sender identity and application route unverified. Check for a submission receipt or application-history entry before counting as a confirmed rejection.
 
 ## Vacancy closed before a decision or submission
 
+- [Glovo, Staff Product Designer, Order Tracking](records/glovo-staff-product-designer-order-tracking.md): posting closed by 2026-11-03, never submitted.
+- [DuckDuckGo, Senior Product Designer, Design Systems](records/duckduckgo-senior-product-designer-design-systems.md): posting closed by 2026-11-03 while deferred, never submitted.
 - [Moniepoint, Senior Product Designer — Design System](records/moniepoint-senior-product-designer-design-system.md): applied 2026-09-15; posting removed by 2026-10-16 with no human response. Remaining DS openings are a Nigeria repost and a manager role (skip). No next action.
 - [eDreams ODIGEO, Senior Product Designer, Conversational Service Design](records/edreams-senior-product-designer-conversational-service-design.md): applied 2026-09-10; posting and all designer openings removed by 2026-10-16 with no employer response. No next action.
 - [Finom, Senior Product Designer](records/finom-senior-product-designer.md): vacancy delisted without an application response; not an employer rejection.

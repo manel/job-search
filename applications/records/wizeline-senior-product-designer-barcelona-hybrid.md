@@ -5,7 +5,7 @@ status: interviewing
 status_verified_on: 2026-11-02
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-10-19
+posting_checked_on: 2026-11-03
 fit_decision: proceed
 role_lane: design-systems
 application_channel: direct
@@ -15,7 +15,7 @@ applied_on: 2026-10-19
 last_contact_on: 2026-11-02
 outcome_stage: design-interview # UX interview passed 2 Nov at Level 4; next round is the client interview, slot not yet set (client hiring was on hold)
 rejection_reason_class: none
-next_action: Build the "what I bring to the client" pitch the UX panel said was missing and run /prep-interview wizeline for the client interview; don't wait for the slot. If David Ho has sent no slot by Mon 16 Nov, ask him for the client's timeline.
+next_action: Build the "what I bring to the client" pitch the UX panel said was missing and run /prep-interview wizeline for the client interview (format per David 2 Nov - portfolio, the presentation, usual interview questions); don't wait for the slot. If David Ho has sent no slot by Mon 16 Nov, ask him for the client's timeline.
 next_action_on: 2026-11-04
 salary_stated: 2026-10-23 recruiter screen, asked first: "around 50-55" (EUR K gross annual), with a request for their range. Wizeline stated Level 4 (Senior) entry EUR 49K gross, no negotiation, plus EUR 100/month hybrid allowance and EUR 220/month meal card
 job_url: https://www.wizeline.ai/careers/job/?gh_jid=7384390
@@ -101,3 +101,4 @@ The official Greenhouse application is open. Required candidate fields are CV, L
 - 2026-10-27: UX interview deck built in Figma ("Remuner DS" file, row "Wizeline: Remuner DS case", 10 slides for the 15-minute slot). Figures checked against the Core and Components files: 630 variables (417/189/2/22), 161 component sets, 1,438 variants (the old deck's ~1,600 is unsupported). Talk track: `interviews/wizeline/ux-interview-deck.md`.
 - 2026-10-30: UX interview held. Remuner case presented; no whiteboard challenge, the panel asked to see how the files were structured and Manel walked through implementation files. Feedback in the call: presentation good; they wanted to see the components built following atomic design (shown in the files); missing was what Manel would bring to the table, which matters for the next round, a client meeting, because clients want proof of why to hire a designer. Decision expected within two days. No news on the client meeting date or the client hiring freeze. Debrief: `interviews/wizeline/wizeline.md`. Source: Manel.
 - 2026-11-02 (14:13): David Ho emailed "positive feedback as an L4"; he will follow up once the client interview slots are available. UX interview passed; level confirmed as Level 4 (Senior, EUR 49K entry per the 23 Oct screen). Status stays interviewing. Client interview date, interviewers and format unknown; the client hiring freeze reported 23 Oct may delay it. Source: email pasted by Manel.
+- 2026-11-02 (14:48): David Ho on the client interview format: "similar format just be ready to show your portfolio, the presentation and usual interview questions". Read: same shape as the UX interview as David scheduled it, which included a 25-minute whiteboard challenge; the panel skipped it on 30 Oct by their own choice and David may not know. Prepare the Remuner deck, a portfolio walkthrough, standard behavioural questions and a whiteboard canvas. Date, interviewers and duration still unknown. Source: email pasted by Manel.

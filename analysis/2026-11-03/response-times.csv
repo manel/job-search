@@ -1,0 +1,52 @@
+record,company,status,stage,lane,channel,ats,applied,first_response,response_kind,response_note,days_to_first,conversation,last_contact,days_open,days_since_applied,posting,ds_titled,lost_at,period
+3commas-senior-product-designer-quantpilot,3Commas,rejected,,unknown,unknown,Ashby,2026-07-22,2026-07-27,rejection,rejection,5,False,2026-07-27,,104,unknown,False,,May-Aug
+aios-product-designer,AIOS Medical,rejected,application-screen,product,direct,Ashby,2026-10-21,2026-10-26,rejection,rejection,5,False,2026-10-26,,13,open,False,,Sep-Nov
+airhelp-senior-product-designer-b2b-product,AirHelp,rejected,cv-review,mixed,direct,Workable,2026-09-23,2026-10-05,rejection,rejection,12,False,2026-10-05,,41,open,False,,Sep-Nov
+alan-product-designer,Alan,rejected,live-challenge,mixed,direct,Ashby,2026-10-01,2026-10-06,conversation,invite from recruiter,5,True,2026-10-21,,33,open,False,Live challenge,Sep-Nov
+babel-profiles-retail-senior-ux-ui-designer,Babel Profiles (agency) for an unnamed European consumer electronics retailer,rejected,cv-review,product,recruiter/agency,other/unknown,2026-10-20,2026-10-22,rejection,rejection,2,False,2026-10-22,,14,open,False,,Sep-Nov
+biorce-senior-product-designer,Biorce,rejected,,unknown,unknown,other/unknown,2026-07-24,2026-07-28,conversation,screen date (invite date not recorded),4,True,,,102,,False,Recruiter screen,May-Aug
+bitpanda-senior-design-system-designer-july-reapplication,Bitpanda,rejected,,unknown,unknown,unknown,2026-07-13,2026-07-15,rejection,rejection,2,False,2026-07-15,,113,unknown,True,,May-Aug
+bitpanda-senior-design-system-designer-june,Bitpanda,rejected,,unknown,unknown,unknown,2026-06-01,2026-06-01,rejection,rejection,0,False,2026-06-01,,155,unknown,True,,May-Aug
+bitpanda-senior-product-designer-advanced-trading,Bitpanda,rejected,,unknown,unknown,unknown,2026-05-21,2026-06-08,rejection,rejection,18,False,2026-06-08,,166,unknown,False,,May-Aug
+bunge-senior-user-experience-designer,Bunge,applied,,unknown,unknown,other/unknown,2026-07-22,,none,,,False,2026-07-22,104,104,unknown,False,,May-Aug
+bvnk-lead-product-designer-design-system,BVNK,role-closed,,unknown,unknown,Greenhouse,2026-06-01,,none,,,False,2026-07-09,,155,closed,True,,May-Aug
+cloudpay-product-designer-uiux,CloudPay,rejected,,unknown,unknown,unknown,2026-07-10,2026-07-13,rejection,rejection,3,False,2026-07-13,,116,unknown,False,,May-Aug
+cloudtalk-senior-product-designer,CloudTalk,rejected,cv-review,mixed,direct,Workable,2026-10-02,2026-10-29,rejection,rejection,27,False,2026-10-29,,32,open,False,,Sep-Nov
+datavant-senior-ux-designer-provider-experience,Datavant,rejected,hiring-manager,product,referral/warm,Greenhouse,2026-09-22,2026-09-23,conversation,recruiter call request,1,True,2026-10-03,,42,open,False,Hiring manager,Sep-Nov
+deel-staff-product-designer,Deel,rejected,,unknown,unknown,other/unknown,,2026-08-10,rejection,rejection,,False,2026-08-10,,,unknown,False,,unknown
+edreams-senior-product-designer-conversational-service-design,eDreams ODIGEO,role-closed,,unknown,unknown,other/unknown,2026-09-10,,none,,,False,2026-09-10,,54,closed,False,,Sep-Nov
+enginy-product-designer,Enginy,interviewing,recruiter-screen,mixed,direct,Greenhouse,2026-09-15,2026-10-21,conversation,invite,36,True,2026-11-02,49,49,open,False,,Sep-Nov
+evinova-senior-uiux-designer-design-system,AstraZeneca / Evinova,role-closed,,unknown,unknown,other/unknown,2026-07-09,,none,,,False,2026-07-09,,117,closed,True,,May-Aug
+factorial-senior-product-designer-platform-domain,Factorial,rejected,,unknown,unknown,other/unknown,2026-07-15,2026-08-28,rejection,rejection,44,False,2026-08-28,,111,,False,,May-Aug
+factorial-senior-staff-product-designer-it-spinoff,Factorial,rejected,,unknown,unknown,unknown,2026-05-26,2026-06-22,conversation,talent screen date (invite date not recorded),27,True,2026-07-02,,161,unknown,False,Live challenge,May-Aug
+finom-senior-product-designer-credit-cards,Finom,rejected,application-screen,product,direct,Lever,2026-10-13,2026-10-23,rejection,rejection,10,False,2026-10-23,,21,open,False,,Sep-Nov
+finom-senior-product-designer,Finom,role-closed,,unknown,unknown,unknown,2026-06-02,,none,,,False,2026-06-02,,154,closed,False,,May-Aug
+flodesk-web-system-designer-brand,Flodesk,applied,no-response,design-systems,direct,Greenhouse,2026-10-19,,none,,,False,,15,15,open,False,,Sep-Nov
+fluidra-senior-design-systems-designer,Fluidra,role-closed,,unknown,unknown,unknown,2026-07-24,,none,,,False,2026-07-24,,102,closed,True,,May-Aug
+haddock-senior-product-designer-b2b-saas,Haddock,interviewing,first-interview,unknown,unknown,Teamtailor,2026-09-10,2026-09-29,conversation,invite,19,True,2026-10-09,54,54,open,False,,Sep-Nov
+hostaway-staff-product-designer-design-systems,Hostaway,rejected,,unknown,unknown,unknown,2026-06-04,2026-06-29,rejection,rejection,25,False,2026-06-29,,152,unknown,True,,May-Aug
+hostinger-product-designer,Hostinger,stale,no-response,product,direct,Ashby,2026-10-19,,none,,,False,,,15,closed,False,,Sep-Nov
+kabilio-senior-ux-ui-designer,Kabilio,rejected,first-interview,product,direct,other/unknown,2026-10-01,2026-10-01,conversation,invite same day,0,True,2026-10-16,,33,open,False,First interview,Sep-Nov
+learnwise-senior-ui-ux-designer,LearnWise,applied,no-response,ai-product,direct,other/unknown,2026-10-19,,none,,,False,,15,15,open,False,,Sep-Nov
+moniepoint-senior-product-designer-design-system,Moniepoint,role-closed,no-response,design-systems,direct,Greenhouse,2026-09-15,,none,,,False,2026-09-15,,49,closed,True,,Sep-Nov
+murphy-ai-founding-product-designer,Murphy AI,rejected,,unknown,unknown,other/unknown,,2026-09-04,rejection,rejection,,False,2026-09-04,,,,False,,unknown
+nebius-senior-product-designer-compute-console,Nebius,applied,no-response,product,direct,Greenhouse,2026-10-28,,none,,,False,,6,6,open,False,,Sep-Nov
+olx-otodom-senior-design-system-designer-2026-10,OLX (Otodom),rejected,cv-review,design-systems,direct,Lever,2026-10-19,2026-10-29,rejection,rejection,10,False,2026-10-29,,15,open,True,,Sep-Nov
+olx-otodom-senior-design-system-designer,OLX Group (Otodom),rejected,,unknown,unknown,Lever,2026-07-22,2026-08-04,rejection,rejection,13,False,2026-08-04,,104,unknown,True,,May-Aug
+olx-senior-product-designer-ai-native,OLX,applied,awaiting-response,mixed,referral/warm,Lever,2026-10-13,,none,,,False,,21,21,open,False,,Sep-Nov
+perk-senior-design-systems-designer,Perk (formerly TravelPerk),interviewing,recruiter-screen,design-systems,referral/warm,Ashby,2026-10-21,2026-10-26,rejection,"template rejection, reversed 2026-11-02",5,True,2026-11-02,13,13,open,True,,Sep-Nov
+perk-staff-product-designer-events,Perk,rejected,cv-review,product,referral/warm,Ashby,2026-07-10,2026-09-15,rejection,rejection,67,False,2026-09-15,,116,open,False,,May-Aug
+pilar-unnamed-client-profile-review,Unknown client via Pilar,rejected,cv-review,unknown,recruiter/agency,unknown,,2026-09-15,rejection,rejection,,False,2026-09-15,,,unknown,False,,unknown
+promofarma-product-designer-ecommerce,PromoFarma / DocMorris,applied,no-response,product,referral/warm,other/unknown,2026-10-16,,none,,,False,2026-10-16,18,18,open,False,,Sep-Nov
+qonto-senior-product-designer-ai-lab,Qonto,rejected,,unknown,unknown,unknown,2026-07-09,2026-07-13,rejection,rejection,4,False,2026-07-13,,117,unknown,False,,May-Aug
+remofirst-senior-product-designer,RemoFirst,rejected,cv-review,unknown,direct,Workable,2026-09-03,2026-10-23,rejection,rejection,50,False,2026-10-23,,61,open,False,,Sep-Nov
+secfix-senior-product-designer,Secfix,rejected,,unknown,unknown,Ashby,,,conversation,"screen 2026-09-02, applied date unknown",,True,,,,,False,Recruiter screen,unknown
+spendesk-confirmed-product-designer,Spendesk,rejected,,unknown,unknown,other/unknown,2026-08-25,,conversation,screen before 2026-09-08,,True,2026-09-28,,70,,False,Hiring manager,May-Aug
+stripe-product-designer-design-systems,Stripe,applied,no-response,design-systems,unknown,other/unknown,2026-09-28,,none,,,False,,36,36,open,True,,Sep-Nov
+tabby-senior-product-designer-b2b-lifecycle,Tabby,rejected,cv-review,product,unknown,other/unknown,,2026-10-01,rejection,rejection,,False,2026-10-01,,,closed,False,,unknown
+tether-senior-product-designer-wallets,Tether,stale,awaiting-response,product,direct,Recruitee,2026-10-21,,none,,,False,,,13,closed,False,,Sep-Nov
+typeform-senior-product-designer-integrations,Typeform,role-closed,,unknown,unknown,other/unknown,2026-05-26,,none,,,False,2026-06-11,,161,closed,False,,May-Aug
+valeria-hr-senior-product-designer,Valeria HR,rejected,first-interview,ai-product,unknown,other/unknown,,2026-08-14,conversation,"initial response, applied date unknown",,True,,,,unknown,False,First interview,unknown
+wayflyer-senior-staff-product-designer,Wayflyer,rejected,,unknown,unknown,unknown,2026-07-14,2026-07-21,rejection,rejection,7,False,2026-07-21,,112,unknown,False,,May-Aug
+whitetech-senior-product-designer,WhiteTech,stale,no-response,mixed,direct,Greenhouse,2026-10-02,,none,,,False,2026-10-02,,32,closed,False,,Sep-Nov
+wizeline-senior-product-designer-barcelona-hybrid,Wizeline,interviewing,design-interview,design-systems,direct,Greenhouse,2026-10-19,2026-10-20,conversation,invite,1,True,2026-11-02,15,15,open,False,,Sep-Nov

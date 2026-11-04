@@ -51,3 +51,15 @@ Muchas gracias por hacer el referral, y por hacerlo tan rápido. Esa misma tarde
 Si en algún momento te enteras de por qué no pasó el filtro, me ayudaría mucho saberlo. Si no es fácil preguntar, no te preocupes.
 
 ¡Un saludo!
+
+---
+
+# 2026-11-04: Tanna replied to the 28 Oct message: "Manel, que pena, voy a intentar buscar quien pasa el primer filtro, probablemente HR!" Reply below SENT on LinkedIn 2026-11-04 (as drafted; confirmed sent by Manel, not checked verbatim).
+
+¡Hola Tanna!
+
+Al final sí hubo novedades: el lunes me escribieron de Talent para una primera llamada, y es mañana. No te lo había dicho para no meter más ruido, pero ya no hace falta que preguntes nada.
+
+Imagino que tu referral tuvo algo que ver, así que gracias otra vez.
+
+¡Un saludo!

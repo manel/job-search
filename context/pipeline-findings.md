@@ -1,5 +1,7 @@
 # Pipeline findings
 
+**Response-time snapshot, 2026-11-03:** [response times, ghosting and conversion](../analysis/2026-11-03/response-times.md). 51 submissions, 12 conversations (24%; 28% since September), 0 offers; all 8 ended conversations were rejections. Invites arrive in a median 4.5 days and rarely after 14; 33% of applications got no reply. DS-titled roles reached a conversation 1 time in 11 against 11 in 40 for everything else.
+
 **Rehearsal recovery, 2026-10-13:** The [23–25 September worktree transcript](../interviews/archive/dataset-manager-rehearsal-2026-09-23.md) contains two English practice answers with assistant feedback. Earlier statements that no practice answer had been received should be read as dated snapshots. This establishes submitted practice, not independently verified spoken fluency or improvement.
 
 **Current evidence note, 2026-10-13:** [Alan's first-interview feedback](../applications/records/alan-product-designer.md) confirms progression and recognises complex-product simplification and AI/code practice, while asking for more concrete project direction and outcome examples. Prepare the live technical exercise around problem framing, alternatives, tradeoffs and success criteria. This is additional interview evidence, not a diagnosis of earlier screening rejections. The September “next action” and numerical snapshots below are historical; the Datavant process subsequently ended in rejection. [Chat recovery audit](../analysis/2026-10-13/chat-documentation-audit.md).

@@ -1,8 +1,8 @@
 ---
 company: DuckDuckGo
 role: Senior Product Designer, Design Systems
-status: deferred
-status_verified_on: 2026-10-21
+status: role-closed
+status_verified_on: 2026-11-03
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-10-21
@@ -15,8 +15,8 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Revisit the deferral: recheck the posting; if still open and Manel wants it, run /new-application (DS lane, Abax lead, Remuner support) and use the optional questions field to ask about Spain eligibility
-next_action_on: 2026-10-28
+next_action: None
+next_action_on:
 salary_stated: No candidate expectation stated; employer publishes USD 178,500 annually plus stock options, with compensation fixed by professional level regardless of geographic location
 job_url: https://jobs.ashbyhq.com/duck-duck-go/46757e0c-981c-4925-b007-b6f1829ae1be
 source: User-supplied job description and exact official DuckDuckGo Ashby posting and form checked 2026-10-02; live portfolio cases; Career OS evidence register
@@ -105,3 +105,4 @@ No prior DuckDuckGo application or named warm contact was found in Career OS. Us
 
 - 2026-10-02: Exact official posting and live application form assessed. Decision set to Proceed as a medium-priority stretch. Spain eligibility remains unconfirmed. No materials prepared, form completed, outreach sent, or application submitted.
 - 2026-10-21: Manel re-shared the posting and form; still listed on the Ashby board API (published 2026-10-01, location "Remote", no country list). Spain eligibility still unconfirmed. Manel deferred it "for the moment" (no reason given). Revisit 2026-10-28. The form's AI-trap keyword instruction is still present; never include it.
+- 2026-11-03: Posting found closed (Ashby API) on 2026-11-03 while deferred; never submitted. Manel set the record to role-closed.

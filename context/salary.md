@@ -48,7 +48,38 @@ The minimum and target for Lead and Staff IC roles remain unconfirmed. Do not ex
 
 ## External benchmarks
 
-- **Barcelona Senior Product Designer, 75th percentile: about EUR 93K.** External research (Levels.fyi), recorded June-July 2026; exact retrieval date not recorded. Reference only: recruiter budgets Manel has heard for Spain mostly stop at EUR 60-65K (see Evidence boundary above).
+- **Barcelona Senior Product Designer, 75th percentile: about EUR 93K.** External research (Levels.fyi), recorded June-July 2026; exact retrieval date not recorded. Contradicted by the Spain-only Levels.fyi data below (Catalonia p75 is EUR 63K for all PDs, 68K at 8-11 years). It was probably not filtered to Spanish locations. Do not use it.
+
+### Spain-only Levels.fyi data (spanish-top-tech-companies, data as of 2026-11-02)
+
+External research. Source: github.com/pugarte7/spanish-top-tech-companies, `data/data.json` and `data/companies.json`, retrieved 2026-11-03. Only salaries whose location is in Spain, and only at companies whose median base across all roles is at least EUR 45K, so the figures lean toward better-paying employers. Base salary, gross annual, rounded to EUR 1K. A group needs 5 salaries for a median. Catalonia (CT) is effectively Barcelona: all 76 Catalonia PD salaries are in Barcelona.
+
+**Product Designer, base:**
+
+| Group | n | Median | p25-p75 | Total comp median | Share at 60K+ |
+|---|---|---|---|---|---|
+| Spain, all years | 102 | 55K | 47-67K | 58K | 39% |
+| Catalonia, all years | 76 | 55K | 45-63K | 56K | 33% |
+| Catalonia, 5-7 yrs | 37 | 55K | 50-65K | 58K | 35% |
+| Catalonia, 8-11 yrs | 16 | 61K | 55-68K | 62K | 63% |
+| Catalonia, 12-19 yrs | 5 | 59K | 56-72K | 59K | 40% |
+| Madrid, 8-11 yrs | 9 | 65K | 48-86K | 75K | 56% |
+
+Product Designer company medians (n of 5 or more): Personio 62K (n=5), Qonto 57K (n=6), Glovo 55K (n=12), eDreams 45K (n=5), Oracle 37K (n=5).
+
+**Senior and higher roles: the data mostly isn't there.** Of 102 Spanish PD salaries, 5 are 12-19 years and 1 is 20+. There is one Product Design Manager salary in Spain (Personio, 12-19 yrs, 180K), which is too few to use. Levels.fyi records a level for each salary, but the repo doesn't publish it, so Senior, Lead and Staff can't be separated. Inference, unverified: designers with 12+ years mostly report under other titles (design manager, head of design, product) or don't report at all. Treat the 12-19 figure (59K) as noise, not as a sign that pay stops growing.
+
+Single PD salaries at 8+ years by company (n=1 or 2; anecdote, not a band): Deel 100K, N26 97K (117K total), Hopin 94K, HubSpot 90K, Alibaba 90K, Canonical 86K, HPE 80K, Typeform 77K, UserTesting 72K, Factorial 67K (124K total), Datadog 65K, Adevinta 63K, Personio 62K, Semrush 61K, Qonto 59K, Thoughtworks 59K, Cabify 55K, EPAM 54K, Telefonica 48K, SEAT CODE 45K, Globant 40K.
+
+**Adjacent roles in Catalonia (base median, p25-p75), useful as a ceiling for Lead or Staff IC conversations:**
+
+| Role | 8-11 yrs | 12-19 yrs |
+|---|---|---|
+| Product Manager | 75K, 61-91K (n=45) | 89K, 78-97K (n=16) |
+| Software Engineer | 75K, 63-84K (n=466) | 77K, 65-90K (n=290) |
+| Software Engineering Manager | 92K, 81-99K (n=41) | 93K, 84-100K (n=46) |
+
+Reading this (inference): in Barcelona, Product Designers at 8-11 years earn about 14K less than engineers or PMs with the same experience. Factorial's internal ladder (Staff 93-107K) sits at engineering-manager level, which supports using PM and engineering bands, not PD bands, for Lead and Staff IC roles at product companies. This is still not a confirmed Lead or Staff minimum (see above).
 
 ## History
 

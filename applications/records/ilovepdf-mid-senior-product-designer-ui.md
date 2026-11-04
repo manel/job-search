@@ -4,8 +4,8 @@ role: Mid-Senior Product Designer (UI focus)
 status: in-progress
 status_verified_on: 2026-10-19
 status_confidence: confirmed
-posting_status: unknown
-posting_checked_on: 2026-10-19
+posting_status: open
+posting_checked_on: 2026-11-03
 fit_decision: proceed
 role_lane: product
 application_channel: direct

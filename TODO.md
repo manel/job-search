@@ -14,12 +14,17 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 - [x] **Wizeline UX interview held 30 Oct.** Debrief in `interviews/wizeline/wizeline.md`. No whiteboard; the canvas sub-tasks are moot.
 - [x] **Wizeline UX interview passed 2 Nov** at Level 4 (David Ho email).
-- [ ] **Wizeline client interview prep by Wed 4 Nov.** Build the "what I bring to the client" pitch (the gap the UX panel named) and run `/prep-interview wizeline`. Slot pending from David Ho; ask for the timeline if nothing by Mon 16 Nov.
+- [ ] **Wizeline client interview prep by Wed 4 Nov.** Build the "what I bring to the client" pitch (the gap the UX panel named) and run `/prep-interview wizeline`. Format (David, 2 Nov): portfolio, the presentation, usual interview questions. Slot pending from David Ho; ask for the timeline if nothing by Mon 16 Nov.
 
 - [x] **Remuner DS case additions: applied and pushed 2026-10-30 (portfolio 8c6ffdb).** Drafts in `context/remuner-case-additions-2026-10-20.md` (palette HSL normalisation and WCAG AA, own front-end PRs, Figma MCP with Storybook views, stack row). Manel to approve the wording and say whether a palette visual exists; then edit the case in `portfolio/`, commit there, update the pointer, and ask before pushing.
 - [ ] **LinkedIn Abacum entry (deferred 2026-10-30).** Add the Abax outcome (about 47% of component uses at departure, against an 80% goal) and apply the co-led wording from `context/linkedin.md`; Manel pastes it live, then update that file.
 
 - [ ] **Abacum front-end PRs: details for the Abax case.** Recorded as a plain fact 2026-10-20. Ask Manel: part of the MUI-to-Abax migration or general cleanup; roughly how many; reviewed and merged by engineers; any AI tools. Then decide whether it goes into "Making adoption stick" in `portfolio/public/cases/design-systems.html`.
+
+- [ ] **Commit the 2026-11-03 session work.** Uncommitted: watchlist rebuild from the new upstream JSON (`scripts/build-company-watchlist.py`, 94 boards with a careers URL), 24 role leads, posting checks on 20 records, five status changes (WhiteTech, Hostinger, Tether stale; Glovo, DuckDuckGo role-closed), Spain-only salary data in `context/salary.md`, and the response-time analysis in `analysis/2026-11-03/`. Also mixed in: the earlier Perk, Wizeline and TODO edits.
+- [ ] **Decide Stripe DS and Bunge.** Stripe Product Designer Design Systems: 36 days silent, posting open, past the 5-week stale line. Bunge: `applied` 104 days, posting status unknown; likely stale.
+- [ ] **Haddock review (due 3 Nov).** Posting still open on 3 Nov, process on hold since 9 Oct; the 12 Oct reply to Ingrid is unconfirmed as sent. Decide on a short follow-up.
+- [ ] **Assess the 15 role leads from the 3 Nov scan** marked `initial_fit: not assessed` in `sourcing/role-leads.csv` (the other 9 are already skipped). Overdue follow-ups outrank them.
 
 - [ ] **Senovo questions to Menna** and the overdue follow-ups (`/follow-up`). Babel email to Mauro dropped: Babel rejected 2026-10-22.
 
@@ -57,6 +62,7 @@ Raised 2026-10-26 after the Perk DS rejection at CV review (zero interviews from
 ## Records hygiene
 
 - [ ] Applications sent before July 2026 have PDFs in `cv-pdf-to-send/` but no plain-text sources in `cv/roles/` or `cover-letters/roles/`. Decide: backfill from the PDFs (plus chat history around each send date), or accept the PDFs as the only record. Factorial IT spinoff was backfilled 2026-07-15.
+- [ ] Keep `application_channel`, `role_lane` and the first-contact date (in History) on every new record; the response-time analysis depends on them. Invite dates are missing for Spendesk and Secfix; applied dates for Secfix, Valeria, Tabby, Murphy, Deel Staff and Pilar. New conversations also need an entry in `FIRST_RESPONSE` and, when lost, `LOST_AT` in `scripts/analyze-response-times.py`.
 - [ ] Start using Linear actively; it unblocks the deferred Linear application (see `applications/archive-2026-07.md`).
 
 ## Parked (decided, no action now)

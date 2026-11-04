@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Application response times</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<style>
+  /* Tokens from context/brand.md (portfolio light, presentation dark). */
+  :root {
+    --bg: #ffffff; --surface: #f7f7f8; --text: #1d1d22; --muted: #3a3a4a; --border: #e5e5e9;
+    --accent: hsl(182, 50%, 36%); --series-2: #3a3a4a; --soft: #c9c9d1;
+    --font-anthropic-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-anthropic-serif: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    --color-bg: var(--bg); --color-fg: var(--text); --color-fg-muted: var(--muted); --color-panel: var(--surface);
+    --color-border-line: var(--border); --color-ok: hsl(182, 50%, 30%); --color-bad: #b4442e; --color-warn: #9a6a00;
+    --cds-gap-xs: 4px; --cds-gap-sm: 8px; --cds-gap-md: 16px; --cds-gap-lg: 24px; --cds-gap-xl: 40px;
+    --cds-pad-xs: 4px; --cds-pad-sm: 8px; --cds-pad-md: 16px; --cds-pad-lg: 24px;
+    --cds-radius: 10px; --cds-font-size-caption: 0.8125rem; --cds-font-size-body: 1rem;
+    --cds-font-size-heading: 1.125rem; --cds-font-size-title: 2.25rem; --cds-font-weight-medium: 700;
+    --cds-surface-popover: var(--bg); --cds-border: var(--border); --cds-shadow-popover: 0 4px 16px rgba(0,0,0,.08);
+    --cds-text-secondary: var(--muted); --cds-chart-muted: var(--soft); --cds-chart-grid: var(--border);
+    --cds-chart-reference: var(--muted); --cds-chart-status-critical: #b4442e; --cds-dur-slow: 300ms;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111417; --surface: #1a1e22; --text: #f2f2f4; --muted: #8a9099; --border: #2e3340;
+      --accent: #a8dadc; --series-2: #8a9099; --soft: #3d4350; --color-ok: #a8dadc; --color-bad: #e08a74;
+      --cds-chart-status-critical: #e08a74; color-scheme: dark; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--font-anthropic-sans);
+    line-height: 1.6; -webkit-font-smoothing: antialiased; padding: 48px max(16px, env(safe-area-inset-right, 0px)) 64px max(16px, env(safe-area-inset-left, 0px)); }
+  .rt-head h1 { font-weight: 700 !important; letter-spacing: -0.03em; }
+  .rt-tile .rt-num { font-weight: 700 !important; letter-spacing: -0.02em; }
+  .rt-src { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; }
+
+  .rt { display: grid; gap: var(--cds-gap-xl); font-family: var(--font-anthropic-sans); max-width: 72rem; margin-inline: auto; }
+  .rt-head h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0 0 var(--cds-gap-xs); text-wrap: balance; }
+  .rt-head p { margin: 0; color: var(--color-fg-muted); max-width: 46rem; }
+  .rt-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 9.5rem), 1fr)); gap: var(--cds-gap-md); }
+  .rt-tile { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md) var(--cds-pad-lg); display: grid; gap: var(--cds-gap-xs); align-content: start; }
+  .rt-tile .rt-num { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; line-height: 1.1; }
+  .rt-tile .rt-lbl { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .rt-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: var(--cds-gap-md); }
+  .rt-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: grid; gap: var(--cds-gap-sm); align-content: start; min-width: 0; }
+  .rt-card h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+  .rt-note { margin: 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .rt-card p.rt-take { margin: 0; font-size: var(--cds-font-size-body); }
+  .rt .rt-card b, .rt .rt-head b { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .rt-chart { position: relative; min-height: 12rem; }
+  .rt-chart.rt-tall { min-height: 15rem; }
+  .rt-chart svg { display: block; overflow: visible; }
+  .rt-chart text { fill: var(--color-fg-muted); font-size: 12px; font-family: var(--font-anthropic-sans); }
+  .rt-chart text.rt-strong { fill: var(--color-fg); font-weight: 600; }
+  .rt-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); white-space: nowrap; z-index: 2; }
+  .rt-tip span { display: block; color: var(--cds-text-secondary); }
+  .rt-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm) var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; padding: 0; list-style: none; }
+  .rt-legend i { display: inline-block; width: 0.625rem; height: 0.625rem; border-radius: 2px; margin-right: 0.375rem; vertical-align: -1px; }
+  .rt-tablebox { overflow-x: auto; }
+  .rt-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+  .rt-table th { position: sticky; top: 0; background: var(--color-panel); text-align: left; font-weight: 600; color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); }
+  .rt-table td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); }
+  .rt-table td.rt-r, .rt-table th.rt-r { text-align: right; }
+  .rt-pill { display: inline-block; padding: 0 0.4rem; border-radius: 999px; border: 1px solid var(--color-border-line); }
+  .rt-pill.rt-closed { color: var(--color-bad); }
+  .rt-pill.rt-open { color: var(--color-ok); }
+  .rt-do { margin: 0; padding-left: 1.25rem; display: grid; gap: var(--cds-gap-xs); }
+  [data-dash-source-state=empty] { color: transparent; }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+</style>
+</head>
+<body>
+<script>
+  // Minimal stand-in for the dashboard runtime: embedded rows, calcs, drawings.
+  window.dash = (() => {
+    const rows = { apps: /*__ROWS__*/[] };
+    const calcs = {}, draws = {}, cache = {};
+    const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+    const api = {
+      colors: [css('--accent'), css('--series-2')],
+      calc: (id, spec) => { calcs[id] = spec; },
+      data: (id) => {
+        if (rows[id]) return { status: 'ok', data: rows[id] };
+        if (!(id in cache)) cache[id] = calcs[id].fn(...calcs[id].inputs.map((i) => api.data(i).data));
+        return { status: 'ok', data: cache[id] };
+      },
+      draw: (name, fn) => { draws[name] = fn; },
+      run: () => {
+        for (const [name, fn] of Object.entries(draws)) document.querySelectorAll(`[data-draw="${name}"]`).forEach((el) => fn(el));
+        // SVG presentation attributes ignore var(); move them to style.
+        document.querySelectorAll('[fill^="var("], [stroke^="var("]').forEach((el) => {
+          for (const a of ['fill', 'stroke']) { const v = el.getAttribute(a); if (v && v.startsWith('var(')) { el.style[a] = v; el.removeAttribute(a); } }
+        });
+      },
+    };
+    return api;
+  })();
+</script>
+
+
+<div class="rt">
+  <header class="rt-head">
+    <h1 id="top">Application response times</h1>
+    <p>Of <b data-draw="t-submitted" data-source="totals" data-field="submitted" data-row="0">—</b> applications sent from May to November 2026, <b data-draw="t-conv" data-source="totals" data-field="conversations" data-row="0">—</b> reached a conversation and <b data-draw="t-offers" data-source="totals" data-field="offers" data-row="0">—</b> became offers. The bottleneck has moved from the CV screen to the interviews.</p>
+  </header>
+
+  <section class="rt-tiles" aria-label="Headline figures">
+    <div class="rt-tile"><span class="rt-num" data-draw="k-submitted" data-source="totals" data-field="submitted" data-row="0">—</span><span class="rt-lbl">Applications submitted</span></div>
+    <div class="rt-tile"><span class="rt-num" data-draw="k-responded" data-source="totals" data-field="responded_share" data-row="0">—</span><span class="rt-lbl">Got any reply</span></div>
+    <div class="rt-tile"><span class="rt-num" data-draw="k-silent" data-source="totals" data-field="silent" data-row="0">—</span><span class="rt-lbl">Never heard anything</span></div>
+    <div class="rt-tile"><span class="rt-num" data-draw="k-conv" data-source="totals" data-field="conversation_share" data-row="0">—</span><span class="rt-lbl">Reached a conversation</span></div>
+    <div class="rt-tile"><span class="rt-num" data-draw="k-ended" data-source="totals" data-field="ended" data-row="0">—</span><span class="rt-lbl">Conversations ended, all rejections</span></div>
+    <div class="rt-tile"><span class="rt-num" data-draw="k-live" data-source="totals" data-field="live" data-row="0">—</span><span class="rt-lbl">Conversations still live</span></div>
+  </section>
+
+  <div class="rt-grid">
+    <section class="rt-card" id="funnel">
+      <h2>Funnel</h2>
+      <p class="rt-note">Every submitted application, May to November 2026.</p>
+      <div class="rt-chart" data-draw="funnel" data-source="funnel"></div>
+    </section>
+
+    <section class="rt-card" id="periods">
+      <h2>Conversation rate by period</h2>
+      <p class="rt-note">Share of applications that reached a recruiter screen or later, by month applied.</p>
+      <div class="rt-chart" data-draw="periods" data-source="periods"></div>
+    </section>
+  </div>
+
+  <section class="rt-card" id="speed">
+    <h2>Days to first reply</h2>
+    <p class="rt-note">One dot per application with a dated first reply. The dashed line marks 14 days.</p>
+    <p class="rt-take">Invites came in a median of <b data-draw="s-inv-median" data-source="speed" data-field="median" data-where="kind=Invite">—</b> days; only <b data-draw="s-late" data-source="speed" data-field="after_line" data-where="kind=Invite">—</b> of <b data-draw="s-inv-n" data-source="speed" data-field="n" data-where="kind=Invite">—</b> came after day 14. Rejections took a median of <b data-draw="s-rej-median" data-source="speed" data-field="median" data-where="kind=Rejection">—</b> days.</p>
+    <ul class="rt-legend"><li><i class="rt-sw-inv"></i>Invite to a conversation</li><li><i class="rt-sw-rej"></i>Rejection</li></ul>
+    <div class="rt-chart rt-tall" data-draw="speed" data-source="apps"></div>
+  </section>
+
+  <div class="rt-grid">
+    <section class="rt-card" id="ds">
+      <h2>Design-systems titles vs everything else</h2>
+      <p class="rt-note">Outcome of each application, by whether the job title names design systems.</p>
+      <p class="rt-take">DS-titled roles reached a conversation <b data-draw="d-ds" data-source="ds" data-field="rate" data-where="group=DS-titled">—</b> of the time, against <b data-draw="d-rest" data-source="ds" data-field="rate" data-where="group=Everything%20else">—</b> for the rest.</p>
+      <ul class="rt-legend"><li><i class="rt-sw-conv"></i>Conversation</li><li><i class="rt-sw-rejd"></i>Rejected without one</li><li><i class="rt-sw-sil"></i>No reply</li><li><i class="rt-sw-other"></i>Other</li></ul>
+      <div class="rt-chart" data-draw="ds" data-source="ds"></div>
+    </section>
+
+    <section class="rt-card" id="lost">
+      <h2>Where conversations ended</h2>
+      <p class="rt-note">The <b data-draw="l-n" data-source="totals" data-field="ended" data-row="0">—</b> conversations that ended, by the last stage reached.</p>
+      <div class="rt-chart" data-draw="lost" data-source="lost"></div>
+      <p class="rt-note">Kabilio and Valeria ended, and Haddock went on hold, because the company was already further along with another candidate.</p>
+    </section>
+  </div>
+
+  <section class="rt-card" id="silent">
+    <h2>Applications with no reply</h2>
+    <p class="rt-note">Days since applying, as of 3 Nov 2026. A closed posting with no reply is the clearest sign of being ghosted.</p>
+    <div class="rt-tablebox">
+      <table class="rt-table" data-source="silent" data-row-key="record">
+        <thead><tr><th data-field="company">Company</th><th data-field="applied">Applied</th><th class="rt-r" data-field="days_since_applied">Days</th><th data-field="status">Status</th><th data-field="posting">Posting</th></tr></thead>
+        <tbody data-draw="silent-rows" data-source="silent"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="rt-card" id="next">
+    <h2>What to do with this</h2>
+    <ol class="rt-do">
+      <li>Nudge at day 10 to 14, then stop counting on it. Silence after two weeks rarely turns into an interview.</li>
+      <li>Apply in a posting's first days. Use the scanner's new-postings list.</li>
+      <li>No cold applications to DS-titled roles until the DS CV review is done. Use referrals or Product Designer roles with system scope.</li>
+      <li>Put more time into interview prep than into application volume.</li>
+    </ol>
+    <p class="rt-note">Small numbers: read percentages as direction, not rates. Channel and lane are not recorded for about half the pre-September applications. Biorce and Factorial use the screen date, so their wait is an upper bound.</p>
+  </section>
+
+<p class="rt-src">Source: <code>analysis/2026-11-03/response-times.csv</code>, built from <code>applications/records/</code> by <code>scripts/analyze-response-times.py</code>. Rebuild with <code>scripts/build-response-times-page.py</code>.</p>
+</div>
+
+<script>
+  const bool = (v) => v === true || v === 'True' || v === 'true';
+  const num = (v) => (v === '' || v == null ? null : Number(v));
+
+  dash.calc('totals', {
+    title: 'Headline counts',
+    description: 'Counts of submitted applications, replies, conversations and their outcomes.',
+    inputs: ['apps'],
+    fn: (apps) => {
+      const n = apps.length;
+      const responded = apps.filter((a) => a.response_kind !== 'none').length;
+      const conv = apps.filter((a) => a.conversation === 'True');
+      const ended = conv.filter((a) => a.status === 'rejected').length;
+      return [{
+        submitted: n,
+        responded_share: responded / n,
+        silent: n - responded,
+        conversations: conv.length,
+        conversation_share: conv.length / n,
+        ended,
+        live: conv.length - ended,
+        offers: apps.filter((a) => a.status === 'offer' || a.status === 'hired').length,
+      }];
+    },
+  });
+
+  dash.calc('funnel', {
+    title: 'Funnel steps',
+    description: 'Applications at each step: submitted, any reply, conversation, offer.',
+    inputs: ['apps'],
+    fn: (apps) => {
+      const n = apps.length;
+      const steps = [
+        ['Submitted', n],
+        ['Any reply', apps.filter((a) => a.response_kind !== 'none').length],
+        ['Conversation', apps.filter((a) => a.conversation === 'True').length],
+        ['Offer', apps.filter((a) => a.status === 'offer' || a.status === 'hired').length],
+      ];
+      return steps.map(([step, count]) => ({ step, count, share: count / n }));
+    },
+  });
+
+  dash.calc('periods', {
+    title: 'Conversation rate by period',
+    description: 'Applications and conversations for May to August against September to November.',
+    inputs: ['apps'],
+    fn: (apps) => ['May-Aug', 'Sep-Nov'].map((period) => {
+      const rows = apps.filter((a) => a.period === period);
+      const conversations = rows.filter((a) => a.conversation === 'True').length;
+      return { period, submitted: rows.length, conversations, rate: rows.length ? conversations / rows.length : 0 };
+    }),
+  });
+
+  dash.calc('speed', {
+    title: 'Days to first reply',
+    description: 'Median days to a first invite or rejection, and invites after day 14.',
+    inputs: ['apps'],
+    fn: (apps) => [['Invite', 'conversation'], ['Rejection', 'rejection']].map(([kind, key]) => {
+      const days = apps.filter((a) => a.response_kind === key && a.days_to_first !== '').map((a) => Number(a.days_to_first)).sort((x, y) => x - y);
+      const mid = Math.floor(days.length / 2);
+      const median = days.length % 2 ? days[mid] : (days[mid - 1] + days[mid]) / 2;
+      return { kind, n: days.length, median, after_line: days.filter((d) => d > 14).length };
+    }),
+  });
+
+  dash.calc('ds', {
+    title: 'Design-systems split',
+    description: 'Outcomes for roles whose title names design systems against all other roles.',
+    inputs: ['apps'],
+    fn: (apps) => [['DS-titled', true], ['Everything else', false]].map(([group, flag]) => {
+      const rows = apps.filter((a) => (a.ds_titled === 'True') === flag);
+      const conversations = rows.filter((a) => a.conversation === 'True').length;
+      const rejected = rows.filter((a) => a.conversation !== 'True' && a.status === 'rejected').length;
+      const silent = rows.filter((a) => a.response_kind === 'none').length;
+      return { group, submitted: rows.length, conversations, rejected, silent, other: rows.length - conversations - rejected - silent, rate: conversations / rows.length };
+    }),
+  });
+
+  dash.calc('lost', {
+    title: 'Where conversations ended',
+    description: 'Ended conversations by the last stage reached.',
+    inputs: ['apps'],
+    fn: (apps) => ['Recruiter screen', 'First interview', 'Hiring manager', 'Live challenge'].map((stage) => {
+      const rows = apps.filter((a) => a.lost_at === stage);
+      return { stage, lost: rows.length, companies: rows.map((a) => a.company).join(', ') };
+    }),
+  });
+
+  dash.calc('silent', {
+    title: 'Applications with no reply',
+    description: 'Applications with no employer reply, longest wait first.',
+    inputs: ['apps'],
+    fn: (apps) => apps
+      .filter((a) => a.response_kind === 'none' && a.applied !== '')
+      .map((a) => ({ record: a.record, company: a.company, applied: a.applied, days_since_applied: Number(a.days_since_applied), status: a.status, posting: a.posting }))
+      .sort((x, y) => y.days_since_applied - x.days_since_applied),
+  });
+
+  const pct = d3.format('.0%');
+  const one = (id) => { const d = dash.data(id); return d.status === 'ok' ? d.data : null; };
+  const color = (i) => dash.colors[i % dash.colors.length];
+
+  document.querySelectorAll('.rt-sw-inv, .rt-sw-conv').forEach((el) => { el.style.background = dash.colors[0]; });
+  document.querySelectorAll('.rt-sw-rej, .rt-sw-rejd').forEach((el) => { el.style.background = dash.colors[1]; });
+  document.querySelectorAll('.rt-sw-sil').forEach((el) => { el.style.background = 'var(--cds-chart-muted)'; });
+  document.querySelectorAll('.rt-sw-other').forEach((el) => { el.style.background = 'var(--color-border-line)'; });
+
+  const fill = (name, source, pick) => dash.draw(name, (el) => {
+    const rows = one(source);
+    el.textContent = rows ? pick(rows) : '—';
+  });
+  const totalsField = (f, fmt = (v) => d3.format(',')(v)) => (rows) => fmt(rows[0][f]);
+  fill('t-submitted', 'totals', totalsField('submitted'));
+  fill('t-conv', 'totals', totalsField('conversations'));
+  fill('t-offers', 'totals', totalsField('offers', (v) => (v === 0 ? 'none' : String(v))));
+  fill('k-submitted', 'totals', totalsField('submitted'));
+  fill('k-responded', 'totals', totalsField('responded_share', pct));
+  fill('k-silent', 'totals', totalsField('silent'));
+  fill('k-conv', 'totals', totalsField('conversation_share', pct));
+  fill('k-ended', 'totals', totalsField('ended'));
+  fill('k-live', 'totals', totalsField('live'));
+  fill('l-n', 'totals', totalsField('ended'));
+  const speedField = (kind, f) => (rows) => d3.format('~g')(rows.find((r) => r.kind === kind)[f]);
+  fill('s-inv-median', 'speed', speedField('Invite', 'median'));
+  fill('s-late', 'speed', speedField('Invite', 'after_line'));
+  fill('s-inv-n', 'speed', speedField('Invite', 'n'));
+  fill('s-rej-median', 'speed', speedField('Rejection', 'median'));
+  fill('d-ds', 'ds', (rows) => pct(rows.find((r) => r.group === 'DS-titled').rate));
+  fill('d-rest', 'ds', (rows) => pct(rows.find((r) => r.group === 'Everything else').rate));
+
+  // Horizontal bars from one left edge; label width measured.
+  const hbars = (el, rows, label, value, text, colorOf) => {
+    el.replaceChildren();
+    const width = el.clientWidth || 320;
+    const svg = d3.select(el).append('svg').attr('width', '100%');
+    const probe = svg.append('g');
+    const labelW = d3.max(rows, (r) => probe.append('text').text(label(r)).node().getComputedTextLength()) + 12;
+    const endRoom = d3.max(rows, (r) => probe.append('text').text(text(r)).node().getComputedTextLength()) + 12;
+    probe.remove();
+    const bar = 26, gap = 14;
+    const height = rows.length * (bar + gap);
+    svg.attr('viewBox', `0 0 ${width} ${height}`).attr('height', height);
+    const x = d3.scaleLinear([0, d3.max(rows, value) || 1], [0, Math.max(40, width - labelW - endRoom)]);
+    const g = svg.selectAll('g.row').data(rows).join('g').attr('class', 'row').attr('transform', (r, i) => `translate(0,${i * (bar + gap)})`);
+    g.append('text').attr('x', 0).attr('y', bar / 2).attr('dy', '0.35em').attr('class', 'rt-strong').text(label);
+    g.append('rect').attr('x', labelW).attr('y', 0).attr('height', bar).attr('rx', 3)
+      .attr('width', (r) => Math.max(2, x(value(r)))).attr('fill', colorOf);
+    g.append('text').attr('x', (r) => labelW + Math.max(2, x(value(r))) + 8).attr('y', bar / 2).attr('dy', '0.35em').text(text);
+  };
+
+  dash.draw('funnel', (el) => {
+    const rows = one('funnel');
+    if (!rows) { el.replaceChildren(); return; }
+    hbars(el, rows, (r) => r.step, (r) => r.count, (r) => `${r.count} · ${pct(r.share)}`, (r, i) => (r.count === 0 ? 'var(--cds-chart-status-critical)' : color(0)));
+  });
+
+  dash.draw('periods', (el) => {
+    const rows = one('periods');
+    if (!rows) { el.replaceChildren(); return; }
+    const labels = { 'May-Aug': 'May to Aug', 'Sep-Nov': 'Sep to Nov' };
+    hbars(el, rows, (r) => labels[r.period] || r.period, (r) => r.rate, (r) => `${pct(r.rate)} · ${r.conversations} of ${r.submitted}`, (r) => (r.period === 'Sep-Nov' ? color(0) : 'var(--cds-chart-muted)'));
+  });
+
+  dash.draw('lost', (el) => {
+    const rows = one('lost');
+    if (!rows) { el.replaceChildren(); return; }
+    hbars(el, rows, (r) => r.stage, (r) => r.lost, (r) => `${r.lost} · ${r.companies}`, () => color(1));
+  });
+
+  dash.draw('ds', (el) => {
+    const rows = one('ds');
+    el.replaceChildren();
+    if (!rows) return;
+    const width = el.clientWidth || 320;
+    const svg = d3.select(el).append('svg').attr('width', '100%');
+    const probe = svg.append('g');
+    const labelW = d3.max(rows, (r) => probe.append('text').text(r.group).node().getComputedTextLength()) + 12;
+    probe.remove();
+    const bar = 30, gap = 34;
+    const height = rows.length * (bar + gap);
+    svg.attr('viewBox', `0 0 ${width} ${height}`).attr('height', height);
+    const segs = [['conversations', color(0)], ['rejected', color(1)], ['silent', 'var(--cds-chart-muted)'], ['other', 'var(--color-border-line)']];
+    const span = Math.max(60, width - labelW - 8);
+    rows.forEach((r, i) => {
+      const g = svg.append('g').attr('transform', `translate(0,${i * (bar + gap)})`);
+      g.append('text').attr('x', 0).attr('y', bar / 2).attr('dy', '0.35em').attr('class', 'rt-strong').text(r.group);
+      let x0 = labelW;
+      segs.forEach(([key, fillColor]) => {
+        const w = (r[key] / r.submitted) * span;
+        if (w <= 0) return;
+        g.append('rect').attr('x', x0).attr('y', 0).attr('width', Math.max(1, w - 1)).attr('height', bar).attr('fill', fillColor);
+        if (w > 18) g.append('text').attr('x', x0 + w / 2).attr('y', bar / 2).attr('dy', '0.35em').attr('text-anchor', 'middle').attr('class', 'rt-strong').style('fill', key === 'other' || key === 'silent' ? 'var(--color-fg)' : 'var(--color-bg)').text(r[key]);
+        x0 += w;
+      });
+      g.append('text').attr('x', labelW).attr('y', bar + 16).text(`${r.submitted} applications · ${pct(r.rate)} reached a conversation`);
+    });
+  });
+
+  dash.draw('speed', (el) => {
+    const d = dash.data('apps');
+    el.replaceChildren();
+    if (d.status !== 'ok') return;
+    const pts = d.data.filter((a) => (a.response_kind === 'conversation' || a.response_kind === 'rejection') && a.days_to_first !== '')
+      .map((a) => ({ company: a.company, days: Number(a.days_to_first), kind: a.response_kind, stage: a.lost_at || a.stage || '' }));
+    const width = el.clientWidth || 320;
+    const rowsY = { conversation: 0, rejection: 1 };
+    const labels = { conversation: 'Invites', rejection: 'Rejections' };
+    const svg = d3.select(el).append('svg').attr('width', '100%');
+    const probe = svg.append('g');
+    const labelW = d3.max(Object.values(labels), (t) => probe.append('text').text(t).node().getComputedTextLength()) + 16;
+    probe.remove();
+    const top = 10, lane = 90, axisH = 28;
+    const height = top + lane * 2 + axisH;
+    svg.attr('viewBox', `0 0 ${width} ${height}`).attr('height', height);
+    const x = d3.scaleLinear([0, Math.max(70, d3.max(pts, (p) => p.days))], [labelW, width - 12]);
+    const ticks = x.ticks(width < 480 ? 5 : 8);
+    svg.append('g').selectAll('line').data(ticks).join('line').attr('x1', x).attr('x2', x).attr('y1', top).attr('y2', top + lane * 2).attr('stroke', 'var(--cds-chart-grid)');
+    svg.append('g').selectAll('text').data(ticks).join('text').attr('x', x).attr('y', top + lane * 2 + 18).attr('text-anchor', 'middle').text((t) => t);
+    const line = 14;
+    svg.append('line').attr('x1', x(line)).attr('x2', x(line)).attr('y1', top).attr('y2', top + lane * 2).attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 4');
+    svg.append('text').attr('x', x(line) + 4).attr('y', top + 10).text('14 days');
+    Object.entries(labels).forEach(([k, t]) => svg.append('text').attr('x', 0).attr('y', top + rowsY[k] * lane + lane / 2).attr('dy', '0.35em').attr('class', 'rt-strong').text(t));
+    // Stack dots that share a day so each stays visible.
+    const seen = {};
+    pts.forEach((p) => { const key = `${p.kind}-${p.days}`; p.stack = seen[key] = (seen[key] ?? -1) + 1; });
+    const tip = d3.select(el).append('div').attr('class', 'rt-tip').attr('hidden', true);
+    svg.append('g').selectAll('circle').data(pts).join('circle')
+      .attr('cx', (p) => x(p.days))
+      .attr('cy', (p) => top + rowsY[p.kind] * lane + lane / 2 + (p.stack % 2 ? 1 : -1) * Math.ceil(p.stack / 2) * 11)
+      .attr('r', 5.5)
+      .attr('fill', (p) => (p.kind === 'conversation' ? dash.colors[0] : dash.colors[1]))
+      .attr('fill-opacity', 0.85)
+      .on('pointerenter pointermove', (ev, p) => {
+        const [mx, my] = d3.pointer(ev, el);
+        tip.attr('hidden', null).html('');
+        tip.append('span').text(p.company);
+        tip.append('div').text(`${p.days} days · ${p.kind === 'conversation' ? 'invite' : 'rejection'}`);
+        const tw = tip.node().offsetWidth;
+        tip.style('left', `${Math.min(Math.max(0, mx + 12), el.clientWidth - tw)}px`).style('top', `${my - 44}px`);
+      })
+      .on('pointerleave', () => tip.attr('hidden', true));
+  });
+
+  dash.draw('silent-rows', (tbody) => {
+    const rows = one('silent');
+    tbody.replaceChildren();
+    if (!rows) return;
+    const fmtDay = d3.utcFormat('%b %-d');
+    rows.forEach((r) => {
+      const tr = document.createElement('tr');
+      tr.dataset.key = r.record;
+      const cells = [r.company, fmtDay(new Date(r.applied)), String(r.days_since_applied), r.status, r.posting];
+      cells.forEach((v, i) => {
+        const td = document.createElement('td');
+        if (i === 2) td.className = 'rt-r';
+        if (i === 4) { const s = document.createElement('span'); s.className = `rt-pill ${v === 'closed' ? 'rt-closed' : v === 'open' ? 'rt-open' : ''}`; s.textContent = v; td.append(s); }
+        else td.textContent = v;
+        tr.append(td);
+      });
+      tbody.append(tr);
+    });
+  });
+</script>
+
+<script>
+  dash.run();
+  let w = window.innerWidth;
+  window.addEventListener('resize', () => { if (window.innerWidth !== w) { w = window.innerWidth; dash.run(); } });
+</script>
+</body>
+</html>

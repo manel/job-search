@@ -38,6 +38,15 @@ Spanish market focus. Lower signal for Senior product design roles. Check occasi
 **JobFluent**
 Remote-first roles, Spanish market. Inconsistent coverage for design. Check when pipeline is thin.
 
+**Into Design Systems jobs** (jobs.intodesignsystems.com)
+Hand-curated DS, design-engineering and AI design roles, about 213 open on 2026-11-04. Mostly US; Europe-remote open to Spain is a handful at any time. The `?europe=true&work=remote` filter is client-side only: fetched pages return the full unfiltered list. Use `?page=N` (20 per page) or `/feed.xml` (latest 50). Each job page links the official posting; verify there, since closed roles linger (North's Barcelona DS role was listed but closed on 2026-11-04). First check 2026-11-04: it surfaced Stripe DS, Flodesk, OLX DS and Canonical, all already in the pipeline or leads, so overlap with the scanner is high. Check every two weeks for DS-lane roles at companies outside the watchlist.
+
+**Levels.fyi jobs, Barcelona Product Designer** (https://www.levels.fyi/jobs/title/product-designer/location/barcelona-esp?workArrangements=office%2Cremote%2Chybrid)
+Aggregates Barcelona PD postings from company boards and LinkedIn: 29 jobs across 22 companies on 2026-11-04, three pages (`&page=2`, `&page=3`). Some cards show a salary range. Stale cards stay up for months (Joko and Wizeline cards 8-12 months old), so verify each on the official page. First check 2026-11-04: about half were already in the pipeline or leads; new were Spendesk Lead PD and KYC & AML, Dow Jones Principal PD (three), The Knot Lead PD and North Digital PD. Plain `curl` returns an empty page; fetch it with the web-fetch agent. Check weekly with LinkedIn.
+
+**pampam.city "Barcelona-based Startups in 2026"** (https://www.pampam.city/barcelonabased-startups-2026-tWHZs05VN9QrWqReqnOf)
+A fixed list of 34 Barcelona startups (>50 staff or >$5M raised), compiled by Enginy's CEO. Not a job board. Its companies missing from the Spanish dataset were added to `sourcing/remote-companies.csv` on 2026-11-04, so the scanner covers them. Recheck the list only if it is updated.
+
 ---
 
 ## Direct company careers pages

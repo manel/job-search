@@ -1,11 +1,11 @@
 ---
 company: Tether
 role: Senior Product Designer (Wallets)
-status: applied
-status_verified_on: 2026-10-21
+status: stale
+status_verified_on: 2026-11-03
 status_confidence: confirmed
-posting_status: open
-posting_checked_on: 2026-10-21
+posting_status: closed
+posting_checked_on: 2026-11-03
 fit_decision: proceed
 role_lane: product
 application_channel: direct
@@ -15,8 +15,8 @@ applied_on: 2026-10-21
 last_contact_on:
 outcome_stage: awaiting-response
 rejection_reason_class: none
-next_action: Nudge via the Recruitee thread or recruiter if no response; LinkedIn outreach 2026-11-11; set stale 2026-11-25
-next_action_on: 2026-11-04
+next_action: None
+next_action_on:
 salary_stated: USD 80,000 annual (required form field; employer range unknown)
 job_url: https://careers.tether.io/o/senior-product-designer-wallets-100-remote-worldwide
 source: Exact official Tether Recruitee posting and live application form checked 2026-10-02; live portfolio cases; Career OS strategy and evidence register
@@ -114,3 +114,4 @@ The form explicitly tells candidates not to use AI tools to complete the applica
 - 2026-10-21: Manel decided to apply now (income-first). Tailored CV prepared; crypto shown only as personal use in skills. Suggested USD 80,000 for the required salary field (Spain engagement model unknown; contractor would need a higher headline than the EUR 40K employed floor; RemoFirst precedent USD 5,900/month). Not yet submitted.
 - 2026-10-21: Manel found that "Why are you interested in working at Tether?" is a video upload on the live form, not a text field (not captured in the 2026-10-02 form check). Content is Manel's own under the form's no-AI rule; only format and delivery guidance given.
 - 2026-10-21: Applied via Recruitee. Entered USD 80,000 in the salary field. Written answers and video were Manel's own (crypto use since 2021, tools including InVision, Sketch, Framer, Figma, Figma Make and Claude with the Figma Console MCP). Nudge 2026-11-04, LinkedIn 2026-11-11, stale 2026-11-25.
+- 2026-11-03: Posting found closed on 2026-11-03, 13 days after the 2026-10-21 application, with no employer response. Manel set the record to stale ahead of the 5-week window; planned nudge and LinkedIn outreach dropped. Not a rejection.

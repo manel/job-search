@@ -1,0 +1,65 @@
+As of 2026-11-03. Submitted: 51 (45 with applied_on).
+Status: {'rejected': 30, 'applied': 7, 'role-closed': 7, 'interviewing': 4, 'stale': 3}
+
+First response kind: {'rejection': 23, 'conversation': 11, 'none': 17}
+Any employer response: 34/51 (67%)
+Reached a conversation: 12/51 (24%)
+
+Days to first response
+  conversation: n=8, median 4.5 days, range 0-36
+  rejection: n=19, median 10 days, range 0-67
+  Pre-interview rejections by ATS:
+    Ashby: n=3, median 5 days, range 5-67
+    Lever: n=3, median 10 days, range 10-13
+    Workable: n=3, median 27 days, range 12-50
+    other/unknown: n=2, median 23 days, range 2-44
+    unknown: n=7, median 4 days, range 0-25
+
+Silence (no employer response at all)
+  2026-05-26 161d role-closed  posting=closed   typeform-senior-product-designer-integrations
+  2026-06-01 155d role-closed  posting=closed   bvnk-lead-product-designer-design-system
+  2026-06-02 154d role-closed  posting=closed   finom-senior-product-designer
+  2026-07-09 117d role-closed  posting=closed   evinova-senior-uiux-designer-design-system
+  2026-07-22 104d applied      posting=unknown  bunge-senior-user-experience-designer
+  2026-07-24 102d role-closed  posting=closed   fluidra-senior-design-systems-designer
+  2026-09-10  54d role-closed  posting=closed   edreams-senior-product-designer-conversational-service-design
+  2026-09-15  49d role-closed  posting=closed   moniepoint-senior-product-designer-design-system
+  2026-09-28  36d applied      posting=open     stripe-product-designer-design-systems
+  2026-10-02  32d stale        posting=closed   whitetech-senior-product-designer
+  2026-10-13  21d applied      posting=open     olx-senior-product-designer-ai-native
+  2026-10-16  18d applied      posting=open     promofarma-product-designer-ecommerce
+  2026-10-19  15d applied      posting=open     flodesk-web-system-designer-brand
+  2026-10-19  15d stale        posting=closed   hostinger-product-designer
+  2026-10-19  15d applied      posting=open     learnwise-senior-ui-ux-designer
+  2026-10-21  13d stale        posting=closed   tether-senior-product-designer-wallets
+  2026-10-28   6d applied      posting=open     nebius-senior-product-designer-compute-console
+
+By period: submitted / any response / conversation
+  Sep-Nov             25  14/25 (56%)  7/25 (28%)
+  May-Aug             20  14/20 (70%)  3/20 (15%)
+  unknown              6  6/6 (100%)   2/6 (33%)
+
+By lane (recorded since September): submitted / any response / conversation
+  unknown             26  19/26 (73%)  5/26 (19%)
+  product             11  7/11 (64%)   2/11 (18%)
+  mixed                6  4/6 (67%)    2/6 (33%)
+  design-systems       6  3/6 (50%)    2/6 (33%)
+  ai-product           2  1/2 (50%)    1/2 (50%)
+
+By channel: submitted / any response / conversation
+  unknown             27  19/27 (70%)  6/27 (22%)
+  direct              17  10/17 (59%)  4/17 (24%)
+  referral/warm        5  3/5 (60%)    2/5 (40%)
+  recruiter/agency     2  2/2 (100%)   0/2 (0%)
+
+By ATS: submitted / any response / conversation
+  other/unknown       16  9/16 (56%)   4/16 (25%)
+  unknown             11  9/11 (82%)   1/11 (9%)
+  Greenhouse           8  3/8 (38%)    3/8 (38%)
+  Ashby                7  6/7 (86%)    3/7 (43%)
+  Lever                4  3/4 (75%)    0/4 (0%)
+  Workable             3  3/3 (100%)   0/3 (0%)
+  Teamtailor           1  1/1 (100%)   1/1 (100%)
+  Recruitee            1  0/1 (0%)     0/1 (0%)
+
+Rejection stage: {'unrecorded': 16, 'application-screen': 2, 'cv-review': 8, 'live-challenge': 1, 'hiring-manager': 1, 'first-interview': 2}

@@ -37,3 +37,51 @@ Story A (Dataset Manager) for multi-persona workflow complexity and product-arch
 €95K opening (set 2026-07-10): Staff scope above the €93K Senior benchmark. Not volunteered; state only if the form or a screen asks. If they publish or volunteer a band, open at its top per the standing rule.
 
 *After this round happens: run `/debrief-interview Perk "Round 1"` while it's fresh.*
+
+---
+
+# Senior Design Systems Designer (Suitcase), November 2026
+
+Record: `applications/records/perk-senior-design-systems-designer.md`. Applied 2026-10-21, referred by Tanna 2026-10-26, template rejection the same day, reversed by Clare's interview invite 2026-11-02. The Events round above is a different, closed process.
+
+## Round 1: TA Preliminary (brief written 2026-11-03)
+
+**Date:** Thu 2026-11-05, 15:30-15:55 Madrid, Google Meet (https://meet.google.com/oue-gzhv-jni). 25 minutes, not the 15 in the first email.
+**Interviewer:** Clare Watts, Senior Talent Acquisition Partner. Her stated agenda: background, motivation for the role, team and culture.
+**Before the call:** confirmed. Reply sent and invite accepted 2026-11-02. In English.
+
+### What Perk most likely cares about (this round)
+- **A credible "why Suitcase" from someone they already rejected once.** Clare has to justify the reversal internally; give her a clear, checkable reason to pass Manel to the hiring manager: production adoption tracking, migration across squads, contribution model.
+- **Logistics knock-outs:** three days a week in the Barcelona office, English working level, availability (immediate), salary fit against the EUR 65,000 already on the form.
+- **Seniority read without a DS title:** two production systems, one co-led across five squads, one built alone. TA will check that "Senior Product Designer" on the CV still means system ownership.
+
+### Lead story
+Design-systems mapping in `context/positioning.md`: **Story B (Abax) as lead, Story C (Remuner DS) as support.** Abax first because it carries the JD's rarest asks (adoption measured monthly, about 47% at departure; consolidation off MUI; contribution review). Remuner second for building alone and the AI/Figma MCP work. Keep both to headline level; a TA screen won't go into token tiers.
+
+### Likely questions → story map
+- "Walk me through your background" → Opening intro (`prep.md`), DS-weighted: KOM component libraries, Abax co-lead, Remuner built from scratch. Under two minutes.
+- "Why Perk / why this role?" → Q11 framework. Structural hook: Suitcase is named infrastructure with core and experimental layers, adoption and parity measures, and content tokens. Alignment: the Abax rollout and the SimpleLocalize keys built into Remuner components. Stage: Q26 (a system treated as infrastructure). Answer it for real before the call.
+- "Why did you leave Remuner?" → Priority zero, memorised version. Then stop.
+- "What have you been doing since March?" → two anchors, confirmed by Manel 2026-11-03: deepening Claude and Figma MCP work (ties straight to the JD's MCP line) and occasional freelance work. Clients and scope of the freelance work aren't recorded; if Clare asks "what kind?", answer from memory and keep it to one line.
+- "How do you use AI day to day?" → Q22/Q23 plus the three-use answer from `memory.md` 2026-10-26 (AI prototypes, DS work through the Figma MCP, own PRs within limits). Recruiter-screen question now; have it ready.
+- "What kind of team do you work best in?" → Q12.
+- "You applied to the Events role in July" → not in prep. Facts only: different role shape (product, Staff); this one matches the system work directly. Don't raise the 26 Oct rejection unless Clare does; if she does, thank her for the second look and move on.
+- "Salary expectations?" → see reminder below.
+- "Other processes?" → true and short: interviewing elsewhere, nothing at offer stage (check the pipeline on the day before saying it).
+
+### [NEEDS YOUR STORY] gaps this round could hit
+- **Q17 bad day** is marked [NEEDS YOUR HONEST ANSWER]. Low odds in a TA screen; "team and culture" makes it possible.
+- **Story E (KOM)** is unfleshed. Only matters if Clare probes the eleven studio years.
+- JD gaps that are not story gaps but could come up as "experience with X?": Code Connect (named in the JD, 2026-11-03 check: "Experience prototyping with AI tools and with Storybook, Code Connect and MCP tooling". Not used; say so, then bridge to the Figma MCP work and Storybook views generated from Figma props. Understanding how it maps Figma components to code is fair to claim; use is not), WCAG keyboard and screen-reader work (not evidenced; WCAG AA contrast only), native mobile (Remuner webview only). Say so plainly.
+
+### Questions to ask Clare (pick 2-3)
+- What are the next steps, and where does the process stand: how many candidates are further along? (Kabilio rule, `memory.md` 2026-10-16.)
+- Who owns Suitcase day to day right now, and who does this role report to? (Tanna said she had been covering it; this is "what happened to the last person in this role" phrased for TA.)
+- What is the salary range for the Barcelona hire? (Only if she hasn't raised compensation. Salary rule 2: ask before restating a number.)
+
+### Salary reminder
+- Stated on the form: **EUR 65,000 gross annual base**. No range published. Floor (40K employed) is never stated.
+- If asked: give Clare a chance to name the band first ("Is there a range for the Barcelona role?"). If she presses, keep 65K; don't drop it to look flexible. Never share Abacum or Remuner pay (rule 8 wording in `context/salary.md`).
+- After the call, record in the record: range given (if any), whether asked, what was said, any compensation feedback.
+
+*After the call: run `/debrief-interview perk "TA Preliminary"` while it's fresh.*

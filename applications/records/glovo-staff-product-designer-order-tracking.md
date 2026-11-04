@@ -1,11 +1,11 @@
 ---
 company: Glovo (Delivery Hero)
 role: Staff Product Designer, Order Tracking
-status: in-progress
-status_verified_on: 2026-10-19
+status: role-closed
+status_verified_on: 2026-11-03
 status_confidence: confirmed
-posting_status: open
-posting_checked_on: 2026-10-19
+posting_status: closed
+posting_checked_on: 2026-11-03
 fit_decision: proceed
 role_lane: product
 application_channel: direct
@@ -15,8 +15,8 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Confirm Manel wants consumer delivery-app work (genuine interest failed for Glovo in July). If yes, lean application leading with multi-brand design-system work and complex platforms; Remuner iOS/Android webview app as app experience, stated as webview
-next_action_on: 2026-10-28
+next_action: None
+next_action_on:
 salary_stated: Not stated; no range published
 job_url: https://careers.glovoapp.com/job/staff-product-designer-in-barcelona-spain-jid-744000148478990/
 source: Official Glovo careers page fetched 2026-10-19 (published 2026-09-09)
@@ -60,3 +60,4 @@ Staff title with a 5+ year bar. Probably Staff calibrated near senior-plus. Remu
 ## History
 
 - 2026-10-19: Official posting fetched (open). Assessed: Proceed, low priority, pending genuine interest. No materials prepared.
+- 2026-11-03: Posting found closed on 2026-11-03 before any application was submitted. Manel set the record to role-closed; the genuine-interest question is moot.
