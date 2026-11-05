@@ -46,6 +46,8 @@ The minimum and target for Lead and Staff IC roles remain unconfirmed. Do not ex
 
 - **Enginy (AI sales startup, Barcelona on-site, stated by recruiter Saul Villa in the 2026-10-26 screen):** Senior Product Designer EUR 50-60K gross annual, with room to move inside the band, plus a 10% bonus tied to projects. Manel had stated EUR 62K on the form; after hearing the band he said it could work. Source: record `applications/records/enginy-product-designer.md`.
 
+- **Perk (travel and spend SaaS, Barcelona hybrid, stated by TA partner Clare Watts in the 2026-11-05 screen):** Senior Design Systems Designer level "probably closer to seventy" (EUR 70K, gross annual base inferred), after checking internally, plus a benefits package and stock options. Not a full band. Manel had stated EUR 65,000 on the form; Clare said "we're in the right spot". Source: record `applications/records/perk-senior-design-systems-designer.md`.
+
 ## External benchmarks
 
 - **Barcelona Senior Product Designer, 75th percentile: about EUR 93K.** External research (Levels.fyi), recorded June-July 2026; exact retrieval date not recorded. Contradicted by the Spain-only Levels.fyi data below (Catalonia p75 is EUR 63K for all PDs, 68K at 8-11 years). It was probably not filtered to Spanish locations. Do not use it.

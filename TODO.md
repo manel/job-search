@@ -43,6 +43,10 @@ The hook also surfaces open items in "This week" at every session start. Keep it
   - [ ] Layout in `portfolio/public/css/case.css`: captions from 12px at 55% opacity to body size; media column uninterrupted by long prose; check against `context/brand.md` first.
   - [ ] Review the pilot with `/review-case dataset-manager`, then decide on Modeling Syntax, AI agent and the two DS cases (the Storybook recording already covers part of the DS proof).
 
+- [ ] **Outcome up front in every case (raised 2026-11-05, from a hiring-manager LinkedIn post on Senior and Staff portfolios).** Outcomes now sit at the end or mid-case with no heading: in `ai-agent.html` the reach line is the last lead paragraph; in `design-systems.html` the ~47% figure sits inside "Building the case". Add a short fact line under each case title (role, scope, outcome) using only figures already in `context/portfolio.md` and `evidence/experience-facts.md`; no rewrite of the narrative. Cases: the five linked ones (Reps Letter stays hidden).
+
+- [ ] **Reflection close in every case (raised 2026-11-05, same source).** No case has a reflection or lesson heading, against Staff checklist point 7 in `context/portfolio.md` (closing meta-lesson naming the trade-off). First check whether each case's closing paragraph already carries one; add a short closing section only where it doesn't. Run `no-ai-slop` and `anthropic-skills:humanizer` on any new copy. Related: the two DS cases run about 1,950 and 2,000 words; consider trimming in the same pass.
+
 ## Design-systems lane review
 
 Raised 2026-10-26 after the Perk DS rejection at CV review (zero interviews from DS-titled roles at product companies; see memory.md 2026-10-26). The gaps below are inference, not employer feedback. Do this before the next DS-titled application, or once Stripe DS resolves. OLX Otodom (Oct) resolved 2026-10-29: rejected at CV review again. Perk reversed its rejection on 2026-11-02 with a TA call invite after Tanna's referral, so the Perk data point now argues for referrals, not against the DS CV.

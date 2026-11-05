@@ -2,22 +2,22 @@
 company: Perk (formerly TravelPerk)
 role: Senior Design Systems Designer
 status: interviewing
-status_verified_on: 2026-11-02
+status_verified_on: 2026-11-05
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-11-03
+posting_checked_on: 2026-11-05
 fit_decision: proceed
 role_lane: design-systems
 application_channel: referral
 warm_path: Tanna Schumacher, Product Designer at Perk; Manel's former student (LABASAD Sketch course, around 2018), 1st-degree LinkedIn connection; replied 2026-10-23 (refers only if not yet applied); told of the 21 Oct application and sent the CV 2026-10-24; named as the connection on the form; 2026-10-25 said she will ask internally on Mon 26 Oct and that she had been covering this position herself; submitted the referral in Ashby 2026-10-26. Tim Archer, Senior Content Design Manager at Perk, 2nd-degree, posted the role on LinkedIn 2026-10-20. Xavi Francisco left Perk around 2026-09-28
 portfolio_version: Design Systems case (manel-leiva.com/cases/design-systems)
 applied_on: 2026-10-21
-last_contact_on: 2026-11-04
-outcome_stage: recruiter-screen
+last_contact_on: 2026-11-05
+outcome_stage: design-interview
 rejection_reason_class: none
-next_action: Brief ready (interviews/perk/perk.md, written 2026-11-03). Rehearse the "why Suitcase" answer out loud before the TA Preliminary on Thu 5 Nov, 15:30-15:55 Madrid, Clare Watts, Google Meet. Run /debrief-interview perk "TA Preliminary" right after
-next_action_on: 2026-11-04
-salary_stated: EUR 65,000 gross annual base (form field, 2026-10-21; no range published)
+next_action: Watch for Clare's two emails (process confirmation with instructions and prep links; availability link). Submit on-site slots for the hiring-manager session next week (Tim off Tue 10 and Wed 11 Nov). Hold the on-site prep until the process email arrives (Manel's call, 2026-11-05), then run /prep-interview perk hiring-manager using its instructions. Confirm the unrecorded claims from the TA call (Kings of Mambo client DS work, about 15-16 client designers coached) before the session
+next_action_on: 2026-11-06
+salary_stated: EUR 65,000 gross annual base (form field, 2026-10-21; restated in the TA call 2026-11-05, when Clare said the level is "probably closer to seventy" plus benefits and stock options)
 job_url: https://jobs.ashbyhq.com/Perk/78dafbf1-0f6d-46b7-b71a-2c59f7af31cf
 source: Perk Ashby job board API, fetched 2026-10-19 (published 2026-10-15; London, with Barcelona as a secondary location; hybrid, three days in office)
 ---
@@ -110,3 +110,6 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 - 2026-11-03: JD rechecked via the Ashby API: still open, and a second Senior Design Systems Designer posting exists (published 2026-10-21; location not checked). The JD names Code Connect ("Experience prototyping with AI tools and with Storybook, Code Connect and MCP tooling"). Manel gave the since-March answer (Claude and Figma MCP work, occasional freelance); added to the brief and `interviews/prep.md`.
 - 2026-11-04 (logged late): Manel replied to Clare on Mon 2026-11-02, 16:18, and accepted the calendar invite: "Thanks for setting this up. I've accepted the calendar invite for Thursday 5 November at 15:30 Madrid time. Looking forward to talking with you." Booking confirmed. Source: email pasted by Manel.
 - 2026-11-04: Tanna replied on LinkedIn to the 28 Oct thank-you: "que pena, voy a intentar buscar quien pasa el primer filtro, probablemente HR". She had not heard of the reversal. Manel replied the same day that Talent had invited him to a first call (tomorrow), that he hadn't mentioned it to avoid adding noise, so she no longer needs to ask, and thanked her for the referral (text in `outreach/perk-tanna-schumacher-2026-10-19.md`). Her message suggests she did not raise the rejection internally before the reversal; what moved the CV is still unknown.
+- 2026-11-05: Posting rechecked via the Ashby API: open. The Barcelona req (`3ec33996-74e4-4466-8b88-d9e9dad6e48f`, published 2026-10-21, hybrid) has the same text as the London posting applied to. Public research on Suitcase (Builders blog, Gary Brown's rebrand case page, the CMP mobile post) added to `interviews/perk/perk.md`. Interview brief split the same day: the Events brief moved to `interviews/perk/perk-events.md`.
+- 2026-11-05 (10:38): Tanna replied on LinkedIn to the 4 Nov message: "Genial, tenía entendido que todos los referrals tenían mínimo la primera entrevista 🙌🏼 Que tengas suerte!!" (her understanding is that every referral gets at least a first interview). Inference, not confirmed: the 26 Oct template rejection was an automated or first-filter cut, later corrected under that referral norm. It says nothing about how strong the CV read was, so don't assume the hiring team was impressed. No reply needed. Source: message pasted by Manel.
+- 2026-11-05: TA Preliminary held with Clare Watts (about 18 minutes; she joined five minutes late). Passed: Clare described the next steps and will send a process email and an availability link. Process: (1) hiring-manager session on site in Barcelona with Tim (London, dialling in) plus a local designer or the director, next week, Tim off Tue 10 and Wed 11 Nov; (2) online case study on one of Manel's own cases (problem, challenges, success metrics, adoption) plus scenario questions; (3) leadership wrap-up (CPO or a design leader). Two to three weeks in total. Salary asked: yes. Manel restated EUR 65,000 and asked for the range; Clare said "probably closer to seventy actually", plus benefits and stock options. No full band given. Team: about 40 in design (about 30 designers), London and Barcelona; Suitcase has had one dedicated person plus a project team and has been "a bit of a bolt-on"; the role gets a dedicated Barcelona front-end engineer, probably no dedicated PM; Tim's manager is a director in Barcelona. Inference, not confirmed: Tim is Tim Archer. Debrief in `interviews/perk/perk.md`. Source: transcript pasted by Manel.

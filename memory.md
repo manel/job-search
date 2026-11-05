@@ -10,6 +10,8 @@ Cleaned 2026-10-14 during the career-os merge: entries now covered by the eviden
 
 ## Recruiter and process signals
 
+**2026-11-05**: Perk's TA partner put the Senior Design Systems Designer level at "probably closer to seventy" against the EUR 65,000 Manel stated (the assistant had suggested EUR 72,000). Enginy went the other way (62K stated against a 50-60K band). At well-funded product companies the form figure can sit below the band. Rule: for Senior roles at large product companies with no published band, check `context/salary.md` employer evidence before filling the form, and don't go below the level that evidence supports.
+
 **2026-11-03**: First response-time analysis over 51 submissions (`analysis/2026-11-03/response-times.md`). Invites arrive at a median of 4.5 days (5 of 8 within 5 days), rejections at 10. One third of applications got no word at all, and 10 of 11 silent endings had a closed posting by the time they were checked. Since September, 28% of applications reach a conversation (May to August: 15%), but all 8 conversations that ended were rejections, 3 of them to a candidate already further along. DS-titled roles convert at 1/11 against 11/40 for the rest. Small numbers, so read these as direction. Rules: nudge at day 10-14 and don't hold new applications for silent ones; apply in the first days of a posting (scanner new-postings first); a closed posting with no reply means stale; interview craft is now the bottleneck, not the CV screen. Rerun with `scripts/analyze-response-times.py` and `scripts/build-response-times-page.py`.
 
 **2026-11-02** — Perk reversed its 26 Oct Ashby template rejection of the Senior Design Systems Designer application: a Senior TA partner invited Manel to a 15-minute TA call, a week after Tanna submitted the referral. Corrects the 2026-10-26 entry: a referral added after a direct application can rescue it, with a lag of days, and a template rejection at a referral company isn't final. Inference, not confirmed: the referral, not the CV, got the human read. Count this as the first DS-titled interview at a product company. Rule: at companies with a warm contact, still prefer referral-first, and when a referral lands after a rejection, wait a week before treating the cut as final.
@@ -69,6 +71,8 @@ Cleaned 2026-10-14 during the career-os merge: entries now covered by the eviden
 ---
 
 ## Interview question patterns
+
+**2026-11-05**: Perk's DS recruiter screen asked how many designers Manel had supported, compared with Perk's 30, and whether he had trained and coached them. For DS roles the consumer count is a screen question. Manel answered from Kings of Mambo client work (about 15-16 designers), which isn't in the evidence register yet. Rule: have a confirmed number of designers and engineers each system served (Abacum six designers across five squads; Remuner sole designer) and one coaching example ready before any DS screen.
 
 **2026-06-29** — "What would you do if you were the CEO?" surfaced at Factorial Round 2 (Design Director). This is a vision and ambition probe, not a process question. It tests whether a candidate thinks at the product/business level or stays inside the design frame. Prepare a clear, opinionated answer about product direction — not about design craft.
 

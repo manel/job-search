@@ -140,7 +140,7 @@ Eleven years in client work. That's where the range comes from: stakeholders wit
 
 ## Behavioral questions
 
-### 1. Tell me about a project that didn't go as planned.
+### 1. A project that didn't go as planned.
 
 Use: Story A (Dataset Manager)
 
@@ -154,7 +154,7 @@ Do not: make this sound like a heroic pivot. Frame it as: a research process wor
 
 ---
 
-### 2. Tell me about a time you missed a deadline. What happened?
+### 2. A time you missed a deadline. What happened?
 
 Use: KOM — WordPress e-commerce build.
 
@@ -172,7 +172,7 @@ What to avoid: don't frame this as heroic. It was a miss that was handled profes
 
 ---
 
-### 3. Describe a time you had to deliver bad news to a stakeholder.
+### 3. A time you had to deliver bad news to a stakeholder.
 
 Use: Story A (Dataset Manager, the "no SQL" call)
 
@@ -184,7 +184,7 @@ The reception: not every stakeholder agreed immediately. The work was to show th
 
 ---
 
-### 4. Tell me about a time you had to make a decision with no clear answer.
+### 4. A time you had to make a decision with no clear answer.
 
 Use: Story D (Modeling Syntax) or Story A (Dataset Manager, SQL decision)
 
@@ -194,7 +194,7 @@ State that explicitly: "there was no right answer in the literature. I had to bu
 
 ---
 
-### 5. Describe a situation where you had to influence without authority.
+### 5. A situation where you had to influence without authority.
 
 Use: Story B (Abax DS)
 
@@ -204,7 +204,7 @@ The angle: influence without authority is not persuasion tricks. It is building 
 
 ---
 
-### 6. Tell me about a time you failed publicly. How did you recover?
+### 6. A time you failed publicly. How did you recover?
 
 Use: Remuner production outage.
 
@@ -230,7 +230,7 @@ Keep it concrete. Don't editorialize. Let the logic of the change speak for itse
 
 ---
 
-### 8. Tell me about a time you went above and beyond and why.
+### 8. A time you went above and beyond and why.
 
 Use: Story C (Remuner token pipeline) or Story B (Abax DS)
 
@@ -242,7 +242,7 @@ Avoid framing this as martyrdom or extra hours. The "above and beyond" was in sc
 
 ---
 
-### 9. Describe a moment where you had to earn someone's trust quickly.
+### 9. A moment where you had to earn someone's trust quickly.
 
 Use: Story C (Remuner, earning CTO trust)
 
@@ -254,7 +254,7 @@ What trust looks like at technical companies: it's not warmth. It's engineers an
 
 ---
 
-### 10. Tell me about a time you disagreed with your manager and what you did.
+### 10. A time you disagreed with your manager and what you did.
 
 [NEEDS YOUR STORY - most likely from Abacum or KOM]
 
