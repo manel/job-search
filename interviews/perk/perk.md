@@ -190,3 +190,82 @@ Two to three weeks in total; Clare can speed it up if another process moves fast
 
 ### Next step
 Clare will send two emails: a process confirmation with prep links, and an availability link for the on-site session. Submit slots for next week (Mon 9, Thu 12 or Fri 13 Nov, given Tim's leave), then run `/prep-interview perk hiring-manager`.
+
+## Process email from Clare (Thu 2026-11-05, 20:12)
+
+Pass confirmed. Scheduling arrived in a second email the same evening: an Ashby availability link (https://you.ashbyhq.com/meeting/3363cb0c-aa0c-4e70-bc49-2520a7764fe4/), 9:00-18:00 GMT/CET, round not named. The email describes "the Perk Product interview process":
+
+1. **Depth of Expertise (60 min, video), with a Lead Product Manager.** One recent project end to end: core challenges, steps from start to finish, final impact. Also the collaboration side: who else was involved and how the team dynamics were handled. No presentation required; assets or documentation welcome.
+2. **Design Critique Exercise (60 min, ideally in person; screen share if remote).** Walk through a Perk flow together; how feedback to peers is structured, the thinking behind suggestions, and next steps to move the design forward. Collaborative, no prep.
+3. **Final interview with a Leadership Team member.** Career goals, Perk values, ways of working. Bring thoughtful questions.
+
+At least one session in person at the office applied to (Barcelona).
+
+**Prep list from the email:** Perk website and core values; Platform Overview; what Perk does, the space, target customers and competitors; a product-insights blog post and the engineering blog; the Entry Ready launch presented by the CPO (Nikita); the Audi Revolut F1 Team travel story; what excites Manel about the role.
+
+**Conflict with the TA call.** Clare said round 1 is a hiring-manager session with Tim, on site, and round 2 an online case study on Manel's own case. The email says round 1 is a video call with a Lead PM and round 2 an in-person critique of a Perk flow. Resolved 2026-11-06 (Manel's call): the written email is later and explicit, so round 1 is the Depth of Expertise video call. Prep the project deep dive; the critique is the likely in-person round. The invite will name the interviewer (Lead PM or Tim).
+
+## Round 2: Depth of Expertise (brief written 2026-11-06)
+
+**Date:** not booked. Slots submitted Wed 11 to Tue 17 Nov. 60 min, video.
+**Interviewer:** unknown until the invite. The email says "one of our Lead Product Managers"; on the call Clare said Tim. Re-read this brief once the name is known: a PM probes delivery and prioritisation, Tim (content design) probes content tokens and coaching.
+**Format:** one recent project end to end (core challenges, steps, final impact) plus collaboration: who else was involved and how the team dynamics were handled. No deck required; assets welcome. Time for questions.
+
+### What Perk most likely cares about
+1. **Adoption across a team that doesn't report to you.** Suitcase is "a bit of a bolt-on" with one dedicated person and a project team from the squads; about 30 designers. They need someone who gets squads to use and contribute to a system they didn't ask for.
+2. **System work competing with the product roadmap.** A Lead PM will ask how infrastructure got prioritised against features, and what the system did for delivery. No dedicated PM on the role, so the designer makes that case.
+3. **Honest impact.** "Final impact of the solution" is in the brief. They'll test whether numbers are real and whether you know what didn't work.
+
+### Lead project: Abax (Abacum), with Remuner as the follow-on
+Positioning mapping for DS roles: Remuner and Abacum systems. Choose Abax as the deep dive because this round is about collaboration and team dynamics, and Abax is the one with a team: head of design, engineering leadership, five squads, a contribution process and a tracked adoption number. Remuner was sole-designer work, so it's thin on team dynamics; use it as "what I did next with what I learned" (smaller token set, ESLint enforcement, Codex CI checks).
+
+Arc to know cold (beats, not script), all from `evidence/experience-facts.md` ("Abax design system"):
+- **Problem:** ad hoc components and MUI across five squads, no mandate.
+- **Case for it:** co-led the business case with the head of design; presented to engineering leadership and at an all-hands.
+- **Capacity objection:** engineering feared the system would compete with squad work → Maker Days, one focused week → tokens and the first Button in production (battle card C).
+- **Rollout:** new components behind feature flags; squads added their own migration tickets; weekly design-library sync and review before anything entered the canonical library.
+- **Tokens:** two-tier architecture, Token Studio to Style Dictionary.
+- **Impact:** a monthly codebase count put Abax at about 47% of tracked Abax and MUI uses at departure, against an 80% goal; two squads finished the form-element migration, a third was mid-way. Qualitative: a designer built a screen fast from the variants; customers said the product felt more polished. Say the 80% wasn't reached, and why, before they ask.
+- **Example to use:** Select and Autocomplete. Designers weren't sure which to use, and detached the menu to add or remove items because hiding items broke the auto layout and the menu didn't resize. Detachment data pointed at it (Figma health measure: you defined it, an engineer built the script). Fix: split into Select, Menu and Menu item, with a slot (placeholder component plus instance swap) so designers build their own items locally; guidance in the docs page and the component description; a weekly-meeting session walking designers through it and taking feedback. Result: detachments on it almost stopped; the remaining issues went into later iterations.
+- **Adoption work:** no real resistance; the problem was designers forgetting what existed. Every release on Slack, coaching in the weekly DS meetings, ad hoc sessions for those who needed it; adoption and detachment metrics showed where to ask why, then fix in the next iteration. This is the part that maps straight onto Suitcase.
+- **Your part vs the team's:** "I" for the business case, token and library work, the sync and contribution process; "we" for the decision and the migration. Engineering built the original pipeline.
+
+**Assets to have open:** the live DS case (manel-leiva.com/cases/design-systems). Screen-share only if it helps a specific point.
+
+### Likely questions, mapped
+| Question | Use |
+|---|---|
+| Walk me through a recent project end to end | Abax arc above |
+| Who else was involved; how did you handle the dynamics? | Head of design (co-lead), engineering leadership, squad designers in the sync. Battle card C |
+| How did system work get prioritised against features? | Maker Days as a bounded bet; squads owning migration tickets |
+| What was the impact? How did you measure it? | 47% vs 80%, the count method, squads migrated; no velocity number, don't invent one |
+| What would you do differently? | What Remuner changed: smaller token set first, ESLint enforcement earlier |
+| A squad or designer who didn't want to adopt | No real resistance; the friction was remembering components and variants exist. Slack release notes, coaching in the weekly DS meetings, ad hoc sessions; adoption and detachment metrics → ask the designer why → fix next iteration |
+| How did you coach designers on the system? | Abax coaching (above). Earlier and larger: vLex, a Kings of Mambo client, about 15 designers |
+| A disagreement with a stakeholder | Battle card D (Manager view, Remuner) |
+| A mistake | Battle card E (token file outage) |
+| How do you use AI in system work? | Figma MCP: tokens and drift, accessibility checks, docs. Ties to the JD's AI-readable specs |
+| How would you approach Suitcase in the first months? | Listen first: who consumes it, what's measured, where squads bypass it. Don't present a plan for a system you haven't seen |
+
+### Gaps this round could hit (don't invent)
+- **A single coaching episode with a result.** The practice is now recorded (2026-11-06: Slack releases, weekly DS-meeting coaching, ad hoc sessions), but no one designer's before-and-after. If asked, describe the practice; don't invent an individual.
+- **vLex detail.** Confirmed 2026-11-06 as the client behind "about 15-16 designers". Dates, your exact scope on the system and any outcome aren't recorded; if Tim or the PM digs in, give what you remember and stop there.
+- **Q10 disagreement with your manager** (`prep.md` [NEEDS YOUR STORY]); battle card D is the closest real episode.
+- **Figma-side measurement detail.** Recorded 2026-11-06: you defined the measures (library instances vs custom frames, unlinked layers, a health score in Notion), an engineer built the Figma REST API script. Bi-weekly; health score = library instances / all UI nodes (library + detached + one-off frames); a detachment ranking set the fix order; per-component thresholds under 5% OK, 5-15% warning, over 15-20% broken. All approximate recollection; no history survives, so don't quote a score. Keep it separate from the codebase count behind the 47%: two measures, two denominators. One concrete example would make the adoption loop much stronger; have it ready if you can recall it.
+- **Native mobile and multi-platform scale:** Remuner webview only. Say so if asked.
+
+### Questions to ask (pick 2-3)
+- How is Suitcase adoption measured today, if at all, and who looks at the number?
+- When a squad needs something Suitcase doesn't have, what happens now: build it locally, wait, or contribute it back?
+- (PM interviewer) How does system work get onto a pillar's roadmap today, with no dedicated PM on it?
+- (Tim) Where are content tokens today, after the comment on your post?
+
+### Salary
+Not expected in this round. Stated EUR 65,000 on the form; Clare said the level is "probably closer to seventy" plus benefits and stock options. If raised, say it was covered with Clare and refer to her. Don't open a new number with the interviewer.
+
+### Prep checklist before the call
+- Say the Abax arc out loud once, timed to about 10 minutes, then the impact part alone in 90 seconds.
+- Clare's prep list: Platform Overview, Entry Ready launch (CPO), one product blog post. Enough to answer "what excites you" with one specific detail.
+- Recall one component fixed after the detachment loop, and the tool behind the detachment count.
+
+*After the interview: run `/debrief-interview perk "Depth of Expertise"`.*

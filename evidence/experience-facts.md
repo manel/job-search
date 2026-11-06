@@ -125,6 +125,14 @@ This is the evidence register, not finished application copy. Each material clai
 - **Verified:** 2026-10-10.
 - **External-use boundary:** Establishes design of content-management and operational interfaces, beyond CMS-connected frontend implementation. Named commerce projects, Kymco checkout launch and modular-editor contribution are now documented above. Other specific back-office tasks and measured outcomes remain unestablished. Do not infer conversion improvements or years of SaaS experience.
 
+### Client design-system work
+
+- **Claim:** During the Kings of Mambo period, vLex was a client for several projects. One of them was helping vLex build a design system for its designers and engineers. On the 2026-11-05 Perk TA call Manel described a client team of about 15-16 designers and said he coached them on adoption (explaining how to build and use the system, taking feedback to iterate on components and variants).
+- **Class:** Confirmed direct user statement (client and project); team size and coaching are Manel's recollection.
+- **Source:** Manel, 2026-11-06, confirming the TA-call claim; TA-call transcript 2026-11-05.
+- **Verified:** 2026-11-06.
+- **External-use boundary:** Dates, Manel's exact role on the system (scope of tokens, components, documentation), tools, the platform, the number of engineers and any adoption outcome are not recorded. Use "helped vLex, a client, build its design system and coached its designers on using it"; give "about 15 designers" as approximate. Do not claim the system's later state or any metric. Live case copy never names clients; interviews can.
+
 ## Remuner
 
 ### Departure and working preferences
@@ -534,6 +542,20 @@ This is the evidence register, not finished application copy. Each material clai
 - **Source:** Manel, 2026-10-20, while recording the Remuner Figma MCP examples.
 - **Verified:** 2026-10-20.
 - **External-use boundary:** Not yet recorded: which repo or codebase, roughly how many PRs or over what period, whether they were tied to the Abax migration off MUI, who reviewed and merged them, and whether AI tools were used. Until then use only the plain statement ("opened PRs fixing missing and hardcoded styles and tokens in the front-end code"); do not attach it to the 47% adoption figure or claim it drove migration.
+
+- **Claim:** At Abacum, every Abax release was announced on Slack to the whole design and engineering team. Some of the weekly design-system meetings were used to coach designers on implementing and using new components and variants, and on best practices. Manel also held ad hoc sessions with teammates who needed more help using the system.
+- **Class:** Confirmed direct user statement.
+- **Source:** Manel, 2026-11-06, during Perk Depth of Expertise prep.
+- **Verified:** 2026-11-06.
+- **External-use boundary:** Supports a coaching and communication practice around releases. How many designers were coached, how often the ad hoc sessions happened, and any individual outcome are not recorded. "Every release on Slack" is Manel's account; no channel export.
+
+- **Claim:** Manel recalls no real resistance to adopting Abax. The friction was designers remembering that components and variants existed and how to use them, so adoption was mainly a teaching and reminding problem, plus asking designers to report what was missing, not useful or complicated. Adoption and detachment metrics let him spot where components weren't used, ask the designers why, and fix the cause in the next iteration.
+- **Class:** Confirmed direct user statement; the metrics are part of the reconstructed measurement above.
+- **Source:** Manel, 2026-11-06, during Perk Depth of Expertise prep.
+- **Verified:** 2026-11-06.
+- **External-use boundary:** Do not invent a resistant squad or a conflict. Which tool reported detachments is not recorded; name it only if Manel supplies it.
+- **Example (Manel, 2026-11-06):** Select and Autocomplete were the components designers found hardest to remember and most often misused. Two problems, confirmed by Manel 2026-11-06: (1) some designers weren't clear when to use Select and when to use Autocomplete; (2) designers detached the menu to add or remove list items and built custom menu lists, sometimes because the auto layout broke: hiding or removing list items left the menu box not resizing correctly. Fix, confirmed by Manel 2026-11-06: (a) rebuilt the menu with a slot: a placeholder slot component in the menu, so designers built their own menu items in a private (local) component and placed it in the master through the slot; the result was three components, Select, Menu and Menu item; (b) usage guidance on when and how to use each, in the component documentation page and in the component description shown when inserting it; (c) a coaching session in a weekly design-system meeting explaining how the components worked after the change and collecting designers' feedback. Outcome (recollection): detachments on these components fell to almost zero; other issues remained and were tracked and fixed in later iterations.
+- **Boundary for this example:** Abacum ran Jan 2022 to Apr 2024, before Figma's native slots feature, so describe the mechanism as a slot built with a placeholder component and instance swap, not as Figma slots. "Almost zero" is recollection with no recorded figure or export; say "detachments on it almost stopped", not a percentage. Detachment measurement, stated by Manel 2026-11-06: a custom script on the Figma REST API traversed nodes in the team's files (INSTANCE vs FRAME) to log instance counts and the ratio of library components to custom elements; automated scripts also scanned project files for unlinked layers and pushed a health-score result to Notion. Confirmed by Manel 2026-11-06: an engineer built the scripts; Manel defined what they measured. Say "I defined the measures, an engineer built the script"; never claim Manel wrote it. Detail (Manel, 2026-11-06, recollection; formula given as "something like this"): the scripts ran bi-weekly. Health score = valid library component instances / total UI nodes (library instances + detached instances + custom one-off frames) x 100. A separate detachment script ranked components from most to least detached, which set what to fix first. Per-component detachment thresholds: under 5% OK, 5-15% warning, over 15-20% broken. Use the formula and thresholds as approximate; no score history or export survives. Engineers wrote both scripts (confirmed by Manel 2026-11-06); Manel defined what they measured. Don't claim Manel wrote either. This is a Figma-file measure, separate from the frontend codebase count behind the 47% figure; don't merge the two. A generic article on legacy Figma dropdown construction (fixed item lists, hidden layers, variant explosion, detaching) was pasted alongside; it is background, not a description of Abax, and must not be presented as Manel's work.
 
 ## Artifact inventory
 

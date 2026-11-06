@@ -4,13 +4,14 @@
 # 2026-10-30: Abax adoption outcome added to the Abacum entry (47% of all tracked component uses, 80% goal on the same count; evidence register, Abax measurement). The Base PDF predates it.
 # Lead: complex B2B product design across data, financial modeling, and sales-compensation workflows.
 # Scope revised 2026-10-06 from Manel’s direct clarification, corroborated by the Figma inventory.
+# 2026-11-06: "Barcelona, Spain" added to the header (location was only in role date lines), graduation year removed. Figma: set the EDUCATION heading to zero letter spacing like the other headings (it extracted as "E D U C AT I O N" in the Perk PDF). The Base PDF predates all three; re-export and run check-pdf-text --source before the next send.
 # Plain text below the line, ready for Figma paste. PDF exported 2026-10-20 to cv-pdf-to-send/Base/ (passes check-pdf-text --source); header and dates mirror it. Manel's decision 2026-10-20: keep the "Design Systems" subtitle and no case link in the base.
 
 ---
 
 Manel Leiva
 Senior Product Designer, Design Systems
-maneleiva@gmail.com | +34 622 144 909 | manel-leiva.com | linkedin.com/in/maneleiva
+Barcelona, Spain | maneleiva@gmail.com | +34 622 144 909 | manel-leiva.com | linkedin.com/in/maneleiva
 
 
 SUMMARY
@@ -68,4 +69,4 @@ Languages: Catalan and Spanish (native), English (fluent, C1)
 EDUCATION
 
 Higher National Diploma in Computing Design and Multimedia
-ESI Barcelona, 2002
+ESI Barcelona
