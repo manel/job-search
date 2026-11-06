@@ -14,7 +14,7 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 - [x] **Wizeline UX interview held 30 Oct.** Debrief in `interviews/wizeline/wizeline.md`. No whiteboard; the canvas sub-tasks are moot.
 - [x] **Wizeline UX interview passed 2 Nov** at Level 4 (David Ho email).
-- [ ] **Wizeline client interview prep by Wed 4 Nov.** Build the "what I bring to the client" pitch (the gap the UX panel named) and run `/prep-interview wizeline`. Format (David, 2 Nov): portfolio, the presentation, usual interview questions. Slot pending from David Ho; ask for the timeline if nothing by Mon 16 Nov.
+- [ ] **Wizeline client interview Tue 10 Nov, 17:30-18:30.** Prep overdue (was due 4 Nov). Build the "what I bring to the client" pitch (the gap the UX panel named) and run `/prep-interview wizeline`. Format (David, 2 Nov): portfolio, the presentation, usual interview questions. Panel: two from the client, Dow Jones (confirmed by David Ho 6 Nov; opisnet.com, wsj.com), Chi Pham and Daniela Sahagun from Wizeline, David Ho.
 
 - [x] **Remuner DS case additions: applied and pushed 2026-10-30 (portfolio 8c6ffdb).** Drafts in `context/remuner-case-additions-2026-10-20.md` (palette HSL normalisation and WCAG AA, own front-end PRs, Figma MCP with Storybook views, stack row). Manel to approve the wording and say whether a palette visual exists; then edit the case in `portfolio/`, commit there, update the pointer, and ask before pushing.
 - [ ] **LinkedIn Abacum entry (deferred 2026-10-30).** Add the Abax outcome (about 47% of component uses at departure, against an 80% goal) and apply the co-led wording from `context/linkedin.md`; Manel pastes it live, then update that file.
@@ -56,7 +56,7 @@ Raised 2026-10-26 after the Perk DS rejection at CV review (zero interviews from
 - [ ] **No visual foundations evidence.** The CV is all architecture and tooling. Check what else is claimable (type scale, iconography, motion) in `evidence/experience-facts.md`; ask Manel, don't invent.
 - [ ] **Scale and native mobile.** Largest system served five squads; mobile is the Remuner webview. Not fixable by writing: decide whether to keep applying to large multi-platform DS teams (Perk, OLX, Bitpanda, Hostaway shape) or retarget to web-first B2B SaaS where one senior PD builds and runs the system. Record the decision in `context/target-roles.md`.
 - [ ] **Smaller factors to check:** the visible gap since March 2026; React expectations in DS JDs (production React not claimable).
-- [ ] **Real signal:** Perk reopened 2026-11-02 (TA call invite). If Manel advances, ask Clare or Tanna what moved the CV after the template rejection (`applications/records/perk-senior-design-systems-designer.md`).
+- [ ] **Real signal:** Perk reopened 2026-11-02 (TA call invite) and Manel passed the TA screen 2026-11-05. Ask Clare or Tanna what moved the CV after the template rejection (`applications/records/perk-senior-design-systems-designer.md`).
 
 ## Interview prep (yours to write)
 
