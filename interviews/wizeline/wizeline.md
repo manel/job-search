@@ -202,3 +202,88 @@ Source: Manel's account after the call.
 **Process**
 - Decision expected within two days at most (by Mon 2 Nov).
 - Next round, if passed: client meeting. No news on when; the client's hiring freeze (reported 23 Oct) was not addressed.
+
+## Round 3: Client interview (Dow Jones)
+
+- **When:** Tue 10 Nov 2026, 17:30-18:30 Madrid (11:30-12:30 New York). Invite title "Wizeline Candidate Interview - L4 Product Designer".
+- **Panel:**
+  - **Forest Evashevski, Director, Experience Design, The Wall Street Journal** (Dow Jones, New York, since Feb 2022). Leads product design across WSJ experiences: mobile app, responsive web, homepage, article, navigation, media, personalization, newsletters. Before that, 12 years as a WSJ art director (Off Duty, Mansion, Money & Investing) and editorial design at Reed Business Information. LinkedIn headline lists "Design System Implementation" and "Data-Driven Design". He reposted a Dow Jones Principal Product Researcher opening in Barcelona (on-site). Source: LinkedIn screenshot supplied by Manel, 2026-11-06. **Probably the decision-maker.**
+  - eabete@opisnet.com, the organizer. Role unknown; Manel found nothing. Possibly scheduling for the Dow Jones Barcelona entity (inference).
+  - Chi Pham and Daniela Sahagun (Wizeline), David Ho. Roles unknown.
+- **His portfolio (forestevashevski.net, read 2026-11-06):** WSJ app redesign, article, live coverage, MyWSJ, media and games, plus editorial design. The personalization case leads with measured results: "+97% more article views in MyWSJ" and "average time spent per visitor increased 40%". He describes his approach as "structure, time, and intent", "clear, cohesive systems" and bringing "clarity to ambiguity". The pages he shows say nothing about design systems, accessibility or multi-brand.
+- **Format (David, 2 Nov):** portfolio, the presentation, usual interview questions. Expect the Remuner deck, then questions. A whiteboard is unlikely with a client panel, but keep the FigJam canvas from Round 2.
+- **What this round decides:** whether Dow Jones accepts you onto the account. Wizeline already passed you at L4. The UX panel said the gap was "what you bring to the table": clients want proof of why to hire this designer.
+
+### What the client most likely cares about
+
+External research, 2026-11-06 (Dow Jones job listings on third-party boards, no official page): Dow Jones runs an internal **Index Design System** with a design-systems team and a Figma library, described as built "Accessibility-First", covering market-data patterns and reused **across brands**. This explains the Wizeline "Design Systems Designer for Index" posting. OPIS, the organizer's domain, is Dow Jones's energy and commodity pricing-data business (acquired 2022), which fits the `OPIS Barcelona` Greenhouse tag.
+
+With Forest on the panel, the seat is probably WSJ consumer product (app, web, article, personalization), not OPIS data products (inference).
+
+1. **Applying the system to consumer news surfaces.** The design-system work is a means to an end for him. Show that the system serves product surfaces, and expect him to probe for craft and visual judgment: he comes from editorial art direction.
+2. **Outcomes.** He leads his own case with percentages. Your Remuner outcome is 10 of 18 screens plus a CTO quote, with no product metrics. Name that before he asks (Staff checklist item 8 in `prep.md`): what you tracked, why there's no product metric, what you'd measure now.
+3. **Contributing to Index without forking it**, with accessibility and multi-brand as the client's stated priorities. Those are your thinnest areas. Expect a direct question on each.
+4. **No consumer or news product in your history.** It's the clearest gap for this seat. The bridge is the studio: content sites, CMS workflows, and Kymco's modular content blocks that managers edited per product page. That's consumer web and content tooling, not news. Don't stretch it further.
+
+### The "what I bring" pitch (the gap from Round 2)
+
+Close the presentation on it, and reuse it for "why should we hire you?". Three anchors, one proof each. Build them as a closing slide after slide 10 (Handover), replacing the hand-off to the whiteboard.
+
+1. **I've done this exact job for a client before.** At Kings of Mambo, vLex was a client: you helped them build their design system and coached about 15 of their designers on using it. Say "about 15"; no metrics, dates or your exact scope on tokens and components (register, Client design-system work).
+2. **I work inside a shared system across teams.** Abacum: co-led the system across five squads with the head of design, weekly library sync, migration off MUI. Remuner: audit, ticket, monthly front-end meeting, nothing removed silently. That is the contribution model Index needs.
+3. **I close the gap to code.** Owned the Remuner tokens repo; engineer-reviewed PRs replacing hardcoded styles; Storybook views; years shipping your own front-end code at the studio; Figma MCP for parity checks, contrast audits and docs. Engineers get components named like the code.
+
+Then one line on the first months: learn Index and its contribution rules first, audit what your product area uses against it, and bring gaps back as proposals rather than local components. That is a plan, not a past claim; say it as one.
+
+### Lead story
+
+Positioning mapping for design-systems roles: **Remuner (Story C)** as the presentation, **Abacum (Story B)** for scale. Same deck as Round 2 (`ux-interview-deck.md`), plus the pitch slide. Have the Remuner Components file open and navigable: the UX panel asked for atomic structure and this panel may too (`memory.md` 2026-10-30).
+
+For the second beat outside design systems, keep **battle card G (IC dashboard)**: vague user feedback, interviews, targeted changes, tested with users. It's end-user research on a product surface, which is closer to Forest's world than finance configuration. Dataset Manager (Story A) only if the seat turns out to be OPIS.
+
+### Likely questions mapped to stories
+
+| Question | Use |
+|---|---|
+| Tell us about yourself | `prep.md` "Opening intro". Add the vLex line; it is the consultancy proof this panel needs. |
+| Why should we hire you / what would you bring? | The pitch above. |
+| How do you contribute to a system you don't own? | Story B (five squads, governance) plus written answers Q1-Q2 (custom vs variant, forked table). Remuner Select deprecation as the real example. |
+| Accessibility | Palette to AA via HSL normalisation, AA over harmony, errors not colour-only, screen readers "in some cases". Stop there. Then say how you'd work inside an accessibility-first system: follow its rules, check contrast and states in every component. No conformance claim. |
+| Multi-brand / theming | Not shipped; both Remuner products were one brand. Core plus a semantic layer per product, typography modes: a brand is one more layer on that core. |
+| Working with engineers | Remuner tokens repo as app submodule, reviewed PRs, Storybook. Studio front-end. Never sole pipeline authorship. |
+| Working with remote or US-based teams | Remuner and Abacum were hybrid; no recorded US time-zone work. Don't invent it. Wizeline's Mexico designers are on this account too. |
+| A mistake | Battle card E (token file). Already in the deck; keep it short. |
+| Disagreement with a decision | Battle card D (manager view, Remuner). |
+| Why WSJ / Dow Jones? | Manel's answer (2026-11-06): the challenge of a system that serves several brands, with layered tokens and components and the systems strategy behind it. Anchors: (1) the problem, one system across brands and surfaces; (2) the match, you've built a core with a semantic layer per product twice, and a brand layer is the next step; (3) one sentence on readers or surfaces, so it isn't only about the system. Say "work on" or "contribute to" the system, not "manage" it: the seat contributes to Index. Expect the follow-up "have you done multi-brand?" straight after; answer from the multi-brand row. |
+| Consumer or news product experience? | The gap. The studio's content sites and CMS workflows, then say plainly you haven't worked on news. |
+| How did you measure success? | Audit board (10 of 18 screens), the CTO quote, then what you'd measure on a news product (for example, time to ship a new surface on Index components). |
+| System consistency vs. editorial or brand expression | No direct story. Remuner's marketing site: same core, its own semantic layer and library, so marketing could make its own pages. Answer from that and from principle. |
+| Data-heavy product experience (if OPIS comes up) | Story A, then Story D (modeling syntax). |
+| Why did you leave Remuner? | `prep.md` "Priority zero". Say it and stop. |
+| Since March? | `prep.md`: Claude and Figma MCP work, occasional freelance. |
+| How do you use AI in DS work? | One umbrella line (Figma MCP with Codex then Claude), examples if asked. |
+
+**Consistency:** say co-led at Abacum. David heard "owner or lead" at both; this panel gets the register version.
+
+### [NEEDS YOUR STORY] gaps this round may hit
+
+- **One feature that shipped faster because a component existed.** The likeliest "impact" probe from a client. Not measured; point to 10 of 18 screens and the Select rollout.
+- **Accessibility gap found after shipping** (`prep.md`, enterprise gaps). Principle only.
+- **Stakeholder alignment in a large org** (`prep.md` Q20 and the global-stakeholder gap). Dow Jones is the biggest org you'd have worked in. Answer from principle; don't claim the scale.
+- **Mentoring episode** (battle cards). vLex coaching is the nearest, with no recorded episode or result.
+- **Kings of Mambo incidents** (Story E). Only the missed-deadline story (Q2) is written up.
+
+### Questions to ask them
+
+Pick two, aimed at Forest:
+1. "Which WSJ surfaces would I work on first, and how do product designers there work with the Index team?" Tells you the seat and whether this is contribution or ownership.
+2. "How does a new pattern get into Index? Who decides what goes into the core and what stays in a product library?"
+3. "What would make the first three months a success for you?" Also feeds the pitch if they ask a follow-up.
+
+### Salary
+
+Settled with Wizeline at L4, EUR 49K. The client should not ask. If anyone does: "I've agreed the terms with Wizeline and they work for me." Never mention a floor or prior pay.
+
+### After the call
+
+Run `/debrief-interview wizeline client` the same evening.

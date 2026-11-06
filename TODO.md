@@ -14,7 +14,11 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 - [x] **Wizeline UX interview held 30 Oct.** Debrief in `interviews/wizeline/wizeline.md`. No whiteboard; the canvas sub-tasks are moot.
 - [x] **Wizeline UX interview passed 2 Nov** at Level 4 (David Ho email).
-- [ ] **Wizeline client interview Tue 10 Nov, 17:30-18:30.** Prep overdue (was due 4 Nov). Build the "what I bring to the client" pitch (the gap the UX panel named) and run `/prep-interview wizeline`. Format (David, 2 Nov): portfolio, the presentation, usual interview questions. Panel: two from the client, Dow Jones (confirmed by David Ho 6 Nov; opisnet.com, wsj.com), Chi Pham and Daniela Sahagun from Wizeline, David Ho.
+- [ ] **Wizeline client interview Tue 10 Nov, 17:30-18:30.** Brief done 6 Nov (Round 3 in `interviews/wizeline/wizeline.md`; panel includes Forest Evashevski, Director, Experience Design, WSJ). Still to do before Tuesday:
+  - Build the closing "what I bring" slide in the Remuner deck (Figma "Remuner DS"), after slide 10 (Handover). Three anchors from the brief: vLex client DS work and coaching about 15 designers; working inside a shared system across teams (Abacum five squads, Remuner governance loop); closing the gap to code (tokens repo, reviewed PRs, studio front-end). Plus one plan line for the first months. Update `interviews/wizeline/ux-interview-deck.md` with the slide's talk track.
+  - Rehearse "why WSJ" from the brief's anchors: "work on" or "contribute to" Index, not "manage"; one sentence on readers or surfaces; multi-brand follow-up ready.
+  - Rehearse the outcome answer before Forest asks (10 of 18 screens, CTO quote, no product metric, what you'd measure now).
+  - Optional: identify the opisnet.com organizer.
 
 - [x] **Remuner DS case additions: applied and pushed 2026-10-30 (portfolio 8c6ffdb).** Drafts in `context/remuner-case-additions-2026-10-20.md` (palette HSL normalisation and WCAG AA, own front-end PRs, Figma MCP with Storybook views, stack row). Manel to approve the wording and say whether a palette visual exists; then edit the case in `portfolio/`, commit there, update the pointer, and ask before pushing.
 - [ ] **LinkedIn Abacum entry (deferred 2026-10-30).** Add the Abax outcome (about 47% of component uses at departure, against an 80% goal) and apply the co-led wording from `context/linkedin.md`; Manel pastes it live, then update that file.

@@ -230,7 +230,7 @@ Arc to know cold (beats, not script), all from `evidence/experience-facts.md` ("
 - **Adoption work:** no real resistance; the problem was designers forgetting what existed. Every release on Slack, coaching in the weekly DS meetings, ad hoc sessions for those who needed it; adoption and detachment metrics showed where to ask why, then fix in the next iteration. This is the part that maps straight onto Suitcase.
 - **Your part vs the team's:** "I" for the business case, token and library work, the sync and contribution process; "we" for the decision and the migration. Engineering built the original pipeline.
 
-**Assets to have open:** the live DS case (manel-leiva.com/cases/design-systems). Screen-share only if it helps a specific point.
+**Assets to have open:** the Abacum deck v2 (Figma "Abacum DS", top row; source `interviews/decks/case-deck-design-systems-abacum.md`) and the live DS case (manel-leiva.com/cases/design-systems). Screen-share only if it helps a specific point.
 
 ### Likely questions, mapped
 | Question | Use |
@@ -251,7 +251,8 @@ Arc to know cold (beats, not script), all from `evidence/experience-facts.md` ("
 - **A single coaching episode with a result.** The practice is now recorded (2026-11-06: Slack releases, weekly DS-meeting coaching, ad hoc sessions), but no one designer's before-and-after. If asked, describe the practice; don't invent an individual.
 - **vLex detail.** Confirmed 2026-11-06 as the client behind "about 15-16 designers". Dates, your exact scope on the system and any outcome aren't recorded; if Tim or the PM digs in, give what you remember and stop there.
 - **Q10 disagreement with your manager** (`prep.md` [NEEDS YOUR STORY]); battle card D is the closest real episode.
-- **Figma-side measurement detail.** Recorded 2026-11-06: you defined the measures (library instances vs custom frames, unlinked layers, a health score in Notion), an engineer built the Figma REST API script. Bi-weekly; health score = library instances / all UI nodes (library + detached + one-off frames); a detachment ranking set the fix order; per-component thresholds under 5% OK, 5-15% warning, over 15-20% broken. All approximate recollection; no history survives, so don't quote a score. Keep it separate from the codebase count behind the 47%: two measures, two denominators. One concrete example would make the adoption loop much stronger; have it ready if you can recall it.
+- **Figma-side measurement detail.** Recorded 2026-11-06: you defined the measures (library instances vs custom frames, unlinked layers, a health score in Notion), an engineer built the Figma REST API script. Bi-weekly; health score = library instances / all UI nodes (library + detached + one-off frames); a detachment ranking set the fix order; per-component thresholds under 5% OK, 5-15% warning, over 15-20% broken. All approximate recollection; no history survives, so don't quote a score. Keep it separate from the codebase count behind the 47%: two measures, two denominators. The concrete example is Select and Autocomplete (above).
+- **Content tokens, if the interviewer is Tim.** Content design is his field and he read your comment on his post. The evidence is thin: SimpleLocalize translation keys built into Remuner components. Which languages, how keys were named and who wrote the copy aren't recorded. Say what you did and stop; don't describe it as a content-token system.
 - **Native mobile and multi-platform scale:** Remuner webview only. Say so if asked.
 
 ### Questions to ask (pick 2-3)
@@ -266,6 +267,7 @@ Not expected in this round. Stated EUR 65,000 on the form; Clare said the level 
 ### Prep checklist before the call
 - Say the Abax arc out loud once, timed to about 10 minutes, then the impact part alone in 90 seconds.
 - Clare's prep list: Platform Overview, Entry Ready launch (CPO), one product blog post. Enough to answer "what excites you" with one specific detail.
-- Recall one component fixed after the detachment loop, and the tool behind the detachment count.
+- Say the Select and Autocomplete example in under a minute: problem, what the detachment ranking showed, the three-component fix, result.
+- Once the invite names the interviewer, re-read "What Perk most likely cares about" with that person in mind.
 
 *After the interview: run `/debrief-interview perk "Depth of Expertise"`.*

@@ -1,204 +1,191 @@
 # Case Deck: Design Systems at Abacum (Abax)
 
-**Best for:** DS-titled roles, staff-level interviews, roles that ask about cross-functional influence and working without mandate.
-**Duration:** 30-40 minutes including Q&A. Walk-through aim: 18-22 minutes.
-**Lead framing:** The business case, not the components, is the story. The interesting decision was building the argument before anyone asked for the system, framing cost in engineering terms rather than design terms, and designing the governance to outlive the person who built it.
+**Figma:** https://www.figma.com/slides/ae1SMrxEXfMMdUygkGTMcH/Abacum-DS (rebuilt 2026-11-06 in the "v2" row; the earlier version is kept in the first row, skipped).
+**Best for:** DS-titled roles and any round that asks for one project end to end plus collaboration (Perk Depth of Expertise).
+**Duration:** walk-through about 12 minutes; leave the rest for questions.
+**Lead framing:** how a system nobody asked for got time, got adopted by squads that didn't report to us, and how we measured it honestly.
+**Effects:** build sequences copy the Remuner deck: duplicate slides with identical layer names, Smart Animate 0.3s ease-out. Elements fade in one step per click; on the last step earlier elements dim to 40%.
+
+Every claim is checked against `evidence/experience-facts.md` (Abax entries, 2026-11-06). Speaker notes are beats, not a script.
 
 ---
 
-## Slide 1 — Cover
+## 1. Cover
 
-**Headline:** Building a design system no one asked for
+**Headline:** Why we built Abax across five product squads
+**Sub:** Abacum, 2022-2024 · B2B financial planning platform
 
-**Subheadline:** Abacum, 2022-2024. From scattered components to a company-sanctioned initiative across five squads.
-
-**Speaker notes:**
-I'm going to walk you through the design system work I did at Abacum. The framing upfront: this story isn't primarily about component design. It's about how a design system gets adopted at a company that didn't have one, when no one gave you a mandate to build it, and when the people you need to convince are engineers who have legitimate reasons to be skeptical.
+**Notes:** Abacum is FP&A software for finance teams. I joined on data integrations and ended up co-leading the design system with the head of design.
 
 ---
 
-## Slide 2 — Context
+## 2. Context (build: 5 squads, then my role)
 
-**Headline:** Five squads, one growing product, no shared foundation
+**Label:** Context
+**Headline:** Five squads and six designers, with no shared components
+**Cards:** Integrations, Engine, Reporting, Collaboration, Admin; each "MUI + local components".
+**My role:** I co-led the business case with the head of design and worked on the tokens, the Figma library and governance. Engineers built the pipeline and coded the components.
+**Footer:** A change to a shared pattern meant a separate fix in each squad.
 
-**Visual:** Simple diagram: 5 squads (Integrations, Engine, Reporting, Collaboration, Admin) around a product core. Each with their own component implementations marked.
-
-**Speaker notes:**
-Abacum is a B2B financial planning product. Complex data modeling, multi-user workflows, finance teams as end users. When I joined the integrations squad in early 2022, there were five product squads building independently. There was no design system. Every squad had its own implementation of buttons, form fields, modals. The product worked. But inconsistency was accumulating across every surface.
-
----
-
-## Slide 3 — The real problem
-
-**Headline:** Inconsistency wasn't just a visual problem
-
-**Visual:** Side-by-side screenshots of the same UI pattern (a button, a table cell, a dropdown) implemented differently across two squads.
-
-**Speaker notes:**
-You could frame this as "the product looks inconsistent." That's accurate. But that framing doesn't get engineering buy-in, because it sounds like a designer preference.
-
-The real cost was operational. Every squad was maintaining their own version of every component. When something needed to change, it had to change in five places. Bugs that were fixed on one squad reappeared on another. A typography update, a color change, a behavior fix to a Button: five separate implementation tasks, with a real chance they'd land slightly differently on each squad. And from a customer perspective, inconsistency signals immaturity. It creates a perception of a product that isn't quite finished.
-
-That second framing was the one that mattered for building the business case.
+**Notes:** Every squad had its own buttons, cells and menus on top of MUI. Fixes landed in one squad and not in another. Say "I" for the business case, library and process; "we" for the decision and the migration.
 
 ---
 
-## Slide 4 — Nobody asked for this
+## 3. Business case (build: evidence, concern, proposal, question)
 
-**Headline:** No mandate. No ticket. A choice about whether to wait or act.
+**Label:** Business case
+**Headline:** We asked engineering for time to test shared components in production
+**Cards:** Evidence: buttons, cells and menus built differently in each squad. Concern: a side project competing with squad work. Proposal: shared tokens and one Button, shipped to production. The open question: how do engineers get focused time for this?
 
-**Speaker notes:**
-There was no initiative to build a design system. No PM owned it. No engineering team was allocated to it. I was on a product squad with regular delivery commitments.
-
-The decision was whether to treat this as someone else's problem or to build the argument. I chose the second. Together with the head of design, I started building a business case (not a design brief) that we could present to engineering leadership.
-
----
-
-## Slide 5 — The business case
-
-**Headline:** Framing the cost of not having a system
-
-**Visual:** The actual presentation or a close recreation: inconsistency screenshots on the left, annotated as "these signal immaturity to customers." Engineering concerns addressed on the right. The counterfactual cost framed in engineering terms.
-
-**Speaker notes:**
-The presentation had three parts.
-
-First: evidence of the problem. Screenshots of inconsistencies across squads, categorized by component type. Buttons, cells, menus. Framed not as "this looks bad" but as "this signals immaturity to customers."
-
-Second: engineering's own objections, named before they raised them. We knew the concerns: "side project," "co-prioritization," "squads don't have a platform picture." We addressed each one directly rather than ignoring them.
-
-Third: the counterfactual cost. Five squads, each maintaining independent components. Any change to a shared UI pattern — a typography update, a color rebrand, a button behavior change — had to happen five times independently. Over time, that's not just slower. It's the kind of thing that creates incidents: one squad ships the fix, another doesn't pick it up for two weeks, a third ships a slightly different version. The DS wasn't an investment in aesthetics. It was a cap on a compounding maintenance tax.
-
-The ask was small: get the system selected as a Maker Days initiative, where squads had dedicated time outside regular delivery. Not a full-time team. A quarterly slot to prove the concept worked.
+**Notes:** We named engineering's objection before they raised it. Presented to engineering leadership and at an all-hands. Battle card C.
 
 ---
 
-## Slide 6 — The win: Maker Days
+## 4. Investment choice
 
-**Headline:** The DS gets selected as a quarterly initiative
+**Label:** Investment choice
+**Headline:** We chose one dedicated week for Abax
+**Cards:** Alongside sprints: 2 front-end engineers and 1 designer, 2 weeks alongside squad work. Maker Days: 4+ front-end engineers and 2+ designers, 1 dedicated week.
 
-**Speaker notes:**
-Maker Days was a quarterly initiative at Abacum where teams competed for dedicated time on non-roadmap work. Getting the DS selected meant converting it from a side project to a company-sanctioned initiative.
-
-That distinction mattered more than I expected. Before Maker Days, working on the DS was discretionary time. After: it had an official slot, competed against other initiatives, and had a formal outcome expected from it. That changed how engineering engaged with it.
-
----
-
-## Slide 7 — Architecture decisions
-
-**Headline:** Two decisions made early that constrained everything that followed
-
-**Visual:** Diagram of two-tier token architecture: primitive layer (raw values: colors, spacing) + semantic layer (contextual names: color-text-primary, space-component-padding). Below it: MUI component library as base. Success criteria annotated: Abax at 80% of all component uses, reached through reworks, iterations and new features; 100% MUI deprecation where equivalents existed.
-
-**Speaker notes:**
-Two decisions shaped the whole build. We also defined success criteria before starting: Abax at 80% of all component uses in the codebase, reached as squads reworked screens, iterated or built new features, and 100% deprecation of legacy MUI in areas where equivalents existed. Having the criteria set upfront gave us a way to measure adoption that engineering could track themselves rather than taking our word for it.
-
-First: keep MUI as the base component library rather than building from scratch. All five squads were already on MUI. Replacing it meant rewriting every component across all five squads — with no immediate product benefit, requiring a level of engineering buy-in we didn't have, and impossible to scope into the Maker Days quarters we were working in. The constraint wasn't just that it would take longer. It was that the ask had to be achievable in increments the team could justify. Building on MUI made each quarter's work shippable.
-
-Second: a two-tier token architecture. Primitive tokens hold the raw values. Semantic tokens hold the contextual meaning: `color-text-primary` rather than `#1A1A1A`. The semantic layer is what lets you change a primitive value without hunting for every usage across the codebase. This came from thinking about what the system would need to stay maintainable, not just what was needed for the first few components.
+**Notes:** Maker Days was Abacum's quarterly slot for non-roadmap work. Getting selected turned a side project into a sanctioned one.
 
 ---
 
-## Slide 8 — The pipeline
+## 5. Proof
 
-**Headline:** Token Studio → Style Dictionary → GitHub → npm → ESLint
+**Label:** Proof
+**Headline:** The first Abax Button shipped in one week
+**Body:** It proved the path from Figma to code. An engineer built the original pipeline.
 
-**Visual:** Linear flow diagram of the pipeline. Each step labeled with what it does.
-
-**Speaker notes:**
-An engineer built the original pipeline. My job was understanding it well enough to reason about decisions within it and to govern what went in.
-
-Token Studio is the Figma plugin that manages the token values. Style Dictionary transforms them into platform-specific formats: CSS variables, Sass variables, JSON for JavaScript consumers. The output goes into a GitHub repo, then into an npm package that squads import. ESLint rules enforce adoption: using a hardcoded hex instead of a token raises a linting error.
-
-The enforcement piece was deliberate. Without it, adoption is voluntary and tends to slip under deadline pressure. Trust is not an adoption strategy.
+**Notes:** Tokens and the Button reached production in one Maker Days week. After that, each new component was easier to justify.
 
 ---
 
-## Slide 9 — Proof: the Button
+## 6. Roadmap
 
-**Headline:** First component shipped end-to-end in one Maker Days week
+**Label:** Roadmap
+**Headline:** After Maker Days, we planned Abax adoption
+**Steps:** Pilot result → set an adoption goal (80% of Abax and MUI uses from Abax) → find gaps → build next → release and migrate.
 
-**Visual:** Before/after of the Button component, or a screenshot from Storybook. The pipeline diagram with all steps highlighted.
-
-**Speaker notes:**
-The Button was the first component we took from design spec through the full pipeline: Token Studio → Style Dictionary → npm → ESLint. We did it in one Maker Days week.
-
-That sounds unremarkable. What it was: proof that the pipeline worked as a system. Before that, the pipeline existed as a design. Afterward, it existed as a fact. That changed the team's confidence in everything that came after. The Button wasn't the important component. It was the proof of concept that made every subsequent component easier to justify.
+**Notes:** The 80% goal counts every Abax and MUI use in the codebase, reached through reworks and new features. Never "80% of new UI".
 
 ---
 
-## Slide 10 — Governance
+## 7. Architecture
 
-**Headline:** What kept it working for 8+ months
+**Label:** Architecture
+**Headline:** We kept MUI to avoid a five-squad rewrite
+**Cards:** Keep MUI as the base. Primitive tokens (raw values). Semantic tokens (names tied to use, `color-text-primary`).
+**Pipeline line:** Figma Variables → Token Studio → Style Dictionary → code
 
-**Visual:** Four-column layout: issue reporting, feature flag releases, weekly sync, two-library Figma structure. Each with a one-line note on what failure mode it was designed to prevent.
-
-**Speaker notes:**
-Most DS case studies show the build. This part is what usually gets skipped, and it's where most systems fail.
-
-Structured issue reporting: components reported to a Slack channel, categorized, tracked in Notion. Without this, problems accumulate invisibly until a squad decides to work around the system rather than report the issue.
-
-Feature flags for new component releases: squads could adopt on their own timelines without creating inconsistency during transition. The alternative — releasing a new component and expecting all five squads to adopt it immediately — would have created a period where some squads were on the new component and others weren't. Mid-transition inconsistency is worse than no system at all.
-
-A standing weekly design library sync: keeps decisions from piling up and becoming blockers.
-
-The two-library Figma structure was something I proposed and drove: an Exploration file, prefixed [Experiment], for components under development, and a separate canonical Implementation file for anything production-ready. This prevented the library from becoming a graveyard of in-progress work that no one could tell was ready to use.
+**Notes:** All five squads already used MUI; replacing it would have meant rewriting every screen. Squads could adopt Abax gradually. I didn't build the pipeline; I made the token decisions inside it.
 
 ---
 
-## Slide 11 — Real tensions
+## 8. Rollout and governance (build: six cards)
 
-**Headline:** The hard decisions were not in the spec
+**Label:** Rollout
+**Headline:** Squads migrated in their own sprints while design ran the library
+**Cards:**
+- Feature flags: new form elements shipped behind flags.
+- Squad backlogs: each squad added its own migration tickets.
+- Weekly library sync: every designer attended, for over eight months.
+- Two Figma libraries: Exploration for experiments, Implementation for published work.
+- Issue reports: broken components, naming, missing variants and detaches, through Notion and Slack.
+- Lint rule: engineers got a warning when they imported an MUI component that Abax replaced.
+**Footer:** I proposed the two-library split and ran the sync and the issue process. An engineer wrote the lint rule.
 
-**Visual:** Four cards: "When to stop building infrastructure and start shipping components," "Component naming debates," "Read-only state (engineers vs designers)," "Deprecated components in search."
-
-**Speaker notes:**
-Four tensions worth naming.
-
-When to stop building token infrastructure and start shipping components. This is the one that doesn't get discussed in DS case studies. At a certain point, continued refinement of the token layer becomes procrastination. We had to make a call to stop extending the architecture and start proving it worked by shipping real components. That boundary is a judgment call, not a technical one.
-
-Naming debates: consistent naming is harder than it sounds. What one squad called a "cell" another called a "chip." These arguments look trivial from outside but they're load-bearing for adoption. If engineers can't find the component by its name, they build their own.
-
-Read-only state: engineers and designers had genuinely different mental models of what "disabled" and "read-only" meant in the system. Resolving it required both sides articulating their mental model separately, then finding where the actual difference was rather than arguing about the label.
-
-The deprecated components in search is the one worth going deeper on because it had three real options and a non-obvious right answer. [NEEDS INPUT: What were the three options and which did you choose?]
-
-These are the decisions that determine whether a DS actually gets used. They don't get made by writing components. They get made in conversations.
+**Notes:** The lint rule covered Button, Select, Tab, Tooltip and Chip, as a warning. Don't say it checked tokens or blocked builds.
 
 ---
 
-## Slide 12 — Outcome
+## 9. Measurement (build: code, Figma, ranking)
 
-**Headline:** Five squads, enforced adoption, and a system that ran without me
+**Label:** Measurement
+**Headline:** We measured adoption in code and in Figma
+**Code, monthly:** front-end engineers counted every Abax and MUI component use. About 47% Abax at departure; goal 80% of the same count.
+**Figma, every two weeks:** health score = library instances ÷ all UI nodes (library, detached and one-off frames). A ranking of the most-detached components set what to fix first. Thresholds per component, roughly: under 5% fine, 5 to 15% warning, over 15% broken.
+**Footer:** I defined the Figma measures and an engineer built the scripts. The 47% comes from the code count only.
 
-**Visual:** Coverage diagram — 5 squads marked as covered. ESLint adoption rule highlighted. Storybook / Chromatic screenshot.
+**Notes:** Two measures, two denominators; never merge them. No score history survives, so describe the mechanism and don't quote a health score.
 
-**Speaker notes:**
-By the end of my time at Abacum, Abax covered all five squads. Adoption was enforced at the linting layer, not on trust. Storybook deployed in Chromatic gave engineering a running reference that stayed in sync with the library.
+---
 
-When I left, Abax accounted for around 47% of all tracked components in the codebase, counting every Abax and legacy MUI use. The goal was 80% of that same count. Short of the target and still climbing; token violations and old components were replaced as sprints and new features reached them; migration sat in the squads' own backlogs, not with a central team. Two of the five squads had completed the form element migration, and a third was mid-migration.
+## 10. Select and Autocomplete (build: problem, fix, guidance, coaching, result)
 
-[NEEDS INPUT: One concrete before/after that shows what the DS enabled. Something like: "New engineers joining could ship their first UI component in a day rather than spending the first week understanding what pattern to follow across five squads." Or a feature that shipped noticeably faster. What's one real example you remember?]
+**Label:** One fix, end to end
+**Headline:** The detachment ranking pointed us to Select and Autocomplete
+**Steps:**
+- Problem: designers detached the menu to add or remove items, because hiding items broke the auto layout. Some weren't sure when to use Select and when Autocomplete.
+- Fix: split into Select, Menu and Menu item. A placeholder slot let designers build items locally and swap them in.
+- Guidance: when to use each, on the docs page and in the component description.
+- Coaching: a session in the weekly design-system meeting, collecting feedback.
+- Result: detachments on these components almost stopped. Remaining issues went into later iterations.
 
-The system didn't require me to be in the room for it to work. That was the outcome I was aiming for: infrastructure that operates independently of the person who built it. If I had left and nothing changed in how the squads worked, the DS had succeeded. If it needed me to maintain it, it was still a side project.
+**Notes:** This was before Figma's native slots; it was a placeholder component plus instance swap. "Almost stopped" is recollection; no figure.
 
-One thing I'd do differently: the naming governance for tokens. The semantic layer was correct, but naming conventions drifted over time as new tokens got added by different people without a clear standard. I'd establish that explicitly and earlier, not as a document, but as a review step in the contribution process.
+---
+
+## 11. Coaching
+
+**Label:** Coaching
+**Headline:** Most adoption problems came from designers not knowing what existed
+**Cards:** Release notes: every Abax release on Slack, to design and engineering. Weekly meeting: some sessions coached new components, variants and practices. One to one: ad hoc sessions for anyone who needed more help.
+**Footer:** When the data showed a component going unused, I asked the designers why and fixed the cause in the next iteration.
+
+**Notes:** No squad resisted. Don't invent one. If asked for a single designer's before and after, there isn't one recorded; describe the practice.
+
+---
+
+## 12. Outcome (build: four stats, then why)
+
+**Label:** Outcome
+**Headline:** Abax reached five squads, with migration still in progress when I left
+**Stats:** 5 squads using Abax · ~47% of tracked component uses (goal 80%) · 2 + 1 squads: form migration done, one underway · 8+ months of weekly library sync
+**Why 80% wasn't reached:** squads migrated one by one, through reworks and new features. There was no dedicated clean-up.
+**Other signals:** a designer built a new screen quickly from existing variants; customers said the product felt more polished.
+**Source line:** The 47% is reconstructed from monthly codebase counts; the raw exports aren't available.
+
+**Notes:** Say the 80% wasn't reached, and why, before they ask. No velocity number exists; don't invent one.
+
+---
+
+## 13. What I took to Remuner
+
+**Label:** Next system
+**Headline:** What I changed when I built Remuner's system alone
+**Cards:** Smaller token set: build what the product uses, extend when it needs more. Lint rule for token use: strict at first, then failing only new violations. Audit board: each core screen tracked on or off the system, 10 of 18 at departure.
+
+**Notes:** Same principles, one designer instead of six. Bridge to the Remuner deck if they want more.
+
+---
+
+## 14. LLMs today
+
+**Label:** Today, hypothetical
+**Headline:** How I would use LLMs on Abax today
+**Cards:** Figma context, Tokens, Components and docs, Production code (unchanged from v1).
+**Footer:** At Remuner I used the Figma MCP to manage tokens and run contrast checks.
+
+---
+
+## Backup
+
+- **B1. The problem:** duplicate components and repeated fixes (v1 slide).
+- **B2. Deprecated components:** marked ⛔ DEPRECATED, replacement published under the clean name, old one unpublished after migration (v1 slide).
 
 ---
 
 ## Q&A preparation
 
-**"What would you do differently?"**
-The token naming governance. The semantic layer was correctly architected, but the naming conventions drifted as the system grew and different people added tokens. I'd make naming governance an explicit step in the contribution process rather than a document people read once.
+**"What would you do differently?"** Start with a smaller token set and enforce adoption in code earlier. That's what I did at Remuner (slide 13).
 
-**"How did you handle disagreement in the team?"**
-Name the read-only state debate. Two sides with legitimate reasoning. Resolution came from asking both to write down their mental model separately, then finding where the difference actually was, not where they thought it was. The disagreement wasn't about which name to use — it was about two genuinely different models of what the state meant. You can't resolve that by picking a word.
+**"How did you handle the team dynamics?"** Head of design as co-lead; engineering leadership for the time; squad designers in the weekly sync; squads owned their own migration tickets. Battle card C for the capacity objection.
 
-**"How did this connect to business outcomes?"**
-Five squads maintaining independent components means a shared UI change happens five times, with a real chance of subtle inconsistency across implementations. The DS doesn't eliminate that cost immediately, but it caps its growth. And the ESLint enforcement means it doesn't degrade over time under deadline pressure. For customers, a consistent product surface signals a product worth trusting — which is a sales and retention argument, not just an aesthetics one.
+**"How did system work get prioritised against features?"** Maker Days as a bounded bet, then migration inside squad backlogs and feature work.
 
-**"How did you measure adoption?"**
-(Updated 2026-10-30, see `evidence/experience-facts.md`, Abax measurement.) In code and in Figma. In code, the front-end engineers' monthly scripts counted every Abax and legacy MUI component use; the last reading was around 47% Abax, against a goal of 80% of that full count, still climbing. In Figma, I ran a script every week on the ready-for-dev frames. It counted Abax instances against total layers, and layers named like an Abax component that weren't instances, which flagged likely detaches. We didn't run a clean-up push: token violations and old components were replaced as sprints and new features reached them. The raw exports aren't something I can produce today, so describe the mechanism, not a trend. Never claim an ESLint violation count or trend; violations only surfaced as editor tooltips and were never aggregated.
+**"How did you measure adoption?"** Slide 9. Two measures: the monthly code count (47%, goal 80%) and the Figma health score every two weeks. I defined the Figma measures; an engineer built the scripts. No raw exports survive.
 
-**"What was your specific contribution vs the team's?"**
-Co-led the business case with the head of design. Drove the two-library Figma structure and the governance process. Defined the token naming conventions. I didn't build the original pipeline — an engineer did. I owned what happened inside it: the governance, the contribution process, the decision-making on tensions.
+**"What was your contribution vs the team's?"** Co-led the business case. Token decisions, the Figma library, the two-library split, the sync and the issue process, the Figma measures. Engineers built the pipeline, the components in code, the scripts and the lint rule.
+
+**Don't claim:** that the lint rule checked tokens or blocked builds; a health score or trend; a velocity number; "80% of new UI"; that you wrote the pipeline or scripts.

@@ -15,7 +15,7 @@ applied_on: 2026-10-21
 last_contact_on: 2026-11-05
 outcome_stage: design-interview
 rejection_reason_class: none
-next_action: Await the calendar invite for the Depth of Expertise video call (slots submitted Wed 11 to Tue 17 Nov); it will name the interviewer. Prep this weekend regardless of the slot: pick the one project to deep-dive and run /prep-interview perk hiring-manager.
+next_action: Await the calendar invite for the Depth of Expertise video call (slots submitted Wed 11 to Tue 17 Nov); it will name the interviewer. Brief is in interviews/perk/perk.md (Round 2, Abax lead); rehearse the Abax arc out loud this weekend.
 next_action_on: 2026-11-09
 salary_stated: EUR 65,000 gross annual base (form field, 2026-10-21; restated in the TA call 2026-11-05, when Clare said the level is "probably closer to seventy" plus benefits and stock options)
 job_url: https://jobs.ashbyhq.com/Perk/78dafbf1-0f6d-46b7-b71a-2c59f7af31cf

@@ -21,7 +21,7 @@ New: "At departure, Abax accounted for approximately 47% of tracked Abax and MUI
 
 ## C. New paragraph, append to "Making adoption stick" (after the ESLint paragraph)
 
-We tracked adoption on both sides. In code, the front-end engineers ran a monthly script that counted every Abax and MUI component use. In Figma, I ran a script every week on the frames marked ready for dev. It measured how many layers were Abax instances, and it flagged layers named like an Abax component that weren't instances, which usually meant someone had detached one. Those flags fed the issue reports, where the "detached instances" category told us why.
+We tracked adoption on both sides. In code, the front-end engineers ran a monthly script that counted every Abax and MUI component use. In Figma, I ran a script every two weeks on the frames marked ready for dev. It measured how many layers were Abax instances, and it flagged layers named like an Abax component that weren't instances, which usually meant someone had detached one. Those flags fed the issue reports, where the "detached instances" category told us why.
 
 ## Open
 
