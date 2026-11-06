@@ -147,8 +147,9 @@ Use **Plus Jakarta Sans**. Weight 700 for headlines, 500 for labels/sub-copy, 40
 
 ### Layout (1920×1080)
 - Left margin: 120px
-- Label: y=270, 13px, weight 500, accent, letter-spacing 2.8px, uppercase
-- Headline: y=314, 56px, weight 700, primary text, width 1480px, line-height 72px
+- Label: y=150, 13px, weight 500, accent, letter-spacing 2.8px, uppercase (changed from y=270 on 2026-11-06 to match the Remuner deck)
+- Headline: y=194, 56px, weight 700, primary text, width 1480px, line-height 72px (was y=314)
+- Content starts about 70px below the headline's last line (y=336 for one line, y=408 for two)
 - Body: y=614, 26px, weight 400, muted text, width 1300px, line-height 42px
 - Visual placeholder: y=882, 13px, weight 400, dim, width 1500px
 - Notes separator: y=936, 1px, dim
@@ -161,6 +162,9 @@ Use **Plus Jakarta Sans**. Weight 700 for headlines, 500 for labels/sub-copy, 40
 - Headline: y=346, 76px, weight 700, line-height 92px
 - Sub: y=522, 30px, weight 400, muted
 - Author credit: y=988, 16px, weight 500, dim
+
+### Build sequences
+Progressive reveals use duplicate slides with identical layer names and a Smart Animate transition (0.3s, ease-out) on every step after the first. Hidden elements sit at opacity 0; an optional last step dims earlier text to 0.4. Reference: Remuner DS and Abacum DS v2 in Figma.
 
 ### Accent usage
 The teal accent appears in exactly three places per slide:

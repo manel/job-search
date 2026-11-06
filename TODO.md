@@ -25,7 +25,13 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 - [ ] **Abacum front-end PRs: details for the Abax case.** Recorded as a plain fact 2026-10-20. Ask Manel: part of the MUI-to-Abax migration or general cleanup; roughly how many; reviewed and merged by engineers; any AI tools. Then decide whether it goes into "Making adoption stick" in `portfolio/public/cases/design-systems.html`.
 
-- [ ] **Commit the 2026-11-03 session work.** Uncommitted: watchlist rebuild from the new upstream JSON (`scripts/build-company-watchlist.py`, 94 boards with a careers URL), 24 role leads, posting checks on 20 records, five status changes (WhiteTech, Hostinger, Tether stale; Glovo, DuckDuckGo role-closed), Spain-only salary data in `context/salary.md`, and the response-time analysis in `analysis/2026-11-03/`. Also mixed in: the earlier Perk, Wizeline and TODO edits.
+- [ ] **Push `portfolio/` and commit the pointer.** Local commit `221911e` (Abacum DS case: Figma adoption script "every two weeks", matching the register) is not pushed; pushing publishes it on the live site. Then commit the `portfolio` pointer in this repo and push.
+- [ ] **Abacum deck v2 (Figma "Abacum DS", top row), before the Perk Depth of Expertise call.** Built 2026-11-06; source `interviews/decks/case-deck-design-systems-abacum.md`.
+  - Play it once in presentation mode: the Smart Animate builds (slides 2, 3, 8, 9, 10, 12) are untested.
+  - Slide 6 Roadmap screenshot shows the Vision 1.0 line "80% of new UI" and colleagues' full names in the owner column. Crop it to "How to get there" or replace it.
+  - Screenshots to `interviews/decks/assets/abacum/`: inconsistent buttons, cells and menus before Abax (slide 2); Abax Select, Menu and Menu item (slide 10, now a recreation). Then swap them in.
+  - Delete the two old skipped rows once v2 is approved.
+
 - [ ] **Decide Stripe DS and Bunge.** Stripe Product Designer Design Systems: 36 days silent, posting open, past the 5-week stale line. Bunge: `applied` 104 days, posting status unknown; likely stale.
 - [ ] **Haddock review (due 3 Nov).** Posting still open on 3 Nov, process on hold since 9 Oct; the 12 Oct reply to Ingrid is unconfirmed as sent. Decide on a short follow-up.
 - [ ] **Assess the 15 role leads from the 3 Nov scan** marked `initial_fit: not assessed` in `sourcing/role-leads.csv` (the other 9 are already skipped). Overdue follow-ups outrank them.
