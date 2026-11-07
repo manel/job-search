@@ -24,6 +24,7 @@ Proceed; CV and cover-letter Markdown sources are prepared. Layout/export and PD
 
 Proceed; application materials have not been prepared. Recheck the vacancy before drafting.
 
+- [SplitMetrics, Senior Product Designer - Core](records/splitmetrics-senior-product-designer-core.md): proceed, assessed 2026-11-07, posted 2026-11-06. Remote Europe (Barcelona listed); B2B analytics for mobile app growth; IA, data viz, agentic flows, design system. Light tailoring led by the AI agent and Dataset Manager cases. Risks: ad-tech domain, level and range unknown. Apply by 9 Nov.
 - [Qonto, Senior Product Designer, Banking](records/qonto-senior-product-designer-banking.md): proceed, high priority, but the posting is down (Lever 404 on 2026-10-25; Qonto moved to Ashby, no design roles listed). Next: DM Christina Chen (hiring manager, invited outreach) asking whether the role or the November freelance mission is still open, by 27 Oct. CV, form answers and DM drafted. Gap: no regulated-process or Legal/Compliance work to claim.
 
 - [Punto Health, Product Designer (UX/UI & Visual)](records/punto-health-product-designer.md): proceed, light application, assessed 2026-10-19. Seed digital-health startup; own UX/UI and the Figma design system plus generalist marketing design; Barcelona three days. Must-haves met; level (1+ years Figma filter) and pay are the risks. Easy Apply, base CV adjusted.
@@ -62,8 +63,6 @@ Resolve the stated next step before investing further. A Proceed assessment can 
 
 - [OLX, Senior Product Designer](records/olx-senior-product-designer-ai-native.md): submission confirmed by Manel on 2026-10-13; awaiting employer response. Exact submitted files, form answers, portfolio version, PDF QA, and receipt details remain unconfirmed. Daria outreach not confirmed sent.
 
-- [PromoFarma / DocMorris, Product Designer (E-commerce)](records/promofarma-product-designer-ecommerce.md): applied 2026-10-16 on the Head of Product's recommendation; EUR 38,000 stated; Workday acknowledgment received; HoP notified and passed it to the right person. Nudge Talent Acquisition on 2026-10-30 if nothing arrives.
-- [Bunge, Senior User Experience Designer](records/bunge-senior-user-experience-designer.md): candidate portal confirmed on 2026-09-22 that the profile is still being considered; no direct employer response received.
 
 ## On hold
 
@@ -137,6 +136,8 @@ Not being pursued under the recorded decisions. Prepared historical materials do
 
 ## Vacancy closed before a decision or submission
 
+- [PromoFarma / DocMorris, Product Designer (E-commerce)](records/promofarma-product-designer-ecommerce.md): applied 2026-10-16 on the Head of Product's recommendation; the Head of Design said on 2026-11-06 that the role is closed. No next action.
+- [Bunge, Senior User Experience Designer](records/bunge-senior-user-experience-designer.md): applied 2026-07-22, no employer response; role closed (confirmed by Manel 2026-11-07). No next action.
 - [Glovo, Staff Product Designer, Order Tracking](records/glovo-staff-product-designer-order-tracking.md): posting closed by 2026-11-03, never submitted.
 - [DuckDuckGo, Senior Product Designer, Design Systems](records/duckduckgo-senior-product-designer-design-systems.md): posting closed by 2026-11-03 while deferred, never submitted.
 - [Moniepoint, Senior Product Designer — Design System](records/moniepoint-senior-product-designer-design-system.md): applied 2026-09-15; posting removed by 2026-10-16 with no human response. Remaining DS openings are a Nigeria repost and a manager role (skip). No next action.

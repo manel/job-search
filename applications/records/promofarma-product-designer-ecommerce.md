@@ -1,29 +1,32 @@
 ---
 company: PromoFarma / DocMorris
 role: Product Designer (E-commerce)
-status: applied
-status_verified_on: 2026-10-16
+status: role-closed
+status_verified_on: 2026-11-07
 status_confidence: confirmed
-posting_status: open
-posting_checked_on: 2026-11-03
+posting_status: closed
+posting_checked_on: 2026-11-06
 fit_decision: proceed
 role_lane: product
 application_channel: warm path
 warm_path: Head of Product invited Manel to apply and said he will ask Design to review his profile carefully; outside selection process; confirmed by Manel 2026-10-11
 applied_on: 2026-10-16
-last_contact_on: 2026-10-16
+last_contact_on: 2026-11-06
 outcome_stage: no-response
-next_action: Await Talent Acquisition or Design contact; nudge Talent Acquisition if nothing by 2026-10-30 (10 business days)
-next_action_on: 2026-10-30
+next_action: None
+next_action_on: 
 salary_stated: EUR 38,000 gross annual for the 34-hour contract (stated in application, 2026-10-16; basis confirmed by Manel)
 salary_signal: HoP tentatively estimates around EUR 35000 with large error margin; annual gross and 34-hour basis unconfirmed; reported 2026-10-13
 job_url: https://jobs.promofarma.com/en/offer/product-designer-e-commerce/b19612f2-38e5-43ef-9256-072499ab64f8
 source: Workday acknowledgment email and salary figure supplied by Manel 2026-10-16; official posting (JR04654) rechecked 2026-10-16; earlier closure report and Career OS evidence
+rejection_reason_class: unknown
 ---
 
 # PromoFarma / DocMorris — Product Designer (E-commerce)
 
 ## Current state
+
+**Role closed (2026-11-06, told by the Head of Design; confirmed by Manel 2026-11-07).** No next action. Earlier state below.
 
 **Applied 2026-10-16** through the PromoFarma careers site, on the Head of Product's recommendation. Same requisition (JR04654) that was reported closed on 2026-10-13; it is live again. Workday sent the automated acknowledgment at 09:53 the same day; no human response yet. Salary stated: EUR 38,000 gross per year for the 34-hour contract (basis confirmed by Manel); slightly above the HoP's rough EUR 35k estimate.
 
@@ -85,3 +88,4 @@ Prepare and apply, using transferable product-design evidence. Ask for the budge
 - 2026-10-11: Manel confirmed Head of Product sent vacancy. Official posting verified and fit assessed. Proceed to warm exploratory conversation; no materials prepared, outreach sent or application confirmed.
 - 2026-10-16: Manel applied via the PromoFarma careers site (same requisition JR04654, live again) after the Head of Product recommended it. Workday acknowledgment received 09:53. Salary stated EUR 38,000. Status changed from role-closed to applied. CV source reconstructed from the sent PDF, since the 2026-10-12 Markdown had been deleted on 2026-10-13.
 - 2026-10-16: Manel messaged the Head of Product on WhatsApp after applying; the HoP replied that the information had been passed to the right person. Manel confirmed the EUR 38,000 is annual gross for the 34-hour contract.
+- 2026-11-07: Manel reported that the Head of Design told him on 2026-11-06 that the role is closed. Status changed from applied to role-closed. Whether it was filled, cancelled or closed after reviewing his profile is not recorded.
