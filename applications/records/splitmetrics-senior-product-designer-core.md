@@ -15,7 +15,7 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Light-tailored application via Ashby. Lead with data-heavy B2B workflows (Dataset Manager) and the shipped AI agent; link the AI agent case directly. Ask the level and range at first contact
+next_action: Manel reviews the CV and letter sources, lays out the CV in Figma, exports PDFs (run check-pdf-text), applies via Ashby with manel-leiva.com/cases/ai-agent in the portfolio field. Ask the level and range at first contact
 next_action_on: 2026-11-09
 salary_stated:
 job_url: https://jobs.ashbyhq.com/splitmetrics/672a1311-4355-4d24-aa78-c7163a6e7c37
@@ -53,6 +53,13 @@ SplitMetrics sells B2B tools for mobile app growth: Acquire (Apple Ads automatio
 
 **Warm path:** none found in `context/outreach.md`. Not worth delaying a fresh posting for one.
 
+## Materials
+
+- CV source: `cv/roles/splitmetrics-senior-product-designer-core.md` (2026-11-07)
+- Cover letter source: `cover-letters/roles/splitmetrics-senior-product-designer-core.md` (2026-11-07, 197 words)
+- Not yet exported or sent.
+
 ## History
 
 - 2026-11-07: Manel supplied the posting URL. Posting verified live via the Ashby job-board API (published 2026-11-06). Fit assessed: Proceed. No materials prepared.
+- 2026-11-07: CV and cover-letter sources drafted (lead: AI agent and data-heavy work; IC dashboard analytics line directional only). Awaiting Manel's review and export.
