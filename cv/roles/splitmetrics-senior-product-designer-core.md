@@ -3,6 +3,7 @@
 # Lead: product, B2B, data-heavy mapping (positioning.md), with the AI agent moved up because the posting asks for agentic flows. IC dashboard bullet answers "use analytics to inform design decisions": directional only, no figures (register boundary).
 # Product role, so no case link in the summary (writing-rules.md); the AI agent case goes in the letter and the form's portfolio field.
 # No ad-tech, mobile-marketing or "behavioural design" claim anywhere.
+# 2026-11-07: three Remuner bullets shortened to keep Abacum on page 1 (Figma layout).
 # Plain text below the line, ready for Figma paste.
 
 ---
@@ -28,11 +29,11 @@ Owned product design across Remuner’s sales-compensation platform as its sole 
 
 Designed and shipped a conversational AI agent for commissions and sales plans; owned conversation design, answer formats, and trust patterns, with capability decisions shared with founders and engineering.
 
-Interviewed the reps who called their dashboard unintuitive and redesigned it around what they were missing, including plan calculations and payout timing. After release, product analytics showed fewer clicks to reach a metric.
+Interviewed reps who called their dashboard unintuitive and redesigned it around plan calculations and payout timing. After release, analytics showed fewer clicks to reach a metric.
 
-Built interactive product prototypes through AI-assisted workflows for users to test, separate from the production application.
+Built interactive prototypes with AI-assisted workflows for user testing.
 
-Built the component library and owned the token system and its repo; used Codex to add CI validation, drift detection and smoke tests, and opened PRs that replaced hardcoded styles in the front-end app with tokens.
+Built the component library and owned the token repo; used Codex to add CI validation and drift detection, and opened PRs replacing hardcoded styles with tokens.
 
 
 Abacum, Senior Product Designer
