@@ -1,6 +1,6 @@
 # Wizeline UX interview: Remuner DS case deck (talk track)
 
-Deck: Figma file "Remuner DS", one slide row (19 Figma slides plus two skipped originals at the end: deck slide 3 is five builds, deck slide 5 is four, deck slide 7 is three; builds use smart animate with earlier items dimmed). Built 2026-10-27; rebuilt the same day for strategy and JD coverage. Slide 5 updated 2026-10-29 with the marketing library.
+Deck: Figma file "Remuner DS", one slide row (21 Figma slides since 2026-11-07: "What I bring" and "Thank you" added after Handover for the client round; before that 19 Figma slides plus two skipped originals at the end: deck slide 3 is five builds, deck slide 5 is four, deck slide 7 is three; builds use smart animate with earlier items dimmed). Built 2026-10-27; rebuilt the same day for strategy and JD coverage. Slide 5 updated 2026-10-29 with the marketing library.
 Slot: 15 minutes per David Ho's email (STAR: situation, task, actions, outcomes; role and team; no long paragraphs, no small assets). The 25-minute whiteboard follows, so don't run over.
 Every figure below was checked against the Figma files on 2026-10-27 or against `evidence/experience-facts.md`.
 
@@ -17,7 +17,9 @@ The slides carry one point each. The detail is here, said aloud.
 | 7 | Accessibility | 1:30 | The base colours were inherited and I built the ramps. I normalised them in HSL with the Figma MCP. Text and icon colours meet AA (ratios on the slide, measured 2026-10-29). Where AA and harmony clashed, AA won. Helper text and links were the last ones, darkened before I left. Errors carry a message, not just a red border, and some components were checked with screen readers. Say "AA" and "some", and stop there. The original slide 7 is skipped in Figma (its focus claim was wrong for fields). |
 | 8 | Adoption and governance | 2:05 | The loop: audit, ticket, feature work, monthly front-end meeting. A lint rule (loosened to block only new violations) and a weekly component count fed the audit board. Nothing was removed silently: the ranking tokens are still in the file marked "TO DELETE". The mistake: I deleted a token file the app used and caused a short outage. In February 2026 I hardened the repo with Codex, with an engineer reviewing every step. If I did it again, CI on the tokens repo from the first commit. |
 | 9 | Outcome | 1:30 | 10 of 18 core screens when I left in March 2026, tracked on the audit board. Then the three buckets. Close on the CTO quote. |
-| 10 | Handover | 0:30 | A designer and a PM joined in my last months and worked from the library. I set up a Notion page where engineers and product logged inconsistencies and problems, so the team could keep iterating the components. Then hand over to the whiteboard. |
+| 10 | Handover | 0:30 | A designer and a PM joined in my last months and worked from the library. I set up a Notion page where engineers and product logged inconsistencies and problems, so the team could keep iterating the components. Client round (10 Nov): go straight to slide 11. |
+| 11 | What I bring (added 2026-11-07, client round) | 1:00 | Three anchors, one example each. vLex: helped build their design system, coached about 15 of their designers ("about 15"; no dates, metrics or token scope). Abacum: one system across five squads, weekly library sync, migration off MUI run from each squad's backlog (co-led with the head of design if asked; never "led"). Close to the code: Remuner tokens repo, engineer-reviewed PRs, years of own front-end code at the studio. Then the plan line, said as a plan: learn Index and its contribution rules, check my area against it, bring gaps back as proposals. Say "contribute to" Index, never "manage". |
+| 12 | Thank you | 0:05 | Thank them; open the floor. Contact line on the slide. |
 
 Total: 14:35, which leaves 25 seconds of slack.
 
@@ -112,4 +114,10 @@ I made one real mistake. I deleted a token file the app still used, and it cause
 When I left in March 2026, 10 of 18 core screens used system components. I tracked that on the audit board, from the weekly component count and my own review of each screen. [If asked about speed: not measured. In Figma it was your impression as sole designer.] [Walk through the three buckets.] [Close on the CTO quote.]
 
 **Figma 19 (Handover)**
-In my last months, a new designer and a PM joined. Both worked from the component library. I set up a Notion page where engineers and the product team logged inconsistencies and problems, so we could keep improving the components. [Hand over to the whiteboard.]
+In my last months, a new designer and a PM joined. Both worked from the component library. I set up a Notion page where engineers and the product team logged inconsistencies and problems, so we could keep improving the components. [Client round: click to slide 20.]
+
+**Figma 20 (What I bring)**
+Three things I'd bring to the Index team. [Point at each card.] First, I've done this for a client before. At my studio, vLex was a client. I helped them build their design system and coached about 15 of their designers on using it. Second, I've worked inside one system shared by many teams. At Abacum it served five squads. We ran a weekly library sync, and each squad moved off MUI from its own backlog. Third, I work close to the code. At Remuner I owned the tokens repo and opened PRs that engineers reviewed, and at the studio I shipped my own front-end code for years. [Plan line.] In my first months I'd learn Index and how people contribute to it, check what my product area uses against it, and bring the gaps back as proposals.
+
+**Figma 21 (Thank you)**
+Thank you. Happy to go deeper on any of this.

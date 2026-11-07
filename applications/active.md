@@ -136,7 +136,7 @@ Not being pursued under the recorded decisions. Prepared historical materials do
 
 ## Vacancy closed before a decision or submission
 
-- [PromoFarma / DocMorris, Product Designer (E-commerce)](records/promofarma-product-designer-ecommerce.md): applied 2026-10-16 on the Head of Product's recommendation; the Head of Design said on 2026-11-06 that the role is closed. No next action.
+- [PromoFarma / DocMorris, Product Designer (E-commerce)](records/promofarma-product-designer-ecommerce.md): applied 2026-10-16 on the Head of Product's recommendation; closed 2026-11-06: it was a leave cover and the person returned (Head of Design). Not a rejection. No next action.
 - [Bunge, Senior User Experience Designer](records/bunge-senior-user-experience-designer.md): applied 2026-07-22, no employer response; role closed (confirmed by Manel 2026-11-07). No next action.
 - [Glovo, Staff Product Designer, Order Tracking](records/glovo-staff-product-designer-order-tracking.md): posting closed by 2026-11-03, never submitted.
 - [DuckDuckGo, Senior Product Designer, Design Systems](records/duckduckgo-senior-product-designer-design-systems.md): posting closed by 2026-11-03 while deferred, never submitted.

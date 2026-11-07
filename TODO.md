@@ -15,7 +15,7 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 - [x] **Wizeline UX interview held 30 Oct.** Debrief in `interviews/wizeline/wizeline.md`. No whiteboard; the canvas sub-tasks are moot.
 - [x] **Wizeline UX interview passed 2 Nov** at Level 4 (David Ho email).
 - [ ] **Wizeline client interview Tue 10 Nov, 17:30-18:30.** Brief done 6 Nov (Round 3 in `interviews/wizeline/wizeline.md`; panel includes Forest Evashevski, Director, Experience Design, WSJ). Still to do before Tuesday:
-  - Build the closing "what I bring" slide in the Remuner deck (Figma "Remuner DS"), after slide 10 (Handover). Three anchors from the brief: vLex client DS work and coaching about 15 designers; working inside a shared system across teams (Abacum five squads, Remuner governance loop); closing the gap to code (tokens repo, reviewed PRs, studio front-end). Plus one plan line for the first months. Update `interviews/wizeline/ux-interview-deck.md` with the slide's talk track.
+  - [x] "What I bring" (Figma 20) and "Thank you" (Figma 21) slides built 2026-11-07 after Handover; talk track and notes in `interviews/wizeline/ux-interview-deck.md`. Paste the speaker notes by hand.
   - Rehearse "why WSJ" from the brief's anchors: "work on" or "contribute to" Index, not "manage"; one sentence on readers or surfaces; multi-brand follow-up ready.
   - Rehearse the outcome answer before Forest asks (10 of 18 screens, CTO quote, no product metric, what you'd measure now).
   - Optional: identify the opisnet.com organizer.
