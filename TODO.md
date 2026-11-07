@@ -25,7 +25,7 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 - [ ] **Abacum front-end PRs: details for the Abax case.** Recorded as a plain fact 2026-10-20. Ask Manel: part of the MUI-to-Abax migration or general cleanup; roughly how many; reviewed and merged by engineers; any AI tools. Then decide whether it goes into "Making adoption stick" in `portfolio/public/cases/design-systems.html`.
 
-- [ ] **Push `portfolio/` and commit the pointer.** Local commit `221911e` (Abacum DS case: Figma adoption script "every two weeks", matching the register) is not pushed; pushing publishes it on the live site. Then commit the `portfolio` pointer in this repo and push.
+- [x] **Push `portfolio/` and commit the pointer.** Pushed 2026-11-07 (portfolio `221911e`); pointer committed.
 - [ ] **Abacum deck v2 (Figma "Abacum DS", top row), before the Perk Depth of Expertise call.** Built 2026-11-06; source `interviews/decks/case-deck-design-systems-abacum.md`.
   - Play it once in presentation mode: the Smart Animate builds (slides 2, 3, 8, 9, 10, 12) are untested.
   - Slide 6 Roadmap screenshot shows the Vision 1.0 line "80% of new UI" and colleagues' full names in the owner column. Crop it to "How to get there" or replace it.
