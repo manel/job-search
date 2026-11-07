@@ -4,6 +4,7 @@
 # Product role, so no case link in the summary (writing-rules.md); the AI agent case goes in the letter and the form's portfolio field.
 # No ad-tech, mobile-marketing or "behavioural design" claim anywhere.
 # 2026-11-07: three Remuner bullets shortened to keep Abacum on page 1 (Figma layout).
+# 2026-11-07: Kings of Mambo title aligned with LinkedIn (Co-founder & Senior Product Designer), work mode "on-site, later hybrid", account-ownership bullet added (Manel).
 # Plain text below the line, ready for Figma paste.
 
 ---
@@ -48,14 +49,14 @@ Proposed moving dimension creation into the open dataset, so users no longer lef
 Co-led the Abax design-system business case with the head of design and worked on token architecture, components, governance, and the engineering pipeline across five squads. Abax reached about 47% of component uses at departure, against an 80% goal.
 
 
-Kings of Mambo, Co-founder, UX Design Lead
-Sep 2010 - Nov 2021, Barcelona (on-site)
+Kings of Mambo, Co-founder & Senior Product Designer
+Sep 2010 - Nov 2021, Barcelona (on-site, later hybrid)
 
-Co-founded and led a UX studio for 11 years; designed products for media, retail, finance, legal, and culture clients.
+Co-founded and ran a UX studio for 11 years, designing products for media, retail, finance, legal, and culture clients.
 
-Designed CMS content-upload flows, e-commerce experiences, and back-office interfaces. Led work from research and information architecture through interaction design, prototyping, and delivery.
+Owned several client accounts end to end: the brief and client meetings, design direction and explorations, delivery, and the iterations that followed.
 
-Built CMS-connected front ends, reusable component libraries, and a shared starter kit with a build pipeline and CSS variables.
+Designed CMS content-upload flows, e-commerce experiences, and back-office interfaces, and built CMS-connected front ends, reusable component libraries, and a shared starter kit with a build pipeline and CSS variables.
 
 
 SKILLS

@@ -27,11 +27,17 @@ This is the evidence register, not finished application copy. Each material clai
 - **Verified:** 2026-10-19.
 - **External-use boundary:** Do not claim French. Roles that require French communication or French-language user research are skips.
 
-- **Claim:** Work mode per role: Remuner and Abacum hybrid (Barcelona); Kings of Mambo on-site, five days a week in the office.
+- **Claim (Kings of Mambo title and account ownership, Manel 2026-11-07):** As co-founder, Manel owned several client accounts end to end: took the brief, ran the client meetings, set design direction and explorations, coded the front end on some projects, tracked progress and status, delivered, and handled the iterations that followed. Title used externally from 2026-11-07: "Co-founder & Senior Product Designer" (LinkedIn and CVs), replacing "Co-founder, UX Design Lead".
+- **Class:** Confirmed direct user statement.
+- **Source:** Manel, 2026-11-07, SplitMetrics CV layout.
+- **Verified:** 2026-11-07.
+- **External-use boundary:** "Several" or "some" client accounts, never all of them. Front-end coding on some projects only. Mentoring junior designers is claimable (LinkedIn entry); managing a team is not. CVs sent before 2026-11-07 keep "UX Design Lead" as sent.
+
+- **Claim:** Work mode per role: Remuner and Abacum hybrid (Barcelona); Kings of Mambo on-site at first (five days a week in the office), later hybrid. Corrected by Manel 2026-11-07; the year the studio moved to hybrid is not recorded.
 - **Class:** Confirmed direct user statement.
 - **Source:** Manel's correction while reconciling the Perk CV on 2026-10-20.
-- **Verified:** 2026-10-20.
-- **External-use boundary:** Supersedes "Barcelona (Remote)" in `cv/cv-base.md` and role CVs before 2026-10-20 (base corrected; sent CVs stay as sent). Do not describe Remuner or Abacum as remote roles, and do not cite them as remote-work experience.
+- **Verified:** 2026-10-20; Kings of Mambo hybrid phase added 2026-11-07.
+- **External-use boundary:** Write Kings of Mambo as "Barcelona (on-site, later hybrid)"; give no year for the switch. Supersedes "Barcelona (Remote)" in `cv/cv-base.md` and role CVs before 2026-10-20 (base corrected; sent CVs stay as sent). Do not describe Remuner or Abacum as remote roles, and do not cite them as remote-work experience.
 
 ### Crypto familiarity
 
