@@ -1,7 +1,7 @@
 ---
 company: SplitMetrics
 role: Senior Product Designer - Core
-status: in-progress
+status: applied
 status_verified_on: 2026-11-07
 status_confidence: confirmed
 posting_status: open
@@ -10,14 +10,14 @@ fit_decision: proceed
 role_lane: mixed
 application_channel: direct
 warm_path: none known
-portfolio_version:
-applied_on:
+portfolio_version: live site 2026-11-07 (portfolio 0ec2eaf)
+applied_on: 2026-11-07
 last_contact_on:
-outcome_stage: not-submitted
+outcome_stage: no-response
 rejection_reason_class: none
-next_action: Manel reviews the CV and letter sources, lays out the CV in Figma, exports PDFs (run check-pdf-text), applies via Ashby with manel-leiva.com/cases/ai-agent in the portfolio field. Ask the level and range at first contact
-next_action_on: 2026-11-09
-salary_stated:
+next_action: Nudge via Ashby/email if silent by 2026-11-20 (10 business days); LinkedIn outreach to a designer or the hiring manager 2026-11-28; stale 2026-12-12. Ask the level and range at first contact
+next_action_on: 2026-11-20
+salary_stated: USD 6,500 gross per month (required form field, B2B contractor basis accepted; about EUR 5,600 at 1.12-1.18; roughly EUR 52K employed-equivalent)
 job_url: https://jobs.ashbyhq.com/splitmetrics/672a1311-4355-4d24-aa78-c7163a6e7c37
 source: Ashby public job-board API (descriptionPlain, verbatim), fetched 2026-11-07; URL supplied by Manel
 ---
@@ -57,9 +57,10 @@ SplitMetrics sells B2B tools for mobile app growth: Acquire (Apple Ads automatio
 
 - CV source: `cv/roles/splitmetrics-senior-product-designer-core.md` (2026-11-07)
 - Cover letter source: `cover-letters/roles/splitmetrics-senior-product-designer-core.md` (2026-11-07, 197 words)
-- Not yet exported or sent.
+- Sent PDFs: `cv-pdf-to-send/Splitmetrics/Manel Leiva CV 2026.pdf`, `Manel Leiva CL 2026.pdf` (check-pdf-text: CL OK; CV OK against the synced source).
 
 ## History
 
 - 2026-11-07: Manel supplied the posting URL. Posting verified live via the Ashby job-board API (published 2026-11-06). Fit assessed: Proceed. No materials prepared.
 - 2026-11-07: CV and cover-letter sources drafted (lead: AI agent and data-heavy work; IC dashboard analytics line directional only). Awaiting Manel's review and export.
+- 2026-11-07: Applied via Ashby (Manel confirmed). Form: open to a B2B independent-contractor arrangement: Yes. Salary expectation USD 6,500 gross per month (required field; recommended over 6,000 given the contractor basis; Levels.fyi company-wide median total pay about USD 55K, low signal). CV header location dropped and Kings of Mambo work mode shortened to hybrid in the PDF; source synced.

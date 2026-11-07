@@ -37,7 +37,7 @@ This is the evidence register, not finished application copy. Each material clai
 - **Class:** Confirmed direct user statement.
 - **Source:** Manel's correction while reconciling the Perk CV on 2026-10-20.
 - **Verified:** 2026-10-20; Kings of Mambo hybrid phase added 2026-11-07.
-- **External-use boundary:** Write Kings of Mambo as "Barcelona (on-site, later hybrid)"; give no year for the switch. Supersedes "Barcelona (Remote)" in `cv/cv-base.md` and role CVs before 2026-10-20 (base corrected; sent CVs stay as sent). Do not describe Remuner or Abacum as remote roles, and do not cite them as remote-work experience.
+- **External-use boundary:** Write Kings of Mambo as "Barcelona (on-site, later hybrid)"; give no year for the switch. "Hybrid" alone is an accepted simplification (Manel, 2026-11-07; used in the SplitMetrics CV). Supersedes "Barcelona (Remote)" in `cv/cv-base.md` and role CVs before 2026-10-20 (base corrected; sent CVs stay as sent). Do not describe Remuner or Abacum as remote roles, and do not cite them as remote-work experience.
 
 ### Crypto familiarity
 

@@ -5,13 +5,14 @@
 # No ad-tech, mobile-marketing or "behavioural design" claim anywhere.
 # 2026-11-07: three Remuner bullets shortened to keep Abacum on page 1 (Figma layout).
 # 2026-11-07: Kings of Mambo title aligned with LinkedIn (Co-founder & Senior Product Designer), work mode "on-site, later hybrid", account-ownership bullet added (Manel).
+# 2026-11-07 PDF sync: Kings of Mambo work mode shortened to "hybrid" in the sent PDF (Manel's choice); header location dropped by Manel (it wrapped to two lines); education line as in the Figma template.
 # Plain text below the line, ready for Figma paste.
 
 ---
 
 Manel Leiva
 Senior Product Designer
-Barcelona, Spain | maneleiva@gmail.com | +34 622 144 909 | manel-leiva.com | linkedin.com/in/maneleiva
+maneleiva@gmail.com | +34 622 144 909 | manel-leiva.com | linkedin.com/in/maneleiva
 
 
 SUMMARY
@@ -50,7 +51,7 @@ Co-led the Abax design-system business case with the head of design and worked o
 
 
 Kings of Mambo, Co-founder & Senior Product Designer
-Sep 2010 - Nov 2021, Barcelona (on-site, later hybrid)
+Sep 2010 - Nov 2021, Barcelona (hybrid)
 
 Co-founded and ran a UX studio for 11 years, designing products for media, retail, finance, legal, and culture clients.
 
@@ -70,4 +71,4 @@ Languages: Catalan and Spanish (native), English (fluent, C1)
 EDUCATION
 
 Higher National Diploma in Computing Design and Multimedia
-ESI Barcelona
+ESI (Escuela de Sistemas Informáticos)
