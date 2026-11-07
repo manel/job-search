@@ -21,9 +21,9 @@ The hook also surfaces open items in "This week" at every session start. Keep it
   - Optional: identify the opisnet.com organizer.
 
 - [x] **Remuner DS case additions: applied and pushed 2026-10-30 (portfolio 8c6ffdb).** Drafts in `context/remuner-case-additions-2026-10-20.md` (palette HSL normalisation and WCAG AA, own front-end PRs, Figma MCP with Storybook views, stack row). Manel to approve the wording and say whether a palette visual exists; then edit the case in `portfolio/`, commit there, update the pointer, and ask before pushing.
-- [ ] **LinkedIn Abacum entry (deferred 2026-10-30).** Add the Abax outcome (about 47% of component uses at departure, against an 80% goal) and apply the co-led wording from `context/linkedin.md`; Manel pastes it live, then update that file.
+- [x] **LinkedIn Abacum entry.** Abax outcome and MUI-to-Abax PR lines live 2026-11-07; Kings of Mambo title corrected to Co-founder. `context/linkedin.md` updated.
 
-- [ ] **Abacum front-end PRs: details for the Abax case.** Recorded as a plain fact 2026-10-20. Ask Manel: part of the MUI-to-Abax migration or general cleanup; roughly how many; reviewed and merged by engineers; any AI tools. Then decide whether it goes into "Making adoption stick" in `portfolio/public/cases/design-systems.html`.
+- [ ] **Abacum front-end PRs: details for the Abax case.** Details confirmed 2026-11-07 (MUI-to-Abax migration, 5 to 10, engineer-reviewed and merged, no AI tools; register updated). Remaining: decide whether one sentence goes into "Making adoption stick" in `portfolio/public/cases/design-systems.html`.
 
 - [x] **Push `portfolio/` and commit the pointer.** Pushed 2026-11-07 (portfolio `221911e`); pointer committed.
 - [ ] **Abacum deck v2 (Figma "Abacum DS", top row), before the Perk Depth of Expertise call.** Built 2026-11-06; source `interviews/decks/case-deck-design-systems-abacum.md`.

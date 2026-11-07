@@ -540,8 +540,9 @@ This is the evidence register, not finished application copy. Each material clai
 - **Claim:** At Abacum, Manel also opened PRs fixing front-end code, mainly styles and tokens that were missing or hardcoded.
 - **Class:** Confirmed direct user statement (recalled 2026-10-20).
 - **Source:** Manel, 2026-10-20, while recording the Remuner Figma MCP examples.
-- **Verified:** 2026-10-20.
-- **External-use boundary:** Not yet recorded: which repo or codebase, roughly how many PRs or over what period, whether they were tied to the Abax migration off MUI, who reviewed and merged them, and whether AI tools were used. Until then use only the plain statement ("opened PRs fixing missing and hardcoded styles and tokens in the front-end code"); do not attach it to the 47% adoption figure or claim it drove migration.
+- **Verified:** 2026-10-20; details confirmed 2026-11-07.
+- **Details (Manel, 2026-11-07):** part of the MUI-to-Abax migration; 5 to 10 PRs; reviewed and merged by engineers; no AI tools.
+- **External-use boundary:** Say "as part of the MUI-to-Abax migration, opened front-end PRs replacing missing and hardcoded styles with tokens; engineers reviewed and merged them". "A handful" or "5 to 10" are both fine; never a single exact number. No AI tools: don't group these with the Remuner Codex/Claude PRs. Contribution to the migration, not its driver: do not attach the PRs to the 47% figure as a cause.
 
 - **Claim:** At Abacum, every Abax release was announced on Slack to the whole design and engineering team. Some of the weekly design-system meetings were used to coach designers on implementing and using new components and variants, and on best practices. Manel also held ad hoc sessions with teammates who needed more help using the system.
 - **Class:** Confirmed direct user statement.

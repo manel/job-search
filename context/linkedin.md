@@ -3,7 +3,7 @@
 Profile content, audit, and maintenance rules. LinkedIn is the highest-traffic surface in the search: recruiters check it before opening a CV. It must carry the same positioning as `context/positioning.md` and obey every rule in `principles.md`.
 
 Profile: linkedin.com/in/maneleiva
-Last audited: 2026-06-12 (content pasted by Manel, not scraped). About and Remuner entry re-pasted 2026-10-20; other entries still the June copy.
+Last audited: 2026-06-12 (content pasted by Manel, not scraped). About and Remuner entry re-pasted 2026-10-20; Abacum, Remuner and Kings of Mambo re-pasted 2026-11-07 (Remuner unchanged).
 
 ---
 
@@ -69,9 +69,15 @@ I built the component library and token architecture, and worked with Engineerin
 I built the colour palette, then used the Figma MCP to normalise its shades and bring the colours used in the product to WCAG AA contrast.
 As the first designer, I established working principles, project organisation and design rituals, including planning and refinement with Product and Engineering.
 
-### Abacum — Senior Product Designer
+### Abacum — Senior Product Designer (live, pasted by Manel 2026-11-07; Abax outcome and MUI-to-Abax PR lines added live the same day)
 
-Keep the current copy. One adjustment: change "I also led the standardisation of the platform's design system" to "I co-led the business case for the platform's design system and owned the token architecture and component library structure". More accurate, and ownership of the architecture is the stronger claim anyway.
+I worked on a financial planning and forecasting platform for enterprise finance teams, first in the Integrations squad and later in Engine. My scope covered integrations, datasets, dimensions and mappings, models, and the modeling language.
+I led design and customer testing for Dataset Manager, evolving JSON-based configuration into guided workflows where finance teams could configure datasets, transformations, column types and dimensions.
+Customer testing showed that users could express data transformations with Excel functions but struggled with SQL. I used that finding to advocate for extending our existing modeling language around familiar conventions, working with Product and Engineering on the direction.
+I also proposed bringing basic dimension creation and editing into the dataset workflow so users could configure data without switching between tools. The change shipped, and customers reported faster configuration, fewer errors and less confusion.
+In the Engine squad, I worked on models and the modeling language. I led customer-evidence synthesis, competitor benchmarking and an audit of inconsistent functions, collaborating with Engineering on a more consistent syntax.
+I co-led the Abax design-system business case with the Head of Design and worked on token architecture, component-library structure, governance and the engineering pipeline across five product squads. When I left, Abax made up about 47% of component uses in the codebase, against an 80% goal.
+As part of the migration from MUI to Abax, I opened front-end PRs that replaced missing and hardcoded styles with tokens. Engineers reviewed and merged them.
 
 ### LABASAD — Teacher
 
@@ -81,13 +87,14 @@ Taught graduate-level UX and digital design. Guided students in structuring and 
 
 Taught a course on building WordPress themes from scratch, taking students from a design file to a working, CMS-driven site.
 
-### Kings of Mambo — Co-founder, Senior UX Designer
+### Kings of Mambo — Co-founder & Senior Product Designer (live, pasted by Manel 2026-11-07; title changed from "Founder" the same day)
 
-Co-founded a UX studio and led design for client products in media, retail, finance, legal, and culture for 11 years. End-to-end work: research, information architecture, interaction design, and delivery. The complex end of it included the UX of a document management system for legal documents, e-commerce platforms, and design and front-end work for KYMCO.
+Group header on LinkedIn: Kings of Mambo, 13 yrs 9 mos. This role: Full-time, Sep 2010 - Nov 2021, Barcelona.
 
-I also built much of what I designed. Full WordPress sites, writing the theme and wiring it to the CMS with Advanced Custom Fields. When Sketch shipped symbols I started building component libraries with them and mapping components to front-end code. By 2020 that had grown into a shared starter kit for the studio's front-end work, with a build pipeline, linting, and a settings layer of CSS variables that every project reused.
-
-Mentored junior designers throughout.
+Co-founded and ran a UX/product design studio for 11 years, leading work from research through delivery across finance, legal, retail, media and culture. Projects included content-management workflows, e-commerce experiences and back-office interfaces.
+For KYMCO's e-commerce products, I owned the design process and frontend implementation, including shopping and checkout flows that launched and handled real orders. For other stores, including FUNK3D and Somia, my responsibility was frontend implementation and platform configuration.
+I also built much of what I designed, connecting interaction decisions with implementation. Over time, I developed shared component libraries and frontend foundations that were reused across the studio's projects.
+Alongside project work, I mentored designers and taught UX, components and WordPress themes.
 
 Date grouping fixed on the live profile 2026-06-12.
 
