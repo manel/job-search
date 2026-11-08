@@ -2,7 +2,7 @@
 
 **Figma:** https://www.figma.com/slides/ae1SMrxEXfMMdUygkGTMcH/Abacum-DS (rebuilt 2026-11-06 in the "v2" row; the earlier version is kept in the first row, skipped).
 **Best for:** DS-titled roles and any round that asks for one project end to end plus collaboration (Perk Depth of Expertise).
-**Duration:** walk-through about 12 minutes; leave the rest for questions.
+**Duration:** walk-through about 12 minutes; leave the rest for questions. If time runs short, cut slides 4 (Investment choice) and 6 (Roadmap) to one sentence each before touching the proof slides (9, 10, 12).
 **Lead framing:** how a system nobody asked for got time, got adopted by squads that didn't report to us, and how we measured it honestly.
 **Effects:** build sequences copy the Remuner deck: duplicate slides with identical layer names, Smart Animate 0.3s ease-out. Elements fade in one step per click; on the last step earlier elements dim to 40%.
 
@@ -15,7 +15,7 @@ Every claim is checked against `evidence/experience-facts.md` (Abax entries, 202
 **Headline:** Why we built Abax across five product squads
 **Sub:** Abacum, 2022-2024 · B2B financial planning platform
 
-**Notes:** Abacum is FP&A software for finance teams. I joined on data integrations and ended up co-leading the design system with the head of design.
+**Notes:** Result first (rule in `interviews/prep.md`, "Rules for every case deck"): With the head of design, I co-led Abax, a design system that all five product squads used. When I left, about 47% of the component uses we tracked in the code were Abax, against a goal of 80%. Then the context: Abacum is FP&A software for finance teams, and I joined on data integrations.
 
 ---
 
@@ -166,6 +166,156 @@ Every claim is checked against `evidence/experience-facts.md` (Abax entries, 202
 **Headline:** How I would use LLMs on Abax today
 **Cards:** Figma context, Tokens, Components and docs, Production code (unchanged from v1).
 **Footer:** At Remuner I used the Figma MCP to manage tokens and run contrast checks.
+
+**Notes:** End on a question: "What would be most useful to go deeper on?" Then stop and let them choose. If they ask for the Figma files or a flow, go there straight away.
+
+---
+
+## Speaker notes to paste into Figma
+
+The Figma plugin API can't write Slides speaker notes, so paste these by hand. Actions sit on their own line, starting with ▶ and in [brackets]. Don't read those lines aloud. "Figma N" is the slide's position in the v2 row (34 slides; builds are separate slides). Build steps checked against the file on 2026-11-08.
+
+**Figma 1 (Cover)**
+With the head of design, I co-led Abax, a design system that all five product squads used. When I left, about 47% of the component uses we tracked in the code were Abax, against a goal of 80%.
+Abacum is FP&A software for finance teams. I joined on data integrations.
+
+**Figma 2 (Context)**
+Abacum had five product squads and six designers, and no shared components.
+▶ [Click: the five squads appear.]
+
+**Figma 3**
+Every squad had its own buttons, cells and menus on top of MUI.
+▶ [Click.]
+
+**Figma 4**
+A fix landed in one squad and not in the others. A change to a shared pattern meant a separate fix in each squad.
+▶ [Click.]
+
+**Figma 5 (My role)**
+I co-led the business case with the head of design. I worked on the tokens, the Figma library and governance. Engineers built the pipeline and coded the components.
+▶ [Say "I" for the business case, library and process; "we" for the decision and the migration.]
+▶ [Click: the squads dim and My role stays lit.]
+
+**Figma 6**
+▶ [Nothing new to say. Click to the next slide.]
+
+**Figma 7 (Business case)**
+We asked engineering for time to test shared components in production. The evidence: buttons, cells and menus were built differently in each squad.
+▶ [Click.]
+
+**Figma 8**
+We named engineering's concern before they raised it: a side project competing with squad work.
+▶ [Click.]
+
+**Figma 9**
+So we kept the proposal small: shared tokens and one Button, shipped to production.
+▶ [Click.]
+
+**Figma 10**
+That left one open question: how do engineers get focused time for this? We presented it to engineering leadership and at an all-hands.
+▶ [If asked about the objection: battle card C.]
+
+**Figma 11 (Investment choice)**
+There were two options. Two front-end engineers and a designer for two weeks alongside squad work, or Maker Days: one dedicated week with four or more engineers and two or more designers. We chose Maker Days. It was Abacum's quarterly slot for non-roadmap work, and being selected turned a side project into a sanctioned one.
+▶ [Short on time: one sentence. "We got a dedicated Maker Days week."]
+
+**Figma 12 (Proof)**
+Tokens and the first Abax Button reached production in that one week. It proved the path from Figma to code. An engineer built the original pipeline. After that, each new component was easier to justify.
+▶ [Point at the Storybook screenshot.]
+
+**Figma 13 (Roadmap)**
+After Maker Days we planned adoption. The goal was for 80% of all Abax and MUI component uses in the code to come from Abax. Then we found the gaps, built what was missing, and released through feature flags and squad backlogs.
+▶ [Never say "80% of new UI".]
+▶ [Short on time: one sentence.]
+
+**Figma 14 (Architecture)**
+We kept MUI as the base. All five squads used it, and replacing it would have meant rewriting every screen. Abax added primitive tokens for raw values and semantic tokens named by use, like color-text-primary. Tokens went from Figma Variables through Token Studio and Style Dictionary into code. I made the token decisions; I didn't build the pipeline.
+▶ [Point at the pipeline line.]
+
+**Figma 15 (Rollout)**
+Squads migrated in their own sprints while design ran the library. New form elements shipped behind feature flags, and each squad added its own migration tickets.
+▶ [Click.]
+
+**Figma 16**
+Every designer came to a weekly library sync, for over eight months. I proposed two Figma libraries: Exploration for experiments, Implementation for published work.
+▶ [Click.]
+
+**Figma 17**
+Problems came in through issue reports in Notion and Slack: broken components, naming, missing variants and detaches. Engineers got a lint warning when they imported an MUI component that Abax replaced.
+▶ [The lint rule covered Button, Select, Tab, Tooltip and Chip, as a warning. Don't say it checked tokens or blocked builds.]
+▶ [Click.]
+
+**Figma 18**
+I ran the sync and the issue process. An engineer wrote the lint rule.
+
+**Figma 19 (Measurement)**
+We measured adoption in two places. In code, every month, front-end engineers counted every Abax and MUI component use. When I left, about 47% were Abax. The goal was 80% of the same count.
+▶ [Click.]
+
+**Figma 20**
+In Figma, every two weeks, we tracked a health score: library instances divided by all UI nodes, counting detached instances and one-off frames too.
+▶ [Click.]
+
+**Figma 21**
+A ranking of the most-detached components told us what to fix first. Roughly, under 5% was fine, 5 to 15% a warning, over 15% broken.
+▶ [Thresholds are approximate. Don't quote a health score: no history survives.]
+▶ [Click.]
+
+**Figma 22**
+I defined the Figma measures, and an engineer built the scripts. The 47% comes from the code count only.
+▶ [Two measures, two denominators. Never merge them.]
+
+**Figma 23 (Select and Autocomplete)**
+One example: the detachment ranking pointed at Select and Autocomplete. Designers detached the menu to add or remove items, because hiding items broke the auto layout. Some weren't sure when to use Select and when to use Autocomplete.
+▶ [Click.]
+
+**Figma 24**
+We split it into Select, Menu and Menu item. A placeholder slot let designers build their own items locally and swap them in.
+▶ [If asked: this was before Figma's native slots. It was a placeholder component plus instance swap.]
+▶ [Click.]
+
+**Figma 25**
+We wrote down when to use each, on the docs page and in the component description.
+▶ [Click.]
+
+**Figma 26**
+Then I ran a session in the weekly design-system meeting, walked designers through it and collected feedback.
+▶ [Click.]
+
+**Figma 27**
+Detachments on these components almost stopped. The remaining issues went into later iterations.
+▶ ["Almost stopped" is recollection. No figure.]
+▶ [Click: the steps dim and the result stays lit.]
+
+**Figma 28**
+▶ [Nothing new to say. Pause on the result, then click to the next slide.]
+
+**Figma 29 (Coaching)**
+Most adoption problems came from designers not knowing what existed; no squad resisted Abax. Every release went out on Slack to design and engineering. Some weekly meetings coached new components, variants and practices, and anyone who needed more got a one-to-one session. When the data showed a component going unused, I asked the designers why and fixed the cause in the next iteration.
+▶ [Don't invent a resisting squad. No single designer's before and after is recorded; describe the practice.]
+
+**Figma 30 (Outcome)**
+Abax reached all five squads. About 47% of tracked component uses were Abax, against an 80% goal. Two squads finished the form migration and a third was underway. We ran the weekly sync for more than eight months.
+▶ [Point at the source line if asked: the 47% is reconstructed from monthly counts; the raw exports aren't available.]
+▶ [Click.]
+
+**Figma 31**
+We didn't reach 80%. Squads migrated one by one, through reworks and new features, and there was no dedicated clean-up.
+▶ [Say this before they ask.]
+▶ [Click.]
+
+**Figma 32**
+A designer also built a new screen quickly from existing variants, and customers said the product felt more polished.
+▶ [No velocity number exists. Don't invent one.]
+
+**Figma 33 (What I took to Remuner)**
+When I built Remuner's system alone, I changed three things. A smaller token set: build what the product uses, extend when it needs more. A lint rule for token use, strict at first, then failing only new violations. And an audit board tracking each core screen: 10 of 18 were on the system when I left.
+▶ [If they want more: bridge to the Remuner deck.]
+
+**Figma 34 (LLMs today)**
+Today I'd use LLMs in four places. Connect an agent to Figma to inspect components and spot inconsistent patterns. Agree on token names, then update Figma variables and code tokens together. Draft variants, code, tests and docs from a shared spec. And write and open the code PR myself, with engineers reviewing it before release. At Remuner I already used the Figma MCP to manage tokens and run contrast checks.
+What would be most useful to go deeper on?
+▶ [Then stop and let them choose. If they ask for the Figma files or a flow, go there straight away.]
 
 ---
 

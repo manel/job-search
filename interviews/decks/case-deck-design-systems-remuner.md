@@ -1,7 +1,8 @@
 # Case Deck: Design Systems at Remuner
 
 **Best for:** Founding designer roles, sole-designer contexts, early-stage companies that need infrastructure built from scratch.
-**Duration:** 25-35 minutes including Q&A. Walk-through aim: 15-20 minutes.
+**Duration:** 25-35 minutes including Q&A. Walk-through aim: 10-12 minutes (rule in `interviews/prep.md`, "Rules for every case deck", 2026-11-08), then ask what they'd like to go deeper on.
+**Opening (result first):** "I was Remuner's only designer. I built its design system inside feature work, and when I left in March 2026, 10 of 18 core screens ran on it." Say it before the cover notes below. The current Wizeline version of this deck is `interviews/wizeline/ux-interview-deck.md`.
 **Lead framing:** Operational leverage as the first designer in a scaling B2B company. Systems thinking applied under real constraints. The production incident is the learning arc, not a footnote.
 
 ---

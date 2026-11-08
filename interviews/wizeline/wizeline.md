@@ -237,7 +237,7 @@ Then one line on the first months: learn Index and its contribution rules first,
 
 ### Lead story
 
-Positioning mapping for design-systems roles: **Remuner (Story C)** as the presentation, **Abacum (Story B)** for scale. Same deck as Round 2 (`ux-interview-deck.md`), plus the pitch slide. Have the Remuner Components file open and navigable: the UX panel asked for atomic structure and this panel may too (`memory.md` 2026-10-30).
+Positioning mapping for design-systems roles: **Remuner (Story C)** as the presentation, **Abacum (Story B)** for scale. Same deck as Round 2 (`ux-interview-deck.md`), plus the pitch slide. Client-round changes (2026-11-08, rule in `interviews/prep.md`, "Rules for every case deck"): the result goes in the first sentence on slide 1, the walk-through is about 12 minutes, and slide 21 ends on "What would be most useful to go deeper on?". Slide 13b shows the Select anatomy (atomic layers). Have the Remuner Components file open and navigable: the UX panel asked for atomic structure and this panel may too (`memory.md` 2026-10-30).
 
 For the second beat outside design systems, keep **battle card G (IC dashboard)**: vague user feedback, interviews, targeted changes, tested with users. It's end-user research on a product surface, which is closer to Forest's world than finance configuration. Dataset Manager (Story A) only if the seat turns out to be OPIS.
 

@@ -25,7 +25,11 @@
         "hooks": [
           {
             "type": "command",
-            "command": "jq -r 'if (.tool_input.file_path // \"\") | test(\"interviews/prep\\\\.md$\") then {\"hookSpecificOutput\":{\"hookEventName\":\"PostToolUse\",\"additionalContext\":\"interviews/prep.md was just edited. Before responding, check every file in interviews/ (except prep.md itself) whose interview has not yet occurred \u2014 meaning it has a future date or no debrief section \u2014 and propagate any relevant changes from prep.md to those files now.\"}} else empty end' 2>/dev/null || true"
+            "command": "jq -r 'if (.tool_input.file_path // \"\") | test(\"interviews/prep\\\\.md$\") then {\"hookSpecificOutput\":{\"hookEventName\":\"PostToolUse\",\"additionalContext\":\"interviews/prep.md was just edited. Before responding, check every file in interviews/ (except prep.md itself) whose interview has not yet occurred — meaning it has a future date or no debrief section — and propagate any relevant changes from prep.md to those files now.\"}} else empty end' 2>/dev/null || true"
+          },
+          {
+            "type": "command",
+            "command": "jq -r '(.tool_input.file_path // \"\") as $f | if ($f | test(\"/(cv|cover-letters|outreach|application-answers|interviews|portfolio)/|context/linkedin\\\\.md$\")) and ($f | test(\"/interviews/archive/\") | not) then {\"hookSpecificOutput\":{\"hookEventName\":\"PostToolUse\",\"additionalContext\":\"Text that someone other than Manel will read or hear was just edited (CV, cover letter, outreach, form answers, interview scripts, speaker notes, decks, LinkedIn, case copy). Before responding, run the anthropic-skills:humanizer skill on every new or changed sentence of prose in this file (no-ai-slop too if drafting from scratch), apply the fixes, and say in the reply that it ran. Skip \\u25b6 [action] lines, code, paths and data. Rule: principles.md, Operating Rules.\"}} else empty end' 2>/dev/null || true"
           }
         ]
       }

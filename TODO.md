@@ -15,7 +15,7 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 - [x] **Wizeline UX interview held 30 Oct.** Debrief in `interviews/wizeline/wizeline.md`. No whiteboard; the canvas sub-tasks are moot.
 - [x] **Wizeline UX interview passed 2 Nov** at Level 4 (David Ho email).
 - [ ] **Wizeline client interview Tue 10 Nov, 17:30-18:30.** Brief done 6 Nov (Round 3 in `interviews/wizeline/wizeline.md`; panel includes Forest Evashevski, Director, Experience Design, WSJ). Still to do before Tuesday:
-  - [x] "What I bring" (Figma 20) and "Thank you" (Figma 21) slides built 2026-11-07 after Handover; talk track and notes in `interviews/wizeline/ux-interview-deck.md`. Paste the speaker notes by hand.
+  - [x] "What I bring" (Figma 20) and "Thank you" (Figma 21) slides built 2026-11-07 after Handover; talk track and notes in `interviews/wizeline/ux-interview-deck.md`. Speaker notes pasted 2026-11-08, including slide 13b (Select anatomy, kept as the vector drawing, dissolve transition).
   - Rehearse "why WSJ" from the brief's anchors: "work on" or "contribute to" Index, not "manage"; one sentence on readers or surfaces; multi-brand follow-up ready.
   - Rehearse the outcome answer before Forest asks (10 of 18 screens, CTO quote, no product metric, what you'd measure now).
   - Optional: identify the opisnet.com organizer.
@@ -28,13 +28,14 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 - [x] **Push `portfolio/` and commit the pointer.** Pushed 2026-11-07 (portfolio `221911e`); pointer committed.
 - [ ] **Abacum deck v2 (Figma "Abacum DS", top row), before the Perk Depth of Expertise call.** Built 2026-11-06; source `interviews/decks/case-deck-design-systems-abacum.md`.
   - Play it once in presentation mode: the Smart Animate builds (slides 2, 3, 8, 9, 10, 12) are untested.
-  - Slide 6 Roadmap screenshot shows the Vision 1.0 line "80% of new UI" and colleagues' full names in the owner column. Crop it to "How to get there" or replace it.
+  - [x] Slide 6 Roadmap screenshot cropped 2026-11-08 (clip frame "Roadmap crop"): starts at "How to get there", Owner column removed. The paragraph text is cut at the right edge.
+  - [x] Speaker notes for all 34 Figma slides pasted 2026-11-08. Re-paste slides 1, 9, 23, 29 and 32 after the humanizer pass (also Remuner slides 1 and 13b).
   - Screenshots to `interviews/decks/assets/abacum/`: inconsistent buttons, cells and menus before Abax (slide 2); Abax Select, Menu and Menu item (slide 10, now a recreation). Then swap them in.
   - Delete the two old skipped rows once v2 is approved.
 
 - [ ] **Decide Stripe DS and Bunge.** Stripe Product Designer Design Systems: 36 days silent, posting open, past the 5-week stale line. Bunge: `applied` 104 days, posting status unknown; likely stale.
 - [ ] **Haddock review (due 3 Nov).** Posting still open on 3 Nov, process on hold since 9 Oct; the 12 Oct reply to Ingrid is unconfirmed as sent. Decide on a short follow-up.
-- [ ] **Assess the 15 role leads from the 3 Nov scan** marked `initial_fit: not assessed` in `sourcing/role-leads.csv` (the other 9 are already skipped). Overdue follow-ups outrank them.
+- [x] **Assess the 15 role leads from the 3 Nov scan** (done 2026-11-07, together with the 4 Nov manual leads: 6 proceed, 2 defer, 12 skip, 2 closed; see `applications/active.md`). New queue: 011h and the Spendesk message to Cyrièle by 9 Nov, Exoticca 10 Nov, Canonical DS 11 Nov, Fever and The Knot (base CV) 12 Nov.
 
 - [ ] **Senovo questions to Menna** and the overdue follow-ups (`/follow-up`). Babel email to Mauro dropped: Babel rejected 2026-10-22.
 

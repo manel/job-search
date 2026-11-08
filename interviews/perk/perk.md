@@ -219,6 +219,8 @@ At least one session in person at the office applied to (Barcelona).
 ### Lead project: Abax (Abacum), with Remuner as the follow-on
 Positioning mapping for DS roles: Remuner and Abacum systems. Choose Abax as the deep dive because this round is about collaboration and team dynamics, and Abax is the one with a team: head of design, engineering leadership, five squads, a contribution process and a tracked adoption number. Remuner was sole-designer work, so it's thin on team dynamics; use it as "what I did next with what I learned" (smaller token set, ESLint enforcement, Codex CI checks).
 
+**Open with the result** (rule in `interviews/prep.md`, "Rules for every case deck"): "With the head of design, I co-led Abax, a design system all five product squads used. When I left, about 47% of the component uses we tracked in the code were Abax, against a goal of 80%." Then the arc. Keep the first pass to 10 to 12 minutes, then ask what they'd like to go deeper on. Use Perk's words where true: Suitcase, contribution, squads.
+
 Arc to know cold (beats, not script), all from `evidence/experience-facts.md` ("Abax design system"):
 - **Problem:** ad hoc components and MUI across five squads, no mandate.
 - **Case for it:** co-led the business case with the head of design; presented to engineering leadership and at an all-hands.

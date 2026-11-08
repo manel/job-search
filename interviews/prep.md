@@ -536,12 +536,21 @@ The last one is the hardest if you don't have hard metrics. Answer: here is the 
 
 ---
 
+### Rules for every case deck
+
+Added 2026-11-08, from Reddit advice on presenting to execs and hiring managers, applied first to the Wizeline client round.
+
+- **Result first.** The first sentence on the cover gives the outcome: what you did and what it reached, using a figure from the register. The outcome slide near the end still closes on it. The listener should know in the first minute what you did and why it mattered.
+- **Talk for 10 to 12 minutes, then let them steer.** In a 30 or 60 minute slot, keep the walk-through short and end on a question: "What would be most useful to go deeper on?" Then stop talking. Cut setup slides to one or two sentences before cutting proof.
+- **Use their words.** Turn each JD sentence into a "tell me about a time when" prompt and check that a slide or beat answers it. Say the company's own terms (product names, system names, values in the JD) wherever they are true for your work.
+- **Follow what they ask for.** If they want a flow, a screen or the Figma file, go there straight away instead of finishing the slides (Wizeline Round 2, 2026-10-30).
+
 ### Staff-level signals checklist
 
 Run this against any deck before a Senior Staff or Staff-level interview. A deck that only passes Senior checks reads as "strong executor." A deck that passes these reads as "strategic operator."
 
 **1. Opening frame**
-The first 60 seconds must signal: ambiguity + leverage + strategic allocation. Not domain or craft. The opening is not "here is the design system work I did." It is "here is a case that reflects how I decide where design investment creates the most leverage in an under-resourced environment." If you wouldn't open with those words, rewrite the first slide.
+The first sentence gives the result (see "Rules for every case deck"). The rest of the first 60 seconds must signal: ambiguity + leverage + strategic allocation. Not domain or craft. The opening is not "here is the design system work I did." It is "here is a case that reflects how I decide where design investment creates the most leverage in an under-resourced environment." If you wouldn't open with those words, rewrite the first slide.
 
 **2. Constraint framing**
 Constraints must read as strategic, not operational. "I was the only designer" is a capacity note. "Bandwidth was a strategic allocation problem — every infrastructure investment competed with revenue-generating product work" is a Staff signal. Visualise the tension: product delivery vs. system quality vs. team scalability. Impossible to maximise all three simultaneously. Naming that tension explicitly is what separates a senior who navigated constraints from a Staff who managed them deliberately.
