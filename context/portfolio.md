@@ -56,7 +56,7 @@ Summary: Introduced a UI abstraction layer over JSON-based dataset configuration
 
 Key decisions:
 - First dedicated designer on the squad — had to establish the problem space before designing anything
-- Ran 3 user tests: Maria, Eduardo, Guillermo, Oriol. Weighted Oriol most heavily (most experienced user)
+- Tested in two rounds: first with Abacum's internal FP&A specialists (Maria, Eduardo, Guillermo, Oriol), who set up datasets for customers every day; then with customer users (July and August 2022 sessions). Weighted Oriol most heavily (head of the internal FP&A team, most experienced user). Corrected 2026-11-09: the first round was internal, not customers (Manel). In live copy: "our FP&A specialists", then "customer users".
 - Identified language mismatch between product language (data types) and user language (dimensions)
 - Argued against SQL for finance users. SQL-like formulas shipped as an interim step agreed with Engineering (easier to build without revamping formulas); the formula builder on Abacum formulas replaced them (v1 2023-09). Chronology confirmed 2026-11-09, see [evidence/experience-facts.md](../evidence/experience-facts.md)
 - Work was incremental due to technical constraints — this was the right call, not a compromise

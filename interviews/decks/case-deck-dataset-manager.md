@@ -8,7 +8,7 @@
 
 Every claim is checked against [evidence/experience-facts.md](../../evidence/experience-facts.md) (Dataset Manager entries; chronology and the time-saving attribution confirmed 2026-11-09). Speaker notes are beats, not a script.
 
-Version history: v1 (October 2026) said "SQL shipped first" and credited the time saving to an implementation team. v2 corrects both: customers got SQL-like formulas, and the estimate came from the Integrations squad's engineers.
+Version history: v1 (October 2026) said "SQL shipped first" and credited the time saving to an implementation team. v2 corrects both: customers got SQL-like formulas, and the estimate came from the Integrations squad's engineers. v2.1 (2026-11-09, from the Notion export): the first three testers were Abacum's FP&A specialists, then customer users; "Next time" now names the autonomy metric the squad defined.
 
 ---
 
@@ -61,9 +61,9 @@ Version history: v1 (October 2026) said "SQL shipped first" and credited the tim
 - Language: all three described the logic with Excel functions. None could write it in SQL.
 - Vocabulary: they looked for dimensions and mappings. The screen showed schema properties.
 - Dependencies: they changed dimensions without seeing what used them.
-**Footer:** Three customers, real configuration tasks on the early flows.
+**Footer:** Our FP&A specialists first, then customer users. Real configuration tasks on the early flows.
 
-**Notes:** The most experienced user got stuck in the same places as the newer ones, so product experience didn't close the gap.
+**Notes:** The first three testers set up datasets for customers every day, and the most experienced of them got stuck in the same places as the others, so product experience didn't close the gap. Customer users then hit the same language problems.
 
 ---
 
@@ -93,7 +93,7 @@ Version history: v1 (October 2026) said "SQL shipped first" and credited the tim
 **Headline:** Show what a change will affect before saving
 **Visual:** "Where a dimension is used" dialog; "Accepting the impact before saving" warning.
 
-**Notes:** Answers the Dependencies finding. I designed the dependencies view. Whether the impact warning shipped is unknown; present it as the design.
+**Notes:** Answers the Dependencies finding. Renaming a dimension could delete formulas in the modules that used it. I designed the dependencies view. Whether the impact warning shipped is unknown; present it as the design.
 
 ---
 
@@ -112,9 +112,9 @@ Version history: v1 (October 2026) said "SQL shipped first" and credited the tim
 **Label:** Outcome
 **Headline:** Finance teams set up standard datasets themselves
 **Proof lines:** Customers reached a working configuration in their first session (observed after release) · Standard setup took about half the previous time (estimate from the Integrations squad's engineers, not measured)
-**Next time:** Measure completion without engineering help from the first test, so the result is a number.
+**Next time:** The squad had defined an autonomy metric. Report it after release, so the result is a number.
 
-**Notes:** Say there was no baseline before they ask.
+**Notes:** Say there's no after-release number before they ask.
 
 ---
 
@@ -150,15 +150,15 @@ With the PM I cut functions and some mapping cases from the first release. The s
 ▶ [Never name the PM.]
 
 **Figma 5 (Research)**
-I tested the early flows with three customers doing real configuration tasks.
+I tested the early flows twice. First with three of our FP&A specialists, the people who set up datasets for customers every day. Then with customer users. Both rounds did real configuration tasks.
 ▶ [Click.]
 
 **Figma 6**
-All three could describe the transformation they needed with Excel functions. None of them could write it in SQL.
+All three specialists could describe the transformation they needed with Excel functions. None of them could write it in SQL. The customer users had the same trouble with the transform wording: both read IF ... THEN backwards.
 ▶ [Click.]
 
 **Figma 7**
-They also looked for dimensions and mappings, and the screen showed them schema properties. The most experienced user led his company's FP&A team and had used Abacum for over a year. He got stuck in the same places as the newer users, so the gap was in the product's language, and more time with the product wouldn't have closed it.
+They also looked for dimensions and mappings, and the screen showed them schema properties. The most experienced tester led our FP&A team and had used Abacum for over a year. He got stuck in the same places as the others, so the gap was in the product's language, and more time with the product wouldn't have closed it.
 ▶ [Click.]
 
 **Figma 8**
@@ -175,7 +175,7 @@ We agreed on a step in between. Customers first got a transform field with SQL-l
 ▶ [Say "SQL-like formulas". Never say SQL shipped.]
 
 **Figma 11 (Guardrails)**
-Once customers could change their own data, one change could break models and tables they couldn't see. I designed the dependencies view: each column shows which datasets, modules and tables use its dimension.
+Once customers could change their own data, one change could break models and tables they couldn't see. Renaming a dimension, for example, could delete the formulas that used it. I designed the dependencies view: each column shows which datasets, modules and tables use its dimension.
 A change that removes filters asks the user to accept the impact before saving.
 ▶ [If asked whether the warning shipped: I don't know. Present it as the design.]
 
@@ -184,8 +184,8 @@ This is a calculated column in the shipped builder. Pick the fields, write a for
 
 **Figma 13 (Outcome)**
 Finance teams set up standard datasets themselves. After release, customers reached a working configuration in their first session. The squad's engineers estimated standard setup took about half the previous time, and customer support told me they were getting fewer configuration requests. I checked in with them regularly after release.
-We had no baseline, so I can't give you a percentage. Next time I'd measure completion without engineering help from the first test, so the result would be a number.
-▶ [Say "no baseline" before they ask.]
+The squad had defined an autonomy metric: the share of dimension actions customers completed without help from our FP&A team. No after-release number reached me, so I can't give you a percentage. Next time I'd make sure we reported it.
+▶ [Say "no after-release number" before they ask. Don't quote the metric's baseline or targets.]
 
 **Figma 14 (Close)**
 What would be most useful to go deeper on?
@@ -196,20 +196,21 @@ What would be most useful to go deeper on?
 ## Backup
 
 - **v1 row (skipped):** the October 2026 deck, kept until v2 is approved. Don't present it: it says SQL shipped.
+- **Dimension rename, the follow-up (Engine, January 2024):** I designed renaming dimension items with an impact check, after interviews with four internal implementation and FP&A colleagues. It shipped. If they want a whiteboard problem, use ordering: sorting cities inside countries breaks the country order unless each level stores its own order.
 - **Dimension creation inside the dataset:** users left the dataset to create a missing dimension. I proposed creating and editing basic dimensions in place; customers then reported faster configuration and fewer errors. No slide; use it if they ask about friction in the flow.
 
 ---
 
 ## Q&A preparation
 
-**"What would you do differently?"** Measure from the start. With completion rate or time on task from the first sessions, the outcome would be a number and the next investment easier to justify.
+**"What would you do differently?"** Make sure the metric gets reported. The squad defined an autonomy metric in late 2022; with the after-release number, the outcome would be a figure and the next investment easier to justify.
 
 **"Why ship SQL-like formulas if you disagreed?"** It got transformations to customers months earlier without rebuilding formulas first. I agreed to it as a step, with the formula builder as the destination, and the formula builder shipped.
 
-**"Three sessions seems like a small sample."** The question was whether experience with the product closed the gap. The most experienced user hit the same blocks as the newer ones, so it didn't. More sessions would have raised the count without changing the answer.
+**"Three sessions seems like a small sample."** The first round asked whether experience closed the gap, so I tested with the people who knew the product best: our FP&A specialists. The most experienced hit the same blocks as the others, so it didn't. The customer sessions afterwards showed the same language problems.
 
 **"Who else was involved and what was yours?"** The PM owned the business problem and scope with me. Engineers built it and shaped what was feasible. Mine: the framing, the mapping-first sequencing, the customer tests, the case against SQL, column settings, the dependencies view and the formula builder design.
 
 **"How did you get Product and Engineering to agree?"** I brought the test findings back each time the direction came up, until the interim step and the formula builder were the plan.
 
-**Don't claim:** that SQL shipped; that the impact warning shipped; a measured time saving or completion rate; "implementation team". Never name the PM or the research participants. The support line is claimable as a recollection: Manel checked with customer support himself after release (confirmed 2026-11-09).
+**Don't claim:** that the first three testers were customers; that SQL shipped; that the impact warning shipped; a measured time saving or completion rate; "implementation team". Never name the PM or the research participants. The support line is claimable as a recollection: Manel checked with customer support himself after release (confirmed 2026-11-09).

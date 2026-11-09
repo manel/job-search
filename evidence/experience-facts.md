@@ -421,7 +421,23 @@ This is the evidence register, not finished application copy. Each material clai
 
 ## Abacum
 
+Notion export index: [notion/README.md](notion/README.md) (built 2026-11-09). Entries below marked "Notion" cite it; page locations are in that index.
+
+### Tenure and departure
+
+- **Claim:** Manel was at Abacum from January 2022 to April 2024, with a handover in March 2024. The departure was company-initiated: Abacum reduced the team to extend its runway.
+- **Class:** Dates: artifact (Figma index; Notion handover ticket, 18 March 2024). Reason: confirmed direct user statement.
+- **Source:** Manel, 2026-11-09.
+- **Verified:** 2026-11-09.
+- **External-use boundary:** Say "Abacum downsized to extend its runway, and my role was part of that reduction." Do not describe it as a resignation or a voluntary departure, and do not imply performance reasons.
+
 ### Design-team working practices
+
+- **Claim:** Manel started the weekly design library meeting. The log runs from 15 July 2022 to 22 March 2024 (about 57 dated meetings). At the first meeting he presented the colour-token roadmap and was actioned to get the head of design's approval and set up a design and engineering meeting. Across the log he brought 79 agenda items; the head of design brought 76.
+- **Class:** Founding: confirmed direct user statement. Dates and counts: artifact (Notion, "Design library weekly").
+- **Source:** Manel, 2026-11-09; Notion.
+- **Verified:** 2026-11-09.
+- **External-use boundary:** Supports "started and co-ran a weekly design library meeting for about 20 months". Agenda-item counts are for internal reference; don't quote them externally. This is the design-only library meeting; the separate weekly design-system meeting with FE is covered below.
 
 - **Claim:** At Abacum, Manel added structure to design meetings through an agenda and weekly rotation of the host. He also introduced a weekly design-system meeting, held when there was progress to review and cancelled otherwise.
 - **Class:** Confirmed direct user statement.
@@ -441,7 +457,7 @@ This is the evidence register, not finished application copy. Each material clai
 - **Class:** Confirmed direct user statement.
 - **Source:** Manel's correction of CV scope on 2026-10-06.
 - **Verified:** 2026-10-06.
-- **External-use boundary:** This establishes work across the data-integration and financial-modeling areas, not whole-product ownership at Abacum. Do not imply every listed area was built from scratch, personally led, or shipped without project-specific confirmation. Dataset Manager and the modeling language are selected examples within this broader remit. Squad-transfer dates and the remaining project inventory are unknown.
+- **External-use boundary:** This establishes work across the data-integration and financial-modeling areas, not whole-product ownership at Abacum. Do not imply every listed area was built from scratch, personally led, or shipped without project-specific confirmation. Dataset Manager and the modeling language are selected examples within this broader remit. Squad transfer (Notion, resolved 2026-11-09): the design ticket "Engine onboarding & tasks" is dated 30 January 2023, so say "moved to Engine in early 2023". The remaining project inventory is in the Notion design tickets (188 owned, April 2023 to March 2024).
 
 ### Dataset Manager
 
@@ -490,9 +506,9 @@ This is the evidence register, not finished application copy. Each material clai
 - **Class:** Confirmed personal account (Manel, 2026-11-09). Qualitative; no request counts recorded.
 - **External-use boundary:** Say "customer support reported fewer configuration requests". Give no number or percentage.
 
-- **Claim:** The most experienced of the three test participants had used Abacum for over a year. He was the head of his company's FP&A team, one of its longest-serving people, and gave a lot of feedback. He got stuck in the same places as the newer users.
-- **Class:** Confirmed personal account (Manel, 2026-11-09).
-- **External-use boundary:** Never name him or his company. Say "the most experienced user, who led the customer's FP&A team and had used Abacum for over a year".
+- **Claim:** Testing ran in two rounds: first with three of Abacum's internal FP&A specialists, who set up datasets for customers every day, then with customer users. The most experienced of the first three had used Abacum for over a year. He led Abacum's FP&A team, was one of its longest-serving people, and gave a lot of feedback. He got stuck in the same places as the others.
+- **Class:** Confirmed personal account (Manel, 2026-11-09; the internal first round confirmed the same day after the Notion review).
+- **External-use boundary:** Never name him. Say "our FP&A specialists, who set up datasets for customers every day" for the first round, and "the most experienced, who led our FP&A team and had used Abacum for over a year". Never call the first three customers. Decks and portfolio notes before 2026-11-09 said "three customers"; corrected.
 
 - **Claim:** An early Dataset Manager direction combined a simpler interface with SQL so users could write basic data-transformation functions. Testing showed that participants could express the same transformation logic with Excel functions but could not do so using SQL inside Dataset Manager. Manel interpreted this as a language and familiarity problem rather than an inability to reason about the data.
 - **Class:** Confirmed personal account.
@@ -523,7 +539,19 @@ This is the evidence register, not finished application copy. Each material clai
 - **Claim:** The dependencies view also covered impact before a change: a warning that filters would be removed from dependent tables, with an explicit "Accept impact on 3 table filters" step.
 - **Class:** Confirmed as Manel's design (statement above); shown in "Abacum | Dimensions - Exploration", page "2207 -> Dimension dependencies view".
 - **Verified:** 2026-11-09.
-- **External-use boundary:** Whether the impact confirmation shipped as designed is not established.
+- **External-use boundary:** Whether the impact confirmation shipped as designed is not established. Lead (inference, not checked): webapp #2304 (2 December 2022) added a `confirmed_dimension_impact` field.
+
+- **Claim (dimension problem framing and rename):** Manel wrote the Notion pages "Dimensions problems" (mental-model analysis of hierarchical mappings, severity-ranked issues with evidence, opportunities by confidence level) and "Design Solution Challenge · Breaking 1:1 relationship, & model in context" (metrics tied one-to-one to tables, product-agnostic problems, development budget across the Reporting and Engine squads, user quotes on the solution direction). In Engine he owned "Rename dimension items, communicate impact & manage concurrency" (January 2024) and "Manage dimensions items and levels" (February 2024, with input from four internal implementation and FP&A colleagues). His March 2024 handover marks rename dimension items as a shipped feature.
+- **Class:** Authorship: confirmed direct user statement (2026-11-09). Ticket ownership and ship mark: artifact (Notion).
+- **Source:** Manel, 2026-11-09; Notion.
+- **Verified:** 2026-11-09.
+- **External-use boundary:** Rename shipped per his own handover; no adoption data. Adding and deleting levels and editing hierarchies were still open at handover; don't claim them. The challenge page names customers and quotes users; never reuse names.
+
+- **Claim (2022 sessions and metric):** Manel ran task-based sessions with customer users on 27 July and 4 August 2022 (tasks: spot a column, create a dataset, add a formula column, create dimensions, delete a dataset), after agreeing the method with the researcher. Findings in his notes: both users read the `IF ... THEN` wording backwards, confused Measure with Dimension and the Financial vs Custom type, and one could not delete a broken dataset without calling support. An internal FP&A prototype test of the Manage / Transform / Connect / Map panels also ran in 2022. A Data I/O Q4 2022 OKR draft defined customer autonomy as the share of successful dimension actions customers completed without FP&A (baseline 0.44, target 0.9) and targeted FP&A Ops hours per live org from 9h to 4.5h a month.
+- **Class:** Sessions: artifact (Notion, Manel's notes) plus confirmed direct user statement (he ran them, method discussed with the researcher). OKR: artifact, draft, author not recorded.
+- **Source:** Notion; Manel, 2026-11-09.
+- **Verified:** 2026-11-09.
+- **External-use boundary:** Say "I ran the sessions; I planned the method with our researcher". Never name participants or their companies. These customer sessions are the second round; the first round was internal (entry above). OKR: describe the metric (customer actions completed without FP&A help); do not quote the baseline or targets as results, and never imply the target was met. No outcome data exists.
 
 - **Claim:** Customer support reported fewer dataset-configuration requests after release. Manel checked with support himself to see how the release was going.
 - **Class:** Recollection; no recoverable counts.
@@ -554,6 +582,26 @@ This is the evidence register, not finished application copy. Each material clai
 - **Verified:** 2026-11-09.
 - **External-use boundary:** Links the two cases. Adoption or usage of the suggestions is not established.
 
+- **Claim (consolidation shipped):** Manel owned "Consolidate Abacum functions" (Q1 2024): the 37-function audit, the list of 15 inconsistent functions, and the Abacum Script conventions (UPPERCASE names, lowerCamelCase parameters, `[optional]`, parentheses style, Excel or GSheets naming where one exists). His March 2024 handover ticket lists it with parameter preview and the syntax helper. Manel confirmed (2026-11-09) that the consolidation and parameter preview shipped after the handover.
+- **Class:** Authorship and handover: artifact (Notion). Shipping: confirmed direct user statement.
+- **Source:** Notion; Manel, 2026-11-09.
+- **Verified:** 2026-11-09.
+- **External-use boundary:** They shipped after Manel left, so say "the proposal I wrote and handed over shipped". Don't claim he oversaw the release. The local webapp (last commit 3 April 2024) still shows underscore names such as `DISTRIBUTE_MONTHLY` in formula metadata mocks; that predates the release and doesn't contradict it. The live case wording stands.
+
+- **Claim (consolidation evidence, Notion "Consolidate Abacum functions"):**
+  - Competitor benchmark, 8 January 2024 (Excel, GSheets, Pigment, Causal, Abacum): all four competitors put parameters inside the parentheses; Abacum put them outside. Case: uppercase everywhere except Causal. Word separators: Excel and GSheets mostly none, with "." for sub-functions; Pigment mostly none; Causal mixed; Abacum mixed underscores and none. Recommended actions: parameters inside, no underscores, "." for sub-functions.
+  - Customer call, 13 December 2023 (recorded call): a customer said the formulas were "not the easiest to learn initially", that he got used to them "after spending like several months with your implementation team", and asked that the experience "look more like excel", while keeping the product's own data logic.
+  - Two working sessions with one back-end engineer (15 and 29 January 2024): Excel names and parameters where possible, a simpler grammar that could check parameter types, and JOIN redefined as three parameters (dataset, its column, your column).
+  - Solution: parentheses style, no underscores, FROM source moved inside the function, rules in the Abacum Script. Implementation: 13 Jira tickets in iteration 1 and 15 in iteration 2.
+- **Class:** Artifact (Notion; Manel owner).
+- **Verified:** 2026-11-09.
+- **External-use boundary:** Never name the customer or the engineer. Quote the customer in paraphrase or short fragments ("several months with your implementation team", "look more like Excel"). Ticket counts show the work was broken down for build; don't present them as shipped scope.
+
+- **Claim (syntax was already a known problem):** "Improve Syntax Usability" was an existing Engine initiative by March 2023 ("Top Issues on Engine", which lists affected customers per issue). An April 2023 survey Manel co-owned with the researcher (15 responses, 57% response rate) ranked "formulas are difficult to write and read because actuals and version syntax are different" fifth of seven, at 27%; error messages (67%), formulas limited to whole versions (53%) and slow saving (50%) ranked higher.
+- **Class:** Artifact (Notion squad docs).
+- **Verified:** 2026-11-09.
+- **External-use boundary:** This contradicts the Modeling Syntax deck's framing "a problem nobody had ticketed". Syntax usability was ticketed; what Manel added was the function-level audit, the benchmark and the consolidation proposal. Don't claim syntax was users' top frustration.
+
 ### Abax design system
 
 - **Claim:** Manel presented the shared design-system business case at an all-hands meeting to make it visible to the whole Product team and seek buy-in.
@@ -561,6 +609,33 @@ This is the evidence register, not finished application copy. Each material clai
 - **Source:** Spendesk deck-preparation conversation, 2026-09-17; thread `01a0a6af-f60d-75d1-b416-341af19cb3ee`. Recovered 2026-10-13.
 - **Verified:** Direct account captured 2026-09-17; transcript checked 2026-10-13.
 - **External-use boundary:** Do not imply sole business-case ownership, unanimous approval or that the presentation alone secured investment.
+- **Date and content (Notion, 2026-11-09):** the presentation was on 7 July 2023 (ticket "DS STOA presentation", 3 July). Manel introduced Abax after the head of design; his script describes two weekly rituals (design system with FE, design library with design) and states "around 250 tokens deployed and implemented" and "more than 100 icons". Use these figures as stated at the time ("about 250 tokens by mid-2023"), not as a later count.
+
+- **Claim (token MVP origin):** Manel started the Abacum token work. He wrote the design-system MVP description (12 May 2022) after a colour proof of concept with FE, presented the colour-token roadmap at the first design library weekly (15 July 2022), and owned the first design-system Maker Days initiative (17 to 23 November 2022: colour tokens on GitHub so designers could update product colours without FE). FE built the pipeline: GitHub Actions, Figma Tokens JSON through token-transformer and Style Dictionary, bundled with Rollup as `@abacum/design-tokens` for the MUI theme.
+- **Class:** Artifact (Notion: Manel's notes, design library weekly, Maker Days table).
+- **Verified:** 2026-11-09.
+- **External-use boundary:** Say "I proposed the token MVP and led the design side; engineers built the pipeline". This is the foundation the Remuner pipeline entry refers to. Maker Days goals (for example 95% fewer colour inconsistencies) were targets; no results were recorded.
+
+- **Claim (Maker Days ownership):** Manel owned a design-system initiative in most Maker Days cycles: V1 November 2022 (design system MVP), V3 March 2023 (first DS component: font and spacing tokens, Button on tokens, Storybook docs; 1 designer, 2 to 3 FE), V4 May 2023 (component changes: tabs, toggle buttons, inputs, selects, chips), V6 November 2023 (component roadmap and spectrum colour implementation, both with the head of design; Storybook template), V7 January 2024 (colour token rollout; collaborator on another designer's library clean-up), and in V8 March 2024 a syntax vision prototype. In the autumn 2023 Abax Vision 1.0 sprint he owned nomenclature, component descriptions, applying tokens to the library, font tokens and semantic colour clean-up.
+- **Class:** Artifact (Notion).
+- **Verified:** 2026-11-09.
+- **External-use boundary:** Maker Days ran about every nine weeks. Each initiative had FE and sometimes the head of design; claim the design side. The March 2023 Button was the overridden MUI Button on tokens; the Abax components came in October 2023, from the Vision 1.0 team sprint run in a Maker Days week. The two sprint options in Vision 1.0 (2 FE + 1 designer for two weeks alongside squads, or 4 FE + 2 designers for one Maker Days week) belong to that October 2023 sprint.
+- **March 2023 results, from Manel's Maker Days presentation draft:** font styles in the Figma library cut from 23 to 11; token groups designers could change went from one (colour) to four (colour, font, spacing, border radius); font and spacing tokens applied to the Button variants and swapped in across the codebase; font styles replaced throughout the webapp; a `no-spacing-literals` lint rule added; Storybook updated. Class: artifact. Boundary: "23 to 11 font styles" is a count from the time and claimable; the same draft's "1% faster design" lines were placeholders, never quote them. FE did the code replacement.
+
+- **Claim (spectrum palette):** November 2023 to February 2024, Manel rebuilt the Abacum colour palette with the head of design: a broader spectrum with rebalanced brightness and saturation that fixed accessibility issues, connected to the functional tokens, with colour styles migrated to Figma variables and library components moved onto them. He bumped `@abacum/design-tokens` from 0.0.76 to 0.0.81 himself (29 November 2023) and merged PR #4112 (5 February 2024).
+- **Class:** Artifact (Notion) plus git history.
+- **Verified:** 2026-11-09.
+- **External-use boundary:** Shared with the head of design. No contrast ratios or colour counts are recorded. Use it as the earlier precedent for the Remuner HSL normalisation, not as a separate lead story.
+
+- **Claim (governance dates):** On 28 July 2023 Manel presented the issue-reporting categories, the form-elements release plan under feature flags, and slot components for dropdowns and dialogs; on 30 June 2023 the exploration vs implementation library proposal. He hosted 16 of the 82 design collab sessions in the backlog.
+- **Class:** Artifact (Notion).
+- **Verified:** 2026-11-09.
+- **External-use boundary:** Dates the July 2026 CV-base governance claims and the Select slot example. Session counts are internal reference.
+
+- **Claim (component-library scope):** The pre-Abax Figma component database credits another designer on 128 of 163 components and Manel on two (Button, FAB). Manel's library work was tokens, nomenclature, descriptions, clean-up, the Abax 1.0 roadmap and specific components (Button, File picker, Avatar, Chip, ChecklistSelect, Select and Menu).
+- **Class:** Artifact (Notion).
+- **Verified:** 2026-11-09.
+- **External-use boundary:** "Worked on the component library" is fine; never "designed the component library".
 
 - **Claim:** The 80% adoption goal followed the successful Maker Days initiative. Manel clarified that the tracked goal and approximately 47% departure figure referred to Abax versus MUI component uses across the codebase. Frontend engineers used custom monthly scripts, and the team was still improving the metric.
 - **Class:** Confirmed personal account of target, sequence and measurement approach; achieved percentage remains reconstructed recollection.
@@ -605,7 +680,7 @@ This is the evidence register, not finished application copy. Each material clai
 - **Verified:** 2026-11-06.
 - **External-use boundary:** Supports a coaching and communication practice around releases. How many designers were coached, how often the ad hoc sessions happened, and any individual outcome are not recorded. "Every release on Slack" is Manel's account; no channel export.
 
-- **Claim:** Abax served about six product designers across the five squads.
+- **Claim:** Abax served about six product designers across the five squads: Actuals (data and integrations), Engine, Reporting, Futures and Collaboration (Manel, 2026-11-09). Decks before 2026-11-09 listed Integrations and Admin; corrected.
 - **Class:** Confirmed direct user statement (Recollection).
 - **Source:** Manel, Perk TA call 2026-11-05 (transcript pasted by Manel); used on the Abacum deck v2, 2026-11-06.
 - **Verified:** 2026-11-05.

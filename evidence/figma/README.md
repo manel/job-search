@@ -6,7 +6,7 @@ Table of contents for all 30 Remuner and Abacum Figma files in Manel's Figma (hi
 2. **Per-file index** (linked below): every page with what it covers, notable content and the best image sources.
 3. **Raw catalog** (`catalog/`): every frame on every page with a node link and its designer text. Search it when the index doesn't answer the question.
 
-Cross-file outputs: [case-candidates.md](case-candidates.md) (what the files add to existing cases, and new case ideas). Local PNGs of the image sources are in `images/[file key]/`. The Dataset Manager story picks are in [../abacum-figma-index.md](../abacum-figma-index.md).
+Cross-file outputs: [case-candidates.md](case-candidates.md) (what the files add to existing cases, and new case ideas) and [deck-and-case-updates.md](deck-and-case-updates.md) (ranked backlog of deck and live-case edits). The full untruncated extraction (one JSON per page, every text layer) is archived in `raw/figma-dump-2026-11-09.tgz`; the catalogs cap designer text at 600 characters per frame, so go to the archive for complete text. Re-render with `scripts/figma-index/render.py`. Local PNGs of the image sources are in `images/[file key]/`. The Dataset Manager story picks are in [../abacum-figma-index.md](../abacum-figma-index.md).
 
 Page names start with the date as YYMM (`2302` = February 2023). Status markers: ✅ shipped or handed off, 🟡 not marked as shipped, 🔒 locked.
 

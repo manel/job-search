@@ -50,6 +50,8 @@ Julian Kraan owned: finalizing color tokens spectrum, font token finalization, s
 
 Two sprint formats were evaluated: small team (2 FE, 1 Design) over 2 weeks running alongside regular sprints, or large team (4+ FE, 2+ Design) in a single dedicated week. Maker Days used the latter.
 
+**Clarified 2026-11-09 (Notion "Vision 1.0" and "Team setups"):** the two sprint durations above are from Vision 1.0 (August to September 2023), for the Abax team sprint; it ran in a Maker Days week in October 2023. A separate page, "Team setups", decided the standing team structure: a permanent DS squad was preferred but too expensive, a distributed core team (1 FE + 1 designer) was chosen, and relying on Maker Days, DS sprints or a DS weekday alone was marked "not recommended". Maker Days ran about every nine weeks (DS retro), not quarterly.
+
 ---
 
 ## Metrics framework (designed, partially tracked)
@@ -99,7 +101,7 @@ This is notable: there was a measurement framework from the start, not just qual
 
 - The business case slide included: "Well-kept component library → source of truth in components allows for the creation of UX patterns. For users: more consistent elements and interactions. Half-implemented components aren't understood. Inconsistencies can create a perception of immaturity, resulting in lack of trust."
 - Maker Days sprint was timed around Javier's parental leave — shows the human coordination work involved.
-- The weekly cadence ran from at least July 2023 to March 2024 (visible in the weekly doc). That's 8+ months of active governance.
+- The weekly cadence ran from at least July 2023 to March 2024 (visible in the weekly doc). That's 8+ months of active governance. **Corrected 2026-11-09:** the design library weekly log runs from 15 July 2022 to 22 March 2024, about 20 months, and Manel started it (confirmed 2026-11-09).
 
 ---
 
@@ -183,3 +185,5 @@ No names in the cases. "The head of design," "a designer on the team," "the CTO"
 3. **ESLint catches in practice?** Yes. The most concrete pattern was hex color values — devs had been copying and pasting hex codes directly. The token system (and ESLint rules flagging non-system usage) eliminated this. It was the most visible before/after: hardcoded hex in code review became a caught violation rather than a shipping inconsistency.
 
 4. **Maker Days output?** The full token system shipped during the week: Figma variables, Token Studio configuration, and the JSON repository consumed by the frontend. The Button component was the first Abax component delivered — the first concrete proof that the pipeline worked end to end. Shipped in one Maker Days week.
+
+   **Corrected 2026-11-09 (Notion Maker Days table):** the token system predates that week. Colour-token MVP and repo: V1, November 2022. Font and spacing tokens, with the MUI Button rebuilt on them: V3, March 2023. Styles migrated to Figma variables: V6, November 2023. What the October 2023 Maker Days week produced is the Abax workflow and the first Abax components (Button, Select, Tab, Tooltip and Chip enter the lint rule on 10 to 11 October 2023), so "first Abax Button in one week" holds. Detail in [evidence/experience-facts.md](../evidence/experience-facts.md), Abax section.

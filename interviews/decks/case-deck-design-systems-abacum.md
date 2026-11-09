@@ -23,7 +23,7 @@ Every claim is checked against [evidence/experience-facts.md](../../evidence/exp
 
 **Label:** Context
 **Headline:** Five squads and six designers, with no shared components
-**Cards:** Integrations, Engine, Reporting, Collaboration, Admin; each "MUI + local components".
+**Cards:** Actuals, Engine, Reporting, Futures, Collaboration; each "MUI + local components". (Actuals was the data and integrations squad.)
 **My role:** I co-led the business case with the head of design and worked on the tokens, the Figma library and governance. Engineers built the pipeline and coded the components.
 **Footer:** A change to a shared pattern meant a separate fix in each squad.
 
@@ -37,7 +37,7 @@ Every claim is checked against [evidence/experience-facts.md](../../evidence/exp
 **Headline:** We asked engineering for time to test shared components in production
 **Cards:** Evidence: buttons, cells and menus built differently in each squad. Concern: a side project competing with squad work. Proposal: shared tokens and one Button, shipped to production. The open question: how do engineers get focused time for this?
 
-**Notes:** We named engineering's objection before they raised it. Presented to engineering leadership and at an all-hands. Battle card C.
+**Notes:** We named engineering's objection before they raised it. Presented to engineering leadership and at an all-hands on 7 July 2023, where I introduced Abax: about 250 tokens and over 100 icons already in production. Battle card C.
 
 ---
 
@@ -47,7 +47,7 @@ Every claim is checked against [evidence/experience-facts.md](../../evidence/exp
 **Headline:** We chose one dedicated week for Abax
 **Cards:** Alongside sprints: 2 front-end engineers and 1 designer, 2 weeks alongside squad work. Maker Days: 4+ front-end engineers and 2+ designers, 1 dedicated week.
 
-**Notes:** Maker Days was Abacum's quarterly slot for non-roadmap work. Getting selected turned a side project into a sanctioned one.
+**Notes:** Maker Days was Abacum's week for non-roadmap work, every nine weeks. Getting selected turned a side project into a sanctioned one. The standing team was a separate decision: a dedicated DS squad was too expensive, so one front-end engineer and I formed the core and spread the work across squads.
 
 ---
 
@@ -55,9 +55,9 @@ Every claim is checked against [evidence/experience-facts.md](../../evidence/exp
 
 **Label:** Proof
 **Headline:** The first Abax Button shipped in one week
-**Body:** It proved the path from Figma to code. An engineer built the original pipeline.
+**Body:** The tokens were already in production. The first Abax components proved the Figma-to-code path. An engineer built the original pipeline.
 
-**Notes:** Tokens and the Button reached production in one Maker Days week. After that, each new component was easier to justify.
+**Notes:** October 2023. The tokens had been in production since late 2022 (see backup B3). The first Abax components, Button among them, shipped in one Maker Days week. After that, each new component was easier to justify.
 
 ---
 
@@ -89,13 +89,13 @@ Every claim is checked against [evidence/experience-facts.md](../../evidence/exp
 **Cards:**
 - Feature flags: new form elements shipped behind flags.
 - Squad backlogs: each squad added its own migration tickets.
-- Weekly library sync: every designer attended, for over eight months.
+- Weekly library sync: every designer attended, for almost two years.
 - Two Figma libraries: Exploration for experiments, Implementation for published work.
 - Issue reports: broken components, naming, missing variants and detaches, through Notion and Slack.
 - Lint rule: engineers got a warning when they imported an MUI component that Abax replaced.
-**Footer:** I proposed the two-library split and ran the sync and the issue process. An engineer wrote the lint rule.
+**Footer:** I started the sync, proposed the two-library split and ran the issue process. An engineer wrote the lint rule.
 
-**Notes:** The lint rule covered Button, Select, Tab, Tooltip and Chip, as a warning. Don't say it checked tokens or blocked builds.
+**Notes:** I started the sync in July 2022. I presented the issue categories, the feature-flag release plan and slot components on 28 July 2023. The lint rule covered Button, Select, Tab, Tooltip and Chip, as a warning. Don't say it checked tokens or blocked builds.
 
 ---
 
@@ -141,7 +141,7 @@ Every claim is checked against [evidence/experience-facts.md](../../evidence/exp
 
 **Label:** Outcome
 **Headline:** Abax reached five squads, with migration still in progress when I left
-**Stats:** 5 squads using Abax · ~47% of tracked component uses (goal 80%) · 2 + 1 squads: form migration done, one underway · 8+ months of weekly library sync
+**Stats:** 5 squads using Abax · ~47% of tracked component uses (goal 80%) · 2 + 1 squads: form migration done, one underway · ~2 years of weekly library sync
 **Why 80% wasn't reached:** squads migrated one by one, through reworks and new features. There was no dedicated clean-up.
 **Other signals:** a designer built a new screen quickly from existing variants; customers said the product felt more polished.
 **Source line:** The 47% is reconstructed from monthly codebase counts; the raw exports aren't available.
@@ -216,11 +216,13 @@ That left one open question: how do engineers get focused time for this? We pres
 ▶ [If asked about the objection: battle card C.]
 
 **Figma 11 (Investment choice)**
-There were two options. Two front-end engineers and a designer for two weeks alongside squad work, or Maker Days: one dedicated week with four or more engineers and two or more designers. We chose Maker Days. It was Abacum's quarterly slot for non-roadmap work, and being selected turned a side project into a sanctioned one.
+There were two options. Two front-end engineers and a designer for two weeks alongside squad work, or Maker Days: one dedicated week with four or more engineers and two or more designers. We chose Maker Days. It was Abacum's week for non-roadmap work, every nine weeks, and being selected turned a side project into a sanctioned one.
+A dedicated design-system squad would have been better, but it was too expensive. So one front-end engineer and I formed the core team and spread the rest of the work across the squads.
 ▶ [Short on time: one sentence. "We got a dedicated Maker Days week."]
 
 **Figma 12 (Proof)**
-Tokens and the first Abax Button reached production in that one week. It proved the path from Figma to code. An engineer built the original pipeline. After that, each new component was easier to justify.
+By then the tokens had been in production for almost a year. In that one week, in October 2023, the first Abax components shipped, the Button among them. It proved the path from Figma to code. An engineer built the original pipeline. After that, each new component was easier to justify.
+▶ [If asked what came before: backup B3, the token groundwork.]
 ▶ [Point at the Storybook screenshot.]
 
 **Figma 13 (Roadmap)**
@@ -237,7 +239,7 @@ Squads migrated in their own sprints while design ran the library. New form elem
 ▶ [Click.]
 
 **Figma 16**
-Every designer came to a weekly library sync, for over eight months. I proposed two Figma libraries: Exploration for experiments, Implementation for published work.
+Every designer came to a weekly library sync. I started it in July 2022 and it ran for almost two years. I proposed two Figma libraries: Exploration for experiments, Implementation for published work.
 ▶ [Click.]
 
 **Figma 17**
@@ -295,7 +297,7 @@ Most adoption problems came from designers not knowing what existed; no squad re
 ▶ [Don't invent a resisting squad. No single designer's before and after is recorded; describe the practice.]
 
 **Figma 30 (Outcome)**
-Abax reached all five squads. About 47% of tracked component uses were Abax, against an 80% goal. Two squads finished the form migration and a third was underway. We ran the weekly sync for more than eight months.
+Abax reached all five squads. About 47% of tracked component uses were Abax, against an 80% goal. Two squads finished the form migration and a third was underway. The weekly sync ran for almost two years.
 ▶ [Point at the source line if asked: the 47% is reconstructed from monthly counts; the raw exports aren't available.]
 ▶ [Click.]
 
@@ -323,6 +325,14 @@ What would be most useful to go deeper on?
 
 - **B1. The problem:** duplicate components and repeated fixes (v1 slide).
 - **B2. Deprecated components:** marked ⛔ DEPRECATED, replacement published under the clean name, old one unpublished after migration (v1 slide).
+- **B3. Token groundwork before Abax** (not yet built in Figma; timeline):
+  - July 2022: I present a colour-token roadmap at the first library sync.
+  - November 2022: colour tokens on GitHub, so designers change product colours without front-end work. My Maker Days initiative; engineers built the pipeline.
+  - March 2023: font and spacing tokens, the Button rebuilt on them. Font styles in the library cut from 23 to 11; designers control four token groups instead of one.
+  - July 2023: all-hands, about 250 tokens and over 100 icons.
+  - October 2023: first Abax components.
+  - November 2023 to January 2024: new colour spectrum with the head of design, styles moved to Figma variables, rolled out for accessibility.
+  Notes: "Abax sat on a year of token work, most of it done in Maker Days weeks."
 
 ---
 
@@ -334,8 +344,12 @@ What would be most useful to go deeper on?
 
 **"How did system work get prioritised against features?"** Maker Days as a bounded bet, then migration inside squad backlogs and feature work.
 
+**"What was hard?"** Two things. Contribution ran on extra hours, with little help from outside design and engineering, and Maker Days every nine weeks was too slow for steady progress, so we moved to a core team of one engineer and one designer. And the switch from building token infrastructure to shipping components: when we had to make it, Text input, Select, Autocomplete and Menu still had undocumented variants.
+
+**"Did you do this kind of palette work at Abacum too?"** Yes, from November 2023: a new colour spectrum with rebalanced brightness and saturation, built with the head of design, which fixed accessibility issues and moved colour styles to Figma variables. I opened the pull request for the new spectrum myself. It's the precedent for the Remuner palette work.
+
 **"How did you measure adoption?"** Slide 9. Two measures: the monthly code count (47%, goal 80%) and the Figma health score every two weeks. I defined the Figma measures; an engineer built the scripts. No raw exports survive.
 
 **"What was your contribution vs the team's?"** Co-led the business case. Token decisions, the Figma library, the two-library split, the sync and the issue process, the Figma measures. Engineers built the pipeline, the components in code, the scripts and the lint rule.
 
-**Don't claim:** that the lint rule checked tokens or blocked builds; a health score or trend; a velocity number; "80% of new UI"; that you wrote the pipeline or scripts.
+**Don't claim:** that the lint rule checked tokens or blocked builds; a health score or trend; a velocity number; "80% of new UI"; that you wrote the pipeline or scripts; that the tokens were built in the Maker Days week; that you designed most of the component library (another designer built most of the earlier one).
