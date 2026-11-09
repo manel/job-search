@@ -1,14 +1,16 @@
 ---
 company: eDreams ODIGEO
 role: Senior Product Designer, Conversational Service Design
-status: role-closed
-status_verified_on: 2026-10-16
+status: rejected
+status_verified_on: 2026-11-09
 status_confidence: confirmed
 fit_decision: proceed
 applied_on: 2026-09-10
-last_contact_on: 2026-09-10
-next_action: None; posting removed with no employer response
-next_action_on: 2026-10-16
+last_contact_on: 2026-11-09
+outcome_stage: no-response
+rejection_reason_class: generic
+next_action: None; rejected (position filled), no chase
+next_action_on: 2026-11-09
 salary_stated: EUR 58,000 gross annual base
 job_url: https://www.edreamsodigeocareers.com/job/senior-product-designer-conversational-service-design-hybrid/
 posting_status: closed
@@ -21,6 +23,8 @@ source: eDreams automated submission confirmation supplied by Manel; Career Stra
 ## Current state
 
 The [professional/personal AI-use answer](../../application-answers/edreams-ai-use-2026-09-10.md) was recovered from the application chat on 2026-10-13. It is the historical draft, not a verified copy of the submitted form answer; its evidence limits are recorded in the file.
+
+Rejected 2026-11-09 by an auto-generated email from careers@edreamsodigeo.com: the position has been filled. No feedback; the address does not accept replies. No chase.
 
 Application submission is confirmed. As of 2026-09-14, only the automated acknowledgement had been received; no human response had arrived. eDreams said it would review the application and contact Manel within the following weeks if there was an initial fit.
 
@@ -41,3 +45,4 @@ Strong match to the Remuner conversational AI work: capability boundaries, refus
 - 2026-09-14: Submission confirmed from the email supplied by Manel. Manel confirmed that no human response had arrived.
 - 2026-10-16: Posting check: the job URL returns 404. Posting closed; application status unchanged (no employer response confirmed).
 - 2026-10-16: Manel confirmed that neither the posting nor any designer opening can be found on eDreams careers. Status changed to role-closed.
+- 2026-11-09: eDreams Talent Acquisition sent an auto-generated rejection (supplied by Manel): position filled, candidacy not moving forward. No feedback, do-not-reply address. Status changed from role-closed to rejected; rejection_reason_class generic. 60 days after applying.
