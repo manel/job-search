@@ -16,8 +16,8 @@ scratch/
 *.env
 secrets/
 
-# Obsidian per-session layout
-.obsidian/workspace.json
+# Obsidian vault config (per-machine editor setup)
+.obsidian/
 .obsidian/workspace-mobile.json
 
 # Role scanner (scripts/scan-roles.py): generated config and runtime files.
