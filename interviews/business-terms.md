@@ -107,10 +107,10 @@ A single metric that best captures the value a product delivers to users. Chosen
 Interviewers at senior level will ask how your work tied to business results. Most design work doesn't have clean A/B tests. Here is how to speak about it without fabricating data or hedging into uselessness.
 
 **Proxies and operational signals**
-If hard metrics aren't available, name what changed operationally: CS requests dropped, implementation teams spent less time on configuration, engineers stopped asking questions in Slack about component naming. These are real signals even without a dashboard.
+If hard metrics aren't available, name what changed operationally: CS requests dropped, engineers spent less time on customer configuration, engineers stopped asking questions in Slack about component naming. These are real signals even without a dashboard.
 
 **Qualify what you know**
-"The implementation team read the change as roughly half the time on standard setup — that was their read, not a measured figure." This is more credible than false precision and more useful than silence.
+"The squad's engineers estimated roughly half the time on standard setup. That was their estimate, not a measured figure." This is more credible than false precision and more useful than silence.
 
 **Follow-on work as signal**
 When your project creates demand for the next project, that's an operational outcome. The Modeling Syntax work unlocked the editor suggestions project. That's a business signal: the product became good enough in that area that the team could invest in making it better, rather than firefighting.

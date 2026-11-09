@@ -435,13 +435,21 @@ This is the evidence register, not finished application copy. Each material clai
 
 ### Dataset Manager
 
-**Chronology and attribution conflict, documented 2026-10-13:** The [2026-10-09 deck review](../analysis/2026-10-09/dataset-manager-deck-alignment.md) records the published sequence as JSON configuration, an interim SQL release despite Manel's disagreement, then a formula-based column builder. The older personal account below says the SQL direction was dropped. The published account attributes the approximate time saving to Engineering; the earlier register attributes it to the implementation team. Preserve both accounts with their sources. Do not assert that SQL never shipped or silently change the outcome attribution. Exact historical sequencing and the original source of the estimate remain unresolved; deck/website agreement alone is not independent corroboration.
+**Chronology resolved 2026-11-09 (confirmed by Manel):** Configuration started as back-office JSON handled by engineers. Customers then got a transform field with SQL-like formulas (`'Global' if DEPARTMENT:NAME is ...`, `JOIN RATIO FROM OTHER_DATASET ON ...`; Figma, Feb 2022). That was an agreement with Engineering because it was easier to build without revamping formulas, and it was the phase of migrating to Abacum formulas. The formula builder replaced it (webapp "DSM formula builder v1", ACTS-958, 2023-09-20; syntax check October 2023; autocomplete November 2023). Say "SQL-like formulas", not "SQL". The 2026-09-29 account ("the team dropped the SQL direction") holds in the sense that plain SQL never reached customers.
+
+**Attribution resolved 2026-11-09 (confirmed by Manel):** the "roughly half the time" estimate came from the Integrations squad's engineers, who also did the implementation work for customers. Say "the Integrations engineers" or "the squad's engineers". Do not use "implementation team" in new copy.
+
+- **Claim:** In January 2022 Manel framed the problem as four "How might we" questions (set up datasets at dataset and column level, enrich them, cleanse them), wrote the value statement "Self-service means activation", and drew the architecture board that split the work into Mapping (now: non-sequential, used regularly) and Transforming (later: sequential, rarely used). The scope notes listing user actions, with mapping and functions struck out for later iterations, are his; the PM at the time was involved in the scoping.
+- **Class:** Confirmed direct user statement; artefacts in Figma.
+- **Source:** Manel, 2026-11-09. "Abacum | Dataset manager - Exploration (Backup 27.3.23)", page "2201 -> Manage"; index in [evidence/abacum-figma-index.md](abacum-figma-index.md).
+- **Verified:** 2026-11-09.
+- **External-use boundary:** Never name the PM in external copy; say "the PM".
 
 - **Claim:** Product and Engineering initially questioned Manel’s proposed direction because extending Abacum’s modeling language was harder and slower than extending the SQL-based approach already used by engineers/back-office configuration. They needed research evidence and further checks before agreeing. Manel advocated the direction as more useful for users. Existing customers and datasets constrained implementation: the team needed to proceed carefully to avoid loss or unintended alteration of their data.
 - **Class:** Confirmed direct user account of the objection, relative development cost and compatibility constraint.
 - **Source:** Manel’s Alan technical-interview preparation clarification on 2026-10-13.
 - **Verified:** 2026-10-13.
-- **External-use boundary:** No exact effort estimate, specified migration mechanism, loss-free rollout verification or measured business result is established. The existing language was extended; do not claim it was necessarily built from scratch. Release sequencing of SQL and formula capabilities remains to verify before detailed chronology.
+- **External-use boundary:** No exact effort estimate, specified migration mechanism, loss-free rollout verification or measured business result is established. The existing language was extended; do not claim it was necessarily built from scratch. Release sequencing: see "Chronology resolved 2026-11-09" above.
 
 
 - **Claim:** The initial request was to improve the UX so users could move from editing JSON files to something more usable. Manel proposed research before committing because he doubted the proposed approach would work. After research, he recommended an ordered list of actions on a dataset, such as transformation and aggregation, rather than JSON editing. He also recommended moving away from SQL toward language familiar from users’ Excel work.
@@ -451,7 +459,7 @@ This is the evidence register, not finished application copy. Each material clai
 - **External-use boundary:** Establishes personal influence on problem framing and product direction, not sole strategy or implementation ownership. The initial effort objection, evidence review and compatibility constraint are recorded above; detailed release sequencing and business results still require separate evidence.
 
 
-- **Claim:** Dataset Manager's primary intended outcome was customer autonomy for the majority of standard configuration cases. Supporting goals were reducing configuration time and reducing the implementation support required.
+- **Claim:** Dataset Manager's primary intended outcome was customer autonomy for the majority of standard configuration cases. Supporting goals were reducing configuration time and reducing the engineering support required.
 - **Class:** Confirmed personal account of the success criteria; not a claim that all three outcomes were instrumented or achieved quantitatively.
 - **Source:** Manel's Datavant hiring-manager preparation conversation on 2026-09-30.
 - **Verified:** 2026-09-30.
@@ -461,12 +469,12 @@ This is the evidence register, not finished application copy. Each material clai
 - **Source:** [cv/cv-base.md](../cv/cv-base.md) at pre-merge commit `83bef9f`; [context/portfolio.md](../context/portfolio.md), Dataset Manager entry.
 - **Verified:** 2026-09-10.
 
-- **Claim:** The implementation team's read was that standard dataset configuration took roughly half the previous time. Customers could reach a working configuration in their first session.
+- **Claim:** The Integrations squad's engineers estimated that standard dataset configuration took roughly half the previous time. Customers could reach a working configuration in their first session.
 - **Class:** Recollection, not instrumented measurement.
 - **Source:** Manel's 2026-06-12 confirmation, recorded in [context/portfolio.md](../context/portfolio.md); current approved CV copy confirmed 2026-09-10.
 - **Verified:** 2026-09-10.
 
-- **External-use boundary:** Attribute the time reduction to the implementation team's read. Do not present it as measured analytics or invent a more precise figure.
+- **External-use boundary:** Attribute the time reduction to the Integrations engineers' estimate (attribution confirmed 2026-11-09). Do not present it as measured analytics or invent a more precise figure.
 
 - **Claim:** An early Dataset Manager direction combined a simpler interface with SQL so users could write basic data-transformation functions. Testing showed that participants could express the same transformation logic with Excel functions but could not do so using SQL inside Dataset Manager. Manel interpreted this as a language and familiarity problem rather than an inability to reason about the data.
 - **Class:** Confirmed personal account.
@@ -487,6 +495,17 @@ This is the evidence register, not finished application copy. Each material clai
 - **Class:** Confirmed personal account; identification and solution proposal were Manel's, while agreement and delivery were shared. Outcomes are qualitative customer reports, not measured performance data. Ownership and results of the later advanced-management project are not established here.
 - **Source:** Manel's Datavant hiring-manager preparation conversation on 2026-09-30.
 - **Verified:** 2026-09-30.
+
+- **Claim:** Manel designed the dimension dependencies view in Dataset Manager: the Dependencies list in column settings (datasets, modules, tables using a dimension) and the "Dimension '[name]' is used in" dialog that lists each dependent item with a link to it.
+- **Class:** Confirmed direct user statement.
+- **Source:** Manel, 2026-11-09, during the Dataset Manager deck review. Screens in the Figma file "Abacum | Dataset manager - Implementation", pages "2207 -> Dimension dependencies" and "2403 -> Dependencies".
+- **Verified:** 2026-11-09.
+- **External-use boundary:** Design ownership only. Ship date, adoption and outcome of this feature are not established.
+
+- **Claim:** The dependencies view also covered impact before a change: a warning that filters would be removed from dependent tables, with an explicit "Accept impact on 3 table filters" step.
+- **Class:** Confirmed as Manel's design (statement above); shown in "Abacum | Dimensions - Exploration", page "2207 -> Dimension dependencies view".
+- **Verified:** 2026-11-09.
+- **External-use boundary:** Whether the impact confirmation shipped as designed is not established.
 
 ### Modeling language
 

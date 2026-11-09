@@ -41,7 +41,7 @@ Jan 2022 - Apr 2024, Barcelona (hybrid)
 
 Designed workflows across Abacum’s data-integration and financial-modeling areas, first in the Integrations squad and later Engine. Work spanned integrations, datasets, dimensions and mappings, models, and the modeling language.
 
-Led design and customer testing for Dataset Manager, translating JSON configuration into guided workflows for finance teams. The implementation team's read was that standard configuration took roughly half the previous time.
+Led design and customer testing for Dataset Manager, translating JSON configuration into guided workflows for finance teams. The squad's engineers estimated that standard configuration took roughly half the previous time.
 
 Led research and design for a consistent formula language, using customer evidence and competitor benchmarking to shape syntax decisions with Engineering.
 

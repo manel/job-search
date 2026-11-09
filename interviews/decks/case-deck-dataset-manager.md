@@ -1,199 +1,140 @@
 # Case Deck: Dataset Manager (Abacum)
 
-**Best for:** Product design roles, research-driven decision-making, cross-functional alignment, decisions without a clear answer, changed approach mid-project.
-**Duration:** 25–35 minutes including Q&A. Walk-through aim: 15–18 minutes.
-**Lead framing:** Version C — Leadership hero. Not "I discovered the real problem" (research hero) or "I redesigned the abstraction layer" (architecture hero). The story is: I aligned product and engineering around a fundamentally different problem definition and sequenced delivery so we could reduce complexity without breaking what advanced users depended on.
-**Editorial lens:** Every major moment must survive — "What specifically did Manel drive here that another senior designer probably would not?"
+**Best for:** Product design roles, research that changed a direction, complex B2B configuration, cross-functional decisions, staged delivery.
+**Duration:** 10 to 12 minutes of walk-through, then the panel steers. 11 slides.
+**Figma:** "Dataset manager" (Slides), v2 built 2026-11-09; v1 kept as skipped slides. Image sources: [evidence/abacum-figma-index.md](../../evidence/abacum-figma-index.md).
+**Evidence:** [evidence/experience-facts.md](../../evidence/experience-facts.md), "Dataset Manager". Chronology and the time-saving attribution confirmed 2026-11-09.
+**Rules:** result first, one line of text per slide, images carry the content ([interviews/prep.md](../prep.md), "Rules for every case deck"; [context/brand.md](../../context/brand.md)).
+
+Version history: v1 (October 2026) said "SQL shipped first" and credited the time saving to an implementation team. Both corrected in v2: customers got SQL-like formulas, and the estimate came from the Integrations engineers.
 
 ---
 
-## Slide 1 — Cover
+## Slide 1: Cover
 
-**Headline:** From technical configuration to self-serve onboarding
+**Headline:** From JSON files to self-serve data setup
+**Sub:** Customers reached a working dataset in their first session
+**Small:** Dataset Manager · Abacum · 2022 to 2023
+**Visual:** Formula box with the formula library open (2309, Marketing asset), right half of the slide.
 
-**Subheadline:** Dataset Manager — Abacum, 2022
-
-**Speaker Notes:** This case is about a platform problem that looked like a UI issue but was actually a product architecture problem. Research changed the diagnosis. The harder work was reframing the scope with PM and engineering, then sequencing delivery so we could reduce complexity for users without breaking what advanced users relied on.
-
----
-
-## Slide 2 — Business Context
-
-**Headline:** Dataset configuration had become a scaling bottleneck
-
-**Visual:** Dependency loop — Customer → Implementation team → Data setup → Product usage. Annotate the cost at each step: engineer hours, customer wait time, ceiling on how many customers the team could support.
-
-**Speaker Notes:** Dataset Manager is what finance teams use to clean and structure raw data before it lands in a model: aggregate columns, apply lookups, trim values, set types. Every one of those tasks required an implementation engineer.
-
-Abacum is a financial planning platform built on a configurable data layer. Before this project, customers depended heavily on implementation engineers or internal technical teams to configure datasets. Slow onboarding, expensive support, a hard ceiling on how many customers the team could take on.
-
-I joined as the first dedicated designer on the integrations squad. No design context existed for this area. I had to build the problem understanding from scratch while staying on a delivery timeline.
+**Speaker notes:** Dataset Manager let finance teams at Abacum set up their own data. Before it, every change to a dataset went through an engineer. After it, customers reached a working configuration in their first session, and the squad's engineers estimated standard setup took about half the time. I was the designer on the Integrations squad and ran the design and customer testing from the first framing to the formula builder.
 
 ---
 
-## Slide 3 — Initial hypothesis
+## Slide 2: Before
 
-**Headline:** The assumption: the problem was usability
+**Label:** CONTEXT
+**Headline:** Every dataset change went through an engineer
+**Visual:** The back-office JSON schema (2201 -> Manage), cropped large. One callout: "Edited by the squad's engineers for each customer."
 
-**Visual:** Screenshot or sketch of the existing dataset configuration interface. Two annotation layers: UI roughness AND conceptual mismatch, where the product exposed technical language finance users shouldn't have needed to see.
-
-**Speaker Notes:** My initial read, before research, was that the interface was the problem. The configuration UI exposed technical concepts in ways that felt wrong. The assumption: fix the rough edges, and users could configure their own datasets.
-
-I brought that hypothesis into the sessions expecting to validate it.
+**Speaker notes:** Abacum is a financial planning platform. Customers bring in data from their ERP or spreadsheets, and a dataset defines how that data becomes dimensions and measures in their models. In early 2022 that definition was a JSON file. Customers could not touch it, so the Integrations engineers configured every dataset by hand and every change waited in their queue.
 
 ---
 
-## Slide 4 — Research
+## Slide 3: Framing
 
-**Headline:** Even expert users hit the same ceiling
+**Label:** FRAMING
+**Headline:** Three jobs: set up, enrich, cleanse
+**Visual:** My four "How might we" notes (2201 -> Manage), with the line "Self-service means activation" pulled out.
 
-**Visual:** Research participant grid — three participants, their tenure with the product, their technical background. Highlight the most experienced user. Note the specific task that failed and why it was the decisive signal.
-
-**Speaker Notes:** Three task-based sessions, not interviews. Participants completed real configuration tasks; I watched where they got stuck.
-
-The signal that mattered: the most experienced user, someone who had been using Abacum for over a year and was comfortable with the product, struggled with the same conceptual blocks as users who were new to it.
-
-When the most experienced user hits the same wall as new users, the problem is not familiarity. More sessions would have added to the count, not the diagnosis. The question I needed to answer was whether experience with the interface closed the gap. One experienced user failing told me it didn't. The ceiling was in the model, not the interface.
+**Speaker notes:** The request was a better interface for editing JSON. Before designing that, I broke the work into what users needed to do: set up a dataset and its columns, enrich it by typing columns and mapping them to dimensions, and cleanse it with transformations. I wrote "self-service means activation" next to it, because a customer who could not configure data could not get value from the product.
 
 ---
 
-## Slide 5 — Diagnosis
+## Slide 4: Sequencing
 
-**Headline:** The product model didn't match the user's mental model
+**Label:** WHAT CAME FIRST
+**Headline:** Mapping now, transforming later
+**Visual:** The architecture board (2201 -> Manage): Mapping "Now", Transforming "Later", with characteristics and actions.
 
-**Visual:** Two-column vocabulary map with matched pairs.
-
-| Product language | Finance language |
-|---|---|
-| Schema | Dataset |
-| Keys | Dimensions |
-| Entities | Categories |
-| Types | Metrics |
-
-**Speaker Notes:** Users were being asked to work in the product's terms: data types, source schemas, entity keys. Finance teams thought in dimensions, metrics, cost centers.
-
-That translation burden was the real source of friction, not the UI roughness I'd noticed going in. A better UI in the same model would have made the translation slightly easier. It wouldn't have removed it.
-
-This changed what we needed to build.
+**Speaker notes:** Mapping happens on every dataset and in no fixed order. Transformations are sequential and were rarely used. So mapping came first, and transformations waited. With the PM I cut functions and some mapping cases from the first release; the struck-out list is still in the file. Leaving transformations for later was the biggest scope cut.
 
 ---
 
-## Slide 6 — Strategic pivot
+## Slide 5: Testing
 
-**Headline:** A different problem entirely.
+**Label:** RESEARCH
+**Headline:** Users could write the logic in Excel, not in SQL
+**Visual:** Early-flow screenshot (v1 slide 3), three findings revealed one at a time as pins: Language, Configuration, Dependencies.
 
-**Visual:** Before/after problem framing — left: "Simplify the interface," right: "Redesign the conceptual model." Show the scope difference: what each implies for engineering effort, timeline, and what gets built.
-
-**Speaker Notes:** Every session returned the same finding. Users weren't stuck on the UI; they were stuck on the translation between product language and their own.
-
-I kept naming that out loud every time direction came up. Not a single intervention. Same case, repeated, with new data each time until there was no other reading of it.
-
-PM and engineering arrived at the same place. Scope changed — from a UI cleanup to a product architecture initiative.
+**Speaker notes:** I tested the early flows with three customers, doing real configuration tasks. All three could describe the transformation they needed with Excel functions. None could write it in SQL. The most experienced user, who had used Abacum for over a year, got stuck in the same places as the newer ones, so the gap was the language. Testing also showed users changing dimensions without seeing what depended on them.
 
 ---
 
-## Slide 7 — The SQL decision
+## Slide 6: Diagnosis
 
-**Headline:** SQL would have worked. For the wrong users.
+**Label:** DIAGNOSIS
+**Headline:** Column settings in the words finance teams use
+**Visual:** Left: JSON keys (`dimensions`, `property`, `timescale`). Right: Column settings panel with "Column type: Dimension" and auto-map (2207). Four short vocabulary pairs between them.
 
-**Visual:** Tradeoff matrix.
-
-| Option | Advantage | Risk |
-|---|---|---|
-| SQL | Fast to ship, familiar to technical users | Excludes core ICP; splits language model long-term |
-| Abstraction layer | Scalable self-serve for the finance majority; consistent with modeling vocabulary | Harder to build, longer to ship |
-
-Annotate: "who SQL serves" vs "who this product is for."
-
-**Speaker Notes:** SQL was a reasonable call. Power users could configure datasets with it, and it would have shipped faster.
-
-Two reasons I pushed back. First: it excludes the finance majority, the actual ICP. They don't think in SQL. Second: users already had formula syntax in the modeling layer. Adding SQL would have split the language model across the product — two ways to reach the same data.
-
-We didn't avoid SQL entirely. When the formula-based approach wasn't ready, SQL was the interim step. Sequencing decision, not a change of direction.
-
-The cost was real: power users stayed underserved for longer. That was the deliberate tradeoff. The PM wasn't wrong. He was solving for a different segment.
+**Speaker notes:** Users thought in dimensions, mappings and date formats. The product asked for schema properties and data types. Column settings put those choices in their words: pick a column type, map it to a dimension, let auto-map fill the values.
 
 ---
 
-## Slide 8 — Delivery strategy
+## Slide 7: Language decision
 
-**Headline:** Progressive abstraction instead of big-bang replacement
+**Label:** DECISION
+**Headline:** SQL-like formulas first, Abacum formulas next
+**Visual:** Two screens. Left: the 2022 transform panel with SQL-like steps (`JOIN RATIO FROM ... ON`, `'Global' if DEPARTMENT:NAME is ...`). Right: the formula builder with chips and the formula library (2023).
 
-**Visual:** Three-phase timeline with annotation under each phase.
-
-Phase 1 — JSON editor: Preserve flexibility, protect advanced users, reduce migration risk
-Phase 2 — Structured actions: Remove translation overhead for the finance majority
-Phase 3 — Guardrails: Enable safe self-serve for configuration changes with downstream consequences
-
-**Speaker Notes:** A full replacement would have broken workflows advanced users depended on. We also couldn't validate the abstraction without shipping something first.
-
-I worked with the PM and lead engineer on the phased rollout. The sequencing logic was mine.
-
-Phase 1: JSON editing. Preserve flexibility for advanced users, keep migration risk low.
-
-Phase 2: structured actions. Take the translation burden off the finance majority.
-
-Phase 3: guardrails. Some configuration changes have downstream effects. Users needed safety rails before we put those in their hands.
-
-No phase extended until the previous one proved the abstraction worked.
+**Speaker notes:** Engineering wanted to extend the SQL approach they already used in the back office. I argued for the formulas users knew from Abacum's modeling layer, using the test results. We agreed on a step in between: customers got a transform field with SQL-like formulas, because it was easier to build without revamping formulas. The formula builder on Abacum formulas replaced it, with syntax checks and autocomplete. The cost was that customers learned an interim syntax for a while.
 
 ---
 
-## Slide 9 — Final product
+## Slide 8: Guardrails
 
-**Headline:** Backend complexity abstracted into finance-native workflows
+**Label:** GUARDRAILS
+**Headline:** Show what a change will affect before saving
+**Visual:** The "Dimension 'Suppliers' used in" dialog, then the impact warning with "Accept impact on 3 table filters" (2207).
 
-**Visual:** Before/after — raw JSON configuration on the left, Dataset Manager UI on the right. Annotate the vocabulary touchpoints: where "data type" became "dimension," where entity keys disappeared from the UI entirely. Make the abstraction layer visible, not just the aesthetic improvement.
-
-**Speaker Notes:** The Dataset Manager abstracted the underlying configuration into workflows aligned with how finance teams already thought. Technical flexibility remained underneath; advanced users could still reach it. Complexity became optional rather than mandatory.
-
-Not everything landed within the time I owned this squad. The formula-based transformation layer was the long-term direction but remained in progress when I moved to the engine squad after about eighteen months. The foundation was solid enough that work could continue without me.
-
-The Modeling Syntax project I worked on after moving to the engine squad was part of the same thread — getting the language consistent across the product so the datasets layer could eventually build on top of it properly. The Dataset Manager created the need for that work. The two projects were connected, but in sequence, not in parallel.
+**Speaker notes:** Once customers could change their own data, a change could break models and tables they could not see. I designed the dependencies view: each column shows which datasets, modules and tables use its dimension, and a change that removes filters asks the user to accept the impact first.
 
 ---
 
-## Slide 10 — Outcome
+## Slide 9: Final product
 
-**Headline:** Self-serve onboarding became viable. A new product surface opened.
+**Label:** FINAL PRODUCT
+**Headline:** Creating a calculated column
+**Visual:** JSON thumbnail → shipped column builder (v1 slide 9 images), dark surface.
 
-**Visual:** Four outcome cards.
+**Speaker notes:** A calculated column in the shipped builder: pick fields, write a formula users know from spreadsheets, check it before saving. Some advanced transformations stayed restricted.
 
-- User: Customers completed standard configuration without requiring implementation support
-- Operational: Implementation team reported roughly 50% reduction in setup time for common configurations
-- Business: Reduced dependency increased onboarding throughput and shortened time to value
-- Strategic: Editor suggestions shipped after this project made the configuration layer stable enough to build on.
+---
 
-**Speaker Notes:** No instrumented data. We didn't set a baseline before starting. If I did this again, I'd build a completion rate measurement into the research phase so the outcome was quantifiable.
+## Slide 10: Outcome
 
-User box: customers started completing standard configuration in a first session. Before this project, that required multiple handoffs to an implementation engineer.
+**Label:** OUTCOME
+**Headline:** Finance teams set up standard datasets themselves
+**Proof lines:**
+- Customers reached a working configuration in their first session
+- The squad's engineers estimated half the time on standard setup
+**Small:** No baseline was measured. Next time I would track completion without help from the start.
 
-Operational box: the implementation team's read was roughly half the time for standard setup. CS requests dropped in the following quarters. Their words, not a metric.
+**Speaker notes:** These are team reads. We had no instrumented baseline, so I can't give you a percentage. Customer support also reported fewer configuration requests in the following quarters. If I did it again I would measure completion without engineering help from the first test, so the result would be a number.
 
-Business box: fewer engineering dependencies meant more customers moving through onboarding without a queue. Throughput up, time to value shorter.
+---
 
-Strategic box: this is the one I'd weight most. Intelligent editor suggestions were only viable once the configuration model was consistent enough for the system to reason about. Before this project, the underlying layer was too inconsistent to build on. Once it was clean, engineering had the foundation to ship that feature. That project existed because this one did first.
+## Slide 11: Close
 
-What made this hard wasn't the research or the vocabulary mapping. It was getting PM and engineering to change their read of the problem, then sequencing delivery so we could reduce complexity without breaking what existing users relied on. That's what I'd want someone to take away.
+**Headline:** What would be most useful to go deeper on?
+
+**Speaker notes:** Stop talking. If they hesitate, offer three options: the SQL decision, the testing, or the dependencies design.
 
 ---
 
 ## Q&A preparation
 
 **"What would you do differently?"**
-Instrument the flow before starting. We had strong qualitative signals and clear operational outcomes, but no baseline. With a completion rate or time-on-task baseline, the outcome would have been quantifiable and the follow-on investment easier to justify. I'd build that into the research phase next time.
+Measure from the start. With completion rate or time on task from the first sessions, the outcome would be a number and the next investment easier to justify.
 
-**"How did you validate the direction?"**
-Task-based usability sessions with the prototype before finalizing the design. The signal was whether users could configure a dataset without translating into product language. When the most experienced user completed a task in a first session that had previously required implementation support, that was the validation.
-
-**"How did you handle disagreement about SQL?"**
-Made the case with evidence, not opinion. The research told us who the users were and how they thought. SQL required a mental model those users didn't have. The PM wasn't wrong to raise it; it just served a different segment than the one we needed to design for. Once that was clear, there wasn't much to disagree about.
-
-**"Who else was involved and what was your specific contribution?"**
-PM defined the business problem and held the stakeholder relationship. Engineering implemented and shaped technical feasibility. My contributions: identified the language mismatch through research, made the case against SQL, defined the conceptual model that became the Dataset Manager, co-defined the phased delivery strategy with the PM and lead engineer, ran usability sessions on the prototype.
+**"Why ship SQL-like formulas if you disagreed?"**
+It let the squad give customers transformations months earlier, without rebuilding formulas first. I agreed to it as a step, with the formula builder as the destination, and the formula builder shipped.
 
 **"Three sessions seems like a small sample."**
-The confidence came from the specific signal, not the count. When the most experienced user struggled with the same conceptual blocks as new users, more sessions would have added to the count, not the diagnosis. The question I needed to answer was whether experience with the interface closed the gap. One experienced user failing told me it didn't.
+The question was whether experience with the product closed the gap. The most experienced user hit the same blocks as the newer ones, so it did not. More sessions would only have added to the count.
 
-**"How did you get PM and engineering aligned on the scope change?"**
-It wasn't a single conversation. Every time we discussed direction, I connected what research was showing to what it meant for scope. The frame shifted gradually; not because I called a meeting, but because I kept making the same case with new evidence until there was no other reading of it.
+**"Who else was involved and what was yours?"**
+The PM owned the business problem and scope with me. Engineers built it and shaped feasibility. Mine: the framing, the mapping-first sequencing, the customer tests, the case against SQL, column settings, the dependencies view and the formula builder design.
+
+**"How did you get Product and Engineering to agree?"**
+By bringing the test findings back each time the direction came up, until the interim step and the formula builder were the plan.

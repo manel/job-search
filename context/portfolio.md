@@ -58,15 +58,15 @@ Key decisions:
 - First dedicated designer on the squad — had to establish the problem space before designing anything
 - Ran 3 user tests: Maria, Eduardo, Guillermo, Oriol. Weighted Oriol most heavily (most experienced user)
 - Identified language mismatch between product language (data types) and user language (dimensions)
-- Decided not to introduce SQL. Extended Modeling Syntax instead (prerequisite work that closed the gap)
+- Argued against SQL for finance users. SQL-like formulas shipped as an interim step agreed with Engineering (easier to build without revamping formulas); the formula builder on Abacum formulas replaced them (v1 2023-09). Chronology confirmed 2026-11-09, see [evidence/experience-facts.md](../evidence/experience-facts.md)
 - Work was incremental due to technical constraints — this was the right call, not a compromise
 
 Signals:
-- Implementation team had less work (operational signal from CS and implementation teams)
-- Customer autonomy increased (qualitative, from implementation team feedback)
+- The Integrations engineers, who also did customer implementation, had less configuration work (operational signal from CS and the engineers)
+- Customer autonomy increased (qualitative, from the engineers' feedback)
 - Oriol's session: specific moments where the abstraction landed
 
-No hard metrics. Own this directly. The live case's characterizations (implementation team spending roughly half the time on standard configuration, CS requests dropping in the following quarters, first-session onboarding) are real recollections confirmed by Manel 2026-06-12, with no recoverable numbers behind them. Keep them framed as team reads and recollections, never as measured data.
+No hard metrics. Own this directly. The live case's characterizations (the Integrations engineers spending roughly half the time on standard configuration, CS requests dropping in the following quarters, first-session onboarding) are real recollections confirmed by Manel 2026-06-12, with no recoverable numbers behind them. Keep them framed as team reads and recollections, never as measured data.
 
 Internal reference (names never appear in live copy): Maria, Eduardo, Guillermo, Oriol (research participants). In live copy: "the most experienced user", "a research participant".
 

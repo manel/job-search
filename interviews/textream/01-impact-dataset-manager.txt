@@ -2,12 +2,12 @@
 
 At Abacum, I led design and customer testing for a tool that helped finance teams configure their own data.
 
-Before that, they depended on implementation specialists and technical configuration files. The goal was to give them more independence.
+Before that, they depended on the squad's engineers and technical configuration files. The goal was to give them more independence.
 
-Our early direction combined a simpler interface with SQL. But testing showed something important: users could explain the transformation they needed using Excel functions, yet they struggled to express it in SQL.
+Our early direction combined a simpler interface with SQL. In testing, users could explain the transformation they needed using Excel functions, but they struggled to express it in SQL.
 
-I took that finding to Product and Engineering. Together, we changed direction and extended the existing modeling language around concepts familiar to finance users.
+I took that finding to Product and Engineering. We shipped SQL-like formulas first, because they were easier to build, and then moved to the existing modeling language, which finance users already knew.
 
-The guided workflow shipped. Our recollection was that customers could reach a working configuration in their first session. The implementation team also felt standard setups took roughly half the previous time. That was team feedback, not an analytics measurement.
+The guided workflow shipped. Our recollection was that customers could reach a working configuration in their first session. The squad's engineers estimated standard setups took roughly half the previous time. That was their estimate, not an analytics measurement.
 
 [pause — let them ask]

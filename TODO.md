@@ -76,6 +76,9 @@ Raised 2026-10-26 after the Perk DS rejection at CV review (zero interviews from
 
 ## Records hygiene
 
+- [ ] **General Figma index for Abacum and Remuner (raised 2026-11-09, not urgent).** Grow [evidence/abacum-figma-index.md](evidence/abacum-figma-index.md) into one index covering every Abacum and Remuner Figma file (DS, Engine/modeling, AI agent, Remuner product and archive), with page links and a "best images per story" table per case. Seed data: the three `evidence/figma-*-scope-2026-10-06.json` files. Add files as Manel connects them through the Desktop Bridge.
+- [ ] **Portfolio Dataset Manager case says "SQL".** [portfolio/public/cases/dataset-manager.html](portfolio/public/cases/dataset-manager.html) (lines 61, 94, 118-119) says the squad shipped SQL. Confirmed 2026-11-09: customers got SQL-like formulas. Fix the copy in the submodule, then update the pointer.
+
 - [ ] Applications sent before July 2026 have PDFs in `cv-pdf-to-send/` but no plain-text sources in `cv/roles/` or `cover-letters/roles/`. Decide: backfill from the PDFs (plus chat history around each send date), or accept the PDFs as the only record. Factorial IT spinoff was backfilled 2026-07-15.
 - [ ] Keep `application_channel`, `role_lane` and the first-contact date (in History) on every new record; the response-time analysis depends on them. Invite dates are missing for Spendesk and Secfix; applied dates for Secfix, Valeria, Tabby, Murphy, Deel Staff and Pilar. New conversations also need an entry in `FIRST_RESPONSE` and, when lost, `LOST_AT` in [scripts/analyze-response-times.py](scripts/analyze-response-times.py).
 - [ ] Start using Linear actively; it unblocks the deferred Linear application (see [applications/archive-2026-07.md](applications/archive-2026-07.md)).

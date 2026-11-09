@@ -34,7 +34,7 @@ If you have no matching incident: say so. For a hypothetical question, explain w
 - **Context:** Finance users depended on specialists and JSON configuration; autonomy was the goal.
 - **My responsibility:** Led design and customer testing.
 - **Actions / why:** Tested simpler UI plus SQL → users could express the logic in Excel but not SQL → took finding to Product and Engineering → team extended the familiar modeling language and guided configuration.
-- **Result:** Shipped. Customers could reach working configuration in their first session; implementation team recalled standard setup taking roughly half the previous time.
+- **Result:** Shipped. Customers could reach working configuration in their first session; the squad's engineers estimated standard setup took roughly half the previous time.
 
 **Evidence boundary:** Outcomes are recollection, not analytics. Do not say “I reduced time by 50%” or infer revenue, support-ticket reduction, or numeric user scale.
 **Likely probes:** What changed your mind? What did you personally do? How did you know it helped?
