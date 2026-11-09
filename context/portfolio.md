@@ -30,7 +30,7 @@ Education: Higher National Diploma in Computing Design and Multimedia from ESI (
 URL: /cases/modeling-syntax
 Status: Complete and live
 
-Summary: Standardised formula syntax across Abacum's modeling layer. The problem was identified with Julian (head of design). Ran competitor benchmark, synthesised GONG call evidence from the Swirldlabs call. Cross-squad ownership. Collaborated with Manuel C. (engineer) on syntax decisions. Unlocked the follow-on editor suggestions project.
+Summary: Standardised formula syntax across Abacum's modeling layer. The problem was identified with Julian (head of design). Ran competitor benchmark, synthesised GONG call evidence from the Swirldlabs call. Cross-squad ownership. Collaborated with Manuel C. (engineer) on syntax decisions. Unlocked the follow-on editor suggestions project, which shipped as the Dataset Manager formula builder's autocomplete (November 2023; confirmed 2026-11-09).
 
 Key decisions:
 - Identified the problem as systemic, not a surface UI issue
@@ -66,7 +66,7 @@ Signals:
 - Customer autonomy increased (qualitative, from the engineers' feedback)
 - Oriol's session: specific moments where the abstraction landed
 
-No hard metrics. Own this directly. The live case's characterizations (the Integrations engineers spending roughly half the time on standard configuration, CS requests dropping in the following quarters, first-session onboarding) are real recollections confirmed by Manel 2026-06-12, with no recoverable numbers behind them. Keep them framed as team reads and recollections, never as measured data.
+No hard metrics. Own this directly. The live case's characterizations (the Integrations engineers spending roughly half the time on standard configuration, CS requests dropping in the following quarters, first-session onboarding) are real recollections confirmed by Manel 2026-06-12, with no recoverable numbers behind them. The CS read came from Manel checking with customer support himself after release (reconfirmed 2026-11-09). Keep them framed as team reads and recollections, never as measured data.
 
 Internal reference (names never appear in live copy): Maria, Eduardo, Guillermo, Oriol (research participants). In live copy: "the most experienced user", "a research participant".
 

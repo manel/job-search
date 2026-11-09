@@ -1,140 +1,215 @@
 # Case Deck: Dataset Manager (Abacum)
 
+**Figma:** https://www.figma.com/slides/ufLGMlcTQvBxZrHT2dS1eh/Dataset-manager (v2 built 2026-11-09 in the top row; v1 kept below it, skipped). Image sources: [evidence/abacum-figma-index.md](../../evidence/abacum-figma-index.md).
 **Best for:** Product design roles, research that changed a direction, complex B2B configuration, cross-functional decisions, staged delivery.
-**Duration:** 10 to 12 minutes of walk-through, then the panel steers. 11 slides.
-**Figma:** "Dataset manager" (Slides), v2 built 2026-11-09; v1 kept as skipped slides. Image sources: [evidence/abacum-figma-index.md](../../evidence/abacum-figma-index.md).
-**Evidence:** [evidence/experience-facts.md](../../evidence/experience-facts.md), "Dataset Manager". Chronology and the time-saving attribution confirmed 2026-11-09.
-**Rules:** result first, one line of text per slide, images carry the content ([interviews/prep.md](../prep.md), "Rules for every case deck"; [context/brand.md](../../context/brand.md)).
+**Duration:** walk-through 10 to 12 minutes; leave the rest for questions. If time runs short, cut slides 3 (Framing) and 6 (Diagnosis) to one sentence each before touching the proof slides (5, 7, 8, 10).
+**Lead framing:** testing showed the product's language was the blocker, and I got Product and Engineering to change the language in two steps.
+**Effects:** slide 5 is a build: duplicate slides with identical layer names, Smart Animate 0.3s ease-out, one finding per click.
 
-Version history: v1 (October 2026) said "SQL shipped first" and credited the time saving to an implementation team. Both corrected in v2: customers got SQL-like formulas, and the estimate came from the Integrations engineers.
+Every claim is checked against [evidence/experience-facts.md](../../evidence/experience-facts.md) (Dataset Manager entries; chronology and the time-saving attribution confirmed 2026-11-09). Speaker notes are beats, not a script.
+
+Version history: v1 (October 2026) said "SQL shipped first" and credited the time saving to an implementation team. v2 corrects both: customers got SQL-like formulas, and the estimate came from the Integrations squad's engineers.
 
 ---
 
-## Slide 1: Cover
+## 1. Cover
 
 **Headline:** From JSON files to self-serve data setup
 **Sub:** Customers reached a working dataset in their first session
 **Small:** Dataset Manager · Abacum · 2022 to 2023
-**Visual:** Formula box with the formula library open (2309, Marketing asset), right half of the slide.
+**Visual:** formula box with the formula library open, right half.
 
-**Speaker notes:** Dataset Manager let finance teams at Abacum set up their own data. Before it, every change to a dataset went through an engineer. After it, customers reached a working configuration in their first session, and the squad's engineers estimated standard setup took about half the time. I was the designer on the Integrations squad and ran the design and customer testing from the first framing to the formula builder.
+**Notes:** Result first: customers set up their own datasets and reached a working configuration in their first session. The squad's engineers estimated standard setup took about half the time. My role: designer on the Integrations squad, design and customer testing.
 
 ---
 
-## Slide 2: Before
+## 2. Context
 
-**Label:** CONTEXT
+**Label:** Context
 **Headline:** Every dataset change went through an engineer
-**Visual:** The back-office JSON schema (2201 -> Manage), cropped large. One callout: "Edited by the squad's engineers for each customer."
+**Visual:** back-office JSON schema, cropped large. Caption: "The dataset definition, early 2022. The squad's engineers edited it by hand for each customer."
 
-**Speaker notes:** Abacum is a financial planning platform. Customers bring in data from their ERP or spreadsheets, and a dataset defines how that data becomes dimensions and measures in their models. In early 2022 that definition was a JSON file. Customers could not touch it, so the Integrations engineers configured every dataset by hand and every change waited in their queue.
+**Notes:** A dataset turns ERP or spreadsheet data into dimensions and measures. In early 2022 it was a JSON file customers couldn't touch.
 
 ---
 
-## Slide 3: Framing
+## 3. Framing
 
-**Label:** FRAMING
+**Label:** Framing
 **Headline:** Three jobs: set up, enrich, cleanse
-**Visual:** My four "How might we" notes (2201 -> Manage), with the line "Self-service means activation" pulled out.
+**Visual:** my four "How might we" notes, with "Self-service means activation" pulled out. Caption: "My notes, January 2022."
 
-**Speaker notes:** The request was a better interface for editing JSON. Before designing that, I broke the work into what users needed to do: set up a dataset and its columns, enrich it by typing columns and mapping them to dimensions, and cleanse it with transformations. I wrote "self-service means activation" next to it, because a customer who could not configure data could not get value from the product.
+**Notes:** The request was a better JSON editor. I framed the work around what users had to do instead.
 
 ---
 
-## Slide 4: Sequencing
+## 4. Sequencing
 
-**Label:** WHAT CAME FIRST
+**Label:** What came first
 **Headline:** Mapping now, transforming later
-**Visual:** The architecture board (2201 -> Manage): Mapping "Now", Transforming "Later", with characteristics and actions.
+**Visual:** architecture board (Mapping "Now", Transforming "Later") and the first-release scope list with items struck out.
 
-**Speaker notes:** Mapping happens on every dataset and in no fixed order. Transformations are sequential and were rarely used. So mapping came first, and transformations waited. With the PM I cut functions and some mapping cases from the first release; the struck-out list is still in the file. Leaving transformations for later was the biggest scope cut.
+**Notes:** Mapping happens on every dataset; transformations were sequential and rare. Biggest scope cut: transformations waited. The scope crop hides a colleague's name; check it before presenting.
 
 ---
 
-## Slide 5: Testing
+## 5. Testing (build: language, vocabulary, dependencies)
 
-**Label:** RESEARCH
+**Label:** Research
 **Headline:** Users could write the logic in Excel, not in SQL
-**Visual:** Early-flow screenshot (v1 slide 3), three findings revealed one at a time as pins: Language, Configuration, Dependencies.
+**Visual:** early-flow screenshot with three pins revealed one per click:
+- Language: all three described the logic with Excel functions. None could write it in SQL.
+- Vocabulary: they looked for dimensions and mappings. The screen showed schema properties.
+- Dependencies: they changed dimensions without seeing what used them.
+**Footer:** Three customers, real configuration tasks on the early flows.
 
-**Speaker notes:** I tested the early flows with three customers, doing real configuration tasks. All three could describe the transformation they needed with Excel functions. None could write it in SQL. The most experienced user, who had used Abacum for over a year, got stuck in the same places as the newer ones, so the gap was the language. Testing also showed users changing dimensions without seeing what depended on them.
+**Notes:** The most experienced user got stuck in the same places as the newer ones, so product experience didn't close the gap.
 
 ---
 
-## Slide 6: Diagnosis
+## 6. Diagnosis
 
-**Label:** DIAGNOSIS
+**Label:** Diagnosis
 **Headline:** Column settings in the words finance teams use
-**Visual:** Left: JSON keys (`dimensions`, `property`, `timescale`). Right: Column settings panel with "Column type: Dimension" and auto-map (2207). Four short vocabulary pairs between them.
+**Visual:** vocabulary map (exposed structure → guided configuration: schema configuration → dataset setup, nested properties → dimensions and mappings, raw format settings → column formats, transformation syntax → familiar formulas) next to the column settings screen.
 
-**Speaker notes:** Users thought in dimensions, mappings and date formats. The product asked for schema properties and data types. Column settings put those choices in their words: pick a column type, map it to a dimension, let auto-map fill the values.
+**Notes:** Answers the Vocabulary finding. Pick a column type, map it to a dimension, let auto-map fill the values.
 
 ---
 
-## Slide 7: Language decision
+## 7. Language decision
 
-**Label:** DECISION
+**Label:** Decision
 **Headline:** SQL-like formulas first, Abacum formulas next
-**Visual:** Two screens. Left: the 2022 transform panel with SQL-like steps (`JOIN RATIO FROM ... ON`, `'Global' if DEPARTMENT:NAME is ...`). Right: the formula builder with chips and the formula library (2023).
+**Visual:** 2022 transform field with SQL-like formulas; 2023 formula builder on Abacum formulas.
 
-**Speaker notes:** Engineering wanted to extend the SQL approach they already used in the back office. I argued for the formulas users knew from Abacum's modeling layer, using the test results. We agreed on a step in between: customers got a transform field with SQL-like formulas, because it was easier to build without revamping formulas. The formula builder on Abacum formulas replaced it, with syntax checks and autocomplete. The cost was that customers learned an interim syntax for a while.
+**Notes:** Engineering wanted to extend the back-office SQL approach; I argued for Abacum formulas with the test results. The interim step was easier to build without revamping formulas. Say "SQL-like formulas", never "SQL shipped".
 
 ---
 
-## Slide 8: Guardrails
+## 8. Guardrails
 
-**Label:** GUARDRAILS
+**Label:** Guardrails
 **Headline:** Show what a change will affect before saving
-**Visual:** The "Dimension 'Suppliers' used in" dialog, then the impact warning with "Accept impact on 3 table filters" (2207).
+**Visual:** "Where a dimension is used" dialog; "Accepting the impact before saving" warning.
 
-**Speaker notes:** Once customers could change their own data, a change could break models and tables they could not see. I designed the dependencies view: each column shows which datasets, modules and tables use its dimension, and a change that removes filters asks the user to accept the impact first.
+**Notes:** Answers the Dependencies finding. I designed the dependencies view. Whether the impact warning shipped is unknown; present it as the design.
 
 ---
 
-## Slide 9: Final product
+## 9. Final product
 
-**Label:** FINAL PRODUCT
+**Label:** Final product
 **Headline:** Creating a calculated column
-**Visual:** JSON thumbnail → shipped column builder (v1 slide 9 images), dark surface.
+**Visual:** JSON thumbnail ("Before: JSON") → shipped column builder.
 
-**Speaker notes:** A calculated column in the shipped builder: pick fields, write a formula users know from spreadsheets, check it before saving. Some advanced transformations stayed restricted.
+**Notes:** Pick fields, write a formula, check it before saving. Some advanced transformations stayed restricted.
 
 ---
 
-## Slide 10: Outcome
+## 10. Outcome
 
-**Label:** OUTCOME
+**Label:** Outcome
 **Headline:** Finance teams set up standard datasets themselves
-**Proof lines:**
-- Customers reached a working configuration in their first session
-- The squad's engineers estimated half the time on standard setup
-**Small:** No baseline was measured. Next time I would track completion without help from the start.
+**Proof lines:** Customers reached a working configuration in their first session (observed after release) · Standard setup took about half the previous time (estimate from the Integrations squad's engineers, not measured)
+**Next time:** Measure completion without engineering help from the first test, so the result is a number.
 
-**Speaker notes:** These are team reads. We had no instrumented baseline, so I can't give you a percentage. Customer support also reported fewer configuration requests in the following quarters. If I did it again I would measure completion without engineering help from the first test, so the result would be a number.
+**Notes:** Say there was no baseline before they ask.
 
 ---
 
-## Slide 11: Close
+## 11. Close
 
 **Headline:** What would be most useful to go deeper on?
+**Small:** The SQL decision · The testing · The dependencies design
 
-**Speaker notes:** Stop talking. If they hesitate, offer three options: the SQL decision, the testing, or the dependencies design.
+**Notes:** Stop talking.
+
+---
+
+## Speaker notes to paste into Figma
+
+The Figma plugin API can't write Slides speaker notes, so paste these by hand. Actions sit on their own line, starting with ▶ and in [brackets]. Don't read those lines aloud. "Figma N" is the slide's position in the v2 row (14 slides; the slide 5 build is four slides). Slide text checked against the file on 2026-11-09.
+
+**Figma 1 (Cover)**
+Dataset Manager let finance teams at Abacum set up their own data. After it shipped, customers reached a working configuration in their first session, and the squad's engineers estimated standard setup took about half the time it used to.
+I was the designer on the Integrations squad. I ran the design and the customer testing, from the first framing to the formula builder.
+
+**Figma 2 (Context)**
+Abacum is a financial planning platform. Customers bring in data from their ERP or spreadsheets, and a dataset defines how that data becomes dimensions and measures in their models.
+In early 2022 the dataset was a JSON file. Customers couldn't touch it, so the squad's engineers configured each one by hand, and every change waited in their queue.
+
+**Figma 3 (Framing)**
+The request was a better interface for editing JSON. Before designing that, I split the work into three jobs: set up a dataset and its columns, enrich it by typing columns and mapping them to dimensions, and cleanse it with transformations.
+I wrote "self-service means activation" next to them. A customer who couldn't configure their data couldn't get value from the product.
+▶ [Short on time: one sentence. "I framed it as three jobs: set up, enrich, cleanse."]
+
+**Figma 4 (What came first)**
+Every dataset needs mapping, in no fixed order. Transformations are sequential, and few customers used them. So mapping went first and transformations waited.
+With the PM I cut functions and some mapping cases from the first release. The struck-out list is still in the file. Transformations were the biggest cut.
+▶ [Never name the PM.]
+
+**Figma 5 (Research)**
+I tested the early flows with three customers doing real configuration tasks.
+▶ [Click.]
+
+**Figma 6**
+All three could describe the transformation they needed with Excel functions. None of them could write it in SQL.
+▶ [Click.]
+
+**Figma 7**
+They also looked for dimensions and mappings, and the screen showed them schema properties. The most experienced user got stuck in the same places as the newer ones, so the gap was in the product's language, and more time with the product wouldn't have closed it.
+▶ [Click.]
+
+**Figma 8**
+And they changed dimensions without seeing what depended on them.
+▶ [If asked about the sample size: see Q&A below.]
+
+**Figma 9 (Diagnosis)**
+Users thought in dimensions, mappings and date formats. The product asked for schema properties and data types. Column settings used their words: pick a column type, map it to a dimension, and auto-map fills the values.
+▶ [Short on time: one sentence.]
+
+**Figma 10 (Decision)**
+Engineering wanted to extend the SQL approach they already used in the back office. I argued for Abacum's own formulas, the ones users knew from the modeling layer, and brought the test results each time it came up.
+We agreed on a step in between. Customers first got a transform field with SQL-like formulas, because it was easier to build without revamping formulas. Then the formula builder replaced it, on Abacum formulas, with syntax checks and autocomplete. The cost was that customers learned an interim syntax for a while.
+▶ [Say "SQL-like formulas". Never say SQL shipped.]
+
+**Figma 11 (Guardrails)**
+Once customers could change their own data, one change could break models and tables they couldn't see. I designed the dependencies view: each column shows which datasets, modules and tables use its dimension.
+A change that removes filters asks the user to accept the impact before saving.
+▶ [If asked whether the warning shipped: I don't know. Present it as the design.]
+
+**Figma 12 (Final product)**
+This is a calculated column in the shipped builder. Pick the fields, write a formula like you would in a spreadsheet, and check it before saving. Some advanced transformations stayed restricted.
+
+**Figma 13 (Outcome)**
+Finance teams set up standard datasets themselves. After release, customers reached a working configuration in their first session. The squad's engineers estimated standard setup took about half the previous time.
+We had no baseline, so I can't give you a percentage. Next time I'd measure completion without engineering help from the first test, so the result would be a number.
+▶ [Say "no baseline" before they ask.]
+
+**Figma 14 (Close)**
+What would be most useful to go deeper on?
+▶ [Stop talking. If they hesitate, offer the three options on the slide: the SQL decision, the testing, the dependencies design.]
+
+---
+
+## Backup
+
+- **v1 row (skipped):** the October 2026 deck, kept until v2 is approved. Don't present it: it says SQL shipped.
+- **Dimension creation inside the dataset:** users left the dataset to create a missing dimension. I proposed creating and editing basic dimensions in place; customers then reported faster configuration and fewer errors. No slide; use it if they ask about friction in the flow.
 
 ---
 
 ## Q&A preparation
 
-**"What would you do differently?"**
-Measure from the start. With completion rate or time on task from the first sessions, the outcome would be a number and the next investment easier to justify.
+**"What would you do differently?"** Measure from the start. With completion rate or time on task from the first sessions, the outcome would be a number and the next investment easier to justify.
 
-**"Why ship SQL-like formulas if you disagreed?"**
-It let the squad give customers transformations months earlier, without rebuilding formulas first. I agreed to it as a step, with the formula builder as the destination, and the formula builder shipped.
+**"Why ship SQL-like formulas if you disagreed?"** It got transformations to customers months earlier without rebuilding formulas first. I agreed to it as a step, with the formula builder as the destination, and the formula builder shipped.
 
-**"Three sessions seems like a small sample."**
-The question was whether experience with the product closed the gap. The most experienced user hit the same blocks as the newer ones, so it did not. More sessions would only have added to the count.
+**"Three sessions seems like a small sample."** The question was whether experience with the product closed the gap. The most experienced user hit the same blocks as the newer ones, so it didn't. More sessions would have raised the count without changing the answer.
 
-**"Who else was involved and what was yours?"**
-The PM owned the business problem and scope with me. Engineers built it and shaped feasibility. Mine: the framing, the mapping-first sequencing, the customer tests, the case against SQL, column settings, the dependencies view and the formula builder design.
+**"Who else was involved and what was yours?"** The PM owned the business problem and scope with me. Engineers built it and shaped what was feasible. Mine: the framing, the mapping-first sequencing, the customer tests, the case against SQL, column settings, the dependencies view and the formula builder design.
 
-**"How did you get Product and Engineering to agree?"**
-By bringing the test findings back each time the direction came up, until the interim step and the formula builder were the plan.
+**"How did you get Product and Engineering to agree?"** I brought the test findings back each time the direction came up, until the interim step and the formula builder were the plan.
+
+**Don't claim:** that SQL shipped; that the impact warning shipped; a measured time saving or completion rate; "implementation team". Never name the PM or the research participants. The support line is claimable as a recollection: Manel checked with customer support himself after release (confirmed 2026-11-09).

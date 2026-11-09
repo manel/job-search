@@ -137,7 +137,7 @@ This is the evidence register, not finished application copy. Each material clai
 - **Class:** Confirmed direct user statement (client and project); team size and coaching are Manel's recollection.
 - **Source:** Manel, 2026-11-06, confirming the TA-call claim; TA-call transcript 2026-11-05.
 - **Verified:** 2026-11-06.
-- **External-use boundary:** Dates, Manel's exact role on the system (scope of tokens, components, documentation), tools, the platform, the number of engineers and any adoption outcome are not recorded. Use "helped vLex, a client, build its design system and coached its designers on using it"; give "about 15 designers" as approximate. Do not claim the system's later state or any metric. Live case copy never names clients; interviews can.
+- **External-use boundary:** Dates, Manel's exact role on the system (scope of tokens, components, documentation), tools, the platform, the number of engineers and any adoption outcome are not recorded. Use "helped vLex, a client, build its design system and coached its designers on using it"; give "about 15 designers" as approximate. Do not claim the system's later state or any metric. Live case copy never names clients; interviews can. Do not mention the vLex design-system work on the portfolio site (Manel, 2026-11-09).
 
 ## Remuner
 
@@ -507,6 +507,12 @@ This is the evidence register, not finished application copy. Each material clai
 - **Verified:** 2026-11-09.
 - **External-use boundary:** Whether the impact confirmation shipped as designed is not established.
 
+- **Claim:** Customer support reported fewer dataset-configuration requests after release. Manel checked with support himself to see how the release was going.
+- **Class:** Recollection; no recoverable counts.
+- **Source:** Manel, 2026-11-09 (reconfirming the 2026-06-12 account in [context/portfolio.md](../context/portfolio.md)).
+- **Verified:** 2026-11-09.
+- **External-use boundary:** Say "when I checked with customer support, they reported fewer requests". No figure, trend or period beyond "after release".
+
 ### Modeling language
 
 - **Claim:** Abacum's formulas had evolved across integrations and core modeling with a mixture of Excel conventions, SQL-style clauses, and custom syntax. Manel identified the inconsistency with the Head of Design, owned the customer-call synthesis, competitor benchmark, and audit of inconsistent functions, and collaborated with engineers on the resulting syntax direction.
@@ -523,6 +529,12 @@ This is the evidence register, not finished application copy. Each material clai
 - **Class:** Confirmed.
 - **Source:** [cv/cv-base.md](../cv/cv-base.md) at pre-merge commit `83bef9f`; current approved CV copy confirmed in the Career Strategy project chat.
 - **Verified:** 2026-09-10.
+
+- **Claim:** The Dataset Manager formula builder used the standardised formula language from the modeling-language work, and its autocomplete (November 2023, ACTS-1179) is the "contextual suggestions in the formula editor" follow-on named in the modeling-language case.
+- **Class:** Confirmed direct user statement; dates from `~/Dev/webapp`.
+- **Source:** Manel, 2026-11-09; code dates in [evidence/abacum-figma-index.md](abacum-figma-index.md).
+- **Verified:** 2026-11-09.
+- **External-use boundary:** Links the two cases. Adoption or usage of the suggestions is not established.
 
 ### Abax design system
 
