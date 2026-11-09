@@ -1,8 +1,8 @@
 # Applications archive (pre-September pipeline)
 
-Frozen on 2026-10-14 when career-os was merged into this repo. This is the old pipeline table from `context/applications.md`, last maintained 2026-08-25. **It is not the source of truth.** Current status lives in `records/` and the dashboard in `active.md`.
+Frozen on 2026-10-14 when career-os was merged into this repo. This is the old pipeline table from `context/applications.md`, last maintained 2026-08-25. **It is not the source of truth.** Current status lives in `records/` and the dashboard in [active.md](active.md).
 
-Keep it for what the records don't carry: the reasons behind June–July skips and deferrals, early warm paths, and ATS notes. Check it before assessing a company that was seen before. The status vocabulary and follow-up policy below are superseded by `README.md`.
+Keep it for what the records don't carry: the reasons behind June–July skips and deferrals, early warm paths, and ATS notes. Check it before assessing a company that was seen before. The status vocabulary and follow-up policy below are superseded by [README.md](README.md).
 
 Pipeline state as of 2026-07-02, with later edits through 2026-08-25.
 
@@ -22,10 +22,10 @@ Use these statuses everywhere (this file, /update-pipeline, /new-application):
 ## Follow-up policy
 
 - ~10 business days after applying with no response: send a short status nudge through the channel used to apply.
-- ~3 weeks with no response: find the hiring manager or a designer on the team on LinkedIn. Use `context/outreach.md`.
+- ~3 weeks with no response: find the hiring manager or a designer on the team on LinkedIn. Use [context/outreach.md](../context/outreach.md).
 - 5 weeks with no response: mark stale. Stop investing.
 - Record every follow-up action in the Next action column with its date.
-- Convention: the first date in a Next action cell is its due date. A SessionStart hook (`.claude/hooks/check-overdue.sh`) flags rows whose first date has passed, so lead with the due date and keep other dates out of that cell.
+- Convention: the first date in a Next action cell is its due date. A SessionStart hook ([.claude/hooks/check-overdue.sh](../.claude/hooks/check-overdue.sh)) flags rows whose first date has passed, so lead with the due date and keep other dates out of that cell.
 
 ---
 

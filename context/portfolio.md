@@ -1,7 +1,7 @@
 # Portfolio Context
 
 Portfolio live at: manel-leiva.com
-Stack: plain HTML and CSS served from `public/` on Vercel (Hobby tier), no build step or framework. Fully public, no password (confirmed 2026-06-12). Technical conventions (sidebar copied in every case file, branches, deploy) live in the portfolio repo's `CLAUDE.md`.
+Stack: plain HTML and CSS served from `public/` on Vercel (Hobby tier), no build step or framework. Fully public, no password (confirmed 2026-06-12). Technical conventions (sidebar copied in every case file, branches, deploy) live in the portfolio repo's [CLAUDE.md](../CLAUDE.md).
 Portfolio repo is linked as a git submodule at `../portfolio/` relative to this file.
 
 To update case study copy: edit files in the `portfolio/` submodule, commit there first, then update the submodule pointer in this repo.
@@ -175,7 +175,7 @@ Avatar, Avatar Group, Icon, Banner, Alert, Snackbar, Button (130 variants), Icon
 **Governance evidence in components:**
 - `DEPRECATED → Select` — entire page retained for the old Select component, explicitly named deprecated. Same mark-before-delete discipline as the ⛔ token pattern. Consistent across both layers.
 
-Internal reference (names never appear in live copy): Julian (head of design, Abacum, co-led DS business case). Raw intake material lives in `context/design-systems-notes.md`.
+Internal reference (names never appear in live copy): Julian (head of design, Abacum, co-led DS business case). Raw intake material lives in [context/design-systems-notes.md](design-systems-notes.md).
 
 ---
 
@@ -194,7 +194,7 @@ Corrected facts (2026-06-12, from Manel):
 URL: /cases/ai-agent
 Status: Live and linked (portfolio commits 2026-07-21: "Add AI agent case study, Remuner", "Wire AI agent case into navigation"; URL returns 200 on 2026-10-19). Earlier "DRAFTED" status superseded.
 
-Shipped, released to all customers before March 2026. Canonical description (from Manel, 2026-06-12, recorded in memory.md; corrected 2026-07-16, see `context/ai-agent-notes.md` Q5): ONE global chat surface inside the app, not tied to the section the rep was in, where sales reps consult their own data: ERP line items, aggregations by period, where to focus, understanding their sales plan and decisions based on it. There was no second embedded-AI surface; "embedded answers" means the answers themselves rendered as tailored structured content (tables, lists, formats specific to the question type). Manel owned the full UX/UI, conversation design (tone, answer formats), the design side of capability scoping, and trust/accuracy patterns. Remuner had no PM at the time; scoping decisions sat with the founders, engineering, and Manel (corrected 2026-07-15, see memory.md). Post-release feedback was mixed; he iterated on tone, response format, and per-customer terminology (the same object was a "deal", "contract", or "item" depending on the customer).
+Shipped, released to all customers before March 2026. Canonical description (from Manel, 2026-06-12, recorded in memory.md; corrected 2026-07-16, see [context/ai-agent-notes.md](ai-agent-notes.md) Q5): ONE global chat surface inside the app, not tied to the section the rep was in, where sales reps consult their own data: ERP line items, aggregations by period, where to focus, understanding their sales plan and decisions based on it. There was no second embedded-AI surface; "embedded answers" means the answers themselves rendered as tailored structured content (tables, lists, formats specific to the question type). Manel owned the full UX/UI, conversation design (tone, answer formats), the design side of capability scoping, and trust/accuracy patterns. Remuner had no PM at the time; scoping decisions sat with the founders, engineering, and Manel (corrected 2026-07-15, see memory.md). Post-release feedback was mixed; he iterated on tone, response format, and per-customer terminology (the same object was a "deal", "contract", or "item" depending on the customer).
 
 Managers confirmed as real users (Manel, 2026-07-06): most managers had a compensation plan of their own, and they could also query team info through the agent. "And managers" is safe in all copy.
 
@@ -233,7 +233,7 @@ Layout and visuals (from his CSS, 2026-10-26):
 - **Per-case colour theme** (one hue per case) for the title accent and a "next case" band at the bottom in the next case's colours.
 - **Home:** 5-column grid of every screen and clip across all cases, with a "show more" that shows the top of the next row.
 
-Compared with Manel's case pages (`portfolio/public/css/case.css`, 2026-10-26): images already run the full main column width, so size is not the main gap. The gaps are: 4–5 media per case against his 8–9; no video loops; captions at 12px and 55% opacity, which are effectively invisible; media interleaved with long prose in a 660px text column, so the page reads as an essay with pictures.
+Compared with Manel's case pages ([portfolio/public/css/case.css](../portfolio/public/css/case.css), 2026-10-26): images already run the full main column width, so size is not the main gap. The gaps are: 4–5 media per case against his 8–9; no video loops; captions at 12px and 55% opacity, which are effectively invisible; media interleaved with long prose in a 660px text column, so the page reads as an essay with pictures.
 
 What transfers to Manel (ranked by hiring impact):
 1. A captioned proof layer under each judgment narrative: recordings or stills with one-sentence captions that state behaviour + reason, using realistic domain data (finance for Abacum, sales compensation for Remuner).
@@ -254,7 +254,7 @@ Cases must show:
 
 ## Staff-level signals for written cases
 
-The master checklist lives in `interviews/prep.md` (Case presentation round → Staff-level signals checklist). That version is written for in-person deck presentation. Below is how each point adapts to written, async portfolio cases — where there are no speaker notes and no conversation to recover from.
+The master checklist lives in [interviews/prep.md](../interviews/prep.md) (Case presentation round → Staff-level signals checklist). That version is written for in-person deck presentation. Below is how each point adapts to written, async portfolio cases — where there are no speaker notes and no conversation to recover from.
 
 **1. Opening frame**
 The first paragraph of the case must signal ambiguity + leverage + strategic allocation — not domain or craft. A reader who skims only the opener should understand: this is about deciding where design investment creates the most leverage, not about shipping a deliverable. If the opener describes what was built, rewrite it to describe the decision context.

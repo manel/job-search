@@ -63,8 +63,8 @@ Senior IC. No years stated. It is under a design lead's art direction on brand s
 
 ## Materials
 
-- CV source: `cv/roles/flodesk-web-system-designer-brand.md` (prepared 2026-10-19)
-- Cover letter source: `cover-letters/roles/flodesk-web-system-designer-brand.md` (prepared 2026-10-19, 215 words)
+- CV source: [cv/roles/flodesk-web-system-designer-brand.md](../../cv/roles/flodesk-web-system-designer-brand.md) (prepared 2026-10-19)
+- Cover letter source: [cover-letters/roles/flodesk-web-system-designer-brand.md](../../cover-letters/roles/flodesk-web-system-designer-brand.md) (prepared 2026-10-19, 215 words)
 - Checked against the evidence register; no-ai-slop and humanizer applied. Not claimed: inheriting a system (Abax was a new system replacing MUI), brand toolkits, AI-generation schemas. Kymco modular content blocks used as the Studio-blocks parallel.
 
 ## History

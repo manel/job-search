@@ -152,8 +152,8 @@ Alan’s [compensation page](https://alan.com/en/careers/a/salary-equity) says a
 - First-interview brief: [Alan first interview](../../interviews/alan/alan-first-interview.md).
 - Reusable behavioral cue cards: [Battle cards](../../interviews/behavioral-battle-cards.md). Seven supported behavioral stories, including the shipped IC-dashboard vague-feedback example. Personal Alan motivation is recorded in the brief. Spoken rehearsal is not independently verified.
 
-- Tailored CV: `cv/roles/alan-product-designer.md`
-- Cover letter: `cover-letters/roles/alan-product-designer.md`
+- Tailored CV: [cv/roles/alan-product-designer.md](../../cv/roles/alan-product-designer.md)
+- Cover letter: [cover-letters/roles/alan-product-designer.md](../../cover-letters/roles/alan-product-designer.md)
 - Both were prepared as Markdown source for Figma. The direct application was confirmed submitted by Manel on 2026-10-01. The exact submitted files, PDF QA result, form answers, compensation answer, and receipt details have not been reconfirmed or archived.
 
 ## Sources
@@ -167,7 +167,7 @@ Alan’s [compensation page](https://alan.com/en/careers/a/salary-equity) says a
 
 - **Confirmed current role text:** Exact Ashby job description supplied by Manel on 2026-10-01.
 - **External research, verified 2026-10-01:** Alan's [official public Ashby job-board API](https://api.ashbyhq.com/posting-api/job-board/alan?includeCompensation=true) confirmed the exact job ID, title, Design & Research department, full-time employment, listed state, locations, publication timestamp of 2026-07-20, application URL, and absence of published compensation metadata.
-- **Confirmed internal evidence:** `evidence/experience-facts.md`, `context/positioning.md`, `context/target-roles.md`, and `context/pipeline-findings.md`.
+- **Confirmed internal evidence:** [evidence/experience-facts.md](../../evidence/experience-facts.md), [context/positioning.md](../../context/positioning.md), [context/target-roles.md](../../context/target-roles.md), and [context/pipeline-findings.md](../../context/pipeline-findings.md).
 
 ## History
 
@@ -188,6 +188,6 @@ Alan’s [compensation page](https://alan.com/en/careers/a/salary-equity) says a
 - 2026-10-14: Celine confirmed the live technical interview for Friday 2026-10-16 with Christelle Mozzati, answered the tools question (Figma default, any tool if announced, AI allowed with disclosure) and shared Alan's prep page. Technical brief rebuilt around the official criteria and the one-user-flow deliverable. Manel confirmed the time as 14:00–15:30 Europe/Madrid.
 - 2026-10-15: Researched the interviewer, Christelle Mozzati (Senior Product Designer at Alan since March 2022, Lyon, former PM, background in branding and craft), and refreshed Alan company context (Prosus round June 2026, Mo AI assistant, AI-assisted claims, Canada expansion). Added both to the technical brief as external research. Her current team at Alan is unknown.
 - 2026-10-16: Live technical interview completed with Christelle Mozzati (Manel's read: went well, unsure). Case: "Find the right therapist". Debrief recorded in the technical brief. Status remains interviewing; awaiting Celine's decision. Next action: check in with Celine on 2026-10-23 if nothing has arrived.
-- 2026-10-16: Manel sent Christelle a short reflection note on the "Exercise for today" thread, with Celine in copy. It acknowledged that discovery focused on prevention and awareness and missed the "Select a therapist" drop-off. Text: `outreach/alan-christelle-post-technical-2026-10-16.md`.
+- 2026-10-16: Manel sent Christelle a short reflection note on the "Exercise for today" thread, with Celine in copy. It acknowledged that discovery focused on prevention and awareness and missed the "Select a therapist" drop-off. Text: [outreach/alan-christelle-post-technical-2026-10-16.md](../../outreach/alan-christelle-post-technical-2026-10-16.md).
 - 2026-10-13: Manel confirmed sending the reply to Celine stating availability had been submitted and asking about tool requirements/restrictions. Awaiting appointment confirmation and employer clarification; exact submitted time windows remain unrecorded. Manel intends to practise in Figma with disclosed LLM support.
 - 2026-10-22: Rejected. Celine Brunel's email of 2026-10-21 17:43 closed the process after the live technical interview, with specific feedback: discovery structure and anticipating key user challenges needed significant guidance; more proactive simplification and time management needed. Strengths named: strategic awareness, honesty, coachability, adapting when the AI option was ruled out. Rejection class: specific. The feedback matches Manel's 2026-10-16 debrief and the synthesis-drift rule in memory.md. Optional reply to Celine; no follow-up owed.

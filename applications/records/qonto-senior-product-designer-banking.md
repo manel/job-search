@@ -51,7 +51,7 @@ Senior, confirmed by the title ("Senior Product Designer - Banking") and respons
 
 ## Warm path
 
-Christina Chen is the hiring manager and asked people to reach out. Send a short DM (why this role, one concrete evidence match, link to the Dataset Manager case) and apply on Lever the same day; do not wait for her reply before applying. Ask in the same DM whether the November freelance mission is open to someone in Spain, since income comes first. Freelance must clear roughly 25-30% above the employed value (`context/salary.md`). Ivan Sadovsky liked the post; if he is a real 1st-degree contact, ask him whether he knows Christina before or alongside the DM.
+Christina Chen is the hiring manager and asked people to reach out. Send a short DM (why this role, one concrete evidence match, link to the Dataset Manager case) and apply on Lever the same day; do not wait for her reply before applying. Ask in the same DM whether the November freelance mission is open to someone in Spain, since income comes first. Freelance must clear roughly 25-30% above the employed value ([context/salary.md](../../context/salary.md)). Ivan Sadovsky liked the post; if he is a real 1st-degree contact, ask him whether he knows Christina before or alongside the DM.
 
 ## Prior Qonto applications
 
@@ -60,12 +60,12 @@ Christina Chen is the hiring manager and asked people to reach out. Send a short
 
 ## Questions to resolve
 
-1. Barcelona gross base range (ask before giving a number; the 2026-10-20 floor in `context/salary.md` is never stated).
+1. Barcelona gross base range (ask before giving a number; the 2026-10-20 floor in [context/salary.md](../../context/salary.md) is never stated).
 2. Actual Barcelona onsite cadence.
 3. Freelance mission: rate, duration, Spain eligibility.
 
 ## History
 
 - 2026-10-23: Lead from Christina Chen's LinkedIn post (supplied by Manel). Exact Lever posting fetched and open. Assessed: Proceed, high priority. No outreach or application sent.
-- 2026-10-24: Application files drafted, not sent: `cv/roles/qonto-senior-product-designer-banking.md`, `application-answers/qonto-senior-product-designer-banking.md` (Lever form, fetched 2026-10-24; no cover-letter or salary field), `outreach/qonto-christina-chen-2026-10-24.md`. Posting now titled "Product Designer - Banking" on Lever; the body still says Senior.
+- 2026-10-24: Application files drafted, not sent: [cv/roles/qonto-senior-product-designer-banking.md](../../cv/roles/qonto-senior-product-designer-banking.md), [application-answers/qonto-senior-product-designer-banking.md](../../application-answers/qonto-senior-product-designer-banking.md) (Lever form, fetched 2026-10-24; no cover-letter or salary field), [outreach/qonto-christina-chen-2026-10-24.md](../../outreach/qonto-christina-chen-2026-10-24.md). Posting now titled "Product Designer - Banking" on Lever; the body still says Senior.
 - 2026-10-25: Manel found the application closed. Lever posting and /apply return 404; the Qonto Lever board lists no postings. qonto.com/en/careers now links to Ashby (jobs.ashbyhq.com/qonto, 41 jobs), with no design roles listed. Closed or not migrated; unknown which. Christina DM revised to ask whether the role or the freelance mission is still open. Not applied.

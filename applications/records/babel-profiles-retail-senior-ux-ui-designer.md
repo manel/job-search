@@ -54,7 +54,7 @@ Genuine Senior, leaning lead-IC: 8+ years required, ownership of UX/UI strategy 
 - **Conversion and retail KPIs:** the JD wants product KPIs, conversion funnels and UX-to-ROI links. Evidence is a recollection of conversion work and A/B testing at Kings of Mambo with no recoverable metrics, plus launched Kymco checkout flows. Do not claim conversion results.
 - **Mobile apps:** Remuner's iOS/Android apps are a webview wrapper, not native design. Present as shipped and live, not as native mobile expertise.
 - **Retail media:** no ad-tech or retail-media experience recorded.
-- **Agency channel and salary:** client undisclosed. Inference only, not confirmed: a European consumer electronics retailer with a Barcelona tech team may be MediaMarktSaturn. Ask the recruiter for the client and the range at first contact; follow `context/salary.md` before giving a number.
+- **Agency channel and salary:** client undisclosed. Inference only, not confirmed: a European consumer electronics retailer with a Barcelona tech team may be MediaMarktSaturn. Ask the recruiter for the client and the range at first contact; follow [context/salary.md](../../context/salary.md) before giving a number.
 
 ## Prior applications
 
@@ -67,7 +67,7 @@ None at Babel Profiles or an identifiable client in `applications/records/` or t
 
 - 2026-10-20: Babel's own LinkedIn post found (title "Senior UX/UI Designer (Retail)", reposted, over 100 applicants, Easy Apply, published range EUR 50-60K, hybrid). Same role and client description. Babel vacancy page rechecked: recruiter Mauro Parteli (mauro@babelprofiles.com, +34 931 222 232); official route is the "Apply now" Recruitly form.
 - 2026-10-20: Manel applied via Babel's Recruitly form with the base CV (`cv-pdf-to-send/Base/`). Languages: English Full Professional, Spanish and Catalan Native Level. Salary EUR 56,000-60,000 (inside the published band, below the earlier 60K comparator under income-first). Not applied via Hays or LinkedIn Easy Apply.
-- 2026-10-22: Rejected by template email from info@babelprofiles.com (15:31), two days after applying: "a lot of qualified applications", not proceeding; CV kept in their database for future roles. No candidate-specific feedback; client still undisclosed. Email to Mauro (`outreach/babel-mauro-parteli-2026-10-20.md`) not confirmed sent; now moot. Source: email supplied by Manel.
+- 2026-10-22: Rejected by template email from info@babelprofiles.com (15:31), two days after applying: "a lot of qualified applications", not proceeding; CV kept in their database for future roles. No candidate-specific feedback; client still undisclosed. Email to Mauro ([outreach/babel-mauro-parteli-2026-10-20.md](../../outreach/babel-mauro-parteli-2026-10-20.md)) not confirmed sent; now moot. Source: email supplied by Manel.
 
 ## Second channel: Hays
 

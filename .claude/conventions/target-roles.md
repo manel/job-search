@@ -1,6 +1,6 @@
 ## Target roles
 
-Canonical: `context/target-roles.md`. Read it before a fit call; it carries the current priority and the fit gate.
+Canonical: [context/target-roles.md](../../context/target-roles.md). Read it before a fit call; it carries the current priority and the fit gate.
 
 Senior Product Designer, Lead Product Designer (IC), Staff Product Designer, Design Systems Designer / Design System Engineer-adjacent IC roles.
 IC only. No design management.

@@ -174,7 +174,7 @@ Limits: extension of the existing modeling language, not a new one from scratch.
 
 ## Salary
 
-Unlikely in this round. If raised: compensation is tied to assessed level; ask which level they're considering and the matching Spain package. Don't give a number first. Floor guidance is in `context/salary.md` (the 60k gate was relaxed 2026-10-11; no new number set).
+Unlikely in this round. If raised: compensation is tied to assessed level; ask which level they're considering and the matching Spain package. Don't give a number first. Floor guidance is in [context/salary.md](../../context/salary.md) (the 60k gate was relaxed 2026-10-11; no new number set).
 
 ## Rehearsal plan
 
@@ -252,4 +252,4 @@ Christelle will talk to Celine, and Celine will send the decision. If Alan moves
 
 ### Outcome (2026-10-21)
 
-Rejected. Celine's email named strategic awareness (why now for Alan, business case, other countries), honesty about gaps, taking feedback well and adapting when the AI option was ruled out. The reasons given: discovery structure and anticipating key user challenges "required significant guidance", plus a need for more proactive simplification and time management. This matches the debrief above: the synthesis came from the vision paragraph, and Christelle's questions steered the session back to matching. Record: `applications/records/alan-product-designer.md`.
+Rejected. Celine's email named strategic awareness (why now for Alan, business case, other countries), honesty about gaps, taking feedback well and adapting when the AI option was ruled out. The reasons given: discovery structure and anticipating key user challenges "required significant guidance", plus a need for more proactive simplification and time management. This matches the debrief above: the synthesis came from the vision paragraph, and Christelle's questions steered the session back to matching. Record: [applications/records/alan-product-designer.md](../../applications/records/alan-product-designer.md).

@@ -2,7 +2,7 @@
 
 How to find and use warm paths, and how to follow up when applications go silent. Warm referrals convert better than cold applications; this file is the playbook the strategic rule points to.
 
-All messages obey `principles.md`. No em dashes, no performative enthusiasm, no banned vocabulary. An outreach message that reads generated gets ignored.
+All messages obey [principles.md](../principles.md). No em dashes, no performative enthusiasm, no banned vocabulary. An outreach message that reads generated gets ignored.
 
 ---
 
@@ -39,7 +39,7 @@ If they don't reply in a week: one follow-up, then drop it. Do not escalate to o
 
 ## Hiring manager outreach (the 3-week silent-application step)
 
-When an application has had no response for ~3 weeks (see follow-up policy in `applications/README.md`), find the most likely hiring manager or a senior designer on the team on LinkedIn.
+When an application has had no response for ~3 weeks (see follow-up policy in [applications/README.md](../applications/README.md)), find the most likely hiring manager or a senior designer on the team on LinkedIn.
 
 The message, short:
 - Applied for [role] on [date], still interested
@@ -57,4 +57,4 @@ Do not apologize for reaching out. Do not write more than five sentences. Do not
 
 ## Active warm paths
 
-Tracked per role in the `warm_path` field and contacts section of `applications/records/` (June–August paths are in the Warm paths section of `applications/archive-2026-07.md`). Keep the records current; this file holds the method, not the state.
+Tracked per role in the `warm_path` field and contacts section of `applications/records/` (June–August paths are in the Warm paths section of [applications/archive-2026-07.md](../applications/archive-2026-07.md)). Keep the records current; this file holds the method, not the state.

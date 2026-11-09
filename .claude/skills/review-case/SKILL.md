@@ -5,7 +5,7 @@ description: "Review a portfolio case study against the evaluation standard: pro
 
 # Review case study
 
-Reviews a case study in the live portfolio against the evaluation standard in `context/portfolio.md`.
+Reviews a case study in the live portfolio against the evaluation standard in [context/portfolio.md](../../../context/portfolio.md).
 
 ## Arguments
 
@@ -18,7 +18,7 @@ If no argument is given, review all four cases in sequence.
 ## What this skill does
 
 1. Read the HTML file at `portfolio/public/cases/[case-name].html`.
-2. Read the evaluation standard and case-specific signals from `context/portfolio.md`.
+2. Read the evaluation standard and case-specific signals from [context/portfolio.md](../../../context/portfolio.md).
 3. Score the case against the five criteria below.
 4. Run the three additional checks below.
 5. Report findings: what is working, what is weak, and quote the specific line or section that needs attention.

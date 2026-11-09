@@ -34,8 +34,8 @@ EUR 90,000 was prepared only if the application forced a single number. The pres
 
 ## Materials and records
 
-- Legacy tailored CV: `cv/roles/wayflyer-senior-staff-product-designer.md`
-- Legacy tailored cover letter and form answers: `cover-letters/roles/wayflyer-senior-staff-product-designer.md`
+- Legacy tailored CV: [cv/roles/wayflyer-senior-staff-product-designer.md](../../cv/roles/wayflyer-senior-staff-product-designer.md)
+- Legacy tailored cover letter and form answers: [cover-letters/roles/wayflyer-senior-staff-product-designer.md](../../cover-letters/roles/wayflyer-senior-staff-product-designer.md)
 - Legacy sent PDFs: `cv-pdf-to-send/Wayflyer/`
 
 ## History

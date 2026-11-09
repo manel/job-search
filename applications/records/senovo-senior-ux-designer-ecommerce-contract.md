@@ -30,7 +30,7 @@ source: LinkedIn post text pasted by Manel 2026-10-19 (posted about a week earli
 - 6+ years in B2C e-commerce or marketplaces, with a portfolio showing metric impact (CRO, conversion, retention).
 - Solid A/B testing (hypotheses, variants, measurement, analysis).
 
-Manel's evidence is Kings of Mambo studio e-commerce and a recollection of A/B work with no metrics. Under the 2026-10-19 rule (`context/target-roles.md`) e-commerce is not skipped on preference, and a contract is acceptable under income-first. The rate and the client identity decide whether it is worth anything, so ask before submitting.
+Manel's evidence is Kings of Mambo studio e-commerce and a recollection of A/B work with no metrics. Under the 2026-10-19 rule ([context/target-roles.md](../../context/target-roles.md)) e-commerce is not skipped on preference, and a contract is acceptable under income-first. The rate and the client identity decide whether it is worth anything, so ask before submitting.
 
 ## Fit assessment
 

@@ -34,7 +34,7 @@ mixing unverified leads into the application pipeline.
 
 ## Record a lead
 
-Add one row to `sourcing/role-leads.csv` with both URLs when available. Use the
+Add one row to [sourcing/role-leads.csv](../../../../sourcing/role-leads.csv) with both URLs when available. Use the
 official job ID or URL to distinguish similarly titled vacancies. Record
 `posting_status: open` only when the exact official posting was checked.
 

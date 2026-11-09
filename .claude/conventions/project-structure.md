@@ -53,6 +53,8 @@ Naming convention for sent PDFs: `cv-pdf-to-send/[Company]/Manel Leiva CV 2026.p
 
 Every sent PDF must have its plain-text source saved in `cv/roles/` or `cover-letters/roles/` before export. The sources are the record of what each company was told; without them, claims can't be checked when an interview comes weeks later. Known gap: applications sent before July 2026 have PDFs but no sources. When a company gets a second application, keep both sources and suffix the later one with its month (`-2026-09`).
 
-Any visual artifact (case decks, slides, CV layout, generated images) follows `context/brand.md`. Read it before producing visual output.
+Any visual artifact (case decks, slides, CV layout, generated images) follows [context/brand.md](../../context/brand.md). Read it before producing visual output.
+
+File references in Markdown are links, not code: write `[context/salary.md](../context/salary.md)`, with the path relative to the file being edited, so they open in Obsidian and on GitHub. Keep the repo path as the link text. Backticks stay for commands, code, field names, folders, and placeholder paths that don't exist (`applications/records/[company-role].md`). Sent material (`cv/`, `cover-letters/`, `application-answers/`, `outreach/`) is plain text for copy-paste and gets no links. Adopted 2026-11-09.
 
 ---

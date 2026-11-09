@@ -1,6 +1,6 @@
 # Equity
 
-How to read an option or ESOP grant, and Manel's existing grant. Moved from the pre-merge `context/salary.md` (commit `83bef9f`) on 2026-10-14.
+How to read an option or ESOP grant, and Manel's existing grant. Moved from the pre-merge [context/salary.md](salary.md) (commit `83bef9f`) on 2026-10-14.
 
 Use this to read any grant — Factorial ESOP, Abacum NSOs, future offers. Only the numbers change.
 

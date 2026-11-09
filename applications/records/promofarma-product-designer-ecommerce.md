@@ -30,7 +30,7 @@ rejection_reason_class: none
 
 **Applied 2026-10-16** through the PromoFarma careers site, on the Head of Product's recommendation. Same requisition (JR04654) that was reported closed on 2026-10-13; it is live again. Workday sent the automated acknowledgment at 09:53 the same day; no human response yet. Salary stated: EUR 38,000 gross per year for the 34-hour contract (basis confirmed by Manel); slightly above the HoP's rough EUR 35k estimate.
 
-Sent CV: `cv-pdf-to-send/Promopharma/Manel Leiva CV 2026.pdf` (exported 2026-10-13). Plain-text source reconstructed from the PDF in `cv/roles/promofarma-product-designer-ecommerce.md`. Cover letter: none recorded.
+Sent CV: `cv-pdf-to-send/Promopharma/Manel Leiva CV 2026.pdf` (exported 2026-10-13). Plain-text source reconstructed from the PDF in [cv/roles/promofarma-product-designer-ecommerce.md](../../cv/roles/promofarma-product-designer-ecommerce.md). Cover letter: none recorded.
 
 Interview risk: the CV summary says "shopping and checkout design and optimization". The evidence covers launched Kymco shopping and checkout flows, not measured conversion optimization. If asked, describe the Kymco work as it was; do not claim conversion results.
 

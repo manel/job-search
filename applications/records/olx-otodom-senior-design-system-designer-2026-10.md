@@ -26,7 +26,7 @@ source: OLX Lever API, both postings fetched 2026-10-19. Remote Spain a266bdf7 c
 
 ## Decision
 
-**Proceed, one application, medium priority.** This is the same Otodom design-system role that rejected Manel at CV review on 2026-08-04 (see `olx-otodom-senior-design-system-designer.md`). The original req is closed and the work has been re-posted twice. Reapplying needs materially changed evidence, and it exists:
+**Proceed, one application, medium priority.** This is the same Otodom design-system role that rejected Manel at CV review on 2026-08-04 (see [olx-otodom-senior-design-system-designer.md](olx-otodom-senior-design-system-designer.md)). The original req is closed and the work has been re-posted twice. Reapplying needs materially changed evidence, and it exists:
 - **Portfolio:** on 2026-07-23, the day after the July application, the design-system cases gained the contribution model, conflict resolution and prioritisation decisions. This JD explicitly asks for "running or contributing to a contribution model" and "resolve conflicts between a tribe's local need and the system's long-term coherence". The July CV screen never saw that material.
 - **CV:** reworked since July against the evidence register.
 - **Salary:** the July record shows EUR 85,000; the income-first rules now apply.
@@ -56,14 +56,14 @@ Senior. The body says "Senior Product Designer" on the design-system team. It is
 - **Second screen at the same team:** the hiring team may remember the July application. The letter should make the change visible without apologising.
 - **Concurrent OLX application:** Senior Product Designer (AI-native), applied 2026-10-13 and awaiting a response. Both can run, since the teams differ. Expect Talent Acquisition to see both; be consistent on salary and story.
 - **Two postings, one role:** applying to both looks like spraying. Pick one.
-- **"Built or coded prototypes":** AI-assisted, user-testable prototypes at Remuner qualify. Manel codes with AI help, not independently (`evidence/experience-facts.md`); say so plainly if asked.
+- **"Built or coded prototypes":** AI-assisted, user-testable prototypes at Remuner qualify. Manel codes with AI help, not independently ([evidence/experience-facts.md](../../evidence/experience-facts.md)); say so plainly if asked.
 - **AI sandbox challenge in the third stage:** prepare with the framing-drill material.
-- **Large-pool DS roles:** the search's fastest form rejections were DS-titled roles with the largest applicant pools (`memory.md`, 2026-07-02).
+- **Large-pool DS roles:** the search's fastest form rejections were DS-titled roles with the largest applicant pools ([memory.md](../../memory.md), 2026-07-02).
 
 ## Materials
 
-- CV source: `cv/roles/olx-otodom-senior-design-system-designer-2026-10.md` (prepared 2026-10-19; the July sources are unchanged)
-- Cover letter source: `cover-letters/roles/olx-otodom-senior-design-system-designer-2026-10.md` (prepared 2026-10-19, 231 words)
+- CV source: [cv/roles/olx-otodom-senior-design-system-designer-2026-10.md](../../cv/roles/olx-otodom-senior-design-system-designer-2026-10.md) (prepared 2026-10-19; the July sources are unchanged)
+- Cover letter source: [cover-letters/roles/olx-otodom-senior-design-system-designer-2026-10.md](../../cover-letters/roles/olx-otodom-senior-design-system-designer-2026-10.md) (prepared 2026-10-19, 231 words)
 - Lead: contribution split (Exploration file with [Experiment] prefix, canonical Implementation library after review), naming convention, read-only state, feature-flag migration, all from the live design-systems case. The letter does not mention the July application (Manel's choice); it points to the case for the decisions.
 
 ## History

@@ -131,7 +131,7 @@ The direct application was confirmed submitted by Manel on 2026-10-01. The exact
 - **External research, verified 2026-10-01:** [Exact official Kabilio posting](https://jobs.kabilio.es/jobs/7603770-senior-ux-ui-designer), including role scope, team, location, contract, requirements, process, and open state.
 - **Confirmed user-supplied evidence, 2026-10-01:** Full JD pasted by Manel; consistent with the official posting.
 - **Confirmed current portfolio, verified live 2026-10-01:** [Dataset Manager](https://www.manel-leiva.com/cases/dataset-manager), [Modeling language](https://www.manel-leiva.com/cases/modeling-syntax), and [Remuner AI agent](https://www.manel-leiva.com/cases/ai-agent).
-- **Confirmed internal evidence:** `context/positioning.md`, `context/target-roles.md`, `context/salary.md`, `context/pipeline-findings.md`, and `evidence/experience-facts.md`.
+- **Confirmed internal evidence:** [context/positioning.md](../../context/positioning.md), [context/target-roles.md](../../context/target-roles.md), [context/salary.md](../../context/salary.md), [context/pipeline-findings.md](../../context/pipeline-findings.md), and [evidence/experience-facts.md](../../evidence/experience-facts.md).
 
 ## History
 

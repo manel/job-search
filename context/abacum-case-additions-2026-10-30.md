@@ -1,7 +1,7 @@
 # Abacum design-system case: drafted changes (2026-10-30)
 
-Target file: `portfolio/public/cases/design-systems.html` (submodule: edit there, commit there, then update the pointer here; ask Manel before pushing, a push may deploy the live site).
-Status: APPLIED 2026-10-30 (portfolio commit f3d4c47, pushed). C placed after the issue-reporting paragraph; detach follow-up confirmed by Manel 2026-10-30. Facts from Manel's answers on 2026-10-30, recorded in `evidence/experience-facts.md` (Abax design system, Abax measurement). Run no-ai-slop and humanizer again after any edit.
+Target file: [portfolio/public/cases/design-systems.html](../portfolio/public/cases/design-systems.html) (submodule: edit there, commit there, then update the pointer here; ask Manel before pushing, a push may deploy the live site).
+Status: APPLIED 2026-10-30 (portfolio commit f3d4c47, pushed). C placed after the issue-reporting paragraph; detach follow-up confirmed by Manel 2026-10-30. Facts from Manel's answers on 2026-10-30, recorded in [evidence/experience-facts.md](../evidence/experience-facts.md) (Abax design system, Abax measurement). Run no-ai-slop and humanizer again after any edit.
 
 Limits from the register: no Figma figures, trends or detach counts (not recoverable); say "a script", not REST API or plugin; "likely detaches", since they were matched by name; never "80% of new UI" or "47% of new UI".
 

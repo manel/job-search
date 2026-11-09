@@ -26,7 +26,7 @@ source: Official Factorial careers page fetched 2026-10-19 (posted 2025-10-31)
 
 ## Decision
 
-**Skip.** Open since 2025-10-31: likely the evergreen req behind the May to July IT-spinoff process, which ended after the round-3 Senior-versus-Staff challenge. The current posting adds "Agentic AI Fluency… move seamlessly between the design and technical layers", plus prototyping with Claude and Cursor and implementing parts of solutions. Manel codes with AI help, not independently (`evidence/experience-facts.md`, 2026-10-19). Same process, higher technical bar, no changed evidence. If Factorial engages through the Founding role, any other opening can be raised there.
+**Skip.** Open since 2025-10-31: likely the evergreen req behind the May to July IT-spinoff process, which ended after the round-3 Senior-versus-Staff challenge. The current posting adds "Agentic AI Fluency… move seamlessly between the design and technical layers", plus prototyping with Claude and Cursor and implementing parts of solutions. Manel codes with AI help, not independently ([evidence/experience-facts.md](../../evidence/experience-facts.md), 2026-10-19). Same process, higher technical bar, no changed evidence. If Factorial engages through the Founding role, any other opening can be raised there.
 
 ## History
 

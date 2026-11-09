@@ -71,8 +71,8 @@ This is a useful retest of the design-systems lane. The earlier zero-conversatio
 
 ## Prepared materials
 
-- Tailored CV copy: `cv/roles/moniepoint-senior-product-designer-design-system.md`
-- Cover letter: `cover-letters/roles/moniepoint-senior-product-designer-design-system.md`
+- Tailored CV copy: [cv/roles/moniepoint-senior-product-designer-design-system.md](../../cv/roles/moniepoint-senior-product-designer-design-system.md)
+- Cover letter: [cover-letters/roles/moniepoint-senior-product-designer-design-system.md](../../cover-letters/roles/moniepoint-senior-product-designer-design-system.md)
 - The initial preparation generated Markdown only. A saved PDF was found during the 2026-09-23 audit, and Manel supplied the application receipt confirming submission on 2026-09-15.
 
 ## Sources
@@ -81,7 +81,7 @@ This is a useful retest of the design-systems lane. The earlier zero-conversatio
 - **External research, verified 2026-09-15:** [Official Moniepoint Senior Product Designer - Design System posting](https://job-boards.eu.greenhouse.io/moniepoint/jobs/4955355101), exact scope, remote-Spain eligibility, requirements, and open application form.
 - **External research, verified 2026-09-15:** [Official Moniepoint design vacancies](https://job-boards.eu.greenhouse.io/moniepoint?keyword=designer), showing this as a distinct vacancy from the Staff and Senior UX roles.
 - **Confirmed current portfolio, verified live 2026-09-15:** [Abacum design-system case](https://www.manel-leiva.com/cases/design-systems) and [Remuner design-system case](https://www.manel-leiva.com/cases/design-system-remuner).
-- **Confirmed internal evidence:** `evidence/experience-facts.md`.
+- **Confirmed internal evidence:** [evidence/experience-facts.md](../../evidence/experience-facts.md).
 
 ## History
 

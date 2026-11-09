@@ -25,8 +25,8 @@ Recruiters scan, they don't read. A CV gets seconds on first pass; a cover lette
 - Front-load the words the reader is scanning for: design systems, tokens, B2B, fintech, and the exact terms from the JD. They belong in first lines, not buried mid-paragraph.
 - Cut warm-up. Delete any sentence whose only job is setting up the next sentence.
 - Length caps (hard):
-  - CV summary: two sentences (see `context/writing-rules.md`).
-  - CV experience entry: a short scope paragraph, then 3 to 4 focused bullets (see `context/writing-rules.md`).
+  - CV summary: two sentences (see [context/writing-rules.md](context/writing-rules.md)).
+  - CV experience entry: a short scope paragraph, then 3 to 4 focused bullets (see [context/writing-rules.md](context/writing-rules.md)).
   - Cover letter: about 250 words maximum for the body. Greeting, three short paragraphs, a one-line close.
   - Outreach and follow-up messages: 80 words max. One ask per message.
 - The 10-second test before outputting: read only the first line of each entry or paragraph. If those lines alone don't make the case, restructure.
@@ -97,8 +97,8 @@ Run this before outputting any professional written content.
 ## Operating Rules
 
 - Any text that someone other than Manel will read runs through BOTH the `no-ai-slop` and `anthropic-skills:humanizer` skills before it is returned. That covers CVs, cover letters, outreach, follow-ups, replies to recruiters, application form answers, LinkedIn copy, case study and portfolio copy, interview decks, and teleprompter scripts. Invoke them via the Skill tool: `no-ai-slop` before drafting, `anthropic-skills:humanizer` on the draft before output. This is a default, not an opt-in. No exceptions for "quick" edits. Internal working files (records, notes, analysis, prep briefs) are exempt.
-- Whenever you are asked to write or edit prose, read `.claude/skills/no-ai-slop/SKILL.md` first.
-- Before returning any prose, self-check it against `.claude/skills/no-ai-slop/references/ai-writing-detection.md`. Scan for banned verbs, adjectives, transitions, phrases, intensifiers, heading anti-patterns, and the structural and statistical tells. Fix what you find.
+- Whenever you are asked to write or edit prose, read [.claude/skills/no-ai-slop/SKILL.md](.claude/skills/no-ai-slop/SKILL.md) first.
+- Before returning any prose, self-check it against [.claude/skills/no-ai-slop/references/ai-writing-detection.md](.claude/skills/no-ai-slop/references/ai-writing-detection.md). Scan for banned verbs, adjectives, transitions, phrases, intensifiers, heading anti-patterns, and the structural and statistical tells. Fix what you find.
 - Apply the rules to your own output too. This file, every skill, and every reply obeys the rules it states.
 
 ## NO AI SLOP RULES
@@ -155,14 +155,14 @@ These are non-negotiable. Violating any of them makes the output unusable.
 
 ## Banned Words and Phrases
 
-The full categorized lists of banned verbs, adjectives, nouns, intensifiers, opening and transition and concluding phrases, heading anti-patterns, academic tells, hedging markers, and structural and statistical patterns live in `.claude/skills/no-ai-slop/references/ai-writing-detection.md`. Self-check every piece of prose against that file before returning it. If a banned word or phrase appears in your output, the output fails.
+The full categorized lists of banned verbs, adjectives, nouns, intensifiers, opening and transition and concluding phrases, heading anti-patterns, academic tells, hedging markers, and structural and statistical patterns live in [.claude/skills/no-ai-slop/references/ai-writing-detection.md](.claude/skills/no-ai-slop/references/ai-writing-detection.md). Self-check every piece of prose against that file before returning it. If a banned word or phrase appears in your output, the output fails.
 
 
 ## Format rules by output type
 
 ### CV and cover letter
 
-Structure and format for CVs and cover letters live in `context/writing-rules.md` ("Tailored CV format" and "Cover letter format"). This file governs their voice and language. The body copy is plain text with no bold; the Markdown file only adds a short header for its source and date.
+Structure and format for CVs and cover letters live in [context/writing-rules.md](context/writing-rules.md) ("Tailored CV format" and "Cover letter format"). This file governs their voice and language. The body copy is plain text with no bold; the Markdown file only adds a short header for its source and date.
 
 ### Case study HTML
 - Section structure: h2 headline, lead paragraph with class="lead", body paragraphs, h3 subheadings for subsections.

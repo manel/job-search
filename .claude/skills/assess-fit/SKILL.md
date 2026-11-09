@@ -5,7 +5,7 @@ description: "Evaluate a role for fit before writing anything. Argument: paste t
 
 # Assess fit
 
-Read `context/target-roles.md` (fit gate and current priority), `context/positioning.md`, `evidence/experience-facts.md` and `memory.md` first. Check `applications/records/` and `applications/archive-2026-07.md` for prior applications or assessments at the same company.
+Read [context/target-roles.md](../../../context/target-roles.md) (fit gate and current priority), [context/positioning.md](../../../context/positioning.md), [evidence/experience-facts.md](../../../evidence/experience-facts.md) and [memory.md](../../../memory.md) first. Check `applications/records/` and [applications/archive-2026-07.md](../../../applications/archive-2026-07.md) for prior applications or assessments at the same company.
 
 Inputs: job description or reliable posting URL, company, role, and any known contact or prior application. Verify the exact posting on the official career page or ATS; a LinkedIn listing or search snippet is a lead, not evidence that the role is open.
 
@@ -25,10 +25,10 @@ Also:
 - **Level read:** verify the actual level from responsibilities and experience requirements; the title alone does not establish it.
 - **Proof case:** name the one portfolio case that proves the role's rarest requirement, and verify that it is live.
 - **Prior applications:** repeated screen-level rejections at the same company require materially changed evidence, a different role shape, or a credible warm path before reapplying.
-- **Warm path:** is there a plausible one, based on the records and `context/outreach.md`? Use it before or alongside the application; do not delay a ready application indefinitely.
+- **Warm path:** is there a plausible one, based on the records and [context/outreach.md](../../../context/outreach.md)? Use it before or alongside the application; do not delay a ready application indefinitely.
 
-Give one decision: Proceed / Defer / Skip. Follow with two or three sentences of honest rationale, the main risk, the level read and the proof case. Do not dress up a skip as a defer. Apply the skip rules in the fit gate of `context/target-roles.md`: under the current income-first priority a weak domain alone is not a skip, but explicit people management is.
+Give one decision: Proceed / Defer / Skip. Follow with two or three sentences of honest rationale, the main risk, the level read and the proof case. Do not dress up a skip as a defer. Apply the skip rules in the fit gate of [context/target-roles.md](../../../context/target-roles.md): under the current income-first priority a weak domain alone is not a skip, but explicit people management is.
 
-Record the outcome by creating or updating `applications/records/[company-role].md` using the frontmatter and status vocabulary in `applications/README.md` (`skipped`, `deferred` with the revisit condition, or `in-progress` for a Proceed). Then add or move the role in `applications/active.md`.
+Record the outcome by creating or updating `applications/records/[company-role].md` using the frontmatter and status vocabulary in [applications/README.md](../../../applications/README.md) (`skipped`, `deferred` with the revisit condition, or `in-progress` for a Proceed). Then add or move the role in [applications/active.md](../../../applications/active.md).
 
 Do not write any CV or cover letter copy. Assessment only.

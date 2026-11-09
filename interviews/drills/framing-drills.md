@@ -1,10 +1,10 @@
 # Framing drills
 
-Created 2026-10-16 after the Alan live case, where the synthesis came from the vision paragraph instead of the task and its data point. Rule in `memory.md` (2026-10-16).
+Created 2026-10-16 after the Alan live case, where the synthesis came from the vision paragraph instead of the task and its data point. Rule in [memory.md](../../memory.md) (2026-10-16).
 
 All briefs below are **made up for practice**. Each one is written in the shape of Alan's brief: a vision, instructions, research and data, tips. Each hides **one data point that defines the problem** among distractors: a mission paragraph, industry-wide statistics, a stakeholder's favourite solution, a vivid anecdote, or a big number that doesn't matter.
 
-Answer keys are in `framing-drills-keys.md`. Don't open them before you've done the drill.
+Answer keys are in [framing-drills-keys.md](framing-drills-keys.md). Don't open them before you've done the drill.
 
 ## How to run a drill (10 minutes, understanding only)
 

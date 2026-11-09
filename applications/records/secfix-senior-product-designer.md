@@ -30,7 +30,7 @@ Strong overlap in complex B2B products, systems thinking, engineering collaborat
 
 ## Materials and records
 
-- Legacy prep: `interviews/Secfix/secfix-round1.md`
+- Legacy prep: [interviews/Secfix/secfix-round1.md](../../interviews/Secfix/secfix-round1.md)
 - Legacy sent CV: `cv-pdf-to-send/Secfix/Manel Leiva CV 2026.pdf`
 
 ## History

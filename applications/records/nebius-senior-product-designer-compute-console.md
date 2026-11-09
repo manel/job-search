@@ -53,16 +53,16 @@ Domain screen: a pool of candidates with cloud-console or developer-tool backgro
 
 ## Prior applications and warm path
 
-No prior Nebius application or record (checked `applications/records/` and `applications/archive-2026-07.md`). No contact in `context/outreach.md`. Look for a Nebius Console designer or design manager on LinkedIn after applying.
+No prior Nebius application or record (checked `applications/records/` and [applications/archive-2026-07.md](../archive-2026-07.md)). No contact in [context/outreach.md](../../context/outreach.md). Look for a Nebius Console designer or design manager on LinkedIn after applying.
 
 ## Materials
 
-- CV source: `cv/roles/nebius-senior-product-designer-compute-console.md` (2026-10-28)
-- Cover letter source: `cover-letters/roles/nebius-senior-product-designer-compute-console.md` (2026-10-28)
+- CV source: [cv/roles/nebius-senior-product-designer-compute-console.md](../../cv/roles/nebius-senior-product-designer-compute-console.md) (2026-10-28)
+- Cover letter source: [cover-letters/roles/nebius-senior-product-designer-compute-console.md](../../cover-letters/roles/nebius-senior-product-designer-compute-console.md) (2026-10-28)
 - Sent 2026-10-28. PDFs as sent: `cv-pdf-to-send/Nebius/Manel Leiva CV 2026.pdf` and `Manel Leiva CL 2026.pdf`.
 
 ## History
 
 - 2026-10-28: Assessed from the official Greenhouse posting (updated 2026-10-26). Decision: proceed. No materials prepared.
-- 2026-10-28: CV and cover-letter sources drafted (Dataset Manager lead; Remuner admin and design-system support). Nebius added to `sourcing/remote-companies.csv` as a watched company.
+- 2026-10-28: CV and cover-letter sources drafted (Dataset Manager lead; Remuner admin and design-system support). Nebius added to [sourcing/remote-companies.csv](../../sourcing/remote-companies.csv) as a watched company.
 - 2026-10-28: Application submitted, confirmed by Manel. Follow-up: nudge 2026-11-11, LinkedIn outreach 2026-11-18, stale 2026-12-02.

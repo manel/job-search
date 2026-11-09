@@ -46,4 +46,4 @@ source: Ashby job board API, fetched 2026-10-19 (published 2025-11-13; remote EU
 
 ## History
 
-- 2026-10-19: Assessed from the Ashby posting. Manel confirmed his coding level (recorded in `evidence/experience-facts.md`). Skip.
+- 2026-10-19: Assessed from the Ashby posting. Manel confirmed his coding level (recorded in [evidence/experience-facts.md](../../evidence/experience-facts.md)). Skip.

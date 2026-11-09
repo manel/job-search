@@ -508,7 +508,7 @@ This section assumes a 30-45 minute format: walk us through a project, then Q&A.
 
 ### Story selection
 
-Lead with the case that matches the company's context. Use the same mapping from `context/positioning.md`:
+Lead with the case that matches the company's context. Use the same mapping from [context/positioning.md](../context/positioning.md):
 - DS-first roles: Remuner DS (CTO quote is the credibility anchor)
 - Product roles with DS: Abacum Dataset Manager
 - Fintech: Modeling Syntax
@@ -705,5 +705,5 @@ Before each interview:
 1. Read the JD again. Note the 2-3 things they care most about.
 2. Pick the story that maps to those 2-3 things.
 3. Answer "why this company specifically" honestly. If you can't, that's a signal.
-4. Check `context/salary.md` so you're not caught off guard on compensation.
+4. Check [context/salary.md](../context/salary.md) so you're not caught off guard on compensation.
 5. Prepare 2-3 questions based on what you actually want to know about them.

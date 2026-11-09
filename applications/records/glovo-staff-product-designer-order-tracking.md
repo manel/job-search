@@ -55,7 +55,7 @@ Staff title with a 5+ year bar. Probably Staff calibrated near senior-plus. Remu
 
 ## Related Glovo opening
 
-- Staff Product Designer (They/She/He), UX team, job 744000131697085 (published 2026-06-11): the same req skipped on 2026-07-22 (`applications/archive-2026-07.md`). Rechecked 2026-10-19: still requires deep iOS/Android/Web standards knowledge and a UX leadership-team seat. Still skip. See `glovo-staff-product-designer-ux.md`.
+- Staff Product Designer (They/She/He), UX team, job 744000131697085 (published 2026-06-11): the same req skipped on 2026-07-22 ([applications/archive-2026-07.md](../archive-2026-07.md)). Rechecked 2026-10-19: still requires deep iOS/Android/Web standards knowledge and a UX leadership-team seat. Still skip. See [glovo-staff-product-designer-ux.md](glovo-staff-product-designer-ux.md).
 
 ## History
 

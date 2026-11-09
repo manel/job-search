@@ -58,7 +58,7 @@ Biorce's JD already asked for a portfolio link as part of the application ("Port
 - Whether you're a self-starter who operates with minimal direction, comfortable with ambiguity. Listen for questions probing how you'd behave without a fully-specified brief.
 
 ### Lead story for this round
-Story C (Remuner AI agent), now at full depth using `interviews/decks/case-deck-ai-agent.md`. The deck's "restraint hero" framing (scoping the agent narrow under competitive pressure, defending that boundary, the custom-code blind spot as the real failure) is built for exactly this kind of walkthrough. Screen-share the live portfolio case page (manel-leiva.com/cases/ai-agent.html) rather than the deck file itself. It already has the real images (hero, formats, loop, reach diagrams) committed and deployed; the deck's own visual assets are still unfinished and aren't needed to use this story well in a conversational walkthrough.
+Story C (Remuner AI agent), now at full depth using [interviews/decks/case-deck-ai-agent.md](../decks/case-deck-ai-agent.md). The deck's "restraint hero" framing (scoping the agent narrow under competitive pressure, defending that boundary, the custom-code blind spot as the real failure) is built for exactly this kind of walkthrough. Screen-share the live portfolio case page (manel-leiva.com/cases/ai-agent.html) rather than the deck file itself. It already has the real images (hero, formats, loop, reach diagrams) committed and deployed; the deck's own visual assets are still unfinished and aren't needed to use this story well in a conversational walkthrough.
 
 Keep Story A (Dataset Manager) ready as the second, non-AI case per prep.md's own advice: if the conversation wants a second example, or wants to test product judgment outside the AI framing, this is the one that shows research-driven direction change and a defensible "no" to a stakeholder.
 
@@ -73,7 +73,7 @@ Keep Story A (Dataset Manager) ready as the second, non-AI case per prep.md's ow
 
 ### [NEEDS YOUR STORY] gaps this round could hit
 - Same accessibility/WCAG gap as Round 1: no documented evidence, don't claim it if a case walkthrough turns toward inclusive design specifics.
-- If this becomes a live challenge after all: read `interviews/prep.md`'s "Live design challenge" section before going in. Vision before scoping, the Factorial lesson. Don't default to validation-first framing.
+- If this becomes a live challenge after all: read [interviews/prep.md](../prep.md)'s "Live design challenge" section before going in. Vision before scoping, the Factorial lesson. Don't default to validation-first framing.
 - Q10 (disagreed with your manager) and Q17 (bad day at work) are still unfinished in prep.md; low risk for a portfolio walkthrough but worth having real answers before any round that goes deeper on culture fit.
 
 ### Questions to ask them
@@ -92,6 +92,6 @@ Same as Round 1: €78K, already stated on the application form. Hold at that nu
 
 No signal yet that this round exists at all. Flagged only because Manel expects a possible later live-challenge stage after the case presentation, not folded into Round 2's prep above.
 
-If it happens: read `interviews/prep.md`'s "Live design challenge" section in full before going in, not just skimmed. The core lesson, learned the hard way at the Factorial rejection (2026-07-02): vision before scoping. State what the product needs to be to win, in writing, before opening any design tool. Validation-first, scope-down-first framing reads as junior even when it's the operationally correct answer. Do the pre-challenge checklist in that section (write the vision answer first, make it visible on a labeled page, lead the presentation with it) rather than defaulting to the disciplined-scoping instinct that cost the round there.
+If it happens: read [interviews/prep.md](../prep.md)'s "Live design challenge" section in full before going in, not just skimmed. The core lesson, learned the hard way at the Factorial rejection (2026-07-02): vision before scoping. State what the product needs to be to win, in writing, before opening any design tool. Validation-first, scope-down-first framing reads as junior even when it's the operationally correct answer. Do the pre-challenge checklist in that section (write the vision answer first, make it visible on a labeled page, lead the presentation with it) rather than defaulting to the disciplined-scoping instinct that cost the round there.
 
 *Not worth further detail until there's an actual signal this round exists.*

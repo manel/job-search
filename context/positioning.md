@@ -33,7 +33,7 @@ Lead each CV role with this scope, then choose the evidence most relevant to the
 
 ## Target hiring manager
 
-Head of Design or VP Design at a B2B SaaS or fintech company, Series A-C or established. They have a design-systems gap or a complex product area that needs a senior IC who can work independently and cross-functionally. They are not hiring someone to manage a team. Under the current income-first priority (`context/target-roles.md`), this is the strongest-fit profile, not a filter.
+Head of Design or VP Design at a B2B SaaS or fintech company, Series A-C or established. They have a design-systems gap or a complex product area that needs a senior IC who can work independently and cross-functionally. They are not hiring someone to manage a team. Under the current income-first priority ([context/target-roles.md](target-roles.md)), this is the strongest-fit profile, not a filter.
 
 ## Risk to correct
 

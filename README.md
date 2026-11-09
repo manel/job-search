@@ -34,7 +34,7 @@ job-search/
 └── portfolio/                  ← Git submodule → portfolio repo (manel-leiva.com)
 ```
 
-The full annotated tree and the rules for each folder are in `.claude/conventions/project-structure.md` and `.claude/conventions/evidence-and-records.md`.
+The full annotated tree and the rules for each folder are in [.claude/conventions/project-structure.md](.claude/conventions/project-structure.md) and [.claude/conventions/evidence-and-records.md](.claude/conventions/evidence-and-records.md).
 
 ## Setup
 
@@ -95,15 +95,15 @@ python3 scripts/build-company-watchlist.py \
   --output sourcing/company-watchlist.csv
 ```
 
-Title and location filters live in `sourcing/scan/filters.json`. Seen postings are kept in `sourcing/scan/data/scan-history.tsv`, so a rerun only reports new ones. `sourcing/scan/portals.yml` is regenerated on every run; don't edit it by hand. A company is only scanned if its `careers_url` points at a supported job board (Greenhouse, Ashby, Lever, Teamtailor, Personio, Workable, SmartRecruiters, Recruitee and others). To add one, set `careers_url` and `career_platform` in `sourcing/company-overrides.csv` or `sourcing/remote-companies.csv`.
+Title and location filters live in [sourcing/scan/filters.json](sourcing/scan/filters.json). Seen postings are kept in [sourcing/scan/data/scan-history.tsv](sourcing/scan/data/scan-history.tsv), so a rerun only reports new ones. [sourcing/scan/portals.yml](sourcing/scan/portals.yml) is regenerated on every run; don't edit it by hand. A company is only scanned if its `careers_url` points at a supported job board (Greenhouse, Ashby, Lever, Teamtailor, Personio, Workable, SmartRecruiters, Recruitee and others). To add one, set `careers_url` and `career_platform` in [sourcing/company-overrides.csv](sourcing/company-overrides.csv) or [sourcing/remote-companies.csv](sourcing/remote-companies.csv).
 
 Don't run `npm run scan` (or the other career-ops npm scripts) inside the career-ops checkout for this search. Those read and write career-ops's own profile and tracker, not this repo.
 
-After a scan, run `/source-roles` or `/assess-fit` on the new rows in `role-leads.csv`. Details and the source-checking rule: `sourcing/README.md`.
+After a scan, run `/source-roles` or `/assess-fit` on the new rows in [role-leads.csv](sourcing/role-leads.csv). Details and the source-checking rule: [sourcing/README.md](sourcing/README.md).
 
 ## Working with Claude Code
 
-Open this directory in VS Code or the terminal. Run Claude Code here. It reads `CLAUDE.md` automatically. A SessionStart hook (`.claude/hooks/check-overdue.sh`) surfaces overdue `next_action_on` dates from the application records; it is registered in `.claude/settings.json`.
+Open this directory in VS Code or the terminal. Run Claude Code here. It reads [CLAUDE.md](CLAUDE.md) automatically. A SessionStart hook ([.claude/hooks/check-overdue.sh](.claude/hooks/check-overdue.sh)) surfaces overdue `next_action_on` dates from the application records; it is registered in [.claude/settings.json](.claude/settings.json).
 
 Slash commands (all in `.claude/skills/`):
 

@@ -6,7 +6,7 @@
 **Lead framing:** how a system nobody asked for got time, got adopted by squads that didn't report to us, and how we measured it honestly.
 **Effects:** build sequences copy the Remuner deck: duplicate slides with identical layer names, Smart Animate 0.3s ease-out. Elements fade in one step per click; on the last step earlier elements dim to 40%.
 
-Every claim is checked against `evidence/experience-facts.md` (Abax entries, 2026-11-06). Speaker notes are beats, not a script.
+Every claim is checked against [evidence/experience-facts.md](../../evidence/experience-facts.md) (Abax entries, 2026-11-06). Speaker notes are beats, not a script.
 
 ---
 
@@ -15,7 +15,7 @@ Every claim is checked against `evidence/experience-facts.md` (Abax entries, 202
 **Headline:** Why we built Abax across five product squads
 **Sub:** Abacum, 2022-2024 · B2B financial planning platform
 
-**Notes:** Result first (rule in `interviews/prep.md`, "Rules for every case deck"): With the head of design, I co-led Abax, a design system that all five product squads used. When I left, about 47% of the component uses we tracked in the code were Abax, against a goal of 80%. Then the context: Abacum is FP&A software for finance teams, and I joined on data integrations.
+**Notes:** Result first (rule in [interviews/prep.md](../prep.md), "Rules for every case deck"): With the head of design, I co-led Abax, a design system that all five product squads used. When I left, about 47% of the component uses we tracked in the code were Abax, against a goal of 80%. Then the context: Abacum is FP&A software for finance teams, and I joined on data integrations.
 
 ---
 

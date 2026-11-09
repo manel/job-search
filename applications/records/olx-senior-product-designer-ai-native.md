@@ -73,7 +73,7 @@ The live Lever form requires a CV, name, email, phone, current location, and con
 - **External research, verified 2026-10-02:** [Exact official OLX posting](https://jobs.eu.lever.co/olx/8d783669-ace0-409c-b003-b61087a4b69b), including title, Spain-remote location, responsibilities, requirements, contract, benefits, and hiring process.
 - **External research, verified 2026-10-02:** [Live OLX Lever application form](https://jobs.eu.lever.co/olx/8d783669-ace0-409c-b003-b61087a4b69b/apply), including required fields and Spain-location acknowledgment.
 - **Confirmed current portfolio, verified live 2026-10-02:** [AI Agent](https://www.manel-leiva.com/cases/ai-agent), [Abacum design system](https://www.manel-leiva.com/cases/design-systems), [Remuner design system](https://www.manel-leiva.com/cases/design-system-remuner), and [Dataset Manager](https://www.manel-leiva.com/cases/dataset-manager).
-- **Confirmed internal evidence:** `evidence/experience-facts.md`, `context/positioning.md`, `context/target-roles.md`, `context/pipeline-findings.md`, and `applications/records/olx-otodom-senior-design-system-designer.md`.
+- **Confirmed internal evidence:** [evidence/experience-facts.md](../../evidence/experience-facts.md), [context/positioning.md](../../context/positioning.md), [context/target-roles.md](../../context/target-roles.md), [context/pipeline-findings.md](../../context/pipeline-findings.md), and [applications/records/olx-otodom-senior-design-system-designer.md](olx-otodom-senior-design-system-designer.md).
 
 ## Prepared materials
 

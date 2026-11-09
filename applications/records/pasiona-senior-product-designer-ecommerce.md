@@ -26,7 +26,7 @@ source: Pasiona Personio XML feed, fetched 2026-10-19 (created 2026-09-03; Barce
 
 ## Decision
 
-**Proceed, minimal effort, lowest priority.** Under the 2026-10-19 rule in `context/target-roles.md`, e-commerce is not skipped on preference. But the minimum requirements exclude Manel's e-commerce profile in writing: direct experience at large B2C e-commerce companies, marketplaces, digital retail or large corporate brands, and "no buscamos perfiles cuya experiencia se limite exclusivamente a pequeños proyectos locales o startups de escala reducida". His e-commerce evidence is Kings of Mambo studio work for small clients; his product work is at scale-ups. Expected odds are very low, so the application gets the base CV and nothing more.
+**Proceed, minimal effort, lowest priority.** Under the 2026-10-19 rule in [context/target-roles.md](../../context/target-roles.md), e-commerce is not skipped on preference. But the minimum requirements exclude Manel's e-commerce profile in writing: direct experience at large B2C e-commerce companies, marketplaces, digital retail or large corporate brands, and "no buscamos perfiles cuya experiencia se limite exclusivamente a pequeños proyectos locales o startups de escala reducida". His e-commerce evidence is Kings of Mambo studio work for small clients; his product work is at scale-ups. Expected odds are very low, so the application gets the base CV and nothing more.
 
 ## Fit assessment
 

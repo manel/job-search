@@ -40,13 +40,13 @@ The minimum and target for Lead and Staff IC roles remain unconfirmed. Do not ex
 
 ## Employer band evidence
 
-- **Factorial (internal ladder, supplied by Factorial during the IT-spinoff process, logged 2026-06-25 and 2026-07-01):** Junior EUR 31-39K; Mid EUR 47-56K (+10% ESOP); Senior EUR 68-80K (+25% ESOP); Staff EUR 93-107K (+50% ESOP); Senior Staff EUR 120-136K, Principal EUR 150.5-180K and Distinguished EUR 200K (all +50% ESOP). ESOP is a percentage of total salary, vesting 4 years with a 1-year cliff. This is the only full band an employer has given Manel directly. Source: pre-merge `context/salary.md` at commit `83bef9f`.
+- **Factorial (internal ladder, supplied by Factorial during the IT-spinoff process, logged 2026-06-25 and 2026-07-01):** Junior EUR 31-39K; Mid EUR 47-56K (+10% ESOP); Senior EUR 68-80K (+25% ESOP); Staff EUR 93-107K (+50% ESOP); Senior Staff EUR 120-136K, Principal EUR 150.5-180K and Distinguished EUR 200K (all +50% ESOP). ESOP is a percentage of total salary, vesting 4 years with a 1-year cliff. This is the only full band an employer has given Manel directly. Source: pre-merge [context/salary.md](salary.md) at commit `83bef9f`.
 
-- **Wizeline (IT consultancy, Barcelona hybrid, stated by recruiter David Ho in the 2026-10-23 screen):** Level 4 (Senior) entry EUR 49K gross annual (David said it twice; confirmed by Manel 2026-10-23), described as fixed with no negotiation. Plus EUR 100/month hybrid allowance, EUR 220/month non-taxable meal and transport card, full medical insurance, home-office budget, certification support. Permanent employment contract. Wizeline's Design Systems Designer (Index) LinkedIn posting publishes EUR 36-38K. Source: record `applications/records/wizeline-senior-product-designer-barcelona-hybrid.md`.
+- **Wizeline (IT consultancy, Barcelona hybrid, stated by recruiter David Ho in the 2026-10-23 screen):** Level 4 (Senior) entry EUR 49K gross annual (David said it twice; confirmed by Manel 2026-10-23), described as fixed with no negotiation. Plus EUR 100/month hybrid allowance, EUR 220/month non-taxable meal and transport card, full medical insurance, home-office budget, certification support. Permanent employment contract. Wizeline's Design Systems Designer (Index) LinkedIn posting publishes EUR 36-38K. Source: record [applications/records/wizeline-senior-product-designer-barcelona-hybrid.md](../applications/records/wizeline-senior-product-designer-barcelona-hybrid.md).
 
-- **Enginy (AI sales startup, Barcelona on-site, stated by recruiter Saul Villa in the 2026-10-26 screen):** Senior Product Designer EUR 50-60K gross annual, with room to move inside the band, plus a 10% bonus tied to projects. Manel had stated EUR 62K on the form; after hearing the band he said it could work. Source: record `applications/records/enginy-product-designer.md`.
+- **Enginy (AI sales startup, Barcelona on-site, stated by recruiter Saul Villa in the 2026-10-26 screen):** Senior Product Designer EUR 50-60K gross annual, with room to move inside the band, plus a 10% bonus tied to projects. Manel had stated EUR 62K on the form; after hearing the band he said it could work. Source: record [applications/records/enginy-product-designer.md](../applications/records/enginy-product-designer.md).
 
-- **Perk (travel and spend SaaS, Barcelona hybrid, stated by TA partner Clare Watts in the 2026-11-05 screen):** Senior Design Systems Designer level "probably closer to seventy" (EUR 70K, gross annual base inferred), after checking internally, plus a benefits package and stock options. Not a full band. Manel had stated EUR 65,000 on the form; Clare said "we're in the right spot". Source: record `applications/records/perk-senior-design-systems-designer.md`.
+- **Perk (travel and spend SaaS, Barcelona hybrid, stated by TA partner Clare Watts in the 2026-11-05 screen):** Senior Design Systems Designer level "probably closer to seventy" (EUR 70K, gross annual base inferred), after checking internally, plus a benefits package and stock options. Not a full band. Manel had stated EUR 65,000 on the form; Clare said "we're in the right spot". Source: record [applications/records/perk-senior-design-systems-designer.md](../applications/records/perk-senior-design-systems-designer.md).
 
 ## External benchmarks
 
@@ -87,5 +87,5 @@ Reading this (inference): in Barcelona, Product Designers at 8-11 years earn abo
 
 From 2026-07-22 to 2026-10-11 the standing rule was conservative anchoring at a EUR 76-78K Senior floor, with per-role positions set before each application. The income-first update above replaced it. What was actually stated to each employer is recorded in the `salary_stated` field of each record in `applications/records/`. The full July file is at commit `83bef9f`.
 
-Equity mechanics and Manel's Abacum option grant are in `context/equity.md`.
+Equity mechanics and Manel's Abacum option grant are in [context/equity.md](equity.md).
 

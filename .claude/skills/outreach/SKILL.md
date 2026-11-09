@@ -20,8 +20,8 @@ If type is omitted, read the role's record in `applications/records/` to find it
 ## What this skill does
 
 1. Read the role's record in `applications/records/` for its status, applied date, next action, warm path, and any known contacts.
-2. Read `context/outreach.md` for the applicable message rules.
-3. Read `context/positioning.md` for the signal to lead with (DS roles vs. product roles have different leads).
+2. Read [context/outreach.md](../../../context/outreach.md) for the applicable message rules.
+3. Read [context/positioning.md](../../../context/positioning.md) for the signal to lead with (DS roles vs. product roles have different leads).
 4. Confirm the fit assessment exists in the record before writing anything. If the role hasn't been assessed, stop and run `/assess-fit` first.
 5. Ask for any information needed before drafting: who the contact is, how they know Manel, what their role is at the company.
 6. Draft the message.
@@ -69,7 +69,7 @@ Constraints:
 
 ## Writing rules
 
-Load and apply `principles.md` before drafting. Invoke the `no-ai-slop` skill before drafting and the `anthropic-skills:humanizer` skill on the draft before output. Mandatory, not opt-in.
+Load and apply [principles.md](../../../principles.md) before drafting. Invoke the `no-ai-slop` skill before drafting and the `anthropic-skills:humanizer` skill on the draft before output. Mandatory, not opt-in.
 
 - No em dashes
 - No banned vocabulary (insights, leverage, streamline, enable, journey, and the full list in principles.md)

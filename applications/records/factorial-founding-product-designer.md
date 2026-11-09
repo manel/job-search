@@ -51,14 +51,14 @@ Wide band (EUR 45-82K, levelled on Factorial's Career Path at the first conversa
 
 ## Risks
 
-- **Prior-process memory:** the July feedback was "stayed close to a manual, minimal solution". The live challenge must lead with vision, then scope (`memory.md` 2026-06-29 to 2026-07-01; framing drills in `interviews/drills/`).
+- **Prior-process memory:** the July feedback was "stayed close to a manual, minimal solution". The live challenge must lead with vision, then scope ([memory.md](../../memory.md) 2026-06-29 to 2026-07-01; framing drills in `interviews/drills/`).
 - **"€0 to €100M by 2030":** expect business-impact framing in every round.
 
 ## Related
 
-- `factorial-senior-staff-product-designer-it-spinoff.md` (rejected 2026-07-02, round 3)
-- `factorial-senior-product-designer-platform-domain.md` (rejected 2026-08-28)
-- `factorial-senior-staff-product-designer-271104.md` (skipped 2026-10-19)
+- [factorial-senior-staff-product-designer-it-spinoff.md](factorial-senior-staff-product-designer-it-spinoff.md) (rejected 2026-07-02, round 3)
+- [factorial-senior-product-designer-platform-domain.md](factorial-senior-product-designer-platform-domain.md) (rejected 2026-08-28)
+- [factorial-senior-staff-product-designer-271104.md](factorial-senior-staff-product-designer-271104.md) (skipped 2026-10-19)
 
 ## History
 

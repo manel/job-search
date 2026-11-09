@@ -88,15 +88,15 @@ An answer to `Why are you interested in joining Aios Medical?` is visible but no
 
 ## Prepared materials
 
-- Tailored CV source: `cv/roles/aios-product-designer.md`
-- Letter (for the optional "Why AIOS" field): `cover-letters/roles/aios-product-designer.md`
+- Tailored CV source: [cv/roles/aios-product-designer.md](../../cv/roles/aios-product-designer.md)
+- Letter (for the optional "Why AIOS" field): [cover-letters/roles/aios-product-designer.md](../../cover-letters/roles/aios-product-designer.md)
 - Sent PDFs: `cv-pdf-to-send/AIOS/` (CV and CL, exported by Manel). Mobile is shown only as the shipped webview app (iOS and Android, summer 2024); no native claim.
 
 ## Sources
 
 - **External research, verified 2026-10-02:** [Exact official AIOS Ashby posting and application form](https://jobs.ashbyhq.com/aios/781c4075-21bc-4c06-ba74-9c8f2a7a3cfc), confirming the open role, Spain eligibility, scope, responsibilities, requirements, employer-stated compensation, and application fields. Company growth and revenue statements are employer claims and were not independently verified for this fit assessment.
 - **Confirmed current portfolio, verified live 2026-10-02:** [Dataset Manager](https://www.manel-leiva.com/cases/dataset-manager), [Remuner AI agent](https://www.manel-leiva.com/cases/ai-agent), and [Abacum design system](https://www.manel-leiva.com/cases/design-systems).
-- **Confirmed internal evidence:** `context/positioning.md`, `context/target-roles.md`, `context/pipeline-findings.md`, `context/salary.md`, `evidence/experience-facts.md`, and the prior recorded boundary on responsive-web mobile delivery.
+- **Confirmed internal evidence:** [context/positioning.md](../../context/positioning.md), [context/target-roles.md](../../context/target-roles.md), [context/pipeline-findings.md](../../context/pipeline-findings.md), [context/salary.md](../../context/salary.md), [evidence/experience-facts.md](../../evidence/experience-facts.md), and the prior recorded boundary on responsive-web mobile delivery.
 
 ## History
 

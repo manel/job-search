@@ -31,7 +31,7 @@ source: Preply Ashby job board API, fetched 2026-10-19 (published 2026-10-05; sa
 - His strongest scope comes from being the sole designer at Remuner and part of a small team at Abacum, not from a mature design organisation.
 - His work is B2B web. The Remuner mobile app is a webview wrapper.
 
-The rest of the brief rewards exceptional visual and interaction craft on a consumer product, which is the role shape `context/target-roles.md` deprioritises. A weak domain alone would not be a skip. Here the core level-and-context requirement is unmet, so the application has a very low chance of passing screening. The effort is better spent on LearnWise, Wizeline and Markin.
+The rest of the brief rewards exceptional visual and interaction craft on a consumer product, which is the role shape [context/target-roles.md](../../context/target-roles.md) deprioritises. A weak domain alone would not be a skip. Here the core level-and-context requirement is unmet, so the application has a very low chance of passing screening. The effort is better spent on LearnWise, Wizeline and Markin.
 
 ## Fit assessment
 
@@ -46,13 +46,13 @@ The rest of the brief rewards exceptional visual and interaction craft on a cons
 
 ## Level read
 
-True Staff, calibrated against a mature consumer design organisation. Abacum roadmap work and Remuner product prioritisation show Staff-like scope (`context/positioning.md`), but not inside a mature design organisation or on consumer mobile.
+True Staff, calibrated against a mature consumer design organisation. Abacum roadmap work and Remuner product prioritisation show Staff-like scope ([context/positioning.md](../../context/positioning.md)), but not inside a mature design organisation or on consumer mobile.
 
 ## Other Preply openings checked
 
 - Staff Product Designer, London and New York (relocation): same role. Skip.
 - Senior Visual Designer, Barcelona and London (published 2026-10-19): visual-design role, outside the target. Not assessed further.
-- Global Senior CRM & Lifecycle Designer: skipped in September (see `preply-global-senior-crm-lifecycle-designer.md`).
+- Global Senior CRM & Lifecycle Designer: skipped in September (see [preply-global-senior-crm-lifecycle-designer.md](preply-global-senior-crm-lifecycle-designer.md)).
 
 ## History
 

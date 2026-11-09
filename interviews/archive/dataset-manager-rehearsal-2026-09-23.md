@@ -4,7 +4,7 @@ Recovered 2026-10-13 from worktree thread `01a0ce90-e645-7702-8aaa-d213686d968b`
 
 Two English practice answers were submitted and received assistant feedback. Their existence establishes that practice occurred; live spoken delivery, timing and improvement were not independently verified.
 
-The final historical token-file card overstates the later dependency cleanup. Manel clarified on 2026-09-30 that he checked required files manually for several days, followed by a required-file presence check while dependency cleanup remained pending. Use `evidence/experience-facts.md` and the current battle cards for that story. Dataset Manager chronology also retains the documented SQL conflict; do not use this transcript to resolve it.
+The final historical token-file card overstates the later dependency cleanup. Manel clarified on 2026-09-30 that he checked required files manually for several days, followed by a required-file presence check while dependency cleanup remained pending. Use [evidence/experience-facts.md](../../evidence/experience-facts.md) and the current battle cards for that story. Dataset Manager chronology also retains the documented SQL conflict; do not use this transcript to resolve it.
 
 ## 2026-09-23T14:00:03.098Z — assistant
 

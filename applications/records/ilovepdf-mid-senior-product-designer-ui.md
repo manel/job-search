@@ -41,7 +41,7 @@ source: JD text pasted by Manel from LinkedIn job 4470839365 on 2026-10-19. No o
 
 ## Level read
 
-Below Senior. "Mid-Senior", a four-year bar and a UI-execution brief point to a mid-to-senior band. Biorce rejected Manel as overqualified for an effectively mid-level role (`context/pipeline-findings.md`), so overqualification is a real screen risk here too. Ask the level and range early; the range is likely below Manel's earlier positioning, which the income-first priority accepts.
+Below Senior. "Mid-Senior", a four-year bar and a UI-execution brief point to a mid-to-senior band. Biorce rejected Manel as overqualified for an effectively mid-level role ([context/pipeline-findings.md](../../context/pipeline-findings.md)), so overqualification is a real screen risk here too. Ask the level and range early; the range is likely below Manel's earlier positioning, which the income-first priority accepts.
 
 ## Proof case
 
@@ -55,7 +55,7 @@ Below Senior. "Mid-Senior", a four-year bar and a UI-execution brief point to a 
 
 ## Prior applications
 
-None in `applications/records/` or `applications/archive-2026-07.md`.
+None in `applications/records/` or [applications/archive-2026-07.md](../archive-2026-07.md).
 
 ## History
 

@@ -26,7 +26,7 @@ source: Official Markin careers page fetched 2026-10-19 (Spanish version, applic
 
 ## Decision
 
-**Proceed.** Strong match on the work. You would design the surfaces where enterprise growth teams read signals, review hypotheses and approve actions proposed by agents. That means owning end-to-end flows across the platform and evolving the design system with front-end, in a data- and ML-heavy B2B product. The posting is on-site in Barcelona. Manel confirmed on 2026-10-19 that on-site Barcelona is acceptable. The constraint was updated in `context/target-roles.md`.
+**Proceed.** Strong match on the work. You would design the surfaces where enterprise growth teams read signals, review hypotheses and approve actions proposed by agents. That means owning end-to-end flows across the platform and evolving the design system with front-end, in a data- and ML-heavy B2B product. The posting is on-site in Barcelona. Manel confirmed on 2026-10-19 that on-site Barcelona is acceptable. The constraint was updated in [context/target-roles.md](../../context/target-roles.md).
 
 ## Fit assessment
 
@@ -49,7 +49,7 @@ Unclear. The title is unlevelled and the bar is 5+ years, but the ownership lang
 
 ## Risks and gaps
 
-- **Level and salary unknown:** no range is published. Follow `context/salary.md`.
+- **Level and salary unknown:** no range is published. Follow [context/salary.md](../../context/salary.md).
 - **Growth and experimentation domain:** Manel recalls conversion work and A/B testing at Kings of Mambo, with no metrics. Do not claim experimentation expertise.
 - **"Craft and restraint" portfolio bar:** they want editorial sensibility and "clarity over decoration". Lead with the cleanest cases.
 - **Company stage and size:** not checked. Look at funding and team size before an interview.
@@ -60,7 +60,7 @@ Fields: first and last name, email, phone, LinkedIn or portfolio link, current l
 
 ## Prior applications
 
-None in `applications/records/` or `applications/archive-2026-07.md`.
+None in `applications/records/` or [applications/archive-2026-07.md](../archive-2026-07.md).
 
 ## History
 

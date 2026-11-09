@@ -30,8 +30,8 @@ The role was assessed as a strong design-systems opportunity in a data-heavy dig
 
 ## Materials and records
 
-- Legacy tailored CV: `cv/roles/evinova-senior-uiux-designer-design-system.md`
-- Legacy tailored cover letter and form answers: `cover-letters/roles/evinova-senior-uiux-designer-design-system.md`
+- Legacy tailored CV: [cv/roles/evinova-senior-uiux-designer-design-system.md](../../cv/roles/evinova-senior-uiux-designer-design-system.md)
+- Legacy tailored cover letter and form answers: [cover-letters/roles/evinova-senior-uiux-designer-design-system.md](../../cover-letters/roles/evinova-senior-uiux-designer-design-system.md)
 - Legacy sent PDFs: `cv-pdf-to-send/Evinova/`
 
 ## History

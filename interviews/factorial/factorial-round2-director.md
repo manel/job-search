@@ -43,7 +43,7 @@ Her lens: judgment and influence, not craft. She knows what tokens are. Explaini
 Marta's round is 1 hour — long enough for a case walkthrough if she wants one. If asked:
 
 - Lead with Dataset Manager (Story A) — shows product judgment and research-driven direction change. Remuner DS is support, not the opener.
-- Before presenting any case, run the **Staff-level signals checklist** in `interviews/prep.md` (Case presentation round section). The checklist covers: opening frame, constraint framing, prioritisation as a section, showing restraint, PM-like behaviours, outcome buckets, closing meta-lesson, and metrics ownership.
+- Before presenting any case, run the **Staff-level signals checklist** in [interviews/prep.md](../prep.md) (Case presentation round section). The checklist covers: opening frame, constraint framing, prioritisation as a section, showing restraint, PM-like behaviours, outcome buckets, closing meta-lesson, and metrics ownership.
 - The Remuner DS deck has been updated with Staff signals. If she asks to see it, it's ready. If she asks about Dataset Manager, that deck has not been reviewed against the checklist yet — treat it as a verbal walkthrough only until reviewed.
 - Have the non-DS story ready for Q&A. Marta may probe product discovery or ambiguity navigation to check for range beyond DS. Story A (Dataset Manager) is that story.
 
@@ -57,7 +57,7 @@ Remuner DS already landed in Round 1. Don't repeat it as the opening. The Datase
 
 Use Remuner DS as support — particularly when the conversation moves to systems thinking or AI tooling.
 
-Opening intro (if asked to walk through background or tell me about yourself): use the two-part format in `prep.md` → "Opening intro" section. Who I am first, then work history. Keep each under 45 seconds.
+Opening intro (if asked to walk through background or tell me about yourself): use the two-part format in [prep.md](../prep.md) → "Opening intro" section. Who I am first, then work history. Keep each under 45 seconds.
 
 ---
 

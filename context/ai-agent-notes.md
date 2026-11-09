@@ -1,6 +1,6 @@
 # AI Agent case — raw intake
 
-Status: intake in progress (started 2026-07-14). This file collects the material for the Remuner AI agent case study. Once distilled, the summary moves to `context/portfolio.md` and the case ships as `portfolio/public/cases/ai-agent.html` (or similar). Same pattern as `design-systems-notes.md`.
+Status: intake in progress (started 2026-07-14). This file collects the material for the Remuner AI agent case study. Once distilled, the summary moves to [context/portfolio.md](portfolio.md) and the case ships as [portfolio/public/cases/ai-agent.html](../portfolio/public/cases/ai-agent.html) (or similar). Same pattern as [design-systems-notes.md](design-systems-notes.md).
 
 Strategic frame (2026-07-14): AI-assisted design and shipped AI product work are now named qualifications in target-segment JDs (memory.md 2026-07-10) and a standing interview thread (Factorial, two rounds). This case converts positioning differentiator #4 ("Shipped AI product work") from a bullet into evidence. The case is a judgment record about designing AI-mediated work: intent scoping, trust, error handling. It is NOT written in "future of design" manifesto language.
 

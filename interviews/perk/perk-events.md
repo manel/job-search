@@ -1,6 +1,6 @@
 # Perk (TravelPerk): Staff Product Designer - Events
 
-Record: `applications/records/perk-staff-product-designer-events.md`. Applied 2026-07-10 via Xavi Francisco's referral link. Rejected at CV review 2026-09-15; no interview took place, so the Round 1 brief below was never used. The live Suitcase process is in `perk.md`.
+Record: [applications/records/perk-staff-product-designer-events.md](../../applications/records/perk-staff-product-designer-events.md). Applied 2026-07-10 via Xavi Francisco's referral link. Rejected at CV review 2026-09-15; no interview took place, so the Round 1 brief below was never used. The live Suitcase process is in [perk.md](perk.md).
 
 ---
 

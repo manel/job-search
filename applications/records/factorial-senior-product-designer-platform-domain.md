@@ -28,8 +28,8 @@ This was a separate application after the earlier Factorial IT-spinoff process, 
 
 ## Materials and records
 
-- Legacy tailored CV: `cv/roles/factorial-senior-product-designer-platform-domain.md`
-- Legacy tailored cover letter and form answers: `cover-letters/roles/factorial-senior-product-designer-platform-domain.md`
+- Legacy tailored CV: [cv/roles/factorial-senior-product-designer-platform-domain.md](../../cv/roles/factorial-senior-product-designer-platform-domain.md)
+- Legacy tailored cover letter and form answers: [cover-letters/roles/factorial-senior-product-designer-platform-domain.md](../../cover-letters/roles/factorial-senior-product-designer-platform-domain.md)
 - Legacy sent CV: `cv-pdf-to-send/Factorial/Platform domain/Manel Leiva CV 2026.pdf`
 
 ## History

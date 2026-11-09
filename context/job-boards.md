@@ -45,7 +45,7 @@ Hand-curated DS, design-engineering and AI design roles, about 213 open on 2026-
 Aggregates Barcelona PD postings from company boards and LinkedIn: 29 jobs across 22 companies on 2026-11-04, three pages (`&page=2`, `&page=3`). Some cards show a salary range. Stale cards stay up for months (Joko and Wizeline cards 8-12 months old), so verify each on the official page. First check 2026-11-04: about half were already in the pipeline or leads; new were Spendesk Lead PD and KYC & AML, Dow Jones Principal PD (three), The Knot Lead PD and North Digital PD. Plain `curl` returns an empty page; fetch it with the web-fetch agent. Check weekly with LinkedIn.
 
 **pampam.city "Barcelona-based Startups in 2026"** (https://www.pampam.city/barcelonabased-startups-2026-tWHZs05VN9QrWqReqnOf)
-A fixed list of 34 Barcelona startups (>50 staff or >$5M raised), compiled by Enginy's CEO. Not a job board. Its companies missing from the Spanish dataset were added to `sourcing/remote-companies.csv` on 2026-11-04, so the scanner covers them. Recheck the list only if it is updated.
+A fixed list of 34 Barcelona startups (>50 staff or >$5M raised), compiled by Enginy's CEO. Not a job board. Its companies missing from the Spanish dataset were added to [sourcing/remote-companies.csv](../sourcing/remote-companies.csv) on 2026-11-04, so the scanner covers them. Recheck the list only if it is updated.
 
 ---
 
@@ -78,5 +78,5 @@ Known targets to check manually:
 
 ## What hasn't
 
-- career-ops automated scanning, used as a full tool (its own profile and search): results were low quality and low volume for Senior IC design roles. Discontinued in that form. Since 2026-10-14 its scanner runs as an engine only, through `scripts/scan-roles.py`, against this repo's company watchlist and filters (commands in `README.md`). First run, 2026-10-14: 30 companies with a supported job board, 1,587 postings, 6 new leads into `sourcing/role-leads.csv`. Not yet proven: no lead from the scanner has reached an application.
+- career-ops automated scanning, used as a full tool (its own profile and search): results were low quality and low volume for Senior IC design roles. Discontinued in that form. Since 2026-10-14 its scanner runs as an engine only, through [scripts/scan-roles.py](../scripts/scan-roles.py), against this repo's company watchlist and filters (commands in [README.md](../README.md)). First run, 2026-10-14: 30 companies with a supported job board, 1,587 postings, 6 new leads into [sourcing/role-leads.csv](../sourcing/role-leads.csv). Not yet proven: no lead from the scanner has reached an application.
 - thelastofsaas.es directory: swept in full 2026-07-13 (~110 companies, 5 pages). Overwhelmingly martech/e-commerce tooling (CRO, chatbots, email marketing); the domain-relevant cut was ~11 companies (SeQura, Ealyx, Pleo, PayFit, Metricool, Stripe, Adyen, Algolia, Sentry, Contentful, Hotjar) and none had a relevant opening on the day. Don't re-sweep the directory; the shortlist's careers pages can be spot-checked directly in future sourcing sessions if the pipeline is thin.

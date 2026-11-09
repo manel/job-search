@@ -1,6 +1,6 @@
 # Framing drills: answer keys
 
-Don't read before doing the drill. Briefs are in `framing-drills.md`. Each key is one reasonable answer, not the only one. A different signal can still score if it's argued from the brief's own data and the direction would move the metric.
+Don't read before doing the drill. Briefs are in [framing-drills.md](framing-drills.md). Each key is one reasonable answer, not the only one. A different signal can still score if it's argued from the brief's own data and the direction would move the metric.
 
 ---
 

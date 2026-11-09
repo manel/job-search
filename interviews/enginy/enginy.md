@@ -1,6 +1,6 @@
 # Enginy: Senior Product Designer
 
-Record: `applications/records/enginy-product-designer.md`. CV source: `cv/roles/enginy-product-designer.md`. Cover letter: `cover-letters/roles/enginy-product-designer.md` (what they were told: Remuner sole designer, AI agent, Codex token pipeline via reviewed PRs, CMS front ends, Dataset Manager).
+Record: [applications/records/enginy-product-designer.md](../../applications/records/enginy-product-designer.md). CV source: [cv/roles/enginy-product-designer.md](../../cv/roles/enginy-product-designer.md). Cover letter: [cover-letters/roles/enginy-product-designer.md](../../cover-letters/roles/enginy-product-designer.md) (what they were told: Remuner sole designer, AI agent, Codex token pipeline via reviewed PRs, CMS front ends, Dataset Manager).
 
 ## Round 1: Recruiter screen
 
@@ -19,7 +19,7 @@ Enginy is AI sales software that helps B2B sales teams find the right prospects,
 
 ### Scripted answers
 
-Drafted 2026-10-26 before the screen. Spoken versions; say them, don't read them. Backup if he asks about dense data workflows: Dataset Manager (`prep.md` Story A).
+Drafted 2026-10-26 before the screen. Spoken versions; say them, don't read them. Backup if he asks about dense data workflows: Dataset Manager ([prep.md](../prep.md) Story A).
 
 #### Q1. Walk me through your background
 
@@ -39,7 +39,7 @@ Don't mention React/TypeScript here; the "Do you code" answer covers it if asked
 
 #### Q2. Why did you leave Remuner?
 
-*`prep.md` "Priority zero", adjusted for Enginy; say it and stop*
+*[prep.md](../prep.md) "Priority zero", adjusted for Enginy; say it and stop*
 
 > We parted ways in March. Product direction at Remuner came from the top, and design input didn't always carry weight in those calls. That model works for some startups, but it's not where I do my best work, and by early 2026 both sides could see the fit wasn't there. On the work itself: the design system shipped to production, and the CTO said, unprompted, that the product had gone from looking like a 2010 app to a 2020 app. I'm proud of what got built.
 
@@ -57,7 +57,7 @@ Enginy change: "founder-driven" dropped, because Enginy's designers work directl
 
 #### Q3. Why Enginy?
 
-*`prep.md` Q11 framework: product problem, background match, why this role*
+*[prep.md](../prep.md) Q11 framework: product problem, background match, why this role*
 
 > On the product side, Enginy puts AI between a sales rep and the person they're writing to: the research, the reply drafts, the intent tags. The rep sends that under their own name, so the design problem is knowing when to trust it and when to check it. I worked on the same question at Remuner, where reps asked our AI agent about their own commissions.
 >
@@ -113,7 +113,7 @@ Evidence limits: the analytics changes are directional, seen in Remuner's intern
 >
 > In both cases the point was to ship faster with fewer one-off fixes, which matches how your posting describes the system.
 
-Don't repeat the AI pipeline and PR details if Q4 or Q5 already covered them; point back ("the PRs I mentioned"). Limits: co-led, never sole owner of Abax; the all-hands presentation sought buy-in, don't say it won it; no tool chain (Token Studio, Style Dictionary, ESLint) unless asked, and ESLint enforcement is recorded for Remuner, not Abax. `prep.md` Story B's "presented formally to engineering leadership" is not in the evidence register; don't use it.
+Don't repeat the AI pipeline and PR details if Q4 or Q5 already covered them; point back ("the PRs I mentioned"). Limits: co-led, never sole owner of Abax; the all-hands presentation sought buy-in, don't say it won it; no tool chain (Token Studio, Style Dictionary, ESLint) unless asked, and ESLint enforcement is recorded for Remuner, not Abax. [prep.md](../prep.md) Story B's "presented formally to engineering leadership" is not in the evidence register; don't use it.
 
 #### Q8. Are you OK working on-site?
 
@@ -155,12 +155,12 @@ Then, depending on the band:
 - **He won't share the band and asks you to confirm:** "62 is still my number, with some flexibility for the right package."
 - **Previous salary:** "I'm not sharing previous compensation, but I'm targeting 62 for this role based on scope and the market."
 
-Already stated: EUR 62,000 gross annual on the application form (2026-09-15); Enginy's range unknown. Saul came from N26, so expect a structured band. Never: previous salary, the private floor, any figure below 62, that you need income soon. Log the band, whether he asked, what you said and any feedback in the record (`context/salary.md` rule 5).
+Already stated: EUR 62,000 gross annual on the application form (2026-09-15); Enginy's range unknown. Saul came from N26, so expect a structured band. Never: previous salary, the private floor, any figure below 62, that you need income soon. Log the band, whether he asked, what you said and any feedback in the record ([context/salary.md](../../context/salary.md) rule 5).
 
 ### [NEEDS YOUR STORY] gaps this round could hit
 
-- **Disagreement with your manager (`prep.md` Q10):** no story in the library. Unlikely in a recruiter screen; if it comes up, use the "no SQL" call (Story A, `prep.md` Q3) instead of inventing one.
-- **Story E (Kings of Mambo incidents):** not fleshed out. The missed-deadline story (`prep.md` Q2) is the only ready one.
+- **Disagreement with your manager ([prep.md](../prep.md) Q10):** no story in the library. Unlikely in a recruiter screen; if it comes up, use the "no SQL" call (Story A, [prep.md](../prep.md) Q3) instead of inventing one.
+- **Story E (Kings of Mambo incidents):** not fleshed out. The missed-deadline story ([prep.md](../prep.md) Q2) is the only ready one.
 
 ### Questions to ask Saul
 

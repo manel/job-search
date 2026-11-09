@@ -3,8 +3,8 @@
 Open items that aren't tracked elsewhere. Rebuilt 2026-10-14 during the career-os merge; the July version (full search diagnosis and DS-case work log) is at commit `83bef9f`.
 
 Where else work is tracked:
-- **Pipeline and follow-ups:** `applications/active.md` and the `next_action_on` field of each record in `applications/records/`. A SessionStart hook surfaces overdue dates; don't duplicate them here.
-- **CV template, portfolio and interview-deck improvements:** `context/application-assets-rework.md`.
+- **Pipeline and follow-ups:** [applications/active.md](applications/active.md) and the `next_action_on` field of each record in `applications/records/`. A SessionStart hook surfaces overdue dates; don't duplicate them here.
+- **CV template, portfolio and interview-deck improvements:** [context/application-assets-rework.md](context/application-assets-rework.md).
 
 The hook also surfaces open items in "This week" at every session start. Keep it to current priorities and remove items when done.
 
@@ -12,21 +12,21 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 ## This week
 
-- [x] **Wizeline UX interview held 30 Oct.** Debrief in `interviews/wizeline/wizeline.md`. No whiteboard; the canvas sub-tasks are moot.
+- [x] **Wizeline UX interview held 30 Oct.** Debrief in [interviews/wizeline/wizeline.md](interviews/wizeline/wizeline.md). No whiteboard; the canvas sub-tasks are moot.
 - [x] **Wizeline UX interview passed 2 Nov** at Level 4 (David Ho email).
-- [ ] **Wizeline client interview Tue 10 Nov, 17:30-18:30.** Brief done 6 Nov (Round 3 in `interviews/wizeline/wizeline.md`; panel includes Forest Evashevski, Director, Experience Design, WSJ). Still to do before Tuesday:
-  - [x] "What I bring" (Figma 20) and "Thank you" (Figma 21) slides built 2026-11-07 after Handover; talk track and notes in `interviews/wizeline/ux-interview-deck.md`. Speaker notes pasted 2026-11-08, including slide 13b (Select anatomy, kept as the vector drawing, dissolve transition).
+- [ ] **Wizeline client interview Tue 10 Nov, 17:30-18:30.** Brief done 6 Nov (Round 3 in [interviews/wizeline/wizeline.md](interviews/wizeline/wizeline.md); panel includes Forest Evashevski, Director, Experience Design, WSJ). Still to do before Tuesday:
+  - [x] "What I bring" (Figma 20) and "Thank you" (Figma 21) slides built 2026-11-07 after Handover; talk track and notes in [interviews/wizeline/ux-interview-deck.md](interviews/wizeline/ux-interview-deck.md). Speaker notes pasted 2026-11-08, including slide 13b (Select anatomy, kept as the vector drawing, dissolve transition).
   - Rehearse "why WSJ" from the brief's anchors: "work on" or "contribute to" Index, not "manage"; one sentence on readers or surfaces; multi-brand follow-up ready.
   - Rehearse the outcome answer before Forest asks (10 of 18 screens, CTO quote, no product metric, what you'd measure now).
   - Optional: identify the opisnet.com organizer.
 
-- [x] **Remuner DS case additions: applied and pushed 2026-10-30 (portfolio 8c6ffdb).** Drafts in `context/remuner-case-additions-2026-10-20.md` (palette HSL normalisation and WCAG AA, own front-end PRs, Figma MCP with Storybook views, stack row). Manel to approve the wording and say whether a palette visual exists; then edit the case in `portfolio/`, commit there, update the pointer, and ask before pushing.
-- [x] **LinkedIn Abacum entry.** Abax outcome and MUI-to-Abax PR lines live 2026-11-07; Kings of Mambo title corrected to Co-founder. `context/linkedin.md` updated.
+- [x] **Remuner DS case additions: applied and pushed 2026-10-30 (portfolio 8c6ffdb).** Drafts in [context/remuner-case-additions-2026-10-20.md](context/remuner-case-additions-2026-10-20.md) (palette HSL normalisation and WCAG AA, own front-end PRs, Figma MCP with Storybook views, stack row). Manel to approve the wording and say whether a palette visual exists; then edit the case in `portfolio/`, commit there, update the pointer, and ask before pushing.
+- [x] **LinkedIn Abacum entry.** Abax outcome and MUI-to-Abax PR lines live 2026-11-07; Kings of Mambo title corrected to Co-founder. [context/linkedin.md](context/linkedin.md) updated.
 
 - [x] **Abacum front-end PRs in the Abax case.** Live 2026-11-07 (portfolio `0ec2eaf`): PR and Abax import-lint sentences in the migration paragraph; hex outcome bullet now says "fewer".
 
 - [x] **Push `portfolio/` and commit the pointer.** Pushed 2026-11-07 (portfolio `221911e`); pointer committed.
-- [ ] **Abacum deck v2 (Figma "Abacum DS", top row), before the Perk Depth of Expertise call.** Built 2026-11-06; source `interviews/decks/case-deck-design-systems-abacum.md`.
+- [ ] **Abacum deck v2 (Figma "Abacum DS", top row), before the Perk Depth of Expertise call.** Built 2026-11-06; source [interviews/decks/case-deck-design-systems-abacum.md](interviews/decks/case-deck-design-systems-abacum.md).
   - Play it once in presentation mode: the Smart Animate builds (slides 2, 3, 8, 9, 10, 12) are untested.
   - [x] Slide 6 Roadmap screenshot cropped 2026-11-08 (clip frame "Roadmap crop"): starts at "How to get there", Owner column removed. The paragraph text is cut at the right edge.
   - [x] Speaker notes for all 34 Figma slides pasted 2026-11-08. Re-paste slides 1, 9, 23, 29 and 32 after the humanizer pass (also Remuner slides 1 and 13b).
@@ -35,7 +35,7 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 - [ ] **Decide Stripe DS and Bunge.** Stripe Product Designer Design Systems: 36 days silent, posting open, past the 5-week stale line. Bunge: `applied` 104 days, posting status unknown; likely stale.
 - [ ] **Haddock review (due 3 Nov).** Posting still open on 3 Nov, process on hold since 9 Oct; the 12 Oct reply to Ingrid is unconfirmed as sent. Decide on a short follow-up.
-- [x] **Assess the 15 role leads from the 3 Nov scan** (done 2026-11-07, together with the 4 Nov manual leads: 6 proceed, 2 defer, 12 skip, 2 closed; see `applications/active.md`). New queue: 011h and the Spendesk message to Cyrièle by 9 Nov, Exoticca 10 Nov, Canonical DS 11 Nov, Fever and The Knot (base CV) 12 Nov.
+- [x] **Assess the 15 role leads from the 3 Nov scan** (done 2026-11-07, together with the 4 Nov manual leads: 6 proceed, 2 defer, 12 skip, 2 closed; see [applications/active.md](applications/active.md)). New queue: 011h and the Spendesk message to Cyrièle by 9 Nov, Exoticca 10 Nov, Canonical DS 11 Nov, Fever and The Knot (base CV) 12 Nov.
 
 - [ ] **Senovo questions to Menna** and the overdue follow-ups (`/follow-up`). Babel email to Mauro dropped: Babel rejected 2026-10-22.
 
@@ -45,18 +45,18 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 - [ ] **Portfolio PDF (5-8 pages)** for upload-only portfolio fields (Flodesk's Greenhouse form accepted only a file, 2026-10-19). Key visuals from the design-systems, Remuner system, Dataset Manager and AI agent cases, each with a clickable link; add Kymco modular blocks or other studio web work if presentable (web-craft roles). Reusable across applications. For Flodesk, a one-page case-card PDF was used as a stopgap.
 
-- [ ] Add Figma MCP use to the Remuner design-system case: one umbrella line (Manel does not want the full list), covering token sync with code, accessibility and parity checks, and documentation, mostly at Remuner. Examples recorded in `evidence/experience-facts.md` on 2026-10-20 (palette HSL normalisation and AA contrast, shipped via the tokens repo; component parity; Storybook views and docs; hardcoded-colour PRs). Full list in `evidence/experience-facts.md` (2026-10-19).
+- [ ] Add Figma MCP use to the Remuner design-system case: one umbrella line (Manel does not want the full list), covering token sync with code, accessibility and parity checks, and documentation, mostly at Remuner. Examples recorded in [evidence/experience-facts.md](evidence/experience-facts.md) on 2026-10-20 (palette HSL normalisation and AA contrast, shipped via the tokens repo; component parity; Storybook views and docs; hardcoded-colour PRs). Full list in [evidence/experience-facts.md](evidence/experience-facts.md) (2026-10-19).
 
-- [ ] **Case visual rework, modelled on spidleweb.net (raised 2026-10-26).** Reference and analysis in `context/portfolio.md` ("Reference portfolios"). Goal: each case gets a proof layer of 8 or so large figures, mostly looping recordings, each with a readable one-sentence caption (behaviour plus reason, realistic domain data). Keep the judgment narrative; the media supplements it. Pilot on one case before touching the rest.
+- [ ] **Case visual rework, modelled on spidleweb.net (raised 2026-10-26).** Reference and analysis in [context/portfolio.md](context/portfolio.md) ("Reference portfolios"). Goal: each case gets a proof layer of 8 or so large figures, mostly looping recordings, each with a readable one-sentence caption (behaviour plus reason, realistic domain data). Keep the judgment narrative; the media supplements it. Pilot on one case before touching the rest.
   - [ ] Pilot case: Dataset Manager. Run the Abacum front end locally with seeded fake finance data (Manel has the Figma files and FE/BE code); list the 8 flows worth recording.
   - [ ] Record the clips (muted loop, poster frame). No real customer data in any frame; screens only, never code.
   - [ ] Write the captions; run `no-ai-slop` and `anthropic-skills:humanizer`. Add a user-terms subtitle ("Finance teams can…") and a one-line note that the data is illustrative.
-  - [ ] Layout in `portfolio/public/css/case.css`: captions from 12px at 55% opacity to body size; media column uninterrupted by long prose; check against `context/brand.md` first.
+  - [ ] Layout in [portfolio/public/css/case.css](portfolio/public/css/case.css): captions from 12px at 55% opacity to body size; media column uninterrupted by long prose; check against [context/brand.md](context/brand.md) first.
   - [ ] Review the pilot with `/review-case dataset-manager`, then decide on Modeling Syntax, AI agent and the two DS cases (the Storybook recording already covers part of the DS proof).
 
-- [ ] **Outcome up front in every case (raised 2026-11-05, from a hiring-manager LinkedIn post on Senior and Staff portfolios).** Outcomes now sit at the end or mid-case with no heading: in `ai-agent.html` the reach line is the last lead paragraph; in `design-systems.html` the ~47% figure sits inside "Building the case". Add a short fact line under each case title (role, scope, outcome) using only figures already in `context/portfolio.md` and `evidence/experience-facts.md`; no rewrite of the narrative. Cases: the five linked ones (Reps Letter stays hidden).
+- [ ] **Outcome up front in every case (raised 2026-11-05, from a hiring-manager LinkedIn post on Senior and Staff portfolios).** Outcomes now sit at the end or mid-case with no heading: in `ai-agent.html` the reach line is the last lead paragraph; in `design-systems.html` the ~47% figure sits inside "Building the case". Add a short fact line under each case title (role, scope, outcome) using only figures already in [context/portfolio.md](context/portfolio.md) and [evidence/experience-facts.md](evidence/experience-facts.md); no rewrite of the narrative. Cases: the five linked ones (Reps Letter stays hidden).
 
-- [ ] **Reflection close in every case (raised 2026-11-05, same source).** No case has a reflection or lesson heading, against Staff checklist point 7 in `context/portfolio.md` (closing meta-lesson naming the trade-off). First check whether each case's closing paragraph already carries one; add a short closing section only where it doesn't. Run `no-ai-slop` and `anthropic-skills:humanizer` on any new copy. Related: the two DS cases run about 1,950 and 2,000 words; consider trimming in the same pass.
+- [ ] **Reflection close in every case (raised 2026-11-05, same source).** No case has a reflection or lesson heading, against Staff checklist point 7 in [context/portfolio.md](context/portfolio.md) (closing meta-lesson naming the trade-off). First check whether each case's closing paragraph already carries one; add a short closing section only where it doesn't. Run `no-ai-slop` and `anthropic-skills:humanizer` on any new copy. Related: the two DS cases run about 1,950 and 2,000 words; consider trimming in the same pass.
 
 ## Design-systems lane review
 
@@ -64,21 +64,21 @@ Raised 2026-10-26 after the Perk DS rejection at CV review (zero interviews from
 
 - [ ] **DS reads as secondary on the CV.** Both titles are Senior Product Designer and the Abacum entry opens on Integrations and Engine. Reorder bullets in the DS CV so system work leads; keep the scope paragraphs.
 - [ ] **Accessibility nearly absent.** Add the Remuner palette line (HSL normalisation, in-use colours to WCAG AA) once the case-additions draft is approved. Keyboard and screen-reader work stays unclaimed.
-- [ ] **No visual foundations evidence.** The CV is all architecture and tooling. Check what else is claimable (type scale, iconography, motion) in `evidence/experience-facts.md`; ask Manel, don't invent.
-- [ ] **Scale and native mobile.** Largest system served five squads; mobile is the Remuner webview. Not fixable by writing: decide whether to keep applying to large multi-platform DS teams (Perk, OLX, Bitpanda, Hostaway shape) or retarget to web-first B2B SaaS where one senior PD builds and runs the system. Record the decision in `context/target-roles.md`.
+- [ ] **No visual foundations evidence.** The CV is all architecture and tooling. Check what else is claimable (type scale, iconography, motion) in [evidence/experience-facts.md](evidence/experience-facts.md); ask Manel, don't invent.
+- [ ] **Scale and native mobile.** Largest system served five squads; mobile is the Remuner webview. Not fixable by writing: decide whether to keep applying to large multi-platform DS teams (Perk, OLX, Bitpanda, Hostaway shape) or retarget to web-first B2B SaaS where one senior PD builds and runs the system. Record the decision in [context/target-roles.md](context/target-roles.md).
 - [ ] **Smaller factors to check:** the visible gap since March 2026; React expectations in DS JDs (production React not claimable).
-- [ ] **Real signal:** Perk reopened 2026-11-02 (TA call invite) and Manel passed the TA screen 2026-11-05. Ask Clare or Tanna what moved the CV after the template rejection (`applications/records/perk-senior-design-systems-designer.md`).
+- [ ] **Real signal:** Perk reopened 2026-11-02 (TA call invite) and Manel passed the TA screen 2026-11-05. Ask Clare or Tanna what moved the CV after the template rejection ([applications/records/perk-senior-design-systems-designer.md](applications/records/perk-senior-design-systems-designer.md)).
 
 ## Interview prep (yours to write)
 
-- [ ] The 5 remaining `[NEEDS YOUR STORY]` gaps in `interviews/prep.md`. Check `interviews/behavioral-battle-cards.md` first; some may already be covered there.
-- [ ] **AI agent case deck** (`interviews/decks/case-deck-ai-agent.md`): speaker notes and slide structure are written, but the visuals per slide (flow diagram, annotated conversation screenshot, reach diagram, cycle diagram, outcome cards) still need building or copying from the live portfolio case. Parked 2026-07-24; pick up when a process reaches a case-presentation round. Decide the output form first.
+- [ ] The 5 remaining `[NEEDS YOUR STORY]` gaps in [interviews/prep.md](interviews/prep.md). Check [interviews/behavioral-battle-cards.md](interviews/behavioral-battle-cards.md) first; some may already be covered there.
+- [ ] **AI agent case deck** ([interviews/decks/case-deck-ai-agent.md](interviews/decks/case-deck-ai-agent.md)): speaker notes and slide structure are written, but the visuals per slide (flow diagram, annotated conversation screenshot, reach diagram, cycle diagram, outcome cards) still need building or copying from the live portfolio case. Parked 2026-07-24; pick up when a process reaches a case-presentation round. Decide the output form first.
 
 ## Records hygiene
 
 - [ ] Applications sent before July 2026 have PDFs in `cv-pdf-to-send/` but no plain-text sources in `cv/roles/` or `cover-letters/roles/`. Decide: backfill from the PDFs (plus chat history around each send date), or accept the PDFs as the only record. Factorial IT spinoff was backfilled 2026-07-15.
-- [ ] Keep `application_channel`, `role_lane` and the first-contact date (in History) on every new record; the response-time analysis depends on them. Invite dates are missing for Spendesk and Secfix; applied dates for Secfix, Valeria, Tabby, Murphy, Deel Staff and Pilar. New conversations also need an entry in `FIRST_RESPONSE` and, when lost, `LOST_AT` in `scripts/analyze-response-times.py`.
-- [ ] Start using Linear actively; it unblocks the deferred Linear application (see `applications/archive-2026-07.md`).
+- [ ] Keep `application_channel`, `role_lane` and the first-contact date (in History) on every new record; the response-time analysis depends on them. Invite dates are missing for Spendesk and Secfix; applied dates for Secfix, Valeria, Tabby, Murphy, Deel Staff and Pilar. New conversations also need an entry in `FIRST_RESPONSE` and, when lost, `LOST_AT` in [scripts/analyze-response-times.py](scripts/analyze-response-times.py).
+- [ ] Start using Linear actively; it unblocks the deferred Linear application (see [applications/archive-2026-07.md](applications/archive-2026-07.md)).
 
 ## Parked (decided, no action now)
 

@@ -26,7 +26,7 @@ Use four bullet cues per card: situation, personal responsibility, action and ra
 | Disagreement / influencing others / a tradeoff | Abax investment and bounded Maker Days test | Explain Engineering's capacity concern, your shared business-case work with the Head of Design, the staffing tradeoff and production test. Keep the outcome tied to what shipped; do not invent ROI or claim sole ownership. |
 | A mistake / learning from failure | Remuner token-file deletion | Explain the mistaken duplicate-file assumption, short production outage, recovery, and subsequent deployment check and dependency change. Own the mistake; do not invent outage duration or claim recurrence was measured. |
 
-The latter two examples are documented in `interviews/spendesk/spendesk-hiring-manager.md`. Confirm the exact incident details from your recollection before using them; do not fill gaps with a plausible story.
+The latter two examples are documented in [interviews/spendesk/spendesk-hiring-manager.md](../spendesk/spendesk-hiring-manager.md). Confirm the exact incident details from your recollection before using them; do not fill gaps with a plausible story.
 
 ### Rehearse retrieval, not a memorised speech
 
@@ -234,8 +234,8 @@ The last question gives Aideen a chance to surface a concern while there is stil
 
 ## Sources
 
-- Role description supplied by Manel and preserved in `applications/records/datavant-senior-ux-designer-provider-experience.md`.
-- `evidence/experience-facts.md` for confirmed ownership and outcome boundaries.
+- Role description supplied by Manel and preserved in [applications/records/datavant-senior-ux-designer-provider-experience.md](../../applications/records/datavant-senior-ux-designer-provider-experience.md).
+- [evidence/experience-facts.md](../../evidence/experience-facts.md) for confirmed ownership and outcome boundaries.
 - [Datavant Spain careers](https://www.datavant.com/about/careers-spain), checked 2026-09-23: Barcelona hub, company framing, scale, and Aideen Kelly's public recruiting context.
 - [Datavant careers and values](https://www.datavant.com/about/careers), checked 2026-09-23: mission, values, culture, and benefits framing.
 - [About Datavant](https://www.datavant.com/about), checked 2026-09-23: provider-business purpose, healthcare network, and leadership structure.

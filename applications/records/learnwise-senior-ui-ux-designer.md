@@ -53,7 +53,7 @@ Genuine Senior. 5+ years, end-to-end ownership, system ownership and team mentor
 - **AI design tools "with examples you can show":** confirmed AI-assisted, user-testable prototypes at Remuner (not production features), plus engineer-reviewed Codex repository work. Showable artifacts need to exist; check what can be linked or shown.
 - **Three end-to-end cases with shipped outcomes:** the portfolio has five cases. Outcomes sections must not overclaim measured results.
 - **Edtech and LMS:** none recorded; nice-to-have only.
-- **Salary:** published EUR 55-65K. Under `context/salary.md`, use the range and the fit to choose a position; do not volunteer the old floor. A strong match supports the upper part of the range. Decide the number when the form asks.
+- **Salary:** published EUR 55-65K. Under [context/salary.md](../../context/salary.md), use the range and the fit to choose a position; do not volunteer the old floor. A strong match supports the upper part of the range. Decide the number when the form asks.
 
 ## Application form
 
@@ -61,13 +61,13 @@ Two-step form on the careers page. Step 1 is contact details. Step 2 was not vis
 
 ## Materials
 
-- CV source: `cv/roles/learnwise-senior-ui-ux-designer.md` (prepared 2026-10-19)
-- Cover letter source: `cover-letters/roles/learnwise-senior-ui-ux-designer.md` (prepared 2026-10-19, 241 words)
+- CV source: [cv/roles/learnwise-senior-ui-ux-designer.md](../../cv/roles/learnwise-senior-ui-ux-designer.md) (prepared 2026-10-19)
+- Cover letter source: [cover-letters/roles/learnwise-senior-ui-ux-designer.md](../../cover-letters/roles/learnwise-senior-ui-ux-designer.md) (prepared 2026-10-19, 241 words)
 - Both checked against the evidence register and run through no-ai-slop and the humanizer. Not yet exported or sent.
 
 ## Prior applications
 
-None in `applications/records/` or `applications/archive-2026-07.md`.
+None in `applications/records/` or [applications/archive-2026-07.md](../archive-2026-07.md).
 
 ## History
 

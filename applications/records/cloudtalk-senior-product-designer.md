@@ -106,7 +106,7 @@ The application was confirmed submitted on 2026-10-02. The exact submitted files
 - **External research, verified 2026-10-02:** [Exact official CloudTalk Workable posting](https://apply.workable.com/cloudtalk/j/2B7FA6A0F6), including posting date, scope, location, requirements, benefits, process, and open state.
 - **External research, verified 2026-10-02:** Live Workable application form, including required compensation, location/work-authorization, Figma, B2B SaaS, cooperation-model, resume, and contact fields.
 - **Confirmed current portfolio, verified live 2026-10-02:** [Abacum design system](https://www.manel-leiva.com/cases/design-systems), [Remuner design system](https://www.manel-leiva.com/cases/design-system-remuner), and [Remuner AI agent](https://www.manel-leiva.com/cases/ai-agent).
-- **Confirmed internal evidence:** `context/positioning.md`, `context/target-roles.md`, `context/salary.md`, `context/pipeline-findings.md`, `evidence/experience-facts.md`, and the prior AirHelp mobile-evidence assessment.
+- **Confirmed internal evidence:** [context/positioning.md](../../context/positioning.md), [context/target-roles.md](../../context/target-roles.md), [context/salary.md](../../context/salary.md), [context/pipeline-findings.md](../../context/pipeline-findings.md), [evidence/experience-facts.md](../../evidence/experience-facts.md), and the prior AirHelp mobile-evidence assessment.
 
 ## History
 

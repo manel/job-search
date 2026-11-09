@@ -1,6 +1,6 @@
 # LinkedIn
 
-Profile content, audit, and maintenance rules. LinkedIn is the highest-traffic surface in the search: recruiters check it before opening a CV. It must carry the same positioning as `context/positioning.md` and obey every rule in `principles.md`.
+Profile content, audit, and maintenance rules. LinkedIn is the highest-traffic surface in the search: recruiters check it before opening a CV. It must carry the same positioning as [context/positioning.md](positioning.md) and obey every rule in [principles.md](../principles.md).
 
 Profile: linkedin.com/in/maneleiva
 Last audited: 2026-06-12 (content pasted by Manel, not scraped). About and Remuner entry re-pasted 2026-10-20; Abacum, Remuner and Kings of Mambo re-pasted 2026-11-07 (Remuner unchanged).
@@ -9,11 +9,11 @@ Last audited: 2026-06-12 (content pasted by Manel, not scraped). About and Remun
 
 ## Rules
 
-- Same writing rules as everything else: `principles.md` applies in full. No em dashes, no banned vocabulary, no overclaiming.
+- Same writing rules as everything else: [principles.md](../principles.md) applies in full. No em dashes, no banned vocabulary, no overclaiming.
 - No colleague names. "The CTO", "the head of design". Same rule as live case studies.
 - The headline and About must carry the design systems signal explicitly. Recruiters search "design systems", not "systems thinking".
 - The AI agent work appears in the Remuner entry. It is a differentiator and stays visible.
-- Teaching entries stay on the timeline but trimmed to one or two lines each. Long teaching descriptions dilute the product design focus. Same logic as the CV rule in `memory.md`.
+- Teaching entries stay on the timeline but trimmed to one or two lines each. Long teaching descriptions dilute the product design focus. Same logic as the CV rule in [memory.md](../memory.md).
 - Update this file and the live profile together. If one changes, the other changes.
 
 ---

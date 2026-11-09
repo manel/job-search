@@ -39,7 +39,7 @@ job_url:
 source:
 ```
 
-Then record: fit assessment, contacts and outreach, materials sent, interview notes, decisions, and dated status changes. Update `active.md` only after updating the individual record.
+Then record: fit assessment, contacts and outreach, materials sent, interview notes, decisions, and dated status changes. Update [active.md](active.md) only after updating the individual record.
 
 ## Status vocabulary
 
@@ -76,9 +76,9 @@ Record the application channel, warm path, portfolio version, and outcome stage 
 ## Follow-up policy
 
 - About 10 business days after applying with no response: send a short status nudge through the channel used to apply.
-- About 3 weeks with no response: find the hiring manager or a designer on the team on LinkedIn. Method in `context/outreach.md`.
+- About 3 weeks with no response: find the hiring manager or a designer on the team on LinkedIn. Method in [context/outreach.md](../context/outreach.md).
 - 5 weeks with no response: set `stale`. Stop investing.
-- Every open record carries a dated `next_action` and `next_action_on`. A SessionStart hook (`.claude/hooks/check-overdue.sh`) reads `next_action_on` from each record's frontmatter and surfaces any that are due, except for closed statuses (`rejected`, `skipped`, `stale`, `withdrawn`, `role-closed`, `hired`). Keep `next_action_on` a single `YYYY-MM-DD` date.
+- Every open record carries a dated `next_action` and `next_action_on`. A SessionStart hook ([.claude/hooks/check-overdue.sh](../.claude/hooks/check-overdue.sh)) reads `next_action_on` from each record's frontmatter and surfaces any that are due, except for closed statuses (`rejected`, `skipped`, `stale`, `withdrawn`, `role-closed`, `hired`). Keep `next_action_on` a single `YYYY-MM-DD` date.
 
 ## Earlier pipeline (June–August 2026)
 

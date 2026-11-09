@@ -1,7 +1,7 @@
 # Design Systems — Raw Notes (Abacum / Abax)
 
 Source: Notion export from Abax Design System workspace. Extracted June 2026.
-Raw intake archive. Distilled into `context/portfolio.md` on 2026-06-12 — read that file first; come back here only for detail the distillation dropped.
+Raw intake archive. Distilled into [context/portfolio.md](portfolio.md) on 2026-06-12 — read that file first; come back here only for detail the distillation dropped.
 
 ---
 

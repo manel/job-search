@@ -30,13 +30,13 @@
 - Open with a warm, simple greeting ("Hello [Company] team,"), then why this role interests Manel, tied to something specific about the product or problem. Do not open with a generic identity line.
 - Three short body paragraphs: the role-specific motivation, then the strongest evidence from one company, then the next. About 250 words maximum for the body.
 - No bullet points, no subject line unless requested, a plain close ("Best, Manel" or the equivalent in the letter's language).
-- No salary figure unless the application requires one; follow `context/salary.md`.
+- No salary figure unless the application requires one; follow [context/salary.md](salary.md).
 - Write in the posting's language. Spanish letters keep Manel's edited wording; avoid literal translations.
 
 ## Base CV and role scope
 
-- Consult `evidence/product-work-inventory.md` for the broader product-area inventory and artifact references; use project-level claims only when supported in the experience register.
-- Use `cv/cv-base.md` as the working base for future CVs. It is grounded in the evidence register; newly revised copy remains subject to Manel's review.
+- Consult [evidence/product-work-inventory.md](../evidence/product-work-inventory.md) for the broader product-area inventory and artifact references; use project-level claims only when supported in the experience register.
+- Use [cv/cv-base.md](../cv/cv-base.md) as the working base for future CVs. It is grounded in the evidence register; newly revised copy remains subject to Manel's review.
 - Preserve platform-wide product-design responsibility at Remuner and the Integrations-to-Engine progression at Abacum in every tailored CV. Shorten the area list when needed, but retain the breadth and ownership boundary.
 - Tailor the selected achievements and their order to the vacancy. Keep detailed project evidence in the register rather than filling the CV with a feature inventory.
 - Treat Figma/implementation files as evidence of artifacts and product coverage. They do not establish personal ownership, release status, research findings, or impact without corroboration.

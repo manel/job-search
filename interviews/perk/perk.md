@@ -1,6 +1,6 @@
 # Perk: Senior Design Systems Designer (Suitcase), November 2026
 
-Record: `applications/records/perk-senior-design-systems-designer.md`. Applied 2026-10-21, referred by Tanna 2026-10-26, template rejection the same day, reversed by Clare's interview invite 2026-11-02. The July Staff Product Designer, Events process is a different, closed process; its unused brief is in `perk-events.md`.
+Record: [applications/records/perk-senior-design-systems-designer.md](../../applications/records/perk-senior-design-systems-designer.md). Applied 2026-10-21, referred by Tanna 2026-10-26, template rejection the same day, reversed by Clare's interview invite 2026-11-02. The July Staff Product Designer, Events process is a different, closed process; its unused brief is in [perk-events.md](perk-events.md).
 
 ---
 
@@ -33,15 +33,15 @@ External research. Little is public: there's no public Figma file, documentation
 - **Seniority read without a DS title:** two production systems, one co-led across five squads, one built alone. TA will check that "Senior Product Designer" on the CV still means system ownership.
 
 ### Lead story
-Design-systems mapping in `context/positioning.md`: **Story B (Abax) as lead, Story C (Remuner DS) as support.** Abax first because it carries the JD's rarest asks (adoption measured monthly, about 47% at departure; consolidation off MUI; contribution review). Remuner second for building alone and the AI/Figma MCP work. Keep both to headline level; a TA screen won't go into token tiers.
+Design-systems mapping in [context/positioning.md](../../context/positioning.md): **Story B (Abax) as lead, Story C (Remuner DS) as support.** Abax first because it carries the JD's rarest asks (adoption measured monthly, about 47% at departure; consolidation off MUI; contribution review). Remuner second for building alone and the AI/Figma MCP work. Keep both to headline level; a TA screen won't go into token tiers.
 
 ### Likely questions
 
-Answers written to be said out loud, checked against `evidence/experience-facts.md`. Read them, then say them in your own words; only the Remuner answer is meant word for word.
+Answers written to be said out loud, checked against [evidence/experience-facts.md](../../evidence/experience-facts.md). Read them, then say them in your own words; only the Remuner answer is meant word for word.
 
 #### Background
 
-*Under two minutes. Source: opening intro in `prep.md`, weighted to design systems.*
+*Under two minutes. Source: opening intro in [prep.md](../prep.md), weighted to design systems.*
 
 > I'm a Senior Product Designer based in Barcelona. I co-founded a UX studio, Kings of Mambo, and ran it for eleven years. I did research, interaction and visual design there, and I wrote a lot of the front-end code for client sites myself.
 >
@@ -63,7 +63,7 @@ Answers written to be said out loud, checked against `evidence/experience-facts.
 
 #### Why did you leave Remuner?
 
-*Priority zero in `prep.md`. Memorised version, word for word. Then stop.*
+*Priority zero in [prep.md](../prep.md). Memorised version, word for word. Then stop.*
 
 > We parted ways in March. The product direction came from the top, and design input didn't always have real weight in those calls. That's a legitimate model for a certain kind of startup, but it's not where I do my best work, and by early 2026 both sides could see the fit wasn't there. What I'd say about the work: the design system shipped to production, and the CTO described the product's before-and-after as going from a 2010 app to a 2020 app. That was unprompted. I'm proud of what got built.
 
@@ -79,19 +79,19 @@ If asked whether you left or were let go:
 
 #### How do you use AI day to day?
 
-*Now a recruiter-screen question (`memory.md` 2026-10-26). Three uses.*
+*Now a recruiter-screen question ([memory.md](../../memory.md) 2026-10-26). Three uses.*
 
 > Three ways, mostly. When I want to test an idea, I build an AI prototype that behaves like the real thing. A lot of my design system work goes through the Figma MCP: managing tokens, generating a Storybook view and documentation for each component, checking colour contrast. And I open my own pull requests for small front-end fixes, mostly styles and tokens, which the front-end team reviews before they merge.
 
 #### What kind of team do you work best in?
 
-*Q12 in `prep.md`.*
+*Q12 in [prep.md](../prep.md).*
 
 > One where engineers are involved from the start of a design, and where the PM understands the constraints and doesn't over-specify. I also need enough room to spot problems early, instead of only working through tickets. With a design system that matters even more, because the people I'm designing for are the designers and engineers sitting next to me.
 
 #### You applied to the Events role in July
 
-*Not in `prep.md`. Don't raise the 26 Oct rejection unless Clare does.*
+*Not in [prep.md](../prep.md). Don't raise the 26 Oct rejection unless Clare does.*
 
 > Yes, that was a Staff product role on Events, a different kind of job. This one is design system work, which is what I've been doing for the last few years, so it's a much more direct fit.
 
@@ -137,14 +137,14 @@ If she presses:
 - JD gaps (Code Connect, keyboard and screen-reader conformance, native mobile): answers are under "Do you have experience with Code Connect, accessibility or mobile?" above.
 
 ### Questions to ask Clare (pick 2-3)
-- What are the next steps, and where does the process stand: how many candidates are further along? (Kabilio rule, `memory.md` 2026-10-16.)
+- What are the next steps, and where does the process stand: how many candidates are further along? (Kabilio rule, [memory.md](../../memory.md) 2026-10-16.)
 - Who owns Suitcase day to day right now, and who does this role report to? (Tanna said she had been covering it; this is "what happened to the last person in this role" phrased for TA.)
 - Is mobile on the same Suitcase foundations, or is the Compose Multiplatform system separate today? (Shows homework. Clare may not know; if not, note it as a hiring-manager question.)
 - What is the salary range for the Barcelona hire? (Only if she hasn't raised compensation. Salary rule 2: ask before restating a number.)
 
 ### Salary reminder
 - Stated on the form: **EUR 65,000 gross annual base**. No range published. Floor (40K employed) is never stated.
-- If asked: give Clare a chance to name the band first ("Is there a range for the Barcelona role?"). If she presses, keep 65K; don't drop it to look flexible. Never share Abacum or Remuner pay (rule 8 wording in `context/salary.md`).
+- If asked: give Clare a chance to name the band first ("Is there a range for the Barcelona role?"). If she presses, keep 65K; don't drop it to look flexible. Never share Abacum or Remuner pay (rule 8 wording in [context/salary.md](../../context/salary.md)).
 - After the call, record in the record: range given (if any), whether asked, what was said, any compensation feedback.
 
 *After the call: run `/debrief-interview perk "TA Preliminary"` while it's fresh.*
@@ -168,7 +168,7 @@ Source: call transcript pasted by Manel. Clare joined about five minutes late; t
 - **Other processes:** interviewing elsewhere, nothing at offer stage.
 
 ### Claims to check against the evidence register
-Not in `evidence/experience-facts.md`; confirm before the hiring-manager session, because Tim may ask for detail:
+Not in [evidence/experience-facts.md](../../evidence/experience-facts.md); confirm before the hiring-manager session, because Tim may ask for detail:
 - Design system work for Kings of Mambo clients.
 - A client with around 15-16 designers, and coaching them on adoption.
 - "Push code to production": the register supports PRs for styles and tokens, reviewed and merged by the front-end team. Keep that wording.
@@ -219,9 +219,9 @@ At least one session in person at the office applied to (Barcelona).
 ### Lead project: Abax (Abacum), with Remuner as the follow-on
 Positioning mapping for DS roles: Remuner and Abacum systems. Choose Abax as the deep dive because this round is about collaboration and team dynamics, and Abax is the one with a team: head of design, engineering leadership, five squads, a contribution process and a tracked adoption number. Remuner was sole-designer work, so it's thin on team dynamics; use it as "what I did next with what I learned" (smaller token set, ESLint enforcement, Codex CI checks).
 
-**Open with the result** (rule in `interviews/prep.md`, "Rules for every case deck"): "With the head of design, I co-led Abax, a design system all five product squads used. When I left, about 47% of the component uses we tracked in the code were Abax, against a goal of 80%." Then the arc. Keep the first pass to 10 to 12 minutes, then ask what they'd like to go deeper on. Use Perk's words where true: Suitcase, contribution, squads.
+**Open with the result** (rule in [interviews/prep.md](../prep.md), "Rules for every case deck"): "With the head of design, I co-led Abax, a design system all five product squads used. When I left, about 47% of the component uses we tracked in the code were Abax, against a goal of 80%." Then the arc. Keep the first pass to 10 to 12 minutes, then ask what they'd like to go deeper on. Use Perk's words where true: Suitcase, contribution, squads.
 
-Arc to know cold (beats, not script), all from `evidence/experience-facts.md` ("Abax design system"):
+Arc to know cold (beats, not script), all from [evidence/experience-facts.md](../../evidence/experience-facts.md) ("Abax design system"):
 - **Problem:** ad hoc components and MUI across five squads, no mandate.
 - **Case for it:** co-led the business case with the head of design; presented to engineering leadership and at an all-hands.
 - **Capacity objection:** engineering feared the system would compete with squad work → Maker Days, one focused week → tokens and the first Button in production (battle card C).
@@ -232,7 +232,7 @@ Arc to know cold (beats, not script), all from `evidence/experience-facts.md` ("
 - **Adoption work:** no real resistance; the problem was designers forgetting what existed. Every release on Slack, coaching in the weekly DS meetings, ad hoc sessions for those who needed it; adoption and detachment metrics showed where to ask why, then fix in the next iteration. This is the part that maps straight onto Suitcase.
 - **Your part vs the team's:** "I" for the business case, token and library work, the sync and contribution process; "we" for the decision and the migration. Engineering built the original pipeline.
 
-**Assets to have open:** the Abacum deck v2 (Figma "Abacum DS", top row; source `interviews/decks/case-deck-design-systems-abacum.md`) and the live DS case (manel-leiva.com/cases/design-systems). Screen-share only if it helps a specific point.
+**Assets to have open:** the Abacum deck v2 (Figma "Abacum DS", top row; source [interviews/decks/case-deck-design-systems-abacum.md](../decks/case-deck-design-systems-abacum.md)) and the live DS case (manel-leiva.com/cases/design-systems). Screen-share only if it helps a specific point.
 
 ### Likely questions, mapped
 | Question | Use |
@@ -252,7 +252,7 @@ Arc to know cold (beats, not script), all from `evidence/experience-facts.md` ("
 ### Gaps this round could hit (don't invent)
 - **A single coaching episode with a result.** The practice is now recorded (2026-11-06: Slack releases, weekly DS-meeting coaching, ad hoc sessions), but no one designer's before-and-after. If asked, describe the practice; don't invent an individual.
 - **vLex detail.** Confirmed 2026-11-06 as the client behind "about 15-16 designers". Dates, your exact scope on the system and any outcome aren't recorded; if Tim or the PM digs in, give what you remember and stop there.
-- **Q10 disagreement with your manager** (`prep.md` [NEEDS YOUR STORY]); battle card D is the closest real episode.
+- **Q10 disagreement with your manager** ([prep.md](../prep.md) [NEEDS YOUR STORY]); battle card D is the closest real episode.
 - **Figma-side measurement detail.** Recorded 2026-11-06: you defined the measures (library instances vs custom frames, unlinked layers, a health score in Notion), an engineer built the Figma REST API script. Bi-weekly; health score = library instances / all UI nodes (library + detached + one-off frames); a detachment ranking set the fix order; per-component thresholds under 5% OK, 5-15% warning, over 15-20% broken. All approximate recollection; no history survives, so don't quote a score. Keep it separate from the codebase count behind the 47%: two measures, two denominators. The concrete example is Select and Autocomplete (above).
 - **Content tokens, if the interviewer is Tim.** Content design is his field and he read your comment on his post. The evidence is thin: SimpleLocalize translation keys built into Remuner components. Which languages, how keys were named and who wrote the copy aren't recorded. Say what you did and stop; don't describe it as a content-token system.
 - **Native mobile and multi-platform scale:** Remuner webview only. Say so if asked.

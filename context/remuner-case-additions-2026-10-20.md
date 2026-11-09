@@ -1,7 +1,7 @@
 # Remuner design-system case: drafted additions (2026-10-20)
 
-Target file: `portfolio/public/cases/design-system-remuner.html` (submodule: edit there, commit there, then update the pointer here; ask Manel before pushing, a push may deploy the live site).
-Status: APPLIED 2026-10-30 (A-D plus stack row, with a rewritten Notion sentence, build-order paragraph, late-joiner bullet and marketing-site line; approved by Manel). Facts from Manel's answers on 2026-10-20, recorded in `evidence/experience-facts.md` (Design system and token pipeline: Figma MCP examples). Run no-ai-slop and humanizer again after any edit.
+Target file: [portfolio/public/cases/design-system-remuner.html](../portfolio/public/cases/design-system-remuner.html) (submodule: edit there, commit there, then update the pointer here; ask Manel before pushing, a push may deploy the live site).
+Status: APPLIED 2026-10-30 (A-D plus stack row, with a rewritten Notion sentence, build-order paragraph, late-joiner bullet and marketing-site line; approved by Manel). Facts from Manel's answers on 2026-10-20, recorded in [evidence/experience-facts.md](../evidence/experience-facts.md) (Design system and token pipeline: Figma MCP examples). Run no-ai-slop and humanizer again after any edit.
 
 Limits from the register: say WCAG AA (never AAA), no named failing colours, no PR counts, no claim that engineers adopted the Storybook views.
 

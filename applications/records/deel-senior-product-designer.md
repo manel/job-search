@@ -26,8 +26,8 @@ The legacy assessment considered this the weakest of the three Deel openings bec
 
 ## Materials and records
 
-- Legacy tailored CV: `cv/roles/deel-senior-product-designer.md`
-- Legacy tailored cover letter: `cover-letters/roles/deel-senior-product-designer.md`
+- Legacy tailored CV: [cv/roles/deel-senior-product-designer.md](../../cv/roles/deel-senior-product-designer.md)
+- Legacy tailored cover letter: [cover-letters/roles/deel-senior-product-designer.md](../../cover-letters/roles/deel-senior-product-designer.md)
 
 ## History
 

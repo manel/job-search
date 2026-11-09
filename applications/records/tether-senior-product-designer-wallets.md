@@ -95,7 +95,7 @@ The form explicitly tells candidates not to use AI tools to complete the applica
 
 ## Prepared materials
 
-- Tailored CV source: `cv/roles/tether-senior-product-designer-wallets.md`
+- Tailored CV source: [cv/roles/tether-senior-product-designer-wallets.md](../../cv/roles/tether-senior-product-designer-wallets.md)
 - No cover letter (no field on the form). Written answers are Manel's own; not drafted here.
 - Salary entered: USD 80,000 annual.
 - Sent CV: `cv-pdf-to-send/Tether/Manel Leiva CV 2026.pdf`
@@ -104,7 +104,7 @@ The form explicitly tells candidates not to use AI tools to complete the applica
 
 - **External research, verified 2026-10-02:** [Exact official Tether posting and application form](https://careers.tether.io/o/senior-product-designer-wallets-100-remote-worldwide), confirming the open role, Barcelona eligibility, responsibilities, requirements, and required application fields.
 - **Confirmed current portfolio, verified live 2026-10-02:** [Dataset Manager](https://www.manel-leiva.com/cases/dataset-manager) and [Abacum design system](https://www.manel-leiva.com/cases/design-systems). The [Remuner AI agent](https://www.manel-leiva.com/cases/ai-agent) was previously verified live on 2026-10-02.
-- **Confirmed internal evidence:** `context/positioning.md`, `context/target-roles.md`, `context/pipeline-findings.md`, `context/salary.md`, `evidence/experience-facts.md`, and the recorded 3Commas DCA-bot note.
+- **Confirmed internal evidence:** [context/positioning.md](../../context/positioning.md), [context/target-roles.md](../../context/target-roles.md), [context/pipeline-findings.md](../../context/pipeline-findings.md), [context/salary.md](../../context/salary.md), [evidence/experience-facts.md](../../evidence/experience-facts.md), and the recorded 3Commas DCA-bot note.
 
 ## History
 

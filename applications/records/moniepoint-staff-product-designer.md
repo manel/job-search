@@ -69,7 +69,7 @@ No prior Moniepoint application or known warm connection is recorded. The only c
 - **External research, verified 2026-09-15:** [Official Senior Product Designer - Design System posting](https://job-boards.eu.greenhouse.io/moniepoint/jobs/4955355101), role scope and remote-Spain eligibility.
 - **External research, verified 2026-09-15:** [Official Senior Product Designer (UX) posting](https://job-boards.eu.greenhouse.io/moniepoint/jobs/4612209101), substantially duplicated scope and five-year senior-experience requirement.
 - **External research, verified 2026-09-15:** [LinkedIn Staff Product Designer posting](https://es.linkedin.com/jobs/view/staff-product-designer-at-moniepoint-group-4463988600), listed seniority classification and current listing.
-- **Confirmed internal evidence:** `evidence/experience-facts.md`.
+- **Confirmed internal evidence:** [evidence/experience-facts.md](../../evidence/experience-facts.md).
 
 ## History
 

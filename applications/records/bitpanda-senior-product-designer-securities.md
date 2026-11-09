@@ -26,12 +26,12 @@ source: Bitpanda Greenhouse page, fetched 2026-10-19 (published 2026-07-17; Barc
 
 ## Decision
 
-**Skip, under the Bitpanda rule** (`context/pipeline-findings.md`: three screen-level template rejections with zero human contact; reapply only with a materially different role, changed evidence, or a credible warm path). None applies:
-- **Role shape:** trading and investment interfaces (equities, derivatives, margin, commodities, RWAs) on mobile and web. Essentially the Advanced Trading role rejected in May (`bitpanda-senior-product-designer-advanced-trading.md`).
-- **Mandatory requirement:** "experience designing for complex B2C fintech, brokerage, trading, or wealth management ecosystems". Manel's finance work is B2B (Abacum FP&A, Remuner compensation). Crypto familiarity is as a user only (`evidence/experience-facts.md`).
+**Skip, under the Bitpanda rule** ([context/pipeline-findings.md](../../context/pipeline-findings.md): three screen-level template rejections with zero human contact; reapply only with a materially different role, changed evidence, or a credible warm path). None applies:
+- **Role shape:** trading and investment interfaces (equities, derivatives, margin, commodities, RWAs) on mobile and web. Essentially the Advanced Trading role rejected in May ([bitpanda-senior-product-designer-advanced-trading.md](bitpanda-senior-product-designer-advanced-trading.md)).
+- **Mandatory requirement:** "experience designing for complex B2C fintech, brokerage, trading, or wealth management ecosystems". Manel's finance work is B2B (Abacum FP&A, Remuner compensation). Crypto familiarity is as a user only ([evidence/experience-facts.md](../../evidence/experience-facts.md)).
 - **Warm path:** none recorded.
 
-The minimal-effort tier (`context/target-roles.md`, 2026-10-19) does not override the company-specific rule: Bitpanda has already shown the cold-application result three times.
+The minimal-effort tier ([context/target-roles.md](../../context/target-roles.md), 2026-10-19) does not override the company-specific rule: Bitpanda has already shown the cold-application result three times.
 
 ## History
 

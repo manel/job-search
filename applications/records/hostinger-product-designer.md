@@ -26,7 +26,7 @@ source: Hostinger Ashby job board API, fetched 2026-10-19 (published 2026-10-19;
 
 ## Decision
 
-**Proceed, medium-low priority.** New posting, published today, fully remote from Spain. The role owns a design area end to end, from first sketch through launch and performance monitoring, with strong research emphasis and design-system contribution through the design guild. The July skip of an earlier Hostinger Product Designer posting (`applications/archive-2026-07.md`) rested on consumer domain, mid level and about EUR 54K against the then floor. Under income-first the domain and pay reasons no longer apply. The level remains the main risk.
+**Proceed, medium-low priority.** New posting, published today, fully remote from Spain. The role owns a design area end to end, from first sketch through launch and performance monitoring, with strong research emphasis and design-system contribution through the design guild. The July skip of an earlier Hostinger Product Designer posting ([applications/archive-2026-07.md](../archive-2026-07.md)) rested on consumer domain, mid level and about EUR 54K against the then floor. Under income-first the domain and pay reasons no longer apply. The level remains the main risk.
 
 ## Fit assessment
 
@@ -57,6 +57,6 @@ Mid to senior. 3+ years and no title level; the compensation line ("open to adju
 
 - July 2026: an earlier Hostinger Product Designer posting skipped (archive) on domain, level and pay.
 - 2026-10-19: New posting (published today) assessed: Proceed, medium-low.
-- 2026-10-19: Light CV prepared: `cv/roles/hostinger-product-designer.md` (headline Product Designer; hands-on ownership and research lead; Kymco consumer checkout included). No cover letter.
+- 2026-10-19: Light CV prepared: [cv/roles/hostinger-product-designer.md](../../cv/roles/hostinger-product-designer.md) (headline Product Designer; hands-on ownership and research lead; Kymco consumer checkout included). No cover letter.
 - 2026-10-19: Applied via Ashby (Manel confirmed). Salary asked as monthly expectation: Manel entered EUR 5,000 (considered EUR 5,300; chose 5,000 to limit overqualification and band-ceiling risk). No cover letter. Follow-up: nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
 - 2026-11-03: Posting found closed (Ashby API) on 2026-11-03, two weeks after the 2026-10-19 application, with no employer response. Manel set the record to stale ahead of the 5-week window; planned nudge and LinkedIn outreach dropped. Not a rejection.

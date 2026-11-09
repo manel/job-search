@@ -44,4 +44,4 @@ The role shape closely matches the Conkord placement Manel declined on 2026-10-1
 ## History
 
 - 2026-10-19: Assessed from the LinkedIn post. Skip.
-- 2026-10-19: Changed to Proceed, minimal effort, after Manel confirmed e-commerce is not to be discarded (rule in `context/target-roles.md`). The must-have gap is unchanged, so: base CV only. Possible same client as Pasiona (`pasiona-senior-product-designer-ecommerce.md`).
+- 2026-10-19: Changed to Proceed, minimal effort, after Manel confirmed e-commerce is not to be discarded (rule in [context/target-roles.md](../../context/target-roles.md)). The must-have gap is unchanged, so: base CV only. Possible same client as Pasiona ([pasiona-senior-product-designer-ecommerce.md](pasiona-senior-product-designer-ecommerce.md)).

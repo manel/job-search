@@ -20,8 +20,8 @@ Ask Manel, one at a time, only what hasn't been volunteered already:
 
 Then:
 - Append a debrief section to `interviews/[company]/[company].md` for that round.
-- Update the role's record in `applications/records/` (status, `next_action`, `next_action_on`, a dated `## History` line), then `applications/active.md`.
-- If a question exposed a reusable gap or a pattern worth keeping (a question type that keeps appearing, a story that consistently lands or doesn't), add it to `memory.md` under the relevant section. One entry per signal, dated.
-- If a [NEEDS YOUR STORY] gap in `interviews/prep.md` got answered live in the interview, capture the story Manel actually told and replace the placeholder with it.
+- Update the role's record in `applications/records/` (status, `next_action`, `next_action_on`, a dated `## History` line), then [applications/active.md](../../../applications/active.md).
+- If a question exposed a reusable gap or a pattern worth keeping (a question type that keeps appearing, a story that consistently lands or doesn't), add it to [memory.md](../../../memory.md) under the relevant section. One entry per signal, dated.
+- If a [NEEDS YOUR STORY] gap in [interviews/prep.md](../../../interviews/prep.md) got answered live in the interview, capture the story Manel actually told and replace the placeholder with it.
 
 Keep the debrief factual. No coaching commentary unless asked.

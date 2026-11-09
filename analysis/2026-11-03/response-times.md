@@ -1,6 +1,6 @@
 # Response times, ghosting and conversion (2026-11-03)
 
-Source: frontmatter of every record in `applications/records/` with a submission, plus first-contact dates from each record's History for processes that reached a conversation. Script: `scripts/analyze-response-times.py`. Raw output: `response-times.txt`. Per-application data: `response-times.csv`.
+Source: frontmatter of every record in `applications/records/` with a submission, plus first-contact dates from each record's History for processes that reached a conversation. Script: [scripts/analyze-response-times.py](../../scripts/analyze-response-times.py). Raw output: [response-times.txt](response-times.txt). Per-application data: [response-times.csv](response-times.csv).
 
 Unit: one submitted application (51 total, 45 with a known `applied_on`). Datavant's July cycle and other applications that predate the records are not included. Small numbers throughout: read percentages as direction, not as rates.
 
@@ -47,7 +47,7 @@ Inference: an application with no reply after 14 days has a low chance of becomi
 | DS-titled roles | 11 | 1 (9%) | 5 | 5 |
 | Everything else | 40 | 11 (28%) | | 12 |
 
-The one DS conversation (Perk Suitcase) came only after a template rejection was reversed, following a referral. Two Bitpanda DS rejections arrived in 0 and 2 days, which is consistent with an automated or near-automated cut. This matches the `memory.md` entries from 2026-10-26 and 2026-10-29 and supports the DS-lane CV review already in `TODO.md`. Wizeline, the live DS-shaped process, is titled Senior Product Designer.
+The one DS conversation (Perk Suitcase) came only after a template rejection was reversed, following a referral. Two Bitpanda DS rejections arrived in 0 and 2 days, which is consistent with an automated or near-automated cut. This matches the [memory.md](../../memory.md) entries from 2026-10-26 and 2026-10-29 and supports the DS-lane CV review already in [TODO.md](../../TODO.md). Wizeline, the live DS-shaped process, is titled Senior Product Designer.
 
 ## 4. Where conversations end
 

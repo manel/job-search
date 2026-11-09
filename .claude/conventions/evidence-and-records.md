@@ -4,15 +4,15 @@ Be factual and direct. Do not invent metrics, ownership, outcomes, salary bands,
 
 ### Before a recommendation or application material
 
-1. Read `context/positioning.md` and `context/target-roles.md`.
-2. Read `context/pipeline-findings.md` before recommending application volume or sourcing tactics.
-3. Read `context/salary.md` before recommending a salary figure or interpreting compensation evidence.
-4. Read `evidence/experience-facts.md` before making claims about experience or outcomes.
+1. Read [context/positioning.md](../../context/positioning.md) and [context/target-roles.md](../../context/target-roles.md).
+2. Read [context/pipeline-findings.md](../../context/pipeline-findings.md) before recommending application volume or sourcing tactics.
+3. Read [context/salary.md](../../context/salary.md) before recommending a salary figure or interpreting compensation evidence.
+4. Read [evidence/experience-facts.md](../../evidence/experience-facts.md) before making claims about experience or outcomes.
 5. Read the role's file in `applications/records/` before acting on a live process.
 6. Treat dated external research, salary figures, and old application status as stale until checked.
 7. After a confirmed change, update the relevant durable record. Do not leave important decisions only in chat.
 
-For recruiter-facing writing, also read `principles.md` and `context/writing-rules.md`.
+For recruiter-facing writing, also read [principles.md](../../principles.md) and [context/writing-rules.md](../../context/writing-rules.md).
 
 ### Evidence classes
 
@@ -29,10 +29,10 @@ For every external claim, record its source and last verification date. A short 
 ### Source-of-truth rules
 
 - Strategy belongs in `context/`.
-- Claimable work history belongs in `evidence/`. `evidence/experience-facts.md` is the register.
-- The working CV base is `cv/cv-base.md`. Preserve each role's scope paragraph when tailoring.
+- Claimable work history belongs in `evidence/`. [evidence/experience-facts.md](../../evidence/experience-facts.md) is the register.
+- The working CV base is [cv/cv-base.md](../../cv/cv-base.md). Preserve each role's scope paragraph when tailoring.
 - One application record per company and role in `applications/records/`. Update it only after an action or status change is confirmed.
-- `applications/active.md` is a dashboard, not a second source of truth. Update the record first, then the dashboard.
+- [applications/active.md](../../applications/active.md) is a dashboard, not a second source of truth. Update the record first, then the dashboard.
 - Tailored CVs, letters, and sent PDFs are historical records. Never overwrite one after it has been sent.
 
 ---

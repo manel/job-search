@@ -34,7 +34,7 @@ Treat this as feedback about one live challenge, not as a general judgment of Ma
 
 ## Compensation evidence
 
-Factorial shared its internal salary bands during this process (logged 2026-06-25): Senior EUR 68-80K (+25% ESOP), Staff EUR 93-107K (+50% ESOP); full ladder in `context/salary.md`. Level stayed undecided (Senior or Staff), so no number was stated. Manel was comfortable with EUR 80K as a Senior starting point. Source: pre-merge `context/salary.md` at commit `83bef9f`.
+Factorial shared its internal salary bands during this process (logged 2026-06-25): Senior EUR 68-80K (+25% ESOP), Staff EUR 93-107K (+50% ESOP); full ladder in [context/salary.md](../../context/salary.md). Level stayed undecided (Senior or Staff), so no number was stated. Manel was comfortable with EUR 80K as a Senior starting point. Source: pre-merge [context/salary.md](../../context/salary.md) at commit `83bef9f`.
 
 ## Process
 
@@ -47,7 +47,7 @@ Factorial shared its internal salary bands during this process (logged 2026-06-2
 
 - Reapplication advice: see the recovered note below; no new submission is confirmed.
 
-- Legacy interview record: `interviews/factorial/factorial.md`
+- Legacy interview record: [interviews/factorial/factorial.md](../../interviews/factorial/factorial.md)
 - Legacy challenge preparation and debriefs: `interviews/factorial/`
 
 ## History
@@ -69,4 +69,4 @@ January 2027 at the earliest, or late February for a longer interval after the l
 The useful prerequisite is stronger evidence of future product direction, personal influence and supported user/business outcomes. Earlier reconsideration was proposed if Factorial invites Manel or a recruiter explicitly wants him considered for a different opening. The assistant also cited [Factorial's recruitment permissions documentation](https://help.factorialhr.com/en_US/talent/recruitment-permissions) as historical evidence that hiring managers may see other applications and phases; this was not reverified during the recovery.
 
 Source: local thread `01a0c84d-dd78-7833-bed2-5e4a4cb67e39`, 2026-09-22. Recovered 2026-10-13. The income-first priority adopted on 2026-10-11 means the older timing advice should be reconsidered against a concrete opportunity, rather than treated as a hard exclusion.
-- 2026-10-19: Both roles reassessed under income-first: Founding PD proceed via Lucia Lorenzo Santos only (`factorial-founding-product-designer.md`); Senior/Staff 271104 skipped (`factorial-senior-staff-product-designer-271104.md`).
+- 2026-10-19: Both roles reassessed under income-first: Founding PD proceed via Lucia Lorenzo Santos only ([factorial-founding-product-designer.md](factorial-founding-product-designer.md)); Senior/Staff 271104 skipped ([factorial-senior-staff-product-designer-271104.md](factorial-senior-staff-product-designer-271104.md)).

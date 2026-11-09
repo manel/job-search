@@ -41,7 +41,7 @@ Support with breadth if asked about prior experience: "Before Remuner I co-led a
 Two-minute arc: Abacum (product + DS at scale, multiple squads) → Remuner (sole designer, built everything from scratch, shipped DS and AI product) → now looking for a founding-scope role where the work has structural complexity. Don't narrate every job. Get to Remuner fast.
 
 **"Why did you leave Remuner?"** ← Priority zero. Prepare this before you get on the call.
-Company decision. The operating model was founder-driven — product direction came from the top, design input didn't have real weight in those calls. Legitimate model for some startups, not the right fit. Zero bitterness, pivot to evidence: system shipped, CTO's unprompted before/after quote. Then stop. Full answer in `interviews/prep.md` priority zero section — memorize that version.
+Company decision. The operating model was founder-driven — product direction came from the top, design input didn't have real weight in those calls. Legitimate model for some startups, not the right fit. Zero bitterness, pivot to evidence: system shipped, CTO's unprompted before/after quote. Then stop. Full answer in [interviews/prep.md](../prep.md) priority zero section — memorize that version.
 
 **"Why Factorial / why this role?"**()
 Answer honestly. Signals that work: Barcelona company building something greenfield, founding scope means real influence over product direction not just execution, HR domain has complex workflow problems (payroll, compliance, multi-market). Don't say "I love your brand." If you don't have a real answer yet, spend 20 minutes on their product and public writing before Monday.
@@ -57,7 +57,7 @@ Founding-scope problem, structural complexity, design with influence upstream of
 
 **"What are your salary expectations?"**
 → **€82K is the floor.** The "Founding" scope justifies the number — a founding designer is broader responsibility than a senior IC on an existing team. If they ask for a range, give the number, not a range. If they mention their band first, open at the top of it.
-See `context/salary.md` — "Factorial: €82K is the floor given the Founding scope. If they push back, the counter is the breadth of responsibility implied by the title."
+See [context/salary.md](../../context/salary.md) — "Factorial: €82K is the floor given the Founding scope. If they push back, the counter is the breadth of responsibility implied by the title."
 
 **Gaps that may surface (no invented answers — flag and defer):**
 - Specific questions about their HR/payroll domain knowledge. Honest answer: not a domain expert, but complex B2B workflow is the pattern you know.
@@ -71,7 +71,7 @@ See `context/salary.md` — "Factorial: €82K is the floor given the Founding s
 
 - "What is the tech spinoff solving and what stage is it at?" — You genuinely don't know, and this shapes everything else.
 - "When you say founding designer, what does that look like in practice in the first 90 days — is there a design team, or is this a solo role to start?" — Sets scope expectations on both sides.
-- "Where does design sit relative to product direction on the spinoff? Is design shaping what gets built or executing a decided roadmap?" — From `interviews/prep.md`. Direct signal question.
+- "Where does design sit relative to product direction on the spinoff? Is design shaping what gets built or executing a decided roadmap?" — From [interviews/prep.md](../prep.md). Direct signal question.
 
 **Optional if time allows:**
 - "What does success look like for this role at 6 months?"
@@ -434,7 +434,7 @@ Marta's rejection email (2026-07-02, Catalan) explicitly invited another occasio
 >
 > Que vagi molt bé!
 
-Fallback (tracked in applications.md): if no reply by 2026-07-13, apply via the careers form; her reply can still route in parallel. If a process starts: do not relitigate the June challenge, and if a live challenge repeats, vision-first from minute one (rejection feedback above; corrective in prep.md). The rejection maps directly to the automation MVP disagreement from the session: the panel wanted a vision of what the product could be at full scope, and what was presented was a careful, minimal, validated flow. The preparation guide did not adequately cover the vision-first requirement for a "build from zero" challenge. That gap is now documented in `interviews/prep.md` under Live design challenges.
+Fallback (tracked in applications.md): if no reply by 2026-07-13, apply via the careers form; her reply can still route in parallel. If a process starts: do not relitigate the June challenge, and if a live challenge repeats, vision-first from minute one (rejection feedback above; corrective in prep.md). The rejection maps directly to the automation MVP disagreement from the session: the panel wanted a vision of what the product could be at full scope, and what was presented was a careful, minimal, validated flow. The preparation guide did not adequately cover the vision-first requirement for a "build from zero" challenge. That gap is now documented in [interviews/prep.md](../prep.md) under Live design challenges.
 
 The one-hour format is not a fair evaluation of a full design career. It is what it is.
 
