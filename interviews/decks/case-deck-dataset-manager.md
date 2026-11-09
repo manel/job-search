@@ -158,7 +158,7 @@ All three could describe the transformation they needed with Excel functions. No
 ▶ [Click.]
 
 **Figma 7**
-They also looked for dimensions and mappings, and the screen showed them schema properties. The most experienced user got stuck in the same places as the newer ones, so the gap was in the product's language, and more time with the product wouldn't have closed it.
+They also looked for dimensions and mappings, and the screen showed them schema properties. The most experienced user led his company's FP&A team and had used Abacum for over a year. He got stuck in the same places as the newer users, so the gap was in the product's language, and more time with the product wouldn't have closed it.
 ▶ [Click.]
 
 **Figma 8**
@@ -183,7 +183,7 @@ A change that removes filters asks the user to accept the impact before saving.
 This is a calculated column in the shipped builder. Pick the fields, write a formula like you would in a spreadsheet, and check it before saving. Some advanced transformations stayed restricted.
 
 **Figma 13 (Outcome)**
-Finance teams set up standard datasets themselves. After release, customers reached a working configuration in their first session. The squad's engineers estimated standard setup took about half the previous time.
+Finance teams set up standard datasets themselves. After release, customers reached a working configuration in their first session. The squad's engineers estimated standard setup took about half the previous time, and customer support told me they were getting fewer configuration requests. I checked in with them regularly after release.
 We had no baseline, so I can't give you a percentage. Next time I'd measure completion without engineering help from the first test, so the result would be a number.
 ▶ [Say "no baseline" before they ask.]
 

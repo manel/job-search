@@ -544,6 +544,7 @@ Added 2026-11-08, from Reddit advice on presenting to execs and hiring managers,
 - **Talk for 10 to 12 minutes, then let them steer.** In a 30 or 60 minute slot, keep the walk-through short and end on a question: "What would be most useful to go deeper on?" Then stop talking. Cut setup slides to one or two sentences before cutting proof.
 - **Use their words.** Turn each JD sentence into a "tell me about a time when" prompt and check that a slide or beat answers it. Say the company's own terms (product names, system names, values in the JD) wherever they are true for your work.
 - **Follow what they ask for.** If they want a flow, a screen or the Figma file, go there straight away instead of finishing the slides (Wizeline Round 2, 2026-10-30).
+- **One source format.** Every deck source in `interviews/decks/` follows [interviews/decks/case-deck-design-systems-abacum.md](decks/case-deck-design-systems-abacum.md) (adopted 2026-11-09): a header block (Figma, Best for, Duration with what to cut first, Lead framing, Effects, evidence line); numbered slides with Label, Headline, Visual and short Notes beats; a full speaker-notes section keyed by Figma position, with ▶ [action] lines; Backup; a short Q&A ending in "Don't claim". Decks with no Figma build key the notes by slide number until they are built.
 
 ### Staff-level signals checklist
 

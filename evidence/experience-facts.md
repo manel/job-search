@@ -486,6 +486,14 @@ This is the evidence register, not finished application copy. Each material clai
 
 - **External-use boundary:** Attribute the time reduction to the Integrations engineers' estimate (attribution confirmed 2026-11-09). Do not present it as measured analytics or invent a more precise figure.
 
+- **Claim:** Customer support reported fewer configuration requests after Dataset Manager shipped. Manel spoke with the support team regularly to check how Dataset Manager was doing.
+- **Class:** Confirmed personal account (Manel, 2026-11-09). Qualitative; no request counts recorded.
+- **External-use boundary:** Say "customer support reported fewer configuration requests". Give no number or percentage.
+
+- **Claim:** The most experienced of the three test participants had used Abacum for over a year. He was the head of his company's FP&A team, one of its longest-serving people, and gave a lot of feedback. He got stuck in the same places as the newer users.
+- **Class:** Confirmed personal account (Manel, 2026-11-09).
+- **External-use boundary:** Never name him or his company. Say "the most experienced user, who led the customer's FP&A team and had used Abacum for over a year".
+
 - **Claim:** An early Dataset Manager direction combined a simpler interface with SQL so users could write basic data-transformation functions. Testing showed that participants could express the same transformation logic with Excel functions but could not do so using SQL inside Dataset Manager. Manel interpreted this as a language and familiarity problem rather than an inability to reason about the data.
 - **Class:** Confirmed personal account.
 - **Source:** Manel's Datavant hiring-manager preparation conversation on 2026-09-29.
