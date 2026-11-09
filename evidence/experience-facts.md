@@ -255,6 +255,16 @@ This is the evidence register, not finished application copy. Each material clai
 - **Verified:** 2026-10-06.
 - **External-use boundary:** The review corroborates role breadth. It does not individually verify personal leadership, release status, impact, legal compliance, security outcomes or native mobile work. Project-specific follow-up was deferred by Manel; do not invent achievement bullets from artifacts alone.
 
+### Full Figma index (2026-11-09)
+
+- **Claim:** A full extraction of all 30 Remuner and Abacum Figma files in Manel's list (28 distinct and indexed, one duplicate, one other designer's file; every page, frame and text layer) is indexed in [figma/README.md](figma/README.md), with case material in [figma/case-candidates.md](figma/case-candidates.md). It supersedes the 2026-10-06 page-name inventories for locating work. The two "Remuner | Datasets" files are byte-identical copies (same node IDs); `567oKEE7i0ktL73emiSdCL` is canonical.
+- **Ownership (confirmed by Manel 2026-11-09):** All Remuner designs are his, including the Spanish "Problema / Solución / Specs" notes. Exceptions from the canvas: a second designer at Remuner, Marina, worked on a few pages with Manel reviewing or assigning tasks (pages listed in the README). Pages dated before May 2024 in Dashboard (IC) predate him. "Remuner | Pagos vd Devengos" and the "FLOWS" / "(Old) * WIP *" pages in Period Locking & Closing are the earlier designer's work (Manel, 2026-11-09). At Abacum, pages dated before January 2022 predate him, and another designer, Carol, has her own labelled sections in the live Dataset Manager exploration file.
+- **Team dashboard research (Remuner, June 2025):** an 8-slide findings deck on the canvas. QuickSight new-user counts went 68 (March), 39, 19, 10 (June); about 82% of the March cohort returned the next month and about 53% two months later; 34% visited once. Conclusion: "useful but not usable". This led to the default pre-populated dashboard.
+- **Class:** Artifact observations plus Manel's ownership confirmation. Research figures are as written on the canvas (Recollection-grade: the QuickSight source isn't saved).
+- **Source:** Figma Desktop Bridge extraction, 2026-11-09; raw dumps summarised in `evidence/figma/catalog/`.
+- **Verified:** 2026-11-09.
+- **External-use boundary:** Manel ran the June 2025 research and built the findings deck (confirmed 2026-11-09). The Abacum design workshops on the canvas (syntax, variable library, dimension ideation) were shared team sessions; don't claim them as Manel-led. Abacum Engine "Change switch-over date" (February 2023) is a rework of the head of design's earlier designs: say "reworked", not "designed" (Manel, 2026-11-09). Adoption after the default dashboard shipped was measured, but Manel has no data (2026-11-09): say it was tracked, never state a result. Remuner component documentation lived across Notion, Figma and Storybook. Don't turn page status markers or frame counts into shipment or impact claims. Remove customer names and real data from any exported image.
+
 ### Module activation and access management
 
 - **Claim:** At Remuner, customers could activate different modules, configure permissions, and grant different levels of access. Manel confirmed this when discussing his experience with B2B lifecycle design for the Tabby application.

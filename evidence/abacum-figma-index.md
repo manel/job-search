@@ -2,6 +2,8 @@
 
 Source material for the Dataset Manager case (deck, portfolio, interview answers). Page and node links open in Figma. Built 2026-11-09 through the Desktop Bridge; page lists are complete, highlights are from the pages searched that day, not every page. Page names start with the date as YYMM (`2202` = February 2022). A ✅ prefix means shipped or handed off; 🔒 means locked.
 
+Full page-by-page indexes for every Remuner and Abacum file, built 2026-11-09 from a complete extraction, are in [figma/README.md](figma/README.md). This file stays as the Dataset Manager story view.
+
 Ownership: all notes and designs are Manel's unless marked otherwise (confirmed 2026-11-09). The PM at the time was involved in scoping. Claim limits live in [experience-facts.md](experience-facts.md), "Dataset Manager".
 
 Link pattern: `https://www.figma.com/design/<file key>/?node-id=<id with - instead of :>`.
