@@ -208,10 +208,11 @@ Source: Manel's account after the call.
 - **When:** Tue 10 Nov 2026, 17:30-18:30 Madrid (11:30-12:30 New York). Invite title "Wizeline Candidate Interview - L4 Product Designer".
 - **Panel:**
   - **Forest Evashevski, Director, Experience Design, The Wall Street Journal** (Dow Jones, New York, since Feb 2022). Leads product design across WSJ experiences: mobile app, responsive web, homepage, article, navigation, media, personalization, newsletters. Before that, 12 years as a WSJ art director (Off Duty, Mansion, Money & Investing) and editorial design at Reed Business Information. LinkedIn headline lists "Design System Implementation" and "Data-Driven Design". He reposted a Dow Jones Principal Product Researcher opening in Barcelona (on-site). Source: LinkedIn screenshot supplied by Manel, 2026-11-06. **Probably the decision-maker.**
-  - eabete@opisnet.com, the organizer. Role unknown; Manel found nothing. Possibly scheduling for the Dow Jones Barcelona entity (inference).
-  - Chi Pham and Daniela Sahagun (Wizeline), David Ho. Roles unknown.
+  - eabete@opisnet.com, the organizer. Role unknown; nothing found by Manel or a web search (2026-11-09). Possibly scheduling, or a Barcelona hiring manager on the OPIS side (inference). If they speak, ask their role early.
+  - Wizeline staffing, not design (LinkedIn screenshots supplied by Manel, 2026-11-09): **Lan Chi Pham**, Technical Recruiter and APAC Talent Acquisition & Capacity Planning Specialist (Ho Chi Minh City); **Daniela Sahagun**, Staff Capacity Strategy Planner (Madrid). Plus David Ho (Senior Talent Acquisition). They are there to place you on the account and will likely stay quiet. Inference: **Forest is the only design evaluator**, so pitch the deck to him.
+- **Format (David, reconfirmed 9 Nov):** "same format, bring the case and your portfolio". Video call; Meet link pending from David.
 - **His portfolio (forestevashevski.net, read 2026-11-06):** WSJ app redesign, article, live coverage, MyWSJ, media and games, plus editorial design. The personalization case leads with measured results: "+97% more article views in MyWSJ" and "average time spent per visitor increased 40%". He describes his approach as "structure, time, and intent", "clear, cohesive systems" and bringing "clarity to ambiguity". The pages he shows say nothing about design systems, accessibility or multi-brand.
-- **Format (David, 2 Nov):** portfolio, the presentation, usual interview questions. Expect the Remuner deck, then questions. A whiteboard is unlikely with a client panel, but keep the FigJam canvas from Round 2.
+- A whiteboard is unlikely with a client panel, but keep the FigJam canvas from Round 2.
 - **What this round decides:** whether Dow Jones accepts you onto the account. Wizeline already passed you at L4. The UX panel said the gap was "what you bring to the table": clients want proof of why to hire this designer.
 
 ### What the client most likely cares about
@@ -240,6 +241,16 @@ Then one line on the first months: learn Index and its contribution rules first,
 Positioning mapping for design-systems roles: **Remuner (Story C)** as the presentation, **Abacum (Story B)** for scale. Same deck as Round 2 ([ux-interview-deck.md](ux-interview-deck.md)), plus the pitch slide. Client-round changes (2026-11-08, rule in [interviews/prep.md](../prep.md), "Rules for every case deck"): the result goes in the first sentence on slide 1, the walk-through is about 12 minutes, and slide 21 ends on "What would be most useful to go deeper on?". Slide 13b shows the Select anatomy (atomic layers). Have the Remuner Components file open and navigable: the UX panel asked for atomic structure and this panel may too ([memory.md](../../memory.md) 2026-10-30).
 
 For the second beat outside design systems, keep **battle card G (IC dashboard)**: vague user feedback, interviews, targeted changes, tested with users. It's end-user research on a product surface, which is closer to Forest's world than finance configuration. Dataset Manager (Story A) only if the seat turns out to be OPIS.
+
+### Portfolio walkthrough (plan, 2026-11-09)
+
+- **Show the Figma file "Manel Leiva Portfolio Highlights"** (decided 2026-11-09, replacing the live site): one 1920×1080 frame per project, before and after, about a minute each. Script: [interviews/wizeline/portfolio-highlights-script.md](portfolio-highlights-script.md). Not raw exploration files, which read as messy to someone who comes from art direction.
+- **Order:** set it at the start: deck first, then the portfolio, so browsing doesn't eat the hour.
+- **Main case: AI Agent.** An end-user surface, with answer formats as content design; the closest thing on the site to Forest's world. About 3 minutes: problem, your decision, what shipped, no metrics and what you'd measure.
+- **Second case:** Dataset Manager or Modeling Syntax only if asked or if the seat turns out to be OPIS. Both are finance configuration, the furthest from WSJ consumer product.
+- **Figma, on request only:** the Remuner Components file (atomic structure, asked for on 30 Oct). Dataset Manager exploration file as backup.
+- **Never Rep Letters** (hidden case).
+- **Setup:** tabs open in that order, share one browser window, notifications off, check each case page loads with images.
 
 ### Likely questions mapped to stories
 
@@ -272,6 +283,16 @@ For the second beat outside design systems, keep **battle card G (IC dashboard)*
 - **Stakeholder alignment in a large org** ([prep.md](../prep.md) Q20 and the global-stakeholder gap). Dow Jones is the biggest org you'd have worked in. Answer from principle; don't claim the scale.
 - **Mentoring episode** (battle cards). vLex coaching is the nearest, with no recorded episode or result.
 - **Kings of Mambo incidents** (Story E). Only the missed-deadline story (Q2) is written up.
+
+### David's tips (email, 9 Nov 12:07)
+
+David forwarded tips "de una diseñadora". The feminine forms ("la entrevistadora", "buena diseñadora", "preparada") suggest the text was first written for another candidate, so don't read it as telling you who leads the call. The useful signal: the client side has a **strong, demanding director personality** ("personalidad directiva fuerte"), and handling that counts as much as the portfolio. Which panelist that is isn't stated.
+
+What it changes:
+- **Stakeholder stories move up.** Expect "tell me about a demanding senior stakeholder" or "a time you defended your criteria". First choice: **D (manager view)**, where you disagreed with the CEO and CTO, accepted their decision and kept the research findings in. Second: **C (Maker Days)**, Engineering's capacity objection solved with a bounded test. Kings of Mambo client work: only the missed-deadline story ([prep.md](../prep.md) Q2) is written up, so don't improvise another one.
+- **Metrics.** They ask for data. You have no product metrics, so don't invent any. Say what you tracked (10 of 18 screens, the CTO quote) and what you'd measure, before they ask.
+- **Short answers.** Battle card shape: one-line headline, 60 to 90 seconds, stop and let them ask. Deck at about 12 minutes.
+- **Under pressure** (interrupted, challenged, "that's not how we'd do it"): acknowledge it, give your reason once, ask what they'd weigh. Don't defend at length or fold straight away.
 
 ### Questions to ask them
 
