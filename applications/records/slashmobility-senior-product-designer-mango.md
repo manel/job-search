@@ -1,23 +1,23 @@
 ---
 company: SlashMobility (placement at Mango)
 role: Senior Product Designer, Barcelona hybrid
-status: in-progress
-status_verified_on: 2026-10-19
+status: applied
+status_verified_on: 2026-11-11
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-10-19
+posting_checked_on: 2026-11-11
 fit_decision: proceed (low priority; reversed from July skip)
 role_lane: product
 application_channel: recruiter
 warm_path: none recorded
-portfolio_version:
-applied_on:
+portfolio_version: 2026-11-11 (live site, manel-leiva.com)
+applied_on: 2026-11-11
 last_contact_on:
-outcome_stage: not-submitted
+outcome_stage: no-response
 rejection_reason_class: none
-next_action: Lean application through the Talentclue form. At first contact, ask about the salary range, contract (SlashMobility employment versus a project term), Mango team and duration, and office cadence
-next_action_on: 2026-10-28
-salary_stated: Not stated; no range published
+next_action: Status nudge to SlashMobility talent team (Talentclue reply or LinkedIn) if no response. At ~3 weeks (2026-12-02) find the SlashMobility recruiter or design lead on LinkedIn (context/outreach.md); stale at 5 weeks (2026-12-16). At first contact ask contract type (SlashMobility employment or project term), Mango team and duration.
+next_action_on: 2026-11-25
+salary_stated: EUR 53,000 gross annual (form field, confirmed by Manel 2026-11-11); no range published
 job_url: https://slashmobility.talentclue.com/es/node/120368337/66909823
 source: Official Talentclue posting fetched 2026-10-19 (same URL as the July assessment; still open). July skip in applications/archive-2026-07.md line 110
 ---
@@ -62,3 +62,7 @@ Probably mid-to-senior execution. No years or ownership requirements. Ask early;
 
 - 2026-07-10: Skipped (archive): agency model, read as B2C retail, execution work, genuine interest.
 - 2026-10-19: Same posting still open. Reassessed: the products are internal and B2B (stores, franchises, employees); income-first accepts placements; Manel brought it back. Proceed, low priority.
+- 2026-11-11: Liveness check uncertain (Talentclue); Manel confirmed it open in a browser.
+- 2026-11-11: Posting live in the pipeline triage check. CV source drafted: [cv/roles/slashmobility-senior-product-designer-mango.md](../../cv/roles/slashmobility-senior-product-designer-mango.md). Lead: operational tools for business teams (stores, franchises, employees in the JD); English CV for a Spanish posting.
+- 2026-11-11: Figma layout built in "CV / Manel Leiva", column "slashmobility (mango)" (CV p1 2491:381, p2 2491:409).
+- 2026-11-11: Applied via the Talentclue form, confirmed by Manel. Sent: CV (cv-pdf-to-send/Slashmobility/). Form answers in application-answers/slashmobility-senior-product-designer-mango.md: education Ciclo Formativo Superior (Informática), last role Senior Product Designer, Remuner; salary EUR 53,000 gross annual; Sí to two office days a week in Sant Cugat; written answers on experience, research and AI tools. Nudge 2026-11-25, LinkedIn 2026-12-02, stale 2026-12-16.

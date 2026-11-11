@@ -1,23 +1,23 @@
 ---
 company: Stripe
 role: Product Designer, Global
-status: in-progress
-status_verified_on: 2026-10-19
+status: applied
+status_verified_on: 2026-11-11
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-11-03
+posting_checked_on: 2026-11-11
 fit_decision: proceed
 role_lane: product
 application_channel: direct
 warm_path: unknown
-portfolio_version:
-applied_on:
+portfolio_version: 2026-11-11 (live site; Dataset Manager case in the portfolio field)
+applied_on: 2026-11-11
 last_contact_on:
-outcome_stage: not-submitted
+outcome_stage: no-response
 rejection_reason_class: none
-next_action: Apply, selecting Barcelona. Lead with complex financial workflows (Dataset Manager, modeling language) and AI-assisted high-fidelity prototyping. Keep the story and salary consistent with the open Design Systems application
-next_action_on: 2026-10-24
-salary_stated: Not stated; published EUR 93,000-139,600 for the primary location (Dublin); Barcelona range not published for this role (Design Systems role listed EUR 56,200-84,400 for Barcelona)
+next_action: Status nudge through the recruiter contact or Greenhouse reply if no response. At ~3 weeks (2026-12-02) find a Global team designer or design manager on LinkedIn (context/outreach.md); stale at 5 weeks (2026-12-16). Keep the story and any salary figure consistent with the open Design Systems application.
+next_action_on: 2026-11-25
+salary_stated: Not stated (the form had no salary field, confirmed by Manel 2026-11-11); published EUR 93,000-139,600 for the primary location (Dublin); Barcelona range not published for this role (Design Systems role listed EUR 56,200-84,400 for Barcelona)
 job_url: https://stripe.com/careers/listing/product-designer-global/7861422
 source: Stripe Greenhouse API and stripe.com listing, fetched 2026-10-19 (first published 2026-04-29, updated 2026-10-09). Offices: Dublin HQ, Barcelona; remote in Ireland only
 ---
@@ -57,3 +57,7 @@ Probably Senior: 6+ years, and the Dublin range spans several levels. Stripe nar
 ## History
 
 - 2026-10-19: Posting checked (open, Barcelona office listed). Assessed: Proceed, medium priority. No materials prepared.
+- 2026-11-11: Posting rechecked: open (Greenhouse updated 2026-10-29). The Greenhouse API location now reads "Ireland", but the stripe.com listing still names office locations Dublin HQ and Barcelona, plus remote in Ireland. Kept after the pipeline triage; materials started.
+- 2026-11-11: CV and cover-letter sources drafted: [cv/roles/stripe-product-designer-global.md](../../cv/roles/stripe-product-designer-global.md), [cover-letters/roles/stripe-product-designer-global.md](../../cover-letters/roles/stripe-product-designer-global.md). Lead: Dataset Manager and dimension creation; support: AI-assisted prototypes, component library and tokens, translation keys in components (closest evidence to localisation). Growth and activation still unevidenced. Awaiting Manel's review.
+- 2026-11-11: Laid out in Figma, file CV / Manel Leiva, column "stripe global" (x 87345), cloned from the "fever + the knot" column and the Canonical letter: CV page 1 `2489:62`, page 2 `2489:90`, letter `2489:119`. The header contact line runs to two lines ("Barcelona, Spain" added per the CV base). Education year hidden. Both role entries stay on page 1. Not exported.
+- 2026-11-11: Application submitted, confirmed by Manel. PDFs as sent: `cv-pdf-to-send/Stripe (Global)/Manel Leiva CV 2026.pdf` and `Manel Leiva CL 2026.pdf` (both pass check-pdf-text --source). Form fields: current or previous employer Remuner, title Senior Product Designer; education fields required: School "Other", Degree "Other" (confirmed by Manel); no salary field. Follow-up: nudge 2026-11-25, LinkedIn 2026-12-02, stale 2026-12-16.

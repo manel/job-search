@@ -93,7 +93,7 @@ Every claim is checked against [evidence/experience-facts.md](../../evidence/exp
 
 **Label:** Outcome
 **Headline:** 10 of 18 core screens on the system when I left
-**Quote:** "From a 2010 app to a 2020 app" (the CTO, unprompted)
+**Quote:** "From a 2010 app to a 2025 app" (the CTO, unprompted)
 **Columns:** Coverage: 161 component sets, about 1,600 variants, 630 token variables, 157 icons · Consistency: tokens enforced in CI and lint; engineers named tokens in code reviews · New joiners: a designer and a PM worked from the library from the start
 **Next time:** harden the pipeline before something breaks.
 
@@ -163,7 +163,7 @@ The board also tracked adoption. Two checks in the code fed it: a lint rule that
 ▶ [The team built the rule and the script. Weekly results aren't recoverable: describe the mechanism, never a trend.]
 
 **Slide 9 (Outcome)**
-When I left, 10 of the 18 core screens ran fully on the system. A few months into the audit, the CTO said, unprompted, that it had gone "from a 2010 app to a 2020 app".
+When I left, 10 of the 18 core screens ran fully on the system. A few months into the audit, the CTO said, unprompted, that it had gone "from a 2010 app to a 2025 app".
 ▶ [Click, if built.]
 The library had 161 component sets, about 1,600 variants, 630 token variables and 157 icons in their own repository. Tokens were enforced in CI and by the lint rule, and engineers started naming tokens in code reviews instead of hex values. A designer and a PM joined in my last months and both worked from the library from the start.
 If I did it again, I'd harden the pipeline before something broke.

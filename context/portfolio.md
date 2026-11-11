@@ -117,7 +117,7 @@ Starting condition: the product didn't look broken, but it wasn't designed with 
 Verified counts (measured directly from the artifacts 2026-07-08, canonical for all documents): Figma library 161 component sets, ~1,600 variants; 630 token variables (417 primitive, 189 semantic); 157 icons in the icons repo; tokens repo 84 commits, 14 reviewed PRs, May 2024 to Feb 2026 (no version tags, so claim update counts, never "releases"). Adoption from the audit board: 10 of 18 core screens fully on system components at departure, growing monthly.
 
 Key signals:
-- The CTO: "from a 2010 app to a 2020 app" (unprompted, during a review session, after the audit had been running for a while — it reflects product-wide change, not a Figma library existing)
+- The CTO: "from a 2010 app to a 2025 app" (unprompted, during a review session, after the audit had been running for a while — it reflects product-wide change, not a Figma library existing)
 - Engineers called tokens by name (`color-text-primary` instead of `#2D2D2D`); hardcoded hex in review became a caught violation instead of a shipping inconsistency
 - A designer built a screen fast because the components had what she needed, and flagged adjustments that Manel captured and acted on — the feedback loop is the signal, not just the speed
 - Designers stopped double-checking whether components were connected to the system: if it was in the library, it was correct

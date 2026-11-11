@@ -157,7 +157,7 @@ This audit practice is what drove the CTO's observation. It wasn't just new comp
 
 ### The CTO quote
 
-"From a 2010 app to a 2020 app." Said unprompted during a review session, after the component library had coverage and the systematic audit had been running for a while. The quote reflects visible, product-wide change — not just a Figma library existing.
+"From a 2010 app to a 2025 app." Said unprompted during a review session, after the component library had coverage and the systematic audit had been running for a while. The quote reflects visible, product-wide change — not just a Figma library existing.
 
 ### Concrete operational signals
 

@@ -18,7 +18,7 @@ The slides carry one point each. The detail is here, said aloud.
 | 8   | Adoption and governance                       | 2:05 | The loop: audit, ticket, feature work, monthly front-end meeting. A lint rule (loosened to block only new violations) and a weekly component count fed the audit board. Nothing was removed silently: the ranking tokens are still in the file marked "TO DELETE". The mistake: I deleted a token file the app used and caused a short outage. In February 2026 I hardened the repo with Codex, with an engineer reviewing every step. If I did it again, CI on the tokens repo from the first commit.                                                                                                                                                                                                                                                                                                                      |
 | 9   | Outcome                                       | 1:30 | 10 of 18 core screens when I left in March 2026, tracked on the audit board. Then the three buckets. Close on the CTO quote.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | 10  | Handover                                      | 0:30 | A designer and a PM joined in my last months and worked from the library. I set up a Notion page where engineers and product logged inconsistencies and problems, so the team could keep iterating the components. Client round (10 Nov): go straight to slide 11.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| 11  | What I bring (added 2026-11-07, client round) | 1:00 | Three anchors, one example each. vLex: helped build their design system, coached about 15 of their designers ("about 15"; no dates, metrics or token scope). Abacum: one system across five squads, weekly library sync, migration off MUI run from each squad's backlog (co-led with the head of design if asked; never "led"). Close to the code: Remuner tokens repo, engineer-reviewed PRs, years of own front-end code at the studio. Then the plan line, said as a plan: learn Index and its contribution rules, check my area against it, bring gaps back as proposals. Say "contribute to" Index, never "manage".                                                                                                                                                                                                   |
+| 11  | What I bring (added 2026-11-07, client round) | 1:00 | Three anchors, one example each. Client design systems: several clients, at the studio and outside it (Manel, 2026-11-10); vLex is the named example, coached about 15 of their designers ("about 15"; no dates, metrics or token scope). Abacum: one system across five squads, weekly library sync, migration off MUI run from each squad's backlog (co-led with the head of design if asked; never "led"). Close to the code: Remuner tokens repo, engineer-reviewed PRs, years of own front-end code at the studio. Then the plan line, said as a plan: learn your design system and its contribution rules, check my area against it, bring gaps back as proposals. Changed 2026-11-10: the seat on the Index team is unconfirmed (Forest leads WSJ product design), so the slide and notes say "the team" and "your design system". Name Index only after they do; then say "contribute to", never "manage".                                                                                                                                                                                                   |
 | 12  | Thank you                                     | 0:05 | Thank them; open the floor. Contact line on the slide.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
 Total: 14:35, which leaves 25 seconds of slack.
@@ -46,6 +46,7 @@ Client round (10 Nov, added 2026-11-08): the result goes first on slide 1, slide
 - Screen readers: "in some cases" only. No keyboard or WCAG 2.2 conformance claim.
 - Multi-brand: never say you shipped it. The marketing site is the same brand.
 - Marketing library (added 2026-10-29): the agency used the tokens because you required it, and built its own components, which weren't a design system. Never say the live site ran on your components. No count of pages, assets or time saved.
+- Library users (slide 20 diagram, Manel 2026-11-10): you, the new designer, the PM and the marketing person. She worked in both the app library (assets for the website) and the website library.
 - Marketing sync: the marketing Figma file holds its own local copy of the core tokens; it doesn't link to the app library. If asked how core changes reached it: "By hand. Every time a core token changed, I updated the marketing library. Changes came often at first, then the core stabilised." If they push, the better setup is one published core library both files consume; say you'd do that now.
 - The faster-shipped feature is still missing (NEEDS YOUR STORY). If they ask for a delivery-speed example, say you don't have a measured one and point to the 10 of 18 screens and the Select rollout.
 
@@ -116,7 +117,7 @@ These are the same names as in the code and in the Storybook view I generated fo
 ▶ [If asked about Autocomplete: it shares almost all of Select's props. Don't say identical.]
 ▶ [Click.]
 
-**Figma 13b (Select anatomy, added 2026-11-08, skipped until approved)**
+**Figma 13b (Select anatomy, added 2026-11-08; live in the deck as Figma slide 14 since then)**
 I built it bottom up, in atomic design layers. Tokens sit at the base, then atoms like Chip, Icon and the base list row. Those make the list items, the list panel and the helper text, and those make the Select. Autocomplete is built from the same parts. So a fix to the list row reached Select, Autocomplete and the action menu at the same time.
 ▶ [Point at the rows, top to bottom.]
 ▶ [If they want the real layers: switch to the Components file, Select page, and expand the nested instances. Names starting with a dot are internal parts, not for use on screens.]
@@ -149,19 +150,24 @@ I made one real mistake. I deleted a token file the app still used, and it cause
 **Figma 18 (Outcome)**
 When I left in March 2026, 10 of 18 core screens used system components. I tracked that on the audit board, from the weekly component count and my own review of each screen.
 ▶ [If asked about speed: not measured. In Figma it was your impression as sole designer.]
-▶ [Walk through the three buckets.]
-▶ [Close on the CTO quote.]
+▶ [Point at each box, left to right. One sentence each.]
+For engineering, hardcoded styles in the app were replaced with tokens through PRs the engineers reviewed, and a lint rule blocks new ones.
+For the team, it went from two to five engineers working from one set of components, and the designer who joined late worked from the library.
+And the CTO summed it up in a product review: "From a 2010 app to a 2025 app."
+▶ [Pause after the quote. Don't read the footer numbers unless asked.]
+▶ [Client round, before they ask about metrics: "I didn't measure product impact. Now I'd track how long a new screen takes to ship on the components."]
 
 **Figma 19 (Handover)**
 In my last months, a new designer and a PM joined. Both worked from the component library. I set up a Notion page where engineers and the product team logged inconsistencies and problems, so we could keep improving the components.
 ▶ [Client round: click to slide 20.]
 
 **Figma 20 (What I bring)**
-Three things I'd bring to the Index team.
+Three things I'd bring to the team.
 ▶ [Point at each card.]
-First, I've done this for a client before. At my studio, vLex was a client. I helped them build their design system and coached about 15 of their designers on using it. Second, I've worked inside one system shared by many teams. At Abacum it served five squads. We ran a weekly library sync, and each squad moved off MUI from its own backlog. Third, I work close to the code. At Remuner I owned the tokens repo and opened PRs that engineers reviewed, and at the studio I shipped my own front-end code for years.
+First, I've built design systems for several clients. One was vLex: I helped them build their system and coached about 15 of their designers on using it. Second, I've worked inside one system shared by many teams. At Abacum it served five squads. We ran a weekly library sync, and each squad moved off MUI from its own backlog. Third, I work close to the code. At Remuner I owned the tokens repo and opened PRs that engineers reviewed, and at the studio I shipped my own front-end code for years.
 ▶ [Plan line.]
-In my first months I'd learn Index and how people contribute to it, check what my product area uses against it, and bring the gaps back as proposals.
+In my first months I'd learn your design system and how people contribute to it, check what my product area uses against it, and bring the gaps back as proposals.
+▶ [Don't name Index unless they do. If it fits, ask: "Do you work from Index, or does WSJ have its own library?"]
 
 **Figma 21 (Thank you)**
 Thank you. What would be most useful to go deeper on?

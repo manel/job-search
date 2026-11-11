@@ -41,7 +41,7 @@ Don't mention React/TypeScript here; the "Do you code" answer covers it if asked
 
 *[prep.md](../prep.md) "Priority zero", adjusted for Enginy; say it and stop*
 
-> We parted ways in March. Product direction at Remuner came from the top, and design input didn't always carry weight in those calls. That model works for some startups, but it's not where I do my best work, and by early 2026 both sides could see the fit wasn't there. On the work itself: the design system shipped to production, and the CTO said, unprompted, that the product had gone from looking like a 2010 app to a 2020 app. I'm proud of what got built.
+> We parted ways in March. Product direction at Remuner came from the top, and design input didn't always carry weight in those calls. That model works for some startups, but it's not where I do my best work, and by early 2026 both sides could see the fit wasn't there. On the work itself: the design system shipped to production, and the CTO said, unprompted, that the product had gone from looking like a 2010 app to a 2025 app. I'm proud of what got built.
 
 If he asks directly whether you left or were let go (answer honestly; don't call it mutual or your decision):
 

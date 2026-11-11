@@ -1,8 +1,8 @@
 ---
 company: Punto Health
 role: Product Designer — UX/UI & Visual Design
-status: in-progress
-status_verified_on: 2026-10-19
+status: skipped
+status_verified_on: 2026-11-11
 status_confidence: confirmed
 posting_status: unknown
 posting_checked_on: 2026-10-19
@@ -15,8 +15,8 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Easy Apply with the base CV, summary pointed at sole-designer breadth (Remuner) and studio generalist range (Kings of Mambo); no cover letter. Ask level and range at first contact
-next_action_on: 2026-10-27
+next_action: None
+next_action_on: 
 salary_stated: Not stated
 job_url:
 source: LinkedIn post text pasted by Manel 2026-10-19 (posted about a month earlier, over 100 applicants, Easy Apply). Official posting not checked
@@ -56,3 +56,4 @@ Junior to mid band at a seed startup. Overqualification and a low salary range a
 ## History
 
 - 2026-10-19: Assessed from the LinkedIn post. Proceed, light application.
+- 2026-11-11: Dropped in pipeline triage (Manel's decision): two weeks past the planned send date, low-signal channel, never submitted. Set `skipped`.

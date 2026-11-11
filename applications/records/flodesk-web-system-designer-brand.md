@@ -5,18 +5,18 @@ status: applied
 status_verified_on: 2026-10-19
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-11-03
+posting_checked_on: 2026-11-10
 fit_decision: proceed
 role_lane: design-systems
 application_channel: direct
-warm_path: none recorded
+warm_path: "None. Cold contact: Anja Seemüller, Creative Design Lead (3rd degree), connection note sent 2026-11-10; fallback Emma Segovia, Senior Brand Designer (2nd degree, mutual Joel)"
 portfolio_version: one-page portfolio PDF 2026-10-19 (materials/portfolio-onepager) plus live site
 applied_on: 2026-10-19
-last_contact_on:
+last_contact_on: 2026-11-10
 outcome_stage: no-response
 rejection_reason_class: none
-next_action: Nudge if silent (10 business days); LinkedIn outreach 2026-11-09; stale 2026-11-23. Before any interview prepare visible web-craft examples (Kymco blocks) and the Figma MCP examples
-next_action_on: 2026-11-02
+next_action: Check whether Anja Seemüller (Creative Design Lead) accepted the 10 Nov connection request or replied. If not, connection note to Emma Segovia (Senior Brand Designer, 2nd degree, mutual Joel). Stale 2026-11-23. Before any interview prepare visible web-craft examples (Kymco blocks) and the Figma MCP examples
+next_action_on: 2026-11-17
 salary_stated: Not asked on the form; none stated. Employer range EUR 50,000-65,000 (published)
 job_url: https://job-boards.greenhouse.io/flodesk/jobs/5428040008
 source: Flodesk Greenhouse API, fetched 2026-10-19 (first published 2026-09-18, updated 2026-10-14; Barcelona hybrid)
@@ -74,3 +74,4 @@ Senior IC. No years stated. It is under a design lead's art direction on brand s
 - 2026-10-19: Portfolio one-pager PDF generated for the upload-only portfolio field: `cv-pdf-to-send/Flodesk/Manel Leiva Portfolio 2026.pdf` (source in `materials/portfolio-onepager/`).
 - 2026-10-19: Applied via Greenhouse (Manel confirmed): CV, cover letter, LinkedIn, one-page portfolio PDF. Form: hybrid Barcelona yes, resides in Spain yes, authorised to work yes, sponsorship no. No salary question. Follow-up: nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
 - 2026-10-19: Cover letter as sent says Abax was 'at about 47% against an 80% target'. The live case calls the 80% a separate target for new UI (different base). If asked: 80% was the target for new UI; 47% was the share of all tracked component uses.
+- 2026-11-10: Posting checked open (Greenhouse API; last updated 14 Oct). No nudge was sent at 10 business days. LinkedIn step: Anja Seemüller (Creative Design Lead, 3rd degree; likely art-direction lead for the role, inference) could not be messaged without InMail, so Manel sent a connection request with a note asking whether the role is still open and whether she is the right person to ask ([note](../../outreach/flodesk-anja-seemuller-2026-11-10.md)). Check 17 Nov; fallback Emma Segovia. Stale 23 Nov.

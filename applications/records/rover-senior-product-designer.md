@@ -1,16 +1,16 @@
 ---
 company: Rover
 role: Senior Product Designer
-status: in-progress
-status_verified_on: 2026-10-19
+status: role-closed
+status_verified_on: 2026-11-11
 status_confidence: confirmed
-posting_status: open
-posting_checked_on: 2026-11-03
+posting_status: closed
+posting_checked_on: 2026-11-11
 fit_decision: proceed (medium priority; reversed from skip 2026-10-19)
 applied_on:
 last_contact_on:
-next_action: Refresh the July CV and cover letter against the current evidence register (they predate the September rework), then apply. Salary within the published EUR 62,722-76,027 per context/salary.md, not automatically the top
-next_action_on: 2026-10-24
+next_action: None
+next_action_on: 
 salary_stated: Not stated; EUR 76,027 position was prepared from the published band ceiling
 job_url: https://jobs.lever.co/rover/bf6aa5e2-d5ad-4e10-8257-1990ca2533c2
 source: Direct confirmation from Manel; legacy application ledger
@@ -53,3 +53,4 @@ EUR 76,027, the top of the published range, was prepared as the salary position.
 - 2026-07-23: Application package prepared.
 - 2026-09-14: Manel confirmed the application was never submitted; record marked skipped.
 - 2026-10-19: Posting rechecked (open, created 2026-01-22). Reassessed under income-first: Proceed, medium priority.
+- 2026-11-11: Posting closed: the Lever API returns "Document not found" for the posting ID, and Rover's 30 live Lever postings include no Barcelona design role (the only design role is Senior Product Designer, Price Experience, Seattle). Never submitted. Set `role-closed`.

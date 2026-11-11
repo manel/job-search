@@ -2,7 +2,7 @@
 company: Perk (formerly TravelPerk)
 role: Senior Design Systems Designer
 status: interviewing
-status_verified_on: 2026-11-06
+status_verified_on: 2026-11-11
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-11-05
@@ -12,11 +12,11 @@ application_channel: referral
 warm_path: Tanna Schumacher, Product Designer at Perk; Manel's former student (LABASAD Sketch course, around 2018), 1st-degree LinkedIn connection; replied 2026-10-23 (refers only if not yet applied); told of the 21 Oct application and sent the CV 2026-10-24; named as the connection on the form; 2026-10-25 said she will ask internally on Mon 26 Oct and that she had been covering this position herself; submitted the referral in Ashby 2026-10-26. Tim Archer, Senior Content Design Manager at Perk, 2nd-degree, posted the role on LinkedIn 2026-10-20. Xavi Francisco left Perk around 2026-09-28
 portfolio_version: Design Systems case (manel-leiva.com/cases/design-systems)
 applied_on: 2026-10-21
-last_contact_on: 2026-11-05
-outcome_stage: design-interview
+last_contact_on: 2026-11-11
+outcome_stage: hiring-manager-interview
 rejection_reason_class: none
-next_action: Await the calendar invite for the Depth of Expertise video call (slots submitted Wed 11 to Tue 17 Nov); it will name the interviewer. Brief is in interviews/perk/perk.md (Round 2, Abax lead); rehearse the Abax arc out loud this weekend.
-next_action_on: 2026-11-09
+next_action: Prep the Hiring Manager Interview with Tim Archer (Tue 17 Nov, 10:00-11:00 Madrid, Google Meet https://meet.google.com/dkd-tpnk-qed): run /prep-interview perk hiring-manager, rehearse the Abax arc out loud, tighten the AI-tools answer Clare asked for. Debrief the same day.
+next_action_on: 2026-11-17
 salary_stated: EUR 65,000 gross annual base (form field, 2026-10-21; restated in the TA call 2026-11-05, when Clare said the level is "probably closer to seventy" plus benefits and stock options)
 job_url: https://jobs.ashbyhq.com/Perk/78dafbf1-0f6d-46b7-b71a-2c59f7af31cf
 source: Perk Ashby job board API, fetched 2026-10-19 (published 2026-10-15; London, with Barcelona as a secondary location; hybrid, three days in office)
@@ -118,3 +118,7 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 - 2026-11-06: Availability submitted in the Ashby link: Wed 11, Thu 12, Fri 13, Mon 16 and Tue 17 Nov, each 9:00-13:00 and 15:00-18:00 Madrid time (Manel's choice; Mon 9 and Tue 10 skipped to leave prep time). No note added: the written process email settles the format (Depth of Expertise, video). Source: screenshot supplied by Manel.
 - 2026-11-06: Thank-you reply sent to Clare in the "Next steps with Perk!" thread: "Hi Clare, Thanks for the update, and for the call on Thursday. I enjoyed our conversation too, and I'm glad to be moving on to the next round. I've submitted my availability for the Depth of Expertise session, Wednesday 11 to Tuesday 17 November. It was useful to hear how Suitcase sits within the design team, and that the role comes with a dedicated front-end engineer in Barcelona. Best, Manel". Source: Manel confirmed sending.
 - 2026-11-06: Round 2 brief written ([interviews/perk/perk.md](../../interviews/perk/perk.md), "Round 2: Depth of Expertise"), Abax as the lead project. Manel confirmed the TA-call Kings of Mambo claim: the client was vLex, one project was helping it build its design system and coaching its designers. Also recorded the Abax coaching practice and that adoption friction was remembering, not resistance. All three added to [evidence/experience-facts.md](../../evidence/experience-facts.md).
+- 2026-11-10 (logged): Clare Watts replied Mon 2026-11-09, 13:02, in the "Next steps with Perk!" thread (taken to be the reply to the 6 Nov thank-you; inference): "Thanks so much Manel! We'll be back in touch ASAP to confirm the session." No date, interviewer or invite yet. Status unchanged. Next action moved to 2026-11-11, the first submitted slot day. Source: email pasted by Manel.
+- 2026-11-11: No booking yet for the Depth of Expertise session. Nudge to Clare drafted ([outreach/perk-clare-watts-2026-11-11.md](../../outreach/perk-clare-watts-2026-11-11.md)) and saved as an email draft by Manel; he will send it Thu 12 Nov. Abacum DS deck: token-audit build added to slide 7 (Figma positions 14 to 16).
+- 2026-11-11 (logged): Clare Watts emailed Wed 2026-11-11, 18:46, "Perk | Video Interview for Manel | Senior Design Systems Designer": Hiring Manager Interview with Tim Archer, Tue 2026-11-17, 10:00-11:00 Europe/Madrid, Google Meet (https://meet.google.com/dkd-tpnk-qed). Asks Manel to reply and accept the calendar invite. Prep requested: "how you engage with AI in your work", familiarity with AI tools and how he has applied them in his role (Perk calls itself AI-forward). Perk uses an AI note-taker; opt-out link available, not required. Second email 18:49: the onsite could not be coordinated (team travelling), so this round is remote and an onsite meeting will come later in the process. This confirms the TA-call version (hiring-manager session with Tim first) over the written process email (Depth of Expertise with a Lead PM); the "Tim" inference is now confirmed as Tim Archer. Nudge draft not sent. Source: emails pasted by Manel.
+- 2026-11-11: Calendar invite accepted and confirmation reply sent to Clare (text in [outreach/perk-clare-watts-2026-11-11.md](../../outreach/perk-clare-watts-2026-11-11.md)). Source: Manel confirmed.

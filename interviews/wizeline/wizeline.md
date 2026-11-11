@@ -208,9 +208,14 @@ Source: Manel's account after the call.
 - **When:** Tue 10 Nov 2026, 17:30-18:30 Madrid (11:30-12:30 New York). Invite title "Wizeline Candidate Interview - L4 Product Designer".
 - **Panel:**
   - **Forest Evashevski, Director, Experience Design, The Wall Street Journal** (Dow Jones, New York, since Feb 2022). Leads product design across WSJ experiences: mobile app, responsive web, homepage, article, navigation, media, personalization, newsletters. Before that, 12 years as a WSJ art director (Off Duty, Mansion, Money & Investing) and editorial design at Reed Business Information. LinkedIn headline lists "Design System Implementation" and "Data-Driven Design". He reposted a Dow Jones Principal Product Researcher opening in Barcelona (on-site). Source: LinkedIn screenshot supplied by Manel, 2026-11-06. **Probably the decision-maker.**
-  - eabete@opisnet.com, the organizer. Role unknown; nothing found by Manel or a web search (2026-11-09). Possibly scheduling, or a Barcelona hiring manager on the OPIS side (inference). If they speak, ask their role early.
+  - **Esteban Gabriel Abete, EMEA Delivery Director, Wizeline** (Cobeña, Madrid; 11 years 8 months at Globant before Wizeline; university teaching). He's the organizer, eabete@opisnet.com. Source: Google result for his LinkedIn profile, screenshot supplied by Manel, 2026-11-10. Inference: he runs Wizeline's delivery on the Dow Jones account and has a client email for it. Expect him to judge how you'd work inside the client team day to day, while Forest judges the design. He could also be the "demanding director" in David's tips; nothing confirms it.
   - Wizeline staffing, not design (LinkedIn screenshots supplied by Manel, 2026-11-09): **Lan Chi Pham**, Technical Recruiter and APAC Talent Acquisition & Capacity Planning Specialist (Ho Chi Minh City); **Daniela Sahagun**, Staff Capacity Strategy Planner (Madrid). Plus David Ho (Senior Talent Acquisition). They are there to place you on the account and will likely stay quiet. Inference: **Forest is the only design evaluator**, so pitch the deck to him.
-- **Format (David, reconfirmed 9 Nov):** "same format, bring the case and your portfolio". Video call; Meet link pending from David.
+- **Format (David, reconfirmed 9 Nov):** "same format, bring the case and your portfolio". Video call; Meet link added to the invite 10 Nov.
+- **Profile Wizeline sent the panel** (attached to the invite, 10 Nov; copy in [wizeline-candidate-profile-2026-11-10.pdf](wizeline-candidate-profile-2026-11-10.pdf)). It's titled **"Senior Visual Designer"**, while the summary calls you a Senior Product Designer. Panelists who skim will read "visual designer" first, and Forest is a former art director. Inference: the WSJ seat may be weighted toward visual work. What to do:
+  - Ask early, in your first answer or right after the deck: "The profile says Senior Visual Designer. How much of the role is visual design, and how much is product and system work?" The answer tells you which story to lean on.
+  - Have one visual-craft example ready: the Remuner palette (inherited base colours, ramps you built, AA over harmony), the type scale you set after the audit found text from 9px to 25px (32px titles on desktop, 22px on mobile), and the marketing site library and LinkedIn templates. The studio decade covers client visual work. Don't claim editorial or news design.
+  - The summary says you "led design-system initiatives at Abacum". The register says co-led with the head of design. If Abacum comes up, say "co-led" without correcting their document.
+  - The skills list is copied from your sent CV. Chromatic has no entry in the evidence register; if asked, keep the answer to how you used it, or don't bring it up.
 - **His portfolio (forestevashevski.net, read 2026-11-06):** WSJ app redesign, article, live coverage, MyWSJ, media and games, plus editorial design. The personalization case leads with measured results: "+97% more article views in MyWSJ" and "average time spent per visitor increased 40%". He describes his approach as "structure, time, and intent", "clear, cohesive systems" and bringing "clarity to ambiguity". The pages he shows say nothing about design systems, accessibility or multi-brand.
 - A whiteboard is unlikely with a client panel, but keep the FigJam canvas from Round 2.
 - **What this round decides:** whether Dow Jones accepts you onto the account. Wizeline already passed you at L4. The UX panel said the gap was "what you bring to the table": clients want proof of why to hire this designer.
@@ -230,11 +235,11 @@ With Forest on the panel, the seat is probably WSJ consumer product (app, web, a
 
 Close the presentation on it, and reuse it for "why should we hire you?". Three anchors, one proof each. Build them as a closing slide after slide 10 (Handover), replacing the hand-off to the whiteboard.
 
-1. **I've done this exact job for a client before.** At Kings of Mambo, vLex was a client: you helped them build their design system and coached about 15 of their designers on using it. Say "about 15"; no metrics, dates or your exact scope on tokens and components (register, Client design-system work).
+1. **I've built design systems for clients before.** Several clients, at Kings of Mambo and outside it (Manel, 2026-11-10). Named example: vLex, where you helped them build their design system and coached about 15 of their designers on using it. Say "about 15"; no metrics, dates or your exact scope on tokens and components (register, Client design-system work).
 2. **I work inside a shared system across teams.** Abacum: co-led the system across five squads with the head of design, weekly library sync, migration off MUI. Remuner: audit, ticket, monthly front-end meeting, nothing removed silently. That is the contribution model Index needs.
 3. **I close the gap to code.** Owned the Remuner tokens repo; engineer-reviewed PRs replacing hardcoded styles; Storybook views; years shipping your own front-end code at the studio; Figma MCP for parity checks, contrast audits and docs. Engineers get components named like the code.
 
-Then one line on the first months: learn Index and its contribution rules first, audit what your product area uses against it, and bring gaps back as proposals rather than local components. That is a plan, not a past claim; say it as one.
+Then one line on the first months: learn their design system and its contribution rules first (don't assume the seat is on the Index team; changed 2026-11-10), audit what your product area uses against it, and bring gaps back as proposals rather than local components. That is a plan, not a past claim; say it as one.
 
 ### Lead story
 
@@ -254,6 +259,8 @@ For the second beat outside design systems, keep **battle card G (IC dashboard)*
 
 ### Likely questions mapped to stories
 
+Answers written out to read: [client-interview-answers.md](client-interview-answers.md) (2026-11-10).
+
 | Question | Use |
 |---|---|
 | Tell us about yourself | [prep.md](../prep.md) "Opening intro". Add the vLex line; it is the consultancy proof this panel needs. |
@@ -262,7 +269,7 @@ For the second beat outside design systems, keep **battle card G (IC dashboard)*
 | Accessibility | Palette to AA via HSL normalisation, AA over harmony, errors not colour-only, screen readers "in some cases". Stop there. Then say how you'd work inside an accessibility-first system: follow its rules, check contrast and states in every component. No conformance claim. |
 | Multi-brand / theming | Not shipped; both Remuner products were one brand. Core plus a semantic layer per product, typography modes: a brand is one more layer on that core. |
 | Working with engineers | Remuner tokens repo as app submodule, reviewed PRs, Storybook. Studio front-end. Never sole pipeline authorship. |
-| Working with remote or US-based teams | Remuner and Abacum were hybrid; no recorded US time-zone work. Don't invent it. Wizeline's Mexico designers are on this account too. |
+| Working with remote or US-based teams | Yes: designer at a New York video-on-demand company before the studio, first in New York, then remotely from Barcelona; (Manel, 2026-11-10). Answer in [client-interview-answers.md](client-interview-answers.md). |
 | A mistake | Battle card E (token file). Already in the deck; keep it short. |
 | Disagreement with a decision | Battle card D (manager view, Remuner). |
 | Why WSJ / Dow Jones? | Manel's answer (2026-11-06): the challenge of a system that serves several brands, with layered tokens and components and the systems strategy behind it. Anchors: (1) the problem, one system across brands and surfaces; (2) the match, you've built a core with a semantic layer per product twice, and a brand layer is the next step; (3) one sentence on readers or surfaces, so it isn't only about the system. Say "work on" or "contribute to" the system, not "manage" it: the seat contributes to Index. Expect the follow-up "have you done multi-brand?" straight after; answer from the multi-brand row. |
@@ -300,6 +307,8 @@ Pick two, aimed at Forest:
 1. "Which WSJ surfaces would I work on first, and how do product designers there work with the Index team?" Tells you the seat and whether this is contribution or ownership.
 2. "How does a new pattern get into Index? Who decides what goes into the core and what stays in a product library?"
 3. "What would make the first three months a success for you?" Also feeds the pitch if they ask a follow-up.
+
+For Esteban, if there's time: "How is the Wizeline team on the account set up, and who would I work with day to day?"
 
 ### Salary
 

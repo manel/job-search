@@ -4,8 +4,8 @@ role: Lead Product Designer
 status: deferred
 status_verified_on: 2026-10-02
 status_confidence: confirmed
-posting_status: open
-posting_checked_on: 2026-10-13
+posting_status: closed
+posting_checked_on: 2026-11-11
 fit_decision: defer
 role_lane: product
 application_channel: direct
@@ -94,6 +94,7 @@ No prior Yuno application or warm contact is recorded in Career OS. The verified
 
 ## History
 
+- 2026-11-11: Liveness check (scripts/check-postings.py, career-ops v1.40) reads the Lever posting as closed. Still deferred; the mobile-section next action no longer has a live role behind it.
 - 2026-10-13: Rechecked the exact official posting after Manel asked whether it had been assessed. Role remains open, remote, Spain-eligible and explicitly IC; the web-and-mobile portfolio and iOS/Android/web requirements remain. Prior Defer decision recovered; mobile portfolio and application form were not rechecked today. No application or materials are newly confirmed.
 - 2026-10-02: Exact official posting, live application form, internal evidence, and three live portfolio cases assessed. Decision set to Defer pending confirmation of portfolio-ready mobile evidence. No materials prepared, form completed, outreach sent, or application submitted.
 - 2026-10-02: Manel confirmed that he can add relevant mobile screens and copy to the Remuner design-system case. Decision remains Defer until the section is published and verified against Yuno's web-and-mobile portfolio requirement.

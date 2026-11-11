@@ -1,11 +1,11 @@
 ---
 company: Preply
 role: Global Senior CRM & Lifecycle Designer
-status: in-progress
-status_verified_on: 2026-10-19
+status: role-closed
+status_verified_on: 2026-11-11
 status_confidence: confirmed
-posting_status: open
-posting_checked_on: 2026-11-03
+posting_status: closed
+posting_checked_on: 2026-11-11
 fit_decision: proceed (low priority; reversed from skip 2026-10-19)
 role_lane: lifecycle-marketing
 application_channel: direct
@@ -15,8 +15,8 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Lean application framed as product thinking across the full journey (in-product UX plus lifecycle touchpoints); Remuner email template system as the closest artifact; no CRM performance claims
-next_action_on: 2026-10-28
+next_action: None
+next_action_on: 
 salary_stated:
 job_url: https://preply.com/en/careers/apply?ashby_jid=e592d94a-b6fe-4f76-be07-0c3f38a5029b
 source: JD supplied by Manel and assistant fit assessment in local thread 01a0c848-4d9f-7c63-92e9-2b47cc8b7dae on 2026-09-22; recovered 2026-10-13
@@ -47,3 +47,5 @@ The 2026-10-11 income-first priority supersedes ideal-domain preference as a har
 - 2026-09-22: Assistant assessed the supplied exact vacancy and recommended Skip for lifecycle-marketing work and insufficient direct CRM evidence. No materials or application recorded.
 - 2026-10-13: Recovered the assessment into Career OS. Current vacancy status unknown; no new action or employer communication inferred.
 - 2026-10-19: Rechecked at Manel's request: posting open (London; Barcelona secondary; hybrid). Must-have now accepts product experience. Manel confirmed genuine interest. Decision changed to Proceed, low priority; status in-progress.
+- 2026-11-11: Posting closed: the liveness check was uncertain, Preply's Ashby board has no design role, and Manel confirmed it closed in a browser. No application was sent; the next action has no live role behind it.
+- 2026-11-11: Status set to `role-closed` in pipeline triage (posting closed, never submitted).

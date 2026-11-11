@@ -65,7 +65,7 @@ Answers written to be said out loud, checked against [evidence/experience-facts.
 
 *Priority zero in [prep.md](../prep.md). Memorised version, word for word. Then stop.*
 
-> We parted ways in March. The product direction came from the top, and design input didn't always have real weight in those calls. That's a legitimate model for a certain kind of startup, but it's not where I do my best work, and by early 2026 both sides could see the fit wasn't there. What I'd say about the work: the design system shipped to production, and the CTO described the product's before-and-after as going from a 2010 app to a 2020 app. That was unprompted. I'm proud of what got built.
+> We parted ways in March. The product direction came from the top, and design input didn't always have real weight in those calls. That's a legitimate model for a certain kind of startup, but it's not where I do my best work, and by early 2026 both sides could see the fit wasn't there. What I'd say about the work: the design system shipped to production, and the CTO described the product's before-and-after as going from a 2010 app to a 2025 app. That was unprompted. I'm proud of what got built.
 
 If asked whether you left or were let go:
 
@@ -158,7 +158,7 @@ Source: call transcript pasted by Manel. Clare joined about five minutes late; t
 
 ### Questions asked, and what Manel answered
 - **Background:** close to the prepared answer. Added two things not in the prep: "I started there working on design systems for clients" (Kings of Mambo).
-- **Why did you leave Remuner?** A paraphrase, not the memorised version: product came from the top, design didn't have the input needed, "not the way I like to work. So we parted." The CTO "2010 app to a 2020 app" line was left out. Clare summed it up as wanting "more ownership of your own decision making... set the strategy yourself"; Manel agreed.
+- **Why did you leave Remuner?** A paraphrase, not the memorised version: product came from the top, design didn't have the input needed, "not the way I like to work. So we parted." The CTO "2010 app to a 2025 app" line was left out. Clare summed it up as wanting "more ownership of your own decision making... set the strategy yourself"; Manel agreed.
 - **Why Perk?** Clare noted the referral first (Tanna named). Manel gave the structural hook (core and experimental layers, adoption measurement, Figma-to-code parity) and said that's what he has been doing. The stage part (47% and 80%, MUI migration) and the alignment part (pipeline, content keys) weren't used.
 - **Design team scale vs. past teams (not in prep):** Manel said six designers at Abacum, and that at Kings of Mambo he had clients with "around 15, 16 designers".
 - **Did you train and coach those 15? (not in prep):** "Yes, totally": worked on adoption, explained how to build and use the system, took feedback to iterate on components and variants.
@@ -207,8 +207,9 @@ At least one session in person at the office applied to (Barcelona).
 
 ## Round 2: Depth of Expertise (brief written 2026-11-06)
 
-**Date:** not booked. Slots submitted Wed 11 to Tue 17 Nov. 60 min, video.
-**Interviewer:** unknown until the invite. The email says "one of our Lead Product Managers"; on the call Clare said Tim. Re-read this brief once the name is known: a PM probes delivery and prioritisation, Tim (content design) probes content tokens and coaching.
+**Date:** Tue 17 Nov 2026, 10:00-11:00 Madrid, Google Meet (https://meet.google.com/dkd-tpnk-qed). Booked by Clare 11 Nov as "Hiring Manager Interview". Remote because the onsite couldn't be coordinated; an onsite comes later in the process. Perk uses an AI note-taker (opt-out link in Clare's email).
+**Interviewer:** Tim Archer, Senior Content Design Manager, the hiring manager (London). This follows the TA-call version, not the written "Lead PM" process. Weight the brief toward what Tim probes: content and naming in tokens and components, coaching designers, contribution. Keep the delivery and prioritisation answers ready in case it turns into a broader product conversation.
+**Added by Clare:** be ready to talk about how you engage with AI in your work, the tools you know and how you've applied them in the role. Perk calls itself AI-forward. Start from "How do you use AI day to day?" in Round 1 above.
 **Format:** one recent project end to end (core challenges, steps, final impact) plus collaboration: who else was involved and how the team dynamics were handled. No deck required; assets welcome. Time for questions.
 
 ### What Perk most likely cares about

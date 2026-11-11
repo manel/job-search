@@ -4,8 +4,8 @@ role: Principal Product Designer, Market Data
 status: deferred
 status_verified_on: 2026-11-07
 status_confidence: confirmed
-posting_status: unknown
-posting_checked_on: 2026-11-07
+posting_status: open
+posting_checked_on: 2026-11-11
 fit_decision: defer
 role_lane: product
 application_channel: direct
@@ -15,10 +15,10 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Locate the official Dow Jones posting (Workday at dowjones.wd1.myworkdayjobs.com; the CXS API returns 403, so Manel checks in a browser). If live in Barcelona, assess for Proceed: the reported scope (quotes, charting, watchlists, screeners; Index Design System patterns) is a strong data-heavy match.
+next_action: Locate the official Dow Jones posting (Workday at https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career; the CXS API returns 403, so Manel checks in a browser). If live in Barcelona, assess for Proceed: the reported scope (quotes, charting, watchlists, screeners; Index Design System patterns) is a strong data-heavy match.
 next_action_on: 2026-11-09
 salary_stated:
-job_url: https://www.levels.fyi/jobs?jobId=1yyp05tewk8y3
+job_url: https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career/details/Principal-Product-Designer---Market-Data_Job_Req_54916
 source: sourcing/role-leads.csv (manual sourcing, 2026-11-04); JD fetched from the official ATS or careers page 2026-11-07
 ---
 
@@ -49,3 +49,5 @@ source: sourcing/role-leads.csv (manual sourcing, 2026-11-04); JD fetched from t
 
 - 2026-11-04: found during sourcing.
 - 2026-11-07: Posting checked (unknown) and fit assessed: defer. No materials prepared or application sent.
+- 2026-11-11: Still unknown. The levels.fyi link is not the employer posting; the bare Workday domain returns 406. The careers site is https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career (returns 200).
+- 2026-11-11: Manel found the official posting on Workday (Job_Req_54916, posted 2026-11-09, Barcelona, #LI-Hybrid, full time). The JD names the same scope (quotes, charting, watchlists, screeners, portfolios; Index Design System patterns; mentoring senior designers; reports to the VP of Product Design). Published base pay range EUR 70,000-90,000, which confirms the aggregator figure. Must-haves: 10+ years, data-rich experience design, design-system pattern-setting, influence on senior stakeholders, mentoring. The verification gap behind the defer is resolved; decision not yet changed. Sibling Principal reqs on the same board: Energy (54019, posted 2026-10-08) and Subscription Growth, Acquisition (54917, posted 2026-11-09).

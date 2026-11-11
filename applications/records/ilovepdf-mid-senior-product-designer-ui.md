@@ -1,23 +1,23 @@
 ---
 company: iLovePDF
 role: Mid-Senior Product Designer (UI focus)
-status: in-progress
-status_verified_on: 2026-10-19
+status: applied
+status_verified_on: 2026-11-11
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-11-03
+posting_checked_on: 2026-11-11
 fit_decision: proceed
 role_lane: product
-application_channel: direct
+application_channel: direct # LinkedIn Easy Apply
 warm_path: none recorded
-portfolio_version:
-applied_on:
+portfolio_version: 2026-11-11 (live site; Design Systems case)
+applied_on: 2026-11-11
 last_contact_on:
-outcome_stage: not-submitted
+outcome_stage: no-response
 rejection_reason_class: none
-next_action: Lean application via LinkedIn (CV plus portfolio link); no cover letter unless asked. Ask the level and range at first contact
-next_action_on: 2026-10-27
-salary_stated: Not stated; no range in the posting
+next_action: Status nudge via LinkedIn to the job poster or iLovePDF recruiter if no response. At ~3 weeks (2026-12-02) find the design lead on LinkedIn (context/outreach.md); stale at 5 weeks (2026-12-16). Ask level and range at first contact.
+next_action_on: 2026-11-25
+salary_stated: EUR 53,000 gross annual (form field "salary expectations", confirmed by Manel 2026-11-11); no range in the posting
 job_url: https://www.linkedin.com/jobs/view/4470839365/
 source: JD text pasted by Manel from LinkedIn job 4470839365 on 2026-10-19. No official careers page or ATS posting found (ilovepdf.com careers paths 404; no Ashby, Greenhouse, Lever, Workable, Personio or Recruitee board; web search found only an earlier, inactive Product Designer (Design System) listing on studentjob.es)
 ---
@@ -60,3 +60,7 @@ None in `applications/records/` or [applications/archive-2026-07.md](../archive-
 ## History
 
 - 2026-10-19: Assessed from the LinkedIn JD pasted by Manel. No official posting found. Proceed, lean application, low-medium priority. No materials prepared.
+- 2026-11-11: Posting live in the pipeline triage check. CV source drafted: [cv/roles/ilovepdf-mid-senior-product-designer-ui.md](../../cv/roles/ilovepdf-mid-senior-product-designer-ui.md). Lead: hands-on UI and design-system craft; Design Systems case link in the summary. No cover letter (lean).
+- 2026-11-11: Figma layout built in "CV / Manel Leiva", column "ilovepdf" (CV p1 2491:322, p2 2491:350).
+- 2026-11-11: Applied via LinkedIn, confirmed by Manel. Sent: CV (cv-pdf-to-send/Ilovepdf/), no cover letter. The form asked salary expectations (gross annual); 52K was recommended, what Manel entered is unconfirmed. Nudge 2026-11-25, LinkedIn 2026-12-02, stale 2026-12-16.
+- 2026-11-11: Salary stated on the form: EUR 53,000 gross annual (confirmed by Manel).

@@ -2,16 +2,16 @@
 company: PromoFarma / DocMorris
 role: Product Designer (E-commerce)
 status: role-closed
-status_verified_on: 2026-11-07
+status_verified_on: 2026-11-10
 status_confidence: confirmed
 posting_status: closed
-posting_checked_on: 2026-11-06
+posting_checked_on: 2026-11-09
 fit_decision: proceed
 role_lane: product
 application_channel: warm path
 warm_path: Head of Product invited Manel to apply and said he will ask Design to review his profile carefully; outside selection process; confirmed by Manel 2026-10-11
 applied_on: 2026-10-16
-last_contact_on: 2026-11-06
+last_contact_on: 2026-11-09
 outcome_stage: no-response
 next_action: None
 next_action_on: 
@@ -26,7 +26,7 @@ rejection_reason_class: none
 
 ## Current state
 
-**Role closed (2026-11-06, told by the Head of Design; confirmed by Manel 2026-11-07).** The vacancy was a leave cover; the person on leave came back, so the role closed. Not a rejection of Manel's profile. No next action. Earlier state below.
+**Role closed (2026-11-06, told by the Head of Design; confirmed by Manel 2026-11-07).** The vacancy was a leave cover; the person on leave came back, so the role closed. Not a rejection of Manel's profile. Workday confirmed formally on 2026-11-09 ("we are no longer recruiting for this position"). No next action. Earlier state below.
 
 **Applied 2026-10-16** through the PromoFarma careers site, on the Head of Product's recommendation. Same requisition (JR04654) that was reported closed on 2026-10-13; it is live again. Workday sent the automated acknowledgment at 09:53 the same day; no human response yet. Salary stated: EUR 38,000 gross per year for the 34-hour contract (basis confirmed by Manel); slightly above the HoP's rough EUR 35k estimate.
 
@@ -89,3 +89,4 @@ Prepare and apply, using transferable product-design evidence. Ask for the budge
 - 2026-10-16: Manel applied via the PromoFarma careers site (same requisition JR04654, live again) after the Head of Product recommended it. Workday acknowledgment received 09:53. Salary stated EUR 38,000. Status changed from role-closed to applied. CV source reconstructed from the sent PDF, since the 2026-10-12 Markdown had been deleted on 2026-10-13.
 - 2026-10-16: Manel messaged the Head of Product on WhatsApp after applying; the HoP replied that the information had been passed to the right person. Manel confirmed the EUR 38,000 is annual gross for the 34-hour contract.
 - 2026-11-07: Manel reported that the Head of Design told him on 2026-11-06 that the role is closed. Status changed from applied to role-closed. Reason (Manel, 2026-11-07): the vacancy covered a leave ("de baja"), and the person returned, so the role was no longer needed. Not a rejection.
+- 2026-11-10: Manel supplied the Workday email from the DocMorris Talent Acquisition Team, sent 2026-11-09 16:48, for JR04654: "we are no longer recruiting for this position", with a generic invitation to watch for new openings. Formal confirmation of the closure; status stays role-closed. No feedback given.

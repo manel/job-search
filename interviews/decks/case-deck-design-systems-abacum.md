@@ -71,14 +71,17 @@ Every claim is checked against [evidence/experience-facts.md](../../evidence/exp
 
 ---
 
-## 7. Architecture
+## 7. Architecture (build: cards, then the token audit)
 
 **Label:** Architecture
 **Headline:** We kept MUI to avoid a five-squad rewrite
 **Cards:** Keep MUI as the base. Primitive tokens (raw values). Semantic tokens (names tied to use, `color-text-primary`).
 **Pipeline line:** Figma Variables → Token Studio → Style Dictionary → code
+**Build, step 2 (token audit):** the token screenshot fades out; everything except the Semantic tokens block dims to 40%. A card appears in the screenshot's place: "Token audit, January 2024". The head of design asked: can `actionSecondary` merge into `secondary`? My answer: these texts are interactive. With one token for both, it's unclear when to use which, and we can't adjust the group on its own.
+**Build, step 3:** Decision: keep `actionSecondary` and match token names to the alert variants. The question, the answer and the Semantic tokens block dim to 40%.
+**Image (optional, step 2):** page "2401 Token audit", section "Analisys and proposal" ([4775:165](https://www.figma.com/design/UueAtXpFYzKECtUnK18a8B/?node-id=4775-165)), cropped to the question note and the critique note ([4775:131](https://www.figma.com/design/UueAtXpFYzKECtUnK18a8B/?node-id=4775-131)). Check the crop for customer names before use.
 
-**Notes:** All five squads already used MUI; replacing it would have meant rewriting every screen. Squads could adopt Abax gradually. I didn't build the pipeline; I made the token decisions inside it.
+**Notes:** All five squads already used MUI; replacing it would have meant rewriting every screen. Squads could adopt Abax gradually. I didn't build the pipeline; I made the token decisions inside it. The token audit shows what a token decision looked like: the head of design asked the question, I argued in writing on the shared page, and the decision note has no author. Say "I argued", "we decided". Source: [evidence/figma/abacum-abax-core.md](../../evidence/figma/abacum-abax-core.md); register entry "Claim (token audit)" in [evidence/experience-facts.md](../../evidence/experience-facts.md).
 
 ---
 
@@ -173,7 +176,7 @@ Every claim is checked against [evidence/experience-facts.md](../../evidence/exp
 
 ## Speaker notes to paste into Figma
 
-The Figma plugin API can't write Slides speaker notes, so paste these by hand. Actions sit on their own line, starting with ▶ and in [brackets]. Don't read those lines aloud. "Figma N" is the slide's position in the v2 row (34 slides; builds are separate slides). Build steps checked against the file on 2026-11-08.
+The Figma plugin API can't write Slides speaker notes, so paste these by hand. Actions sit on their own line, starting with ▶ and in [brackets]. Don't read those lines aloud. "Figma N" is the slide's position in the v2 row (36 slides; builds are separate slides). Build steps checked against the file on 2026-11-08; Figma 15 and 16 (token audit) built and numbering updated 2026-11-11.
 
 **Figma 1 (Cover)**
 With the head of design, I co-led Abax, a design system that all five product squads used. When I left, about 47% of the component uses we tracked in the code were Abax, against a goal of 80%.
@@ -233,88 +236,98 @@ After Maker Days we planned adoption. The goal was for 80% of all Abax and MUI c
 **Figma 14 (Architecture)**
 We kept MUI as the base. All five squads used it, and replacing it would have meant rewriting every screen. Abax added primitive tokens for raw values and semantic tokens named by use, like color-text-primary. Tokens went from Figma Variables through Token Studio and Style Dictionary into code. I made the token decisions; I didn't build the pipeline.
 ▶ [Point at the pipeline line.]
+▶ [Click.]
 
-**Figma 15 (Rollout)**
-Squads migrated in their own sprints while design ran the library. New form elements shipped behind feature flags, and each squad added its own migration tickets.
+**Figma 15 (Token audit)**
+In January 2024 the head of design and I audited the tokens, component by component, on one Figma page. One question was whether actionSecondary could merge into secondary. I argued against it. Those texts are interactive. With one token for both, designers wouldn't know when to use which, and we'd lose the option to adjust that group on its own.
 ▶ [Click.]
 
 **Figma 16**
+We kept actionSecondary and matched the token names to the alert variants: action, warning, danger, success. It's still in the Abax variables.
+▶ [Say "I argued", "we decided". Don't say the warning, danger or success secondaries shipped: only actionSecondary is in the variables.]
+▶ [Short on time: click through 15 and 16 and keep the audit for Q&A.]
+
+**Figma 17 (Rollout)**
+Squads migrated in their own sprints while design ran the library. New form elements shipped behind feature flags, and each squad added its own migration tickets.
+▶ [Click.]
+
+**Figma 18**
 Every designer came to a weekly library sync. I started it in July 2022 and it ran for almost two years. I proposed two Figma libraries: Exploration for experiments, Implementation for published work.
 ▶ [Click.]
 
-**Figma 17**
+**Figma 19**
 Problems came in through issue reports in Notion and Slack: broken components, naming, missing variants and detaches. Engineers got a lint warning when they imported an MUI component that Abax replaced.
 ▶ [The lint rule covered Button, Select, Tab, Tooltip and Chip, as a warning. Don't say it checked tokens or blocked builds.]
 ▶ [Click.]
 
-**Figma 18**
+**Figma 20**
 I ran the sync and the issue process. An engineer wrote the lint rule.
 
-**Figma 19 (Measurement)**
+**Figma 21 (Measurement)**
 We measured adoption in two places. In code, every month, front-end engineers counted every Abax and MUI component use. When I left, about 47% were Abax. The goal was 80% of the same count.
 ▶ [Click.]
 
-**Figma 20**
+**Figma 22**
 In Figma, every two weeks, we tracked a health score: library instances divided by all UI nodes, counting detached instances and one-off frames too.
 ▶ [Click.]
 
-**Figma 21**
+**Figma 23**
 A ranking of the most-detached components told us what to fix first. Roughly, under 5% was fine, 5 to 15% a warning, over 15% broken.
 ▶ [Thresholds are approximate. Don't quote a health score: no history survives.]
 ▶ [Click.]
 
-**Figma 22**
+**Figma 24**
 I defined the Figma measures, and an engineer built the scripts. The 47% comes from the code count only.
 ▶ [Two measures, two denominators. Never merge them.]
 
-**Figma 23 (Select and Autocomplete)**
+**Figma 25 (Select and Autocomplete)**
 One example: the detachment ranking pointed at Select and Autocomplete. Designers detached the menu to add or remove items, because hiding items broke the auto layout. Some weren't sure when to use Select and when to use Autocomplete.
 ▶ [Click.]
 
-**Figma 24**
+**Figma 26**
 We split it into Select, Menu and Menu item. A placeholder slot let designers build their own items locally and swap them in.
 ▶ [If asked: this was before Figma's native slots. It was a placeholder component plus instance swap.]
 ▶ [Click.]
 
-**Figma 25**
+**Figma 27**
 We wrote down when to use each, on the docs page and in the component description.
 ▶ [Click.]
 
-**Figma 26**
+**Figma 28**
 Then I ran a session in the weekly design-system meeting, walked designers through it and collected feedback.
 ▶ [Click.]
 
-**Figma 27**
+**Figma 29**
 Detachments on these components almost stopped. The remaining issues went into later iterations.
 ▶ ["Almost stopped" is recollection. No figure.]
 ▶ [Click: the steps dim and the result stays lit.]
 
-**Figma 28**
+**Figma 30**
 ▶ [Nothing new to say. Pause on the result, then click to the next slide.]
 
-**Figma 29 (Coaching)**
+**Figma 31 (Coaching)**
 Most adoption problems came from designers not knowing what existed; no squad resisted Abax. Every release went out on Slack to design and engineering. Some weekly meetings coached new components, variants and practices, and anyone who needed more got a one-to-one session. When the data showed a component going unused, I asked the designers why and fixed the cause in the next iteration.
 ▶ [Don't invent a resisting squad. No single designer's before and after is recorded; describe the practice.]
 
-**Figma 30 (Outcome)**
+**Figma 32 (Outcome)**
 Abax reached all five squads. About 47% of tracked component uses were Abax, against an 80% goal. Two squads finished the form migration and a third was underway. The weekly sync ran for almost two years.
 ▶ [Point at the source line if asked: the 47% is reconstructed from monthly counts; the raw exports aren't available.]
 ▶ [Click.]
 
-**Figma 31**
+**Figma 33**
 We didn't reach 80%. Squads migrated one by one, through reworks and new features, and there was no dedicated clean-up.
 ▶ [Say this before they ask.]
 ▶ [Click.]
 
-**Figma 32**
+**Figma 34**
 A designer also built a new screen quickly from existing variants, and customers said the product felt more polished.
 ▶ [No velocity number exists. Don't invent one.]
 
-**Figma 33 (What I took to Remuner)**
+**Figma 35 (What I took to Remuner)**
 When I built Remuner's system alone, I changed three things. A smaller token set: build what the product uses, extend when it needs more. A lint rule for token use, strict at first, then failing only new violations. And an audit board tracking each core screen: 10 of 18 were on the system when I left.
 ▶ [If they want more: bridge to the Remuner deck.]
 
-**Figma 34 (LLMs today)**
+**Figma 36 (LLMs today)**
 Today I'd use LLMs in four places. Connect an agent to Figma to inspect components and spot inconsistent patterns. Agree on token names, then update Figma variables and code tokens together. Draft variants, code, tests and docs from a shared spec. And write and open the code PR myself, with engineers reviewing it before release. At Remuner I already used the Figma MCP to manage tokens and run contrast checks.
 What would be most useful to go deeper on?
 ▶ [Then stop and let them choose. If they ask for the Figma files or a flow, go there straight away.]
@@ -342,6 +355,8 @@ What would be most useful to go deeper on?
 
 **"How did you handle the team dynamics?"** Head of design as co-lead; engineering leadership for the time; squad designers in the weekly sync; squads owned their own migration tickets. Battle card C for the capacity objection.
 
+**"Tell me about a disagreement with your co-lead."** The January 2024 token audit (slide 7). The head of design asked whether `actionSecondary` could merge into `secondary`. I wrote against it on the audit page: interactive text needs its own token, or nobody knows when to use which. We kept it. Frame it as my argument in a team decision; the decision note has no author.
+
 **"How did system work get prioritised against features?"** Maker Days as a bounded bet, then migration inside squad backlogs and feature work.
 
 **"What was hard?"** Two things. Contribution ran on extra hours, with little help from outside design and engineering, and Maker Days every nine weeks was too slow for steady progress, so we moved to a core team of one engineer and one designer. And the switch from building token infrastructure to shipping components: when we had to make it, Text input, Select, Autocomplete and Menu still had undocumented variants.
@@ -352,4 +367,4 @@ What would be most useful to go deeper on?
 
 **"What was your contribution vs the team's?"** Co-led the business case. Token decisions, the Figma library, the two-library split, the sync and the issue process, the Figma measures. Engineers built the pipeline, the components in code, the scripts and the lint rule.
 
-**Don't claim:** that the lint rule checked tokens or blocked builds; a health score or trend; a velocity number; "80% of new UI"; that you wrote the pipeline or scripts; that the tokens were built in the Maker Days week; that you designed most of the component library (another designer built most of the earlier one).
+**Don't claim:** that the lint rule checked tokens or blocked builds; a health score or trend; a velocity number; "80% of new UI"; that you wrote the pipeline or scripts; that the tokens were built in the Maker Days week; that you designed most of the component library (another designer built most of the earlier one); that you made the token-audit decision alone, or that the warning, danger and success secondaries shipped.

@@ -1,23 +1,23 @@
 ---
 company: Markin
 role: Product Designer
-status: in-progress
-status_verified_on: 2026-10-19
+status: applied
+status_verified_on: 2026-11-11
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-11-03
+posting_checked_on: 2026-11-11
 fit_decision: proceed
 role_lane: ai-product
 application_channel: direct
 warm_path: none recorded
-portfolio_version:
-applied_on:
+portfolio_version: 2026-11-11 (live site; AI agent case linked in the form answer)
+applied_on: 2026-11-11
 last_contact_on:
-outcome_stage: not-submitted
+outcome_stage: no-response
 rejection_reason_class: none
-next_action: Apply via the careers form. It needs a CV link (not an upload), a LinkedIn or portfolio link, and a required "Why Markin, why this role" answer, which must be drafted and humanized. Ask the level and range at first contact
-next_action_on: 2026-10-23
-salary_stated: Not stated; no range published
+next_action: Status nudge by email or LinkedIn to the Markin team if no response. At ~3 weeks (2026-12-02) find the design or product lead on LinkedIn (context/outreach.md); stale at 5 weeks (2026-12-16). Ask level and range at first contact.
+next_action_on: 2026-11-25
+salary_stated: Not stated (no salary field in the form); no range published
 job_url: https://markin.ai/careers/product-designer
 source: Official Markin careers page fetched 2026-10-19 (Spanish version, application form live)
 ---
@@ -65,3 +65,6 @@ None in `applications/records/` or [applications/archive-2026-07.md](../archive-
 ## History
 
 - 2026-10-19: Official posting fetched (open). On-site flagged; Manel confirmed on-site Barcelona is acceptable. Assessed: Proceed. No materials prepared.
+- 2026-11-11: Posting live in the pipeline triage check. CV source and form answer drafted: [cv/roles/markin-product-designer.md](../../cv/roles/markin-product-designer.md), [application-answers/markin-product-designer.md](../../application-answers/markin-product-designer.md). Lead: Remuner AI agent; AI agent case link in the summary. Answer in English (the page served in Spanish; switch if Manel prefers).
+- 2026-11-11: Figma layout built in "CV / Manel Leiva", column "markin" (CV p1 2491:204, p2 2491:232). Page 1 fits.
+- 2026-11-11: Applied via the careers form, confirmed by Manel. Sent: CV (cv-pdf-to-send/Markin/, hosted on Google Drive: https://drive.google.com/file/d/1qUtkgDe-Wvqnn5oizlvMe-dtaSRbmP8I/view?usp=sharing; keep this file unchanged), portfolio manel-leiva.com, "Por qué Markin" answer shortened to one paragraph (application-answers/markin-product-designer.md). Nudge 2026-11-25, LinkedIn 2026-12-02, stale 2026-12-16.

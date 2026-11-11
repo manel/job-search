@@ -48,7 +48,7 @@ The setup: sole designer at a startup. No infrastructure, no prior system. Had t
 
 The approach: deliberately small token set. Lessons from Abacum applied: complexity is a debt you pay later. Used AI assistance for the pipeline implementation, had engineer sign-off on each step.
 
-The outcome: CTO described the before-and-after as going from a 2010 app to a 2020 app. That quote exists because the change was visible to someone technical who previously had no strong opinion about design.
+The outcome: CTO described the before-and-after as going from a 2010 app to a 2025 app. That quote exists because the change was visible to someone technical who previously had no strong opinion about design.
 
 Use for: earning trust quickly, above and beyond, working without authority, making decisions with no playbook, startup context.
 
@@ -80,7 +80,7 @@ This question will come up in every process. The departure was company-initiated
 
 **The answer (memorize this version, not a paraphrase):**
 
-"We parted ways in March. Remuner operated in a very founder-driven way: product direction came from the top, and design input didn't always have real weight in those calls. That's a legitimate model for a certain kind of startup, but it's not where I do my best work, and by early 2026 both sides could see the fit wasn't there. What I'd say about the work: the design system shipped to production, and the CTO described the product's before-and-after as going from a 2010 app to a 2020 app. That was unprompted. I'm proud of what got built."
+"We parted ways in March. Remuner operated in a very founder-driven way: product direction came from the top, and design input didn't always have real weight in those calls. That's a legitimate model for a certain kind of startup, but it's not where I do my best work, and by early 2026 both sides could see the fit wasn't there. What I'd say about the work: the design system shipped to production, and the CTO described the product's before-and-after as going from a 2010 app to a 2025 app. That was unprompted. I'm proud of what got built."
 
 Then stop. Do not add anything.
 

@@ -1,8 +1,8 @@
 ---
 company: Pasiona (consultancy; client undisclosed, HQ in Paris)
 role: Senior Product Designer – UX/UI (eCommerce)
-status: in-progress
-status_verified_on: 2026-10-19
+status: skipped
+status_verified_on: 2026-11-11
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-11-03
@@ -15,8 +15,8 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Base CV only, no tailoring, via the Personio form. Before submitting, or at first contact, ask the client's name; if it matches the Extia (or Conkord) client, keep only one channel
-next_action_on: 2026-10-29
+next_action: None
+next_action_on: 
 salary_stated: Not stated
 job_url: https://pasiona.jobs.personio.com/job/2780277
 source: Pasiona Personio XML feed, fetched 2026-10-19 (created 2026-09-03; Barcelona, permanent, full-time)
@@ -47,3 +47,4 @@ source: Pasiona Personio XML feed, fetched 2026-10-19 (created 2026-09-03; Barce
 ## History
 
 - 2026-10-19: Assessed from the Personio posting. Proceed, minimal effort, after Manel's instruction not to discard e-commerce.
+- 2026-11-11: Dropped in pipeline triage (Manel's decision): two weeks past the planned send date, low-signal channel, never submitted. Set `skipped`.

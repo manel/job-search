@@ -20,11 +20,11 @@ It launched to all customers. Feedback was mixed, so I kept working on tone, ans
 
 At Abacum, a financial planning platform, finance teams had to configure their data before they could model with it. On the left is what that configuration was: JSON, handled by our engineers. Customers depended on them for every setup.
 
-I led the design and the testing for Dataset Manager, an interface on top of that configuration. On the right, a user picks a column, marks it as a dimension and turns on auto-mapping, without writing any code.
+I led the design and the testing for Dataset Manager. It turned that JSON into a structured list of actions that contained formulas. On the right is one of the simpler actions: a user picks a column, marks it as a dimension and turns on auto-mapping.
 
 Testing changed one decision. I tested first with our FP&A specialists, who set up datasets for customers every day, then with customers. They could explain their transformations with Excel functions, but they couldn't write them in SQL. After an interim step with SQL-like formulas, transformations moved to Abacum's own formula language, which stays close to Excel.
 
-The result is qualitative. The engineers who handled customer setups reported less configuration work. We didn't measure it.
+As a result, customers could set up their own datasets, and the engineers who handled customer estimated a standard setup took about half the time.
 
 ## Frame 3: Modeling Syntax
 

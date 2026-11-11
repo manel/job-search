@@ -58,7 +58,7 @@ Cleaned 2026-10-14 during the career-os merge: entries now covered by the eviden
 
 **2026-06-08** — Do not overclaim technical ownership of the token pipeline. Manel adapted the Abacum pipeline at Remuner using AI assistance. An engineer built the original at Abacum. The correct framing is ownership of the brief, decisions, and outcome — not the implementation.
 
-**2026-06-08** — Outcomes sections must use named qualitative signals, not vague positive claims. "The project was well received" is not a signal. "The CTO said unprompted: from a 2010 app to a 2020 app" is a signal. Name the person, name the moment.
+**2026-06-08** — Outcomes sections must use named qualitative signals, not vague positive claims. "The project was well received" is not a signal. "The CTO said unprompted: from a 2010 app to a 2025 app" is a signal. Name the person, name the moment.
 
 **2026-06-08** — Own the absence of hard metrics directly. Do not hedge with "we believe" or "we think the project improved...". Say there are no hard metrics, then anchor to the strongest qualitative signal available.
 

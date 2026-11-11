@@ -6,6 +6,8 @@ Backlog from the 2026-11-09 Figma audit ([README.md](README.md)). Ranked by hiri
 
 Do this first: it's the deck for the Perk Depth of Expertise call.
 
+**Status (2026-11-11):** applied to the deck source on slide 7 (build steps 2 and 3, speaker notes Figma 14a and 14b, Q&A entry, Don't claim line) and to the register ("Claim (token audit)"). Built in Figma 2026-11-11 (v2 row, positions 14 to 16; no image crop used). The decision note's full secondary family didn't ship: only `actionSecondary` is in the variables. Live case and the "Also available" items are still open.
+
 - **Where:** [case-deck-design-systems-abacum.md](../../interviews/decks/case-deck-design-systems-abacum.md), slide 7 (Architecture) or 8 (Governance), as a build.
 - **What:** the head of design proposed merging `actionSecondary` into `secondary`. Manel argued it would blur when to use which and reduce flexibility to adjust a semantic group. A "⚓️ Decision" note aligns tokens with alert variants (action, warning, danger, success, each with a secondary). Source: [abacum-abax-core.md](abacum-abax-core.md), page "2401 Token audit", sections [4775:165](https://www.figma.com/design/UueAtXpFYzKECtUnK18a8B/?node-id=4775-165) and [4786:183](https://www.figma.com/design/UueAtXpFYzKECtUnK18a8B/?node-id=4786-183).
 - **Also available:**

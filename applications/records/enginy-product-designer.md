@@ -12,11 +12,11 @@ application_channel: direct
 warm_path: "No known personal connection; Jaume Puig, CTO and co-founder, publicly invited candidates to DM him about the role"
 portfolio_version: 2026-09-15
 applied_on: 2026-09-15
-last_contact_on: 2026-11-05
+last_contact_on: 2026-11-10
 outcome_stage: recruiter-screen
 rejection_reason_class: none
-next_action: Wait for Saul to confirm receipt of the take-home and the next stage (VP of Product); nudge in the same thread if no reply
-next_action_on: 2026-11-10
+next_action: Await Saul's reply to the 10 Nov nudge (take-home receipt, VP of Product stage). If silent, short LinkedIn DM to Jaume Puig (CTO, invited candidates to DM him).
+next_action_on: 2026-11-16
 salary_stated: EUR 62,000 gross annual
 job_url: https://job-boards.eu.greenhouse.io/enginy/jobs/4968694101
 source: JD supplied by Manel; Greenhouse job API; Enginy website; public LinkedIn activity from Jaume Puig
@@ -132,3 +132,4 @@ External research, his own description of his current process ("ask me again in 
 - 2026-10-29: Invite accepted and repo cloned to `~/Dev/social-selling-take-home-manel` (Manel). Brief read from the repo's README: redesign Enginy's Social Selling module (Analytics, Engagement, Prospects, Publishing, post and identity detail pages) around two users: a seller who on Monday morning wants to know who to reach out to, which posts worked and what to post next, and a sales leader who wants to know who is active, who has gone quiet and whether posting turns into conversations. Merging, cutting or removing pages is explicitly allowed. Time box 6-8 hours; extra hours not rewarded. Deliverables: changes to the real screens (a working prototype counts for more than polish), a one-page `PROPOSAL.md` (users, what changed, what was cut and why, next steps) and an optional 5-10 minute video linked at its top. Submission means pushing to `main` on the repo: no PR, no email. Enginy reviews whatever is there 7 days after the invite was accepted, so Thu 5 Nov. Criteria: problem framing, prioritisation, structure across the product, interaction and visual quality including design-system use, communication. Code quality and which AI tool was used are not judged. Saul is to send a Claude Code API key; not received as of 2026-10-29 (Manel). Manel confirmed accepting the invite on 2026-10-29, so the review date is Thu 5 Nov. The sandbox deliberately excludes engagement automation (auto-comments, reposts, boosted likes) and the brief asks that none of it be added back.
 - 2026-11-02: Email from Saul Villa (13:19) with the Claude Code API key for the take-home (key not stored in this repo; it is in Manel's inbox). He asks Manel to confirm receipt and says he would like the task back "in 7 days". Counted from this email that is Mon 9 Nov, against the README's review on Thu 5 Nov (7 days after the invite was accepted). Unresolved: work to Thu 5 Nov unless Saul confirms the later date.
 - 2026-11-05: Take-home delivered. Manel pushed `main` (PROPOSAL.md with an 8-minute video walkthrough on Google Drive, link tested signed-out by Manel) and every `explore/*` branch to `Genesy-AI/social-selling-take-home-manel`, then emailed Saul in the same thread to say it is ready ([email](../../outreach/enginy-saul-villa-2026-11-05.md)). Saul had not answered Manel's earlier message in that thread confirming repo access (sent about 2 Nov, per Gmail "sent 3 days ago" on 5 Nov). The 5 Nov vs 9 Nov deadline question is moot: delivered on the earlier date.
+- 2026-11-10: Manel nudged Saul in the same thread, asking whether the take-home came through and offering availability for the VP of Product round ([email](../../outreach/enginy-saul-villa-2026-11-10.md)). Next check Mon 16 Nov; if silent, DM Jaume Puig.
