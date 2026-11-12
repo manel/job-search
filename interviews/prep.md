@@ -11,7 +11,7 @@ Start here. Each kind of material lives in one file; briefs in `interviews/[comp
 | [playbooks/live-challenge.md](playbooks/live-challenge.md) | Live design challenges: vision before scoping, the Dashinsky takeaways, the pre-challenge checklist. |
 | [playbooks/ways-of-working.md](playbooks/ways-of-working.md) | Ways-of-working round themes. |
 | [playbooks/before-the-call.md](playbooks/before-the-call.md) | Pre-interview checklist and questions to ask them. |
-| [decks/](decks/) | Case deck sources, one per case. |
+| [decks/](../decks/) | Case deck sources, one per case. |
 | [drills/](drills/) | Case-framing drills. Never open the keys before answering. |
 | [reference/](reference/) | [Business terms](reference/business-terms.md) and the [AI agent feedback cheat sheet](reference/ai-agent-feedback-cheat-sheet.md). |
 | [archive/](archive/) | Frozen material: the [old prep file](archive/prep-2026-11-12.md), the [battle cards](archive/behavioral-battle-cards-2026-10.md), the Textream scripts and rehearsal transcripts. Don't prepare from it. |

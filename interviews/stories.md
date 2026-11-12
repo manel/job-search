@@ -60,7 +60,7 @@ Name the result even when it is mixed. End there and let them ask a follow-up. "
 
 ### dataset-manager
 
-Dataset Manager: testing changed the direction of a self-service data-configuration tool. Deck: [case-deck-dataset-manager.md](decks/case-deck-dataset-manager.md). Evidence: [register, Dataset Manager](../evidence/experience-facts.md#dataset-manager).
+Dataset Manager: testing changed the direction of a self-service data-configuration tool. Deck: [case-deck-dataset-manager.md](../decks/case-deck-dataset-manager.md). Evidence: [register, Dataset Manager](../evidence/experience-facts.md#dataset-manager).
 
 **Opener:** "At Abacum, testing changed our direction for a self-service data-configuration tool."
 
@@ -89,7 +89,7 @@ Letting users create a missing dimension without leaving the dataset they were c
 
 ### modeling-language
 
-Making Abacum's formula language consistent across functions. Deck: [case-deck-modeling-syntax.md](decks/case-deck-modeling-syntax.md). Evidence: [register, Modeling language](../evidence/experience-facts.md#modeling-language).
+Making Abacum's formula language consistent across functions. Deck: [case-deck-modeling-syntax.md](../decks/case-deck-modeling-syntax.md). Evidence: [register, Modeling language](../evidence/experience-facts.md#modeling-language).
 
 - **Context:** The modeling layer used several formula patterns, so users had to learn a different structure for each function.
 - **My responsibility:** Led research and design with the head of design: customer-call evidence and competitor benchmarking. Partnered with an engineer on the syntax decisions.
@@ -102,7 +102,7 @@ Making Abacum's formula language consistent across functions. Deck: [case-deck-m
 
 ### abax
 
-The Abax design system as one case: co-led with the head of design across five product squads. Use the deck for a full walkthrough and the three episodes below for behavioral questions. Deck: [case-deck-design-systems-abacum.md](decks/case-deck-design-systems-abacum.md). Evidence: [register, Abax design system](../evidence/experience-facts.md#abax-design-system).
+The Abax design system as one case: co-led with the head of design across five product squads. Use the deck for a full walkthrough and the three episodes below for behavioral questions. Deck: [case-deck-design-systems-abacum.md](../decks/case-deck-design-systems-abacum.md). Evidence: [register, Abax design system](../evidence/experience-facts.md#abax-design-system).
 
 **Result line (from the deck):** "With the head of design, I co-led Abax, a design system that all five product squads used. When I left, about 47% of the component uses we tracked in the code were Abax, against a goal of 80%."
 
@@ -153,7 +153,7 @@ A smaller workable fix for deprecated components showing up in Figma search. Evi
 
 ### remuner-ds
 
-Building Remuner's design system from scratch as the sole designer. Deck: [case-deck-design-systems-remuner.md](decks/case-deck-design-systems-remuner.md). Evidence: [register, Design system and token pipeline](../evidence/experience-facts.md#design-system-and-token-pipeline).
+Building Remuner's design system from scratch as the sole designer. Deck: [case-deck-design-systems-remuner.md](../decks/case-deck-design-systems-remuner.md). Evidence: [register, Design system and token pipeline](../evidence/experience-facts.md#design-system-and-token-pipeline).
 
 - **Context:** Sole designer at a startup with no system in place. Each screen had its own Select, with different styles and behaviour.
 - **My responsibility:** Built the component library and design system. Owned the brief, decisions and outcome of the token pipeline, which engineers adapted from the Abacum foundation to Remuner's Vuetify and Sass stack.
@@ -195,7 +195,7 @@ A token file deleted by mistake caused a short production outage. Evidence: [reg
 
 ### ai-agent
 
-Designing Remuner's conversational agent for questions about commissions and plans. Deck: [case-deck-ai-agent.md](decks/case-deck-ai-agent.md). Evidence: [register, Conversational AI agent](../evidence/experience-facts.md#conversational-ai-agent).
+Designing Remuner's conversational agent for questions about commissions and plans. Deck: [case-deck-ai-agent.md](../decks/case-deck-ai-agent.md). Evidence: [register, Conversational AI agent](../evidence/experience-facts.md#conversational-ai-agent).
 
 **Opener:** "At Remuner, I designed a conversational agent for questions about commissions and sales plans."
 

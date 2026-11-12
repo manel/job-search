@@ -33,7 +33,7 @@ Replaces the 2026-11-05 Perk handoff (still in git history at `a0edd21`). The ne
 
 1. **Perk booking.** Check whether the calendar invite has arrived. If not, and it's past midday on Wed 11, draft the reply to Clare for Manel to send. Log it in the record History.
 2. **Update the submodule:** `git -C portfolio pull`, then commit the pointer change in job-search on its own. Ask Manel first, because other uncommitted files exist.
-3. **Token audit in the deck.** Target: [interviews/decks/case-deck-design-systems-abacum.md](interviews/decks/case-deck-design-systems-abacum.md), slide 7 (Architecture) or slide 8 (Rollout and governance), as a build. Brief: item 1 in [evidence/figma/deck-and-case-updates.md](evidence/figma/deck-and-case-updates.md). Source: [evidence/figma/abacum-abax-core.md](evidence/figma/abacum-abax-core.md), page "2401 Token audit".
+3. **Token audit in the deck.** Target: [decks/case-deck-design-systems-abacum.md](decks/case-deck-design-systems-abacum.md), slide 7 (Architecture) or slide 8 (Rollout and governance), as a build. Brief: item 1 in [evidence/figma/deck-and-case-updates.md](evidence/figma/deck-and-case-updates.md). Source: [evidence/figma/abacum-abax-core.md](evidence/figma/abacum-abax-core.md), page "2401 Token audit".
    - The beat: the head of design proposed merging `actionSecondary` into `secondary`. Manel argued it would blur when to use which, and reduce the flexibility to adjust a semantic group. A "⚓️ Decision" note aligned tokens with the alert variants (action, warning, danger, success, each with a secondary).
    - Figma nodes: debate [4775:165](https://www.figma.com/design/UueAtXpFYzKECtUnK18a8B/?node-id=4775-165), status quo [4786:183](https://www.figma.com/design/UueAtXpFYzKECtUnK18a8B/?node-id=4786-183).
    - Optional extras: naming anatomy board `3608:22036` (slide 7), the Graveyard of 52 deprecated sets (slide 8), 139 primitive and 193 semantic variables, the color-blindness check as a speaker note.
@@ -58,6 +58,6 @@ Replaces the 2026-11-05 Perk handoff (still in git history at `a0edd21`). The ne
 
 - Perk next action: `grep -n "^next_action" applications/records/perk-senior-design-systems-designer.md`
 - Submodule in sync: `git -C portfolio fetch -q && git -C portfolio status -sb`, then `git status -s portfolio`
-- Deck slides: `grep -n "^## " interviews/decks/case-deck-design-systems-abacum.md`
-- Token audit landed: `grep -n "actionSecondary" interviews/decks/case-deck-design-systems-abacum.md`
-- No dashes in the deck: `grep -c "—\|–" interviews/decks/case-deck-design-systems-abacum.md`
+- Deck slides: `grep -n "^## " decks/case-deck-design-systems-abacum.md`
+- Token audit landed: `grep -n "actionSecondary" decks/case-deck-design-systems-abacum.md`
+- No dashes in the deck: `grep -c "—\|–" decks/case-deck-design-systems-abacum.md`

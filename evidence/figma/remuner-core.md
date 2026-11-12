@@ -1,6 +1,6 @@
 # Remuner | ⚛️ Core
 
-File: [SmHO5c8ExGDaO6r2hDvbHy](https://www.figma.com/design/SmHO5c8ExGDaO6r2hDvbHy). 12 pages (7 with content), 280 top-level nodes, 50 image fills. Foundations library: color, elevation, typography, shadows. Full listing: [catalog/remuner-core--SmHO5c.md](catalog/remuner-core--SmHO5c.md). Case source: [interviews/decks/case-deck-design-systems-remuner.md](../../interviews/decks/case-deck-design-systems-remuner.md).
+File: [SmHO5c8ExGDaO6r2hDvbHy](https://www.figma.com/design/SmHO5c8ExGDaO6r2hDvbHy). 12 pages (7 with content), 280 top-level nodes, 50 image fills. Foundations library: color, elevation, typography, shadows. Full listing: [catalog/remuner-core--SmHO5c.md](catalog/remuner-core--SmHO5c.md). Case source: [decks/case-deck-design-systems-remuner.md](../../decks/case-deck-design-systems-remuner.md).
 
 Indexed 2026-11-09 from a full extraction. Ownership: Manel's (confirmed 2026-11-09 for all Remuner files). Pages carry no dates.
 

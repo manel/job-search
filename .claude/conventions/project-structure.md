@@ -34,6 +34,7 @@ job-search/
 ├── outreach/                   ← drafted messages to named contacts
 ├── application-answers/        ← drafted written answers for application forms
 ├── cv-pdf-to-send/             ← final PDFs as sent, one folder per company
+├── decks/                      ← case presentation deck sources (reused across processes; moved from interviews/ 2026-11-12)
 ├── interviews/
 │   ├── prep.md                 ← index: what lives where, old-section map
 │   ├── stories.md              ← every story once, by ID, with claim limits
@@ -41,7 +42,6 @@ job-search/
 │   ├── question-bank.md        ← Q1–Q27 mapped to stories, enterprise bank
 │   ├── playbooks/              ← case presentation, live challenge, ways of working, before the call
 │   ├── [company]/              ← per-process briefs, debriefs, challenge material, scripts (.md)
-│   ├── decks/                  ← case presentation deck sources
 │   ├── drills/                 ← case-framing drills and keys
 │   ├── reference/              ← business terms, AI agent feedback cheat sheet
 │   └── archive/                ← frozen: old prep.md, battle cards, Textream scripts, rehearsal transcripts

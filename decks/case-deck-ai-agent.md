@@ -1,12 +1,12 @@
 # Case Deck: AI Agent (Remuner)
 
-**Figma:** no deck yet. Visuals per slide (flow, reach diagram, annotated conversation rebuilt from the Remu components, cycle diagram, outcome cards) still need building; see [context/ai-agent-notes.md](../../context/ai-agent-notes.md). Build it in the Abacum DS v2 layout ([context/brand.md](../../context/brand.md)).
+**Figma:** no deck yet. Visuals per slide (flow, reach diagram, annotated conversation rebuilt from the Remu components, cycle diagram, outcome cards) still need building; see [context/ai-agent-notes.md](../context/ai-agent-notes.md). Build it in the Abacum DS v2 layout ([context/brand.md](../context/brand.md)).
 **Best for:** Roles that name AI-assisted design or shipped AI product work. Trust, capability scoping and judgment under ambiguity. Pairs with a DS deck when a panel needs product breadth.
 **Duration:** walk-through 10 to 12 minutes; leave the rest for questions. If time runs short, cut slides 2 (Context) and 3 (My role) to one sentence each before touching the proof slides (4, 6, 7, 8).
 **Lead framing:** under pressure to ship an AI feature fast, I scoped it narrow and held that boundary through launch. Then a real failure, wrong numbers reaching customers, showed where the boundary ended.
 **Effects:** candidate build when the deck exists: slide 7, one failure row per click.
 
-Every claim is checked against [evidence/experience-facts.md](../../evidence/experience-facts.md) ("Conversational AI agent") and [context/ai-agent-notes.md](../../context/ai-agent-notes.md) (corrections 2026-07-14 to 2026-07-21). Speaker notes are beats, not a script.
+Every claim is checked against [evidence/experience-facts.md](../evidence/experience-facts.md) ("Conversational AI agent") and [context/ai-agent-notes.md](../context/ai-agent-notes.md) (corrections 2026-07-14 to 2026-07-21). Speaker notes are beats, not a script.
 
 **Ownership guardrails:**
 - No PM on this project. Scope was decided by the CEO, CTO, engineering and me. Never say "with the PM".

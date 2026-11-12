@@ -1,6 +1,6 @@
 # Abacum | Syntax - Implementation
 
-File: [u7ZLkxpgFamXpEkr3si18l](https://www.figma.com/design/u7ZLkxpgFamXpEkr3si18l). 14 pages (11 with content), about 280 top-level nodes. Handoffs for the modeling formula language, February 2023 to January 2024. Full listing: [catalog/abacum-syntax-implementation--u7ZLkx.md](catalog/abacum-syntax-implementation--u7ZLkx.md). Case source: [interviews/decks/case-deck-modeling-syntax.md](../../interviews/decks/case-deck-modeling-syntax.md).
+File: [u7ZLkxpgFamXpEkr3si18l](https://www.figma.com/design/u7ZLkxpgFamXpEkr3si18l). 14 pages (11 with content), about 280 top-level nodes. Handoffs for the modeling formula language, February 2023 to January 2024. Full listing: [catalog/abacum-syntax-implementation--u7ZLkx.md](catalog/abacum-syntax-implementation--u7ZLkx.md). Case source: [decks/case-deck-modeling-syntax.md](../../decks/case-deck-modeling-syntax.md).
 
 Indexed 2026-11-09 from a full extraction. Ownership: Manel's. 🟡 marks pages not shown as shipped; ✅ shipped or handed off. Tickets on the canvas use the ENGN prefix.
 

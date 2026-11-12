@@ -30,7 +30,7 @@ Code dates from `~/Dev/webapp`: DSM formula builder v1 2023-09-20 (ACTS-958), sy
 
 ## Dataset manager (case deck)
 
-File: [Dataset manager](https://www.figma.com/design/ufLGMlcTQvBxZrHT2dS1eh) (Figma Slides). Source text: [interviews/decks/case-deck-dataset-manager.md](../interviews/decks/case-deck-dataset-manager.md).
+File: [Dataset manager](https://www.figma.com/design/ufLGMlcTQvBxZrHT2dS1eh) (Figma Slides). Source text: [decks/case-deck-dataset-manager.md](../decks/case-deck-dataset-manager.md).
 
 | Slide | Content | Link |
 |---|---|---|

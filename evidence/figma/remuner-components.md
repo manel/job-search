@@ -1,6 +1,6 @@
 # Remuner | 💠 Components
 
-File: [N1rTYgkJ4cNvcYZL3BsqzU](https://www.figma.com/design/N1rTYgkJ4cNvcYZL3BsqzU). 63 pages, one per component. Counted on 2026-11-09: 161 component sets with 1,438 variants, plus 171 standalone components. Of these, 183 are public; names starting with `.` or `_` are private building blocks. Only 11 components carry a Figma description. Full listing: [catalog/remuner-components--N1rTYg.md](catalog/remuner-components--N1rTYg.md). Case source: [interviews/decks/case-deck-design-systems-remuner.md](../../interviews/decks/case-deck-design-systems-remuner.md). Foundations: [remuner-core.md](remuner-core.md).
+File: [N1rTYgkJ4cNvcYZL3BsqzU](https://www.figma.com/design/N1rTYgkJ4cNvcYZL3BsqzU). 63 pages, one per component. Counted on 2026-11-09: 161 component sets with 1,438 variants, plus 171 standalone components. Of these, 183 are public; names starting with `.` or `_` are private building blocks. Only 11 components carry a Figma description. Full listing: [catalog/remuner-components--N1rTYg.md](catalog/remuner-components--N1rTYg.md). Case source: [decks/case-deck-design-systems-remuner.md](../../decks/case-deck-design-systems-remuner.md). Foundations: [remuner-core.md](remuner-core.md).
 
 Indexed 2026-11-09 from a full extraction. Ownership: Manel's. Page order: Logo, then Components, Form elements, app-level patterns (Appbar, Email, Navigation, Subheader, Tiers, Widgets), Utilities.
 

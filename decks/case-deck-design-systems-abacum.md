@@ -6,7 +6,7 @@
 **Lead framing:** how a system nobody asked for got time, got adopted by squads that didn't report to us, and how we measured it honestly.
 **Effects:** build sequences copy the Remuner deck: duplicate slides with identical layer names, Smart Animate 0.3s ease-out. Elements fade in one step per click; on the last step earlier elements dim to 40%.
 
-Every claim is checked against [evidence/experience-facts.md](../../evidence/experience-facts.md) (Abax entries, 2026-11-06). Speaker notes are beats, not a script.
+Every claim is checked against [evidence/experience-facts.md](../evidence/experience-facts.md) (Abax entries, 2026-11-06). Speaker notes are beats, not a script.
 
 ---
 
@@ -15,7 +15,7 @@ Every claim is checked against [evidence/experience-facts.md](../../evidence/exp
 **Headline:** Why we built Abax across five product squads
 **Sub:** Abacum, 2022-2024 · B2B financial planning platform
 
-**Notes:** Result first (rule in [playbooks/case-presentation.md](../playbooks/case-presentation.md#rules-for-every-case-deck), "Rules for every case deck"): With the head of design, I co-led Abax, a design system that all five product squads used. When I left, about 47% of the component uses we tracked in the code were Abax, against a goal of 80%. Then the context: Abacum is FP&A software for finance teams, and I joined on data integrations.
+**Notes:** Result first (rule in [playbooks/case-presentation.md](../interviews/playbooks/case-presentation.md#rules-for-every-case-deck), "Rules for every case deck"): With the head of design, I co-led Abax, a design system that all five product squads used. When I left, about 47% of the component uses we tracked in the code were Abax, against a goal of 80%. Then the context: Abacum is FP&A software for finance teams, and I joined on data integrations.
 
 ---
 
@@ -81,7 +81,7 @@ Every claim is checked against [evidence/experience-facts.md](../../evidence/exp
 **Build, step 3:** Decision: keep `actionSecondary` and match token names to the alert variants. The question, the answer and the Semantic tokens block dim to 40%.
 **Image (optional, step 2):** page "2401 Token audit", section "Analisys and proposal" ([4775:165](https://www.figma.com/design/UueAtXpFYzKECtUnK18a8B/?node-id=4775-165)), cropped to the question note and the critique note ([4775:131](https://www.figma.com/design/UueAtXpFYzKECtUnK18a8B/?node-id=4775-131)). Check the crop for customer names before use.
 
-**Notes:** All five squads already used MUI; replacing it would have meant rewriting every screen. Squads could adopt Abax gradually. I didn't build the pipeline; I made the token decisions inside it. The token audit shows what a token decision looked like: the head of design asked the question, I argued in writing on the shared page, and the decision note has no author. Say "I argued", "we decided". Source: [evidence/figma/abacum-abax-core.md](../../evidence/figma/abacum-abax-core.md); register entry "Claim (token audit)" in [evidence/experience-facts.md](../../evidence/experience-facts.md).
+**Notes:** All five squads already used MUI; replacing it would have meant rewriting every screen. Squads could adopt Abax gradually. I didn't build the pipeline; I made the token decisions inside it. The token audit shows what a token decision looked like: the head of design asked the question, I argued in writing on the shared page, and the decision note has no author. Say "I argued", "we decided". Source: [evidence/figma/abacum-abax-core.md](../evidence/figma/abacum-abax-core.md); register entry "Claim (token audit)" in [evidence/experience-facts.md](../evidence/experience-facts.md).
 
 ---
 

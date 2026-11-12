@@ -1,12 +1,12 @@
 # Case Deck: Dataset Manager (Abacum)
 
-**Figma:** https://www.figma.com/slides/ufLGMlcTQvBxZrHT2dS1eh/Dataset-manager (v2 built 2026-11-09 in the top row; v1 kept below it, skipped). Image sources: [evidence/abacum-figma-index.md](../../evidence/abacum-figma-index.md).
+**Figma:** https://www.figma.com/slides/ufLGMlcTQvBxZrHT2dS1eh/Dataset-manager (v2 built 2026-11-09 in the top row; v1 kept below it, skipped). Image sources: [evidence/abacum-figma-index.md](../evidence/abacum-figma-index.md).
 **Best for:** Product design roles, research that changed a direction, complex B2B configuration, cross-functional decisions, staged delivery.
 **Duration:** walk-through 10 to 12 minutes; leave the rest for questions. If time runs short, cut slides 3 (Framing) and 6 (Diagnosis) to one sentence each before touching the proof slides (5, 7, 8, 10).
 **Lead framing:** testing showed the product's language was the blocker, and I got Product and Engineering to change the language in two steps.
 **Effects:** slide 5 is a build: duplicate slides with identical layer names, Smart Animate 0.3s ease-out, one finding per click.
 
-Every claim is checked against [evidence/experience-facts.md](../../evidence/experience-facts.md) (Dataset Manager entries; chronology and the time-saving attribution confirmed 2026-11-09). Speaker notes are beats, not a script.
+Every claim is checked against [evidence/experience-facts.md](../evidence/experience-facts.md) (Dataset Manager entries; chronology and the time-saving attribution confirmed 2026-11-09). Speaker notes are beats, not a script.
 
 Version history: v1 (October 2026) said "SQL shipped first" and credited the time saving to an implementation team. v2 corrects both: customers got SQL-like formulas, and the estimate came from the Integrations squad's engineers. v2.1 (2026-11-09, from the Notion export): the first three testers were Abacum's FP&A specialists, then customer users; "Next time" now names the autonomy metric the squad defined.
 

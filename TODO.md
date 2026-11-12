@@ -27,21 +27,21 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 - [x] **Abacum front-end PRs in the Abax case.** Live 2026-11-07 (portfolio `0ec2eaf`): PR and Abax import-lint sentences in the migration paragraph; hex outcome bullet now says "fewer".
 
 - [x] **Push `portfolio/` and commit the pointer.** Pushed 2026-11-07 (portfolio `221911e`); pointer committed.
-- [ ] **Abacum deck v2 (Figma "Abacum DS", top row), before the Perk Hiring Manager Interview (Tim Archer, Tue 17 Nov, 10:00).** Built 2026-11-06; source [interviews/decks/case-deck-design-systems-abacum.md](interviews/decks/case-deck-design-systems-abacum.md).
+- [ ] **Abacum deck v2 (Figma "Abacum DS", top row), before the Perk Hiring Manager Interview (Tim Archer, Tue 17 Nov, 10:00).** Built 2026-11-06; source [decks/case-deck-design-systems-abacum.md](decks/case-deck-design-systems-abacum.md).
   - Play it once in presentation mode: the Smart Animate builds (slides 2, 3, 8, 9, 10, 12) are untested.
   - [x] Slide 6 Roadmap screenshot cropped 2026-11-08 (clip frame "Roadmap crop"): starts at "How to get there", Owner column removed. The paragraph text is cut at the right edge.
   - [x] Speaker notes for all 34 Figma slides pasted 2026-11-08. Re-paste slides 1, 9, 23, 29 and 32 after the humanizer pass (also Remuner slides 1 and 13b).
-  - Screenshots to `interviews/decks/assets/abacum/`: inconsistent buttons, cells and menus before Abax (slide 2); Abax Select, Menu and Menu item (slide 10, now a recreation). Then swap them in.
+  - Screenshots to `decks/assets/abacum/`: inconsistent buttons, cells and menus before Abax (slide 2); Abax Select, Menu and Menu item (slide 10, now a recreation). Then swap them in.
   - Delete the two old skipped rows once v2 is approved.
 
-- [ ] **Dataset Manager deck v2 (Figma "Dataset manager", top row).** Built 2026-11-09; source `interviews/decks/case-deck-dataset-manager.md`.
+- [ ] **Dataset Manager deck v2 (Figma "Dataset manager", top row).** Built 2026-11-09; source `decks/case-deck-dataset-manager.md`.
   - Paste the 14 speaker notes from the source ("Speaker notes to paste into Figma").
   - Play the slide 5 build in presentation mode; check the slide 4 scope crop and the teal strip on slide 9.
   - Delete the skipped v1 row once v2 is approved.
   - Re-paste speaker notes Figma 5 to 8, 11 and 13: the source changed 2026-11-09 (first test round was our FP&A specialists, then customers; autonomy-metric "Next time"). On-slide text already updated.
 
 - [ ] **Tomorrow, 10 Nov: finish the Notion-driven deck updates** (backlog and status in [evidence/notion/deck-and-case-updates.md](evidence/notion/deck-and-case-updates.md); index in [evidence/notion/README.md](evidence/notion/README.md)).
-  - **Modeling Syntax deck (Figma "Modeling syntax", built 2026-11-09, 10 slides + skipped B1):** paste the speaker notes from [interviews/decks/case-deck-modeling-syntax.md](interviews/decks/case-deck-modeling-syntax.md); play it once; decide whether slide 5 gets the planned build (benchmark, then quote).
+  - **Modeling Syntax deck (Figma "Modeling syntax", built 2026-11-09, 10 slides + skipped B1):** paste the speaker notes from [decks/case-deck-modeling-syntax.md](decks/case-deck-modeling-syntax.md); play it once; decide whether slide 5 gets the planned build (benchmark, then quote).
   - **Abacum DS deck:** re-paste speaker notes Figma 11, 12, 16 and 30 (nine weeks, tokens already in production, sync since July 2022 for almost two years). Build backup B3, the token-groundwork timeline, as a skipped slide.
   - **Live cases (portfolio submodule):** check /cases/dataset-manager for "three customers" or customer-only testing; /cases/modeling-syntax for "nobody had ticketed" or "no ticket"; /cases/design-systems for "quarterly", "eight months" and "one week". Add the benchmark table and customer-call fragments to the syntax case, and the groundwork timeline to the DS case, if they fit.
   - **Open question:** Dataset Manager slide 2 says the squad's engineers configured each dataset; Notion (August 2022) says our FP&A team created customers' connections and datasets in the back office. Confirm who did what before changing the slide.
@@ -93,7 +93,7 @@ Raised 2026-10-26 after the Perk DS rejection at CV review (zero interviews from
 - [ ] The `[NEEDS YOUR STORY]` gaps, listed in [interviews/stories.md](interviews/stories.md#gaps) and marked in [interviews/question-bank.md](interviews/question-bank.md) (Q10, Q17, enterprise gaps). Battle cards merged into stories.md on 2026-11-12.
 - [ ] **Recall sessions** (raised 2026-11-12: targeted questions brought back the Claims-to-Issues rename and the planes fix). 30 to 45 minutes each, one era or project per session, one question at a time, answers logged to [evidence/experience-facts.md](evidence/experience-facts.md) as they come. Order: (1) before Perk Tue 17 Nov, short: one mentoring episode with a result, and vLex scope; (2) after Perk: Kings of Mambo, starting with a year-by-year client and project inventory, then two or three incidents from it (fills the [stories.md gaps](interviews/stories.md#gaps)); (3) Remuner fix-versus-defer and the Q10 manager disagreement. Bring artifacts if you can: old portfolio, archived studio site, Figma or Drive folders, client emails.
 - [ ] **Check three claims carried over from the old prep.md** (2026-11-12): "Storybook in Chromatic" (ways-of-working playbook), the Kings of Mambo deadline and lo-fi feedback stories (not in the register), and Q20's "got cross-squad buy-in". Confirm or correct, then update [evidence/experience-facts.md](evidence/experience-facts.md).
-- [ ] **AI agent case deck** ([interviews/decks/case-deck-ai-agent.md](interviews/decks/case-deck-ai-agent.md)): speaker notes and slide structure are written, but the visuals per slide (flow diagram, annotated conversation screenshot, reach diagram, cycle diagram, outcome cards) still need building or copying from the live portfolio case. Parked 2026-07-24; pick up when a process reaches a case-presentation round. Decide the output form first.
+- [ ] **AI agent case deck** ([decks/case-deck-ai-agent.md](decks/case-deck-ai-agent.md)): speaker notes and slide structure are written, but the visuals per slide (flow diagram, annotated conversation screenshot, reach diagram, cycle diagram, outcome cards) still need building or copying from the live portfolio case. Parked 2026-07-24; pick up when a process reaches a case-presentation round. Decide the output form first.
 
 ## Records hygiene
 

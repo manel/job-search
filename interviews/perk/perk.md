@@ -249,7 +249,7 @@ Arc to know cold (beats, not script), all from [evidence/experience-facts.md](..
 - **Adoption work:** no real resistance; the problem was designers forgetting what existed. Every release on Slack, coaching in the weekly DS meetings, ad hoc sessions for those who needed it; adoption and detachment metrics showed where to ask why, then fix in the next iteration. This is the part that maps straight onto Suitcase.
 - **Your part vs the team's:** "I" for the business case, token and library work, the sync and contribution process; "we" for the decision and the migration. Engineering built the original pipeline.
 
-**Assets to have open:** the Abacum deck v2 (Figma "Abacum DS", top row; source [interviews/decks/case-deck-design-systems-abacum.md](../decks/case-deck-design-systems-abacum.md)) and the live DS case (manel-leiva.com/cases/design-systems). Screen-share only if it helps a specific point.
+**Assets to have open:** the Abacum deck v2 (Figma "Abacum DS", top row; source [decks/case-deck-design-systems-abacum.md](../../decks/case-deck-design-systems-abacum.md)) and the live DS case (manel-leiva.com/cases/design-systems). Screen-share only if it helps a specific point.
 
 ### Likely questions, mapped
 | Question | Use |

@@ -1,6 +1,6 @@
 # Deck and live-case updates from the Figma audit
 
-Backlog from the 2026-11-09 Figma audit ([README.md](README.md)). Ranked by hiring impact. Nothing here has been applied yet. Decks live in `interviews/decks/`; live cases in `portfolio/public/cases/`. The copy is recruiter-facing, so run `no-ai-slop` and `anthropic-skills:humanizer` on any new or changed text. Check every image for customer names, emails and real figures before external use. PNGs are in [images/](images/README.md).
+Backlog from the 2026-11-09 Figma audit ([README.md](README.md)). Ranked by hiring impact. Nothing here has been applied yet. Decks live in `decks/`; live cases in `portfolio/public/cases/`. The copy is recruiter-facing, so run `no-ai-slop` and `anthropic-skills:humanizer` on any new or changed text. Check every image for customer names, emails and real figures before external use. PNGs are in [images/](images/README.md).
 
 ## 1. Abacum DS deck: add the January 2024 token audit
 
@@ -8,7 +8,7 @@ Do this first: it's the deck for the Perk Depth of Expertise call.
 
 **Status (2026-11-11):** applied to the deck source on slide 7 (build steps 2 and 3, speaker notes Figma 14a and 14b, Q&A entry, Don't claim line) and to the register ("Claim (token audit)"). Built in Figma 2026-11-11 (v2 row, positions 14 to 16; no image crop used). The decision note's full secondary family didn't ship: only `actionSecondary` is in the variables. Live case and the "Also available" items are still open.
 
-- **Where:** [case-deck-design-systems-abacum.md](../../interviews/decks/case-deck-design-systems-abacum.md), slide 7 (Architecture) or 8 (Governance), as a build.
+- **Where:** [case-deck-design-systems-abacum.md](../../decks/case-deck-design-systems-abacum.md), slide 7 (Architecture) or 8 (Governance), as a build.
 - **What:** the head of design proposed merging `actionSecondary` into `secondary`. Manel argued it would blur when to use which and reduce flexibility to adjust a semantic group. A "⚓️ Decision" note aligns tokens with alert variants (action, warning, danger, success, each with a secondary). Source: [abacum-abax-core.md](abacum-abax-core.md), page "2401 Token audit", sections [4775:165](https://www.figma.com/design/UueAtXpFYzKECtUnK18a8B/?node-id=4775-165) and [4786:183](https://www.figma.com/design/UueAtXpFYzKECtUnK18a8B/?node-id=4786-183).
 - **Also available:**
   - naming anatomy board [3608:22036](https://www.figma.com/design/UueAtXpFYzKECtUnK18a8B/?node-id=3608-22036), for slide 7
@@ -20,7 +20,7 @@ Do this first: it's the deck for the Perk Depth of Expertise call.
 
 ## 2. Remuner DS deck and live case: show the real "before"
 
-- **Slide 2 (Starting point)** of [case-deck-design-systems-remuner.md](../../interviews/decks/case-deck-design-systems-remuner.md): use the legacy SCSS palette dump and the font-size audit (9px to 25px in production) from [remuner-core.md](remuner-core.md): [109:906](https://www.figma.com/design/SmHO5c8ExGDaO6r2hDvbHy/?node-id=109-906), [0:1](https://www.figma.com/design/SmHO5c8ExGDaO6r2hDvbHy/?node-id=0-1).
+- **Slide 2 (Starting point)** of [case-deck-design-systems-remuner.md](../../decks/case-deck-design-systems-remuner.md): use the legacy SCSS palette dump and the font-size audit (9px to 25px in production) from [remuner-core.md](remuner-core.md): [109:906](https://www.figma.com/design/SmHO5c8ExGDaO6r2hDvbHy/?node-id=109-906), [0:1](https://www.figma.com/design/SmHO5c8ExGDaO6r2hDvbHy/?node-id=0-1).
 - **Slide 9 (Outcome):** "the library at departure": 161 component sets, 1,438 variants, plus domain components (plan cards, pacing bars, tiers, the Remu widget, email templates). Source: [remuner-components.md](remuner-components.md).
 - **Optional:** the OKLCH palette rebuild ([1044:558](https://www.figma.com/design/SmHO5c8ExGDaO6r2hDvbHy/?node-id=1044-558)) as a hardening detail; Key screens ([remuner-key-screens.md](remuner-key-screens.md)) as a one-image platform map.
 - **Q&A:** documentation lived across Notion, Figma and Storybook.
@@ -28,7 +28,7 @@ Do this first: it's the deck for the Perk Depth of Expertise call.
 
 ## 3. Dataset Manager deck and live case
 
-- **Slide 6 (Diagnosis)** of [case-deck-dataset-manager.md](../../interviews/decks/case-deck-dataset-manager.md): the five user problems written on the canvas ("Users have to learn unintuitive and inconsistent nomenclature", "Users can't intuitively write formulas", "...can't easily work with long formulas", "...can't easily read and understand syntax", "On small screens, users can't see the dataset preview"). Source: [abacum-dataset-manager-exploration-live.md](abacum-dataset-manager-exploration-live.md), page "2309 -> Transformation improvements", [4386:192874](https://www.figma.com/design/SX7z0Cp4IMIw8RmNyrsI5G/?node-id=4386-192874).
+- **Slide 6 (Diagnosis)** of [case-deck-dataset-manager.md](../../decks/case-deck-dataset-manager.md): the five user problems written on the canvas ("Users have to learn unintuitive and inconsistent nomenclature", "Users can't intuitively write formulas", "...can't easily work with long formulas", "...can't easily read and understand syntax", "On small screens, users can't see the dataset preview"). Source: [abacum-dataset-manager-exploration-live.md](abacum-dataset-manager-exploration-live.md), page "2309 -> Transformation improvements", [4386:192874](https://www.figma.com/design/SX7z0Cp4IMIw8RmNyrsI5G/?node-id=4386-192874).
 - **Slide 10 (Outcome):** "2312 -> Transformation QA", a check of the shipped formula box against real customer transformations (screenshots from 1 December 2023): [5436:26320](https://www.figma.com/design/SX7z0Cp4IMIw8RmNyrsI5G/?node-id=5436-26320).
 - **Optional, slide 2 (Context):** the verbatim back-end schema errors users used to get ("Schema contains no defined measures", "Formula {formula_name} is of an undefined type"), page "2202 -> Upload a new dataset" in [abacum-dataset-manager-exploration.md](abacum-dataset-manager-exploration.md).
 - **Backup or Q&A:** usability test script next to its prototype ("🙋🏻‍♀️ Auto-sync prototype") and tested rounds ("2303 -> Dataset loads -> months"), both in the backup exploration file; the creation-funnel measurement plan ("2202 -> Create", frame "measure") in [abacum-dataset-manager-implementation.md](abacum-dataset-manager-implementation.md).

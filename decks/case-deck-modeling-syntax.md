@@ -6,7 +6,7 @@
 **Lead framing:** I spotted the syntax inconsistencies, took them to the head of design and wrote the Improve Syntax Usability initiative; I traced them to the functions themselves, made the case to fix the grammar before adding more UI on top, and chose a direction the evidence supported but didn't settle on its own.
 **Effects:** none planned. Candidate build: slide 5, benchmark first, then the customer call.
 
-Every claim is checked against [evidence/experience-facts.md](../../evidence/experience-facts.md) ("Modeling language", including the Notion entries of 2026-11-09) and [context/portfolio.md](../../context/portfolio.md) (Modeling Syntax). Sources for the benchmark, the customer call and the function audit: Notion "Consolidate Abacum functions" ([evidence/notion/deck-and-case-updates.md](../../evidence/notion/deck-and-case-updates.md)). "Days instead of weeks" and fewer formula support requests are recollections confirmed 2026-06-12, with no recoverable numbers. Speaker notes are beats, not a script.
+Every claim is checked against [evidence/experience-facts.md](../evidence/experience-facts.md) ("Modeling language", including the Notion entries of 2026-11-09) and [context/portfolio.md](../context/portfolio.md) (Modeling Syntax). Sources for the benchmark, the customer call and the function audit: Notion "Consolidate Abacum functions" ([evidence/notion/deck-and-case-updates.md](../evidence/notion/deck-and-case-updates.md)). "Days instead of weeks" and fewer formula support requests are recollections confirmed 2026-06-12, with no recoverable numbers. Speaker notes are beats, not a script.
 
 ---
 

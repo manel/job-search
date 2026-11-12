@@ -113,7 +113,7 @@ Source: auto-transcript of the call pasted by Manel (names and places garbled in
 Use Remuner. The mapping in [playbooks/case-presentation.md](../playbooks/case-presentation.md#story-selection) ("Story selection") puts DS-first roles on Remuner, and it suits this brief better than Abacum for three reasons:
 - **"Your role":** you were the sole designer and owned the tokens repo, so there's no co-ownership to hedge. Abacum needs "co-led with the head of design" and "worked on, not built" the pipeline, which costs time in a 15-minute slot.
 - **WCAG:** the palette AA work lives here, and it matches written answer Q3. They've read it.
-- **Recoverable numbers:** 10 of 18 core screens on system components, 630 token variables, 161 component sets, 14 reviewed PRs to the token repo, CTO quote. All from [case-deck-design-systems-remuner.md](../decks/case-deck-design-systems-remuner.md) Q&A notes.
+- **Recoverable numbers:** 10 of 18 core screens on system components, 630 token variables, 161 component sets, 14 reviewed PRs to the token repo, CTO quote. All from [case-deck-design-systems-remuner.md](../../decks/case-deck-design-systems-remuner.md) Q&A notes.
 
 Keep Abacum (`abax`) ready for "how would this work at scale?" or "multiple teams": five squads, business case, migration off MUI, weekly library sync. Do not compare 47% against the 80% target (register conflict, unresolved).
 
