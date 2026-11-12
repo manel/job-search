@@ -3,8 +3,8 @@
 **Figma:** https://www.figma.com/slides/mOXQnVxL9e6XBo8jthv6zB/Modeling-syntax (built 2026-11-09 in the Abacum DS v2 layout; 10 slides plus skipped backup B1). Images: slide 6 from "Abacum | Syntax - Implementation" `550:15424` (clause-style formula, 2023); slide 9 from the same file `1635:26903` (function help popover, January 2024); B1 from "Abacum | Syntax - Exploration (current)" `288:25346` (Future of Syntax prototype, March 2024). Nothing taken from the team workshop page.
 **Best for:** Fintech and data-heavy product roles, initiative across scope, "influence without authority" and "decision with no clear answer" questions.
 **Duration:** walk-through 10 to 12 minutes; leave the rest for questions. If time runs short, cut slides 2 (Context) and 7 (Engineering) to one sentence each before touching the proof slides (5, 6, 9).
-**Lead framing:** syntax usability was a known problem; I traced it to the functions themselves, made the case to fix the grammar before adding more UI on top, and chose a direction the evidence supported but didn't settle on its own.
-**Effects:** none planned. Candidate build when the deck exists: slide 5, benchmark first, then the customer call.
+**Lead framing:** I spotted the syntax inconsistencies, took them to the head of design and wrote the Improve Syntax Usability initiative; I traced them to the functions themselves, made the case to fix the grammar before adding more UI on top, and chose a direction the evidence supported but didn't settle on its own.
+**Effects:** none planned. Candidate build: slide 5, benchmark first, then the customer call.
 
 Every claim is checked against [evidence/experience-facts.md](../../evidence/experience-facts.md) ("Modeling language", including the Notion entries of 2026-11-09) and [context/portfolio.md](../../context/portfolio.md) (Modeling Syntax). Sources for the benchmark, the customer call and the function audit: Notion "Consolidate Abacum functions" ([evidence/notion/deck-and-case-updates.md](../../evidence/notion/deck-and-case-updates.md)). "Days instead of weeks" and fewer formula support requests are recollections confirmed 2026-06-12, with no recoverable numbers. Speaker notes are beats, not a script.
 
@@ -130,11 +130,11 @@ Quote fragments: "several months with your implementation team" · "if it look m
 
 ## Speaker notes
 
-No Figma deck exists yet, so these are keyed by slide number. When the deck is built, renumber them by Figma position and paste them by hand. Actions sit on their own line, starting with ▶ and in [brackets]. Don't read those lines aloud.
+The Figma deck has no build steps, so slide numbers match Figma positions (checked 2026-11-12). Paste these by hand. Actions sit on their own line, starting with ▶ and in [brackets]. Don't read those lines aloud.
 
 **Slide 1 (Cover)**
 At Abacum I standardised the formula syntax across the modeling layer. The rules went into the Abacum Script, and the consistent structure made the editor suggestions project possible. The customer team's recollection was that new users wrote their first useful formula in days instead of weeks.
-Nobody had ticketed this problem, and the evidence didn't hand me the answer, so this case is mostly about how I decided.
+Nobody had ticketed this problem. I spotted the inconsistencies, took them to the head of design and wrote the initiative to fix them. The evidence didn't settle the direction, so this case is mostly about how I decided.
 
 **Slide 2 (Context)**
 Abacum is financial planning software. In the modeling layer, finance teams write the formulas that define their models and plans. Power users spend most of their time there. I moved to the Engine squad, which owned it, after Dataset Manager.
@@ -142,7 +142,7 @@ Abacum is financial planning software. In the modeling layer, finance teams writ
 
 **Slide 3 (The problem)**
 The same concept, like referencing a period or another model, was written differently in different parts of the product. The formulas mixed Excel conventions, SQL-style clauses and custom syntax, because different engineers had built each part at different times.
-Syntax usability was already on the Engine squad's list. When I audited the functions underneath, 15 of the 37 broke the pattern: some put parameters inside the parentheses, some outside, some used SQL-style clauses.
+I wrote the Improve Syntax Usability initiative for the Engine squad. Later I audited the functions underneath, and 15 of the 37 broke the pattern: some put parameters inside the parentheses, some outside, some used SQL-style clauses.
 ▶ [Point at the three examples.]
 
 **Slide 4 (Making the case)**
@@ -184,7 +184,7 @@ What would be most useful to go deeper on?
 
 **"How did you decide what the right syntax was?"** The benchmark and the customer calls pointed the same way: Excel conventions. Where they didn't settle a detail, I picked what a new user would find most predictable.
 
-**"How did you manage this when it wasn't on your squad's roadmap?"** Syntax usability was on the list; the function-level fix wasn't. I got the head of design's support first, kept the investigation small enough to fit around roadmap work, and reported progress as I went.
+**"How did this get onto the roadmap?"** I wrote the Improve Syntax Usability initiative myself. The function-level fix came later, once the audit showed the cause. I got the head of design's support first, kept the investigation small enough to fit around roadmap work, and reported progress as I went.
 
 **"How did you prioritise?"** I scored ten syntax problems with ICE, with impact defined as adoption by finance users who didn't model yet. The top two were understanding which variables a formula uses and understanding and fixing syntax errors. The consolidation came first because the squad rated it low risk and the later UI depended on it.
 
@@ -194,4 +194,4 @@ What would be most useful to go deeper on?
 
 **"How did this connect to business outcomes?"** Power users spend the most time in formulas, so friction there costs the most. The more concrete signal is the editor suggestions project, which needed this work done first.
 
-**Don't claim:** a number for the onboarding time or the support drop; that you built the editor suggestions; that a PM ran this; that nobody had ticketed syntax problems; that syntax was users' top frustration; that you oversaw the release after the handover. Never name the customer or the engineer.
+**Don't claim:** a number for the onboarding time or the support drop; that you built the editor suggestions; that a PM ran this; that syntax was users' top frustration; that you oversaw the release after the handover. Never name the customer or the engineer.

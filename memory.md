@@ -46,6 +46,8 @@ Cleaned 2026-10-14 during the career-os merge: entries now covered by the eviden
 
 **2026-07-15** — Setup-then-reveal sentences are banned in case copy. The pattern: a clever framing sentence that delays the point, then a colon or rhetorical question that reveals it ("The first design decision had no screens in it: what is this agent allowed to talk about?"). Also its cousins: "delivering the number turned out to be the easy half of the job", "the failures were not the ones I had braced for". Manel flagged the pattern in the AI agent case draft. Fix: state the decision or fact directly, one concrete sentence, no windup. Related to the 2026-06-08 aphoristic-contrast ban; both are punchline energy.
 
+**2026-11-12** — Teasers are banned too (principles.md rule 25): a sentence that announces a finding without stating it ("What came back was more nuanced than 'the UI is confusing'", "Vocabulary mattered more than I expected", "The clearest signal came from how the system got used"). Say what the finding is. Manel flagged it in the Dataset Manager case; all six live cases were checked and fixed the same day.
+
 **2026-07-09** — No jargon in Manel's voice documents that he wouldn't say unprompted in an interview. "GA" (General Availability) was in the Qonto CV and cover letter and he had to ask what it meant; a recruiter probing that term would have exposed it as ghostwritten. Test for every term of art: would Manel use this word on a call. If not, plain language ("released to all customers").
 
 **2026-06-08** — Em dashes are the single most flagged AI writing pattern in outputs. Check for them explicitly before every output, not as part of a general review. They survive casual passes.

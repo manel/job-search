@@ -94,7 +94,7 @@ Build and infrastructure:
 
 Measurement: success criteria were defined up front (80% of new UI from Abax components, 100% deprecation of legacy MUI where equivalents existed), tracked by counting Abax vs legacy MUI components in the codebase. Reconstructed readings supplied by Manel 2026-07-08 (raw exports not recoverable): new UI from Abax components at ~47% at departure, still climbing; two of five squads had completed the form element migration, a third was mid-migration. These are the canonical figures; do not invent others. ESLint violations only ever surfaced as editor tooltips and were never aggregated: never claim a violation count or trend.
 
-Governance (8+ months of active operation, the part most DS cases skip):
+Governance (the weekly library sync ran almost two years, July 2022 to March 2024; the part most DS cases skip):
 - Structured issue reporting (categories, Slack channel, Notion)
 - New components released under feature flags; squads added migration tasks to their own backlogs — avoided inconsistency during transition
 - Weekly design library sync with a standing discoverability agenda

@@ -96,7 +96,7 @@ Making Abacum's formula language consistent across functions. Deck: [case-deck-m
 - **Actions and why:** Proposed extending and standardising the existing language instead of introducing a new one. Used customer evidence to show the problem. There was no established pattern to copy, so the decision was a judgment call built on enough evidence to defend.
 - **Result:** The consistent structure later supported contextual suggestions in the formula editor (the Dataset Manager autocomplete, November 2023). Faster writing and fewer support questions are qualitative feedback, not measured.
 
-**Limits:** Syntax decisions were shared with Engineering. Syntax usability was already an Engine initiative, so never say nobody had ticketed it. Adoption of the suggestions is not established.
+**Limits:** Syntax decisions were shared with Engineering. Manel wrote the Improve Syntax Usability initiative himself after spotting the inconsistencies and taking them to the head of design (confirmed 2026-11-12), so "nobody had ticketed it; I wrote the initiative" is claimable. Adoption of the suggestions is not established.
 **In reserve:** `SUM(amount) FROM Transactional WHERE accounts_level_2 IS "Workforce"` became `SUM(Transactional.amount, accounts_level_2 = "Workforce")`: parameters inside the function, the dataset an explicit input.
 **Probes:** What did retaining the existing language cost? Who decided?
 

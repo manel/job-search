@@ -338,7 +338,7 @@ What would be most useful to go deeper on?
 
 - **B1. The problem:** duplicate components and repeated fixes (v1 slide).
 - **B2. Deprecated components:** marked ⛔ DEPRECATED, replacement published under the clean name, old one unpublished after migration (v1 slide).
-- **B3. Token groundwork before Abax** (not yet built in Figma; timeline):
+- **B3. Token groundwork before Abax** (built 2026-11-12, skipped, after B2 in the v2 row; headline "A year of token work came before the first Abax component", a When / What shipped table, footer "My work unless noted. Engineers built the token pipeline and coded the components."):
   - July 2022: I present a colour-token roadmap at the first library sync.
   - November 2022: colour tokens on GitHub, so designers change product colours without front-end work. My Maker Days initiative; engineers built the pipeline.
   - March 2023: font and spacing tokens, the Button rebuilt on them. Font styles in the library cut from 23 to 11; designers control four token groups instead of one.

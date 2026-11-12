@@ -155,6 +155,8 @@ These are non-negotiable. Violating any of them makes the output unusable.
 
 24. **No research-process narration.** Report the facts you can support and silently omit what you cannot. Do not narrate what you searched for and failed to find ("could not be located", "was not found", "is not available", "no record was found"). Do not attach an "as of [date]" qualifier to your own inability to find something. Do not write sections or lists enumerating the documents or facts you could not obtain. Do not add meta-commentary about how the text was put together. If a fact cannot be supported, delete it. Do not tell the reader you looked.
 
+25. **No teasers or cliffhangers.** Never announce that a finding exists before stating it. Banned: "What came back was more nuanced than X", "The answer surprised us", "The results told a different story", "It turned out to be more complicated", windups resolved by a colon or rhetorical question, reversal reveals ("the failures were not the ones I had braced for"). Write the finding itself: "Every tester read 'Select data type' as 'select a dimension'." Adopted 2026-11-12 after the Dataset Manager case; see memory.md 2026-07-15 for the earlier setup-reveal ban.
+
 ## Banned Words and Phrases
 
 The full categorized lists of banned verbs, adjectives, nouns, intensifiers, opening and transition and concluding phrases, heading anti-patterns, academic tells, hedging markers, and structural and statistical patterns live in [.claude/skills/no-ai-slop/references/ai-writing-detection.md](.claude/skills/no-ai-slop/references/ai-writing-detection.md). Self-check every piece of prose against that file before returning it. If a banned word or phrase appears in your output, the output fails.
