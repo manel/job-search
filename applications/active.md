@@ -21,6 +21,7 @@ Dates are mirrored in each record's `next_action_on`. Ranking: fit strength, pos
 Proceed; CV and cover-letter Markdown sources are prepared. Layout/export and PDF verification remain. Recheck the exact vacancy before submission; this section does not mean submission-ready PDFs exist.
 
 
+
 ## Prepare application
 
 Proceed; application materials have not been prepared. Recheck the vacancy before drafting.
@@ -45,6 +46,10 @@ Resolve the stated next step before investing further. A Proceed assessment can 
 - [Yuno, Lead Product Designer](records/yuno-lead-product-designer.md): deferred until the Remuner design-system case contains verified mobile evidence. Manel confirmed that he can add relevant screens and copy, but the section must explain his contribution, mobile decisions and constraints, and the shipped iOS and Android webview result rather than merely show screens. No materials prepared or application submitted. Posting closed (checked 2026-11-11).
 
 ## Confirmed active
+
+- [Powens, Product Designer](records/powens-product-designer.md): applied 2026-11-12 via the careers page, CV and letter; Dataset Manager lead. No salary asked; ask the range at first contact. Nudge 2026-11-26, LinkedIn 2026-12-03, stale 2026-12-17.
+- [Clio, Senior Product Designer, International Expansion](records/clio-senior-product-designer-international-expansion.md): applied 2026-11-12 via Workday (Barcelona), CV and letter; AI agent lead. Range EUR 83.9-113.5K published; no salary asked. Nudge 2026-11-26, LinkedIn 2026-12-03, stale 2026-12-17.
+- [Mapon, Senior Product Designer](records/mapon-senior-product-designer.md): applied 2026-11-12 via Breezy, CV and letter; AI agent lead. Location (Barcelona vs Riga) to confirm at first contact; EUR 3-5K/month published. Nudge 2026-11-26, LinkedIn 2026-12-03, stale 2026-12-17.
 
 - [Stripe, Product Designer, Global](records/stripe-product-designer-global.md): applied 2026-11-11 via Greenhouse, Barcelona office; Dataset Manager lead. Parallel to the silent Design Systems application (28 Sep): keep story and salary consistent. Nudge 2026-11-25, LinkedIn 2026-12-02, stale 2026-12-16.
 - [Markin, Product Designer](records/markin-product-designer.md): applied 2026-11-11 via the careers form (on-site Barcelona, AI agents for enterprise growth); AI agent lead. No salary asked. Nudge 2026-11-25, LinkedIn 2026-12-02, stale 2026-12-16.
@@ -74,6 +79,8 @@ Employer has paused progression for Manel without communicating a final rejectio
 
 ## Skipped
 
+- [FX Digital, Senior Product Designer](records/fx-digital-senior-product-designer.md): skipped by Manel 2026-11-12 before sending; agency CTV and marketing-design work he isn't sure he wants. Never submitted.
+- [VidaCaixa, UX Data Visualization](records/vidacaixa-ux-data-visualization.md): skipped 2026-11-12. BI dataviz project-management role; Looker and LookML required, no evidence.
 - [Senovo IT, Senior UX Designer, E-commerce (contract)](records/senovo-senior-ux-designer-ecommerce-contract.md): skipped 2026-11-12, no longer interested; never contacted or submitted.
 - [Extia, Senior UX Designer, eCommerce (placement)](records/extia-senior-ux-designer-ecommerce.md): dropped in triage 2026-11-11, never submitted.
 - [Pasiona, Senior Product Designer, eCommerce (placement)](records/pasiona-senior-product-designer-ecommerce.md): dropped in triage 2026-11-11, never submitted.
