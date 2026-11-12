@@ -15,8 +15,8 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Message Cyrièle Piancastelli (Head of Product Design; ran the 17 Sep interview and shared feedback) before applying: say what changed since September (case rework, deck v2, rehearsal) and ask whether the Lead role is worth an application. Apply only if she does not close the door.
-next_action_on: 2026-11-09
+next_action: Check the posting on Mon 16 Nov. After the Perk HM interview (17 Nov), message Cyrièle Piancastelli (Head of Product Design; ran the 17 Sep interview and shared feedback): say what changed since September (decks rebuilt result-first, 10-12 min walk-throughs, presentation rounds since) and ask whether the Lead role is worth an application. Apply only if she does not close the door.
+next_action_on: 2026-11-18
 salary_stated:
 job_url: https://career.spendesk.com/jobs/8579390-lead-product-designer-paris
 source: sourcing/role-leads.csv (manual sourcing, 2026-11-04); JD fetched from the official ATS or careers page 2026-11-07
@@ -49,3 +49,4 @@ source: sourcing/role-leads.csv (manual sourcing, 2026-11-04); JD fetched from t
 
 - 2026-11-04: found during sourcing.
 - 2026-11-07: Posting checked (open) and fit assessed: proceed. No materials prepared or application sent.
+- 2026-11-12: Message to Cyrièle deferred to 2026-11-18 (Manel). Reason: the message rests on evidence that presentations improved, which is stronger after the Wizeline client round (13 Nov) and the Perk HM interview (17 Nov); both fall this week. Posting check on 16 Nov in case it closes first.

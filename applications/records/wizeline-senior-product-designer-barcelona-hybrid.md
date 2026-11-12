@@ -2,7 +2,7 @@
 company: Wizeline
 role: Senior Product Designer - Barcelona Hybrid
 status: interviewing
-status_verified_on: 2026-11-06
+status_verified_on: 2026-11-12
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-11-03
@@ -12,11 +12,11 @@ application_channel: direct
 warm_path: unknown
 portfolio_version: 2026-09-23
 applied_on: 2026-10-19
-last_contact_on: 2026-11-10
-outcome_stage: design-interview # UX interview passed 2 Nov at Level 4; client interview Tue 10 Nov was a no-show by the panel, reschedule pending
+last_contact_on: 2026-11-11
+outcome_stage: design-interview # UX interview passed 2 Nov at Level 4; client interview rescheduled from Tue 10 Nov (client cancelled) to Fri 13 Nov 18:30
 rejection_reason_class: none
-next_action: Client cancelled the 10 Nov slot; David Ho will reschedule. If no new slot by Mon 16 Nov, nudge in the same thread. Deck and brief stay ready (Round 3 in interviews/wizeline/wizeline.md).
-next_action_on: 2026-11-16
+next_action: Client interview (Dow Jones) Fri 13 Nov, 18:30-19:30 Madrid, Google Meet meet.google.com/mku-posw-jbu. Deck and brief ready (Round 3 in interviews/wizeline/wizeline.md). Run /debrief-interview wizeline client the same evening.
+next_action_on: 2026-11-13
 salary_stated: 2026-10-23 recruiter screen, asked first: "around 50-55" (EUR K gross annual), with a request for their range. Wizeline stated Level 4 (Senior) entry EUR 49K gross, no negotiation, plus EUR 100/month hybrid allowance and EUR 220/month meal card
 job_url: https://www.wizeline.ai/careers/job/?gh_jid=7384390
 source: Official Wizeline Greenhouse job record and application fields checked 2026-09-23; live portfolio cases; Career OS evidence register
@@ -114,3 +114,5 @@ The official Greenhouse application is open. Required candidate fields are CV, L
 - 2026-11-10 (17:30-18:26): Client interview did not happen. Manel waited in the Meet; nobody joined. Invite state at the time: Esteban (organizer), David Ho and Manel accepted; Forest Evashevski declined; Chi Pham, Cristian Rodriguez (cristian.rodriguez@wizeline.com, new guest, role unknown) and Karla Sahagun awaiting. Manel emailed David Ho during the slot; did not call. Cause unknown; Forest's decline suggests the client side dropped or moved the slot (inference). Source: Manel, invite screenshot.
 - 2026-11-10 (19:07-19:30): David Ho replied: he was out of office; the client cancelled and he could not warn Manel; Wizeline will reschedule. Cause now confirmed as a client cancellation. Next: wait for the new slot. Source: email thread pasted by Manel.
 - 2026-11-10: Manel replied to David: no problem, send the new time, offered to share availability. Source: Manel.
+- 2026-11-11 (10:53): Esteban Abete (organizer, eabete@opisnet.com) updated the invite: client interview moved to Fri 13 Nov 2026, 18:30-19:30 Madrid (12:30-13:30 New York). Guests: Forest Evashevski, chi.pham, karla.sahagun, david.ho and cristian.rodriguez (Wizeline addresses), plus Manel. Meet link meet.google.com/mku-posw-jbu, phone +34 822 11 35 18, PIN 314572842. The candidate profile attachment ("Senior Visual Designer...") is still on the invite. Acceptances not shown. Source: calendar update email pasted by Manel 2026-11-12.
+- 2026-11-12: Invite state for the 13 Nov slot (screenshot supplied by Manel): Esteban Abete and Manel accepted; Karla Sahagun declined (out of office); Chi Pham, Cristian Rodriguez, David Ho and Forest Evashevski not yet answered.

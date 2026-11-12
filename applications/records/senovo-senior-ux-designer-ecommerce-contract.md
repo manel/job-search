@@ -1,8 +1,8 @@
 ---
 company: Senovo IT Ltd (contractor agency; client undisclosed)
 role: Senior UX Designer, E-commerce (12-month renewable contract)
-status: in-progress
-status_verified_on: 2026-10-19
+status: skipped
+status_verified_on: 2026-11-12
 status_confidence: confirmed
 posting_status: unknown
 posting_checked_on: 2026-10-19
@@ -15,8 +15,8 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Email Menna before any submission. Ask for the day rate or salary, contract type (freelance or employed through the agency) and the client name. Allow only one agency to submit Manel to a given client. Base CV only
-next_action_on: 2026-10-20
+next_action: None. Manel is no longer interested; the email to Menna was never sent.
+next_action_on:
 salary_stated: Not stated; rate unknown
 job_url:
 source: LinkedIn post text pasted by Manel 2026-10-19 (posted about a week earlier, 99 applicants, Easy Apply)
@@ -52,3 +52,4 @@ Manel's evidence is Kings of Mambo studio e-commerce and a recollection of A/B w
 
 - 2026-10-19: Assessed from the LinkedIn post. Proceed, minimal effort, conditional on rate and client.
 - 2026-10-19: Manel confirmed native Catalan and Spanish; the Spanish and Catalan plus is met.
+- 2026-11-12: Skipped (Manel): no longer interested. The email to Menna was not sent and nothing was submitted.

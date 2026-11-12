@@ -1,11 +1,11 @@
 ---
 company: Factorial
 role: Founding Product Designer (new internal startup)
-status: in-progress
-status_verified_on: 2026-10-19
+status: role-closed
+status_verified_on: 2026-11-12
 status_confidence: confirmed
-posting_status: open
-posting_checked_on: 2026-10-19
+posting_status: closed
+posting_checked_on: 2026-11-12
 fit_decision: proceed (warm route only)
 role_lane: product
 application_channel: internal-contact
@@ -15,8 +15,8 @@ applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Message Lucia Lorenzo Santos asking whether the Founding role makes sense for Manel given his earlier process; apply only if she invites it. No cold application
-next_action_on: 2026-10-20
+next_action: None. Unlisted from the careers page; reopen only if it reappears in the listing.
+next_action_on:
 salary_stated: Not stated; employer range EUR 45,000-82,000 (published, includes variable)
 job_url: https://careers.factorial.com/job_posting/founding-product-designer-319459
 source: Official Factorial careers page fetched 2026-10-19 (posted 2026-08-26)
@@ -63,3 +63,4 @@ Wide band (EUR 45-82K, levelled on Factorial's Career Path at the first conversa
 ## History
 
 - 2026-10-19: Posting open. Assessed: Proceed via Lucia Lorenzo Santos only; no cold application.
+- 2026-11-12: Marked role-closed (Manel). The careers listing (careers.factorial.com, 80 postings) has no design roles; this posting and 271104 are both unlisted. The direct URL still loaded with an Apply button and the EUR 45-82K Barcelona range, so it is unlisted rather than deleted; filled or paused is an inference. The message to Lucia was never sent; no application.
