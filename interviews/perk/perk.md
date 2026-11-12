@@ -205,31 +205,45 @@ At least one session in person at the office applied to (Barcelona).
 
 **Conflict with the TA call.** Clare said round 1 is a hiring-manager session with Tim, on site, and round 2 an online case study on Manel's own case. The email says round 1 is a video call with a Lead PM and round 2 an in-person critique of a Perk flow. Resolved 2026-11-06 (Manel's call): the written email is later and explicit, so round 1 is the Depth of Expertise video call. Prep the project deep dive; the critique is the likely in-person round. The invite will name the interviewer (Lead PM or Tim).
 
-## Round 2: Depth of Expertise (brief written 2026-11-06)
+## Round 2: Hiring Manager Interview, Depth of Expertise format (brief written 2026-11-06, refreshed 2026-11-12)
 
 **Date:** Tue 17 Nov 2026, 10:00-11:00 Madrid, Google Meet (https://meet.google.com/dkd-tpnk-qed). Booked by Clare 11 Nov as "Hiring Manager Interview". Remote because the onsite couldn't be coordinated; an onsite comes later in the process. Perk uses an AI note-taker (opt-out link in Clare's email).
 **Interviewer:** Tim Archer, Senior Content Design Manager, the hiring manager (London). This follows the TA-call version, not the written "Lead PM" process. Weight the brief toward what Tim probes: content and naming in tokens and components, coaching designers, contribution. Keep the delivery and prioritisation answers ready in case it turns into a broader product conversation.
-**Added by Clare:** be ready to talk about how you engage with AI in your work, the tools you know and how you've applied them in the role. Perk calls itself AI-forward. Start from "How do you use AI day to day?" in Round 1 above.
-**Format:** one recent project end to end (core challenges, steps, final impact) plus collaboration: who else was involved and how the team dynamics were handled. No deck required; assets welcome. Time for questions.
+**Added by Clare:** be ready to talk about how you engage with AI in your work, the tools you know and how you've applied them in the role. Perk calls itself AI-forward. Base: [answers.md](../answers.md#how-do-you-use-ai-day-to-day) (three uses; no approved wording yet), drafted for Perk under "How do you use AI day to day?" in Round 1 above. Perk variant: add one line linking it to Perk's own MCP (below) and the JD's AI-readable component specs.
+**Format:** one recent project end to end (core challenges, steps, final impact) plus collaboration: who else was involved and how the team dynamics were handled. No deck required; assets welcome. Time for questions. Clare's email also lists career aspirations and alignment with the team.
 
-### What Perk most likely cares about
-1. **Adoption across a team that doesn't report to you.** Suitcase is "a bit of a bolt-on" with one dedicated person and a project team from the squads; about 30 designers. They need someone who gets squads to use and contribute to a system they didn't ask for.
-2. **System work competing with the product roadmap.** A Lead PM will ask how infrastructure got prioritised against features, and what the system did for delivery. No dedicated PM on the role, so the designer makes that case.
-3. **Honest impact.** "Final impact of the solution" is in the brief. They'll test whether numbers are real and whether you know what didn't work.
+### Perk at a glance (external research, read 2026-11-12)
+From Clare's prep links. Self-reported marketing figures; use one detail, don't recite.
+- **Mission and frame:** "powering real work" by removing "shadow work", the manual admin around travel and spend. Source: perk.com/company.
+- **Values:** We are owners; Impact over effort; A 7-star experience; We are a team; Be a good person. Source: perk.com/company. The final round tests them; here, "we are owners" and "impact over effort" map onto Maker Days and the Select fix.
+- **Platform:** Travel (booking with policy built in, duty of care, Entry Ready), Spend (expenses, invoices, cards, workflow designer), Events; plus Reporting, Policies and an MCP. Users: travellers, travel managers, finance teams, operations managers. 12,000+ companies, 1M+ users. Source: perk.com/platform.
+- **Entry Ready (CPO Nikita Miller's launch, 23 Jul 2026):** visa and ETA requirements checked at booking, then applied for and paid inside Perk; 60+ destinations via Sherpa; built by the Real Work Incubator, which also built Events. Source: Perk press release and LinkedIn post.
+- **Perk MCP:** travel, spend, invoicing and events through one MCP for assistants like Claude and ChatGPT; actions limited to what the user can already do, out-of-policy requests go through the normal approvals. Source: Perk press release; CTO Robin Smith on LinkedIn. This is the "AI agents and assistants" surface in the Suitcase JD.
+- **Audi Revolut F1 Team:** official partner since Dec 2025; 3,000 trips, 860 employees, 20 currencies a season. Source: Perk LinkedIn post.
+- **Competitors** (inference, not named by Perk): Navan, SAP Concur, Amex GBT and Egencia on travel; Pleo, Spendesk and Payhawk on spend.
+- **Not read:** the Builders post "Powering real work: the design thinking behind Perk" and the Builders index returned 403. Clare picked that post as "product insights", so read it in a browser before Tuesday; it may describe Suitcase.
 
-### Lead project: Abax (Abacum), with Remuner as the follow-on
-Positioning mapping for DS roles: Remuner and Abacum systems. Choose Abax as the deep dive because this round is about collaboration and team dynamics, and Abax is the one with a team: head of design, engineering leadership, five squads, a contribution process and a tracked adoption number. Remuner was sole-designer work, so it's thin on team dynamics; use it as "what I did next with what I learned" (smaller token set, ESLint enforcement, Codex CI checks).
+### What Tim most likely cares about
+1. **Adoption across ~30 designers who don't report to you.** Suitcase is "a bit of a bolt-on": one dedicated person and a project team from the squads. Tim is hiring the person who gets squads to use and contribute to it.
+2. **Naming and content inside the system.** Tim is a Senior Content Design Manager, and your comment on his post was about content tokens. Expect questions on token and component naming, descriptions and guidance, and on how copy and translation live in components.
+3. **Honest impact and AI in the work.** "Final impact of the solution" is in the brief, and Clare flagged AI. He'll check whether the numbers are real, whether you know what didn't work, and whether AI is a working habit.
+4. **Secondary, in case it turns into a product conversation:** how system work competed with the product roadmap (no dedicated PM on this role).
+
+### Lead project: `abax`, with `remuner-ds` as the follow-on
+Stories: [abax](../stories.md#abax) and its episodes [maker-days](../stories.md#maker-days), [abax-migration](../stories.md#abax-migration), [abax-deprecation](../stories.md#abax-deprecation); [remuner-ds](../stories.md#remuner-ds). Positioning mapping for DS roles: Remuner and Abacum systems. Choose Abax as the deep dive because this round is about collaboration and team dynamics, and Abax is the one with a team: head of design, engineering leadership, five squads, a contribution process and a tracked adoption number. Remuner was sole-designer work, so it's thin on team dynamics; use it as "what I did next with what I learned" (smaller token set, ESLint enforcement, Codex CI checks).
 
 **Open with the result** (rule in [playbooks/case-presentation.md](../playbooks/case-presentation.md#rules-for-every-case-deck), "Rules for every case deck"): "With the head of design, I co-led Abax, a design system all five product squads used. When I left, about 47% of the component uses we tracked in the code were Abax, against a goal of 80%." Then the arc. Keep the first pass to 10 to 12 minutes, then ask what they'd like to go deeper on. Use Perk's words where true: Suitcase, contribution, squads.
 
 Arc to know cold (beats, not script), all from [evidence/experience-facts.md](../../evidence/experience-facts.md) ("Abax design system"):
 - **Problem:** ad hoc components and MUI across five squads, no mandate.
-- **Case for it:** co-led the business case with the head of design; presented to engineering leadership and at an all-hands.
-- **Capacity objection:** engineering feared the system would compete with squad work → Maker Days, one focused week → tokens and the first Button in production (`maker-days`).
+- **Origin:** you proposed the token MVP (May 2022) and led its design side; engineers built the pipeline. Tokens in production from late 2022, about 250 by mid-2023; the March 2023 Maker Days cut library font styles from 23 to 11.
+- **Case for it:** co-led the business case with the head of design; presented to engineering leadership and at an all-hands (July 2023, to seek buy-in, not "won it").
+- **Capacity objection:** engineering feared the system would compete with squad work. Two options: two engineers and a designer for two weeks alongside squads, or one dedicated Maker Days week with more people. The team chose Maker Days; the first Abax components, Button among them, shipped that week in October 2023 (`maker-days`). Abax work won Maker Days selection twice.
 - **Rollout:** new components behind feature flags; squads added their own migration tickets; weekly design-library sync and review before anything entered the canonical library.
 - **Tokens:** two-tier architecture, Token Studio to Style Dictionary.
+- **Naming (lead with this if Tim goes to content):** you owned nomenclature and component descriptions in the autumn 2023 Vision 1.0 sprint. January 2024 token audit: the head of design asked whether `actionSecondary` could merge into `secondary`; you argued interactive text needs its own token; names were matched to the alert variants. "I argued, we decided"; only `actionSecondary` is confirmed in the variables. Deck slide 7, Figma 15-16.
 - **Impact:** a monthly codebase count put Abax at about 47% of tracked Abax and MUI uses at departure, against an 80% goal; two squads finished the form-element migration, a third was mid-way. Qualitative: a designer built a screen fast from the variants; customers said the product felt more polished. Say the 80% wasn't reached, and why, before they ask.
-- **Example to use:** Select and Autocomplete. Designers weren't sure which to use, and detached the menu to add or remove items because hiding items broke the auto layout and the menu didn't resize. Detachment data pointed at it (Figma health measure: you defined it, an engineer built the script). Fix: split into Select, Menu and Menu item, with a slot (placeholder component plus instance swap) so designers build their own items locally; guidance in the docs page and the component description; a weekly-meeting session walking designers through it and taking feedback. Result: detachments on it almost stopped; the remaining issues went into later iterations.
+- **Example to use:** Select and Autocomplete. Designers weren't sure which to use, and detached the menu to add or remove items because hiding items broke the auto layout and the menu didn't resize. Detachment data pointed at it (Figma health measure: you defined the measures, an engineer built the script, you ran it every two weeks; never "I built"). Fix: split into Select, Menu and Menu item, with a slot (placeholder component plus instance swap) so designers build their own items locally; guidance in the docs page and the component description; a weekly-meeting session walking designers through it and taking feedback. Result: detachments on it almost stopped; the remaining issues went into later iterations.
 - **Adoption work:** no real resistance; the problem was designers forgetting what existed. Every release on Slack, coaching in the weekly DS meetings, ad hoc sessions for those who needed it; adoption and detachment metrics showed where to ask why, then fix in the next iteration. This is the part that maps straight onto Suitcase.
 - **Your part vs the team's:** "I" for the business case, token and library work, the sync and contribution process; "we" for the decision and the migration. Engineering built the original pipeline.
 
@@ -238,19 +252,24 @@ Arc to know cold (beats, not script), all from [evidence/experience-facts.md](..
 ### Likely questions, mapped
 | Question | Use |
 |---|---|
-| Walk me through a recent project end to end | Abax arc above |
+| Walk me through a recent project end to end | `abax`, arc above |
 | Who else was involved; how did you handle the dynamics? | Head of design (co-lead), engineering leadership, squad designers in the sync. `maker-days` |
-| How did system work get prioritised against features? | Maker Days as a bounded bet; squads owning migration tickets |
-| What was the impact? How did you measure it? | 47% vs 80%, the count method, squads migrated; no velocity number, don't invent one |
-| What would you do differently? | What Remuner changed: smaller token set first, ESLint enforcement earlier |
-| A squad or designer who didn't want to adopt | No real resistance; the friction was remembering components and variants exist. Slack release notes, coaching in the weekly DS meetings, ad hoc sessions; adoption and detachment metrics → ask the designer why → fix next iteration |
-| How did you coach designers on the system? | Abax coaching (above). Earlier and larger: vLex, a Kings of Mambo client, about 15 designers |
-| A disagreement with a stakeholder | `manager-view` (Remuner) |
-| A mistake | `token-file` (outage) |
-| How do you use AI in system work? | Figma MCP: tokens and drift, accessibility checks, docs. Ties to the JD's AI-readable specs |
+| Influence without authority (Q5) | `maker-days` |
+| How did system work get prioritised against features? | `maker-days` as a bounded bet; squads owning migration tickets (`abax-migration`) |
+| What was the impact? How did you measure it? | 47% vs 80%, the codebase count; the Figma health measure kept separate; squads migrated. No velocity number, don't invent one |
+| What would you do differently? | `remuner-ds`: smaller token set first, ESLint enforcement earlier |
+| A squad or designer who didn't want to adopt | `abax-migration`. No real resistance; the friction was remembering what exists. Slack release notes, weekly DS-meeting coaching, ad hoc sessions; metrics → ask why → fix next iteration |
+| How did you coach designers on the system? | Abax coaching (above). Earlier and larger: vLex, a client, about 15 designers; design systems for several clients |
+| How do you name tokens and components? Where does copy live? (Tim) | Naming beat above (token audit). Then the Remuner SimpleLocalize keys built into components. Stop there |
+| A disagreement with your co-lead or manager (Q10) | Token audit first (co-lead, "I argued, we decided"); `manager-view` for leadership |
+| A mistake (Q6) | `token-file` |
+| How do you use AI in your work? | [answers.md](../answers.md#how-do-you-use-ai-day-to-day) plus the Perk MCP line. Figma MCP for tokens and drift, accessibility checks, docs; `ai-agent` if he asks about designing for AI |
+| Why Perk? What excites you? (Q11) | Round 1 answer (Suitcase run as infrastructure) plus one Perk detail: the MCP makes AI assistants a surface Suitcase has to cover, or Entry Ready |
+| Where do you want to be in 3 years? (Q26) | [question-bank.md](../question-bank.md#26-where-do-you-want-to-be-as-a-designer-in-3-years): IC track, a system treated as infrastructure. No management |
 | How would you approach Suitcase in the first months? | Listen first: who consumes it, what's measured, where squads bypass it. Don't present a plan for a system you haven't seen |
 
 ### Gaps this round could hit (don't invent)
+- **Mentoring someone** ([stories.md](../stories.md#gaps)): no individual episode with a result. Tim manages content designers and may ask.
 - **A single coaching episode with a result.** The practice is now recorded (2026-11-06: Slack releases, weekly DS-meeting coaching, ad hoc sessions), but no one designer's before-and-after. If asked, describe the practice; don't invent an individual.
 - **vLex detail.** Confirmed 2026-11-06 as the client behind "about 15-16 designers". Dates, your exact scope on the system and any outcome aren't recorded; if Tim or the PM digs in, give what you remember and stop there.
 - **Q10 disagreement with your manager** ([question-bank.md](../question-bank.md#10-a-time-you-disagreed-with-your-manager-and-what-you-did) [NEEDS YOUR STORY]); `manager-view` is the closest real episode.
@@ -258,19 +277,22 @@ Arc to know cold (beats, not script), all from [evidence/experience-facts.md](..
 - **Content tokens, if the interviewer is Tim.** Content design is his field and he read your comment on his post. The evidence is thin: SimpleLocalize translation keys built into Remuner components. Which languages, how keys were named and who wrote the copy aren't recorded. Say what you did and stop; don't describe it as a content-token system.
 - **Native mobile and multi-platform scale:** Remuner webview only. Say so if asked.
 
-### Questions to ask (pick 2-3)
-- How is Suitcase adoption measured today, if at all, and who looks at the number?
-- When a squad needs something Suitcase doesn't have, what happens now: build it locally, wait, or contribute it back?
-- (PM interviewer) How does system work get onto a pillar's roadmap today, with no dedicated PM on it?
-- (Tim) Where are content tokens today, after the comment on your post?
+### Questions to ask Tim (pick 2-3)
+From [playbooks/before-the-call.md](../playbooks/before-the-call.md), aimed at what's still unknown.
+- What's the biggest gap in Suitcase right now? Then: is mobile (the Compose Multiplatform system) on the same foundations? Clare thought so but wasn't sure.
+- When a squad needs something Suitcase doesn't have, what happens now: build it locally, wait, or contribute it back? (Who owns the system-to-squad relationship.)
+- How is adoption measured today, if at all, and who looks at the number?
+- Where are content tokens in Suitcase today? (Picks up your comment on his LinkedIn post.)
+- What would make someone in this role exceptional rather than good at 12 months?
 
 ### Salary
 Not expected in this round. Stated EUR 65,000 on the form; Clare said the level is "probably closer to seventy" plus benefits and stock options. If raised, say it was covered with Clare and refer to her. Don't open a new number with the interviewer.
 
 ### Prep checklist before the call
 - Say the Abax arc out loud once, timed to about 10 minutes, then the impact part alone in 90 seconds.
-- Clare's prep list: Platform Overview, Entry Ready launch (CPO), one product blog post. Enough to answer "what excites you" with one specific detail.
+- Read the Builders "design thinking behind Perk" post in a browser (403 here) and watch the Entry Ready video. Pick the one detail for "what excites you".
 - Say the Select and Autocomplete example in under a minute: problem, what the detachment ranking showed, the three-component fix, result.
-- Once the invite names the interviewer, re-read "What Perk most likely cares about" with that person in mind.
+- Say the token-audit naming example in under a minute.
+- Have the Abacum deck v2 open on slide 7 (token audit) and the Select slide, ready to share.
 
 *After the interview: run `/debrief-interview perk "Depth of Expertise"`.*

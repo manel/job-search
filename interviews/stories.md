@@ -117,7 +117,7 @@ Answering Engineering's capacity concern with a bounded production test. Evidenc
 - **Context:** Engineering worried the system would compete with squad work and never reach production.
 - **My responsibility:** Co-led the business case with the head of design; contributed the token and library work. Engineering built the original pipeline.
 - **Actions and why:** Showed real inconsistencies in the product, compared two staffing approaches, and the team chose one focused Maker Days week: more people away from squad work, for less time.
-- **Result:** The tokens and the first Button reached production that week, which proved the design-to-code path worked.
+- **Result:** The first Abax components, the Button among them, reached production that week (October 2023), which proved the design-to-code path worked. The tokens were already in production from late 2022 ([register](../evidence/experience-facts.md#abax-design-system), corrected 2026-11-12).
 
 **Limits:** Shared influence and a shared decision. No measured ROI or delivery-speed claim. Don't invent a PM conflict or a sole engineering implementation. Avoid quoting headcounts.
 **Probes:** What objection did they raise? Why a week? What did you give up? Why was taking people off delivery worth it then?
