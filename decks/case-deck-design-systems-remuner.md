@@ -1,6 +1,6 @@
 # Case Deck: Design Systems at Remuner
 
-**Figma:** "Remuner DS" (Slides). The current version is the Wizeline one, with its own talk track and pasted notes: [interviews/wizeline/ux-interview-deck.md](../interviews/wizeline/ux-interview-deck.md). This file is the general version; its slide numbers haven't been matched to Figma positions.
+**Figma:** "Remuner DS" (Slides). The current version is the Wizeline one, with its own talk track and pasted notes: [interviews/wizeline/wizeline-case-deck.md](../interviews/wizeline/wizeline-case-deck.md). This file is the general version; its slide numbers haven't been matched to Figma positions.
 **Best for:** Founding and sole-designer roles, early-stage companies that need foundations built from scratch, DS roles where one senior designer builds and runs the system.
 **Duration:** walk-through 10 to 12 minutes; leave the rest for questions. If time runs short, cut slides 2 (Starting point) and 7 (Governance) to one sentence each before touching the proof slides (4, 5, 8, 9).
 **Lead framing:** as the only designer, I built the system inside feature work, and the production incident is the learning arc.

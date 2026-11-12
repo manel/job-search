@@ -18,7 +18,7 @@ Before producing anything:
 4. Read [context/positioning.md](../../../context/positioning.md) — pick the lead story for this role type using the role-type mapping.
 5. Read [context/salary.md](../../../context/salary.md) and the record's `salary_stated` — know what was already said and the decision rules. Never walk into a round without it.
 
-Then produce a one-page brief in `interviews/[company]/[company].md` (create the folder and file if it's the first round, append a new round section otherwise):
+Then produce a one-page brief in `interviews/[company]/[company]-stage[N]-[type].md`, following the naming rule in `.claude/conventions/how-to-work.md` ("Interview work"): N is the next stage number, `[type]` comes from the fixed list there. Create or update the index `interviews/[company]/[company].md` with the stage row. Stage material (answers, scripts, salary script) takes the stage file name plus what it is.
 
 - Round, date, interviewer name and role (ask if unknown)
 - The 2–3 things this company most likely cares about, from the JD and prior rounds

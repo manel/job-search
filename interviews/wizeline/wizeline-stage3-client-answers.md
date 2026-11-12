@@ -1,10 +1,12 @@
 # Wizeline client interview (Dow Jones): answers to read
 
-Tue 10 Nov 2026, 17:30-18:30 Madrid. Panel: Forest Evashevski (Director, Experience Design, WSJ), Esteban Gabriel Abete (EMEA Delivery Director, Wizeline), Lan Chi Pham and Daniela Sahagun (Wizeline staffing), David Ho. Full brief: [wizeline.md](wizeline.md), Round 3.
+Fri 13 Nov 2026, 18:30-19:30 Madrid (moved from 10 Nov). Panel: Forest Evashevski (Director, Experience Design, WSJ), Esteban Gabriel Abete (EMEA Delivery Director, Wizeline), Wizeline staffing and David Ho. Brief: [wizeline-stage3-client.md](wizeline-stage3-client.md).
 
 Headline first, 60 to 90 seconds, then stop.
 
 ## Tell us about yourself
+
+Variant of [answers.md](../answers.md#opening-intro) for a design-systems seat: it adds vLex and the design-system thread.
 
 > I'm a Senior Product Designer based in Barcelona, with about 15 years in the field.
 >
@@ -52,7 +54,7 @@ Then expect "have you done multi-brand?" (below).
 
 ## A demanding senior stakeholder / a time you disagreed
 
-> At Remuner I disagreed with a full redesign of the manager view. My research showed managers lacked an overview by metric and had to go through too many nested steps, and I proposed fixing the workflow first. The CEO and CTO chose the full redesign. I accepted it and kept the main findings in the new metric overview and navigation. It shipped. The overview and navigation got good feedback, and the overall response was mixed, which fed the next priorities.
+Story [`manager-view`](../stories.md#manager-view): opener, then context, the decision you accepted, what you kept in, the mixed result.
 
 If they push back during the interview: acknowledge it, give your reason once, ask what they'd weigh.
 
@@ -68,15 +70,15 @@ If they push back during the interview: acknowledge it, give your reason once, a
 
 ## A mistake you made
 
-> At Remuner I deleted a token file I thought was a duplicate. The app still used it, and the next deployment caused a short outage. I restored it and checked the required files by hand for several days, and the team added a check for them. The lesson: check what depends on a file before you remove it.
+Story [`token-file`](../stories.md#token-file). It's already in the deck (Figma 17), so keep it to the opener and what changed afterwards.
 
 ## Why did you leave Remuner?
 
-> We parted ways in March. The product direction came from the top, and design input didn't always have real weight in those calls. That's a legitimate model for a certain kind of startup, but it's not where I do my best work, and by early 2026 both sides could see the fit wasn't there. What I'd say about the work: the design system shipped to production, and the CTO described the product's before-and-after as going from a 2010 app to a 2025 app. That was unprompted. I'm proud of what got built.
+[answers.md](../answers.md#why-did-you-leave-remuner), the standard version, unchanged. Say it and stop.
 
 ## What have you been doing since March?
 
-> I've gone deeper into using Claude with the Figma MCP for design system work: keeping tokens in sync between code and Figma, catching drift, running contrast checks. And I've done some freelance work along the way.
+[answers.md](../answers.md#what-have-you-been-doing-since-march). Lead with the Claude and Figma MCP work on design systems (token sync between code and Figma, drift, contrast checks), then occasional freelance.
 
 ## Situational questions
 
@@ -110,14 +112,15 @@ Hypotheticals: answer with "I'd", then give one real example where one exists. N
 
 ## Questions to ask
 
-For Forest (pick two):
+For Forest. Ask the first one early, right after the deck; then pick one more:
 1. "The profile says Senior Visual Designer. How much of the role is visual design, and how much is product and system work?"
 2. "Which WSJ surfaces would I work on first, and how do product designers work with the design system team?"
-3. "What would make the first three months a success for you?"
+3. "How does a new pattern get into the design system? Who decides what goes into the core and what stays in a product library?"
+4. "What would make the first three months a success for you?"
 
 For Esteban, if there's time:
 - "How is the Wizeline team on the account set up, and who would I work with day to day?"
 
 ## Salary
 
-Agreed with Wizeline. If anyone asks: "I've agreed the terms with Wizeline and they work for me."
+Agreed with Wizeline. If anyone asks: "I've agreed the terms with Wizeline and they work for me." Never mention a floor or prior pay.

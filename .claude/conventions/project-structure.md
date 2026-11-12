@@ -41,7 +41,7 @@ job-search/
 │   ├── answers.md              ← set-piece answers (intro, departure, since March)
 │   ├── question-bank.md        ← Q1–Q27 mapped to stories, enterprise bank
 │   ├── playbooks/              ← case presentation, live challenge, ways of working, before the call
-│   ├── [company]/              ← per-process briefs, debriefs, challenge material, scripts (.md)
+│   ├── [company]/              ← [company].md index + [company]-stage[N]-[type].md per stage (brief and debrief) + stage material
 │   ├── drills/                 ← case-framing drills and keys
 │   ├── reference/              ← business terms, AI agent feedback cheat sheet
 │   └── archive/                ← frozen: old prep.md, battle cards, Textream scripts, rehearsal transcripts

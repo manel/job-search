@@ -1,4 +1,4 @@
-# Portfolio highlights script (Wizeline client interview, 10 Nov)
+# Portfolio highlights script (Wizeline client interview, 13 Nov)
 
 Figma file "Manel Leiva Portfolio Highlights", three frames, about a minute each.
 
@@ -24,13 +24,13 @@ I led the design and the testing for Dataset Manager. It turned that JSON into a
 
 Testing changed one decision. I tested first with our FP&A specialists, who set up datasets for customers every day, then with customers. They could explain their transformations with Excel functions, but they couldn't write them in SQL. After an interim step with SQL-like formulas, transformations moved to Abacum's own formula language, which stays close to Excel.
 
-As a result, customers could set up their own datasets, and the engineers who handled customer estimated a standard setup took about half the time.
+As a result, customers could set up their own datasets, and the squad's engineers estimated that a standard setup took about half the time it used to.
 
 ## Frame 3: Modeling Syntax
 
 Same company, different problem. Abacum's formulas had grown across teams, so they mixed Excel conventions, SQL-style clauses and custom syntax. On top you see the plain-text version.
 
-With the head of design's support, I audited the functions: 15 of 37 broke the pattern. I went through customer calls and benchmarked Excel, Google Sheets, Pigment and Causal, and all four put parameters inside parentheses. At the bottom is the first step, from 2023: datasets and dimensions became coloured chips, so you can read a formula at a glance. You can still see the FROM and WHERE clauses outside the function. In 2024 I worked out the rules with one of our engineers to move every parameter inside the parentheses.
+I spotted the inconsistencies, took them to the head of design and wrote the initiative to fix them. Then I audited the functions, and 15 of 37 broke the pattern. I went through customer calls and benchmarked Excel, Google Sheets, Pigment and Causal, and all four put parameters inside parentheses. At the bottom is the first step, from 2023: datasets and dimensions became coloured chips, so you can read a formula at a glance. You can still see the FROM and WHERE clauses outside the function. In 2024 I worked out the rules with one of our engineers to move every parameter inside the parentheses.
 
 That stable structure later supported suggestions and a parameter preview in the formula editor.
 

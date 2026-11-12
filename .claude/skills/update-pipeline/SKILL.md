@@ -24,7 +24,7 @@ In the record:
 **Status-specific handling:**
 
 - **applied:** set `applied_on`, and set `next_action_on` from the follow-up policy (nudge at ~10 business days, LinkedIn outreach at ~3 weeks, stale at 5 weeks). Compute the actual dates.
-- **interviewing:** ask for interviewer name, round type, and date. Then suggest running `/prep-interview` for the round. Round material lives in `interviews/[company]/`.
+- **interviewing:** ask for interviewer name, round type, and date. Then suggest running `/prep-interview` for the round. Round material lives in `interviews/[company]/`, one file per stage (`[company]-stage[N]-[type].md`; naming rule in `.claude/conventions/how-to-work.md`, "Interview work").
 - **offer:** read [context/salary.md](../../../context/salary.md) before discussing anything.
 - **rejected:** ask for any feedback received and set `rejection_reason_class`. Never record salary as the reason unless the employer said so. If the rejection reveals a pattern worth keeping, add a dated entry to [memory.md](../../../memory.md).
 - **stale / withdrawn / role-closed:** record the reason. A stale application may point to a vacancy that is still open; `posting_status` is separate.

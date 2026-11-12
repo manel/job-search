@@ -1,4 +1,4 @@
-# Wizeline UX interview: Remuner DS case deck (talk track)
+# Wizeline case deck: Remuner DS (talk track for stages 2 and 3)
 
 Deck: Figma file "Remuner DS", one slide row (21 Figma slides since 2026-11-07: "What I bring" and "Thank you" added after Handover for the client round; before that 19 Figma slides plus two skipped originals at the end: deck slide 3 is five builds, deck slide 5 is four, deck slide 7 is three; builds use smart animate with earlier items dimmed). Built 2026-10-27; rebuilt the same day for strategy and JD coverage. Slide 5 updated 2026-10-29 with the marketing library.
 Slot: 15 minutes per David Ho's email (STAR: situation, task, actions, outcomes; role and team; no long paragraphs, no small assets). The 25-minute whiteboard follows, so don't run over.
