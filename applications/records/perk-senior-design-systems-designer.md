@@ -65,7 +65,7 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 - **MCP tooling:** confirmed 2026-10-19: Figma MCP with an AI agent to manage design tokens in Remuner's Figma files (and since). **Code Connect:** not confirmed; do not claim.
 - **Mobile:** the system covers web and mobile; Manel's mobile evidence is the Remuner webview app.
 - **Motion and visual-language ownership:** the case is about architecture more than visual direction.
-- **Localisation and content tokens:** covered since 2026-10-21: Manel managed translation keys and translations in SimpleLocalize at Remuner ([evidence/experience-facts.md](../../evidence/experience-facts.md)). The keys were part of the components (confirmed the same day), which matches the JD line "content tokens, so components carry their language requirements". Languages and key naming are unconfirmed.
+- **Localisation and content tokens:** covered since 2026-10-21: Manel managed translation keys and translations in SimpleLocalize at Remuner ([evidence/experience-facts.md](../../evidence/experience-facts.md)). The keys were part of the components (confirmed the same day), which matches the JD line "content tokens, so components carry their language requirements". Languages and key naming confirmed 2026-11-12: five languages (English, Spanish, French, Italian, Portuguese), shared, feature and component key tiers ([evidence/experience-facts.md](../../evidence/experience-facts.md)).
 - **Salary:** no range published. Follow [context/salary.md](../../context/salary.md); Perk is a large, well-funded company.
 
 ## Materials

@@ -171,7 +171,8 @@ This is the evidence register, not finished application copy. Each material clai
 - **Class:** Confirmed direct user statement.
 - **Source:** Manel, Perk application conversation on 2026-10-21 (component link confirmed the same day).
 - **Verified:** 2026-10-21.
-- **External-use boundary:** Supports localisation keys built into design-system components and hands-on management of translations in a live product. Safe phrasing: "managed translation keys and translations in SimpleLocalize, with the keys built into the components". Unconfirmed: the languages, how many components, the key naming convention, and whether the per-customer terminology work in the AI agent used the same setup. Do not claim a named content-token architecture or measured results.
+- **External-use boundary:** Supports localisation keys built into design-system components and hands-on management of translations in a live product. Safe phrasing: "managed translation keys and translations in SimpleLocalize, with the keys built into the components". Unconfirmed: how many components, who wrote the source copy, and whether the per-customer terminology work in the AI agent used the same setup. Do not claim a named content-token architecture or measured results.
+- **Addition (Manel, 2026-11-12):** five languages: English, Spanish, French, Italian and Portuguese. Keys were semantic and hierarchical, in three tiers: general keys shared across the product (`action.save`), per-feature keys (`nav.dataset.title`, `dataset.formattingerror`) and component-specific keys. Class: Confirmed direct user statement; the example key names are Manel's recollection of the format, not an export. Claimable: "five languages, with shared, feature-level and component-level keys". Still not claimed: content rules in components (character limits, plurals, truncation), pseudo-localisation or RTL.
 
 - **Claim:** Sole designer across the product during the relevant period.
 - **Class:** Confirmed.
