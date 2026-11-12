@@ -151,7 +151,7 @@ This is the evidence register, not finished application copy. Each material clai
 
 - **Claim:** The departure was company-initiated in March 2026.
 - **Class:** Recorded historical fact; not separately reconfirmed in the current conversation.
-- **Source:** [interviews/prep.md](../interviews/prep.md), “Priority zero: Why did you leave Remuner?”, read at Manel's request on 2026-09-29.
+- **Source:** interviews/prep.md, “Priority zero: Why did you leave Remuner?”, read at Manel's request on 2026-09-29. Moved to [interviews/answers.md](../interviews/answers.md#why-did-you-leave-remuner) on 2026-11-12.
 - **External-use boundary:** Do not imply a voluntary resignation or mutually initiated departure. Do not infer performance findings or an employer-confirmed rationale from the fit account.
 
 ### Role and scope

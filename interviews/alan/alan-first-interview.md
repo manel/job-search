@@ -6,9 +6,9 @@ Adapted 2026-10-07 to the latest confirmed role scope and design-practice eviden
 
 Confirmed scope: motivation, background, past-project walkthroughs, from Jorge’s confirmation supplied 2026-10-06. Manel believes Celine is a Senior Product Designer; independent verification on 2026-10-09 was inconclusive. Her title and the exact portfolio format remain unconfirmed. A deck was not requested in the supplied email.
 
-[Local interview reader](alan-reader.html) includes the spoken answers and the rest of this brief. [Textream version](../textream/alan-first-meeting.textream) contains the spoken pages. Use one page per story; app testing and spoken rehearsal remain pending.
+[Local interview reader](alan-reader.html) includes the spoken answers and the rest of this brief. [Textream version](../archive/textream/alan-first-meeting.textream) contains the spoken pages. Use one page per story; app testing and spoken rehearsal remain pending.
 
-Keep the [behavioral selector and cue cards](../behavioral-battle-cards.md) open during rehearsal. Keep only the selector and chosen card visible during the call; avoid scrolling through the full reference bank.
+Keep the [behavioral selector and cue cards](../archive/behavioral-battle-cards-2026-10.md) open during rehearsal. Keep only the selector and chosen card visible during the call; avoid scrolling through the full reference bank.
 
 ## First-call priorities
 

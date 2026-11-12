@@ -2,6 +2,8 @@
 
 Use alongside the [hiring-manager practice script](datavant-hiring-manager.md).
 
+Record of the Datavant prep (September 2026). These cards are merged into [interviews/stories.md](../stories.md), which maps the card numbers to story IDs; prepare new rounds from there.
+
 The employer asks for 5 to 10 specific examples. These nine cards cover different projects and decisions. Several come from Abacum, so choose the one that best answers the question. Each card covers the situation, your responsibility, your actions, and the result.
 
 **Evidence labels:** Confirmed means supported by the current evidence register or recorded user confirmations. Recollection is an attributed account without recoverable measurement. Historical notes provide supporting detail and may need your confirmation before a precise spoken claim. Unknown details stay open.

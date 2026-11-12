@@ -35,12 +35,16 @@ job-search/
 ├── application-answers/        ← drafted written answers for application forms
 ├── cv-pdf-to-send/             ← final PDFs as sent, one folder per company
 ├── interviews/
-│   ├── prep.md                 ← core story library, question maps
-│   ├── behavioral-battle-cards.md
-│   ├── [company]/              ← per-process briefs, debriefs, challenge material
-│   ├── decks/                  ← case presentation decks
-│   ├── textream/               ← teleprompter scripts
-│   └── archive/                ← rehearsal transcripts
+│   ├── prep.md                 ← index: what lives where, old-section map
+│   ├── stories.md              ← every story once, by ID, with claim limits
+│   ├── answers.md              ← set-piece answers (intro, departure, since March)
+│   ├── question-bank.md        ← Q1–Q27 mapped to stories, enterprise bank
+│   ├── playbooks/              ← case presentation, live challenge, ways of working, before the call
+│   ├── [company]/              ← per-process briefs, debriefs, challenge material, scripts (.md)
+│   ├── decks/                  ← case presentation deck sources
+│   ├── drills/                 ← case-framing drills and keys
+│   ├── reference/              ← business terms, AI agent feedback cheat sheet
+│   └── archive/                ← frozen: old prep.md, battle cards, Textream scripts, rehearsal transcripts
 ├── sourcing/                   ← watchlist, remote companies, role leads, scanner config (discovery, not pipeline)
 ├── analysis/[date]/            ← dated audits and funnel snapshots
 ├── scripts/                    ← role scan, posting check, PDF text check, PDF merge, funnel audit, builders

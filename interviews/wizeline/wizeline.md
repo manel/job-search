@@ -16,20 +16,20 @@ Record: [applications/records/wizeline-senior-product-designer-barcelona-hybrid.
 
 ### Lead story
 
-Design systems mapping ([context/positioning.md](../../context/positioning.md)): **Abacum system (Story B)** first, **Remuner from scratch (Story C)** second. Abacum shows scale (five squads, two-tier tokens, Figma Variables to Style Dictionary, Storybook, governance). Remuner shows zero-to-one ownership and engineer-reviewed repo work. Keep each to two or three sentences in this round.
+Design systems mapping ([context/positioning.md](../../context/positioning.md)): **Abacum system (`abax`)** first, **Remuner from scratch (`remuner-ds`)** second. Abacum shows scale (five squads, two-tier tokens, Figma Variables to Style Dictionary, Storybook, governance). Remuner shows zero-to-one ownership and engineer-reviewed repo work. Keep each to two or three sentences in this round.
 
 ### Likely questions mapped to stories
 
 | Question | Use |
 |---|---|
-| Walk me through your background | [prep.md](../prep.md) "Opening intro: Work and history". Add one line that you coded production front ends for years at Kings of Mambo; it answers the design-to-code requirement before he asks. |
-| Why are you looking / why did you leave Remuner? | [prep.md](../prep.md) "Priority zero". Say it and stop. |
-| Why Wizeline / this role? | [prep.md](../prep.md) Q11 framework. Honest anchor: the role is full-time inside a design system, which is the work you've done twice. Have this sentence ready before the call. |
-| Your design-system experience | Story B, then Story C. Name tokens, variables, Storybook, governance cadence. |
+| Walk me through your background | [answers.md](../answers.md#work-and-history) "Opening intro: Work and history". Add one line that you coded production front ends for years at Kings of Mambo; it answers the design-to-code requirement before he asks. |
+| Why are you looking / why did you leave Remuner? | [answers.md](../answers.md#why-did-you-leave-remuner), departure answer. Say it and stop. |
+| Why Wizeline / this role? | [question-bank.md](../question-bank.md#11-why-do-you-want-to-work-here-specifically) Q11 framework. Honest anchor: the role is full-time inside a design system, which is the work you've done twice. Have this sentence ready before the call. |
+| Your design-system experience | `abax`, then `remuner-ds`. Name tokens, variables, Storybook, governance cadence. |
 | How do you work with engineers? | Remuner: PRs replacing hardcoded styles with tokens, reviewed by the front-end team; tokens repo as a submodule of the app. Kings of Mambo: own front-end code in production ([evidence/experience-facts.md](../../evidence/experience-facts.md), studio-builds entry). |
 | WCAG / accessibility experience | Remuner palette: normalised in HSL, brought in-use colours to WCAG AA. Say AA, never AAA. No audit or remediation project beyond that; don't stretch it. |
 | Multi-brand / theming? | Gap. Token architecture built for theming is supported; a shipped multi-brand system is not. Say so plainly and point to the two-tier token structure as what makes theming possible. |
-| Client or consultancy experience? | Story E: eleven years of client work at Kings of Mambo, co-founded studio. This is a strength here, unusually. |
+| Client or consultancy experience? | Kings of Mambo: eleven years of client work at Kings of Mambo, co-founded studio. This is a strength here, unusually. |
 | English level | C1. |
 | Hybrid / office days? | Barcelona on-site and hybrid both accepted. Ask what this role requires (the Index posting says three days). |
 | Availability / notice | Not in the record. Decide your start-date answer before the call. |
@@ -37,15 +37,15 @@ Design systems mapping ([context/positioning.md](../../context/positioning.md)):
 
 ### [NEEDS YOUR STORY] gaps this round could hit
 
-- **Story E (Kings of Mambo incidents).** If David asks about difficult clients or a project that went wrong, the library has no fleshed-out KOM story. Don't invent one in the call; use the Remuner or Abacum material instead.
-- **Accessibility audit post-shipment** ([prep.md](../prep.md), enterprise gaps): no story exists. Answer from the palette work and principle only.
+- **Kings of Mambo incidents** ([stories.md](../stories.md#gaps)). If David asks about difficult clients or a project that went wrong, the library has no fleshed-out KOM story. Don't invent one in the call; use the Remuner or Abacum material instead.
+- **Accessibility audit post-shipment** ([question-bank.md](../question-bank.md#gaps-no-direct-material-do-not-invent), enterprise gaps): no story exists. Answer from the palette work and principle only.
 
 ### Questions to ask David
 
 Ask the salary range first (script). Then pick from:
 
 1. **Client and contract:** "Is this role placed with one client, or does it move between projects? And would I be employed by Wizeline in Spain, or is it a freelance contract?" If he names a client, follow with: "What happens when that project ends?" Don't name OPIS yourself; it comes from Greenhouse metadata, not the JD.
-2. **Team:** "Who would I work with day to day on the design system, and who decides what it works on next?" ([prep.md](../prep.md) DS questions, adapted.)
+2. **Team:** "Who would I work with day to day on the design system, and who decides what it works on next?" ([before-the-call.md](../playbooks/before-the-call.md#questions-to-ask-them) DS questions, adapted.)
 3. **The other postings:** "I saw a Design Systems Designer role for Index on LinkedIn. Is that the same team as this one?" Then: "There's also a Product Designer opening in Barcelona. Could I be considered for that too?" (req 7406176)
 
 Also confirm the next steps and who runs them.
@@ -108,14 +108,14 @@ Source: auto-transcript of the call pasted by Manel (names and places garbled in
 2. **Working inside someone else's system.** The client runs a "core design system" with many designers on it. Can you contribute through governance you don't own: audits, deprecation, working with engineers, documentation?
 3. **The JD must-haves they know you're thin on.** WCAG and multi-brand theming. The Index posting's client is news media and publishing, with multi-brand as a plus. Expect at least one of these to come up in the whiteboard or the questions.
 
-### Case choice: Remuner (Story C)
+### Case choice: Remuner (`remuner-ds`)
 
-Use Remuner. The mapping in [prep.md](../prep.md) ("Case presentation round") puts DS-first roles on Remuner, and it suits this brief better than Abacum for three reasons:
+Use Remuner. The mapping in [playbooks/case-presentation.md](../playbooks/case-presentation.md#story-selection) ("Story selection") puts DS-first roles on Remuner, and it suits this brief better than Abacum for three reasons:
 - **"Your role":** you were the sole designer and owned the tokens repo, so there's no co-ownership to hedge. Abacum needs "co-led with the head of design" and "worked on, not built" the pipeline, which costs time in a 15-minute slot.
 - **WCAG:** the palette AA work lives here, and it matches written answer Q3. They've read it.
 - **Recoverable numbers:** 10 of 18 core screens on system components, 630 token variables, 161 component sets, 14 reviewed PRs to the token repo, CTO quote. All from [case-deck-design-systems-remuner.md](../decks/case-deck-design-systems-remuner.md) Q&A notes.
 
-Keep Abacum (Story B) ready for "how would this work at scale?" or "multiple teams": five squads, business case, migration off MUI, weekly library sync. Do not compare 47% against the 80% target (register conflict, unresolved).
+Keep Abacum (`abax`) ready for "how would this work at scale?" or "multiple teams": five squads, business case, migration off MUI, weekly library sync. Do not compare 47% against the 80% target (register conflict, unresolved).
 
 **Deck cut, 15 minutes.** The existing deck runs 15-20 minutes before Q&A and ends on a Factorial slide. Seven slides, about two minutes each:
 1. Context and your role (cover + slide 2): sole designer, engineers 2 → 5, no components or tokens on day one.
@@ -137,11 +137,11 @@ Use big Figma screenshots, not text. Drop slide 12 (Factorial).
 | How did you handle accessibility? | Palette to AA. Stop there: no keyboard, screen-reader or full WCAG 2.2 conformance claim. If pressed beyond colour, answer from principle and say so. |
 | How would you support multiple brands? | **Gap.** No shipped multi-brand system. Answer from principle: brand as a layer above semantic tokens (Figma variable modes per brand, components bound only to semantic tokens). Remuner's separate branding collection (two brand colours) is the seed of that idea; don't stretch it into theming you shipped. |
 | A team wants to go custom / two teams forked a component | Your written answers Q1 and Q2. Stay consistent with what you wrote; Remuner Select deprecation is the real example. |
-| Tell us about a mistake | Battle card E (token file). Already in the deck, so keep it short in Q&A. |
+| Tell us about a mistake | `token-file`. Already in the deck, so keep it short in Q&A. |
 | Who did what? | Remuner: you owned brief, tokens repo, Figma library, audit; engineers adapted the pipeline and reviewed your PRs. Never sole pipeline authorship. |
 | How did you measure it? | Audit board: 10/18 screens. Never npm releases or an ESLint violation trend. |
 | How do you use AI in DS work? | Figma MCP with Codex then Claude: variants with props matching code, Storybook views, docs, palette normalisation. One umbrella line, then examples if they ask. |
-| What did Abacum add? | Story B: scale, business case, five squads. Co-led. |
+| What did Abacum add? | `abax`: scale, business case, five squads. Co-led. |
 
 **Consistency check from the screen:** you told David you were "owner or lead" at both companies and can "push code to production to move a metric". With designers in the room, say co-led at Abacum, and describe code work as engineer-reviewed PRs fixing styles and tokens.
 
@@ -162,9 +162,9 @@ Timebox for 25 minutes: framing to ~4, direction to ~8, solution to ~19, rollout
 ### [NEEDS YOUR STORY] gaps this round may hit
 
 - **One feature that shipped faster because a component existed** (Remuner deck slide 11, NEEDS INPUT). The most likely "outcome" probe. Find it before Friday or say you don't have it.
-- **Accessibility gap found after shipping** ([prep.md](../prep.md), enterprise gaps). No story. Principle only.
-- **Disagreeing with your manager** ([prep.md](../prep.md) Q10). No story; battle card D (manager view) is the closest.
-- **Kings of Mambo incidents** (Story E). A consultancy panel may ask about client work. Not fleshed out; don't improvise one.
+- **Accessibility gap found after shipping** ([question-bank.md](../question-bank.md#gaps-no-direct-material-do-not-invent), enterprise gaps). No story. Principle only.
+- **Disagreeing with your manager** ([question-bank.md](../question-bank.md#10-a-time-you-disagreed-with-your-manager-and-what-you-did) Q10). No story; `manager-view` is the closest.
+- **Kings of Mambo incidents** ([stories.md](../stories.md#gaps)). A consultancy panel may ask about client work. Not fleshed out; don't improvise one.
 
 ### Questions to ask them
 
@@ -205,7 +205,7 @@ Source: Manel's account after the call.
 
 ## Round 3: Client interview (Dow Jones)
 
-- **When:** Tue 10 Nov 2026, 17:30-18:30 Madrid (11:30-12:30 New York). Invite title "Wizeline Candidate Interview - L4 Product Designer".
+- **When:** Fri 13 Nov 2026, 18:30-19:30 Madrid (12:30-13:30 New York). Moved on 11 Nov from Tue 10 Nov, which the client cancelled. Google Meet meet.google.com/mku-posw-jbu (phone +34 822 11 35 18, PIN 314572842). Invite title "Wizeline Candidate Interview - L4 Product Designer". Guests on the new invite: Esteban Abete, Forest Evashevski, Chi Pham, Karla Sahagun, David Ho, Cristian Rodriguez.
 - **Panel:**
   - **Forest Evashevski, Director, Experience Design, The Wall Street Journal** (Dow Jones, New York, since Feb 2022). Leads product design across WSJ experiences: mobile app, responsive web, homepage, article, navigation, media, personalization, newsletters. Before that, 12 years as a WSJ art director (Off Duty, Mansion, Money & Investing) and editorial design at Reed Business Information. LinkedIn headline lists "Design System Implementation" and "Data-Driven Design". He reposted a Dow Jones Principal Product Researcher opening in Barcelona (on-site). Source: LinkedIn screenshot supplied by Manel, 2026-11-06. **Probably the decision-maker.**
   - **Esteban Gabriel Abete, EMEA Delivery Director, Wizeline** (Cobeña, Madrid; 11 years 8 months at Globant before Wizeline; university teaching). He's the organizer, eabete@opisnet.com. Source: Google result for his LinkedIn profile, screenshot supplied by Manel, 2026-11-10. Inference: he runs Wizeline's delivery on the Dow Jones account and has a client email for it. Expect him to judge how you'd work inside the client team day to day, while Forest judges the design. He could also be the "demanding director" in David's tips; nothing confirms it.
@@ -227,7 +227,7 @@ External research, 2026-11-06 (Dow Jones job listings on third-party boards, no 
 With Forest on the panel, the seat is probably WSJ consumer product (app, web, article, personalization), not OPIS data products (inference).
 
 1. **Applying the system to consumer news surfaces.** The design-system work is a means to an end for him. Show that the system serves product surfaces, and expect him to probe for craft and visual judgment: he comes from editorial art direction.
-2. **Outcomes.** He leads his own case with percentages. Your Remuner outcome is 10 of 18 screens plus a CTO quote, with no product metrics. Name that before he asks (Staff checklist item 8 in [prep.md](../prep.md)): what you tracked, why there's no product metric, what you'd measure now.
+2. **Outcomes.** He leads his own case with percentages. Your Remuner outcome is 10 of 18 screens plus a CTO quote, with no product metrics. Name that before he asks (Staff checklist item 8 in [playbooks/case-presentation.md](../playbooks/case-presentation.md#staff-level-signals-checklist)): what you tracked, why there's no product metric, what you'd measure now.
 3. **Contributing to Index without forking it**, with accessibility and multi-brand as the client's stated priorities. Those are your thinnest areas. Expect a direct question on each.
 4. **No consumer or news product in your history.** It's the clearest gap for this seat. The bridge is the studio: content sites, CMS workflows, and Kymco's modular content blocks that managers edited per product page. That's consumer web and content tooling, not news. Don't stretch it further.
 
@@ -243,9 +243,9 @@ Then one line on the first months: learn their design system and its contributio
 
 ### Lead story
 
-Positioning mapping for design-systems roles: **Remuner (Story C)** as the presentation, **Abacum (Story B)** for scale. Same deck as Round 2 ([ux-interview-deck.md](ux-interview-deck.md)), plus the pitch slide. Client-round changes (2026-11-08, rule in [interviews/prep.md](../prep.md), "Rules for every case deck"): the result goes in the first sentence on slide 1, the walk-through is about 12 minutes, and slide 21 ends on "What would be most useful to go deeper on?". Slide 13b shows the Select anatomy (atomic layers). Have the Remuner Components file open and navigable: the UX panel asked for atomic structure and this panel may too ([memory.md](../../memory.md) 2026-10-30).
+Positioning mapping for design-systems roles: **Remuner (`remuner-ds`)** as the presentation, **Abacum (`abax`)** for scale. Same deck as Round 2 ([ux-interview-deck.md](ux-interview-deck.md)), plus the pitch slide. Client-round changes (2026-11-08, rule in [playbooks/case-presentation.md](../playbooks/case-presentation.md#rules-for-every-case-deck), "Rules for every case deck"): the result goes in the first sentence on slide 1, the walk-through is about 12 minutes, and slide 21 ends on "What would be most useful to go deeper on?". Slide 13b shows the Select anatomy (atomic layers). Have the Remuner Components file open and navigable: the UX panel asked for atomic structure and this panel may too ([memory.md](../../memory.md) 2026-10-30).
 
-For the second beat outside design systems, keep **battle card G (IC dashboard)**: vague user feedback, interviews, targeted changes, tested with users. It's end-user research on a product surface, which is closer to Forest's world than finance configuration. Dataset Manager (Story A) only if the seat turns out to be OPIS.
+For the second beat outside design systems, keep **`ic-dashboard`**: vague user feedback, interviews, targeted changes, tested with users. It's end-user research on a product surface, which is closer to Forest's world than finance configuration. Dataset Manager (`dataset-manager`) only if the seat turns out to be OPIS.
 
 ### Portfolio walkthrough (plan, 2026-11-09)
 
@@ -263,22 +263,22 @@ Answers written out to read: [client-interview-answers.md](client-interview-answ
 
 | Question | Use |
 |---|---|
-| Tell us about yourself | [prep.md](../prep.md) "Opening intro". Add the vLex line; it is the consultancy proof this panel needs. |
+| Tell us about yourself | [answers.md](../answers.md#opening-intro) "Opening intro". Add the vLex line; it is the consultancy proof this panel needs. |
 | Why should we hire you / what would you bring? | The pitch above. |
-| How do you contribute to a system you don't own? | Story B (five squads, governance) plus written answers Q1-Q2 (custom vs variant, forked table). Remuner Select deprecation as the real example. |
+| How do you contribute to a system you don't own? | `abax` (five squads, governance) plus written answers Q1-Q2 (custom vs variant, forked table). Remuner Select deprecation as the real example. |
 | Accessibility | Palette to AA via HSL normalisation, AA over harmony, errors not colour-only, screen readers "in some cases". Stop there. Then say how you'd work inside an accessibility-first system: follow its rules, check contrast and states in every component. No conformance claim. |
 | Multi-brand / theming | Not shipped; both Remuner products were one brand. Core plus a semantic layer per product, typography modes: a brand is one more layer on that core. |
 | Working with engineers | Remuner tokens repo as app submodule, reviewed PRs, Storybook. Studio front-end. Never sole pipeline authorship. |
 | Working with remote or US-based teams | Yes: designer at a New York video-on-demand company before the studio, first in New York, then remotely from Barcelona; (Manel, 2026-11-10). Answer in [client-interview-answers.md](client-interview-answers.md). |
-| A mistake | Battle card E (token file). Already in the deck; keep it short. |
-| Disagreement with a decision | Battle card D (manager view, Remuner). |
+| A mistake | `token-file`. Already in the deck; keep it short. |
+| Disagreement with a decision | `manager-view` (Remuner). |
 | Why WSJ / Dow Jones? | Manel's answer (2026-11-06): the challenge of a system that serves several brands, with layered tokens and components and the systems strategy behind it. Anchors: (1) the problem, one system across brands and surfaces; (2) the match, you've built a core with a semantic layer per product twice, and a brand layer is the next step; (3) one sentence on readers or surfaces, so it isn't only about the system. Say "work on" or "contribute to" the system, not "manage" it: the seat contributes to Index. Expect the follow-up "have you done multi-brand?" straight after; answer from the multi-brand row. |
 | Consumer or news product experience? | The gap. The studio's content sites and CMS workflows, then say plainly you haven't worked on news. |
 | How did you measure success? | Audit board (10 of 18 screens), the CTO quote, then what you'd measure on a news product (for example, time to ship a new surface on Index components). |
 | System consistency vs. editorial or brand expression | No direct story. Remuner's marketing site: same core, its own semantic layer and library, so marketing could make its own pages. Answer from that and from principle. |
-| Data-heavy product experience (if OPIS comes up) | Story A, then Story D (modeling syntax). |
-| Why did you leave Remuner? | [prep.md](../prep.md) "Priority zero". Say it and stop. |
-| Since March? | [prep.md](../prep.md): Claude and Figma MCP work, occasional freelance. |
+| Data-heavy product experience (if OPIS comes up) | `dataset-manager`, then `modeling-language`. |
+| Why did you leave Remuner? | [answers.md](../answers.md#why-did-you-leave-remuner), departure answer. Say it and stop. |
+| Since March? | [answers.md](../answers.md#what-have-you-been-doing-since-march): Claude and Figma MCP work, occasional freelance. |
 | How do you use AI in DS work? | One umbrella line (Figma MCP with Codex then Claude), examples if asked. |
 
 **Consistency:** say co-led at Abacum. David heard "owner or lead" at both; this panel gets the register version.
@@ -286,17 +286,17 @@ Answers written out to read: [client-interview-answers.md](client-interview-answ
 ### [NEEDS YOUR STORY] gaps this round may hit
 
 - **One feature that shipped faster because a component existed.** The likeliest "impact" probe from a client. Not measured; point to 10 of 18 screens and the Select rollout.
-- **Accessibility gap found after shipping** ([prep.md](../prep.md), enterprise gaps). Principle only.
-- **Stakeholder alignment in a large org** ([prep.md](../prep.md) Q20 and the global-stakeholder gap). Dow Jones is the biggest org you'd have worked in. Answer from principle; don't claim the scale.
-- **Mentoring episode** (battle cards). vLex coaching is the nearest, with no recorded episode or result.
-- **Kings of Mambo incidents** (Story E). Only the missed-deadline story (Q2) is written up.
+- **Accessibility gap found after shipping** ([question-bank.md](../question-bank.md#gaps-no-direct-material-do-not-invent), enterprise gaps). Principle only.
+- **Stakeholder alignment in a large org** ([question-bank.md](../question-bank.md#20-whats-the-biggest-gap-in-your-skills-right-now) Q20 and the global-stakeholder gap). Dow Jones is the biggest org you'd have worked in. Answer from principle; don't claim the scale.
+- **Mentoring episode** ([stories.md](../stories.md#gaps)). vLex coaching is the nearest, with no recorded episode or result.
+- **Kings of Mambo incidents** ([stories.md](../stories.md#gaps)). Only the missed-deadline story (`kom-deadline`) is written up.
 
 ### David's tips (email, 9 Nov 12:07)
 
 David forwarded tips "de una diseñadora". The feminine forms ("la entrevistadora", "buena diseñadora", "preparada") suggest the text was first written for another candidate, so don't read it as telling you who leads the call. The useful signal: the client side has a **strong, demanding director personality** ("personalidad directiva fuerte"), and handling that counts as much as the portfolio. Which panelist that is isn't stated.
 
 What it changes:
-- **Stakeholder stories move up.** Expect "tell me about a demanding senior stakeholder" or "a time you defended your criteria". First choice: **D (manager view)**, where you disagreed with the CEO and CTO, accepted their decision and kept the research findings in. Second: **C (Maker Days)**, Engineering's capacity objection solved with a bounded test. Kings of Mambo client work: only the missed-deadline story ([prep.md](../prep.md) Q2) is written up, so don't improvise another one.
+- **Stakeholder stories move up.** Expect "tell me about a demanding senior stakeholder" or "a time you defended your criteria". First choice: **`manager-view`**, where you disagreed with the CEO and CTO, accepted their decision and kept the research findings in. Second: **`maker-days`**, Engineering's capacity objection solved with a bounded test. Kings of Mambo client work: only the missed-deadline story ([`kom-deadline`](../stories.md#kom-deadline)) is written up, so don't improvise another one.
 - **Metrics.** They ask for data. You have no product metrics, so don't invent any. Say what you tracked (10 of 18 screens, the CTO quote) and what you'd measure, before they ask.
 - **Short answers.** Battle card shape: one-line headline, 60 to 90 seconds, stop and let them ask. Deck at about 12 minutes.
 - **Under pressure** (interrupted, challenged, "that's not how we'd do it"): acknowledge it, give your reason once, ask what they'd weigh. Don't defend at length or fold straight away.

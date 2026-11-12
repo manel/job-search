@@ -68,7 +68,7 @@ Cleaned 2026-10-14 during the career-os merge: entries now covered by the eviden
 
 ## References and departure context
 
-**2026-06-12** — Departure from Remuner (March 2026) was company-initiated. Never propose Remuner-based references or LinkedIn recommendation asks. The CTO quote stays in case studies (it happened and is documented), but it cannot be converted into a public or checkable reference. "Why did you leave Remuner" is a guaranteed interview question and needs a prepared answer before any screen — see interviews/prep.md.
+**2026-06-12** — Departure from Remuner (March 2026) was company-initiated. Never propose Remuner-based references or LinkedIn recommendation asks. The CTO quote stays in case studies (it happened and is documented), but it cannot be converted into a public or checkable reference. "Why did you leave Remuner" is a guaranteed interview question and needs a prepared answer before any screen — see [interviews/answers.md](interviews/answers.md#why-did-you-leave-remuner).
 
 ---
 

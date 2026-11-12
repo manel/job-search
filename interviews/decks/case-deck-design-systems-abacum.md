@@ -15,7 +15,7 @@ Every claim is checked against [evidence/experience-facts.md](../../evidence/exp
 **Headline:** Why we built Abax across five product squads
 **Sub:** Abacum, 2022-2024 · B2B financial planning platform
 
-**Notes:** Result first (rule in [interviews/prep.md](../prep.md), "Rules for every case deck"): With the head of design, I co-led Abax, a design system that all five product squads used. When I left, about 47% of the component uses we tracked in the code were Abax, against a goal of 80%. Then the context: Abacum is FP&A software for finance teams, and I joined on data integrations.
+**Notes:** Result first (rule in [playbooks/case-presentation.md](../playbooks/case-presentation.md#rules-for-every-case-deck), "Rules for every case deck"): With the head of design, I co-led Abax, a design system that all five product squads used. When I left, about 47% of the component uses we tracked in the code were Abax, against a goal of 80%. Then the context: Abacum is FP&A software for finance teams, and I joined on data integrations.
 
 ---
 
@@ -37,7 +37,7 @@ Every claim is checked against [evidence/experience-facts.md](../../evidence/exp
 **Headline:** We asked engineering for time to test shared components in production
 **Cards:** Evidence: buttons, cells and menus built differently in each squad. Concern: a side project competing with squad work. Proposal: shared tokens and one Button, shipped to production. The open question: how do engineers get focused time for this?
 
-**Notes:** We named engineering's objection before they raised it. Presented to engineering leadership and at an all-hands on 7 July 2023, where I introduced Abax: about 250 tokens and over 100 icons already in production. Battle card C.
+**Notes:** We named engineering's objection before they raised it. Presented to engineering leadership and at an all-hands on 7 July 2023, where I introduced Abax: about 250 tokens and over 100 icons already in production. Story `maker-days`.
 
 ---
 
@@ -216,7 +216,7 @@ So we kept the proposal small: shared tokens and one Button, shipped to producti
 
 **Figma 10**
 That left one open question: how do engineers get focused time for this? We presented it to engineering leadership and at an all-hands.
-▶ [If asked about the objection: battle card C.]
+▶ [If asked about the objection: story `maker-days`.]
 
 **Figma 11 (Investment choice)**
 There were two options. Two front-end engineers and a designer for two weeks alongside squad work, or Maker Days: one dedicated week with four or more engineers and two or more designers. We chose Maker Days. It was Abacum's week for non-roadmap work, every nine weeks, and being selected turned a side project into a sanctioned one.
@@ -353,7 +353,7 @@ What would be most useful to go deeper on?
 
 **"What would you do differently?"** Start with a smaller token set and enforce adoption in code earlier. That's what I did at Remuner (slide 13).
 
-**"How did you handle the team dynamics?"** Head of design as co-lead; engineering leadership for the time; squad designers in the weekly sync; squads owned their own migration tickets. Battle card C for the capacity objection.
+**"How did you handle the team dynamics?"** Head of design as co-lead; engineering leadership for the time; squad designers in the weekly sync; squads owned their own migration tickets. Story `maker-days` for the capacity objection.
 
 **"Tell me about a disagreement with your co-lead."** The January 2024 token audit (slide 7). The head of design asked whether `actionSecondary` could merge into `secondary`. I wrote against it on the audit page: interactive text needs its own token, or nobody knows when to use which. We kept it. Frame it as my argument in a team decision; the decision note has no author.
 

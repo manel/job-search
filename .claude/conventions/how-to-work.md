@@ -42,10 +42,11 @@
 
 ### Interview work
 
-- Core story library and question maps: [interviews/prep.md](../../interviews/prep.md). Stories repeat; the angle changes per role.
+- Start at [interviews/prep.md](../../interviews/prep.md), the index. Stories live once in [interviews/stories.md](../../interviews/stories.md) under IDs (`dataset-manager`, `token-file`); set-piece answers once in [interviews/answers.md](../../interviews/answers.md); questions Q1–Q27 in [interviews/question-bank.md](../../interviews/question-bank.md); round formats in `interviews/playbooks/`. Stories repeat; the angle changes per role.
+- Briefs link to stories and answers by ID and anchor; they never paste them. A company variant is written as the change only. Run `python3 scripts/check-links.py` after moving or renaming any Markdown file; it also flags a pasted copy of the departure answer.
 - Per-company material lives in `interviews/[company]/`: a main file per process (`[company].md`) with a section per round and the debrief appended after each round, plus any briefs, cheat sheets or challenge material.
 - `/prep-interview [company] [round]` builds the one-page brief. `/debrief-interview [company] [round]` captures what happened and feeds reusable signals into [memory.md](../../memory.md).
-- [prep.md](../../interviews/prep.md) has [NEEDS YOUR STORY] gaps. Flag them when relevant; never fill them with invented material.
+- Open gaps are listed in [interviews/stories.md](../../interviews/stories.md#gaps) and marked [NEEDS YOUR STORY] in [interviews/question-bank.md](../../interviews/question-bank.md). Flag them when relevant; never fill them with invented material.
 
 ### Follow-up discipline
 

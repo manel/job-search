@@ -157,7 +157,7 @@ Recommendation: **work in Figma by hand during the live part.** They're scoring 
 
 ## If the discussion turns to past work
 
-Use Dataset Manager as the direction-setting example, since it's the clearest answer to Celine's gap. Memory chain: UX request → proposed research first → users think in Excel, not SQL → effort objection from Product/Eng → protect existing datasets → shipped, first-session setup (qualitative). No numeric business result; say so. Card A in [battle cards](../behavioral-battle-cards.md) for follow-ups.
+Use Dataset Manager as the direction-setting example, since it's the clearest answer to Celine's gap. Memory chain: UX request → proposed research first → users think in Excel, not SQL → effort objection from Product/Eng → protect existing datasets → shipped, first-session setup (qualitative). No numeric business result; say so. Card A in [battle cards](../archive/behavioral-battle-cards-2026-10.md) for follow-ups.
 
 Answer drafted 2026-10-13 from Manel's account and the register:
 

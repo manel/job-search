@@ -1,6 +1,8 @@
 # Spoken stories for Textream
 
-Prepared 2026-10-07. Seven draft English answers converted from the [battle cards](../behavioral-battle-cards.md). These are editable spoken drafts, not user-approved verbatim answers. Facts and ownership were checked against the current experience register; historical detail also comes from the detailed Datavant bank. Existing cues remain available.
+**Archived 2026-11-12.** Textream is no longer used, and some scripts here are superseded: the departure answer in `11-remuner-departure.txt` is an old wording. Current stories: [interviews/stories.md](../../stories.md). Current set-piece answers: [interviews/answers.md](../../answers.md).
+
+Prepared 2026-10-07. Seven draft English answers converted from the [battle cards](../behavioral-battle-cards-2026-10.md). These are editable spoken drafts, not user-approved verbatim answers. Facts and ownership were checked against the current experience register; historical detail also comes from the detailed Datavant bank. Existing cues remain available.
 
 Open [alan-first-meeting.textream](alan-first-meeting.textream) in Textream for the introduction, collaboration answer, project walkthrough, and seven behavioral stories as separate pages. Native format verified against Textream’s save/load source on 2026-10-07: a JSON array of page strings. JSON round-trip and all twelve page contents checked; opening in the app has not been tested.
 
@@ -43,4 +45,4 @@ The vague-feedback story was added on 2026-10-09 from Manel’s account; design 
 
 ## Local browser reader
 
-Open [alan-reader.html](../alan/alan-reader.html) in a browser. It includes all Textream answers plus the reference sections from [alan-first-interview.md](../alan/alan-first-interview.md). Use search, text-size controls and left/right arrow keys; load a revised Textream file with the button in the sidebar. To refresh both answers and Markdown reference notes on disk, run `python3 scripts/build-alan-reader.py` from the repository. No server, account, or network connection is required.
+Open [alan-reader.html](../../alan/alan-reader.html) in a browser. It includes all Textream answers plus the reference sections from [alan-first-interview.md](../../alan/alan-first-interview.md). Use search, text-size controls and left/right arrow keys; load a revised Textream file with the button in the sidebar. To refresh both answers and Markdown reference notes on disk, run `python3 scripts/build-alan-reader.py` from the repository. No server, account, or network connection is required.

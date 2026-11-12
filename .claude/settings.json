@@ -25,7 +25,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "jq -r 'if (.tool_input.file_path // \"\") | test(\"interviews/prep\\\\.md$\") then {\"hookSpecificOutput\":{\"hookEventName\":\"PostToolUse\",\"additionalContext\":\"interviews/prep.md was just edited. Before responding, check every file in interviews/ (except prep.md itself) whose interview has not yet occurred — meaning it has a future date or no debrief section — and propagate any relevant changes from prep.md to those files now.\"}} else empty end' 2>/dev/null || true"
+            "command": "jq -r 'if (.tool_input.file_path // \"\") | test(\"interviews/(stories|answers|question-bank)\\\\.md$|interviews/playbooks/\") then {\"hookSpecificOutput\":{\"hookEventName\":\"PostToolUse\",\"additionalContext\":\"A canonical interview file was just edited (stories, answers, question bank or a playbook). Briefs link to these files instead of copying them. Before responding, check the briefs in interviews/[company]/ whose interview has not yet occurred (future date or no debrief section): if one still pastes text this edit changed, replace the copy with a link (or keep only the company-specific change); if this edit renamed a story ID or heading, update the links. Then run python3 scripts/check-links.py.\"}} else empty end' 2>/dev/null || true"
           },
           {
             "type": "command",

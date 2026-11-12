@@ -150,7 +150,7 @@ Alan’s [compensation page](https://alan.com/en/careers/a/salary-equity) says a
 - Technical-interview preparation: [Live technical brief](../../interviews/alan/alan-technical-interview.md), started 2026-10-13. Strategic-story clarification and mock rehearsal remain pending.
 
 - First-interview brief: [Alan first interview](../../interviews/alan/alan-first-interview.md).
-- Reusable behavioral cue cards: [Battle cards](../../interviews/behavioral-battle-cards.md). Seven supported behavioral stories, including the shipped IC-dashboard vague-feedback example. Personal Alan motivation is recorded in the brief. Spoken rehearsal is not independently verified.
+- Reusable behavioral cue cards: [Battle cards](../../interviews/archive/behavioral-battle-cards-2026-10.md) (merged into [interviews/stories.md](../../interviews/stories.md) 2026-11-12). Seven supported behavioral stories, including the shipped IC-dashboard vague-feedback example. Personal Alan motivation is recorded in the brief. Spoken rehearsal is not independently verified.
 
 - Tailored CV: [cv/roles/alan-product-designer.md](../../cv/roles/alan-product-designer.md)
 - Cover letter: [cover-letters/roles/alan-product-designer.md](../../cover-letters/roles/alan-product-designer.md)

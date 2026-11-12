@@ -62,6 +62,8 @@ insights, leverage, optimize, streamline, unlock, enable, empower, holistic, rob
 - Uniform paragraph length throughout
 - Credential stacking openers
 - Honesty disclaimers ("To be honest..." / "If I'm being direct...")
+- Aphoristic contrast: "the X, not the Y" balanced antithesis ("The draw is the type of problem, not the industry"). It asserts a preference without evidence and reads as positioning copy. Replace it with a checkable fact or cut the sentence; cutting usually wins. Banned in all recruiter-facing prose (Manel, portfolio hero, 2026).
+- Time-anchored framing of recent work: never "the last four years", "over the last four years" or "the last four" in an opener. Keep the framing line general ("Most of my work has been internal and configuration-heavy B2B tools for expert users") and don't swap in company names there; Remuner and Abacum belong in the evidence that follows. "15 years" as the career total is fine. Grep drafts for "last four" before output (Manel, 2026-11-07).
 
 ---
 

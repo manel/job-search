@@ -1,6 +1,8 @@
 # Behavioral interview battle cards
 
-Prepared 2026-10-06. English cues for Alan and future interviews. These are retrieval aids, not approved verbatim answers. Sources: [experience register](../evidence/experience-facts.md) and [existing detailed story bank](datavant/datavant-star-examples.md). Current evidence supersedes older wording.
+**Archived 2026-11-12.** Merged into [interviews/stories.md](../stories.md), which maps these card letters (A to G) to story IDs. Kept for old briefs that cite "card D" and similar.
+
+Prepared 2026-10-06. English cues for Alan and future interviews. These are retrieval aids, not approved verbatim answers. Sources: [experience register](../../evidence/experience-facts.md) and [existing detailed story bank](../datavant/datavant-star-examples.md). Current evidence supersedes older wording.
 
 ## Keep this selector visible
 

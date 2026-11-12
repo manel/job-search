@@ -33,6 +33,16 @@
 - No salary figure unless the application requires one; follow [context/salary.md](salary.md).
 - Write in the posting's language. Spanish letters keep Manel's edited wording; avoid literal translations.
 
+## Application form answers
+
+- Write "Why this company/role" and "Describe your experience" answers conversationally, in first person. Open on what Manel has done that matches the role ("I've worked on problems similar to the ones your users face..."), never on a statement about the company.
+- One short paragraph: three or four sentences plus a case link. Drop secondary roles the CV already covers. Draft the first version this way; don't start from a polished three-part answer (Markin and Blacklane, 2026-11-11).
+
+## Case and interview framing
+
+- In case decks, live cases and challenge prep, show a product designer. Lead with the user journey, where it breaks, and what the user sees, knows and feels at each step.
+- Business impact gets one line and one signal, plus a guardrail metric where relevant. No PM-style sections (prioritisation frameworks, roadmaps) on case boards, even when an interviewer's notes push toward metrics (Manel, Alan board, 2026-10-15).
+
 ## Base CV and role scope
 
 - Consult [evidence/product-work-inventory.md](../evidence/product-work-inventory.md) for the broader product-area inventory and artifact references; use project-level claims only when supported in the experience register.

@@ -14,7 +14,7 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 - [x] **Wizeline UX interview held 30 Oct.** Debrief in [interviews/wizeline/wizeline.md](interviews/wizeline/wizeline.md). No whiteboard; the canvas sub-tasks are moot.
 - [x] **Wizeline UX interview passed 2 Nov** at Level 4 (David Ho email).
-- [ ] **Wizeline client interview: cancelled by the client 10 Nov**; David Ho will reschedule. Nudge Mon 16 Nov if no slot. Original slot Tue 10 Nov, 17:30-18:30. Brief done 6 Nov (Round 3 in [interviews/wizeline/wizeline.md](interviews/wizeline/wizeline.md); panel includes Forest Evashevski, Director, Experience Design, WSJ). Still to do before Tuesday:
+- [ ] **Wizeline client interview: Fri 13 Nov, 18:30-19:30 Madrid** (rescheduled 11 Nov; the client cancelled the 10 Nov slot). Meet meet.google.com/mku-posw-jbu. Brief done 6 Nov (Round 3 in [interviews/wizeline/wizeline.md](interviews/wizeline/wizeline.md); panel includes Forest Evashevski, Director, Experience Design, WSJ). Still to do before Friday:
   - [x] "What I bring" (Figma 20) and "Thank you" (Figma 21) slides built 2026-11-07 after Handover; talk track and notes in [interviews/wizeline/ux-interview-deck.md](interviews/wizeline/ux-interview-deck.md). Speaker notes pasted 2026-11-08, including slide 13b (Select anatomy, kept as the vector drawing, dissolve transition).
   - Rehearse "why WSJ" from the brief's anchors: "work on" or "contribute to" Index, not "manage"; one sentence on readers or surfaces; multi-brand follow-up ready.
   - Rehearse the outcome answer before Forest asks (10 of 18 screens, CTO quote, no product metric, what you'd measure now).
@@ -51,7 +51,7 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 - [ ] **Haddock review (due 3 Nov).** Posting still open on 3 Nov, process on hold since 9 Oct; the 12 Oct reply to Ingrid is unconfirmed as sent. Decide on a short follow-up.
 - [x] **Assess the 15 role leads from the 3 Nov scan** (done 2026-11-07, together with the 4 Nov manual leads: 6 proceed, 2 defer, 12 skip, 2 closed; see [applications/active.md](applications/active.md)). New queue: 011h and the Spendesk message to Cyrièle by 9 Nov, Exoticca 10 Nov, Canonical DS 11 Nov, Fever and The Knot (base CV) 12 Nov.
 
-- [ ] **Senovo questions to Menna** and the overdue follow-ups (`/follow-up`). Babel email to Mauro dropped: Babel rejected 2026-10-22.
+- [ ] **Overdue follow-ups** (`/follow-up`). 12 Nov: Haddock nudged, Spendesk moved to 18 Nov, Qonto closed, Senovo skipped. Babel email to Mauro dropped: Babel rejected 2026-10-22.
 
 - [ ] **Portfolio PDF text.** The Flodesk portfolio PDF has no extractable email (underlined links, see memory.md 2026-10-20). The planned portfolio PDF (Portfolio section below) must carry contact details as real text: no underlined text, then run the PDF check.
 
@@ -90,7 +90,8 @@ Raised 2026-10-26 after the Perk DS rejection at CV review (zero interviews from
 
 ## Interview prep (yours to write)
 
-- [ ] The 5 remaining `[NEEDS YOUR STORY]` gaps in [interviews/prep.md](interviews/prep.md). Check [interviews/behavioral-battle-cards.md](interviews/behavioral-battle-cards.md) first; some may already be covered there.
+- [ ] The `[NEEDS YOUR STORY]` gaps, listed in [interviews/stories.md](interviews/stories.md#gaps) and marked in [interviews/question-bank.md](interviews/question-bank.md) (Q10, Q17, enterprise gaps). Battle cards merged into stories.md on 2026-11-12.
+- [ ] **Check three claims carried over from the old prep.md** (2026-11-12): "Storybook in Chromatic" (ways-of-working playbook), the Kings of Mambo deadline and lo-fi feedback stories (not in the register), and Q20's "got cross-squad buy-in". Confirm or correct, then update [evidence/experience-facts.md](evidence/experience-facts.md).
 - [ ] **AI agent case deck** ([interviews/decks/case-deck-ai-agent.md](interviews/decks/case-deck-ai-agent.md)): speaker notes and slide structure are written, but the visuals per slide (flow diagram, annotated conversation screenshot, reach diagram, cycle diagram, outcome cards) still need building or copying from the live portfolio case. Parked 2026-07-24; pick up when a process reaches a case-presentation round. Decide the output form first.
 
 ## Records hygiene

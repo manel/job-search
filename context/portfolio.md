@@ -254,7 +254,7 @@ Cases must show:
 
 ## Staff-level signals for written cases
 
-The master checklist lives in [interviews/prep.md](../interviews/prep.md) (Case presentation round → Staff-level signals checklist). That version is written for in-person deck presentation. Below is how each point adapts to written, async portfolio cases — where there are no speaker notes and no conversation to recover from.
+The master checklist lives in [interviews/playbooks/case-presentation.md](../interviews/playbooks/case-presentation.md#staff-level-signals-checklist). That version is written for in-person deck presentation. Below is how each point adapts to written, async portfolio cases — where there are no speaker notes and no conversation to recover from.
 
 **1. Opening frame**
 The first paragraph of the case must signal ambiguity + leverage + strategic allocation — not domain or craft. A reader who skims only the opener should understand: this is about deciding where design investment creates the most leverage, not about shipping a deliverable. If the opener describes what was built, rewrite it to describe the decision context.
