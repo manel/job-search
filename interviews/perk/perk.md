@@ -221,7 +221,9 @@ From Clare's prep links. Self-reported marketing figures; use one detail, don't 
 - **Perk MCP:** travel, spend, invoicing and events through one MCP for assistants like Claude and ChatGPT; actions limited to what the user can already do, out-of-policy requests go through the normal approvals. Source: Perk press release; CTO Robin Smith on LinkedIn. This is the "AI agents and assistants" surface in the Suitcase JD.
 - **Audi Revolut F1 Team:** official partner since Dec 2025; 3,000 trips, 860 employees, 20 currencies a season. Source: Perk LinkedIn post.
 - **Competitors** (inference, not named by Perk): Navan, SAP Concur, Amex GBT and Egencia on travel; Pleo, Spendesk and Payhawk on spend.
-- **Not read:** the Builders post "Powering real work: the design thinking behind Perk" and the Builders index returned 403. Clare picked that post as "product insights", so read it in a browser before Tuesday; it may describe Suitcase.
+- **"Powering real work: the design thinking behind Perk"** (Annalisa Cividati and Emily Gallagher, Builders, 14 Nov 2025; pasted by Manel 2026-11-12). Clare's "product insights" pick. It doesn't mention Suitcase. Travel and expenses were unified from late 2023, starting from four archetypes: financial controllers, balanced budget holders, savvy strategists, frequent travellers. The journey was reframed "around tasks rather than tools", with "patterns that work across roles and product combinations", and a new information architecture built on "mental spaces". Hundreds of people worked on it, with cross-team critiques and one goal: "make Perk feel like one intelligent, coherent platform". The post's three design priorities are in an image that wasn't pasted.
+- **"Working with designers, AI, or both?"** (Bea Silvia, 13 May 2026; already summarised in the Suitcase section above; full text pasted 2026-11-12). New points: the Reporting Squad ran an AI-adoption retro, found that people adopting AI at different speeds makes estimation harder, and wants "to track AI's impact on delivery speed honestly". Designers and PMs use AI to write specs and component documentation, with "Suitcase remains the source of truth". There are five questions to ask of any design delivery (flows and context; components and patterns, "existing design system components, or introducing something new? If new, why?"; states and edge cases; responsive behaviour; intent and notes).
+- **Use:** for "what excites you", "patterns that work across roles and product combinations" is a system problem. It's also what the JD's "one consistent product on every surface" asks Suitcase to carry. For AI, the retro's point about tracking impact honestly fits your 47% answer: you report what you measured, including where you fell short. The five delivery questions are a ready frame for the Design Critique round.
 
 ### What Tim most likely cares about
 1. **Adoption across ~30 designers who don't report to you.** Suitcase is "a bit of a bolt-on": one dedicated person and a project team from the squads. Tim is hiring the person who gets squads to use and contribute to it.
@@ -290,7 +292,7 @@ Not expected in this round. Stated EUR 65,000 on the form; Clare said the level 
 
 ### Prep checklist before the call
 - Say the Abax arc out loud once, timed to about 10 minutes, then the impact part alone in 90 seconds.
-- Read the Builders "design thinking behind Perk" post in a browser (403 here) and watch the Entry Ready video. Pick the one detail for "what excites you".
+- Watch the Entry Ready video. Pick the one detail for "what excites you" (the cross-role patterns line or the MCP).
 - Say the Select and Autocomplete example in under a minute: problem, what the detachment ranking showed, the three-component fix, result.
 - Say the token-audit naming example in under a minute.
 - Have the Abacum deck v2 open on slide 7 (token audit) and the Select slide, ready to share.
