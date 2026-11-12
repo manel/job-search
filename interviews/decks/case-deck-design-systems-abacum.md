@@ -277,7 +277,7 @@ A ranking of the most-detached components told us what to fix first. Roughly, un
 ▶ [Click.]
 
 **Figma 24**
-I defined the Figma measures, and an engineer built the scripts. The 47% comes from the code count only.
+I defined the Figma measures, and an engineer built the scripts. I ran the Figma one every two weeks. The 47% comes from the code count only.
 ▶ [Two measures, two denominators. Never merge them.]
 
 **Figma 25 (Select and Autocomplete)**

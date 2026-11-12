@@ -607,6 +607,7 @@ Notion export index: [notion/README.md](notion/README.md) (built 2026-11-09). En
 - **Class:** Artifact (Notion squad docs).
 - **Verified:** 2026-11-09.
 - **External-use boundary:** This contradicts the Modeling Syntax deck's framing "a problem nobody had ticketed". Syntax usability was ticketed; what Manel added was the function-level audit, the benchmark and the consolidation proposal. Don't claim syntax was users' top frustration.
+- **Claim (Abax measurement and Maker Days, confirmed by Manel 2026-11-12):** An engineer built the Figma detachment script; Manel ran it every two weeks. Say "I ran a script an engineer built", never "I built". The Abax work won Maker Days selection twice. Class: Confirmed.
 - **Claim (origin and argument, confirmed by Manel 2026-11-12):** Manel detected the syntax inconsistencies, shared them with the head of design, and created and wrote the "Improve Syntax Usability" initiative himself; nobody had ticketed the problem before. The case for consolidation (cost of extending the old pattern; one parameter structure unblocks combined filters, parameter preview and a filter popover) was Manel's argument. Class: Confirmed. "Nobody had ticketed this problem; I wrote the initiative" is claimable. This supersedes the boundary above that called the initiative pre-existing.
 
 ### Abax design system
