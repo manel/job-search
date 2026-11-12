@@ -48,7 +48,7 @@ source: LinkedIn listing found by Manel 2026-11-12; JD fetched from the official
 ## Materials
 
 - CV source: cv/roles/base-fever-the-knot-2026-11.md (shared base CV, no tailoring by decision)
-- PDF: cv-pdf-to-send/FX Digital/Manel Leiva CV 2026.pdf, a copy of the Fever export (check-pdf-text --source OK on 2026-11-07)
+- PDF: a copy of the Fever export was placed in cv-pdf-to-send/FX Digital/, never sent, and deleted 2026-11-12.
 - Cover letter: none.
 
 ## History
@@ -57,3 +57,4 @@ source: LinkedIn listing found by Manel 2026-11-12; JD fetched from the official
 - 2026-11-12: Base CV PDF copied to cv-pdf-to-send/FX Digital/. No letter by decision. Not sent.
 - 2026-11-12: check-pdf-text --source OK on the copied PDF. Not sent.
 - 2026-11-12: Skipped by Manel before sending: unsure he wants agency CTV and marketing-design work. Never submitted. The copied PDF in cv-pdf-to-send/FX Digital/ was never sent.
+- 2026-11-12: Unsent PDF folder cv-pdf-to-send/FX Digital/ deleted (Manel).
