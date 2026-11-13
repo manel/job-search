@@ -6,7 +6,7 @@ Record: [applications/records/wizeline-senior-product-designer-barcelona-hybrid.
 |---|---|---|---|---|
 | 1. Screening | Fri 23 Oct | David Ho, recruiter | [wizeline-stage1-screening.md](wizeline-stage1-screening.md) | Passed; three written DS questions sent the same day |
 | 2. Case (UX interview) | Fri 30 Oct | Max Gutiérrez Liceaga, Jesús Alonso Gutiérrez Ruiz | [wizeline-stage2-case.md](wizeline-stage2-case.md) | Passed at L4 (2 Nov) |
-| 3. Client (Dow Jones) | Fri 13 Nov, 18:30-19:30 Madrid | Forest Evashevski (WSJ), Esteban Abete (Wizeline), Wizeline staffing | [wizeline-stage3-client.md](wizeline-stage3-client.md) | Pending |
+| 3. Client (Dow Jones) | Not scheduled (10 Nov and 13 Nov slots cancelled by the client) | Forest Evashevski (WSJ), Esteban Abete (Wizeline), Wizeline staffing | [wizeline-stage3-client.md](wizeline-stage3-client.md) | On hold since 12 Nov: client clarifying the role |
 
 Shared across stages:
 - [wizeline-case-deck.md](wizeline-case-deck.md): talk track and speaker notes for the Remuner DS deck (Figma "Remuner DS"), used in stages 2 and 3.

@@ -12,9 +12,10 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 ## This week
 
+- [ ] **Mon 16 Nov: answer Capitole (Araceli Massieu) on EUR 40K.** Call held 13 Nov; client revealed at the next interview. Record: [applications/records/capitole-senior-ai-product-designer-insurance.md](applications/records/capitole-senior-ai-product-designer-insurance.md).
 - [x] **Wizeline UX interview held 30 Oct.** Debrief in [interviews/wizeline/wizeline-stage2-case.md](interviews/wizeline/wizeline-stage2-case.md). No whiteboard; the canvas sub-tasks are moot.
 - [x] **Wizeline UX interview passed 2 Nov** at Level 4 (David Ho email).
-- [ ] **Wizeline client interview: Fri 13 Nov, 18:30-19:30 Madrid** (rescheduled 11 Nov; the client cancelled the 10 Nov slot). Meet meet.google.com/mku-posw-jbu. Brief done 6 Nov, refreshed 12 Nov with a "Before 18:30 on Friday" block ([interviews/wizeline/wizeline-stage3-client.md](interviews/wizeline/wizeline-stage3-client.md); panel includes Forest Evashevski, Director, Experience Design, WSJ). Still to do before Friday:
+- [ ] **Wizeline client interview: on hold.** The Fri 13 Nov slot was cancelled on 12 Nov (the 10 Nov one was too): the client is clarifying the role, and David Ho expects news the week of 16 Nov. Check in with him Fri 20 Nov if silent. Brief done 6 Nov, refreshed 12 Nov ([interviews/wizeline/wizeline-stage3-client.md](interviews/wizeline/wizeline-stage3-client.md); panel includes Forest Evashevski, Director, Experience Design, WSJ). The sub-tasks below wait until a new date is set:
   - Check the speaker notes on Remuner deck slides 1 and 13b (flagged for a re-paste) and look up Cristian Rodriguez, the new Wizeline guest.
   - [x] "What I bring" (Figma 20) and "Thank you" (Figma 21) slides built 2026-11-07 after Handover; talk track and notes in [interviews/wizeline/wizeline-case-deck.md](interviews/wizeline/wizeline-case-deck.md). Speaker notes pasted 2026-11-08, including slide 13b (Select anatomy, kept as the vector drawing, dissolve transition).
   - Rehearse "why WSJ" from the brief's anchors: "work on" or "contribute to" Index, not "manage"; one sentence on readers or surfaces; multi-brand follow-up ready.

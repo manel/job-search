@@ -12,11 +12,11 @@ application_channel: direct
 warm_path: unknown
 portfolio_version: 2026-09-23
 applied_on: 2026-10-19
-last_contact_on: 2026-11-11
-outcome_stage: design-interview # UX interview passed 2 Nov at Level 4; client interview rescheduled from Tue 10 Nov (client cancelled) to Fri 13 Nov 18:30
+last_contact_on: 2026-11-12
+outcome_stage: design-interview # UX interview passed 2 Nov at Level 4; client interview cancelled twice (10 Nov, 13 Nov); on hold while the client clarifies the role
 rejection_reason_class: none
-next_action: Client interview (Dow Jones) Fri 13 Nov, 18:30-19:30 Madrid, Google Meet meet.google.com/mku-posw-jbu. Deck and brief ready (interviews/wizeline/wizeline-stage3-client.md, refreshed 2026-11-12). Run /debrief-interview wizeline client the same evening.
-next_action_on: 2026-11-13
+next_action: Wait for David Ho; he expects clarity on the role during the week of 16 Nov. If nothing by Fri 20 Nov, send a short check-in asking whether the role is still going ahead and whether the scope has changed. Keep the stage 3 brief and deck ready.
+next_action_on: 2026-11-20
 salary_stated: 2026-10-23 recruiter screen, asked first: "around 50-55" (EUR K gross annual), with a request for their range. Wizeline stated Level 4 (Senior) entry EUR 49K gross, no negotiation, plus EUR 100/month hybrid allowance and EUR 220/month meal card
 job_url: https://www.wizeline.ai/careers/job/?gh_jid=7384390
 source: Official Wizeline Greenhouse job record and application fields checked 2026-09-23; live portfolio cases; Career OS evidence register
@@ -117,3 +117,4 @@ The official Greenhouse application is open. Required candidate fields are CV, L
 - 2026-11-11 (10:53): Esteban Abete (organizer, eabete@opisnet.com) updated the invite: client interview moved to Fri 13 Nov 2026, 18:30-19:30 Madrid (12:30-13:30 New York). Guests: Forest Evashevski, chi.pham, karla.sahagun, david.ho and cristian.rodriguez (Wizeline addresses), plus Manel. Meet link meet.google.com/mku-posw-jbu, phone +34 822 11 35 18, PIN 314572842. The candidate profile attachment ("Senior Visual Designer...") is still on the invite. Acceptances not shown. Source: calendar update email pasted by Manel 2026-11-12.
 - 2026-11-12: Invite state for the 13 Nov slot (screenshot supplied by Manel): Esteban Abete and Manel accepted; Karla Sahagun declined (out of office); Chi Pham, Cristian Rodriguez, David Ho and Forest Evashevski not yet answered.
 - 2026-11-12: Interview folder split into one file per stage (wizeline.md index; wizeline-stage1-screening.md, wizeline-stage2-case.md, wizeline-stage3-client.md; stage material renamed to match). Unused live-challenge prompt deleted. Stage 3 brief refreshed for 13 Nov: invite answers (Karla declined, Forest not yet answered), new guest Cristian Rodriguez, portfolio copy changed 12 Nov, run order and setup.
+- 2026-11-12 (15:38): David Ho emailed that the Fri 13 Nov meeting is cancelled: the client needs to clarify aspects of the role before moving forward. He will keep Manel informed and hopes to have more clarity next week. Not a rejection; the process is on hold on the client side. Second client-side cancellation (10 Nov was the first). Inference: the scope or the req itself may change; the "Senior Visual Designer" profile title is one possible link, unconfirmed. 15:44: Manel replied that he understood and to keep him posted. Next: check-in Fri 20 Nov if silent. Source: email thread pasted by Manel.
