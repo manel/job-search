@@ -178,6 +178,28 @@ Manel did not remember these clients. The mailbox has about 2,000 8TV threads (2
 
 Hiring value: low for design. It shows long client relationships (about ten years) with a media group, and work inside a large client's code and release process. It adds to the register's deployment note: on Godó projects, Godó's team ran the deploys, not KoM. Nothing here is recorded in the register yet.
 
+## Two Kymco PDFs on the volume (read 2026-11-13)
+
+**`Proceso de reserva y compra_ATV_V2.pdf`** (KoM root, file dated 2021-01-11, 21 slides). A functional spec for pre-reserving the new MXU300 quad (ATV), written as notes beside screenshots of the KoM-designed site. The voice is the client's (it names Kymco staff, says "we will call it ATV", and says "check with Disi"), so read it as Kymco's requirements on KoM's existing flows. It matches the "Proceso de reserva" and "Pressupost quads (RESERVA)" threads from 2021. Rules it sets:
+
+- A new "ATV" menu between online purchase and e-bikes; "Quad" kept for SEO. No test rides for ATVs.
+- During the campaign the product page's "Buy" button becomes "Reserve". A pop-up states the requirements first: the person who reserves must be the final buyer and the person who registers the vehicle.
+- Reservation: pick colour, 150 EUR deposit, add to basket. One reservation per person and ID number.
+- Same checkout as vehicles and accessories: pick-up dealer (official dealers only, map), log in (two ways: email and password, or plate or frame number plus ID number), customer data, payment. Card only, through the CaixaBank gateway; a required tick confirms that reservation and vehicle go in the same name; the coupon field is removed.
+- Emails: to the customer (confirmation, delivery note, discount code, indicative purchase dates, phone) and to a Kymco staff member, who issues the invoice by hand and uploads it to the customer area.
+- Later purchase: an email invites the customer to buy between two dates with the discount code; cancelling refunds the deposit and loses the discount. The basket opens with the reserved model and colour and the code applied, the customer can confirm or change the dealer, and all payment methods are offered except Plan Dúo; accessories with financing are left for later.
+- It asks whether the ID number's check digit can be validated, as on the warranty site.
+
+The screenshots contain sample personal data (a Kymco employee's details); nothing from them is recorded here.
+
+**`AUDITORIA-SEO-KYMCO-17-12-2020.pdf`** (Projects, 31 pages). An outside SEO agency's audit of kymco.es, 2020-12-17, after the new site went live.
+
+- On the site KoM built: "extraordinary" look and navigation for selling and promoting products, a correct URL structure, good on desktop, tablet and phone, and an organisation suited to SEO. Weak on generic terms such as "scooter".
+- Traffic: organic clicks for the last three months of 2020 were 136,000 against 213,000 for the same months of 2019 (the agency: "about 56% more visits last year"). For the last 28 days the gap was smaller, 37,700 against 47,800. The agency credits title tags Kymco added in November 2020 and a rise in brand searches. 2020 also had the pandemic; no cause is established.
+- Problems: many old product URLs (`.html` pages from the previous site) were not redirected and returned 404; missing icon and manifest files referenced in the page head; duplicate content from indexed comparison pages and press archives; a duplicated meta description on the e-bikes section. Several items are marked "pending, we need Kings of Mambo's help".
+
+Hiring value: the ATV spec is strong evidence of the business rules the Kymco flows carried (identity, one-per-person limits, deposit then purchase, payment-method rules), but the rules came from the client. The SEO audit gives one outside opinion of the site's navigation; it also shows a migration gap (redirects) on KoM's side and lower organic traffic after the relaunch. Neither gives an outcome Manel can claim.
+
 ## Kymco attachments (extracted 2026-11-13)
 
 Both are in `~/Dev/kom-audit/attachments/`.
