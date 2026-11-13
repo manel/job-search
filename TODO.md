@@ -12,6 +12,8 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 ## This week
 
+- [ ] **CV base changed 2026-11-13 (Kings of Mambo entry, commit `860c2b6`).** Update the Figma CV ("CV / Manel Leiva") from [cv/cv-base.md](cv/cv-base.md), check the entry stays on one page (four bullets now; merge the last two if it breaks), re-export the Base PDF and run `check-pdf-text --source`.
+- [ ] **LinkedIn, Kings of Mambo entry: paste the new Kymco sentence.** Replace "For KYMCO's e-commerce products, I owned the design process and frontend implementation, including shopping and checkout flows that launched and handled real orders." with: "For KYMCO, I led design of the purchase, reservation and test-ride flows with a second designer and built the front end. Bookings and orders synced with the dealers' management system, and the checkout launched and handled real orders." Drop "with a second designer" if you want it to match the CV. Then update [context/linkedin.md](context/linkedin.md) to the live text.
 - [ ] **Mon 16 Nov: answer Capitole (Araceli Massieu) on EUR 40K.** Call held 13 Nov; client revealed at the next interview. Record: [applications/records/capitole-senior-ai-product-designer-insurance.md](applications/records/capitole-senior-ai-product-designer-insurance.md).
 - [x] **Wizeline UX interview held 30 Oct.** Debrief in [interviews/wizeline/wizeline-stage2-case.md](interviews/wizeline/wizeline-stage2-case.md). No whiteboard; the canvas sub-tasks are moot.
 - [x] **Wizeline UX interview passed 2 Nov** at Level 4 (David Ho email).
