@@ -236,6 +236,8 @@ A client e-commerce build (WordPress) where the scope was larger than the timeli
 - **Actions:** Called the client proactively. They were angry; absorbed it without defensiveness or excuses. Once it settled, proposed shipping on the original date without purchase functionality, with "coming soon" messaging and an email capture form. Decided together with the client.
 - **Result:** The client got a live site on time and built an audience before the shop opened.
 
+**Evidence check (2026-11-13):** The KoM mailbox (2008 to 2021) shows no project matching this story; Manel is not sure which project it was. Checked: Somia and Pares i Nens (WooCommerce; both launched with the shop), "coming soon" and "properament" threads. The Kymco new-site date slip is documented: on 2019-05-31, a month before the deadline, Manel told the client and partners that 30 June was impossible and proposed the week of 22 July. Kymco was a custom build with no partial launch, so it does not match the WordPress details above. Details in [evidence/kom/README.md](../evidence/kom/README.md#incidents). Until Manel places the original story, tell it without naming the project or platform.
+
 **Angle:** Proactive communication over a silent overrun. The partial launch was a product call, not a patch. Don't frame it as heroic: it was a miss handled professionally. The lesson was to renegotiate scope at the first sign of slippage, not at the deadline.
 
 ### kom-lofi-feedback
