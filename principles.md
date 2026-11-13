@@ -99,8 +99,8 @@ Run this before outputting any professional written content.
 ## Operating Rules
 
 - Any text that someone other than Manel will read runs through BOTH the `no-ai-slop` and `anthropic-skills:humanizer` skills before it is returned. That covers CVs, cover letters, outreach, follow-ups, replies to recruiters, application form answers, LinkedIn copy, case study and portfolio copy, interview decks, and teleprompter scripts. Invoke them via the Skill tool: `no-ai-slop` before drafting, `anthropic-skills:humanizer` on the draft before output. This is a default, not an opt-in. No exceptions for "quick" edits. Internal working files (records, notes, analysis, prep briefs) are exempt.
-- Whenever you are asked to write or edit prose, read [.claude/skills/no-ai-slop/SKILL.md](.claude/skills/no-ai-slop/SKILL.md) first.
-- Before returning any prose, self-check it against [.claude/skills/no-ai-slop/references/ai-writing-detection.md](.claude/skills/no-ai-slop/references/ai-writing-detection.md). Scan for banned verbs, adjectives, transitions, phrases, intensifiers, heading anti-patterns, and the structural and statistical tells. Fix what you find.
+- Whenever you are asked to write or edit prose, read `~/.claude/skills/no-ai-slop/SKILL.md` first.
+- Before returning any prose, self-check it against `~/.claude/skills/no-ai-slop/references/ai-writing-detection.md`. Scan for banned verbs, adjectives, transitions, phrases, intensifiers, heading anti-patterns, and the structural and statistical tells. Fix what you find.
 - Apply the rules to your own output too. This file, every skill, and every reply obeys the rules it states.
 
 ## NO AI SLOP RULES
@@ -159,7 +159,7 @@ These are non-negotiable. Violating any of them makes the output unusable.
 
 ## Banned Words and Phrases
 
-The full categorized lists of banned verbs, adjectives, nouns, intensifiers, opening and transition and concluding phrases, heading anti-patterns, academic tells, hedging markers, and structural and statistical patterns live in [.claude/skills/no-ai-slop/references/ai-writing-detection.md](.claude/skills/no-ai-slop/references/ai-writing-detection.md). Self-check every piece of prose against that file before returning it. If a banned word or phrase appears in your output, the output fails.
+The full categorized lists of banned verbs, adjectives, nouns, intensifiers, opening and transition and concluding phrases, heading anti-patterns, academic tells, hedging markers, and structural and statistical patterns live in the user-level `no-ai-slop` skill at `~/.claude/skills/no-ai-slop/references/ai-writing-detection.md` (moved out of the repo 2026-11-13 so every project shares it; it also carries rules 26 to 34, which apply here too). Self-check every piece of prose against that file before returning it. If a banned word or phrase appears in your output, the output fails.
 
 
 ## Format rules by output type
