@@ -1,0 +1,5 @@
+# Roles announced but not yet posted. The SessionStart hook queries each Greenhouse board
+# and reports when a job matches both regexes (case-insensitive). Delete the line once the
+# posting is live and assessed.
+# board	title_regex	location_regex	note	added
+elastic	designer	spain|remote|emea|europe	Senior Product Designer, Observability (Richel Tong LinkedIn post ~2026-11-11; Spain eligible)	2026-11-13

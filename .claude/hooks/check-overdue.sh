@@ -46,6 +46,35 @@ $WEEK"
   fi
 fi
 
+WATCH="$DIR/sourcing/posting-watch.tsv"
+if [ -f "$WATCH" ]; then
+  WATCHED=$(grep -v '^#' "$WATCH" | while IFS=$'\t' read -r board title loc note added; do
+    [ -z "$board" ] && continue
+    curl -s --max-time 5 "https://boards-api.greenhouse.io/v1/boards/$board/jobs" |
+      python3 -I -c '
+import json, re, sys
+board, title, loc, note = sys.argv[1:5]
+try:
+    jobs = json.load(sys.stdin)["jobs"]
+except Exception:
+    print(f"- {board}: board unreachable, not checked ({note})"); sys.exit()
+hits = [j for j in jobs if re.search(title, j["title"], re.I) and re.search(loc, j["location"]["name"], re.I)]
+for j in hits:
+    t, l, u, url = j["title"], j["location"]["name"], j["updated_at"][:10], j["absolute_url"]
+    print(f"- LIVE {board}: {t} | {l} | updated {u} | {url} ({note})")
+if not hits:
+    print(f"- {board}: not posted yet ({note}, watching since {sys.argv[5]})")
+' "$board" "$title" "$loc" "$note" "$added"
+  done)
+  if [ -n "$WATCHED" ]; then
+    [ -n "$CTX" ] && CTX="$CTX
+
+"
+    CTX="${CTX}POSTING WATCH (sourcing/posting-watch.tsv). Tell the user the status of each line in one sentence. For a LIVE match, suggest /assess-fit on the URL and removing the line once assessed:
+$WATCHED"
+  fi
+fi
+
 [ -z "$CTX" ] && exit 0
 
 jq -n --arg ctx "$CTX" '{"hookSpecificOutput":{"hookEventName":"SessionStart","additionalContext":$ctx}}'
