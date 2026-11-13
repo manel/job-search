@@ -168,6 +168,16 @@ Manel's sent mail with apology, delay or complaint words: 200 threads, mostly sm
 
 Also found: in 2019-06 the ERP partner warned that the customer-area vehicle lookup must not let users edit their ID number, or it could be used to pull third parties' data. A privacy constraint the "My vehicles" design had to respect.
 
+## 8TV and Grupo Godó (read 2026-11-13)
+
+Manel did not remember these clients. The mailbox has about 2,000 8TV threads (2011 to 2021, peak 2013 to 2014) and about 900 Godó threads (2011 to 2021). Most of Manel's emails are technical. The repos are not in the `Sites` archive; 8TV code lived on GitHub and later on Godó's own GitLab.
+
+- **8TV (Catalan TV channel, part of Grupo Godó), 2011 to 2019.** KoM built and ran WordPress sites for 8TV, the "8 al dia" show and "Migdia" (sections inside 8tv.cat), including user registration, comment moderation and a 2015 elections section. In 2014-10 Manel specified the live-stream logic: the page polls the broadcaster's JSON every 30 seconds to show the player and a news ticker, and an admin switch can force the live state if the feed fails (checked every 5 minutes). In 2013 to 2014 KoM moved the sites onto Godó's servers: updated code on a separate git branch (`all_updated`), with access given to Godó's team. In 2018 a new 8TV site.
+- **Grupo Godó, 2014 to 2021.** La Vanguardia reader blogs (WordPress multisite): template inventory and migration (2015, 2021). La Vanguardia "Reportajes" (2015 to 2016). A branded-content space for insurance (2018), where Manel asked how to serve several channel subdomains from one multisite. A Godó Strategies site (2020). RAC105 radio site (2017 to 2021): podcasts and an audio library built into Godó's player service.
+- **Process signal.** At Godó, KoM worked inside the client's process: code in Godó's GitLab, deploys requested from Godó's team, test environment first, then production (automatic "[TES-...] Deploy" and "[PRO-...] Deploy" emails). In 2020-11, after errors on RAC105, Manel proposed two options: roll back to the last commit before the changes, or deploy a fix, with a database dump first.
+
+Hiring value: low for design. It shows long client relationships (about ten years) with a media group, and work inside a large client's code and release process. It adds to the register's deployment note: on Godó projects, Godó's team ran the deploys, not KoM. Nothing here is recorded in the register yet.
+
 ## Kymco attachments (extracted 2026-11-13)
 
 Both are in `~/Dev/kom-audit/attachments/`.
@@ -191,15 +201,18 @@ Both are in `~/Dev/kom-audit/attachments/`.
 
 ## Working files
 
-Kept outside the repo in `~/Dev/kom-audit/` (6 GB, moved there 2026-11-13). Not in git; it holds client correspondence.
+The working folder `~/Dev/kom-audit/` (email index, git folders, listings, searches, Sketch extract, the two attachments) was deleted on 2026-11-13 at Manel's request, after the client and project list was saved in [evidence/kom/clients-and-projects.md](clients-and-projects.md). Paths above under `~/Dev/kom-audit/` no longer exist. The originals on `/Volumes/Documents/Jobs/KoM` are unchanged, and the Kymco Sketch file stays imported in Figma.
 
-- `kom-email/index.jsonl` (503 MB): one line per message with headers, attachment names and the body capped at 6,000 characters. Spam and Trash have headers only.
-- `kom-email/stats.json`: year, label, sent-to domain and Basecamp project counts.
-- `kom-email/projects/`: thread timelines (`*-threads.tsv`) and Manel's sent bodies (`*-sent.txt`) for Kymco, NoviCap, Joinenergy, Adacyte, Mind Analytics, Godó, 8TV and Ubiqum.
-- `kom-git/Sites/`: the `.git` folders of 32 site repos (5.4 GB). Read with `git --git-dir=<repo>/.git log`.
-- `kom-listings/`: file listings of every archive on the volume.
-- `attachments/`: attachments pulled from the mailbox on request.
-- `scripts/`: `mbox_index.py`, `mbox_stats.py`, `mbox_project.py`, `mbox_attachments.py`. Each reads the mbox from stdin: `tar -xOzf /Volumes/Documents/Jobs/KoM/e-Mail/kom_email.tar.gz | python3 -I scripts/<script> ...`. Nothing is extracted to disk.
+To rebuild, the scripts are in `scripts/kom/`:
+
+- `mbox_index.py`: reads the mbox from stdin and writes the index (one JSON line per message, bodies capped at 6,000 characters, Spam and Trash headers only). `tar -xOzf /Volumes/Documents/Jobs/KoM/e-Mail/kom_email.tar.gz | python3 -I scripts/kom/mbox_index.py <out>/index.jsonl` (about 15 minutes).
+- `mbox_attachments.py`: reads the mbox from stdin and saves attachments by file name.
+- `mbox_stats.py`, `mbox_project.py`, `mbox_search.py`: read the index file.
+- `merge_projects.py`: turns a Basecamp project list into the table in the clients file.
+- `sketch_outline.py`: outlines an unzipped `.sketch` file.
+- `xlsx_read.py`: reads `.xlsx` files without extra packages.
+
+The git folders come from `tar -xzf Sites/Sites.tar.gz --include='Sites/*/.git/*'`.
 
 ## Questions for the recall session
 
