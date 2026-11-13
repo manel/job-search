@@ -6,6 +6,7 @@
 # Scope revised 2026-10-06 from Manel’s direct clarification, corroborated by the Figma inventory.
 # 2026-11-06: "Barcelona, Spain" added to the header (location was only in role date lines), graduation year removed. Figma: set the EDUCATION heading to zero letter spacing like the other headings (it extracted as "E D U C AT I O N" in the Perk PDF). The Base PDF predates all three; re-export and run check-pdf-text --source before the next send.
 # 2026-11-07: Kings of Mambo title aligned with LinkedIn (Co-founder & Senior Product Designer), work mode "on-site, later hybrid", account-ownership bullet added (Manel).
+# 2026-11-13: Kings of Mambo entry: a Kymco flows bullet (studio size and "with a second designer" removed by Manel as not relevant; "Led design" does not claim sole authorship), from the KoM archive audit (evidence/kom/README.md; register entries "Design team on Kymco", "Test-ride booking", "Studio team"). Same day, at Manel's request: "component libraries and design systems for several clients" (register, client design-system work, Manel's statement 2026-11-10; the KoM mailbox has no trace of it, so it rests on his word). The Base PDF predates it.
 # Plain text below the line, ready for Figma paste. PDF exported 2026-10-20 to cv-pdf-to-send/Base/ (passes check-pdf-text --source); header and dates mirror it. Manel's decision 2026-10-20: keep the "Design Systems" subtitle and no case link in the base.
 
 ---
@@ -51,11 +52,15 @@ Co-led the Abax design-system business case with the head of design and worked o
 Kings of Mambo, Co-founder & Senior Product Designer
 Sep 2010 - Nov 2021, Barcelona (on-site, later hybrid)
 
-Co-founded and ran a UX studio for 11 years, designing products for media, retail, finance, legal, and culture clients.
+Co-founded and ran a UX studio for 11 years, designing e-commerce sites, CMS workflows and back-office interfaces for media, retail, finance, legal, and culture clients.
+
+Led design of Kymco's purchase, reservation and test-ride flows. Bookings and orders synced with the dealers' management system, and the checkout launched and took real orders.
 
 Owned several client accounts end to end: the brief and client meetings, design direction and explorations, delivery, and the iterations that followed.
 
-Designed CMS content-upload flows, e-commerce experiences, and back-office interfaces, and built CMS-connected front ends, reusable component libraries, and a shared starter kit with a build pipeline and CSS variables.
+Worked on component libraries and design systems for several clients.
+
+Built CMS-connected front ends and a shared starter kit with a build pipeline and CSS variables.
 
 
 SKILLS
