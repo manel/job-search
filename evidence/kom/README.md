@@ -144,7 +144,9 @@ Other pages: FAQs (26), header and menu (19), scooter landing pages (90), conten
 
 What the file shows for hiring: the flows handle real business constraints (regional sales block, financing eligibility, dealer pick-up and later vehicle registration, accessory dependencies, coupons) and the customer area closes the loop on bookings and orders. It does not show who drew which screen; Manel was lead designer with Eric also designing.
 
-To see the screens: Figma imports `.sketch` files (no Sketch license needed). Manel runs that import himself; at 1.2 GB it may be slow.
+To see the screens: imported into Figma by Manel on 2026-11-13 ([KYMCO-site](https://www.figma.com/design/QZUi75I6GEf5A5rUL6LNzZ/KYMCO-site)).
+
+Design-system check on the import (2026-11-13, read-only): 23 components, all on the Symbols page, mostly landing-page parts (headers, "more" bullets, a spec dropdown, menu icons). About 1,050 instances, almost all on the scooter landing pages. The purchase, test-ride and customer-area flows use no components. 28 colour styles, many named after scooter models; no text styles. This file is not design-system evidence; use it for the flows only.
 
 ## Targeted email searches (2026-11-13)
 
