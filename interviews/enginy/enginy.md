@@ -246,3 +246,7 @@ Not asked: why Manel left Remuner, English level, other processes, design system
 **Next step.** Saul speaks with the VP of Product on Tue 27 Oct and said he would tell Manel the next steps the same day.
 
 **Prep coverage.** Q1, Q3, Q5, Q6, Q10 and Q12 came up as scripted. The bug-handling question (Q4 in the list above) was not in the prep.
+
+## Outcome (2026-11-14)
+
+Rejected by email from Saul Villa after stage 2 (take-home, delivered 2026-11-05). Generic reason, no feedback. The VP of Product and final rounds did not happen. Details in the record.

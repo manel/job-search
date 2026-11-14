@@ -1,8 +1,8 @@
 ---
 company: SplitMetrics
 role: Senior Product Designer - Core
-status: applied
-status_verified_on: 2026-11-07
+status: rejected
+status_verified_on: 2026-11-14
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-11-07
@@ -12,11 +12,11 @@ application_channel: direct
 warm_path: none known
 portfolio_version: live site 2026-11-07 (portfolio 0ec2eaf)
 applied_on: 2026-11-07
-last_contact_on:
-outcome_stage: no-response
-rejection_reason_class: none
-next_action: Nudge via Ashby/email if silent by 2026-11-20 (10 business days); LinkedIn outreach to a designer or the hiring manager 2026-11-28; stale 2026-12-12. Ask the level and range at first contact
-next_action_on: 2026-11-20
+last_contact_on: 2026-11-13
+outcome_stage: cv-review
+rejection_reason_class: generic
+next_action: None; rejected at CV review (template email, no feedback offered). No chase.
+next_action_on: 2026-11-14
 salary_stated: USD 6,500 gross per month (required form field, B2B contractor basis accepted; about EUR 5,600 at 1.12-1.18; roughly EUR 52K employed-equivalent)
 job_url: https://jobs.ashbyhq.com/splitmetrics/672a1311-4355-4d24-aa78-c7163a6e7c37
 source: Ashby public job-board API (descriptionPlain, verbatim), fetched 2026-11-07; URL supplied by Manel
@@ -64,3 +64,4 @@ SplitMetrics sells B2B tools for mobile app growth: Acquire (Apple Ads automatio
 - 2026-11-07: Manel supplied the posting URL. Posting verified live via the Ashby job-board API (published 2026-11-06). Fit assessed: Proceed. No materials prepared.
 - 2026-11-07: CV and cover-letter sources drafted (lead: AI agent and data-heavy work; IC dashboard analytics line directional only). Awaiting Manel's review and export.
 - 2026-11-07: Applied via Ashby (Manel confirmed). Form: open to a B2B independent-contractor arrangement: Yes. Salary expectation USD 6,500 gross per month (required field; recommended over 6,000 given the contractor basis; Levels.fyi company-wide median total pay about USD 55K, low signal). CV header location dropped and Kings of Mambo work mode shortened to hybrid in the PDF; source synced.
+- 2026-11-13: Rejection by template email from no-reply@splitmetrics.com (16:53, supplied by Manel on 2026-11-14), six days after applying. "After careful consideration, we've decided not to move forward with your application for this role at this time." The email says no individual feedback is given at this stage and decisions after the initial review are not discussed. Status changed to rejected; outcome_stage cv-review; rejection_reason_class generic. No chase.
