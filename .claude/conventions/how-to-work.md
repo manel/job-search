@@ -43,6 +43,7 @@
 ### Interview work
 
 - Start at [interviews/prep.md](../../interviews/prep.md), the index. Stories live once in [interviews/stories.md](../../interviews/stories.md) under IDs (`dataset-manager`, `token-file`); set-piece answers once in [interviews/answers.md](../../interviews/answers.md); questions Q1–Q27 in [interviews/question-bank.md](../../interviews/question-bank.md); round formats in `interviews/playbooks/`. Stories repeat; the angle changes per role.
+- Before writing or editing anything said aloud (speaker notes, scripts, interview answers, deck Q&A), read "Writing for speech" in [interviews/playbooks/case-presentation.md](../../interviews/playbooks/case-presentation.md#writing-for-speech).
 - Briefs link to stories and answers by ID and anchor; they never paste them. A company variant is written as the change only. Run `python3 scripts/check-links.py` after moving or renaming any Markdown file; it also flags a pasted copy of the departure answer.
 - Per-company material lives in `interviews/[company]/`, one file per stage (adopted 2026-11-12; Wizeline is the reference, older folders keep their names until their next stage):
   - `[company].md`: the index. Record link, a table of stages (date, panel, file, result) and the claims already made that later stages must stay consistent with.

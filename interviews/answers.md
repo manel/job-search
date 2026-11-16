@@ -20,7 +20,7 @@ Most recently, I was the sole designer at Remuner, a sales-compensation platform
 
 ### Work and history
 
-Eleven years in client work. That's where the range comes from: stakeholders with strong opinions, short timelines, high tolerance for ambiguity. Then Abacum: joined as the first designer on integrations, ended up co-leading the design system across five product squads. Then Remuner: sole designer, built the DS from scratch, implemented the token pipeline with AI assistance and engineer sign-off. Left in March. Now looking for a senior IC role where design has real influence upstream: shaping what gets built, not executing a decided spec.
+I spent eleven years in client work. That's where my range comes from: stakeholders with strong opinions, short timelines and a lot of ambiguity. Then I joined Abacum as the first designer on integrations. I ended up co-leading the design system across five product squads. Then Remuner, where I was the only designer. I built the design system from scratch. I also set up the token pipeline with AI help, and engineers reviewed and approved it. That role ended in March. Now I'm looking for a senior IC role where design helps decide what gets built, early in the process.
 
 ---
 

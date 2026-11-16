@@ -43,6 +43,17 @@ Added 2026-11-08, from Reddit advice on presenting to execs and hiring managers,
 - **One source format.** Every deck source in `decks/` follows [decks/case-deck-design-systems-abacum.md](../../decks/case-deck-design-systems-abacum.md) (adopted 2026-11-09): a header block (Figma, Best for, Duration with what to cut first, Lead framing, Effects, evidence line); numbered slides with Label, Headline, Visual and short Notes beats; a full speaker-notes section keyed by Figma position, with ▶ [action] lines; Backup; a short Q&A ending in "Don't claim". Decks with no Figma build key the notes by slide number until they are built.
 - **Portfolio on top of the deck.** When a round asks to "show your portfolio" as well, show the curated Figma file "Manel Leiva Portfolio Highlights", not the website or raw working files ([memory.md](../../memory.md), 2026-11-09).
 
+## Writing for speech
+
+Added 2026-11-16, from the Abacum DS rehearsal and general speechwriting advice (Throughline Group, "5 ways to write for the ear", and similar guides, checked 2026-11-16). These rules cover anything said aloud in a video call, in English as a second language: speaker notes, scripts, set-piece answers in [interviews/answers.md](../answers.md), Q&A answers in deck sources and briefs, and answers in [interviews/question-bank.md](../question-bank.md).
+
+- **One idea per sentence.** Split long sentences into two or three. Keep the subject and the verb close.
+- **Plain spoken words.** Use contractions ("we'd", "it's"). No formal words ("sanctioned"), no compressed labels ("The evidence:"), no trailing fragments ("and at an all-hands").
+- **Say ownership once.** Who built what goes on the "My role" beat and in the Q&A. Don't repeat "an engineer built it" on later slides; put it in a ▶ [If asked] line instead. The panel is usually designers and assumes engineers wrote the code.
+- **Number lists you say aloud.** "First, second, third" helps a listener follow a list of three or four items.
+- **Don't repeat the slide.** A note that says the same as the previous click, or as the slide text word for word, goes.
+- **Read it aloud once before the round.** Rewrite any sentence you trip over.
+
 ## Staff-level signals checklist
 
 Run this against any deck before a Senior Staff or Staff-level interview. A deck that only passes Senior checks reads as "strong executor." A deck that passes these reads as "strategic operator." The written-case version is in [context/portfolio.md](../../context/portfolio.md).
