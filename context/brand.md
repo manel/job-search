@@ -131,7 +131,7 @@ Key layout values:
 
 ## Slide deck composition rules
 
-These rules apply to every presentation deck generated in this project. The current decks (Dataset Manager, Design Systems) use Inter + blue accent and must be updated to match.
+These rules apply to every presentation deck generated in this project. Reference decks in Figma: Abacum DS v2, Dataset Manager v2, AI agent v2.
 
 ### Fonts
 Use **Plus Jakarta Sans**. Weight 700 for headlines, 500 for labels/sub-copy, 400 for body, 300 for captions.
@@ -175,13 +175,6 @@ The teal accent has five roles:
 5. The accent bar on the cover and close slides
 
 Do not use teal for body text or for decoration outside these roles.
-
-### What the current decks need to update
-1. **Font:** Inter → Plus Jakarta Sans
-2. **Accent color:** `#4A7AFF` (blue) → `#a8dadc` (teal-400)
-3. **Background:** `#0F1115` → `#111417`
-4. **Muted text:** `#8A92A6` → `#8a9099`
-5. **Dim color:** `#3B4157` → `#2e3340`
 
 ---
 
