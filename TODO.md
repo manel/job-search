@@ -12,8 +12,7 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 ## This week
 
-- [ ] **CV base changed 2026-11-13 (Kings of Mambo entry, commit `860c2b6`).** Update the Figma CV ("CV / Manel Leiva") from [cv/cv-base.md](cv/cv-base.md), check the entry stays on one page (four bullets now; merge the last two if it breaks), re-export the Base PDF and run `check-pdf-text --source`.
-- [ ] **LinkedIn, Kings of Mambo entry: paste the new Kymco sentence.** Replace "For KYMCO's e-commerce products, I owned the design process and frontend implementation, including shopping and checkout flows that launched and handled real orders." with: "For KYMCO, I led design of the purchase, reservation and test-ride flows with a second designer and built the front end. Bookings and orders synced with the dealers' management system, and the checkout launched and handled real orders." Drop "with a second designer" if you want it to match the CV. Then update [context/linkedin.md](context/linkedin.md) to the live text.
+- [ ] **Base CV: re-export the PDF.** Figma "CV BASE" column updated 2026-11-14 from [cv/cv-base.md](cv/cv-base.md) (Kings of Mambo entry fits page 2; page 1 ends at 777 of 842). Export both pages to `cv-pdf-to-send/Base/` and run `check-pdf-text --source`.
 - [ ] **Mon 16 Nov: answer Capitole (Araceli Massieu) on EUR 40K.** Call held 13 Nov; client revealed at the next interview. Record: [applications/records/capitole-senior-ai-product-designer-insurance.md](applications/records/capitole-senior-ai-product-designer-insurance.md).
 - [x] **Wizeline UX interview held 30 Oct.** Debrief in [interviews/wizeline/wizeline-stage2-case.md](interviews/wizeline/wizeline-stage2-case.md). No whiteboard; the canvas sub-tasks are moot.
 - [x] **Wizeline UX interview passed 2 Nov** at Level 4 (David Ho email).
@@ -34,22 +33,18 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 - [ ] **Abacum deck v2 (Figma "Abacum DS", top row), before the Perk Hiring Manager Interview (Tim Archer, Tue 17 Nov, 10:00).** Built 2026-11-06; source [decks/case-deck-design-systems-abacum.md](decks/case-deck-design-systems-abacum.md).
   - Play it once in presentation mode: the Smart Animate builds (slides 2, 3, 8, 9, 10, 12) are untested.
   - [x] Slide 6 Roadmap screenshot cropped 2026-11-08 (clip frame "Roadmap crop"): starts at "How to get there", Owner column removed. The paragraph text is cut at the right edge.
-  - [x] Speaker notes for all 34 Figma slides pasted 2026-11-08. Re-paste slides 1, 9, 23, 29 and 32 after the humanizer pass (also Remuner slides 1 and 13b).
-  - Screenshots to `decks/assets/abacum/`: inconsistent buttons, cells and menus before Abax (slide 2); Abax Select, Menu and Menu item (slide 10, now a recreation). Then swap them in.
+  - [x] Speaker notes for all 36 Figma slides pasted; all re-pastes done 2026-11-16 (Manel confirmed), including the new notes for Figma 2, 4, 7, 10, 11 and 17. Remuner slides 1 and 13b still to check.
+  - [x] Slide 2 (Figma 4 to 6): Engine Modules card and Actuals Datasets card from the July 2023 all-hands deck added 2026-11-16 ([evidence/abacum-all-hands-2023-07-07.md](evidence/abacum-all-hands-2023-07-07.md)).
+  - Screenshot of Abax Select, Menu and Menu item for slide 10 (now a recreation), to `decks/assets/abacum/`.
   - Delete the two old skipped rows once v2 is approved.
 
-- [ ] **Dataset Manager deck v2 (Figma "Dataset manager", top row).** Built 2026-11-09; source `decks/case-deck-dataset-manager.md`.
-  - Paste the 14 speaker notes from the source ("Speaker notes to paste into Figma").
-  - Play the slide 5 build in presentation mode; check the slide 4 scope crop and the teal strip on slide 9.
-  - Delete the skipped v1 row once v2 is approved.
-  - Re-paste speaker notes Figma 5 to 8, 11 and 13: the source changed 2026-11-09 (first test round was our FP&A specialists, then customers; autonomy-metric "Next time"). On-slide text already updated.
+- [ ] **Dataset Manager deck v2 (Figma "Dataset manager", top row).** Speaker notes pasted and slides 4, 5 and 9 checked 2026-11-14. Slide 2 fixed 2026-11-14 (FP&A team plus engineers); paste the new Figma 2 note from the source. Left: delete the skipped v1 row once v2 is approved.
 
-- [ ] **Tomorrow, 10 Nov: finish the Notion-driven deck updates** (backlog and status in [evidence/notion/deck-and-case-updates.md](evidence/notion/deck-and-case-updates.md); index in [evidence/notion/README.md](evidence/notion/README.md)).
-  - **Modeling Syntax deck (Figma "Modeling syntax", built 2026-11-09, 10 slides + skipped B1):** paste the speaker notes from [decks/case-deck-modeling-syntax.md](decks/case-deck-modeling-syntax.md) (slides 1 and 3 changed 2026-11-12: Manel wrote Improve Syntax Usability, "nobody had ticketed this problem" restored); play it once; decide whether slide 5 gets the planned build (benchmark, then quote).
-  - **Abacum DS deck:** re-paste speaker notes Figma 11, 12, 16, 24 and 30 (nine weeks, tokens already in production, sync since July 2022 for almost two years; 24: "I ran the Figma one every two weeks"). Backup B3 built 2026-11-12 (skipped, after B2); check it once in presentation view.
-  - **Live cases (portfolio submodule):** check /cases/dataset-manager for "three customers" or customer-only testing; /cases/modeling-syntax for "nobody had ticketed" or "no ticket"; /cases/design-systems for "quarterly", "eight months" and "one week". Add the benchmark table and customer-call fragments to the syntax case, and the groundwork timeline to the DS case, if they fit.
-  - **Open question:** Dataset Manager slide 2 says the squad's engineers configured each dataset; Notion (August 2022) says our FP&A team created customers' connections and datasets in the back office. Confirm who did what before changing the slide.
-  - **Commit** the Notion index, register, deck sources and notes changes from 2026-11-09 (nothing committed yet).
+- [ ] **Notion-driven deck updates** (backlog in [evidence/notion/deck-and-case-updates.md](evidence/notion/deck-and-case-updates.md)). Live-case wording checks done 2026-11-12; Notion changes committed. Left:
+  - **Modeling Syntax deck (Figma "Modeling syntax"):** slide 5 build added 2026-11-14 (Figma 5 benchmark, Figma 6 adds the customer call). Paste the speaker notes from [decks/case-deck-modeling-syntax.md](decks/case-deck-modeling-syntax.md) by Figma position, then play it once.
+  - **Abacum DS deck:** notes re-pasted 2026-11-16; check B3 in presentation view.
+  - **Dataset Manager live case:** FP&A-plus-engineers fix pushed to `dev` 2026-11-14 (portfolio `6a9f1c6`). Check the Vercel preview, merge to `main` on Manel's go, then commit the submodule pointer here.
+  - **Optional case additions:** the benchmark table and customer-call fragments in the syntax case; the groundwork timeline in the DS case.
 
 - [ ] **Decide Stripe DS and Bunge.** Stripe Product Designer Design Systems: 36 days silent, posting open, past the 5-week stale line. Bunge: `applied` 104 days, posting status unknown; likely stale.
 - [ ] **Haddock review (due 3 Nov).** Posting still open on 3 Nov, process on hold since 9 Oct; the 12 Oct reply to Ingrid is unconfirmed as sent. Decide on a short follow-up.

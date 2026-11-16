@@ -27,6 +27,8 @@ The engineering presentation was built around concrete evidence of cost:
 - FE concerns going in were explicit in Julian's notes: "side project, co-prioritization, squads not having a platform picture."
 - The case had to address FE skepticism directly — this was not a design team pitching to a receptive audience.
 
+**The all-hands deck itself** (found 2026-11-16, "Stoa · 07.07.2023 · Design system"): extracted to [evidence/abacum-all-hands-2023-07-07.md](../evidence/abacum-all-hands-2023-07-07.md), then the .pptx was deleted. Its "Inconsistent UI" slide compares a Modules card (Engine) and a Datasets card (Actuals).
+
 Getting Maker Days selected was the actual win. It converted the DS from a side project into a company-sanctioned quarterly initiative. It had to compete against other initiatives for dedicated time.
 
 ---

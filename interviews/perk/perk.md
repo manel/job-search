@@ -212,6 +212,25 @@ At least one session in person at the office applied to (Barcelona).
 **Added by Clare:** be ready to talk about how you engage with AI in your work, the tools you know and how you've applied them in the role. Perk calls itself AI-forward. Base: [answers.md](../answers.md#how-do-you-use-ai-day-to-day) (three uses; no approved wording yet), drafted for Perk under "How do you use AI day to day?" in Round 1 above. Perk variant: add one line linking it to Perk's own MCP (below) and the JD's AI-readable component specs.
 **Format:** one recent project end to end (core challenges, steps, final impact) plus collaboration: who else was involved and how the team dynamics were handled. No deck required; assets welcome. Time for questions. Clare's email also lists career aspirations and alignment with the team.
 
+### How do you use AI in your work? (approved by Manel 2026-11-16)
+About 70 seconds spoken. Every claim is from the register: [Design system and token pipeline](../../evidence/experience-facts.md#design-system-and-token-pipeline) and [AI-assisted product prototyping](../../evidence/experience-facts.md#ai-assisted-product-prototyping).
+
+> Mostly in design system work. At Remuner I connected an AI agent to Figma through the Figma MCP, first Codex and then Claude. I used it to normalise the colour palette and bring the colours we used in the app up to WCAG AA contrast. I also generated component variants with props named the same as the engineering props, plus a Storybook view and documentation for each component.
+>
+> I also audited the front-end code for hardcoded styles that bypassed the tokens. I fixed part of them myself with Claude, in small changes, and opened pull requests that the front-end team reviewed and merged.
+>
+> For testing ideas with users, I built AI prototypes they could click through, separate from the production app.
+>
+> I didn't track time saved, so I don't have a number for it. Since March I've kept working this way with Claude and the Figma MCP on my own files.
+>
+> Your job description asks for component specs that AI prototyping tools can read, and I'd like to work on that. When a designer prototypes with AI, the tool reads the component names and descriptions, so those need to be written for the tool as well as for people.
+
+Follow-ups, if asked:
+- **Designing for AI:** `ai-agent`. You designed the Remuner conversational agent: conversation design, answer formats, role-based context. It shipped to all customers. No outcome metrics.
+- **Code Connect:** not used. Say so and stop.
+- **Perk MCP:** only if Tim raises it. It makes AI assistants a surface that Suitcase has to cover.
+- **Don't claim:** a time-saved or speed figure, the prototypes as production features, or the PRs as colour-only fixes.
+
 ### Perk at a glance (external research, read 2026-11-12)
 From Clare's prep links. Self-reported marketing figures; use one detail, don't recite.
 - **Mission and frame:** "powering real work" by removing "shadow work", the manual admin around travel and spend. Source: perk.com/company.

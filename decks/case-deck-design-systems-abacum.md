@@ -26,6 +26,7 @@ Every claim is checked against [evidence/experience-facts.md](../evidence/experi
 **Cards:** Actuals, Engine, Reporting, Futures, Collaboration; each "MUI + local components". (Actuals was the data and integrations squad.)
 **My role:** I co-led the business case with the head of design and worked on the tokens, the Figma library and governance. Engineers built the pipeline and coded the components.
 **Footer:** A change to a shared pattern meant a separate fix in each squad.
+**Example strip (appears with the footer, Figma 4; dims with the squads on Figma 6; added 2026-11-16):** labels "Engine · Modules" and "Actuals · Datasets" over the two card screenshots from the July 2023 all-hands deck ([assets](assets/abacum/all-hands-2023-07-07/), [evidence](../evidence/abacum-all-hands-2023-07-07.md)). Caption: "The same card, built by two squads. From the July 2023 all-hands deck."
 
 **Notes:** Every squad had its own buttons, cells and menus on top of MUI. Fixes landed in one squad and not in another. Say "I" for the business case, library and process; "we" for the decision and the migration.
 
@@ -85,10 +86,11 @@ Every claim is checked against [evidence/experience-facts.md](../evidence/experi
 
 ---
 
-## 8. Rollout and governance (build: six cards)
+## 8. Rollout and governance (build: three columns of two cards, left to right, then the footer; layout changed 2026-11-16)
 
 **Label:** Rollout
 **Headline:** Squads migrated in their own sprints while design ran the library
+**Column titles (added 2026-11-16, each appears with its column):** Migration, Library, Quality checks.
 **Cards:**
 - Feature flags: new form elements shipped behind flags.
 - Squad backlogs: each squad added its own migration tickets.
@@ -183,7 +185,7 @@ With the head of design, I co-led Abax, a design system that all five product sq
 Abacum is FP&A software for finance teams. I joined on data integrations.
 
 **Figma 2 (Context)**
-Abacum had five product squads and six designers, and no shared components.
+Abacum had five product squads and six designers, and no shared components. In May 2022 I proposed a token MVP as a first step, and I led its design side. Engineers built the pipeline, and the tokens were in production by the end of that year.
 ▶ [Click: the five squads appear.]
 
 **Figma 3**
@@ -191,7 +193,7 @@ Every squad had its own buttons, cells and menus on top of MUI.
 ▶ [Click.]
 
 **Figma 4**
-A fix landed in one squad and not in the others. A change to a shared pattern meant a separate fix in each squad.
+A fix landed in one squad and not in the others. A change to a shared pattern meant a separate fix in each squad. Here's the same card in two squads: Modules in Engine, Datasets in Actuals. Different link weight, size and spacing.
 ▶ [Click.]
 
 **Figma 5 (My role)**
@@ -215,11 +217,11 @@ So we kept the proposal small: shared tokens and one Button, shipped to producti
 ▶ [Click.]
 
 **Figma 10**
-That left one open question: how do engineers get focused time for this? We presented it to engineering leadership and at an all-hands.
+That left one open question: how do engineers get focused time for this? We presented the case to engineering leadership. Then, in July 2023, we presented it to the whole company.
 ▶ [If asked about the objection: story `maker-days`.]
 
 **Figma 11 (Investment choice)**
-There were two options. Two front-end engineers and a designer for two weeks alongside squad work, or Maker Days: one dedicated week with four or more engineers and two or more designers. We chose Maker Days. It was Abacum's week for non-roadmap work, every nine weeks, and being selected turned a side project into a sanctioned one.
+There were two options. Two front-end engineers and a designer for two weeks alongside squad work, or Maker Days: one dedicated week with four or more engineers and two or more designers. We chose Maker Days. Maker Days was Abacum's week for work outside the roadmap, every nine weeks. Once our project was selected, the design system was no longer a side project. The company had given it time.
 A dedicated design-system squad would have been better, but it was too expensive. So one front-end engineer and I formed the core team and spread the rest of the work across the squads.
 ▶ [Short on time: one sentence. "We got a dedicated Maker Days week."]
 
@@ -248,7 +250,7 @@ We kept actionSecondary and matched the token names to the alert variants: actio
 ▶ [Short on time: click through 15 and 16 and keep the audit for Q&A.]
 
 **Figma 17 (Rollout)**
-Squads migrated in their own sprints while design ran the library. New form elements shipped behind feature flags, and each squad added its own migration tickets.
+Each squad moved to Abax at its own pace, as part of its normal work. Design looked after the library. New form elements shipped behind feature flags, and each squad added its own migration tickets.
 ▶ [Click.]
 
 **Figma 18**
