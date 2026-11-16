@@ -48,6 +48,7 @@ Added 2026-11-08, from Reddit advice on presenting to execs and hiring managers,
 Added 2026-11-16, from the Abacum DS rehearsal and general speechwriting advice (Throughline Group, "5 ways to write for the ear", and similar guides, checked 2026-11-16). These rules cover anything said aloud in a video call, in English as a second language: speaker notes, scripts, set-piece answers in [interviews/answers.md](../answers.md), Q&A answers in deck sources and briefs, and answers in [interviews/question-bank.md](../question-bank.md).
 
 - **One idea per sentence.** Split long sentences into two or three. Keep the subject and the verb close.
+- **One sentence per line.** In speaker notes and scripts, start each sentence on a new line, so you can find your place with a glance at the notes. Put a blank line between sentences: a single line break renders as one paragraph in most Markdown viewers. ▶ action lines stay on their own line too. Added 2026-11-16.
 - **Plain spoken words.** Use contractions ("we'd", "it's"). No formal words ("sanctioned"), no compressed labels ("The evidence:"), no trailing fragments ("and at an all-hands").
 - **Say ownership once.** Who built what goes on the "My role" beat and in the Q&A. Don't repeat "an engineer built it" on later slides; put it in a ▶ [If asked] line instead. The panel is usually designers and assumes engineers wrote the code.
 - **Number lists you say aloud.** "First, second, third" helps a listener follow a list of three or four items.

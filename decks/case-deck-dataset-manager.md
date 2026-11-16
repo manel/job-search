@@ -129,66 +129,206 @@ Version history: v1 (October 2026) said "SQL shipped first" and credited the tim
 
 ## Speaker notes to paste into Figma
 
-The Figma plugin API can't write Slides speaker notes, so paste these by hand. Actions sit on their own line, starting with ▶ and in [brackets]. Don't read those lines aloud. "Figma N" is the slide's position in the v2 row (14 slides; the slide 5 build is four slides). Slide text checked against the file on 2026-11-09.
+The Figma plugin API can't write Slides speaker notes, so paste these by hand. Each sentence sits on its own line. Actions sit on their own line too, starting with ▶ and in [brackets]. Don't read those lines aloud. "Figma N" is the slide's position in the v2 row (14 slides; the slide 5 build is four slides). Slide text checked against the file on 2026-11-09. Notes rewritten for speech 2026-11-16 (rules in [interviews/playbooks/case-presentation.md](../interviews/playbooks/case-presentation.md#writing-for-speech)); paste them again.
 
 **Figma 1 (Cover)**
-Dataset Manager let finance teams at Abacum set up their own data. After it shipped, customers reached a working configuration in their first session, and the squad's engineers estimated standard setup took about half the time it used to.
-I was the designer on the Integrations squad. I ran the design and the customer testing, from the first framing to the formula builder.
+
+Dataset Manager let finance teams at Abacum set up their own data.
+
+After it shipped, customers reached a working configuration in their first session.
+
+The squad's engineers estimated that standard setup took about half the time it used to.
+
+I was the designer on the Integrations squad.
+
+I ran the design and the customer testing, from the first framing to the formula builder.
 
 **Figma 2 (Context)**
-Abacum is a financial planning platform. Customers bring in data from their ERP or spreadsheets, and a dataset defines how that data becomes dimensions and measures in their models.
-In early 2022 the dataset was a JSON file that customers couldn't touch. Our FP&A specialists created each customer's connections and datasets in the back office, and the squad's engineers helped with the initial import, configuration and transformations. Every change waited for one of the two teams.
+
+Abacum is a financial planning platform.
+
+Customers bring in data from their ERP or from spreadsheets.
+
+A dataset defines how that data becomes dimensions and measures in their models.
+
+In early 2022, the dataset was a JSON file that customers couldn't touch.
+
+Our FP&A specialists set up each customer's connections and datasets in the back office.
+
+The squad's engineers helped with the import, the configuration and the transformations.
+
+So every change waited for one of those two teams.
 
 **Figma 3 (Framing)**
-The request was a better interface for editing JSON. Before designing that, I split the work into three jobs: set up a dataset and its columns, enrich it by typing columns and mapping them to dimensions, and cleanse it with transformations.
-I wrote "self-service means activation" next to them. A customer who couldn't configure their data couldn't get value from the product.
+
+The request was a better interface for editing JSON.
+
+Before I designed that, I split the work into three jobs.
+
+First, set up a dataset and its columns.
+
+Second, enrich it: give each column a type and map it to a dimension.
+
+Third, cleanse it with transformations.
+
+Next to them, I wrote "self-service means activation".
+
+If customers couldn't configure their data, they couldn't get value from the product.
+
 ▶ [Short on time: one sentence. "I framed it as three jobs: set up, enrich, cleanse."]
 
 **Figma 4 (What came first)**
-Every dataset needs mapping, in no fixed order. Transformations are sequential, and few customers used them. So mapping went first and transformations waited.
-With the PM I cut functions and some mapping cases from the first release. The struck-out list is still in the file. Transformations were the biggest cut.
+
+Every dataset needs mapping, and in no fixed order.
+
+Transformations happen in sequence, and few customers used them.
+
+So mapping went first, and transformations waited.
+
+With the PM, I cut functions and some mapping cases from the first release.
+
+Transformations were the biggest cut.
+
+▶ [Point at the struck-out list.]
+
 ▶ [Never name the PM.]
 
 **Figma 5 (Research)**
-I tested the early flows twice. First with three of our FP&A specialists, the people who set up datasets for customers every day. Then with customer users. Both rounds did real configuration tasks.
+
+I tested the early flows in two rounds.
+
+The first round was three of our FP&A specialists.
+
+They set up datasets for customers every day.
+
+The second round was customer users.
+
+In both rounds, people did real configuration tasks.
+
 ▶ [Click.]
 
 **Figma 6**
-All three specialists could describe the transformation they needed with Excel functions. None of them could write it in SQL. The customer users had the same trouble with the transform wording: both read IF ... THEN backwards.
+
+All three specialists could describe the transformation with Excel functions.
+
+None of them could write it in SQL.
+
+The customer users had trouble with the wording too.
+
+Both of them read IF ... THEN backwards.
+
 ▶ [Click.]
 
 **Figma 7**
-They also looked for dimensions and mappings, and the screen showed them schema properties. The most experienced tester led our FP&A team and had used Abacum for over a year. He got stuck in the same places as the others, so the gap was in the product's language, and more time with the product wouldn't have closed it.
+
+They also looked for dimensions and mappings.
+
+The screen showed them schema properties.
+
+The most experienced tester led our FP&A team and had used Abacum for over a year.
+
+That tester still got stuck in the same places as the others.
+
+So the gap was in the product's language.
+
+More time with the product wouldn't have closed it.
+
 ▶ [Click.]
 
 **Figma 8**
+
 And they changed dimensions without seeing what depended on them.
+
 ▶ [If asked about the sample size: see Q&A below.]
 
 **Figma 9 (Diagnosis)**
-Users thought in dimensions, mappings and date formats. The product asked for schema properties and data types. Column settings used their words: pick a column type, map it to a dimension, and auto-map fills the values.
+
+Users thought in dimensions, mappings and date formats.
+
+The product asked them for schema properties and data types.
+
+So column settings used their words.
+
+You pick a column type and map it to a dimension.
+
+Then auto-map fills in the values.
+
 ▶ [Short on time: one sentence.]
 
 **Figma 10 (Decision)**
-Engineering wanted to extend the SQL approach they already used in the back office. I argued for Abacum's own formulas, the ones users knew from the modeling layer, and brought the test results each time it came up.
-We agreed on a step in between. Customers first got a transform field with SQL-like formulas, because it was easier to build without revamping formulas. Then the formula builder replaced it, on Abacum formulas, with syntax checks and autocomplete. The cost was that customers learned an interim syntax for a while.
+
+Engineering wanted to extend the SQL approach they already used in the back office.
+
+I argued for Abacum's own formulas.
+
+Users already knew them from the modeling layer.
+
+I brought the test results back each time it came up.
+
+In the end, we agreed on a step in between.
+
+First, customers got a transform field with SQL-like formulas.
+
+It was quicker to build, because we didn't have to rebuild formulas first.
+
+Then the formula builder replaced it.
+
+It used Abacum formulas, with syntax checks and autocomplete.
+
+The cost was that customers learned an interim syntax for a while.
+
 ▶ [Say "SQL-like formulas". Never say SQL shipped.]
 
 **Figma 11 (Guardrails)**
-Once customers could change their own data, one change could break models and tables they couldn't see. Renaming a dimension, for example, could delete the formulas that used it. I designed the dependencies view: each column shows which datasets, modules and tables use its dimension.
-A change that removes filters asks the user to accept the impact before saving.
+
+Once customers could change their own data, one change could break models and tables they couldn't see.
+
+For example, renaming a dimension could delete the formulas that used it.
+
+So I designed the dependencies view.
+
+Each column shows which datasets, modules and tables use its dimension.
+
+And if a change removes filters, the user has to accept the impact before saving.
+
 ▶ [If asked whether the warning shipped: I don't know. Present it as the design.]
 
 **Figma 12 (Final product)**
-This is a calculated column in the shipped builder. Pick the fields, write a formula like you would in a spreadsheet, and check it before saving. Some advanced transformations stayed restricted.
+
+This is a calculated column in the shipped builder.
+
+You pick the fields and write a formula, like in a spreadsheet.
+
+Then you check it before you save.
+
+Some advanced transformations stayed restricted.
 
 **Figma 13 (Outcome)**
-Finance teams set up standard datasets themselves. After release, customers reached a working configuration in their first session. The squad's engineers estimated standard setup took about half the previous time, and customer support told me they were getting fewer configuration requests. I checked in with them regularly after release.
-The squad had defined an autonomy metric: the share of dimension actions customers completed without help from our FP&A team. No after-release number reached me, so I can't give you a percentage. Next time I'd make sure we reported it.
+
+After release, finance teams set up standard datasets without our FP&A team.
+
+Customers reached a working configuration in their first session.
+
+The squad's engineers estimated that standard setup took about half the previous time.
+
+Customer support also told me they were getting fewer configuration requests.
+
+I checked in with them regularly after release.
+
+The squad had defined an autonomy metric.
+
+It was the share of dimension actions that customers completed without help from our FP&A team.
+
+No after-release number reached me, so I can't give you a percentage.
+
+Next time, I'd make sure we reported it.
+
 ▶ [Say "no after-release number" before they ask. Don't quote the metric's baseline or targets.]
 
 **Figma 14 (Close)**
+
 What would be most useful to go deeper on?
+
 ▶ [Stop talking. If they hesitate, offer the three options on the slide: the SQL decision, the testing, the dependencies design.]
 
 ---

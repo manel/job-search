@@ -138,11 +138,11 @@ Use **Plus Jakarta Sans**. Weight 700 for headlines, 500 for labels/sub-copy, 40
 
 ### Colors (dark deck)
 - Background: `#111417` (rgb: 17, 20, 23)
-- Surface for notes strip: `#1a1e22`
+- Card surface: `#1a1e22`, 1px border `#2e3340`, radius 8
 - Primary text: `#f2f2f4`
 - Body/muted text: `#8a9099`
 - Accent: teal-400 `#a8dadc` (rgb: 168, 218, 220)
-- Dim (notes, placeholders, slide numbers): `#2e3340`
+- Dim (placeholders, slide numbers): `#2e3340`
 - Separator lines: `#2e3340`
 
 ### Layout (1920×1080)
@@ -152,10 +152,10 @@ Use **Plus Jakarta Sans**. Weight 700 for headlines, 500 for labels/sub-copy, 40
 - Content starts about 70px below the headline's last line (y=336 for one line, y=408 for two)
 - Body: y=614, 26px, weight 400, muted text, width 1300px, line-height 42px
 - Visual placeholder: y=882, 13px, weight 400, dim, width 1500px
-- Notes separator: y=936, 1px, dim
-- Notes label: y=946, 10px, weight 500, accent, letter-spacing 2px
-- Notes text: y=960, 12px, weight 400, dim, width 1680px, line-height 18px
-- Slide number: x=1848, y=1020, 16px, weight 400, dim
+- Card label: 14px, weight 500, accent, letter-spacing 1.4px, 32px inside the card's top-left corner
+- Card body: 24 to 28px, weight 400, primary text
+- Slide number: x=1848, y=1020, 16px, weight 400, dim. Build steps share the number of their slide.
+- No speaker notes on the slide. They go in Figma's speaker notes field, pasted by hand from the deck source (the v2 decks have no on-slide NOTES strip; checked in Abacum DS and recorded 2026-11-16).
 
 ### Cover slide
 - Accent bar: x=120, y=318, 64×4px, accent teal-400
@@ -167,12 +167,14 @@ Use **Plus Jakarta Sans**. Weight 700 for headlines, 500 for labels/sub-copy, 40
 Progressive reveals use duplicate slides with identical layer names and a Smart Animate transition (0.3s, ease-out) on every step after the first. Hidden elements sit at opacity 0; an optional last step dims earlier text to 0.4. Reference: Remuner DS and Abacum DS v2 in Figma.
 
 ### Accent usage
-The teal accent appears in exactly three places per slide:
-1. The label (uppercase category tag, top-left)
-2. The notes label ("NOTES")
-3. The accent bar on the cover slide
+The teal accent has five roles:
+1. The slide label (uppercase category tag, top-left)
+2. Card labels
+3. The border of the one card or step the slide points to
+4. Arrows and diagram lines
+5. The accent bar on the cover and close slides
 
-Do not use teal for body text, borders, or decorative elements beyond these three roles.
+Do not use teal for body text or for decoration outside these roles.
 
 ### What the current decks need to update
 1. **Font:** Inter → Plus Jakarta Sans
