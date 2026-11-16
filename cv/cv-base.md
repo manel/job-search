@@ -7,6 +7,7 @@
 # 2026-11-06: "Barcelona, Spain" added to the header (location was only in role date lines), graduation year removed. Figma: set the EDUCATION heading to zero letter spacing like the other headings (it extracted as "E D U C AT I O N" in the Perk PDF). The Base PDF predates all three; re-export and run check-pdf-text --source before the next send.
 # 2026-11-07: Kings of Mambo title aligned with LinkedIn (Co-founder & Senior Product Designer), work mode "on-site, later hybrid", account-ownership bullet added (Manel).
 # 2026-11-13: Kings of Mambo entry: a Kymco flows bullet (studio size and "with a second designer" removed by Manel as not relevant; "Led design" does not claim sole authorship), from the KoM archive audit (evidence/kom/README.md; register entries "Design team on Kymco", "Test-ride booking", "Studio team"). Same day, at Manel's request: "component libraries and design systems for several clients" (register, client design-system work, Manel's statement 2026-11-10; the KoM mailbox has no trace of it, so it rests on his word). The Base PDF predates it.
+# 2026-11-14: Figma "CV BASE" column (p1 2381:432, p2 2381:473) brought in line with this file: header with "Barcelona, Spain" (line break after the phone, as in tailored CVs), Dataset Manager attribution, Abax 47% line, Kings of Mambo title, work mode and entry; graduation year hidden. The EDUCATION note of 2026-11-06 was wrong: every heading uses 2 px letter spacing, so EDUCATION stays at 2 px; check-pdf-text decides whether that extracts cleanly. Same day, Manel set Kings of Mambo to "hybrid" in Figma: final, never change it. Base PDF re-exported 2026-11-14 and passes check-pdf-text --source.
 # Plain text below the line, ready for Figma paste. PDF exported 2026-10-20 to cv-pdf-to-send/Base/ (passes check-pdf-text --source); header and dates mirror it. Manel's decision 2026-10-20: keep the "Design Systems" subtitle and no case link in the base.
 
 ---
@@ -50,7 +51,7 @@ Co-led the Abax design-system business case with the head of design and worked o
 
 
 Kings of Mambo, Co-founder & Senior Product Designer
-Sep 2010 - Nov 2021, Barcelona (on-site, later hybrid)
+Sep 2010 - Nov 2021, Barcelona (hybrid)
 
 Co-founded and ran a UX studio for 11 years, designing e-commerce sites, CMS workflows and back-office interfaces for media, retail, finance, legal, and culture clients.
 

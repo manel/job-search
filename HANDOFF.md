@@ -1,63 +1,95 @@
-# Handoff: Abacum DS deck token audit, then the portfolio TODO (session 2026-11-11)
+# Handoff: TODO walk-through, steps 1 to 8 (session 2026-11-14)
 
-Replaces the 2026-11-05 Perk handoff (still in git history at `a0edd21`). The newer Perk state is in [applications/records/perk-senior-design-systems-designer.md](applications/records/perk-senior-design-systems-designer.md), not in that old handoff.
+Replaces the 2026-11-11 handoff (Abacum DS deck token audit), which is still in git history. Its open work, the token audit in the Abacum DS deck before Perk, is still open: see step 8 below and [TODO.md](TODO.md).
 
 ## Goal
 
-1. Add the January 2024 token audit to the Abacum DS deck before the Perk Depth of Expertise call (60 min video, with a Lead Product Manager, one project end to end; Abax is the lead project).
-2. Then work through the "Portfolio" section of [TODO.md](TODO.md).
+Go through the "This week" items of [TODO.md](TODO.md) one at a time with Manel, in this order:
+
+1. Figma Base CV: done
+2. LinkedIn Kings of Mambo entry: done
+3. Dataset Manager deck notes: done
+4. Notion deck updates: done, except what Manel still pastes or plays
+5. Stripe DS and Bunge: stopped here, one decision open
+6. Haddock: Manel says it is done, but the TODO is not updated yet
+7. Portfolio PDF: Manel did not know what this item is, so explain it
+8. Abacum DS deck: what is still missing before Perk (Tim Archer, Tue 2026-11-17, 10:00)
+
+Manel wants one step at a time, in short STE-style replies.
 
 ## Current status
 
-- **Nothing has been written to the deck yet.** The previous session ran in the portfolio repo (`~/Dev/manel-leiva-portfolio`), only looked at the backlog, and stopped so the work could move here, where the deck and writing rules live.
-- **Perk call not booked yet.** Slots submitted for Wed 11 to Tue 17 Nov. The record's `next_action`: if no invite by Wed 11 midday, reply in Clare's thread asking for the booking. Today is Wed 11 Nov. Check this first.
-- **Submodule pointer is stale.** `portfolio/` sits at `abc67e4`; `origin/main` is at `4cba4d7` (removes the dead `middleware.js`, adds the portfolio repo's `CLAUDE.md`). `main` and `dev` on the portfolio remote are both at `4cba4d7`.
-- **Working tree here is dirty from before this session:** `TODO.md`, `applications/active.md` and several `applications/records/*.md` are modified. The previous session didn't touch them. Don't commit them without asking Manel.
+- **Step 1 done.** Figma "CV / Manel Leiva", column "CV BASE" (p1 `2381:432`, p2 `2381:473`) now matches [cv/cv-base.md](cv/cv-base.md). Manel exported the Base PDF and it passes `check-pdf-text --source`. He set Kings of Mambo to "hybrid" himself and wants that never changed again. This is recorded in [evidence/experience-facts.md](evidence/experience-facts.md) (work mode entry), in the cv-base header notes and in Claude memory (`feedback_kom_work_mode_final.md`).
+- **Step 2 done.** The LinkedIn Kymco sentence is live without "with a second designer". [context/linkedin.md](context/linkedin.md) is updated.
+- **Step 3 done.** Manel pasted the Dataset Manager notes and checked slides 4, 5 and 9. Open question resolved: the FP&A team created customers' connections and datasets, and engineers helped with the initial import, configuration and transformations. This is in the register (Dataset Manager section).
+  - Slide 2 on-slide text is fixed in Figma "Dataset manager".
+  - Deck source is now v2.2.
+  - Manel still has to paste the new Figma 2 note from [decks/case-deck-dataset-manager.md](decks/case-deck-dataset-manager.md). Not confirmed.
+- **Live Dataset Manager case:** two lines fixed and pushed to portfolio `dev` (commit `6a9f1c6`). This change is NOT on `main`. Manel has not checked the Vercel preview. The submodule pointer here is not committed.
+- **Step 4.** Modeling Syntax deck (Figma `mOXQnVxL9e6XBo8jthv6zB`):
+  - Slide 5 is now a two-step build: Figma 5 shows the benchmark with the quote card at opacity 0; Figma 6 shows the quote, with Smart Animate 0.3s ease-out.
+  - Notes in [decks/case-deck-modeling-syntax.md](decks/case-deck-modeling-syntax.md) are renumbered by Figma position (1 to 11).
+  - Manel has not confirmed that he pasted the notes or played the build.
+- **Step 5, stopped here.**
+  - Bunge was already `role-closed` on 2026-11-07, so it needs no action.
+  - Stripe Product Designer, Design Systems: posting live on 2026-11-14, 47 days silent.
+  - Manel messaged Mike Wilson (Product Designer, Stripe, no prior relationship) on 2026-09-28 and got no reply. Manel does NOT want to follow up with him.
+  - Owen Williams (Design Manager, Developer Experience and AI) is not on the DS team, so he is a weak target.
+  - Everything is recorded in [applications/records/stripe-product-designer-design-systems.md](applications/records/stripe-product-designer-design-systems.md).
+  - The DS-team people search is unresolved: web search does not show LinkedIn people lists.
 
 ## Decisions made (with reasons)
 
-- **Deck and case copy work runs in job-search, not in the portfolio repo.** The deck, `principles.md`, `context/writing-rules.md`, the `memory.md` writing rules and the skills (`no-ai-slop`, `review-case`, `prep-interview`) only load here. The portfolio repo's `CLAUDE.md` imports only `context/portfolio.md`, so a session there misses the writing rules. Live case edits go through `portfolio/` from here.
-- **The portfolio repo stays for purely technical site work** (CSS, layout, deploy, branches) if Manel wants a separate session for it. Its rules: `main` is production, `dev` is for preview, merge to `main` only when Manel says so, commit and push only when asked. They are in `portfolio/CLAUDE.md`.
-- **Token audit framing:** Abax was shared. Present the audit as Manel's argument inside a team decision, not as his decision alone.
+- **Kings of Mambo work mode is "Barcelona (hybrid)" on every CV.** Manel's final call. Never suggest "on-site, later hybrid" again.
+- **EDUCATION heading stays at 2 px letter spacing.** All headings use 2 px; the 2026-11-06 note saying "zero like the others" was wrong.
+- **Base CV header breaks after the phone number,** as in the tailored CVs. On one line it wrapped "linkedin.com/in/" badly.
+- **Dataset setup credit: "our FP&A team, with help from the squad's engineers".** Never credit engineers alone (Manel 2026-11-14).
+- **Modeling Syntax slide 5 is split into a build.** Manel chose this; I had recommended no build.
+- **No further contact with Mike Wilson.** Manel does not know him and does not want to bother him.
 
 ## Tried and rejected
 
-- Working on the deck from the portfolio repo: rejected, because the deck and writing rules don't load there (see above).
+- `figma_take_screenshot` on a non-active file falls back to an expired REST token and fails. Instead, export through `figma_execute` (`exportAsync` + `figma.base64Encode`), then decode the saved tool-result file into the scratchpad.
+- Duplicating a slide with `clone()` placed the copy before the original. Fix the order with `figma.setSlideGrid` using explicit node IDs.
+- WebSearch for Stripe DS team members on LinkedIn: no profiles, only job postings.
 
-## Files touched
+## Files touched (all uncommitted in job-search)
 
-- `HANDOFF.md` (this file). Nothing else in job-search.
-- Portfolio repo, already pushed: commit `4cba4d7` on `main` and `dev`.
+- [TODO.md](TODO.md): items rewritten for steps 1 to 4
+- [cv/cv-base.md](cv/cv-base.md): header note and KoM "hybrid"
+- `cv-pdf-to-send/Base/Manel Leiva CV 2026.pdf`: re-exported by Manel. This is the Base, not a sent PDF.
+- [evidence/experience-facts.md](evidence/experience-facts.md): work mode entry; dataset-setup answer
+- [context/linkedin.md](context/linkedin.md)
+- [decks/case-deck-dataset-manager.md](decks/case-deck-dataset-manager.md), [decks/case-deck-modeling-syntax.md](decks/case-deck-modeling-syntax.md)
+- [applications/records/stripe-product-designer-design-systems.md](applications/records/stripe-product-designer-design-systems.md)
+- `portfolio` submodule: on branch `dev` at `6a9f1c6`, so the pointer shows as modified
+- **Not from this session:** `applications/active.md` (modified) and `applications/records/idealista-ux-product-designer.md` (untracked). Probably another session's work. Ask Manel before committing them.
 
 ## Next steps
 
-1. **Perk booking.** Check whether the calendar invite has arrived. If not, and it's past midday on Wed 11, draft the reply to Clare for Manel to send. Log it in the record History.
-2. **Update the submodule:** `git -C portfolio pull`, then commit the pointer change in job-search on its own. Ask Manel first, because other uncommitted files exist.
-3. **Token audit in the deck.** Target: [decks/case-deck-design-systems-abacum.md](decks/case-deck-design-systems-abacum.md), slide 7 (Architecture) or slide 8 (Rollout and governance), as a build. Brief: item 1 in [evidence/figma/deck-and-case-updates.md](evidence/figma/deck-and-case-updates.md). Source: [evidence/figma/abacum-abax-core.md](evidence/figma/abacum-abax-core.md), page "2401 Token audit".
-   - The beat: the head of design proposed merging `actionSecondary` into `secondary`. Manel argued it would blur when to use which, and reduce the flexibility to adjust a semantic group. A "⚓️ Decision" note aligned tokens with the alert variants (action, warning, danger, success, each with a secondary).
-   - Figma nodes: debate [4775:165](https://www.figma.com/design/UueAtXpFYzKECtUnK18a8B/?node-id=4775-165), status quo [4786:183](https://www.figma.com/design/UueAtXpFYzKECtUnK18a8B/?node-id=4786-183).
-   - Optional extras: naming anatomy board `3608:22036` (slide 7), the Graveyard of 52 deprecated sets (slide 8), 139 primitive and 193 semantic variables, the color-blindness check as a speaker note.
-   - Update the matching speaker notes in the deck's "Speaker notes to paste into Figma" section, and Q&A if it fits.
-   - Run `no-ai-slop` and `anthropic-skills:humanizer` on the new text. Check for em dashes.
-4. **Live case, after the deck:** add the same beat to `portfolio/public/cases/design-systems.html`. Ask Manel before committing; push to `dev` first.
-5. **Portfolio TODO, in this order** (findings from the 2026-11-11 review of the live pages):
-   1. Modeling Syntax Overview outcome is generic ("reduced cognitive load"). Rewrite it from facts already in the body: days rather than weeks, fewer support requests, unlocked the formula builder autocomplete. The other four Overviews already carry an outcome, so the "Outcome up front" TODO is mostly done. Decide whether to add the ~47% figure to the Abacum DS Overview.
-   2. Closing lesson: the two DS cases already end on a trade-off section. Dataset Manager, Modeling Syntax and AI agent end on outcomes, so add one to each. Consider trimming the DS cases (about 1,960 and 2,130 words).
-   3. Figma MCP umbrella line in the Remuner DS case. Approved CV wording and limits are in [evidence/experience-facts.md](evidence/experience-facts.md) (around line 346).
-   4. Dataset Manager images (start of the visual-rework pilot). Check every frame for customer data and colleague names first.
-   5. Decide on the Remuner IC dashboard case versus Reps Letter.
-   6. Portfolio PDF. Notion export in its own session.
+1. Commit this session's job-search changes, but do not commit the submodule pointer while it points at `dev`. Ask Manel about `active.md` and the Idealista record first.
+2. **Step 5:** ask Manel whether to mark Stripe DS `stale` now (`/update-pipeline stripe stale`), or to keep it while he searches LinkedIn for a Sail team design manager himself. Then remove the "Decide Stripe DS and Bunge" TODO line, because Bunge is already closed.
+3. **Step 6:** close the Haddock TODO item. Manel confirmed "done", and the 12 Nov nudge was sent. Check that [applications/records/](applications/records/) has a Haddock record with a dated `next_action_on`.
+4. **Step 7:** explain the "Portfolio PDF text" item. The Flodesk portfolio PDF has no extractable email, because the links are underlined (see memory.md, 2026-10-20). The planned 5 to 8 page portfolio PDF needs contact details as real text. Ask whether he wants to build that PDF now or park it.
+5. **Step 8:** Abacum DS deck before Perk, 2026-11-17. Open sub-items are in the Abacum deck item of [TODO.md](TODO.md):
+   - play the Smart Animate builds;
+   - re-paste notes Figma 1, 9, 11, 12, 16, 23, 24, 29, 30, 32;
+   - take the Abax screenshots for slides 2 and 10;
+   - check B3;
+   - do the token audit (item 1 of [evidence/figma/deck-and-case-updates.md](evidence/figma/deck-and-case-updates.md)).
+   Also the short recall session before Perk: one mentoring episode, and vLex scope.
+6. Once Manel approves the Vercel preview: merge portfolio `dev` to `main`, push, then commit the submodule pointer here.
+7. Mon 2026-11-16: answer Capitole on EUR 40K (TODO item).
 
 ## Open questions
 
-- Slide 7, slide 8, or a separate slide for the token audit? The backlog says "as a build" in one of the first two.
-- Should the ~47% figure go in the Abacum DS Overview?
-- Does the old 2026-11-05 handoff still have anything unresolved that isn't in the Perk record? It mentions the "80% of new UI" wording: a grep of `portfolio/public/cases/design-systems.html` found no match on 2026-11-11, so that fix looks live.
+- Did Manel paste the Dataset Manager Figma 2 note and the Modeling Syntax notes, and play the slide 5 build?
+- Stripe DS: stale now, or wait?
+- Manel said the Desktop Bridge is connected to the CV file. The reason was not stated; maybe for step 8 or a later CV job.
 
 ## How to verify
 
-- Perk next action: `grep -n "^next_action" applications/records/perk-senior-design-systems-designer.md`
-- Submodule in sync: `git -C portfolio fetch -q && git -C portfolio status -sb`, then `git status -s portfolio`
-- Deck slides: `grep -n "^## " decks/case-deck-design-systems-abacum.md`
-- Token audit landed: `grep -n "actionSecondary" decks/case-deck-design-systems-abacum.md`
-- No dashes in the deck: `grep -c "—\|–" decks/case-deck-design-systems-abacum.md`
+- `python3 scripts/check-pdf-text.py "cv-pdf-to-send/Base/Manel Leiva CV 2026.pdf" --source cv/cv-base.md` should print OK.
+- `python3 scripts/check-postings.py` shows Stripe posting status.
+- `git -C portfolio log --oneline -1 origin/dev` should show `6a9f1c6`.
+- `python3 scripts/check-links.py` after any Markdown move.

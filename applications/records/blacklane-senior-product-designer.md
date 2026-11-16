@@ -1,8 +1,8 @@
 ---
 company: Blacklane
 role: Senior Product Designer
-status: applied
-status_verified_on: 2026-11-11
+status: rejected
+status_verified_on: 2026-11-16
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-11-11
@@ -12,11 +12,11 @@ application_channel: direct
 warm_path: none recorded
 portfolio_version: 2026-11-11 (live site; Dataset Manager case linked in the letter)
 applied_on: 2026-11-11
-last_contact_on:
-outcome_stage: no-response
-rejection_reason_class: none
-next_action: Status nudge via Greenhouse reply or the Blacklane recruiter if no response. At ~3 weeks (2026-12-02) find the design lead or a senior designer on LinkedIn (context/outreach.md); stale at 5 weeks (2026-12-16). Blacklane shares its range before interviews.
-next_action_on: 2026-11-25
+last_contact_on: 2026-11-16
+outcome_stage: cv-review
+rejection_reason_class: generic
+next_action: None. Rejected at CV review by Greenhouse template; no-reply mailbox, no feedback offered. No chase.
+next_action_on:
 salary_stated: EUR 60,000-80,000 bracket (required checkbox field "Salary Expectations"; options were up to 60K, 60-80K, 80-100K, 100-120K, above 120K; confirmed by Manel 2026-11-11)
 job_url: https://job-boards.greenhouse.io/blacklane/jobs/8754730002
 source: Blacklane Greenhouse API, fetched 2026-10-19 (first published 2026-09-10, updated 2026-10-12; Barcelona and Madrid)
@@ -60,3 +60,4 @@ Genuine Senior: 6+ years, ownership of product areas, a quality-bar setter.
 - 2026-11-11: Posting live in the pipeline triage check. CV and cover-letter sources drafted: [cv/roles/blacklane-senior-product-designer.md](../../cv/roles/blacklane-senior-product-designer.md), [cover-letters/roles/blacklane-senior-product-designer.md](../../cover-letters/roles/blacklane-senior-product-designer.md). Lead: complex journeys and edge cases (Dataset Manager, dimension creation); mobile stated as webview apps.
 - 2026-11-11: Figma layout built in "CV / Manel Leiva", column "blacklane" (CV p1 2491:263, p2 2491:291, CL 2491:438).
 - 2026-11-11: Applied via Greenhouse, confirmed by Manel. PDFs as sent: cv-pdf-to-send/Blacklane/Manel Leiva CV 2026.pdf and Manel Leiva CL 2026.pdf (letter re-exported 19:44 with the new opening line; both pass check-pdf-text --source). Figma: CV p1 2491:263, p2 2491:291, CL 2491:438. Salary bracket 60-80K. Nudge 2026-11-25, LinkedIn 2026-12-02, stale 2026-12-16.
+- 2026-11-16: Rejected by Greenhouse template email (no-reply@us.greenhouse-mail.io, 09:45), five days after applying. Reason: "moving forward with candidates whose profiles align a bit more closely". Generic, no feedback, replies not read. Source: email supplied by Manel. No chase.

@@ -5,7 +5,7 @@ status: applied
 status_verified_on: 2026-10-13
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-11-03
+posting_checked_on: 2026-11-14
 fit_decision: proceed
 role_lane: mixed
 application_channel: direct
@@ -15,8 +15,8 @@ applied_on: 2026-10-13
 last_contact_on:
 outcome_stage: awaiting-response
 rejection_reason_class: none
-next_action: Await employer response; optional Daria outreach remains unconfirmed
-next_action_on:
+next_action: Mark stale if still silent; then decide the Otodom AI-native deferral (warm contact only)
+next_action_on: 2026-11-17
 salary_stated: Unknown; submitted form answers not confirmed
 job_url: https://jobs.eu.lever.co/olx/8d783669-ace0-409c-b003-b61087a4b69b
 source: Exact official OLX Lever posting and live application form checked 2026-10-02; live portfolio cases; Career OS evidence register; prior OLX application record
@@ -93,3 +93,5 @@ The live Lever form requires a CV, name, email, phone, current location, and con
 - 2026-10-13: Official posting rechecked and remains accessible for Remote Spain. Reviewed and revised the unsubmitted CV and cover-letter Markdown against the current evidence register: added the shipped IC-dashboard changes and qualitative testing outcome, specific Abacum meeting practices, and confirmed Kings of Mambo commerce/CMS scope in the CV. Removed the Dataset Manager time-saving estimate from this draft because source attribution remains unresolved; retained research-led direction without asserting disputed release chronology. No PDF export, submission, or outreach confirmed.
 
 - 2026-10-13: Manel confirmed “OLX submitted” after the CV and cover-letter review. Recorded application as applied, awaiting employer response, with today as the submission date. Exact submitted files, form answers, portfolio version, PDF export/QA, receipt details, and Daria outreach remain unconfirmed.
+
+- 2026-11-14: /assess-fit run on this URL. It is the posting already applied to on 2026-10-13, so no new assessment. Posting rechecked: live, Remote Spain, same JD (Nexus, AI Sandbox Challenge stage). No employer response in 32 days. Stale line 2026-11-17 set as next_action_on.

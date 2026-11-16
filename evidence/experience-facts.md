@@ -37,7 +37,7 @@ This is the evidence register, not finished application copy. Each material clai
 - **Class:** Confirmed direct user statement.
 - **Source:** Manel's correction while reconciling the Perk CV on 2026-10-20.
 - **Verified:** 2026-10-20; Kings of Mambo hybrid phase added 2026-11-07.
-- **External-use boundary:** Write Kings of Mambo as "Barcelona (on-site, later hybrid)"; give no year for the switch. "Hybrid" alone is an accepted simplification (Manel, 2026-11-07; used in the SplitMetrics CV). Supersedes "Barcelona (Remote)" in [cv/cv-base.md](../cv/cv-base.md) and role CVs before 2026-10-20 (base corrected; sent CVs stay as sent). Do not describe Remuner or Abacum as remote roles, and do not cite them as remote-work experience.
+- **External-use boundary:** Write Kings of Mambo as "Barcelona (hybrid)" (in Figma: "Barcelona, hybrid"). Final decision by Manel 2026-11-14 for the Base CV and all new CVs; do not change it again or suggest "on-site, later hybrid". The fuller history above stays as background only. Supersedes "Barcelona (Remote)" in [cv/cv-base.md](../cv/cv-base.md) and role CVs before 2026-10-20 (base corrected; sent CVs stay as sent). Do not describe Remuner or Abacum as remote roles, and do not cite them as remote-work experience.
 
 ### Crypto familiarity
 
@@ -490,6 +490,8 @@ Notion export index: [notion/README.md](notion/README.md) (built 2026-11-09). En
 ### Dataset Manager
 
 **Chronology resolved 2026-11-09 (confirmed by Manel):** Configuration started as back-office JSON handled by engineers. Customers then got a transform field with SQL-like formulas (`'Global' if DEPARTMENT:NAME is ...`, `JOIN RATIO FROM OTHER_DATASET ON ...`; Figma, Feb 2022). That was an agreement with Engineering because it was easier to build without revamping formulas, and it was the phase of migrating to Abacum formulas. The formula builder replaced it (webapp "DSM formula builder v1", ACTS-958, 2023-09-20; syntax check October 2023; autocomplete November 2023). Say "SQL-like formulas", not "SQL". The 2026-09-29 account ("the team dropped the SQL direction") holds in the sense that plain SQL never reached customers.
+
+**Who configured datasets, resolved 2026-11-14 (confirmed by Manel):** both teams. Abacum's FP&A team created customers' connections and datasets in the back office; the Integrations squad's engineers helped them with the initial import, configuration and transformations. Supersedes "back-office JSON handled by engineers" above and "the squad's engineers configured each one" in the decks. Say "our FP&A team, with help from the squad's engineers"; never credit only engineers.
 
 **Attribution resolved 2026-11-09 (confirmed by Manel):** the "roughly half the time" estimate came from the Integrations squad's engineers, who also did the implementation work for customers. Say "the Integrations engineers" or "the squad's engineers". Do not use "implementation team" in new copy.
 

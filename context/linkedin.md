@@ -87,12 +87,12 @@ Taught graduate-level UX and digital design. Guided students in structuring and 
 
 Taught a course on building WordPress themes from scratch, taking students from a design file to a working, CMS-driven site.
 
-### Kings of Mambo — Co-founder & Senior Product Designer (live, pasted by Manel 2026-11-07; title changed from "Founder" the same day)
+### Kings of Mambo — Co-founder & Senior Product Designer (live, pasted by Manel 2026-11-07; title changed from "Founder" the same day; Kymco sentence replaced 2026-11-14)
 
 Group header on LinkedIn: Kings of Mambo, 13 yrs 9 mos. This role: Full-time, Sep 2010 - Nov 2021, Barcelona.
 
 Co-founded and ran a UX/product design studio for 11 years, leading work from research through delivery across finance, legal, retail, media and culture. Projects included content-management workflows, e-commerce experiences and back-office interfaces.
-For KYMCO's e-commerce products, I owned the design process and frontend implementation, including shopping and checkout flows that launched and handled real orders. For other stores, including FUNK3D and Somia, my responsibility was frontend implementation and platform configuration.
+For KYMCO, I led design of the purchase, reservation and test-ride flows and built the front end. Bookings and orders synced with the dealers' management system, and the checkout launched and handled real orders. For other stores, including FUNK3D and Somia, my responsibility was frontend implementation and platform configuration.
 I also built much of what I designed, connecting interaction decisions with implementation. Over time, I developed shared component libraries and frontend foundations that were reused across the studio's projects.
 Alongside project work, I mentored designers and taught UX, components and WordPress themes.
 
@@ -110,4 +110,5 @@ Date grouping fixed on the live profile 2026-06-12.
 - [ ] Teaching entries trimmed
 - [ ] KOM dates fixed
 - [ ] No banned vocabulary anywhere (check "optimization", "scalable", "seamless")
+- [ ] Saved resumes (Settings > Resumes and application data) hold only the current base CV, with "Share resume data with hirers" on. Cleaned 2026-11-14: four older files deleted (tailored iLovePDF, July 2026, two from 2021), base CV of 2026-11-14 kept. Replace the file after each base CV re-export; never leave a tailored CV there
 - [ ] Open to Work enabled for recruiters only, listing: Senior Product Designer, Staff Product Designer (LinkedIn's title list doesn't offer Lead Product Designer or Design Systems Designer)

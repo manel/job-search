@@ -8,7 +8,7 @@
 
 Every claim is checked against [evidence/experience-facts.md](../evidence/experience-facts.md) (Dataset Manager entries; chronology and the time-saving attribution confirmed 2026-11-09). Speaker notes are beats, not a script.
 
-Version history: v1 (October 2026) said "SQL shipped first" and credited the time saving to an implementation team. v2 corrects both: customers got SQL-like formulas, and the estimate came from the Integrations squad's engineers. v2.1 (2026-11-09, from the Notion export): the first three testers were Abacum's FP&A specialists, then customer users; "Next time" now names the autonomy metric the squad defined.
+Version history: v1 (October 2026) said "SQL shipped first" and credited the time saving to an implementation team. v2 corrects both: customers got SQL-like formulas, and the estimate came from the Integrations squad's engineers. v2.1 (2026-11-09, from the Notion export): the first three testers were Abacum's FP&A specialists, then customer users; "Next time" now names the autonomy metric the squad defined. v2.2 (2026-11-14, Manel): slide 2 and Figma 2 credit both teams with dataset setup (our FP&A team, with help from the squad's engineers); Figma on-slide text updated the same day.
 
 ---
 
@@ -26,8 +26,8 @@ Version history: v1 (October 2026) said "SQL shipped first" and credited the tim
 ## 2. Context
 
 **Label:** Context
-**Headline:** Every dataset change went through an engineer
-**Visual:** back-office JSON schema, cropped large. Caption: "The dataset definition, early 2022. The squad's engineers edited it by hand for each customer."
+**Headline:** Customers couldn't set up their own data
+**Visual:** back-office JSON schema, cropped large. Caption: "The dataset definition, early 2022. Our FP&A team set it up for each customer, with help from the squad's engineers."
 
 **Notes:** A dataset turns ERP or spreadsheet data into dimensions and measures. In early 2022 it was a JSON file customers couldn't touch.
 
@@ -137,7 +137,7 @@ I was the designer on the Integrations squad. I ran the design and the customer 
 
 **Figma 2 (Context)**
 Abacum is a financial planning platform. Customers bring in data from their ERP or spreadsheets, and a dataset defines how that data becomes dimensions and measures in their models.
-In early 2022 the dataset was a JSON file. Customers couldn't touch it, so the squad's engineers configured each one by hand, and every change waited in their queue.
+In early 2022 the dataset was a JSON file that customers couldn't touch. Our FP&A specialists created each customer's connections and datasets in the back office, and the squad's engineers helped with the initial import, configuration and transformations. Every change waited for one of the two teams.
 
 **Figma 3 (Framing)**
 The request was a better interface for editing JSON. Before designing that, I split the work into three jobs: set up a dataset and its columns, enrich it by typing columns and mapping them to dimensions, and cleanse it with transformations.

@@ -12,9 +12,9 @@ Dates are mirrored in each record's `next_action_on`. Ranking: fit strength, pos
 
 1. **Tue 20 Oct, unblock:** follow-ups (WhiteTech; CloudTalk rejected 29 Oct; RemoFirst rejected 23 Oct; Enginy rejected 14 Nov after the take-home); warm asks (Lucia for Factorial, Murphy founder; Perk DS rejected 26 Oct, reversed 2 Nov with a TA call invite, Tanna thanked 28 Oct); agency questions (Menna at Senovo: client and rate; Babel rejected 22 Oct); Wizeline UX interview passed 2 Nov (L4), client interview Tue 10 Nov 17:30; export the base CV PDF.
 2. **Tailored, about two a day:** Perk (applied 2026-10-21, rejected 26 Oct, TA call invite 2 Nov) → Markin (23) → Stripe Global (24) → Rover (24). LearnWise, Hostinger, Flodesk and OLX Otodom were pulled forward and sent 2026-10-19 (OLX Otodom rejected 29 Oct).
-3. **Light, week of 27 Oct:** Blacklane, iLovePDF (27) → Preply CRM, SlashMobility (28). Glovo Order Tracking closed 3 Nov.
+3. **Light, week of 27 Oct:** Blacklane (rejected 16 Nov), iLovePDF (27) → Preply CRM, SlashMobility (28). Glovo Order Tracking closed 3 Nov.
 4. **Minimal, base CV:** none left. Extia, Pasiona and Punto Health dropped 2026-11-11; Senovo skipped 2026-11-12.
-5. **Recheck vacancy first (27 Oct):** New Relic (last checked 1-2 Oct). Tether applied 2026-10-21, stale 3 Nov (AIOS rejected 26 Oct).
+5. **Recheck vacancy first (27 Oct):** New Relic (last checked 1-2 Oct). Tether applied 2026-10-21, rejected 16 Nov (AIOS rejected 26 Oct).
 
 ## Ready to apply
 
@@ -47,7 +47,8 @@ Resolve the stated next step before investing further. A Proceed assessment can 
 
 ## Confirmed active
 
-- [Capitole Consulting, Senior AI Product Designer (insurance client)](records/capitole-senior-ai-product-designer-insurance.md): **interviewing.** Recruiter call with Araceli Massieu 13 Nov (experience, ways of working). EUR 40K offered for the role; client revealed at the next interview. **Next: answer on the 40K by Mon 16 Nov.**
+- [Capitole Consulting, Senior AI Product Designer (insurance client)](records/capitole-senior-ai-product-designer-insurance.md): **deferred (paused 16 Nov).** Capitole sent its maximum number of candidates to the client on 13 Nov; the vacancy waits on the client. Araceli will write if it reopens. EUR 40K accepted 16 Nov 12:13; contract type and office questions unanswered. **Next: none unless she writes; set stale on 4 Dec if silent.**
+- [idealista, UX & Product Designer](records/idealista-ux-product-designer.md): applied 2026-11-14 via LinkedIn Easy Apply; consumer property portal, full remote from Spain, mid-level read. No salary asked; ask the range at first contact. Nudge 2026-11-28, LinkedIn 2026-12-05, stale 2026-12-19.
 - [Powens, Product Designer](records/powens-product-designer.md): applied 2026-11-12 via the careers page, CV and letter; Dataset Manager lead. No salary asked; ask the range at first contact. Nudge 2026-11-26, LinkedIn 2026-12-03, stale 2026-12-17.
 - [Clio, Senior Product Designer, International Expansion](records/clio-senior-product-designer-international-expansion.md): applied 2026-11-12 via Workday (Barcelona), CV and letter; AI agent lead. Range EUR 83.9-113.5K published; no salary asked. Nudge 2026-11-26, LinkedIn 2026-12-03, stale 2026-12-17.
 - [Mapon, Senior Product Designer](records/mapon-senior-product-designer.md): applied 2026-11-12 via Breezy, CV and letter; AI agent lead. Location (Barcelona vs Riga) to confirm at first contact; EUR 3-5K/month published. Nudge 2026-11-26, LinkedIn 2026-12-03, stale 2026-12-17.
@@ -56,7 +57,6 @@ Resolve the stated next step before investing further. A Proceed assessment can 
 - [Markin, Product Designer](records/markin-product-designer.md): applied 2026-11-11 via the careers form (on-site Barcelona, AI agents for enterprise growth); AI agent lead. No salary asked. Nudge 2026-11-25, LinkedIn 2026-12-02, stale 2026-12-16.
 - [iLovePDF, Mid-Senior Product Designer (UI focus)](records/ilovepdf-mid-senior-product-designer-ui.md): applied 2026-11-11 via LinkedIn, CV only; UI and DS craft lead. Stated 53K. Nudge 2026-11-25, LinkedIn 2026-12-02, stale 2026-12-16.
 - [SlashMobility (Mango), Senior Product Designer](records/slashmobility-senior-product-designer-mango.md): applied 2026-11-11 via Talentclue; consultancy placement on Mango internal tools, two days a week in Sant Cugat. Stated 53K. Ask contract type and duration at first contact. Nudge 2026-11-25, LinkedIn 2026-12-02, stale 2026-12-16.
-- [Blacklane, Senior Product Designer](records/blacklane-senior-product-designer.md): applied 2026-11-11 via Greenhouse, CV and letter; complex journeys lead (Dataset Manager). Salary bracket 60-80K. Nudge 2026-11-25, LinkedIn 2026-12-02, stale 2026-12-16.
 - [Fever, Senior Product Designer](records/fever-senior-product-designer.md): applied 2026-11-07 via Greenhouse, base CV, EUR 60,000 stated. Nudge 2026-11-20, LinkedIn 2026-11-28, stale 2026-12-12.
 - [011h, Senior Product Designer (Procurement & Construction)](records/011h-senior-product-designer.md): applied 2026-11-07 via Workable, CV only (no letter); no salary asked. Nudge 2026-11-20, LinkedIn 2026-11-28, stale 2026-12-12.
 - [Exoticca, Senior UX/UI Designer](records/exoticca-senior-ux-ui-designer.md): applied 2026-11-07 via Workable, CV and form answer (no letter); no salary asked. Nudge 2026-11-20, LinkedIn 2026-11-28, stale 2026-12-12.
@@ -66,7 +66,7 @@ Resolve the stated next step before investing further. A Proceed assessment can 
 - [LearnWise, Senior UI/UX Designer](records/learnwise-senior-ui-ux-designer.md): applied 2026-10-19 via careers form, EUR 62,000 stated (range 55-65K). Posting open 10 Nov. Connection note to Toshiro Polak (Head of Product) sent 10 Nov. **Next: check 17 Nov; fallback Angelo Garcia. Stale 23 Nov.**
 - [Stripe, Product Designer, Design Systems](records/stripe-product-designer-design-systems.md): applied 2026-09-28, retrospectively confirmed by Manel on 2026-10-13; awaiting employer response. Exact submitted files, answers, channel, portfolio version, PDF QA and receipt details remain unconfirmed. Vacancy last checked 2026-09-28.
 
-- [OLX, Senior Product Designer](records/olx-senior-product-designer-ai-native.md): submission confirmed by Manel on 2026-10-13; awaiting employer response. Exact submitted files, form answers, portfolio version, PDF QA, and receipt details remain unconfirmed. Daria outreach not confirmed sent.
+- [OLX, Senior Product Designer](records/olx-senior-product-designer-ai-native.md): submission confirmed by Manel on 2026-10-13; awaiting employer response; posting still live 2026-11-14, stale on 2026-11-17. Exact submitted files, form answers, portfolio version, PDF QA, and receipt details remain unconfirmed. Daria outreach not confirmed sent.
 
 
 ## On hold
@@ -104,8 +104,10 @@ Not being pursued under the recorded decisions. Prepared historical materials do
 
 ## Rejected
 
+- [Blacklane, Senior Product Designer](records/blacklane-senior-product-designer.md): rejected by Greenhouse template email on 2026-11-16, five days after applying (2026-11-11). Generic reason, no-reply mailbox, no feedback. 60-80K bracket stated. No chase.
 - [SplitMetrics, Senior Product Designer - Core](records/splitmetrics-senior-product-designer-core.md): rejected by template email on 2026-11-13, six days after applying (2026-11-07). Generic reason; the email rules out feedback. USD 6,500/month stated. No chase.
 - [Enginy, Senior Product Designer](records/enginy-product-designer.md): rejected by email from Saul Villa on 2026-11-14, after the take-home (delivered 5 Nov) and before the VP of Product round. Generic reason, no feedback; EUR 62,000 stated, band 50-60K. Feedback request sent 14 Nov; no chase.
+- [Tether, Senior Product Designer (Wallets)](records/tether-senior-product-designer-wallets.md): rejected by email on 2026-11-16, 26 days after applying (2026-10-21). Position filled by a candidate already in final stages. Generic reason, no feedback. USD 80,000 stated. No chase.
 - [eDreams ODIGEO, Senior Product Designer, Conversational Service Design](records/edreams-senior-product-designer-conversational-service-design.md): rejected by auto-generated email on 2026-11-09, 60 days after applying (2026-09-10); position filled. Generic reason, no feedback; EUR 58,000 stated. Posting had been removed since 2026-10-16. No chase.
 - [OLX (Otodom), Senior Design System Designer, re-application](records/olx-otodom-senior-design-system-designer-2026-10.md): rejected by Lever template email on 2026-10-29, ten days after applying (2026-10-19). Generic reason, no feedback. Second CV-review rejection for the same role (August, October) despite the new contribution-model portfolio material. No chase, no third application.
 - [CloudTalk, Senior Product Designer (Remote in Europe)](records/cloudtalk-senior-product-designer.md): rejected by Workable template email on 2026-10-29, 27 days after applying (2026-10-02). Generic reason, no feedback; EUR 65,000 stated. DS-led CV (Abacum lead). No chase.
@@ -143,7 +145,6 @@ Not being pursued under the recorded decisions. Prepared historical materials do
 
 - [WhiteTech, Senior Product Designer](records/whitetech-senior-product-designer.md): applied 2026-10-02, no response; posting closed by 2026-11-03. Set stale 2026-11-03.
 - [Hostinger, Product Designer (remote)](records/hostinger-product-designer.md): applied 2026-10-19, no response; posting closed by 2026-11-03. Set stale 2026-11-03.
-- [Tether, Senior Product Designer (Wallets)](records/tether-senior-product-designer-wallets.md): applied 2026-10-21, no response; posting closed by 2026-11-03. Set stale 2026-11-03.
 
 ## Unverified application provenance
 

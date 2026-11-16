@@ -1,8 +1,8 @@
 ---
 company: Capitole Consulting (placement at an insurance client)
 role: AI Product Designer (Senior UX/UI / Senior Product Designer, GenAI)
-status: interviewing
-status_verified_on: 2026-11-13
+status: deferred
+status_verified_on: 2026-11-16
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-11-12
@@ -12,12 +12,12 @@ application_channel: recruiter
 warm_path: none recorded
 portfolio_version: unknown
 applied_on:
-last_contact_on: 2026-11-13
+last_contact_on: 2026-11-16
 outcome_stage: recruiter-screen
 rejection_reason_class: none
-next_action: Mon 16 Nov, answer Araceli on the EUR 40K figure (decision with Manel first). If proceeding, the next stage is a Capitole interview presenting the project (client revealed), then a client interview; ask contract type, duration and office location if not yet answered.
-next_action_on: 2026-11-16
-salary_stated: EUR 58-65K range (Manel, recruiter call 2026-11-13)
+next_action: Wait for Araceli. The vacancy is paused until the client answers on the candidates Capitole already sent. EUR 40K is already accepted. If she reopens it, get answers to the two open questions (contract type, office for the 2 days) before the Capitole interview. If nothing by 4 Dec, set stale.
+next_action_on: 2026-12-04
+salary_stated: EUR 58-65K range (Manel, recruiter call 2026-11-13); EUR 40K gross annual accepted in writing (Manel, WhatsApp 2026-11-16)
 job_url: https://careers.capitole-consulting.com/ai-product-designer-8qrCc3WJB5ii/
 source: LinkedIn InMail from Araceli Massieu (Capitole TA, Las Palmas) and the posting text, both pasted by Manel 2026-11-12. Posting shown as published "hace 4 horas" on 2026-11-12. The careers page returned 403 to a direct fetch.
 ---
@@ -77,3 +77,5 @@ None recorded. The recruiter made first contact.
 - 2026-11-12: Posting text pasted by Manel: "AI Product Designer", Capitole, Barcelona (Híbrido), 7 years' experience, published about 4 hours earlier. First product is a GenAI training tool for sales teams. Assessed: proceed. Gap to close before the call: a concrete tight-deadline delivery example.
 - 2026-11-13: Call with Araceli Massieu (recruiter screen). She asked about past experience and general working questions. Manel stated a EUR 58-65K range; Capitole came back with EUR 40K (gross annual assumed, not confirmed), with the listed benefits on top. Client not disclosed until the next interview. Manel must say by Mon 16 Nov whether he accepts 40K. Unknown: contract type (permanent or project term), office for the 2 days, what happens when the client project ends. Source: Manel, 2026-11-13.
 - 2026-11-13: Process confirmed by Manel: next a Capitole interview to explain the project, then an interview with the client. The salary answer on Mon 16 Nov gates the next stage.
+- 2026-11-16 12:13: Manel's WhatsApp to Araceli: accepts EUR 40K gross annual and wants to continue. Asks two questions before the next interview: contract type (permanent or project) and whether the 2 office days are at Capitole or at the client. Source: message text pasted by Manel.
+- 2026-11-16 13:40: WhatsApp voice note from Araceli Massieu: the vacancy is paused. Capitole finished sending candidates to the client on Fri 13 Nov and reached its maximum number; the process cannot move until the client answers. She will tell Manel if it reopens. She did not answer the two questions. Inference: Manel was not among the candidates sent, because the sending ended on 13 Nov, before his salary answer. Status set to `deferred`. Source: voice note transcribed by Manel with FluidVoice.

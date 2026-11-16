@@ -4,7 +4,7 @@
 **Best for:** Fintech and data-heavy product roles, initiative across scope, "influence without authority" and "decision with no clear answer" questions.
 **Duration:** walk-through 10 to 12 minutes; leave the rest for questions. If time runs short, cut slides 2 (Context) and 7 (Engineering) to one sentence each before touching the proof slides (5, 6, 9).
 **Lead framing:** I spotted the syntax inconsistencies, took them to the head of design and wrote the Improve Syntax Usability initiative; I traced them to the functions themselves, made the case to fix the grammar before adding more UI on top, and chose a direction the evidence supported but didn't settle on its own.
-**Effects:** none planned. Candidate build: slide 5, benchmark first, then the customer call.
+**Effects:** slide 5 is a build (2026-11-14): Figma 5 shows the benchmark with the customer-call card at opacity 0; Figma 6 is a duplicate with identical layer names and the card visible, Smart Animate 0.3s ease-out on click.
 
 Every claim is checked against [evidence/experience-facts.md](../evidence/experience-facts.md) ("Modeling language", including the Notion entries of 2026-11-09) and [context/portfolio.md](../context/portfolio.md) (Modeling Syntax). Sources for the benchmark, the customer call and the function audit: Notion "Consolidate Abacum functions" ([evidence/notion/deck-and-case-updates.md](../evidence/notion/deck-and-case-updates.md)). "Days instead of weeks" and fewer formula support requests are recollections confirmed 2026-06-12, with no recoverable numbers. Speaker notes are beats, not a script.
 
@@ -130,51 +130,53 @@ Quote fragments: "several months with your implementation team" · "if it look m
 
 ## Speaker notes
 
-The Figma deck has no build steps, so slide numbers match Figma positions (checked 2026-11-12). Paste these by hand. Actions sit on their own line, starting with ▶ and in [brackets]. Don't read those lines aloud.
+"Figma N" is the slide's position in the deck. Slide 5 is a two-step build since 2026-11-14 (Figma 5 and 6), so later slides sit one position after their slide number. Paste these by hand. Actions sit on their own line, starting with ▶ and in [brackets]. Don't read those lines aloud.
 
-**Slide 1 (Cover)**
+**Figma 1 (Cover)**
 At Abacum I standardised the formula syntax across the modeling layer. The rules went into the Abacum Script, and the consistent structure made the editor suggestions project possible. The customer team's recollection was that new users wrote their first useful formula in days instead of weeks.
 Nobody had ticketed this problem. I spotted the inconsistencies, took them to the head of design and wrote the initiative to fix them. The evidence didn't settle the direction, so this case is mostly about how I decided.
 
-**Slide 2 (Context)**
+**Figma 2 (Context)**
 Abacum is financial planning software. In the modeling layer, finance teams write the formulas that define their models and plans. Power users spend most of their time there. I moved to the Engine squad, which owned it, after Dataset Manager.
 ▶ [Short on time: one sentence.]
 
-**Slide 3 (The problem)**
+**Figma 3 (The problem)**
 The same concept, like referencing a period or another model, was written differently in different parts of the product. The formulas mixed Excel conventions, SQL-style clauses and custom syntax, because different engineers had built each part at different times.
 I wrote the Improve Syntax Usability initiative for the Engine squad. Later I audited the functions underneath, and 15 of the 37 broke the pattern: some put parameters inside the parentheses, some outside, some used SQL-style clauses.
 ▶ [Point at the three examples.]
 
-**Slide 4 (Making the case)**
+**Figma 4 (Making the case)**
 Syntax wasn't users' biggest complaint. In our April 2023 survey it came fifth of seven; error messages came first. So I couldn't argue from user pain alone.
 I argued from cost and from what it unblocked. Every new function built on the old pattern would extend it. With one parameter structure, filters could combine, and the editor could show parameter previews and a filter popover. The squad's risk review rated the consolidation low risk and syntax filters high risk, so the foundation went first. I got the head of design's support before starting.
 
-**Slide 5 (Investigation)**
+**Figma 5 (Investigation)**
 I benchmarked Excel, Google Sheets, Pigment and Causal to see whether there was a convention. There was: all of them put parameters inside parentheses and avoided underscores in function names. Abacum was the outlier on both.
-▶ [Click, if built.]
+▶ [Click.]
+
+**Figma 6 (Investigation, customer call)**
 Then the customer calls. In December 2023 one customer told us he only got used to our formulas after several months with our implementation team, and asked for them to feel more like Excel. He already knew how a formula should work, and ours didn't match it.
 ▶ [Never name the customer.]
 
-**Slide 6 (Decision)**
+**Figma 7 (Decision)**
 There were two directions. We could keep the SQL style that parts of the product already used, with FROM and WHERE clauses outside the function. Or we could follow Excel: every parameter inside the parentheses, function names as single capitalised words.
 Our users were finance teams, and every competitor followed Excel, so I chose Excel. The cost was real: users with a SQL background would find it less natural at first.
 The rules went into the Abacum Script: parameters inside the parentheses, no underscores in names, a dot for sub-functions, and Excel or Google Sheets names wherever the function already existed there. New functions could follow them without a design review each time.
 
-**Slide 7 (Engineering)**
+**Figma 8 (Engineering)**
 I worked through the syntax with one engineer, in two sessions in January 2024. Each call needed the design framing and the technical knowledge in the same conversation, because we had to know what a piece of syntax would produce in the model. JOIN, for example, became three parameters: the other dataset, its column, and your column. The work went into 13 tickets for the first iteration and 15 for the second.
 ▶ [Short on time: one sentence.]
 
-**Slide 8 (What changed)**
+**Figma 9 (What changed)**
 Each concept now had one way to be written. Parameters went inside the parentheses, dataset references became explicit inputs, and function names followed one standard. Heavy users no longer had to remember two ways of writing the same thing.
 
-**Slide 9 (Outcome)**
+**Figma 10 (Outcome)**
 The clearest outcome was the editor suggestions project, and later parameter preview, which shipped after I handed the work over. With every parameter in a predictable position, the editor could map parts of a formula to inputs and suggestions. With clauses outside the function, it couldn't.
 The customer team remembers new users writing their first useful formula in days instead of weeks, and fewer formula support requests in the following quarters. Those are recollections. There are no numbers.
 New functions followed the Abacum Script after that.
 If I did it again, I'd write down the reasoning behind each rule as well. The reasons, like why we dropped the SQL style, stayed in meeting notes, so the next engineer to extend the syntax had only the rules.
 ▶ [Say "recollection, no numbers" before they ask.]
 
-**Slide 10 (Close)**
+**Figma 11 (Close)**
 What would be most useful to go deeper on?
 ▶ [Stop talking.]
 
