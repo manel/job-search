@@ -37,6 +37,7 @@ Proceed; application materials have not been prepared. Recheck the vacancy befor
 
 Resolve the stated next step before investing further. A Proceed assessment can still have an unresolved prerequisite.
 
+- [Neotalent Conclusion, Product Designer (insurance client)](records/neotalent-product-designer-insurance.md): **proceed, reply sent 17 Nov.** Waiting for Andrea's call; nudge 20 Nov if silent. On the call: client name first (possible same client as Capitole), range, direct reports, contract if the project ends.
 - [Canonical, UX Designer, Design Systems](records/canonical-ux-designer-design-systems.md): deferred by Manel 2026-11-07. Form needs three essays in his own words (AI-use declaration), high-school rankings with justification and a travel commitment. CV PDF ready. Revisit 2026-11-21 if the pipeline thins.
 - [Dow Jones, Principal Product Designer, Market Data](records/dow-jones-principal-product-designer-market-data.md): deferred 2026-11-07 until the official Workday posting is found and live (levels.fyi lead only). Official req 54916 found and live 2026-11-11 (posted 9 Nov, Barcelona hybrid, EUR 70-90K published): the revisit condition is met; proceed awaits Manel's decision.
 - [OLX (Otodom), Product Designer, AI-native](records/olx-otodom-product-designer-ai-native.md): deferred 2026-11-07 until the OLX Senior AI-native application resolves (stale 2026-11-17); then only with a warm contact.
