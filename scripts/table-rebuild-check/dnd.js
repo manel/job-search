@@ -1,0 +1,22 @@
+const { chromium } = require('playwright-core');
+(async () => {
+  const b = await chromium.launch({ executablePath: process.env.HOME + '/Library/Caches/ms-playwright/chromium_headless_shell-1248/chrome-headless-shell-mac-arm64/chrome-headless-shell' });
+  const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
+  const errs = []; p.on('pageerror', e => errs.push(e.message)); p.on('console', m => m.type()==='error' && errs.push(m.text()));
+  await p.goto('file:///Users/manel/Dev/job-search/interviews/perk/perk-table-selection-rebuild.html#dnd');
+  await p.waitForTimeout(800);
+  const box = await p.$eval('#table', el => { const r = el.getBoundingClientRect(); return { x: r.left, y: r.top, s: r.width / 702 }; });
+  const at = (x, y) => [box.x + x * box.s, box.y + y * box.s];
+  const shot = async n => { await p.waitForTimeout(300); await p.screenshot({ path: `shots/${n}.png` }); };
+  await p.mouse.move(...at(140, 2)); await shot('d1-col-zone2');
+  await p.mouse.move(...at(180, 0)); await shot('d2-col-handle-hover');
+  await p.mouse.down(); await shot('d3-col-selected');
+  await p.mouse.move(...at(300, 10), {steps: 8}); await p.mouse.move(...at(470, 20), {steps: 8}); await shot('d4-col-dragging');
+  await p.mouse.up(); await p.waitForTimeout(50); await p.screenshot({ path: 'shots/d5-col-dropping.png' }); await shot('d6-col-dropped');
+  await p.mouse.move(...at(2, 100)); await shot('d7-row-handle-hover');
+  await p.mouse.down(); await p.mouse.move(...at(30, 180), {steps: 8}); await p.mouse.move(...at(30, 260), {steps: 8}); await shot('d8-row-dragging');
+  await p.mouse.up(); await shot('d9-row-dropped');
+  await p.click('#mNo'); await p.mouse.move(...at(180, 0)); await shot('n1-nodrag-indicator');
+  console.log('errors:', JSON.stringify(errs));
+  await b.close();
+})();

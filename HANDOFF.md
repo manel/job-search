@@ -1,95 +1,105 @@
-# Handoff: TODO walk-through, steps 1 to 8 (session 2026-11-14)
+# Handoff: Perk follow-up to Tim and Mateo (session 2026-11-17, continue 2026-11-18 morning)
 
-Replaces the 2026-11-11 handoff (Abacum DS deck token audit), which is still in git history. Its open work, the token audit in the Abacum DS deck before Perk, is still open: see step 8 below and [TODO.md](TODO.md).
+Replaces the 2026-11-14 handoff (TODO walk-through, steps 1 to 8). That one is in git history; its open items (Stripe DS stale decision, Haddock TODO, Portfolio PDF item, portfolio `dev` to `main` merge) are still open and also live in [TODO.md](TODO.md).
+
+Manel wants short STE-style replies, one step at a time. Before any text Tim or Mateo will read or hear: run `no-ai-slop` before drafting and `anthropic-skills:humanizer` after; for spoken text, follow "Writing for speech" in [interviews/playbooks/case-presentation.md](interviews/playbooks/case-presentation.md#writing-for-speech).
 
 ## Goal
 
-Go through the "This week" items of [TODO.md](TODO.md) one at a time with Manel, in this order:
+Send Tim Archer (content design manager, owns design systems and technical writing) and Mateo (product designer, Suitcase expert) a follow-up after the Perk Hiring Manager Interview of Tue 2026-11-17. Send through Clare Watts (TA), by the morning of **2026-11-19**. Manel first said "tomorrow" (2026-11-18), so aim for 2026-11-18 if the video is ready.
 
-1. Figma Base CV: done
-2. LinkedIn Kings of Mambo entry: done
-3. Dataset Manager deck notes: done
-4. Notion deck updates: done, except what Manel still pastes or plays
-5. Stripe DS and Bunge: stopped here, one decision open
-6. Haddock: Manel says it is done, but the TODO is not updated yet
-7. Portfolio PDF: Manel did not know what this item is, so explain it
-8. Abacum DS deck: what is still missing before Perk (Tim Archer, Tue 2026-11-17, 10:00)
+The follow-up completes two weak answers from the call (debrief in [interviews/perk/perk.md](interviews/perk/perk.md#round-2-debrief-hiring-manager-interview-tue-2026-11-17)):
 
-Manel wants one step at a time, in short STE-style replies.
+1. Tim: "A component you elevated visually, or with motion?" Manel had nothing to show ("I only have one animation I could record"). Tim said visual craft is half the role: Suitcase must reach "consumer grade", with a B2C retail feel. He also named poor accessibility across the component set.
+2. Tim: "How would you organise documentation across platforms into one source?" Manel said "I don't really know" plus a general layering list. Tim runs technical writing and listed "documentation from a single source that AI and other platforms can read" as a 6 to 12 month success measure.
+
+Format agreed: an email to Clare asking her to forward a short note to Tim and Mateo. The note carries an unlisted video link (answer 1) and a short written answer (answer 2).
 
 ## Current status
 
-- **Step 1 done.** Figma "CV / Manel Leiva", column "CV BASE" (p1 `2381:432`, p2 `2381:473`) now matches [cv/cv-base.md](cv/cv-base.md). Manel exported the Base PDF and it passes `check-pdf-text --source`. He set Kings of Mambo to "hybrid" himself and wants that never changed again. This is recorded in [evidence/experience-facts.md](evidence/experience-facts.md) (work mode entry), in the cv-base header notes and in Claude memory (`feedback_kom_work_mode_final.md`).
-- **Step 2 done.** The LinkedIn Kymco sentence is live without "with a second designer". [context/linkedin.md](context/linkedin.md) is updated.
-- **Step 3 done.** Manel pasted the Dataset Manager notes and checked slides 4, 5 and 9. Open question resolved: the FP&A team created customers' connections and datasets, and engineers helped with the initial import, configuration and transformations. This is in the register (Dataset Manager section).
-  - Slide 2 on-slide text is fixed in Figma "Dataset manager".
-  - Deck source is now v2.2.
-  - Manel still has to paste the new Figma 2 note from [decks/case-deck-dataset-manager.md](decks/case-deck-dataset-manager.md). Not confirmed.
-- **Live Dataset Manager case:** two lines fixed and pushed to portfolio `dev` (commit `6a9f1c6`). This change is NOT on `main`. Manel has not checked the Vercel preview. The submodule pointer here is not committed.
-- **Step 4.** Modeling Syntax deck (Figma `mOXQnVxL9e6XBo8jthv6zB`):
-  - Slide 5 is now a two-step build: Figma 5 shows the benchmark with the quote card at opacity 0; Figma 6 shows the quote, with Smart Animate 0.3s ease-out.
-  - Notes in [decks/case-deck-modeling-syntax.md](decks/case-deck-modeling-syntax.md) are renumbered by Figma position (1 to 11).
-  - Manel has not confirmed that he pasted the notes or played the build.
-- **Step 5, stopped here.**
-  - Bunge was already `role-closed` on 2026-11-07, so it needs no action.
-  - Stripe Product Designer, Design Systems: posting live on 2026-11-14, 47 days silent.
-  - Manel messaged Mike Wilson (Product Designer, Stripe, no prior relationship) on 2026-09-28 and got no reply. Manel does NOT want to follow up with him.
-  - Owen Williams (Design Manager, Developer Experience and AI) is not on the DS team, so he is a weak target.
-  - Everything is recorded in [applications/records/stripe-product-designer-design-systems.md](applications/records/stripe-product-designer-design-systems.md).
-  - The DS-team people search is unresolved: web search does not show LinkedIn people lists.
+- **Table selection rebuild: done, approved by Manel.** [interviews/perk/perk-table-selection-rebuild.html](interviews/perk/perk-table-selection-rebuild.html). Self-contained HTML, Inter from Google Fonts (needs internet), `noindex`. Real size, 1:1 with the 2023 boards (702x408). Manel: "yes, that's it".
+  - No drag and drop variant: cell hover follows the mouse; row and column indicators follow it; click selects a cell with two handles; drag the bottom-right handle to expand a range; header has three hover zones (header cell, top edge strip, indicator); click zone 1 selects the header cell only, zone 2 or 3 the whole column; rows the same from the left edge (click on the first cell selects the row with an empty indicator, as on the board); Esc or a click outside clears.
+  - Drag and drop variant (toggle top right, or `#dnd` in the URL): grip handles 24x16 (top) and 16x24 (left), radius 4, dots `#bdc4c7`; hover blue outline; selected solid blue. Drag follows Notion's pattern: faded copy follows the pointer on one axis, 2px blue drop line, 200 ms FLIP slide on drop. Switching variants resets the order.
+  - Row and column selected states use blue (`#0078b2` stroke, `#ebf8ff` fill). The 2023 boards used an older green style (`287:47` / `1457:4`); Manel said it should be blue.
+  - Tested only in headless Chromium (scripts in [scripts/table-rebuild-check/](scripts/table-rebuild-check/)). **Not tested in Manel's real browser with a mouse or trackpad.**
+- **Video script: drafted, partly open.** [interviews/perk/perk-followup-video-script.md](interviews/perk/perk-followup-video-script.md). Opening (with Manel's "I was reflecting on it afterwards, and there's one answer I'd like to complete"), table section (about 60 s), Remuner section (about 40 s), close pointing to the email. **The Remuner section is now rejected by Manel and must be replaced** (see Decisions).
+- **Email: drafted.** [outreach/perk-tim-mateo-followup-2026-11-18.md](outreach/perk-tim-mateo-followup-2026-11-18.md). Email to Clare plus the note for Tim and Mateo, with `[video link]` placeholder. The note says the video shows "table selection at Abacum ... and the Remuner dashboard before and after": **this sentence must change once the second example is chosen.** About 95 words against the 80-word cap in [principles.md](principles.md); accepted because it carries two answers.
+- **Second visual example: open. This is where Manel continues tomorrow.** He will check his Figma libraries in the morning for components he redesigned. The generic list he liked (button states, form field, select/combobox/menu, toast, modal/drawer, tabs indicator, skeleton loading, empty states, cards, charts, status chips, date picker, toggle/checkbox, theming) is in the chat only; reproduced in "Open questions" below so it is not lost.
+- **Figma click-through: built, then rejected.** Page "Selection prototype (rebuilt 2026-11-17)" (`40000013:429295`) in "Abacum | 💠 Abax Components | Exploration" (`H7KF9JPK3wwFGd8333TaHT`). 15 frames, three flows. Manel: not responsive like the original. It is still in the file; ask whether to delete it. Original boards on page "✅ 2306 -> Table cells" (`2947:66597`) were never edited.
+- **Evidence register updated.** Table selection entry in [evidence/experience-facts.md](evidence/experience-facts.md) ("Abax design system" section) now has: the Rebuilt line (Figma page, colour change, click ring, then the HTML page as the one to use); the drag and drop note (handles from boards, drag pattern from Notion, Manel's recollection); the AG Grid context line.
 
 ## Decisions made (with reasons)
 
-- **Kings of Mambo work mode is "Barcelona (hybrid)" on every CV.** Manel's final call. Never suggest "on-site, later hybrid" again.
-- **EDUCATION heading stays at 2 px letter spacing.** All headings use 2 px; the 2026-11-06 note saying "zero like the others" was wrong.
-- **Base CV header breaks after the phone number,** as in the tailored CVs. On one line it wrapped "linkedin.com/in/" badly.
-- **Dataset setup credit: "our FP&A team, with help from the squad's engineers".** Never credit engineers alone (Manel 2026-11-14).
-- **Modeling Syntax slide 5 is split into a build.** Manel chose this; I had recommended no build.
-- **No further contact with Mike Wilson.** Manel does not know him and does not want to bother him.
+- **HTML rebuild over Figma.** Figma frame flows can't reproduce "cell highlight follows mouse" or a handle drag; Manel's original used interactive components and felt live. Code took about an hour and behaves like the original.
+- **Copy only what the boards show.** No Shift-click range, no tweens on state changes, no "Selected (non-expandable)" state, no expandable rows or columns. Reason: it is labelled "Rebuilt from my 2023 specs"; extra behaviour would misrepresent the spec.
+- **Blue, not green, for row and column selection.** Manel's call. Recorded in the register as a change from the boards.
+- **Real size, not scaled.** Manel: the 1.7x and fit-to-window versions were far bigger than the original. Record with Cmd+Shift+5, "Record Selected Portion" around the table and the label.
+- **AG Grid framing.** Manel's aim in 2023 was to improve AG Grid's default selection, which he judged poor. Verified in `~/Dev/webapp`: June 2023 `package.json` had AG Grid 27.3.0 with `@ag-grid-enterprise/range-selection`. Safe line: "redesigned the selection states on top of AG Grid's default range selection". What was poor, and how much shipped, are not recorded; don't say either.
+- **Drag pattern = Notion's.** Manel's recollection. In the script only as an "If asked" line.
+- **Fit framing.** Table selection is interaction and state design more than visual elevation. Present it as motion and feedback in a dense data table. A second example must carry the visual-craft half.
+- **Remuner dashboard before/after rejected as the second example.** Manel: the old version was very bad, so the improvement was easy and proves little. Same objection rules out the Remuner type scale (9 to 25px audit).
+- **Abax Select and Autocomplete ruled out.** Tim already saw it (deck slide 10).
+- **Opening line.** Manel wanted to keep his "I was reflecting on our conversation" idea. It is in the video only. The email opens with "Thanks again for Tuesday." Manel asked to cut it from the email so it is not said twice.
+- **Original opener edits kept:** "Tuesday's conversation" (not "yesterday", since sending may slip to 2026-11-19); "one answer I'd like to complete" in place of "some answers that weren't ideal from my side" (names one answer, not a general weakness).
+- **"here's the answer I should have given"** in the email's docs paragraph: kept. Alternative offered to Manel if he wants it neutral: "On documentation from one source, here's how I'd set it up."
+- **Docs answer content** (from the fixes in [interviews/perk/perk.md](interviews/perk/perk.md#assessment-and-fixes-for-the-next-stage-2026-11-17)): one source next to the components (names, usage guidance, content rules), published to Figma, Storybook and the AI tools; nobody edits the same guidance in three places; ask how his team publishes product docs today.
 
 ## Tried and rejected
 
-- `figma_take_screenshot` on a non-active file falls back to an expired REST token and fails. Instead, export through `figma_execute` (`exportAsync` + `figma.base64Encode`), then decode the saved tool-result file into the scratchpad.
-- Duplicating a slide with `clone()` placed the copy before the original. Fix the order with `figma.setSlideGrid` using explicit node IDs.
-- WebSearch for Stripe DS team members on LinkedIn: no profiles, only job postings.
+- **Figma Smart Animate flows** (1440x900 frames, after-delay 0.9 s plus on-click, layer names matched): plays a fixed path only, no real hover. Rejected by Manel.
+- **Click ring frames** (blue ring at the cursor before each Selected frame): added to the Figma flows, rejected with them.
+- **Scaled table** (1.7x in Figma, then fit-to-window up to 1.9x in HTML): too big. Now 1:1.
+- **Ghost at 60% opacity, then 90%:** underlying text showed through and looked messy. Now opaque white with blue outline and fill, content at 60%.
+- **`figma_take_screenshot`:** REST token invalid. Use `figma_capture_screenshot` (plugin export) after `figma_navigate` with `lock: true`.
+- **Python Playwright:** not installed. Node `playwright-core@1.56.1` plus the cached headless shell works (see How to verify).
 
-## Files touched (all uncommitted in job-search)
+## Files touched (all uncommitted)
 
-- [TODO.md](TODO.md): items rewritten for steps 1 to 4
-- [cv/cv-base.md](cv/cv-base.md): header note and KoM "hybrid"
-- `cv-pdf-to-send/Base/Manel Leiva CV 2026.pdf`: re-exported by Manel. This is the Base, not a sent PDF.
-- [evidence/experience-facts.md](evidence/experience-facts.md): work mode entry; dataset-setup answer
-- [context/linkedin.md](context/linkedin.md)
-- [decks/case-deck-dataset-manager.md](decks/case-deck-dataset-manager.md), [decks/case-deck-modeling-syntax.md](decks/case-deck-modeling-syntax.md)
-- [applications/records/stripe-product-designer-design-systems.md](applications/records/stripe-product-designer-design-systems.md)
-- `portfolio` submodule: on branch `dev` at `6a9f1c6`, so the pointer shows as modified
-- **Not from this session:** `applications/active.md` (modified) and `applications/records/idealista-ux-product-designer.md` (untracked). Probably another session's work. Ask Manel before committing them.
+This session:
+- [interviews/perk/perk-table-selection-rebuild.html](interviews/perk/perk-table-selection-rebuild.html) (new)
+- [interviews/perk/perk-followup-video-script.md](interviews/perk/perk-followup-video-script.md) (new)
+- [outreach/perk-tim-mateo-followup-2026-11-18.md](outreach/perk-tim-mateo-followup-2026-11-18.md) (new)
+- [scripts/table-rebuild-check/](scripts/table-rebuild-check/) `shot.js` and `dnd.js` (new; headless checks, write PNGs to `shots/` in the current directory)
+- [evidence/experience-facts.md](evidence/experience-facts.md): table selection entry (Rebuilt, drag and drop, AG Grid lines)
+- [TODO.md](TODO.md): Perk follow-up item points to the email, script and HTML; still says "Remuner before and after" as item (2), which is now rejected
+- Figma `H7KF9JPK3wwFGd8333TaHT`: new page `40000013:429295` (rejected click-through)
+
+Not from this session, don't commit without asking Manel: `applications/active.md`, `applications/records/mapon-senior-product-designer.md`, `interviews/mapon/` (untracked). Some `TODO.md` and `evidence/experience-facts.md` changes may also be Mapon work from another session; check `git diff` before committing.
 
 ## Next steps
 
-1. Commit this session's job-search changes, but do not commit the submodule pointer while it points at `dev`. Ask Manel about `active.md` and the Idealista record first.
-2. **Step 5:** ask Manel whether to mark Stripe DS `stale` now (`/update-pipeline stripe stale`), or to keep it while he searches LinkedIn for a Sail team design manager himself. Then remove the "Decide Stripe DS and Bunge" TODO line, because Bunge is already closed.
-3. **Step 6:** close the Haddock TODO item. Manel confirmed "done", and the 12 Nov nudge was sent. Check that [applications/records/](applications/records/) has a Haddock record with a dated `next_action_on`.
-4. **Step 7:** explain the "Portfolio PDF text" item. The Flodesk portfolio PDF has no extractable email, because the links are underlined (see memory.md, 2026-10-20). The planned 5 to 8 page portfolio PDF needs contact details as real text. Ask whether he wants to build that PDF now or park it.
-5. **Step 8:** Abacum DS deck before Perk, 2026-11-17. Open sub-items are in the Abacum deck item of [TODO.md](TODO.md):
-   - play the Smart Animate builds;
-   - re-paste notes Figma 1, 9, 11, 12, 16, 23, 24, 29, 30, 32;
-   - take the Abax screenshots for slides 2 and 10;
-   - check B3;
-   - do the token audit (item 1 of [evidence/figma/deck-and-case-updates.md](evidence/figma/deck-and-case-updates.md)).
-   Also the short recall session before Perk: one mentoring episode, and vLex scope.
-6. Once Manel approves the Vercel preview: merge portfolio `dev` to `main`, push, then commit the submodule pointer here.
-7. Mon 2026-11-16: answer Capitole on EUR 40K (TODO item).
+1. **Ask Manel what he found in the libraries.** For each candidate: which company, which Figma file and page, what the before looked like, what he changed (spacing, type, colour token, states, motion timing), whether it entered the system (tokens, variants, docs). One question at a time.
+2. **Check each candidate against [evidence/experience-facts.md](evidence/experience-facts.md)** before it goes into the video. New claims go into the register with class and date. Ownership matters: Abacum had other designers (check the "two Manels" trap in memory before crediting Notion or Figma work).
+3. **Screen the frames** for real customer names, colleague names and real data before recording. Use copies on a separate page, never edit originals.
+4. **Rewrite the Remuner section** of the video script for the chosen example: one sentence per line, one idea per sentence, about 40 s. Then run humanizer and the speech check.
+5. **Update the email note's video sentence** to name the chosen example. Keep the docs paragraph as is unless Manel asks.
+6. **Update TODO.md** Perk item (2) and the evidence register to match.
+7. Manel records: real browser, one practice drag first, Cmd+Shift+5 selected portion. Table part follows the ▶ lines in the script. Time the first take (target about 2 minutes total).
+8. Manel uploads unlisted, checks the link in a private window, replaces `[video link]`, sends to Clare in the "Perk | Video Interview for Manel" thread by 2026-11-19 morning.
+9. After sending: update [interviews/perk/perk.md](interviews/perk/perk.md) (what was sent and when), the Perk record in `applications/records/`, and the dashboard. Note the claims made in the video so later stages stay consistent.
+10. Ask whether to delete the rejected Figma page `40000013:429295`.
+11. Commit this session's files once Manel approves (separate from Mapon work).
 
 ## Open questions
 
-- Did Manel paste the Dataset Manager Figma 2 note and the Modeling Syntax notes, and play the slide 5 build?
-- Stripe DS: stale now, or wait?
-- Manel said the Desktop Bridge is connected to the CV file. The reason was not stated; maybe for step 8 or a later CV job.
+- **Second visual example.** Candidates already discussed, from the register:
+  - Remu, the Remuner AI agent chat panel (visual and conversation design, structured tables and lists, launched to all customers before March 2026; frames in "Remuner | Dashboard (IC)", page `0925 -> Remu refinement`). No bad "before". Already the portfolio AI case.
+  - Kymco e-bikes (Kings of Mambo): consumer retail commerce, full design and front end, checkout took real orders. Closest to Tim's "B2C retail feel"; older, a website, not a DS component. Sketch files imported into Figma (see memory "KoM archive").
+  - Remuner component states for accessibility: focus, error and context states that don't rely on colour alone, some readable by screen readers. Matches Tim's accessibility gap. No frames recorded yet.
+  - Menu animations and mobile screen transitions: Manel told Tim about them on the call. Unconfirmed: project, file, owner unknown. Question asked, not answered: which product, and does a file, prototype or recording exist?
+  - Generic types Manel liked, to check against his libraries: button state set (hover, pressed, focus ring, loading keeps width); form field (label, focus, error with icon and text, validation on blur); select/combobox/menu (open motion, keyboard highlight, groups, search); toast (enter/exit, stacking, undo, auto-dismiss); modal/drawer/sheet; tabs with sliding indicator; skeleton loading; empty states; cards (hierarchy, image ratio, hover lift); charts (accessible palette, tooltips, update motion); status chips (colour plus icon or text); date/range picker; toggle/checkbox micro-interactions; one component in light and dark via tokens.
+  - What makes one convincing for Tim: an acceptable "before" (so the gain is judgement), named decisions, accessibility built in, how it entered the system, a reference point (Tim plans to compare Suitcase with high-quality retail platforms).
+- Does the video keep two examples, or table selection plus a static image for the second? Manel hasn't said.
+- Where is the video hosted (YouTube unlisted, Loom, or a `noindex` page on manel-leiva.com as an earlier TODO plan said)? Not decided.
+- Delete the Figma click-through page or keep it?
 
 ## How to verify
 
-- `python3 scripts/check-pdf-text.py "cv-pdf-to-send/Base/Manel Leiva CV 2026.pdf" --source cv/cv-base.md` should print OK.
-- `python3 scripts/check-postings.py` shows Stripe posting status.
-- `git -C portfolio log --oneline -1 origin/dev` should show `6a9f1c6`.
-- `python3 scripts/check-links.py` after any Markdown move.
+- Open the rebuild: `open interviews/perk/perk-table-selection-rebuild.html` (drag and drop: add `#dnd` in the browser URL, or use the toggle).
+- Headless check (the scratchpad copy of node_modules will be gone):
+  - `mkdir -p /tmp/pwcheck && cd /tmp/pwcheck && npm init -y && npm i playwright-core@1.56.1`
+  - `cp ~/Dev/job-search/scripts/table-rebuild-check/*.js . && mkdir -p shots && node shot.js && node dnd.js`
+  - `dnd.js` prints `errors: []` when the page has no console errors. PNGs land in `/tmp/pwcheck/shots/`. Chromium path is hardcoded to `~/Library/Caches/ms-playwright/chromium_headless_shell-1248/`.
+- `python3 scripts/check-links.py` after editing Markdown (last run: 0 broken).
+- `grep -n "—\|–" interviews/perk/perk-followup-video-script.md outreach/perk-tim-mateo-followup-2026-11-18.md` should print nothing.
+- Figma: `figma_list_open_files`, then `figma_navigate` with `lock: true` on `H7KF9JPK3wwFGd8333TaHT` before any capture. Keep one to three files open.
