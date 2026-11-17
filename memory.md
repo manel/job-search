@@ -113,6 +113,10 @@ The drills in `interviews/drills/` practise the first rule. Their six lines don'
 
 **2026-10-30** — At Wizeline, a consultancy, the panel said the presentation was good but was missing "what you bring to the table", because the next round is a client meeting and clients want proof of why to hire a designer. For consultancy and agency roles, the case alone doesn't close it: end with a short, concrete statement of what you'd deliver for the client in the first months, backed by evidence from the case.
 
+**2026-11-17**: Perk's DS hiring-manager round asked for visual craft as directly as for governance. Tim asked for "a component you elevated visually, or with motion" and then for a portfolio example. Manel had none to show. The JD's "consumer-grade" line meant visual quality, not only system maturity. Rule: when a DS JD says consumer-grade, visual language or motion, have one before-and-after component piece ready to share (static or recorded). An architecture case alone doesn't cover it.
+
+**2026-11-17**: In the same round, three questions went past the case into how Manel would run things: adapting the approach for 40 designers, picking a standard when squads differ (16, 12 or 8 px padding), and organising docs from one source for AI tools. The scale and docs answers trailed off, and the padding answer gave no principle. On enforcement, "I prefer coaching" drew "that's the diplomatic answer": the interviewer wanted a mechanism, and Manel had several in the register (lint warning, ratchet rule, feature flags, detachment thresholds) without linking them to the question. DS panels test operating judgment beyond the story. Rule: before a DS round, prepare a short stated principle for each: how coaching scales, how a standard is chosen (spacing scale, most-used value, audit evidence), and where docs live so tools read them.
+
 **2026-07-01** — Factorial culture signal: strong bias toward moving fast and shipping full feature sets early. They placed automation inside the MVP, not phase 2. If this role is offered and accepted, the push/caution tension is a real working dynamic to plan for, not an artifact of the interview format.
 
 ---

@@ -2,7 +2,7 @@
 company: Perk (formerly TravelPerk)
 role: Senior Design Systems Designer
 status: interviewing
-status_verified_on: 2026-11-11
+status_verified_on: 2026-11-17
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-11-05
@@ -12,11 +12,11 @@ application_channel: referral
 warm_path: Tanna Schumacher, Product Designer at Perk; Manel's former student (LABASAD Sketch course, around 2018), 1st-degree LinkedIn connection; replied 2026-10-23 (refers only if not yet applied); told of the 21 Oct application and sent the CV 2026-10-24; named as the connection on the form; 2026-10-25 said she will ask internally on Mon 26 Oct and that she had been covering this position herself; submitted the referral in Ashby 2026-10-26. Tim Archer, Senior Content Design Manager at Perk, 2nd-degree, posted the role on LinkedIn 2026-10-20. Xavi Francisco left Perk around 2026-09-28
 portfolio_version: Design Systems case (manel-leiva.com/cases/design-systems)
 applied_on: 2026-10-21
-last_contact_on: 2026-11-11
+last_contact_on: 2026-11-17
 outcome_stage: hiring-manager-interview
 rejection_reason_class: none
-next_action: Prep the Hiring Manager Interview with Tim Archer (Tue 17 Nov, 10:00-11:00 Madrid, Google Meet https://meet.google.com/dkd-tpnk-qed): run /prep-interview perk hiring-manager, rehearse the Abax arc out loud, tighten the AI-tools answer Clare asked for. Debrief the same day.
-next_action_on: 2026-11-17
+next_action: Wait for the hiring team after the 17 Nov Hiring Manager Interview. If nothing by 24 Nov, short check-in to Clare. Meanwhile confirm the four new claims in the debrief (tables, motion, junior 1:1s, Figma-and-code parity) and decide whether to prepare a visual or motion example before the onsite.
+next_action_on: 2026-11-24
 salary_stated: EUR 65,000 gross annual base (form field, 2026-10-21; restated in the TA call 2026-11-05, when Clare said the level is "probably closer to seventy" plus benefits and stock options)
 job_url: https://jobs.ashbyhq.com/Perk/78dafbf1-0f6d-46b7-b71a-2c59f7af31cf
 source: Perk Ashby job board API, fetched 2026-10-19 (published 2026-10-15; London, with Barcelona as a secondary location; hybrid, three days in office)
@@ -123,3 +123,4 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 - 2026-11-11 (logged): Clare Watts emailed Wed 2026-11-11, 18:46, "Perk | Video Interview for Manel | Senior Design Systems Designer": Hiring Manager Interview with Tim Archer, Tue 2026-11-17, 10:00-11:00 Europe/Madrid, Google Meet (https://meet.google.com/dkd-tpnk-qed). Asks Manel to reply and accept the calendar invite. Prep requested: "how you engage with AI in your work", familiarity with AI tools and how he has applied them in his role (Perk calls itself AI-forward). Perk uses an AI note-taker; opt-out link available, not required. Second email 18:49: the onsite could not be coordinated (team travelling), so this round is remote and an onsite meeting will come later in the process. This confirms the TA-call version (hiring-manager session with Tim first) over the written process email (Depth of Expertise with a Lead PM); the "Tim" inference is now confirmed as Tim Archer. Nudge draft not sent. Source: emails pasted by Manel.
 - 2026-11-11: Calendar invite accepted and confirmation reply sent to Clare (text in [outreach/perk-clare-watts-2026-11-11.md](../../outreach/perk-clare-watts-2026-11-11.md)). Source: Manel confirmed.
 - 2026-11-12: Round 2 brief refreshed for Tim ([interviews/perk/perk.md](../../interviews/perk/perk.md)): Perk research from Clare's prep links (values, platform, Entry Ready, Perk MCP, Audi Revolut F1), weighting toward naming and content in the system, the 12 Nov register corrections (Maker Days October 2023, Figma script run by Manel). The Builders "design thinking behind Perk" post returned 403; Manel to read it in a browser.
+- 2026-11-17: Hiring Manager Interview held, 10:00 to 11:03, with Tim Archer and Mateo (product designer on Travel, former Suitcase contributor). Portfolio review of the Abacum deck. Tim set out the role as two halves: governance and adoption, and visual craft to make Suitcase "consumer grade". He asked for a visual or motion example in the portfolio; Manel had none to show. Learned: no structured adoption measurement, contribution depends on who pushes, poor accessibility across components, one full-time engineer agreed from January 2027, content tokens not built yet. Salary not raised. Close: "hiring team will be in touch with next steps", no timing. Slips against the register: 45% (is 47%), library sync July 2024 (is July 2022), Storybook template placed in the October week, Remuner 8 of 18 (is 10 of 18). Debrief in [interviews/perk/perk.md](../../interviews/perk/perk.md). Source: transcript pasted by Manel.

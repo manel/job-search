@@ -12,6 +12,8 @@ The hook also surfaces open items in "This week" at every session start. Keep it
 
 ## This week
 
+- [ ] **Perk: before the onsite.** Hiring Manager Interview held 17 Nov; waiting for the hiring team (check in with Clare 24 Nov if silent). (1) Decide on a visual piece: one Remuner component before and after, static or recorded. (2) Confirm or drop the four new claims in the debrief (Abacum tables, motion, junior 1:1s, Figma-and-code parity). (3) Rehearse the enforcement, scaling, docs and standard outlines. All in [interviews/perk/perk.md](interviews/perk/perk.md) ("Assessment and fixes for the next stage").
+
 - [ ] **Base CV: re-export the PDF.** Figma "CV BASE" column updated 2026-11-14 from [cv/cv-base.md](cv/cv-base.md) (Kings of Mambo entry fits page 2; page 1 ends at 777 of 842). Export both pages to `cv-pdf-to-send/Base/` and run `check-pdf-text --source`.
 - [x] **Capitole (Araceli Massieu): EUR 40K accepted 16 Nov 12:13; vacancy paused 13:40.** Capitole already sent its maximum candidates to the client. Araceli will write if it reopens. Record: [applications/records/capitole-senior-ai-product-designer-insurance.md](applications/records/capitole-senior-ai-product-designer-insurance.md).
 - [x] **Wizeline UX interview held 30 Oct.** Debrief in [interviews/wizeline/wizeline-stage2-case.md](interviews/wizeline/wizeline-stage2-case.md). No whiteboard; the canvas sub-tasks are moot.

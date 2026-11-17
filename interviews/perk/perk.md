@@ -221,7 +221,7 @@ About 70 seconds spoken. Every claim is from the register: [Design system and to
 >
 > For testing ideas with users, I built AI prototypes they could click through, separate from the production app.
 >
-> I didn't track time saved, so I don't have a number for it. Since March I've kept working this way with Claude and the Figma MCP on my own files.
+> Since March I've kept working this way with Claude and the Figma MCP on my own files.
 >
 > Your job description asks for component specs that AI prototyping tools can read, and I'd like to work on that. When a designer prototypes with AI, the tool reads the component names and descriptions, so those need to be written for the tool as well as for people.
 
@@ -317,3 +317,79 @@ Not expected in this round. Stated EUR 65,000 on the form; Clare said the level 
 - Have the Abacum deck v2 open on slide 7 (token audit) and the Select slide, ready to share.
 
 *After the interview: run `/debrief-interview perk "Depth of Expertise"`.*
+
+## Round 2 debrief: Hiring Manager Interview (Tue 2026-11-17)
+
+Source: call transcript pasted by Manel. Ran the full hour (10:00 to 11:03). Format was a portfolio review: Manel shared the Abacum deck and led.
+
+### Panel
+- **Tim Archer:** introduced himself as content design manager, at Perk about four years, London office. Manages content design, product documentation (technical writing), localisation and design systems in one team. He is in Barcelona next week (week of 2026-11-23).
+- **Mateo:** product designer, at Perk five years or more, now on Travel. Worked on Suitcase a couple of years ago (token structure, component maintenance, new components). Tim called him one of the system's experts. Not named in the invite.
+
+### What Manel covered
+- **Intro:** close to the prepared [opening intro](../answers.md#opening-intro): Kings of Mambo eleven years, Abax co-led across five squads, Remuner system built alone with the token pipeline and the AI agent.
+- **Abax arc, deck led:** result first (47% against the 80% goal, not reached), problem (same card built two ways by two squads), token MVP May 2022, business case with the head of design, July 2023 presentations, the two capacity options, Maker Days, core team of one FE engineer and Manel, migration, tokens, token audit (`actionSecondary`), governance, measurement, Select and Autocomplete, adoption work, results, Remuner changes, LLM slide.
+- **Code literacy:** HTML, CSS and JavaScript from the studio years; understands the system; "I cannot say I'm a front-end engineer". Matches the register.
+
+### Questions asked, and what Manel answered
+- **How did you go about the proposal, and how did you know it was a problem? (Tim):** UI inconsistencies across verticals, then engineers copying or rebuilding components; raised with the head of design, built the case together.
+- **Was getting buy-in easy, or did you have to rethink? (Tim):** head of design already on board; the hard part was the time spent gathering inconsistencies and engineering data.
+- **How did you know Maker Days went well? (Tim):** seven components shipped, the Button first, plus Select, Menu, Tooltip; leadership kept the work going; FE said they built screens faster (not measured).
+- **Who is "we"? Full time? (Tim):** Manel and one FE engineer, not full time, alongside product work.
+- **How did you count components? (Mateo):** code count of Abax vs MUI; in Figma, a script counted instances against nodes to find detachments.
+- **Main reason the rest wasn't from the system? (Tim):** gradual migration inside squad releases, no dedicated team.
+- **Why did designers detach components? (Tim):** Select and Autocomplete slide. Tim summed up: components weren't fit for purpose. Manel named three causes: component build, missing documentation, coaching.
+- **Six designers: how many needed 1:1s? (Tim, not in prep):** two juniors, about once a week for about two months.
+- **How would you adapt this for a team of 40? (Tim, not in prep):** communication, documentation, ongoing coaching sessions. The answer trailed off.
+- **How did you decide which components to build first? (Mateo):** Button for the test because it was simple; then by use in screens (form elements first), then by use in code.
+- **Three squads use 16, 12 and 8 px padding on a card: which is the standard and why? (Mateo, not in prep):** design owns the standard; 16 because it worked for that card. No principle given (spacing scale, density, which one most screens used).
+- **With today's AI, what would you do differently to move adoption faster? (Mateo):** then, a dedicated team; now, build components in Figma and code himself with AI, so engineering only reviews.
+- **A component you elevated visually, or with motion? (Tim, not in prep):** Abacum tables (pinned header and left column, users had asked) and motion on menus and mobile transitions. **Asked for a portfolio example: "Not really... I only have one animation I could record."**
+- **Adoption and enforcement, and how AI helps others apply the system (Tim):** prefers coaching; enforce only after finding out why a component isn't used (docs, build, coaching).
+- **Prototyping with content and DS without knowing the DS; have you explored it? (Tim):** a well-documented system written for AI (guidelines, tokens, components) so the LLM doesn't drift; experimenting on his own components.
+- **How would you organise documentation across platforms into one source? (Tim, not in prep):** "I don't really know"; a general layering answer (foundations, layers, platforms, modes, content tokens).
+- **Mobile experience? (Mateo):** Remuner webview with separate mobile components; native apps in the past (the vLex app, within the register boundary).
+
+### Slips against the register
+- **"45% came from the code count"** at the end of the measurement slide; the figure is 47%. Tim then said "thirty-three percent", likely a mishearing.
+- **Library sync "July 2024"**: it started July 2022 ([register](../../evidence/experience-facts.md), design library weekly from 15 July 2022). With "almost two years", 2024 can't be right.
+- **Storybook template "during that week"**: it came at the November 2023 Maker Days, a month after the October week. The deck note has it right.
+- **Remuner audit board "eight of eighteen"**: the register and the deck say 10 of 18.
+- **Health score "I tracked"**: fine. "We set up a script" for Figma: fine.
+
+### Not used
+- The content beats prepared for Tim: SimpleLocalize keys in components, the Claims to Issues rename, the "check your planes" fix. Content tokens came up only in Manel's own question at the end.
+- The approved AI answer ([above](#how-do-you-use-ai-in-your-work-approved-by-manel-2026-11-16)) wasn't asked as a standalone question; parts went into the LLM slide and the adoption answer.
+
+### New claims to confirm before any later stage
+Not in [evidence/experience-facts.md](../../evidence/experience-facts.md):
+- Abacum tables: pinned header and pinned left column, requested by users. Who designed it and whether it shipped.
+- Motion: menu animations and mobile screen transitions. Which project, and the one animation that could be recorded.
+- Two junior designers at Abacum with weekly 1:1s for about two months. Candidate for the mentoring gap in [stories.md](../stories.md#gaps) if Manel can name the change in their work.
+- "Components in Figma and code, parity by myself, engineering only reviews": the register supports PRs for styles and tokens reviewed by FE. Keep that scope.
+
+### What we learned about the role and team
+- **Role split:** governance, process and adoption on one side; visual craft on the other, to take Suitcase to "consumer grade" over the next few years. Perk is B2B but wants a B2C retail feel. Tim asked for visual evidence directly.
+- **Gaps Tim named:** visual quality short of consumer grade; poor accessibility across the component set; no space for designers to experiment and then decide what the system absorbs (variant, new component, deprecation).
+- **Gaps Mateo named:** good atomic foundation (zero to one done) but not enough for complex pages and flows, so designers drift and build their own patterns; the pace of building now, with the risk the system falls behind and needs another migration.
+- **AI prototyping:** designers prototype with different tools and get different outcomes. Tim wants prototypes that meet the system's quality bar and are close to shippable. Vision: anyone prototypes with content and the design system without knowing the system.
+- **Contribution today:** local patterns usually stay in their domain; whether one gets into Suitcase depends on how hard a designer or engineer pushes. No agreed way to make the case.
+- **Adoption measurement:** none structured. Scripts were tried, but in code there's no clean comparison (Suitcase vs React components that may be fine custom ones). Nobody has had time for Figma measurement.
+- **Engineering support:** none dedicated this year ("buy coffees" to get time). Agreed: one full-time engineer from January 2027; this role full-time on the system. Hoped for: a more junior designer and another FE engineer.
+- **Content tokens:** not built yet; Tim hopes before Christmas.
+- **Success at 6 to 12 months (Tim):** governance (proposing components, deprecating unused ones); documentation from a single source that AI and other platforms can read; visual elevation, by comparing the component set with high-quality retail platforms and improving the existing components.
+
+### Manel's read (2026-11-17)
+Went well: what he presented seemed to matter to the organisation, and he could answer the questions. Visual craft was missing. The scaling answer (5 to 30 or 40 designers) could have been sharper. Unsure the enforcement answer ("coaching over enforcement") made clear how he would do it. His read of Perk: nothing is measured, and governance and adoption are at an early stage.
+
+### Assessment and fixes for the next stage (2026-11-17)
+Likely enough to advance, not secured. The deciding gap is visual craft, which Tim called half the role. Answer outlines below use register evidence only; rehearse them before the onsite.
+- **Visual craft (biggest risk):** an unused example exists: the Remuner system built alone, the before-and-after the CTO called "a 2010 app to a 2025 app". Prepare one component before and after (static or recorded) to share. Tables and motion stay unconfirmed until Manel confirms them.
+- **Enforcement:** Tim called "coaching over enforcement" "the diplomatic answer"; he wanted a mechanism. Give a ladder: measure (code count, detachment ranking and thresholds), find out why (docs, build or coaching), fix, then guardrails in code: the `prefer-abax` lint warning at Abacum, the Remuner token rule that ended up failing only new violations, feature-flagged releases, squads owning migration tickets. Blocking comes last.
+- **Scaling to 30 or 40 designers:** 1:1 coaching doesn't scale. Use the data to choose where to step in (the detachment ranking did this at Abacum), one contact per product pillar, documentation as the main layer, written so AI tools read it too. Answer as what you would do, not what you did.
+- **Docs from one source:** Tim listed it as a 6 to 12 month success measure and runs technical writing. Don't answer "I don't know" again. Give a principle: one source next to the components (names, descriptions, usage guidance, content rules), published from there to Figma, Storybook and the AI tools, never edited in three places. Ask how his team publishes product docs today.
+- **Choosing a standard (16, 12 or 8 px):** give a criterion: the spacing scale, the value most screens already use (audit), the density the content needs. Design then decides and documents why.
+- **Content:** with Tim, use the Claims to Issues rename and the SimpleLocalize keys; he leads content design and the beats went unused.
+
+### Next step
+Tim: "hiring team will be in touch with next steps." No timing given. Clare said earlier that an onsite comes later in the process.

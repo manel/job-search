@@ -126,6 +126,7 @@ Every claim is checked against [evidence/experience-facts.md](../evidence/experi
 - Guidance: when to use each, on the docs page and in the component description.
 - Coaching: a session in the weekly design-system meeting, collecting feedback.
 - Result: detachments on these components almost stopped. Remaining issues went into later iterations.
+**Layout (rebuilt 2026-11-16):** steps as text in the left column; a visual panel on the right; the result card appears under the panel. Panel on the Problem step, labelled "Before": the real Abax Select with two of five items hidden in a fixed-height menu, so the menu shows a gap. Note: "Two items hidden. The menu kept its full height, so designers detached it." Panel from the Fix step on, labelled "After: three components": Select ("The field"), Menu ("With a placeholder slot", the real `.selectMenu` with its "Replace me" placeholder) and Menu items ("Built locally, swapped into the slot", the real `.Select / ListDefault` list in a dashed frame), with an arrow from the list into the slot. Images exported from "Abacum | 💠 Abax Components" (page "select"). The earlier version, with three nested bars, is in the last row, skipped.
 
 **Notes:** This was before Figma's native slots; it was a placeholder component plus instance swap. "Almost stopped" is recollection; no figure.
 
@@ -285,10 +286,12 @@ I defined the Figma measures and ran the Figma check every two weeks. The 47% co
 
 **Figma 25 (Select and Autocomplete)**
 Here's one example. The ranking pointed at Select and Autocomplete. Designers detached the menu to add or remove items, because hiding items broke the auto layout. Some designers also weren't sure when to use Select and when to use Autocomplete.
+▶ [Point at the gap under Option 5.]
 ▶ [Click.]
 
 **Figma 26**
 We split it into three components: Select, Menu and Menu item. Designers could build their own items in their file and swap them into a placeholder slot.
+▶ [Point at the arrow into "Replace me".]
 ▶ [If asked: this was before Figma's native slots. It was a placeholder component plus instance swap.]
 ▶ [Click.]
 

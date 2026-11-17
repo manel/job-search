@@ -233,6 +233,7 @@ Patterns logged in [memory.md](../memory.md) ("Interview question patterns"); th
 - **"How do bugs that reach designers get handled?"** Early-stage teams without full PM coverage. Have a concrete Remuner example ready ([NEEDS YOUR STORY]).
 - **"What would you do if you were the CEO?"** A vision probe: an opinionated answer about product direction, not design craft.
 - **"How would you build it with full resources?"** A ranked argument about what matters most, not "everything".
+- **DS operating questions (Perk, 2026-11-17):** "How would you enforce adoption?", "How would this scale to 40 designers?", "Three squads use 16, 12 and 8 px: which is the standard?", "How would you organise docs from one source?", "Show a component you elevated visually." Outlines in [perk/perk.md](perk/perk.md) ("Assessment and fixes for the next stage").
 - **"How would we know it worked?"** Expect the measurement question directly in live cases. See [playbooks/live-challenge.md](playbooks/live-challenge.md).
 
 ---
