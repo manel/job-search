@@ -178,11 +178,47 @@ Do not use teal for body text or for decoration outside these roles.
 
 ---
 
+## Interaction clips for cases
+
+Rules set with Manel on 2026-11-19, while making the three Abax clips on the Abacum DS case (`portfolio/public/assets/videos/abax-*`). Sources and renderer: `scripts/video/` (`record.js`, `cursor.js`, one HTML page per clip, a driver for mouse-driven clips). Plan for the remaining cases: TODO "Interaction clips for every case".
+
+### Before building
+
+- Confirm Manel's part and shipped status, and record them in [evidence/experience-facts.md](../evidence/experience-facts.md) before any caption.
+- Rebuild the component in HTML at 1:1 from the Figma values (sizes, colours, type, icon paths). Product UI keeps the product font (Inter for Abacum); everything added for the video (switches, tabs, notes, key caps) uses Plus Jakarta Sans.
+- Make a video-only copy when the source is an approved interactive rebuild; never edit the approved page.
+- Use realistic fake data from the product's domain (a general ledger export, an OPEX table). Counts must agree with what is shown (footer "1-8 of 248" for 8 rows). No real customer or colleague data.
+- Strip anything that does not serve the interaction: empty columns, repeated icons (expanders only where they belong), in-frame titles or labels such as "Rebuilt from my specs".
+
+### Framing
+
+- Tight frame: about 60 px margin around the component at a 780 px wide viewport, no empty band under it.
+- A control in the clip (variant switch, density tabs) sits top right, its right edge aligned with the component's right edge.
+- Clips shown on the same page keep the same chrome size on the page: scale the viewport so the control text renders at the same size (the density clip uses 955 px for the selection clip's 780).
+- No title inside the video. The title or explanation goes in the figcaption.
+
+### Motion and timing
+
+- Pointer: drawn arrow with a short click ring; moves ease in and out (cubic), never jump.
+- A selection box being dragged follows the pointer continuously, then settles on the cell edges at release (140 ms ease-out).
+- Timed notes explain behaviour only: one note per row, aligned with the row it describes, appearing one by one (0.5 s apart), then held at least 3.5 s before the next action removes them.
+- Auto-cycling states hold for equal times (3.5 s) with 0.6 s changes, and the last change ends on the loop point.
+- A cycling clip shows a small teal ring next to the active state that fills until the next change; every option reserves the ring's space so labels never shift.
+
+### Output and placement
+
+- 30 fps, 1920 px wide, even dimensions; MP4 (H.264, CRF 18, faststart), WebM (VP9) and a poster JPG.
+- In the case: `<figure class="case-image case-image--inline case-image--clip">` (hairline border so a white clip shows its edge), `<video loop muted playsinline preload="metadata" poster>` with an `aria-label` written as a task.
+- Caption: one or two sentences, behaviour plus reason, stating only Manel's part (shared work stays accurate without explaining the split). Captions are 14 px, `#6b6b78` (WCAG AA). Run `no-ai-slop` and the humanizer.
+- The page does not say the clips are rebuilds (Manel removed that line, 2026-11-19). In interviews, say they were rebuilt from his Figma specs.
+
+---
+
 ## What not to do
 
 - Do not use blue, purple, or any non-teal accent. The brand hue is HSL 182.
 - Do not mix light and dark backgrounds within a single deck.
-- Do not use Inter or any other font. Plus Jakarta Sans only.
+- Do not use Inter or any other font. Plus Jakarta Sans only (product UI rebuilt inside an interaction clip keeps its own font).
 - Do not add decorative gradients, shadows, or glows. The visual language is flat and typographic.
 - Do not add company logos or external imagery unless explicitly provided.
 - Do not change spacing outside the defined scale.
