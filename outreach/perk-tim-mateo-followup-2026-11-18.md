@@ -1,6 +1,8 @@
 # Perk: follow-up to Tim Archer and Mateo, through Clare Watts
 
-Drafted 2026-11-17. Send by the morning of 2026-11-19. Reply in Clare's "Perk | Video Interview for Manel" thread; there are no direct addresses for Tim or Mateo, don't guess them.
+Do not send as written: Perk rejected the application on 2026-11-18. No send is on record.
+
+Drafted 2026-11-17. Reply in Clare's "Perk | Video Interview for Manel" thread; there are no direct addresses for Tim or Mateo, don't guess them.
 
 Before sending: record the video from interviews/perk/perk-followup-video-script.md, upload it unlisted, and replace [video link]. Check the video plays in a private window.
 

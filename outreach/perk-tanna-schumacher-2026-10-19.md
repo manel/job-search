@@ -63,3 +63,29 @@ Al final sí hubo novedades: el lunes me escribieron de Talent para una primera 
 Imagino que tu referral tuvo algo que ver, así que gracias otra vez.
 
 ¡Un saludo!
+
+---
+
+# 2026-11-18: Outcome and thanks after Perk's rejection. SENT on LinkedIn 2026-11-18 (confirmed by Manel; wording not checked against this draft).
+
+¡Hola Tanna!
+
+Al final llegué a la entrevista con Tim y Mateo, pero hoy me han dicho que no siguen adelante conmigo. Me han dado feedback concreto, y eso se agradece.
+
+Creo que sin tu referral no habría pasado del primer filtro, así que muchas gracias.
+
+Si algún día puedo echarte una mano con algo, me dices.
+
+¡Un saludo!
+
+---
+
+# 2026-11-18, 11:13: Tanna replied on LinkedIn (pasted by Manel). No reply needed.
+
+Manel!
+
+Lo siento, està difícil entrar, yo tuve mucha suerte porque entré por un proyecto de 3 meses hace 7 años y desde dentro luego es más fácil quedarse.
+
+Seguro que nos volvemos a encontrar, este mundo es muy pequeño!
+
+Mucha suerte con tu búsqueda!

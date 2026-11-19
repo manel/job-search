@@ -19,7 +19,11 @@ Record: [applications/records/mapon-senior-product-designer.md](../../applicatio
 
 ## Written: why Mapon, why this role
 
-The role asks for AI assistants and automated workflows in an operational B2B product, and that's what I worked on most recently. At Remuner I was the only product designer, and I designed a conversational AI agent that answered reps' and managers' questions about their commissions and plans. Fleet compliance looks similar from the user's side. A fleet manager gets a number or a warning about a driver's hours and has to decide whether to act on it, usually without time to check how it was calculated. I'd like to work on that in a team with other designers and a shared design system, which is how I worked at Abacum.
+I'd like to join because this role asks for shipping AI assistants, recommendations and automations for fleet operators. The assistant side is similar to what I designed and shipped at Remuner, an AI agent that answered sales reps' and managers' questions about their commissions and plans. Managers could ask about their team, and reps only about themselves, which is close to how Tachogram separates managers and drivers. The agent could also give wrong numbers for clients with custom calculation code, so I understand why you want AI that's easy to correct when it's wrong.
+
+Case: manel-leiva.com/cases/ai-agent
+
+Prep note: the Remuner agent answered questions only. Do not claim recommendations or automations from it. Tachogram's manager and driver access comes from tachogram.com/en/for-businesses, read 2026-11-18.
 
 ## Written: tell us about relevant experience or a project
 
@@ -69,3 +73,23 @@ Thanks for watching. I hope we can talk soon.
 - Say the video answer aloud once. Rewrite any line you trip over.
 - Check the camera, the microphone and the light. Close Slack and email.
 - Start only when you have 25 free minutes, and not right before or after the Fever Mettl test.
+
+## Debrief (completed 2026-11-18)
+
+Source: Manel's account after the task. The prepared drafts covered the AI and experience angles, but the questions recalled below went elsewhere. Exact wording was not kept, and which questions were written is not recorded beyond the video.
+
+| Question | What Manel said | Check against the evidence |
+|---|---|---|
+| Figma proficiency and design systems | Very proficient in Figma and in developing design systems. A lot of experience working in Figma, creating components and using "Atomic Design System". | No figure or system count given. Atomic Design confirmed by Manel 2026-11-18 as the method in all his systems (small components up to larger ones); the files do not use atom or molecule names. |
+| Biggest achievement in an iOS and Android app | Not much experience in native iOS and Android apps, but a lot with web views, mobile and responsive web. Biggest achievement: the checkout process of the Kymco store. | Consistent. Kymco checkout launched and took real orders; lead designer and front-end owner, with Eric Cardona also designing. No conversion figures. Best webview proof: Remuner iOS and Android wrapper apps, summer 2024. |
+| Video: project most proud of | The Abacum design system. No system on arrival, inconsistencies, developers rebuilding the same components. Presented the case with the head of design and got the go-ahead. Used a Maker Days week as a first test: created and deployed tokens and built 5 components, which then improved time for designers building screens and for developers. | Three details differ, listed below. |
+| One more question | Not remembered. | Unknown. |
+
+Corrections for later stages (do not contact Mapon about these):
+
+- Tokens were in production from late 2022. The Abax components came in the October 2023 Maker Days week.
+- That week merged seven components, the Button first. Engineers wrote the code. Manel said 5.
+- No time saving was measured. The measured figure is about 47% of tracked component uses at departure, against an 80% goal.
+- The work was selected for Maker Days and leadership then agreed to continue it. Do not say the all-hands presentation won approval.
+
+Next step, from the JD: practical task, then a video interview with the Hiring Manager and HR of up to 60 minutes. No timing given.

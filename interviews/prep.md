@@ -8,12 +8,12 @@ Start here. Each kind of material lives in one file; briefs in `interviews/[comp
 | [answers.md](answers.md) | Set-piece answers with approved wording: opening intro, why you left Remuner, since March, AI day to day. |
 | [question-bank.md](question-bank.md) | Q1 to Q27 (same numbers as before), each mapped to a story or answered; recurring questions; the enterprise and legacy bank and its gaps. |
 | [playbooks/case-presentation.md](playbooks/case-presentation.md) | Case rounds: story selection, structure, rules for every case deck, the Staff-level signals checklist. |
-| [playbooks/live-challenge.md](playbooks/live-challenge.md) | Live design challenges: vision before scoping, the Dashinsky takeaways, the pre-challenge checklist. |
+| [playbooks/live-challenge.md](playbooks/live-challenge.md) | Live design challenges: how to choose the opening from the brief, the board order, the Dashinsky takeaways, the pre-challenge checklist. |
 | [playbooks/ways-of-working.md](playbooks/ways-of-working.md) | Ways-of-working round themes. |
 | [playbooks/before-the-call.md](playbooks/before-the-call.md) | Pre-interview checklist and questions to ask them. |
 | [decks/](../decks/) | Case deck sources, one per case. |
-| [drills/](drills/) | Case-framing drills. Never open the keys before answering. |
-| [reference/](reference/) | [Business terms](reference/business-terms.md) and the [AI agent feedback cheat sheet](reference/ai-agent-feedback-cheat-sheet.md). |
+| [drills/](drills/) | Case-framing drills and the follow-up question bank. Never open the keys or the bank before answering. |
+| [reference/](reference/) | [Fact card](reference/fact-card.md), [business terms](reference/business-terms.md) and the [AI agent feedback cheat sheet](reference/ai-agent-feedback-cheat-sheet.md). |
 | [archive/](archive/) | Frozen material: the [old prep file](archive/prep-2026-11-12.md), the [battle cards](archive/behavioral-battle-cards-2026-10.md), the Textream scripts and rehearsal transcripts. Don't prepare from it. |
 
 The goal is not to memorize answers. It is to know which story fits which question well enough that you can reach for it without hesitation. The stories repeat. The angle changes.

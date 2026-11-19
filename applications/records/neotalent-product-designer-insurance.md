@@ -2,7 +2,7 @@
 company: Neotalent Conclusion (placement at an insurance client)
 role: Product Designer (GenAI, UX Lead track)
 status: in-progress
-status_verified_on: 2026-11-17
+status_verified_on: 2026-11-18
 status_confidence: confirmed
 posting_status: unknown
 posting_checked_on:
@@ -12,12 +12,12 @@ application_channel: recruiter
 warm_path: none recorded
 portfolio_version: unknown
 applied_on:
-last_contact_on: 2026-11-17
+last_contact_on: 2026-11-18
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Wait for Andrea's call. On the call, get the client name before consent to be presented, the salary range, whether the role has direct reports, and what happens to the contract if the client project ends. If no answer, nudge on LinkedIn.
+next_action: Wait for Andrea's and Araceli's answers. Do not consent to presentation at AXA until the Capitole answer, direct reports and contract terms are known. On the call, confirm that 40-48K is gross annual. If no answer, nudge Andrea on LinkedIn.
 next_action_on: 2026-11-20
-salary_stated:
+salary_stated: EUR 48K (Manel, LinkedIn 2026-11-18), inside the EUR 40-48K range stated by Andrea
 job_url:
 source: LinkedIn InMail from Andrea Pereira Figueira (Senior IT Talent Acquisition, Neotalent Conclusion, Madrid), pasted by Manel 2026-11-17. No public posting located.
 ---
@@ -60,9 +60,9 @@ AI Agent (Remuner): https://www.manel-leiva.com/cases/ai-agent (200 on 2026-11-1
 
 ## Risks
 
-- **Duplicate submission (inference):** Capitole's client is also an international insurance company in Barcelona with GenAI work and 2 office days. If it is the same client, a second presentation through another consultancy can harm both. Ask Andrea for the client name before consent to submit.
+- **Duplicate submission (inference):** Neotalent's client is AXA (Andrea, 2026-11-18). Capitole's client is an undisclosed international insurance company in Barcelona with GenAI work and 2 office days, so it may also be AXA. Capitole's sending ended 2026-11-13, before Manel accepted its salary, so he was probably not sent (inference). Confirm with Araceli before consent to submit.
 - **Management drift:** the lead track can turn into people management. Ask what the first year looks like.
-- **Pay:** consultancy band, likely 40-50K. Floor is EUR 40K (context/salary.md).
+- **Pay:** EUR 40-48K stated by Andrea 2026-11-18 (gross annual assumed, not confirmed). Floor is EUR 40K (context/salary.md).
 - **Employer is the consultancy:** "contrato indefinido con Neotalent Conclusion". Ask what happens if the client project ends.
 
 ## Warm path
@@ -73,3 +73,5 @@ None recorded. The recruiter made first contact.
 
 - 2026-11-17: InMail received from Andrea Pereira Figueira, Neotalent Conclusion, for a Product Designer at an insurance-sector client: Barcelona Zona Franca, 2 office days, permanent contract with Neotalent. She asks about interest, English level, e-commerce experience, salary expectation and a time to call. Assessed: proceed, at recruiter-call cost. Source: message pasted by Manel.
 - 2026-11-17: Manel replied on LinkedIn (text in outreach/neotalent-andrea-pereira-reply-2026-11-17.md): interested, English C1, experience in e-commerce and GenAI products. Asked for the salary range before giving a figure and for the client name (to avoid a double submission with Capitole). Gave availability and phone number. No figure stated. Source: Manel confirmed sent.
+- 2026-11-18 11:30: Andrea replied on LinkedIn: salary "va de 40K-48K", asks if it fits; the client is AXA. Source: message pasted by Manel.
+- 2026-11-18: Manel replied on LinkedIn (outreach/neotalent-andrea-pereira-reply-2026-11-18.md): accepts the range, states 48K, asks about direct reports and the contract if the project ends. He also asked Araceli at Capitole whether his profile went to her client (outreach/capitole-araceli-massieu-check-2026-11-18.md). Source: Manel confirmed "enviado"; read as covering both messages.

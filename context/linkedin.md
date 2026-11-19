@@ -111,4 +111,5 @@ Date grouping fixed on the live profile 2026-06-12.
 - [ ] KOM dates fixed
 - [ ] No banned vocabulary anywhere (check "optimization", "scalable", "seamless")
 - [ ] Saved resumes (Settings > Resumes and application data) hold only the current base CV, with "Share resume data with hirers" on. Cleaned 2026-11-14: four older files deleted (tailored iLovePDF, July 2026, two from 2021), base CV of 2026-11-14 kept. Replace the file after each base CV re-export; never leave a tailored CV there
+- [x] Licenses & certifications lists each certificate once: Claude Code in Action (ID 4afnd2z5cy9g) and Claude 101. Duplicate Claude Code in Action entry removed by Manel 2026-11-18
 - [ ] Open to Work enabled for recruiters only, listing: Senior Product Designer, Staff Product Designer (LinkedIn's title list doesn't offer Lead Product Designer or Design Systems Designer)

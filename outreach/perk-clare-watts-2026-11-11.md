@@ -13,6 +13,21 @@ Thanks for setting this up. Tuesday 17 November at 10:00 works for me, and I've 
 Best,
 Manel
 
+## Thank-you after the rejection (sent 2026-11-18, confirmed by Manel; wording not checked against this draft)
+
+Reply in the "Perk | Update" thread.
+
+Hi Clare,
+
+Thanks for letting me know so quickly, and for the detailed feedback. Visual craft and tying adoption to user and business value are the two I'll work on first.
+
+Please thank Tim and Mateo for me. I enjoyed hearing how they see Suitcase.
+
+I'd be glad to stay in touch.
+
+Best,
+Manel
+
 ## Nudge (drafted 2026-11-11, not sent: the invite arrived the same evening)
 
 Hi Clare,

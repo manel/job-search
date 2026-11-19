@@ -12,7 +12,7 @@ application_channel: recruiter
 warm_path: none recorded
 portfolio_version: unknown
 applied_on:
-last_contact_on: 2026-11-16
+last_contact_on: 2026-11-18
 outcome_stage: recruiter-screen
 rejection_reason_class: none
 next_action: Wait for Araceli. The vacancy is paused until the client answers on the candidates Capitole already sent. EUR 40K is already accepted. If she reopens it, get answers to the two open questions (contract type, office for the 2 days) before the Capitole interview. If nothing by 4 Dec, set stale.
@@ -79,3 +79,4 @@ None recorded. The recruiter made first contact.
 - 2026-11-13: Process confirmed by Manel: next a Capitole interview to explain the project, then an interview with the client. The salary answer on Mon 16 Nov gates the next stage.
 - 2026-11-16 12:13: Manel's WhatsApp to Araceli: accepts EUR 40K gross annual and wants to continue. Asks two questions before the next interview: contract type (permanent or project) and whether the 2 office days are at Capitole or at the client. Source: message text pasted by Manel.
 - 2026-11-16 13:40: WhatsApp voice note from Araceli Massieu: the vacancy is paused. Capitole finished sending candidates to the client on Fri 13 Nov and reached its maximum number; the process cannot move until the client answers. She will tell Manel if it reopens. She did not answer the two questions. Inference: Manel was not among the candidates sent, because the sending ended on 13 Nov, before his salary answer. Status set to `deferred`. Source: voice note transcribed by Manel with FluidVoice.
+- 2026-11-18: Manel asked Araceli on WhatsApp whether his profile went to the client, because another insurance proposal arrived (Neotalent, client AXA; AXA not named to her). Text in outreach/capitole-araceli-massieu-check-2026-11-18.md. Source: Manel confirmed "enviado"; read as covering both messages.

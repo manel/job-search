@@ -48,3 +48,4 @@ The role was considered a reasonable fit despite Bunge being an agribusiness rat
 - 2026-09-14: Manel confirmed there had been no response; application marked stale.
 - 2026-09-22: Bunge candidate portal showed “Your Candidate Profile is being considered”; application restored to the active pipeline.
 - 2026-11-07: Manel confirmed the role is closed. Status changed from applied to role-closed. No employer response was ever received; source and closure date of the vacancy not recorded.
+- 2026-11-19: Candidate-portal screenshot supplied by Manel shows "Requisition Closed (ext)" dated 11/03/2026. Read as 2026-11-03 (US date format; 11 March 2026 predates the application). No further action.

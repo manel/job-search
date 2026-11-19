@@ -1,23 +1,23 @@
 ---
 company: Fluidra
-role: Senior Design System Designer (repost)
-status: in-progress
-status_verified_on: 2026-11-10
+role: Global Design System Lead (posted 2026-11-09 as Senior Design System Designer)
+status: applied
+status_verified_on: 2026-11-18
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-11-11
-fit_decision: proceed
+posting_checked_on: 2026-11-18
+fit_decision: proceed (light effort; Manel accepts up to one direct report, 2026-11-18)
 role_lane: design-systems
 application_channel: direct
 warm_path: none
 portfolio_version:
-applied_on:
+applied_on: 2026-11-18
 last_contact_on:
-outcome_stage: not-submitted
+outcome_stage: no-response
 rejection_reason_class: none
-next_action: Refresh the July DS CV source against the current evidence register (save as cv/roles/fluidra-senior-design-systems-designer-2026-11.md), then apply through the Fluidra careers site, not LinkedIn Easy Apply. No cover letter unless the form asks. Check context/salary.md before any salary field.
-next_action_on: 2026-11-12
-salary_stated:
+next_action: Nudge if silent. LinkedIn outreach to a Regional Product Design Lead or the design head 2026-12-09, stale 2026-12-23. At first contact ask the range and whether the designer reports to this role.
+next_action_on: 2026-12-02
+salary_stated: Not asked; employer range unknown
 job_url: https://jobs.fluidra.com/job/Sant-Cugat-del-Valles-Senior-Design-System-Designer-B/1290-es_ES/?feedId=435455
 source: Official Fluidra careers page, read 2026-11-10 (published 9 Nov 2026, job ID 1290)
 ---
@@ -54,3 +54,6 @@ Same role and near-identical JD to the one Manel applied to via LinkedIn Easy Ap
 
 - 2026-11-10: Repost found on the official careers site (published 9 Nov). Assessed: proceed, light effort.
 - 2026-11-11: Liveness check uncertain (Fluidra careers site); Manel confirmed it open in a browser.
+- 2026-11-18: Posting live at the same URL (job 1290) but changed: the title is now Global Design System Lead. It says "This is a hands-on role leading a small team" and "Lead and mentor a design system designer". The 2026-11-10 scope read (Senior IC, no reports) no longer holds. It also lists working knowledge of a component-based UI framework (Flutter preferred). Reassessment needed before any CV work.
+- 2026-11-18: Reassessed with Manel against the current posting. Leading one designer may mean a direct report (not stated); Manel accepts that for this role. Unmet: iOS and Android design systems, working knowledge of a component-based UI framework (no Flutter evidence recorded). AI-assisted design-to-code is now a requirement and is supported by the Figma MCP evidence; Code Connect is not claimed. Decision stays proceed, light effort. CV source written at cv/roles/fluidra-senior-design-systems-designer-2026-11.md and Figma column "fluidra 2026-11" built (p1 2526:70, p2 2526:98). Not exported, not sent.
+- 2026-11-18: Submission confirmed by Manel through the Fluidra careers site (job 1290, Global Design System Lead). CV from cv-pdf-to-send/Fluidra (2026-11)/ (check-pdf-text --source: OK), no cover letter, no salary field. Form also listed 15 years of experience, English and Spanish at the top level (Fluido), and the Claude Code in Action certificate (Anthropic, 2026-09-21, ID 4afnd2z5cy9g). Profile visibility and the exact uploaded file are as Manel reported. Nudge 2026-12-02, LinkedIn 2026-12-09, stale 2026-12-23.

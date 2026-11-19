@@ -15,8 +15,8 @@ applied_on: 2026-09-28
 last_contact_on:
 outcome_stage: no-response
 rejection_reason_class: none
-next_action: Await employer response; clarify starting scope, compensation and progression criteria in a first conversation
-next_action_on:
+next_action: Keep open (Manel 2026-11-19). Check the posting; if it has closed, mark role-closed
+next_action_on: 2026-12-03
 salary_stated: Submitted expectation unconfirmed; published primary-location annual salary range EUR 56,200–84,400 checked 2026-09-28, package composition unconfirmed
 job_url: https://stripe.com/careers/listing/product-designer-design-systems/7983076
 source: Official Stripe posting and linked Greenhouse form checked 2026-09-28; Career OS strategy and evidence; live portfolio cases
@@ -74,3 +74,4 @@ The linked Greenhouse form is live and requires a portfolio, education fields, c
 - 2026-10-13: Recorded Manel's confirmation of the 2026-09-28 submission; status changed to applied. No employer response recorded. Posting availability not rechecked.
 - 2026-10-19: A second Stripe role is being prepared: Product Designer, Global ([stripe-product-designer-global.md](stripe-product-designer-global.md)). Keep salary and story consistent across both.
 - 2026-11-14: Posting still live (check-postings.py). 47 days silent, past the 5-week stale line; no hiring-manager outreach. People search for a nudge: Owen Williams (Design Manager, Developer Experience and AI; built ProtoDash on Sail) is not on the design systems team, so he is a weak target. Mutual connection: Mike Wilson, Product Designer at Stripe, 1st-degree but no prior contact. Manel messaged him on LinkedIn on 2026-09-28 (applying for the Sail role, asked how he found working at Stripe); no reply as of 2026-11-14. Tayler Aitken is a Product Design Manager on the Dashboard team (Sail's main consumer), also not on the design systems team. Manel decided 2026-11-14: no follow-up to Mike Wilson (no prior relationship). Open: mark stale now or keep until a better contact appears.
+- 2026-11-19: Manel decided to keep the application open, not stale. No nudge. Posting check set for 2026-12-03.

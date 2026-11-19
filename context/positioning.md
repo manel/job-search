@@ -17,7 +17,7 @@ Lead each CV role with this scope, then choose the evidence most relevant to the
 
 - Complex financial and compensation workflows at Abacum and Remuner.
 - Product architecture and self-serve configuration, especially Dataset Manager and formula-language work.
-- Two production design systems, including design-token and implementation-pipeline work.
+- Several design systems across his career, most recently at Abacum and Remuner, including design-token and implementation-pipeline work. Never state a count of systems (Manel, 2026-11-18).
 - Shipped AI product work, including conversation design, capability boundaries, answer formats, and trust patterns.
 
 ## Role-specific lead
@@ -29,7 +29,7 @@ Lead each CV role with this scope, then choose the evidence most relevant to the
 | Design systems | Remuner and Abacum systems, governance, token pipeline | Product architecture and engineering partnership |
 | Staff or Lead IC | Abacum business-case and roadmap work; Remuner product/infrastructure prioritisation | Systems-level decisions and cross-functional delivery |
 | Fintech or trading | Modeling language and Dataset Manager (financial modeling) | Hands-on crypto use as a user (wallets, exchange); not trading or crypto product-design expertise |
-| Founding or early-stage | Breadth: sole designer at Remuner across the platform, two design systems, co-founder of the Kings of Mambo studio | Moving from zero to production without design infrastructure |
+| Founding or early-stage | Breadth: sole designer at Remuner across the platform, several design systems, co-founder of the Kings of Mambo studio | Moving from zero to production without design infrastructure |
 
 ## Target hiring manager
 

@@ -7,7 +7,8 @@
 - Preserve current approved copy unless the task is explicitly a rewrite.
 - A cover letter should be short, role-specific, and grounded in the fit assessment.
 - Use a warm, simple greeting and natural motivation in cover letters and outreach. Preserve Manel's edited wording; avoid literal translations that sound unnatural in Spanish.
-- For design-system roles, lead with building and maintaining systems, cross-squad scope and ongoing stewardship. A count of systems built is supporting evidence, not the whole seniority argument.
+- For design-system roles, lead with building and maintaining systems, cross-squad scope and ongoing stewardship.
+- Never write "two production design systems" or any count of systems. Use the general form: "Through my career I've worked on several design systems, most recently at Abacum and Remuner." This line may name the companies (Manel, 2026-11-18). Sent material stays as sent.
 - Avoid unsupported chronology such as “before moving into SaaS” for Kings of Mambo or unnecessary “recent” qualifiers. Its broader product scope is documented in the evidence register.
 
 ## Tailored CV format

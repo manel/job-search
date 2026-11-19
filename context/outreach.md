@@ -43,7 +43,7 @@ When an application has had no response for ~3 weeks (see follow-up policy in [a
 
 The message, short:
 - Applied for [role] on [date], still interested
-- One concrete line connecting my strongest relevant signal to their product (DS roles: two production design systems and the token pipeline; product roles: the Abacum data-layer work). One line, not a pitch.
+- One concrete line connecting my strongest relevant signal to their product (DS roles: several design systems, most recently at Abacum and Remuner, and the token pipeline; product roles: the Abacum data-layer work). One line, not a pitch.
 - Ask: "happy to share more if useful"
 
 Do not apologize for reaching out. Do not write more than five sentences. Do not attach anything; link the portfolio.

@@ -1,10 +1,10 @@
 ---
 company: iLovePDF
 role: Mid-Senior Product Designer (UI focus)
-status: applied
-status_verified_on: 2026-11-11
+status: rejected
+status_verified_on: 2026-11-19
 status_confidence: confirmed
-posting_status: open
+posting_status: unknown
 posting_checked_on: 2026-11-11
 fit_decision: proceed
 role_lane: product
@@ -12,11 +12,11 @@ application_channel: direct # LinkedIn Easy Apply
 warm_path: none recorded
 portfolio_version: 2026-11-11 (live site; Design Systems case)
 applied_on: 2026-11-11
-last_contact_on:
-outcome_stage: no-response
-rejection_reason_class: none
-next_action: Status nudge via LinkedIn to the job poster or iLovePDF recruiter if no response. At ~3 weeks (2026-12-02) find the design lead on LinkedIn (context/outreach.md); stale at 5 weeks (2026-12-16). Ask level and range at first contact.
-next_action_on: 2026-11-25
+last_contact_on: 2026-11-19
+outcome_stage: cv-review
+rejection_reason_class: generic
+next_action: none. Template rejection, no chase.
+next_action_on:
 salary_stated: EUR 53,000 gross annual (form field "salary expectations", confirmed by Manel 2026-11-11); no range in the posting
 job_url: https://www.linkedin.com/jobs/view/4470839365/
 source: JD text pasted by Manel from LinkedIn job 4470839365 on 2026-10-19. No official careers page or ATS posting found (ilovepdf.com careers paths 404; no Ashby, Greenhouse, Lever, Workable, Personio or Recruitee board; web search found only an earlier, inactive Product Designer (Design System) listing on studentjob.es)
@@ -64,3 +64,4 @@ None in `applications/records/` or [applications/archive-2026-07.md](../archive-
 - 2026-11-11: Figma layout built in "CV / Manel Leiva", column "ilovepdf" (CV p1 2491:322, p2 2491:350).
 - 2026-11-11: Applied via LinkedIn, confirmed by Manel. Sent: CV (cv-pdf-to-send/Ilovepdf/), no cover letter. The form asked salary expectations (gross annual); 52K was recommended, what Manel entered is unconfirmed. Nudge 2026-11-25, LinkedIn 2026-12-02, stale 2026-12-16.
 - 2026-11-11: Salary stated on the form: EUR 53,000 gross annual (confirmed by Manel).
+- 2026-11-19: Rejected by LinkedIn template message ("Your update from iLovePDF"), eight days after applying. Generic reason, no feedback offered. EUR 53,000 stated; salary not cited. Reason unknown; overqualification for a mid-senior bar is possible (inference). No chase.

@@ -38,6 +38,7 @@ The role was considered a relevant B2B SaaS opportunity. The detailed fit assess
 
 ## History
 
+- 2026-11-19: Manel confirmed Ingrid has not replied to the 2026-11-12 follow-up. Plan unchanged: posting check and stale on 2026-11-26.
 - 2026-11-12: Manel sent a follow-up email to Ingrid asking how the process is going and saying he is still interested and available ([sent text](../../outreach/haddock-ingrid-follow-up-2026-11-12.md)). Whether the 2026-10-12 reply draft was ever sent is still unconfirmed. Next check 2026-11-26; with no reply by then, mark stale.
 - 2026-10-12: Recorded Ingrid's 2026-10-09, 16:24 email supplied by Manel. It confirms the 2026-10-08 conversation and places Manel on hold while Haddock advances with other candidates. Reconsideration is conditional on those candidates not fitting. Ingrid announced two weeks away from “la semana del 16”; exact dates and next response timing are unconfirmed. Reply drafted, not confirmed sent; internal review set for 2026-11-03.
 

@@ -1,22 +1,22 @@
 ---
 company: Perk (formerly TravelPerk)
 role: Senior Design Systems Designer
-status: interviewing
-status_verified_on: 2026-11-17
+status: rejected
+status_verified_on: 2026-11-18
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-11-05
+posting_checked_on: 2026-11-18
 fit_decision: proceed
 role_lane: design-systems
 application_channel: referral
 warm_path: Tanna Schumacher, Product Designer at Perk; Manel's former student (LABASAD Sketch course, around 2018), 1st-degree LinkedIn connection; replied 2026-10-23 (refers only if not yet applied); told of the 21 Oct application and sent the CV 2026-10-24; named as the connection on the form; 2026-10-25 said she will ask internally on Mon 26 Oct and that she had been covering this position herself; submitted the referral in Ashby 2026-10-26. Tim Archer, Senior Content Design Manager at Perk, 2nd-degree, posted the role on LinkedIn 2026-10-20. Xavi Francisco left Perk around 2026-09-28
 portfolio_version: Design Systems case (manel-leiva.com/cases/design-systems)
 applied_on: 2026-10-21
-last_contact_on: 2026-11-17
-outcome_stage: hiring-manager-interview
-rejection_reason_class: none
-next_action: Wait for the hiring team after the 17 Nov Hiring Manager Interview. If nothing by 24 Nov, short check-in to Clare. Meanwhile confirm the four new claims in the debrief (tables, motion, junior 1:1s, Figma-and-code parity) and decide whether to prepare a visual or motion example before the onsite.
-next_action_on: 2026-11-24
+last_contact_on: 2026-11-18
+outcome_stage: design-interview
+rejection_reason_class: specific
+next_action: None required. When the visual piece is public, send Tim and Clare one short message with the link. Any new Perk role goes through Tanna first. The drafted follow-up to Tim and Mateo is not to be sent as written. Improvement list from the feedback is in TODO.md, "Design-systems lane review".
+next_action_on: 2026-11-18
 salary_stated: EUR 65,000 gross annual base (form field, 2026-10-21; restated in the TA call 2026-11-05, when Clare said the level is "probably closer to seventy" plus benefits and stock options)
 job_url: https://jobs.ashbyhq.com/Perk/78dafbf1-0f6d-46b7-b71a-2c59f7af31cf
 source: Perk Ashby job board API, fetched 2026-10-19 (published 2026-10-15; London, with Barcelona as a secondary location; hybrid, three days in office)
@@ -124,3 +124,7 @@ Senior, with lead-IC system ownership: set direction, own the roadmap, report pr
 - 2026-11-11: Calendar invite accepted and confirmation reply sent to Clare (text in [outreach/perk-clare-watts-2026-11-11.md](../../outreach/perk-clare-watts-2026-11-11.md)). Source: Manel confirmed.
 - 2026-11-12: Round 2 brief refreshed for Tim ([interviews/perk/perk.md](../../interviews/perk/perk.md)): Perk research from Clare's prep links (values, platform, Entry Ready, Perk MCP, Audi Revolut F1), weighting toward naming and content in the system, the 12 Nov register corrections (Maker Days October 2023, Figma script run by Manel). The Builders "design thinking behind Perk" post returned 403; Manel to read it in a browser.
 - 2026-11-17: Hiring Manager Interview held, 10:00 to 11:03, with Tim Archer and Mateo (product designer on Travel, former Suitcase contributor). Portfolio review of the Abacum deck. Tim set out the role as two halves: governance and adoption, and visual craft to make Suitcase "consumer grade". He asked for a visual or motion example in the portfolio; Manel had none to show. Learned: no structured adoption measurement, contribution depends on who pushes, poor accessibility across components, one full-time engineer agreed from January 2027, content tokens not built yet. Salary not raised. Close: "hiring team will be in touch with next steps", no timing. Slips against the register: 45% (is 47%), library sync July 2024 (is July 2022), Storybook template placed in the October week, Remuner 8 of 18 (is 10 of 18). Debrief in [interviews/perk/perk.md](../../interviews/perk/perk.md). Source: transcript pasted by Manel.
+- 2026-11-18: Rejected. Clare Watts emailed at 10:36, subject "Perk | Update", the day after the Hiring Manager Interview. Strengths named: token architecture, "precise and consistent under questioning"; "use of detach data to shape components"; "understanding why a component goes unused before turning to enforcement". Reasons named: (1) "strong visual craft to raise the quality of the system", with a wish for "further examples of your visual design work"; (2) "adoption to be tied to user and business value"; (3) "deeper, current examples of using AI to run and scale a design system across a much larger design team". Rejection reason class: specific. Salary not cited. She closed with "We would be glad to stay in touch". Both postings (London `78dafbf1`, Barcelona `3ec33996`) still listed on the Ashby API on 2026-11-18. No send of the follow-up to Tim and Mateo is on record. Source: email pasted by Manel.
+- 2026-11-18: Thank-you to Clare drafted ([outreach/perk-clare-watts-2026-11-11.md](../../outreach/perk-clare-watts-2026-11-11.md)) and outcome note to Tanna drafted ([outreach/perk-tanna-schumacher-2026-10-19.md](../../outreach/perk-tanna-schumacher-2026-10-19.md)). Neither sent yet.
+- 2026-11-18: Manel confirmed both messages sent: the thank-you to Clare by email and the note to Tanna on LinkedIn. Exact sent wording not checked against the drafts. He also sent a LinkedIn connection request; recipient not stated. Source: Manel.
+- 2026-11-18: Manel confirmed the LinkedIn connection requests went to both Clare Watts and Tim Archer; acceptance not recorded. Tanna replied on LinkedIn at 11:13: sorry, it is hard to get in; she joined seven years ago on a three-month project and stayed; "Seguro que nos volvemos a encontrar, este mundo es muy pequeño!"; wished him luck. No reply needed. Source: message pasted by Manel.

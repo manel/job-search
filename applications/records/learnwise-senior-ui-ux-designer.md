@@ -2,21 +2,21 @@
 company: LearnWise
 role: Senior UI/UX Designer
 status: applied
-status_verified_on: 2026-10-19
+status_verified_on: 2026-11-18
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-11-10
+posting_checked_on: 2026-11-18
 fit_decision: proceed
 role_lane: ai-product
 application_channel: direct
-warm_path: "None. Cold contact: Toshiro Polak, Head of Product (3rd degree), connection note sent 2026-11-10; fallback Angelo Garcia (2nd degree)"
+warm_path: "None. Cold contact: Toshiro Polak, Head of Product (3rd degree), connection note sent 2026-11-10, no acceptance or reply by 2026-11-18; Angelo Garcia (2nd degree) not contacted"
 portfolio_version: live site 2026-10-19
 applied_on: 2026-10-19
-last_contact_on: 2026-11-10
+last_contact_on: 2026-11-18
 outcome_stage: no-response
 rejection_reason_class: none
-next_action: Check whether Toshiro Polak (Head of Product) accepted the 10 Nov connection request or replied. If not, connection note to Angelo Garcia (Product @ LearnWise, 2nd degree; title unverified). Stale 2026-11-23. Prepare mentoring example and showable AI-tool workflow examples before a first interview
-next_action_on: 2026-11-17
+next_action: Check for a reply to the 18 Nov email to join@learnwise.ai. If silent, mark stale. If they reply, prepare the mentoring example and showable AI-tool workflow examples before a first interview
+next_action_on: 2026-11-23
 salary_stated: EUR 62,000 gross annual (stated on the form 2026-10-19). Employer range EUR 55,000-65,000 published
 job_url: https://join.learnwise.ai/senior-ui-ux-designer
 source: Official LearnWise careers page fetched 2026-10-19 (posted 2026-10-16, apply form live)
@@ -75,3 +75,4 @@ None in `applications/records/` or [applications/archive-2026-07.md](../archive-
 - 2026-10-19: CV and cover letter prepared. Lead: Remuner AI agent; support: Remuner design system from scratch, Dataset Manager, mentoring.
 - 2026-10-19: Applied via the LearnWise careers form (Manel confirmed). Form answers: years of SaaS/B2B UI/UX experience 10 (Abacum and Remuner about 4, plus B2B client products at Kings of Mambo; CV says 15 years of complex B2B products, so explain the difference if asked); portfolio with 3+ end-to-end cases Yes; owned or maintained a production design system Yes; user interviews and findings in English Yes; AI tools in product work Yes. Salary EUR 62,000. CV summary revised before sending (research-to-release line, case link as third summary line). Follow-up: nudge 2026-11-02, LinkedIn 2026-11-09, stale 2026-11-23.
 - 2026-11-10: Posting checked open (page live and listed on join.learnwise.ai). No nudge was sent at 10 business days. LinkedIn step: Toshiro Polak, Head of Product at LearnWise AI (Amsterdam, 3rd degree; title confirmed from his profile), the closest visible match to the CPO the role works with (inference). Messaging needed InMail, so Manel sent a connection request with a note asking whether the role is still open and whether he is the right person to ask ([note](../../outreach/learnwise-toshiro-polak-2026-11-10.md)). Check 17 Nov; fallback Angelo Garcia. Stale 23 Nov.
+- 2026-11-18: Toshiro Polak had not accepted or replied (Manel). LinkedIn did not let Manel add a note to a connection request for Angelo Garcia, so no request went out. Manel emailed join@learnwise.ai instead, asking whether the role is open and the application reviewed ([email](../../outreach/learnwise-talent-team-2026-11-18.md)). Posting page live. Stale 2026-11-23 if silent.

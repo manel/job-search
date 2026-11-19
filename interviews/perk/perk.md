@@ -393,3 +393,11 @@ Likely enough to advance, not secured. The deciding gap is visual craft, which T
 
 ### Next step
 Tim: "hiring team will be in touch with next steps." No timing given. Clare said earlier that an onsite comes later in the process.
+
+## Outcome: rejected (Wed 2026-11-18)
+
+Clare Watts emailed at 10:36, the day after the round. Full wording of the reasons is in the [record](../../applications/records/perk-senior-design-systems-designer.md).
+
+- **Praised:** token architecture under questioning; detach data used to shape components; asking why a component goes unused before enforcing.
+- **Missing:** visual craft examples; adoption tied to user and business value; deeper, current examples of AI used to run and scale a system across a much larger team.
+- **Against the assessment above:** "likely enough to advance" was wrong. Visual craft, which we flagged as the biggest risk, was the first reason they named. They praised the why-first approach to enforcement, so keep that order and use the ladder as support.

@@ -10,6 +10,26 @@ Related material:
 - Worked examples from past rounds: the Alan one-page board sheet, [alan/live-case-cheatsheet.md](../alan/live-case-cheatsheet.md), and the Factorial core-loop scoping method, [factorial/factorial-mvp-scoping-method.md](../factorial/factorial-mvp-scoping-method.md).
 - Lead with the user journey and what the user sees; business impact gets one line and one signal.
 
+## Choose the opening from the brief (2026-11-18)
+
+Factorial asked for more vision. At Alan, the problem statement then came from the vision paragraph and missed the data in the brief.
+
+- **The brief gives a task and data (Alan):** the task and the data define the problem. Start at step 1 below.
+- **The brief gives only a domain (Factorial, build from zero):** you define the product. Start at step 5, then return to steps 1 to 4 with stated assumptions.
+
+Put each step on the board:
+
+1. **Task:** what they asked for.
+2. **Signal:** the number or break point in the brief.
+3. **Problem:** a statement that quotes the signal.
+4. **Risks:** two or three user challenges that could break the flow.
+5. **Direction:** one sentence on what the product should become.
+6. **One flow:** the part that attacks the signal.
+7. **Metric:** baseline, target and one guardrail.
+8. **Beyond the MVP:** what comes next, and why.
+
+State your time plan at the start, and check it at each step.
+
 ## The gap the Factorial challenge exposed (2026-07-02)
 
 The prep for that round emphasized scoping down, naming what you're not building, and validating before adding complexity. That is correct execution discipline. It is not sufficient on its own.
@@ -18,7 +38,7 @@ What the panel needed — and didn't see — was a vision of what the product ne
 
 The failure mode: presenting a careful, validated, minimal solution when they wanted to see what you'd build if you were right. "Validation thinking" reads as conservative and junior. "Vision thinking" reads as Staff.
 
-**The corrected approach for any "build from zero" challenge:**
+**The corrected approach for a "build from zero" challenge with no data in the brief:**
 
 **Step 0 — Vision before scoping (5 min)**
 
@@ -42,7 +62,8 @@ That structure shows product thinking before craft. It also makes the scoping de
 
 - Scoping down without first showing you understand the full scope. Scope decisions only read as judgment if it's clear you could have built more and chose not to.
 - "We should validate first before adding automation" in a challenge context. That framing is correct in production. In a challenge it signals you don't know what the product should eventually be.
-- Treating the brief as the problem definition. The brief gives you a domain. You define the product.
+- Framing the problem from the company vision when the brief gives a task and data. The vision is background.
+- Stopping at the brief when it gives only a domain. In that case, you define the product.
 
 ## Takeaways from Dashinsky, *Solving Product Design Exercises* (2018), read 2026-10-14
 
@@ -65,8 +86,8 @@ External source; the author ran design hiring at WeWork. The book is aimed at en
 
 ## Pre-challenge checklist
 
-1. Write the vision answer before opening any design tool
-2. Make the vision visible on a labeled Figma page — the panel will read it
-3. When presenting in hour 2: state the vision before the scoping. The scoping is a response to the vision, not a substitute for it.
+1. Decide the opening: does the brief give data, or only a domain?
+2. Make the direction visible on a labeled Figma page, because the panel will read it.
+3. When presenting, connect the scope to the direction. With data in the brief, start from the signal. With no data, start from the vision.
 4. Put the discovery structure on the board in the first minutes (task, signal, problem statement, metric) and check that the problem statement cites the number or break point the brief gave you.
 5. Name the two or three user challenges that could break the flow before drawing anything.

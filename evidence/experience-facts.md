@@ -75,6 +75,14 @@ This is the evidence register, not finished application copy. Each material clai
 - **Verified:** Direct account captured 2026-09-10; transcript checked 2026-10-13.
 - **External-use boundary:** Supports these uses only. The assistant's additional descriptions of routines, safe testing and progress reflection were draft elaborations, not separately confirmed practices.
 
+## Certifications
+
+- **Claim:** Manel holds two Anthropic certificates: Claude Code in Action (issued September 2026, credential ID 4afnd2z5cy9g) and Claude 101 (issued July 2026).
+- **Class:** Confirmed direct user statement.
+- **Source:** Screenshot of the Licenses & certifications section of Manel's LinkedIn profile, supplied 2026-11-18. The credential pages were not opened.
+- **Verified:** 2026-11-18.
+- **External-use boundary:** Name them as course certificates with their issuer and date, in application form certification fields, LinkedIn or a skills line. They support training in these tools; they do not prove production results. Fluidra's form (2026-11-18) gives the Claude Code in Action date as 2026-09-21.
+
 ## Cross-career teaching and mentoring
 
 - **Claim:** Manel has mentored other designers throughout his career.
@@ -93,6 +101,11 @@ This is the evidence register, not finished application copy. Each material clai
 - **Source:** Manel's statement on 2026-10-19 while preparing the Perk referral ask.
 - **Verified:** 2026-10-19.
 - **External-use boundary:** Supports naming LABASAD and Sketch as a teaching example. Do not state exact years, cohort size or course level.
+- **Claim (LABASAD 2021, artifact):** Manel taught the subject "Herramientas de Diseño Digital: Sketch y Figma" (code 7MDW) in LABASAD's "Máster Online en Diseño Web y App: UX/UI", October 2021 cohort. His session was on Tuesday 30 November 2021. Tania López, now a design-systems product designer, was a student in that cohort.
+- **Class:** Confirmed artifact: email from LABASAD (Marjorie Domingo) to Manel, 2021-11-22 13:08 ("Ya tienes la asignatura lista para el martes 30 de noviembre"), and the cohort's student slide, both as screenshots supplied by Manel on 2026-11-19.
+- **Source:** Screenshots supplied by Manel during the iLovePDF assessment, 2026-11-19.
+- **Verified:** 2026-11-19.
+- **External-use boundary:** Claimable: taught Sketch and Figma in LABASAD's online UX/UI master's programme in 2021. This dates one engagement; the "around 2018" Sketch course above is a separate recollection, not corrected by it. The programme is called a "Máster" by the school; still do not claim postgraduate-level teaching (see "Course level" below). Number of sessions, other cohorts and learner outcomes are not recorded.
 
 - **Course level:** The July 2026 CV base said "postgraduate level". On 2026-10-14 Manel said he believes it was not postgraduate but does not recall clearly. Do not claim postgraduate teaching.
 - **Placement:** Manel removed a separate teaching entry from LinkedIn because, placed between Kings of Mambo and Abacum, it made his experience read as roughly four years. Mention teaching inside the Kings of Mambo entry or as a skill, not as its own experience entry.
@@ -297,6 +310,7 @@ This is the evidence register, not finished application copy. Each material clai
 - **Source:** Manel's direct clarification in the Tabby application chat: "Yes, at Remuner they could activate different modules and also setup permission and give different access".
 - **Verified:** 2026-09-29.
 - **External-use boundary:** Describe the context as a multi-module B2B platform. This does not establish separately marketed products, merchant KYC experience, or detailed personal ownership of every activation/access flow. Confirm those specifics before making more granular claims.
+- **Addition (Manel, 2026-11-19): roles and permissions design.** Manel recalls working on the Remuner roles and permissions model: the capabilities, their names, the errors, the permissions and the full flow design. He also points to the HR compliance project as similar work with several user roles. Raised during the Axpe Consulting API-role assessment. Class: Confirmed direct user statement (Recollection), corroborated in part by the "Roles & permissions" Figma page and the HR documents files (line 285 above). Boundary: this supports designing a role and capability model, its naming, its error states and its flows. It does not yet establish API definition: whether the capabilities were exposed as API scopes or endpoints, whether engineering used Manel's names in code, and whether "errors" means UI messages or API error codes are not recorded. Ask before claiming API design. The HR compliance project's scope, roles and Manel's part are not recorded.
 
 ### Conversational AI agent
 
@@ -353,6 +367,12 @@ This is the evidence register, not finished application copy. Each material clai
 - **External-use boundary:** Describe these as interactive, user-testable prototypes. Do not imply that they were production features, connected to live product data or infrastructure, or themselves shipped. Do not place them before development or production either ("before they reached production", "antes de pasar a desarrollo"): the sequence is not recorded. Say "separate from the production application" (wording caught twice in drafts on 2026-11-11). The specific AI tools used for these prototypes and individual prototype outcomes are not recorded in this confirmation.
 
 ### Design system and token pipeline
+
+- **Claim (composition method):** Manel builds all his design systems with the Atomic Design approach: smaller components first, composed into larger ones. The files do not use the terms atoms or molecules.
+- **Class:** Confirmed direct user statement.
+- **Source:** Manel, Mapon debrief, 2026-11-18.
+- **Verified:** 2026-11-18.
+- **External-use boundary:** Say "Atomic Design" (the method) or "built from small components up to larger ones". Do not say the libraries are organised or named as atoms, molecules and organisms.
 
 - **Claim:** Manel uses the Figma MCP with an AI agent across design-system work. Mostly at Remuner (before March 2026), and continued since with Claude: token management and two-way sync between code and Figma (importing tokens from code and detecting drift), exporting tokens to code in two layers (core and semantic), accessibility audits checking colour contrast and the accessibility of components and colours, design-code parity checks so both sides expose the same options, building and iterating components and variants, colour and shade consistency, bulk component changes, generated component documentation, changelogs from file-version differences, design explorations, presentations, and FigJam diagrams and boards.
 - **Class:** Confirmed direct user statement.
@@ -684,6 +704,18 @@ Notion export index: [notion/README.md](notion/README.md) (built 2026-11-09). En
 - **Class:** Confirmed (Manel) plus Artifact (Figma).
 - **Verified:** 2026-11-17.
 - **External-use boundary:** Whether it shipped, and in which product surface, is not recorded; call it a designed and prototyped interaction, not a shipped feature. The selection itself follows spreadsheet conventions; claim the design of the states and feedback, not the invention of range selection. Pedro Aires's Notion page "Tables / Keyboard Shortcuts for Selecting Cells, Rows and Columns" (2022-02-03) is his, not Manel's. Table data in the boards is placeholder accounting data (German column names ZEILE and KONTO); check before external use.
+
+- **Claim (table density, confirmed by Manel 2026-11-19):** Shared work with the head of design. The head of design defined the row spacing: three densities, Loose 40, Default 32 and Tight 24 px rows, with the same 13 px type. Manel created and published the spacing tokens and adapted the table cell and table components to follow them. It shipped. Figma "Abacum | 💠 Abax Components | Exploration", page "2308 -> Table & UI font sizes", section "Proposal" (`3415:15032`), three "Table -> OPEX" frames with placeholder OPEX data.
+- **Class:** Confirmed (Manel) plus Artifact (Figma).
+- **Verified:** 2026-11-19.
+- **External-use boundary:** Never claim Manel defined the spacing or the three densities; that was the head of design. Manel's part: tokens, publishing, and the cell and table components. Which densities reached production, and whether users could switch them, is not recorded. Manel wants it used as a visual artifact, without the split explained in case copy (2026-11-19); captions must not imply he defined the spacing alone.
+
+- **Claim (Select additions on top of MUI, confirmed by Manel 2026-11-19):** Shared work. Manel designed the states in Figma and wrote the spec for behaviour added on top of MUI's Autocomplete: with a filter active, the first match is focused automatically; matching letters show in bold; a "Create" item builds a new entry from the search; options can carry secondary text. It shipped. Figma "Abacum | 💠 Abax Components", page "select", "Frame 373" (`2085:1585`), with the annotation "Extra functionality on top of MUI".
+- **Class:** Confirmed (Manel) plus Artifact (Figma).
+- **Verified:** 2026-11-19.
+- **External-use boundary:** Claim the states and the spec, not the implementation. Who else worked on it is not recorded. Separate from the Select, Menu and Menu item slot rebuild above.
+
+- **Artifact (videos, 2026-11-19):** `portfolio/public/assets/videos/abax-table-selection`, `abax-table-density`, `abax-select` (MP4, WebM, poster). Rebuilt in HTML from the Figma values and rendered with `scripts/video/`; not screen recordings of production.
 - **Rebuilt:** Rebuilt click-through on page "Selection prototype (rebuilt 2026-11-17)", 2026-11-17; label it as rebuilt from the 2023 specs. Two changes from the boards, made at Manel's request: row and column selected states use the cell selection's blue styles instead of an older green style, and a click ring (presentation aid, not a product state) marks each click. The Figma click-through was set aside the same day; the rebuild to use is the HTML page [interviews/perk/perk-table-selection-rebuild.html](../interviews/perk/perk-table-selection-rebuild.html) (built 2026-11-17 from the board values: hover zones, indicators, cell, range, header, column and row selection; blue selection styles for row and column). Drag and drop variant added the same day: the grip handles and their default, hover and selected states come from the boards; the drag itself (faded copy follows the pointer on one axis, blue line at the drop slot, others shift on release) is not on the boards and follows Notion's table pattern, which Manel says the 2023 design used (recollection, Manel 2026-11-17).
 - **Context (AG Grid):** Abacum's data tables ran on AG Grid; in June 2023 the webapp used AG Grid 27.3.0 with the enterprise range-selection module (`~/Dev/webapp` `package.json`, checked 2026-11-17). Manel's aim was to improve AG Grid's default selection behaviour, which Manel judged poor at the time (recollection, Manel 2026-11-17). Safe framing: "redesigned the selection states on top of AG Grid's default range selection". What exactly was poor in the default, and how much of the design reached the product, is not recorded; ask Manel before stating either.
 
@@ -806,6 +838,7 @@ These facts were recorded as verified by Manel in the July 2026 CV base and were
 ### Education and skills
 
 - **Claim:** Higher National Diploma in Computing Design and Multimedia, ESI Barcelona, 2002. **Verified:** listed in the CV base; still present in [cv/cv-base.md](../cv/cv-base.md).
+- **Claim (graphic design background, Manel 2026-11-19):** Manel studied graphic design and worked as a graphic designer at the start of his career. **Class:** Confirmed direct user statement. **External-use boundary:** Claimable as "started my career as a graphic designer, after studying graphic design". The school, programme, dates, employers and type of work are not recorded; whether the study is the 2002 ESI diploma above or a separate course is not recorded. Do not name a qualification until confirmed. Use for roles that ask for a visual or graphic design foundation (iLovePDF DS, 2026-11-19); it supports the background, not current visual craft, which still needs portfolio evidence.
 - **Claim:** Uses Jobs to Be Done in research synthesis. **Verified:** listed in the July CV skills; no project-level evidence recorded.
 
 ## Shared claim discipline

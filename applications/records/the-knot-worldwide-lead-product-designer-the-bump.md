@@ -1,23 +1,23 @@
 ---
 company: The Knot Worldwide
 role: Lead Product Designer, The Bump
-status: in-progress
-status_verified_on: 2026-11-07
+status: rejected
+status_verified_on: 2026-11-18
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-11-07
+posting_checked_on: 2026-11-18
 fit_decision: proceed (minimal effort)
 role_lane: product
 application_channel: direct
 warm_path: None recorded.
 portfolio_version:
-applied_on:
-last_contact_on:
-outcome_stage: not-submitted
-rejection_reason_class: none
-next_action: Greenhouse application with the base CV, no tailoring. Ask the range at first contact.
-next_action_on: 2026-11-12
-salary_stated:
+applied_on: 2026-11-18
+last_contact_on: 2026-11-18
+outcome_stage: cv-review
+rejection_reason_class: generic
+next_action: None. Rejected at CV review by template email; no-reply mailbox, no feedback offered. No chase.
+next_action_on:
+salary_stated: 63000 in the required minimum compensation field (gross annual intended); employer range unknown
 job_url: https://job-boards.greenhouse.io/theknotworldwide/jobs/5427377008
 source: sourcing/role-leads.csv (scan-roles.py, 2026-11-03); JD fetched from the official ATS or careers page 2026-11-07
 ---
@@ -52,3 +52,5 @@ source: sourcing/role-leads.csv (scan-roles.py, 2026-11-03); JD fetched from the
 - 2026-11-07: Markdown sources prepared: cv/roles/base-fever-the-knot-2026-11.md (verbatim base CV, no letter). no-ai-slop and humanizer passes run. Awaiting Manel review, then Figma layout and PDF export; not sent.
 - 2026-11-07: Figma column built in "CV / Manel Leiva" from the Markdown source (frames 2449:417, 2449:445 (shared with Fever)). Graduation year hidden to match the source. PDF export and check-pdf-text not done; not sent.
 - 2026-11-07: PDFs exported by Manel to cv-pdf-to-send/Fever/Manel Leiva CV 2026.pdf (shared base CV; no The Knot folder yet). Kings of Mambo work mode shortened to "Barcelona, hybrid" in Figma and the PDF (Manel); source updated to match. check-pdf-text --source: OK. Not sent.
+- 2026-11-18: Submission confirmed by Manel via Greenhouse. No cover letter. Minimum compensation field: 63000. The recommended CV was the current base PDF (cv-pdf-to-send/Base, exported 2026-11-14, check-pdf-text --source against cv/cv-base.md: OK), not the 2026-11-07 Fever copy; copied to cv-pdf-to-send/The Knot Worldwide/, with its source snapshot at cv/roles/the-knot-worldwide-lead-product-designer-the-bump.md. Nudge 2026-12-02, LinkedIn 2026-12-09, stale 2026-12-23.
+- 2026-11-18: Rejected by template email from TKWW Talent Acquisition (no-reply@theknotww.com, 14:47), the same day as the application. Reason: "decided not to move forward", "numerous applications from highly qualified candidates". Generic, no feedback, salary not mentioned. Source: email supplied by Manel. Inference, not confirmed: the unmet consumer-leadership must-have was the filter. No chase.

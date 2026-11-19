@@ -247,7 +247,7 @@ A client stopped a review of high-fidelity explorations and asked to go low-fide
 - **Context:** The hi-fi work was done and good. The feedback was about sequencing, not quality: a process mistake, not a skill mistake.
 - **Change:** Restructured design phases: low-fi and stakeholder validation before any hi-fi, because being wrong at hi-fi costs much more than being wrong at lo-fi.
 
-**Angle:** The change lasted; it still shows in how you work. Don't frame it as "I was inexperienced": you were confident in the work, and the feedback named something true you hadn't named yet. In a live challenge the vision still comes first ([playbooks/live-challenge.md](playbooks/live-challenge.md)): "validate first" read as conservative at Factorial.
+**Angle:** The change lasted; it still shows in how you work. Don't frame it as "I was inexperienced": you were confident in the work, and the feedback named something true you hadn't named yet. In a live challenge with no data in the brief, the vision still comes first ([playbooks/live-challenge.md](playbooks/live-challenge.md)): "validate first" read as conservative at Factorial.
 
 ---
 

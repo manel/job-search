@@ -5,7 +5,7 @@ status: skipped
 status_verified_on: 2026-11-07
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-11-07
+posting_checked_on: 2026-11-18
 fit_decision: skip
 role_lane: product
 application_channel: direct
@@ -49,3 +49,4 @@ source: sourcing/role-leads.csv (manual sourcing, 2026-11-04); JD fetched from t
 
 - 2026-11-04: found during sourcing.
 - 2026-11-07: Posting checked (open) and fit assessed: skip. No materials prepared or application sent.
+- 2026-11-18: Manel confirmed the posting is live. The drafted message to Cyrièle names this role and the Lead role, so she can steer. Skip stands unless she points him here.

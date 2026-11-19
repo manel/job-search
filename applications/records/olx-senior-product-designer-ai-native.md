@@ -1,11 +1,11 @@
 ---
 company: OLX
 role: Senior Product Designer
-status: applied
-status_verified_on: 2026-10-13
+status: stale
+status_verified_on: 2026-11-18
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-11-14
+posting_checked_on: 2026-11-18
 fit_decision: proceed
 role_lane: mixed
 application_channel: direct
@@ -13,10 +13,10 @@ warm_path: No confirmed referral; Daria Brylova is a possible direct contact
 portfolio_version: 2026-10-02
 applied_on: 2026-10-13
 last_contact_on:
-outcome_stage: awaiting-response
+outcome_stage: no-response
 rejection_reason_class: none
-next_action: Mark stale if still silent; then decide the Otodom AI-native deferral (warm contact only)
-next_action_on: 2026-11-17
+next_action: None
+next_action_on:
 salary_stated: Unknown; submitted form answers not confirmed
 job_url: https://jobs.eu.lever.co/olx/8d783669-ace0-409c-b003-b61087a4b69b
 source: Exact official OLX Lever posting and live application form checked 2026-10-02; live portfolio cases; Career OS evidence register; prior OLX application record
@@ -95,3 +95,4 @@ The live Lever form requires a CV, name, email, phone, current location, and con
 - 2026-10-13: Manel confirmed “OLX submitted” after the CV and cover-letter review. Recorded application as applied, awaiting employer response, with today as the submission date. Exact submitted files, form answers, portfolio version, PDF export/QA, receipt details, and Daria outreach remain unconfirmed.
 
 - 2026-11-14: /assess-fit run on this URL. It is the posting already applied to on 2026-10-13, so no new assessment. Posting rechecked: live, Remote Spain, same JD (Nexus, AI Sandbox Challenge stage). No employer response in 32 days. Stale line 2026-11-17 set as next_action_on.
+- 2026-11-18: Marked stale. Manel confirmed OLX is still silent, 36 days after applying. This is not an employer rejection, and the posting was recorded as open on 2026-11-18.

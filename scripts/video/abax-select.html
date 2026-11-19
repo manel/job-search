@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en" data-viewport="700x356">
+<head>
+<meta charset="utf-8">
+<title>Abax Select</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Values copied from Figma "Abacum | Abax Components", page "select", frame "Frame 373" (2085:1585):
+   autocomplete Medium 220x40, context menu, actionItem, sectionLabel, divider. */
+:root {
+  --field: #f0f3f5; --focus: #0078b2; --text: #15191c; --muted: #566269; --icon: #738087; --icon-open: #2d3438;
+  --glyph: #222200; --secondary: #707b80; --hover: #f0f3f5; --selected: #ebf8ff; --menu-line: #dbdee0; --divider: #e6ebed;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; width: 700px; height: 356px; background: #fff; overflow: hidden; }
+body { font-family: Inter, sans-serif; -webkit-font-smoothing: antialiased; color: var(--text); }
+.label { position: absolute; top: 24px; left: 28px; font: 400 13px/1 'Plus Jakarta Sans', sans-serif; color: #3a3a4a; }
+.scene { position: absolute; inset: 0; }
+.field {
+  position: absolute; left: 60px; top: 60px; width: 220px; height: 40px; border-radius: 8px; background: var(--field);
+  display: flex; align-items: center; padding-left: 12px; font-size: 14px; line-height: 24px;
+}
+.field.focus { box-shadow: inset 0 0 0 1px var(--focus); }
+.field .val { flex: 1; white-space: nowrap; overflow: hidden; display: flex; align-items: center; }
+.field .ph { color: var(--muted); }
+.caret { display: inline-block; width: 1px; height: 17px; background: var(--text); margin: 0 0.5px; }
+.field .clear { position: absolute; left: 160px; top: 8px; width: 24px; height: 24px; display: grid; place-items: center; }
+.field .chev { position: absolute; left: 188px; top: 8px; width: 24px; height: 24px; display: grid; place-items: center; }
+.menu {
+  position: absolute; left: 60px; top: 104px; width: 240px; padding: 8px; background: #fff; border-radius: 8px;
+  box-shadow: 0 0 0 1px var(--menu-line), 0 4px 8px rgba(0, 0, 0, .2); transform-origin: top left;
+}
+.menu.wide { width: 260px; }
+.item { height: 40px; border-radius: 8px; display: flex; align-items: center; padding: 0 8px; font-size: 14px; line-height: 24px; white-space: nowrap; }
+.item .ic { width: 24px; height: 24px; display: grid; place-items: center; margin-right: 8px; }
+.item .sec { margin-left: auto; color: var(--secondary); }
+.item.section { color: var(--muted); }
+.item.create { color: var(--focus); }
+.item.focused, .item.hover { background: var(--hover); }
+.item.selected { background: var(--selected); }
+.divider { height: 16px; display: flex; align-items: center; padding: 0 8px; }
+.divider::after { content: ""; flex: 1; height: 1px; background: var(--divider); }
+b { font-weight: 700; }
+.note {
+  position: absolute; left: 340px; display: flex; align-items: center; gap: 10px;
+  font: 400 13px/1 'Plus Jakarta Sans', sans-serif; color: #3a3a4a; white-space: nowrap;
+}
+.note::before { content: ""; width: 28px; height: 1px; background: #2e8a8d; }
+.key {
+  position: absolute; left: 296px; top: 66px; height: 28px; padding: 0 10px; border-radius: 6px; border: 1px solid #e5e5e9;
+  box-shadow: 0 1px 0 #e5e5e9; font: 500 12px/26px 'Plus Jakarta Sans', sans-serif; color: #1d1d22; background: #f7f7f8;
+}
+</style>
+</head>
+<body>
+<div class="scene" id="scene"></div>
+<script>
+const ICON = {
+  Date: '<svg width="18" height="20" viewBox="0 0 18 20"><path fill-rule="evenodd" fill="#222200" d="M12 2H6V0H4v2H2C.9 2 0 2.9 0 4v14c0 1.1.9 2 2 2h9l7-7V4c0-1.1-.9-2-2-2h-2V0h-2v2ZM4 6V4H2v14h8v-6h6V4h-2v2h-2V4H6v2H4Zm8 10.17L14.17 14H12v2.17Z"/></svg>',
+  Department: '<svg width="20" height="16" viewBox="0 0 20 16"><path fill="#222200" d="M0 1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1v3h-2V2H7v12h3v2H2v-2h3V2H2v2H0V1Z"/><path fill="#222200" d="M17 8h3V6h-3V2h-2v4h-3v2h3v6c0 1.1.9 2 2 2h3v-2h-3V8Z"/></svg>',
+  Salary: '<svg width="18" height="18" viewBox="0 0 18 18"><path fill-rule="evenodd" fill="#222200" d="M4 14v4h2v-4h6v4h2v-4h4v-2h-4V6h4V4h-4V0h-2v4H6V0H4v4H0v2h4v6H0v2h4Zm2-8v6h6V6H6Z"/></svg>',
+  plus: '<svg width="14" height="14" viewBox="0 0 14 14"><path fill="#0078b2" d="M14 8H8v6H6V8H0V6h6V0h2v6h6v2Z"/></svg>',
+  clear: '<svg width="17" height="17" viewBox="0 0 16.67 16.67"><path fill="#738087" d="M8.33 0C3.72 0 0 3.72 0 8.33s3.72 8.33 8.33 8.33 8.33-3.72 8.33-8.33S12.94 0 8.33 0Zm4.17 11.32-1.17 1.18-2.99-3-3 3-1.17-1.18 2.99-2.99-2.99-3 1.17-1.17 3 2.99 2.99-2.99 1.17 1.17-2.99 3 2.99 2.99Z"/></svg>',
+  up: c => `<svg width="12" height="8" viewBox="0 0 12 7.41"><path fill="${c}" d="M6 0 0 6l1.41 1.41L6 2.83l4.59 4.58L12 6 6 0Z"/></svg>`,
+  down: c => `<svg width="12" height="8" viewBox="0 0 12 7.41"><path fill="${c}" d="M6 7.41 0 1.41 1.41 0 6 4.58 10.59 0 12 1.41 6 7.41Z"/></svg>`,
+};
+
+const EX = {
+  column: { placeholder: 'Select column', section: 'Select or create column', items: [['Date'], ['Department'], ['Salary']], icons: true },
+  country: { placeholder: 'Select country', section: 'Select or create country', items: [['Spain', 'Europe'], ['United Kingdom', 'Europe'], ['United States', 'North America']], icons: false },
+};
+
+// Timeline. Each scene is a list of [time, state patch]; the state at t is all patches up to t.
+const T = [
+  [0.0, { ex: 'column', open: false, focus: false, query: '', value: null, hover: null, cursor: [560, 300], notes: [], key: null }],
+  [1.1, { cursorTo: [172, 81, 1.1, 0.5] }],
+  [1.7, { click: true, open: true, focus: true }],
+  [2.6, { query: 'a' }],
+  [2.95, { query: 'ar' }],
+  [3.2, { notes: ['focus'] }],
+  [3.7, { notes: ['focus', 'bold'] }],
+  [4.2, { notes: ['focus', 'bold', 'create'] }],
+  [7.7, { key: 'Enter' }],                 // notes stay on screen for 3.5 s
+  [7.85, { open: false, query: '', value: 'Department', notes: [] }],
+  [8.5, { key: null }],
+  [9.0, { click: true, open: true }],
+  [9.7, { cursorTo: [150, 250, 9.7, 0.45] }],
+  [10.15, { hover: 'Salary' }],
+  [11.1, {}],                              // fade out
+  [11.5, { ex: 'country', open: false, focus: false, query: '', value: null, hover: null }],
+  [12.4, { cursorTo: [172, 81, 12.4, 0.6] }],
+  [12.8, { click: true, open: true, focus: true }],
+  [13.5, { query: 'U' }],
+  [13.75, { query: 'Un' }],
+  [14.0, { query: 'Uni' }],
+  [14.3, { notes: ['focus'] }],
+  [14.8, { notes: ['focus', 'bold'] }],
+  [15.3, { notes: ['focus', 'bold', 'create'] }],
+  [18.8, { key: 'Enter' }],
+  [18.95, { open: false, query: '', value: 'United Kingdom', notes: [] }],
+  [19.6, { key: null }],
+  [20.0, { click: true, open: true }],
+  [22.0, {}],
+];
+window.__duration = 22.0;
+
+const ease = x => x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+
+function stateAt(t) {
+  const s = { clickAt: -9, openAt: -9 };
+  let cur = null;
+  for (const [ts, p] of T) {
+    if (ts > t) break;
+    const { cursorTo, click, ...rest } = p;
+    if (rest.open && !s.open) s.openAt = ts;
+    Object.assign(s, rest);
+    if (click) s.clickAt = ts;
+    if (cursorTo) { const [x, y, t0, d] = cursorTo; s.move = { from: s.cursor, to: [x, y], t0: t0 - d, d }; s.cursor = [x, y]; }
+  }
+  // cursor moves start before their timestamp, so look ahead
+  for (const [ts, p] of T) if (p.cursorTo) {
+    const [x, y, t1, d] = p.cursorTo, t0 = t1 - d;
+    if (t >= t0 && t < t1) {
+      const prev = stateAt.prevCursor(ts);
+      const k = ease((t - t0) / d);
+      s.cursor = [prev[0] + (x - prev[0]) * k, prev[1] + (y - prev[1]) * k];
+    }
+  }
+  return s;
+}
+stateAt.prevCursor = ts => { let c = null; for (const [t2, p] of T) { if (t2 >= ts) break; if (p.cursor) c = p.cursor; if (p.cursorTo) c = p.cursorTo.slice(0, 2); } return c; };
+
+const hl = (label, q) => {
+  if (!q) return label;
+  const i = label.toLowerCase().indexOf(q.toLowerCase());
+  if (i < 0) return label;
+  return label.slice(0, i) + '<b>' + label.slice(i, i + q.length) + '</b>' + label.slice(i + q.length);
+};
+
+window.__seek = (t) => {
+  const s = stateAt(t), ex = EX[s.ex];
+  const blinkOn = Math.floor((t - s.clickAt) * 2) % 2 === 0;
+  const caret = s.focus && s.open && blinkOn ? '<span class="caret"></span>' : (s.focus && s.open ? '<span class="caret" style="opacity:0"></span>' : '');
+  let val;
+  if (s.query) val = `<span>${s.query}</span>${caret}`;
+  else if (s.value && !s.open) val = `<span>${s.value}</span>`;
+  else if (s.value && s.open) val = `<span>${s.value}</span>${caret}`;
+  else if (s.open) val = `${caret}<span class="ph">Search</span>`;
+  else val = `<span class="ph">${ex.placeholder}</span>`;
+  const hasClear = !!(s.query || s.value);
+  const field = `<div class="field${s.focus ? ' focus' : ''}"><div class="val">${val}</div>` +
+    (hasClear ? `<span class="clear">${ICON.clear}</span>` : '') +
+    `<span class="chev">${s.open ? ICON.up('#2d3438') : ICON.down('#738087')}</span></div>`;
+
+  let menu = '';
+  if (s.open) {
+    const list = ex.items.filter(([l]) => !s.query || l.toLowerCase().includes(s.query.toLowerCase()));
+    const k = clamp((t - s.openAt) / 0.15);
+    menu = `<div class="menu${ex.icons ? '' : ' wide'}" style="opacity:${k};transform:translateY(${(1 - k) * -4}px)">` +
+      `<div class="item section">${ex.section}</div>` +
+      list.map(([l, sec], i) => {
+        const cls = s.query && i === 0 ? ' focused' : (!s.query && s.value === l ? ' selected' : (s.hover === l ? ' hover' : ''));
+        return `<div class="item${cls}">${ex.icons ? `<span class="ic">${ICON[l]}</span>` : ''}<span>${hl(l, s.query)}</span>${sec ? `<span class="sec">${sec}</span>` : ''}</div>`;
+      }).join('') +
+      (s.query ? `<div class="divider"></div><div class="item create"><span class="ic">${ICON.plus}</span><span>Create <b>${s.query}</b></span></div>` : '') +
+      '</div>';
+  }
+
+  // Notes line up with the rows they describe.
+  const list = s.open ? ex.items.filter(([l]) => !s.query || l.toLowerCase().includes(s.query.toLowerCase())) : [];
+  const rowY = i => 104 + 8 + 40 * (i + 1) + 20;
+  const NOTE = {
+    focus: ['First match is focused: Enter selects it', rowY(0)],
+    bold: ['Matching letters in bold', rowY(1)],
+    create: ['Create a new one from the search', 104 + 8 + 40 * (list.length + 1) + 16 + 20],
+  };
+  const notes = (s.notes || []).filter(n => s.open).map(n => {
+    const since = T.find(([ts, p]) => p.notes && p.notes.includes(n) && ts <= t);
+    const k = since ? clamp((t - since[0]) / 0.25) : 1;
+    return `<div class="note" style="top:${NOTE[n][1] - 6}px;opacity:${k}">${NOTE[n][0]}</div>`;
+  }).join('');
+
+  const key = s.key ? `<div class="key">${s.key === 'Enter' ? 'Enter ↵' : s.key}</div>` : '';
+  const sc = document.getElementById('scene');
+  sc.innerHTML = field + menu + notes + key;
+  sc.style.opacity = t >= 11.1 && t < 11.5 ? 1 - (t - 11.1) / 0.4 : t >= 11.5 && t < 11.8 ? (t - 11.5) / 0.3 : 1;
+  const pressed = clamp(1 - (t - s.clickAt) / 0.35);
+  window.__cursor && window.__cursor(s.cursor[0], s.cursor[1], t >= s.clickAt ? pressed : 0, !s.cursorHidden);
+};
+</script>
+</body>
+</html>

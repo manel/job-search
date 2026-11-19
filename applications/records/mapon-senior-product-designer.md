@@ -2,21 +2,21 @@
 company: Mapon
 role: Senior Product Designer
 status: applied
-status_verified_on: 2026-11-17
+status_verified_on: 2026-11-18
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-11-12
+posting_checked_on: 2026-11-18
 fit_decision: proceed (light effort)
 role_lane: ai-product
 application_channel: direct
 warm_path: None recorded.
 portfolio_version:
 applied_on: 2026-11-12
-last_contact_on: 2026-11-17
+last_contact_on: 2026-11-18
 outcome_stage: cv-review
 rejection_reason_class: none
-next_action: Complete the Testlify intro task (3 written answers, 1 video; ~20 min, cannot be paused, block 25 min). Invite 17 Nov, 4-day window, so submit by 20 Nov to be safe. Prepare answers first, incl. the Barcelona vs Riga location point.
-next_action_on: 2026-11-19
+next_action: Testlify task completed 18 Nov; wait for the result. Nudge Elizabete Millere if silent. Barcelona vs Riga is still unconfirmed by Mapon; raise it at the first human contact.
+next_action_on: 2026-12-02
 salary_stated: none (not asked)
 job_url: https://mapon.breezy.hr/p/42e1a15059be-senior-product-designer
 source: LinkedIn listing found by Manel 2026-11-12; JD fetched from the official Breezy page 2026-11-12
@@ -60,3 +60,4 @@ source: LinkedIn listing found by Manel 2026-11-12; JD fetched from the official
 - 2026-11-12: PDFs exported by Manel; check-pdf-text --source OK (CV and CL). Not sent.
 - 2026-11-12: Applied via Breezy with the CV and cover letter PDFs in cv-pdf-to-send/ (confirmed by Manel). No salary asked. Nudge 2026-11-26, LinkedIn 2026-12-03, stale 2026-12-17.
 - 2026-11-17: Passed CV review. Elizabete Millere (Mapon, via Breezy) invited Manel to a Testlify introductory task: three written questions and one video answer on experience, motivation and approach to the role. About 20 minutes, cannot be paused, complete within 4 days (by 2026-11-20/21). Status stays `applied` until a human interview is scheduled. Source: email supplied by Manel.
+- 2026-11-18: Testlify task completed (confirmed by Manel). Questions recalled: Figma proficiency and design systems; biggest achievement in an iOS and Android app; video on the project most proud of; one more not remembered. Answers and corrections for later stages are in the [debrief](../../interviews/mapon/mapon-stage1-screening.md#debrief-completed-2026-11-18). Posting page still open on 2026-11-18. Nudge 2026-12-02, LinkedIn 2026-12-09, stale 2026-12-23.

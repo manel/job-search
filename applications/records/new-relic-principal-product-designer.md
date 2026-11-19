@@ -1,22 +1,22 @@
 ---
 company: New Relic
 role: Principal Product Designer
-status: prospect
-status_verified_on: 2026-10-01
+status: skipped
+status_verified_on: 2026-11-18
 status_confidence: confirmed
 posting_status: open
-posting_checked_on: 2026-10-01
-fit_decision: proceed
+posting_checked_on: 2026-11-18
+fit_decision: skip (Manel, 2026-11-18)
 role_lane: mixed
 application_channel: direct
-warm_path: unknown
+warm_path: two close friends work at New Relic in IT (Manel, 2026-11-18); not contacted
 portfolio_version: 2026-10-01
 applied_on:
 last_contact_on:
 outcome_stage: not-submitted
 rejection_reason_class: none
-next_action: Decide whether to prepare a focused application led by the AI Agent case and supported by Abax; verify compensation, work pattern, Principal calibration, and any decisive application-form gates before investing in a full package
-next_action_on: 2026-10-27
+next_action: None
+next_action_on:
 salary_stated: Not stated; employer range unknown
 job_url: https://job-boards.greenhouse.io/newrelic/jobs/5396630008
 source: User-supplied job description and current official New Relic Greenhouse posting checked 2026-10-01; live portfolio cases; Career OS evidence register
@@ -25,6 +25,8 @@ source: User-supplied job description and current official New Relic Greenhouse 
 # New Relic — Principal Product Designer
 
 ## Decision
+
+**Skipped by Manel on 2026-11-18.** The assessment below is the 2026-10-01 record and is kept as written.
 
 **Proceed as a credible stretch, at medium-high priority.** The work is unusually well aligned with Manel's strongest evidence: complex B2B and data-heavy products, a shipped conversational AI agent, two production design systems, technical product architecture, documentation, and influence without formal authority. The role is a Barcelona-based individual-contributor position and has no people-management requirement.
 
@@ -86,3 +88,4 @@ No New Relic contact or prior New Relic application is recorded. Check for a rel
 
 - 2026-09-23: Role recorded in the company-led sourcing scan as an open lead requiring a full assessment.
 - 2026-10-01: Exact role reassessed from the current official posting and the job description supplied by Manel. Decision set to Proceed as a credible Principal-level stretch at medium-high priority. No materials prepared, application submitted, or outreach sent.
+- 2026-11-18: Skipped by Manel after reviewing the odds (estimated about 10-15% for a first conversation cold, 25-35% with a referral; judgment, not measured). Posting still live on Greenhouse (first published 2026-08-25, Barcelona or Madrid); it was the only design role among 42 open New Relic jobs. Two close friends work there in IT; neither was contacted. Never submitted. A future Senior Product Designer role at New Relic is not affected by this decision.

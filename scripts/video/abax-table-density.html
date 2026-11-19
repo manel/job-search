@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en" data-viewport="955x597">
+<head>
+<meta charset="utf-8">
+<title>Abax table density</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Plus+Jakarta+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Values copied from Figma "Abacum | Abax Components | Exploration", page "2308 -> Table & UI font sizes",
+   section "Proposal" (3415:15032): frames "Table -> OPEX" at 40, 32 and 24 px rows. Placeholder data from
+   the frames; two typos fixed ("Bussines", "-16&"). */
+:root { --text: #15191c; --muted: #566269; --line: #e6ebed; --frame: #dbdee0; --parent: #f6f7f8; --rh: 32px; }
+* { box-sizing: border-box; }
+html, body { margin: 0; width: 955px; height: 597px; background: #fff; overflow: hidden; }
+body { font-family: Inter, sans-serif; -webkit-font-smoothing: antialiased; color: var(--text); }
+.top { position: absolute; top: 24px; left: 73.5px; right: 73.5px; display: flex; align-items: baseline; font-family: 'Plus Jakarta Sans', sans-serif; }
+.title { font-size: 13px; color: #3a3a4a; }
+.opts { margin-left: auto; display: flex; gap: 29px; font-size: 15.9px; }
+.opt { color: #8a8a99; padding-bottom: 7px; border-bottom: 2.4px solid transparent; display: inline-flex; align-items: center; gap: 7px; }
+/* Time left until the next density: a ring next to the active option */
+.ring { width: 14.7px; height: 14.7px; visibility: hidden; transform: rotate(-90deg); }
+.opt.on .ring { visibility: visible; }
+.ring circle { fill: none; stroke-width: 2; }
+.ring .track { stroke: #e5e5e9; }
+.ring .fill { stroke: #2e8a8d; stroke-dasharray: 25.13; }
+.opt.on { color: #1d1d22; font-weight: 500; border-color: #2e8a8d; }
+.view { position: absolute; left: 73.5px; top: 68.5px; width: 808px; height: 528.5px; overflow: hidden; }
+.table { border: 1px solid var(--frame); border-radius: 4px; overflow: hidden; width: 808px; }
+.row { display: flex; height: var(--rh); font-size: 13px; line-height: 20px; box-shadow: inset 0 -1px 0 var(--line); }
+.row.parent { background: var(--parent); }
+.c { display: flex; align-items: center; flex: none; padding: 0 8px; white-space: nowrap; }
+.lab { width: 184px; box-shadow: inset -1px 0 0 var(--line); padding-left: 0; }
+.n { width: 103px; justify-content: flex-end; }
+.p { width: 55px; justify-content: flex-end; }
+.h { color: var(--muted); justify-content: flex-start; }
+.view::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 48px; background: linear-gradient(rgba(255,255,255,0), #fff); }
+.exp { width: 20px; height: 20px; display: grid; place-items: center; flex: none; margin-right: 8px; }
+.mtd { color: #9aa4a9; margin-right: 4px; }
+</style>
+</head>
+<body>
+<div class="top">
+  <span class="opts"><span class="opt" id="o40">Loose 40<svg class="ring" viewBox="0 0 12 12"><circle class="track" cx="6" cy="6" r="4"/><circle class="fill" cx="6" cy="6" r="4"/></svg></span><span class="opt" id="o32">Default 32<svg class="ring" viewBox="0 0 12 12"><circle class="track" cx="6" cy="6" r="4"/><circle class="fill" cx="6" cy="6" r="4"/></svg></span><span class="opt" id="o24">Tight 24<svg class="ring" viewBox="0 0 12 12"><circle class="track" cx="6" cy="6" r="4"/><circle class="fill" cx="6" cy="6" r="4"/></svg></span></span>
+</div>
+<div class="view"><div class="table" id="table"></div></div>
+<script>
+// [label, level, expander ('' | 'r' | 'd'), actuals, forecast, budget, actVsFcst, %, actVsBdgt, %]
+const ROWS = [
+  ['Business Infrastructure', 0, 'r', '46,514', '44,617', '37,035', '(1,897)', '-4%', '(9,479)', '-26%'],
+  ['Strategy', 0, 'r', '14,275', '16,873', '13,785', '2,598', '15%', '(490)', '-4%'],
+  ['Creative', 0, 'r', '162', '2,769', '7,857', '2,607', '94%', '7,695', '98%'],
+  ['Marketing', 0, 'd', '451,588', '530,684', '402,870', '79,107', '18%', '(48,707)', '-11%'],
+  ['Consultants', 1, 'r', '19,841', '12,797', '0', '(7,044)', '-55%', '(19,841)', '-'],
+  ['Content Production', 1, 'r', '2,398', '2,500', '450', '102', '4%', '(1,958)', '-433%'],
+  ['Customer Acquisition', 1, 'r', '407,339', '489,500', '368,833', '82,161', '17%', '(38,506)', '-10%'],
+  ['Team Expenses', 1, 'r', '286', '3,542', '5,542', '3,256', '92%', '5,256', '95%'],
+  ['Tools & Equipment', 1, 'd', '21,724', '22,345', '21,667', '632', '3%', '46', '0%'],
+  ['Hardware', 2, 'r', '243', '0', '0', '(243)', '-', '(243)', '-'],
+  ['Software', 2, 'd', '21,481', '22,346', '21,667', '875', '1%', '197', '1%'],
+  ['Amplitude', 3, '', '0', '6,667', '6,667', '6,667', '100%', '6,667', '100%'],
+  ['Airtable', 3, '', '0', '0', '350', '0', '100%', '350', '100%'],
+  ['Clearbit', 3, '', '10,020', '10,020', '8,650', '0', '-16%', '(1,370)', '-16%'],
+  ['Google 360', 3, '', '5,650', '5,658', '6,000', '8', '6%', '350', '6%'],
+  ['Unmapped', 3, '', '6,011', '0', '0', '(6,011)', '-', '(6,011)', '-'],
+  ['Finance', 0, 'r', '42,924', '50,136', '40,040', '7,212', '-7%', '(2,884)', '-7%'],
+  ['Security', 0, 'r', '25,258', '33,976', '24,648', '8,718', '-2%', '(610)', '-2%'],
+  ['Executive', 0, 'r', '432', '9,699', '12,199', '9,267', '96%', '11,767', '96%'],
+  ['Customer Success', 0, 'r', '12,041', '22,136', '23,219', '10,095', '48%', '11,178', '48%'],
+  ['Data', 0, 'r', '32,666', '43,650', '28,152', '10,984', '-16%', '(4,514)', '-16%'],
+  ['Product Infrastructure', 0, 'r', '230,793', '261,410', '271,916', '30,626', '15%', '41,123', '15%'],
+  ['Business Development', 0, 'r', '9,659', '58,135', '64,098', '48,476', '85%', '54,439', '85%'],
+  ['Product Development', 0, 'r', '52,115', '102,004', '83,987', '49,889', '38%', '31,872', '38%'],
+  ['HR', 0, 'r', '133,308', '185,169', '118,289', '51,861', '-13%', '(15,019)', '-13%'],
+];
+const PARENTS = ['Marketing', 'Tools & Equipment', 'Software'];
+const FCST = { Marketing: '#6fcc66', Consultants: '#f5d9dc', 'Customer Acquisition': '#6fcc66', Amplitude: '#dbefda', 'Customer Success': '#c0e6be', Data: '#c0e6be', 'Product Infrastructure': '#a5dda0', 'Business Development': '#8ad484', 'Product Development': '#8ad484', HR: '#6fcc66' };
+const BDGT = { Marketing: '#f37f89', Consultants: '#f5d9dc', 'Customer Acquisition': '#f39da4', Executive: '#dbefda', 'Customer Success': '#dbefda', 'Product Infrastructure': '#8ad484', 'Business Development': '#6fcc66', 'Product Development': '#a5dda0', HR: '#f5bbc1' };
+const chev = d => `<svg width="20" height="20" viewBox="0 0 20 20"><path d="${d === 'd' ? 'M5.5 7.5 10 12l4.5-4.5' : 'M7.5 5.5 12 10l-4.5 4.5'}" fill="none" stroke="#566269" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+// Text starts at 36, 52, 68 px for levels 0-2 (expander 20 px + 8 px gap before it); leaves under Software at 68.
+const textX = [36, 52, 68, 68];
+const bg = c => c ? ` style="background:${c}"` : '';
+
+const head1 = `<div class="row"><div class="c lab"></div><div class="c h" style="width:624px"><span class="mtd">MTD</span>Aug 2021</div></div>`;
+const head2 = `<div class="row"><div class="c lab"></div>` + ['Actuals', 'Forecast', 'Budget', 'Act vs Fcst'].map(h => `<div class="c n h">${h}</div>`).join('') +
+  `<div class="c p"></div><div class="c n h">Act vs Bdgt</div><div class="c p"></div></div>`;
+const body = ROWS.map(([l, lv, e, a, f, b, vf, pf, vb, pb]) =>
+  `<div class="row${PARENTS.includes(l) ? ' parent' : ''}"><div class="c lab" style="padding-left:${e ? textX[lv] - 28 : textX[lv]}px">` +
+  (e ? `<span class="exp">${chev(e)}</span>` : '') + `${l}</div>` +
+  `<div class="c n">${a}</div><div class="c n">${f}</div><div class="c n">${b}</div>` +
+  `<div class="c n"${bg(FCST[l])}>${vf}</div><div class="c p">${pf}</div><div class="c n"${bg(BDGT[l])}>${vb}</div><div class="c p">${pb}</div></div>`).join('');
+const total = `<div class="row parent"><div class="c lab" style="padding-left:8px">Total</div><div class="c n">1,026,477</div><div class="c n">1,176,254</div><div class="c n">1,128,095</div><div class="c n">309,543</div><div class="c p">12%</div><div class="c n">1,234,567</div><div class="c p">12%</div></div>`;
+document.getElementById('table').innerHTML = head1 + head2 + body + total;
+
+// Loose, Default, Tight, back to Loose so the clip loops.
+// Each density holds 3.5 s; each change takes 0.6 s. The last change ends on the loop point.
+const STEPS = [[0, 40], [3.5, 32], [7.6, 24], [11.7, 40]];
+const MOVE = 0.6;
+window.__duration = 12.3;
+const ease = x => x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
+window.__seek = t => {
+  let h = STEPS[0][1], target = h;
+  for (let i = 1; i < STEPS.length; i++) {
+    const [ts, v] = STEPS[i], prev = STEPS[i - 1][1];
+    if (t >= ts + MOVE) h = v;
+    else if (t >= ts) h = prev + (v - prev) * ease((t - ts) / MOVE);
+    if (t >= ts) target = v;
+  }
+  document.documentElement.style.setProperty('--rh', h + 'px');
+  for (const v of [40, 32, 24]) document.getElementById('o' + v).classList.toggle('on', v === target);
+  // Ring: fills from the end of one change to the start of the next. The last hold wraps into the
+  // first, so the clip loops without a jump.
+  const holds = STEPS.map(([ts], i) => [ts + (i ? MOVE : 0), i + 1 < STEPS.length ? STEPS[i + 1][0] : null]);
+  const loop = window.__duration, last = STEPS[STEPS.length - 1][0] + MOVE, first = STEPS[1][0];
+  let k = 0;
+  if (t >= last) k = (t - last) / (loop - last + first);
+  else if (t < first) k = (t + loop - last) / (loop - last + first);
+  else for (const [a, b] of holds) if (b != null && t >= a && t < b) k = (t - a) / (b - a);
+  const C = 2 * Math.PI * 4;
+  document.querySelectorAll('.ring .fill').forEach(c => c.style.strokeDashoffset = C * (1 - Math.min(1, Math.max(0, k))));
+  window.__cursor && window.__cursor(0, 0, 0, false);
+};
+</script>
+</body>
+</html>
