@@ -1,23 +1,23 @@
 ---
 company: Kirey España (IT consultancy; placement at an unnamed client near Barcelona Airport)
 role: Product AI Designer, Design System Expert
-status: in-progress
+status: applied
 status_verified_on: 2026-11-19
 status_confidence: confirmed
 posting_status: open
 posting_checked_on: 2026-11-19
 fit_decision: proceed
 role_lane: design-systems
-application_channel: unknown
+application_channel: direct # LinkedIn Easy Apply
 warm_path: none recorded
-portfolio_version:
-applied_on:
-last_contact_on:
-outcome_stage: not-submitted
+portfolio_version: 2026-11-19 (live site)
+applied_on: 2026-11-19
+last_contact_on: 2026-11-19
+outcome_stage: no-response
 rejection_reason_class: none
-next_action: Easy Apply with the base DS CV, lean. The same day, tell Florencia (Hublance) that Manel applied to Kirey directly, and ask whether her role is the same one, so that no second intermediary presents him to the same client.
+next_action: Tell Florencia (Hublance) today that Manel applied to Kirey directly; ask whether her role is the same one. Then nudge Kirey 2026-12-03, LinkedIn 2026-12-10, stale 2026-12-24.
 next_action_on: 2026-11-19
-salary_stated:
+salary_stated: EUR 52,000 gross annual (form field "expectativas salariales (B/A)", confirmed by Manel 2026-11-19); no range published
 job_url: unknown (LinkedIn posting, URL not supplied)
 source: JD text pasted by Manel from LinkedIn on 2026-11-19 (posted 2 hours earlier, 24 applicants, Easy Apply, promoted by hirer). No official Kirey careers page or ATS checked.
 ---
@@ -71,3 +71,5 @@ Hublance (Florencia Correa) contacted Manel on 2026-11-18 about a role with the 
 ## History
 
 - 2026-11-19: Assessed from the LinkedIn JD pasted by Manel. Proceed, lean, apply today. Likely the same role Hublance offered on 2026-11-18.
+- 2026-11-19: No base DS CV exists. The Fluidra 2026-11 DS CV has no company-specific text and already carries the webview iOS and Android line, so it is reused unchanged: source [cv/roles/kirey-product-ai-designer-design-system-expert.md](../../cv/roles/kirey-product-ai-designer-design-system-expert.md), PDF in `cv-pdf-to-send/Kirey/` (text check OK).
+- 2026-11-19: Applied via LinkedIn Easy Apply, confirmed by Manel. Sent: CV (cv-pdf-to-send/Kirey/), no letter. Salary field asked gross annual expectations; EUR 52,000 stated. Nudge 2026-12-03, LinkedIn 2026-12-10, stale 2026-12-24.
