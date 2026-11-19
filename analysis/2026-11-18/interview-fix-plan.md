@@ -97,7 +97,7 @@ Do not write "likely to advance" unless the record names a specific positive sig
 
 | Date | Your work | Claude's work | Fixed dates |
 |---|---|---|---|
-| Thu 2026-11-19 | Review the [playbook change](../../interviews/playbooks/live-challenge.md#choose-the-opening-from-the-brief-2026-11-18) and [fact card](../../interviews/reference/fact-card.md) (20 min). Impact session: `abax` (45 min). Finish drill 2 (10 min). | Prep done 2026-11-18, including the [question bank](../../interviews/drills/followup-bank.md). Do not open the bank. | |
+| Thu 2026-11-19 | Review the [playbook change](../../interviews/playbooks/live-challenge.md#choose-the-opening-from-the-brief-2026-11-18) and [fact card](../../interviews/reference/fact-card.md) (20 min). Impact session: `abax` (45 min). Finish drill 2 (10 min). | Prep done 2026-11-18, including the [question bank](../../interviews/drills/followup-bank.md). Do not open the bank. | Status 2026-11-19: fact card read. Not done: playbook review, `abax` session, drill 2, FluidVoice test; carried to 2026-11-20. Visual piece v1 published early. |
 | Fri 2026-11-20 | Impact session: `dataset-manager`, `remuner-ds` (45 min). Follow-up set 1 (20 min). Go through the files for fine-tuning work (30 min). | Score drill and answers. | Wizeline check-in. Fever test check. Neotalent nudge. |
 | Mon 2026-11-23 | Impact session: `ai-agent`, `ic-dashboard` (45 min). Drill 3 (10 min). Visual decisions, first pair (30 min). | Update stories after your approval. | Hublance nudge. |
 | Tue 2026-11-24 | Drill 4 (10 min). Follow-up set 2 (20 min). Finish visual decisions (60 min). | Score. Draft piece structure. | |

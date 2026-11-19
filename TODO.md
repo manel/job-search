@@ -95,7 +95,7 @@ Raised 2026-10-26 after the Perk DS rejection at CV review (zero interviews from
 Do these before the next DS-titled application. Order follows the order of Perk's email.
 
 **1. Visual craft.** Perk: "strong visual craft to raise the quality of the system", with more examples of visual design work. The DS case shows architecture, and Manel had no example to show on 17 Nov.
-- [ ] Publish one visual piece: the table selection work (a short recording of the rebuild) plus the screens with the most visual fine-tuning. Put it in the DS case or on an unlisted page. The Remuner before and after was dropped 2026-11-19.
+- [x] Publish one visual piece: done 2026-11-19. Three clips (Select, table selection, table density) live on the Abacum DS case. The Remuner before and after was dropped.
 - [ ] Go through the Abacum and Remuner files and list the screens with the most fine-tuning work. Found so far (2026-11-19): table density proposal (`H7KF9JPK3wwFGd8333TaHT`, `3415:15032`) and Select improvements over MUI (`7Ast9N5HDQLE1l9kDcqoo3`, `2085:1585`).
 - [x] Videos rendered 2026-11-19 and live on the Abacum DS case 2026-11-19 (portfolio `64c409a`, merged to `main`): `abax-select`, `abax-table-density`, `abax-table-selection` (MP4, WebM and poster each, 1920x1200). Sources and renderer in `scripts/video/`.
 - [ ] Before upload: Manel to confirm that the density proposal and the Select additions (first match focused, matches in bold) are his work, then add both to [evidence/experience-facts.md](evidence/experience-facts.md). Caption each video as rebuilt from the Figma specs.
